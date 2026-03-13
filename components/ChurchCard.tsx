@@ -1,30 +1,52 @@
+import Link from 'next/link'
+
 interface Church {
   id: number
   name: string
   denomination: string | null
   city: string
   state: string
-  proZionist: boolean
+  zionistStance: string
   website: string | null
   phone: string | null
   description: string | null
+  upvotes: number
+}
+
+function StanceBadge({ stance }: { stance: string }) {
+  if (stance === 'no') {
+    return (
+      <span className="shrink-0 inline-flex items-center gap-1 text-[11px] font-body font-bold text-gold bg-gold-pale/80 px-2.5 py-1 rounded-full border border-gold/25 uppercase tracking-wider">
+        &#10013; Non-Zionist
+      </span>
+    )
+  }
+  if (stance === 'yes') {
+    return (
+      <span className="shrink-0 inline-flex items-center text-[11px] font-body font-medium text-burgundy/60 bg-burgundy/8 px-2.5 py-1 rounded-full border border-burgundy/10 uppercase tracking-wider">
+        Zionist
+      </span>
+    )
+  }
+  return (
+    <span className="shrink-0 inline-flex items-center text-[11px] font-body font-medium text-gray-400 bg-gray-100 px-2.5 py-1 rounded-full border border-gray-200 uppercase tracking-wider">
+      Unknown
+    </span>
+  )
 }
 
 export default function ChurchCard({ church, index }: { church: Church; index: number }) {
   return (
-    <div
-      className="animate-fade-in-up bg-white rounded-xl border border-cream shadow-sm hover:shadow-md hover:border-gold/30 transition-all duration-300 p-5 group"
+    <Link
+      href={`/church/${church.id}`}
+      className="animate-fade-in-up bg-white rounded-xl border border-cream shadow-sm hover:shadow-md hover:border-gold/30 transition-all duration-300 p-5 group block"
       style={{ animationDelay: `${index * 60}ms`, opacity: 0 }}
     >
       <div className="flex items-start justify-between gap-3">
         <h3 className="font-display text-lg font-semibold text-navy leading-snug group-hover:text-gold transition-colors">
           {church.name}
         </h3>
-        {church.proZionist && (
-          <span className="shrink-0 inline-flex items-center gap-1 text-[11px] font-body font-semibold text-gold bg-gold-pale/80 px-2.5 py-1 rounded-full border border-gold/20 uppercase tracking-wider">
-            &#10017; Zionist
-          </span>
-        )}
+        <StanceBadge stance={church.zionistStance} />
       </div>
 
       {church.denomination && (
@@ -47,34 +69,28 @@ export default function ChurchCard({ church, index }: { church: Church; index: n
         </p>
       )}
 
-      <div className="flex items-center gap-3 mt-4 pt-3 border-t border-gray-100">
-        {church.website && (
-          <a
-            href={church.website}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 text-xs font-body font-medium text-gold hover:text-gold-light transition-colors"
-          >
-            Visit Website
-            <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+      <div className="flex items-center justify-between mt-4 pt-3 border-t border-gray-100">
+        <div className="flex items-center gap-3">
+          {church.website && (
+            <span className="text-xs font-body font-medium text-gold">
+              Has Website
+            </span>
+          )}
+          {church.phone && (
+            <span className="text-xs font-body text-gray-400">
+              {church.phone}
+            </span>
+          )}
+        </div>
+        {church.upvotes > 0 && (
+          <span className="inline-flex items-center gap-1 text-xs font-body text-gray-400">
+            <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
             </svg>
-          </a>
-        )}
-        {church.phone && (
-          <a
-            href={`tel:${church.phone}`}
-            className="text-xs font-body text-gray-400 hover:text-navy transition-colors"
-          >
-            {church.phone}
-          </a>
-        )}
-        {!church.proZionist && (
-          <span className="ml-auto text-[11px] font-body text-gray-400 bg-gray-100 px-2 py-0.5 rounded-full">
-            Non-Zionist
+            {church.upvotes}
           </span>
         )}
       </div>
-    </div>
+    </Link>
   )
 }
