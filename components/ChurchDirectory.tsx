@@ -28,15 +28,18 @@ interface Church {
   longitude: number | null
   website: string | null
   phone: string | null
-  proZionist: boolean
+  zionistStance: string
+  theologicalNotes: string | null
   description: string | null
+  upvotes: number
 }
 
 export default function ChurchDirectory() {
   const [churches, setChurches] = useState<Church[]>([])
   const [search, setSearch] = useState('')
   const [stateFilter, setStateFilter] = useState('')
-  const [zionistFilter, setZionistFilter] = useState<'all' | 'yes' | 'no'>('all')
+  const [denomFilter, setDenomFilter] = useState('')
+  const [stanceFilter, setStanceFilter] = useState<'all' | 'no' | 'yes' | 'unknown'>('no')
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -60,28 +63,23 @@ export default function ChurchDirectory() {
         c.denomination?.toLowerCase().includes(q)
 
       const matchesState = !stateFilter || c.state === stateFilter
+      const matchesDenom = !denomFilter || c.denomination === denomFilter
+      const matchesStance = stanceFilter === 'all' || c.zionistStance === stanceFilter
 
-      const matchesZionist =
-        zionistFilter === 'all' ||
-        (zionistFilter === 'yes' && c.proZionist) ||
-        (zionistFilter === 'no' && !c.proZionist)
-
-      return matchesSearch && matchesState && matchesZionist
+      return matchesSearch && matchesState && matchesDenom && matchesStance
     })
-  }, [churches, search, stateFilter, zionistFilter])
+  }, [churches, search, stateFilter, denomFilter, stanceFilter])
 
-  const states = useMemo(() => {
-    return [...new Set(churches.map(c => c.state))].sort()
-  }, [churches])
+  const states = useMemo(() => [...new Set(churches.map(c => c.state))].sort(), [churches])
+  const denominations = useMemo(() => [...new Set(churches.map(c => c.denomination).filter(Boolean))].sort() as string[], [churches])
 
   const totalCount = churches.length
-  const proZionistCount = churches.filter(c => c.proZionist).length
+  const nonZionistCount = churches.filter(c => c.zionistStance === 'no').length
 
   return (
     <div className="min-h-screen bg-ivory">
       {/* Hero + Map */}
       <section className="relative">
-        {/* Decorative bar */}
         <div className="bg-navy px-4 py-5 sm:py-6">
           <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
             <div>
@@ -89,41 +87,29 @@ export default function ChurchDirectory() {
                 The New <span className="text-gold">Christian Right</span> Church Directory
               </h1>
               <p className="font-body text-sm text-white/50 mt-1">
-                A directory of conservative, Bible-believing churches across America
+                Identifying non-Zionist, Bible-believing churches across America
               </p>
             </div>
             {!loading && (
               <div className="flex items-center gap-4 font-body text-xs text-white/50">
                 <span>{totalCount} churches</span>
                 <span className="w-px h-3 bg-white/20"></span>
-                <span className="text-gold/70">{proZionistCount} pro-Zionist</span>
+                <span className="text-gold/80 font-medium">{nonZionistCount} non-Zionist</span>
               </div>
             )}
           </div>
         </div>
 
-        {/* Map */}
         <div className="h-[55vh] sm:h-[60vh] relative">
           <MapView churches={filtered} />
 
           {/* Search overlay */}
           <div className="absolute bottom-0 left-0 right-0 z-[1000] p-3 sm:p-5">
-            <div className="max-w-4xl mx-auto bg-white/95 backdrop-blur-md rounded-xl shadow-2xl shadow-navy/15 border border-cream p-3 sm:p-4">
+            <div className="max-w-5xl mx-auto bg-white/95 backdrop-blur-md rounded-xl shadow-2xl shadow-navy/15 border border-cream p-3 sm:p-4">
               <div className="flex flex-col sm:flex-row gap-2.5">
-                {/* Search input */}
                 <div className="flex-1 relative">
-                  <svg
-                    className="absolute left-3 top-1/2 -translate-y-1/2 w-4.5 h-4.5 text-gray-400"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                    />
+                  <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4.5 h-4.5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                   </svg>
                   <input
                     type="text"
@@ -134,29 +120,33 @@ export default function ChurchDirectory() {
                   />
                 </div>
 
-                {/* State filter */}
                 <select
                   value={stateFilter}
                   onChange={e => setStateFilter(e.target.value)}
-                  className="px-3 py-2.5 rounded-lg border border-gray-200 font-body text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-gold/40 focus:border-gold bg-white transition-all min-w-[130px]"
+                  className="px-3 py-2.5 rounded-lg border border-gray-200 font-body text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-gold/40 focus:border-gold bg-white transition-all min-w-[120px]"
                 >
                   <option value="">All States</option>
-                  {states.map(s => (
-                    <option key={s} value={s}>
-                      {s}
-                    </option>
-                  ))}
+                  {states.map(s => <option key={s} value={s}>{s}</option>)}
                 </select>
 
-                {/* Zionist filter */}
                 <select
-                  value={zionistFilter}
-                  onChange={e => setZionistFilter(e.target.value as 'all' | 'yes' | 'no')}
+                  value={denomFilter}
+                  onChange={e => setDenomFilter(e.target.value)}
                   className="px-3 py-2.5 rounded-lg border border-gray-200 font-body text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-gold/40 focus:border-gold bg-white transition-all min-w-[150px]"
                 >
-                  <option value="all">All Churches</option>
-                  <option value="yes">Pro-Zionist Only</option>
-                  <option value="no">Non-Zionist Only</option>
+                  <option value="">All Denominations</option>
+                  {denominations.map(d => <option key={d} value={d}>{d}</option>)}
+                </select>
+
+                <select
+                  value={stanceFilter}
+                  onChange={e => setStanceFilter(e.target.value as typeof stanceFilter)}
+                  className="px-3 py-2.5 rounded-lg border border-gray-200 font-body text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-gold/40 focus:border-gold bg-white transition-all min-w-[150px]"
+                >
+                  <option value="no">Non-Zionist</option>
+                  <option value="all">All Stances</option>
+                  <option value="yes">Zionist</option>
+                  <option value="unknown">Unknown</option>
                 </select>
               </div>
             </div>
@@ -164,7 +154,6 @@ export default function ChurchDirectory() {
         </div>
       </section>
 
-      {/* Gold accent divider */}
       <div className="h-1 bg-gradient-to-r from-transparent via-gold/40 to-transparent"></div>
 
       {/* Results */}
@@ -178,11 +167,15 @@ export default function ChurchDirectory() {
           <div className="flex items-center gap-4 text-xs font-body text-gray-500">
             <span className="flex items-center gap-1.5">
               <span className="w-3 h-3 rounded-full bg-gold inline-block shadow-sm"></span>
-              Pro-Zionist
+              Non-Zionist
             </span>
             <span className="flex items-center gap-1.5">
               <span className="w-3 h-3 rounded-full bg-burgundy inline-block shadow-sm"></span>
-              Non-Zionist
+              Zionist
+            </span>
+            <span className="flex items-center gap-1.5">
+              <span className="w-3 h-3 rounded-full bg-gray-400 inline-block shadow-sm"></span>
+              Unknown
             </span>
           </div>
         </div>
@@ -202,16 +195,19 @@ export default function ChurchDirectory() {
           <div className="text-center py-20">
             <div className="w-16 h-16 bg-cream rounded-full flex items-center justify-center mx-auto mb-4">
               <svg className="w-7 h-7 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={1.5}
-                  d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
-                />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
               </svg>
             </div>
             <p className="font-display text-xl text-gray-400">No churches found</p>
             <p className="font-body text-sm text-gray-400 mt-2">Try adjusting your search or filters</p>
+            {stanceFilter !== 'all' && (
+              <button
+                onClick={() => setStanceFilter('all')}
+                className="mt-4 px-4 py-2 bg-gold/10 text-gold font-body text-sm font-medium rounded-lg hover:bg-gold/20 transition-colors"
+              >
+                Show All Stances
+              </button>
+            )}
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">

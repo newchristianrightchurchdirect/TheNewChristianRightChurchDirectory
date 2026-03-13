@@ -3,8 +3,8 @@ import './globals.css'
 import Header from '@/components/Header'
 
 export const metadata: Metadata = {
-  title: 'The New Christian Right Church Directory — Find Conservative Churches Across America',
-  description: 'A directory of conservative, Bible-believing churches across the United States. Search by location, denomination, and find pro-Zionist congregations.',
+  title: 'The New Christian Right Church Directory — Find Non-Zionist Churches Across America',
+  description: 'Identify non-Zionist, Bible-believing churches across the United States. Search by location, denomination, and theological stance. Community-driven directory with upvotes and reporting.',
 }
 
 export default function RootLayout({

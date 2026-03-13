@@ -12,39 +12,34 @@ interface Church {
   state: string
   latitude: number | null
   longitude: number | null
-  proZionist: boolean
+  zionistStance: string
   website: string | null
 }
 
-function createMarkerIcon(proZionist: boolean) {
-  const color = proZionist ? '#C49A3C' : '#8B2E3B'
+function createMarkerIcon(stance: string) {
+  const colors: Record<string, string> = {
+    no: '#C49A3C',      // Gold for non-Zionist (featured)
+    yes: '#8B2E3B',     // Burgundy for Zionist
+    unknown: '#6B7280', // Gray for unknown
+  }
+  const color = colors[stance] || colors.unknown
   return L.divIcon({
     className: '',
     html: `
-      <div style="
-        width: 30px;
-        height: 30px;
-        position: relative;
-      ">
+      <div style="width:30px;height:30px;position:relative">
         <div style="
-          width: 26px;
-          height: 26px;
-          background: ${color};
-          border: 3px solid white;
-          border-radius: 50% 50% 50% 0;
-          transform: rotate(-45deg);
-          box-shadow: 0 3px 10px rgba(0,0,0,0.3);
-          position: absolute;
-          top: 0;
-          left: 2px;
+          width:26px;height:26px;
+          background:${color};
+          border:3px solid white;
+          border-radius:50% 50% 50% 0;
+          transform:rotate(-45deg);
+          box-shadow:0 3px 10px rgba(0,0,0,0.3);
+          position:absolute;top:0;left:2px;
         ">
           <span style="
-            display: block;
-            transform: rotate(45deg);
-            text-align: center;
-            line-height: 20px;
-            color: white;
-            font-size: 11px;
+            display:block;transform:rotate(45deg);
+            text-align:center;line-height:20px;
+            color:white;font-size:11px;
           ">&#10013;</span>
         </div>
       </div>
@@ -56,6 +51,17 @@ function createMarkerIcon(proZionist: boolean) {
 }
 
 function buildPopupHtml(church: Church): string {
+  const stanceLabels: Record<string, string> = {
+    no: 'Non-Zionist',
+    yes: 'Zionist',
+    unknown: 'Unknown Stance',
+  }
+  const stanceColors: Record<string, string> = {
+    no: 'color:#C49A3C;background:#F5ECD7;border:1px solid rgba(196,154,60,0.2)',
+    yes: 'color:#8B2E3B;background:rgba(139,46,59,0.1);border:1px solid rgba(139,46,59,0.15)',
+    unknown: 'color:#6B7280;background:#F3F4F6;border:1px solid #E5E7EB',
+  }
+
   let html = `<div style="min-width:180px;font-family:'Plus Jakarta Sans',system-ui,sans-serif">`
   html += `<h3 style="font-family:'Cormorant Garamond',Georgia,serif;font-size:16px;font-weight:600;color:#0A1628;margin:0 0 4px 0">${church.name}</h3>`
   if (church.denomination) {
@@ -63,9 +69,7 @@ function buildPopupHtml(church: Church): string {
   }
   html += `<p style="font-size:12px;color:#6b7280;margin:0 0 8px 0">${church.city}, ${church.state}</p>`
   html += `<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">`
-  if (church.proZionist) {
-    html += `<span style="font-size:10px;font-weight:700;color:#C49A3C;background:#F5ECD7;padding:2px 8px;border-radius:9999px;border:1px solid rgba(196,154,60,0.2);text-transform:uppercase;letter-spacing:0.5px">&#10017; Pro-Zionist</span>`
-  }
+  html += `<span style="font-size:10px;font-weight:700;${stanceColors[church.zionistStance] || stanceColors.unknown};padding:2px 8px;border-radius:9999px;text-transform:uppercase;letter-spacing:0.5px">${stanceLabels[church.zionistStance] || 'Unknown'}</span>`
   if (church.website) {
     html += `<a href="${church.website}" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#C49A3C;text-decoration:none;font-weight:500">Website &rarr;</a>`
   }
@@ -78,7 +82,6 @@ export default function MapView({ churches }: { churches: Church[] }) {
   const mapRef = useRef<L.Map | null>(null)
   const markersRef = useRef<L.LayerGroup | null>(null)
 
-  // Initialize map once
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return
 
@@ -103,7 +106,6 @@ export default function MapView({ churches }: { churches: Church[] }) {
     }
   }, [])
 
-  // Update markers when churches change
   useEffect(() => {
     const map = mapRef.current
     const markerGroup = markersRef.current
@@ -115,7 +117,7 @@ export default function MapView({ churches }: { churches: Church[] }) {
 
     withCoords.forEach(church => {
       const marker = L.marker([church.latitude!, church.longitude!], {
-        icon: createMarkerIcon(church.proZionist),
+        icon: createMarkerIcon(church.zionistStance),
       })
       marker.bindPopup(buildPopupHtml(church))
       markerGroup.addLayer(marker)

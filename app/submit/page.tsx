@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Submit a Church — The New Christian Right Church Directory',
-  description: 'Submit a conservative church to be added to our directory.',
+  description: 'Submit a church to be reviewed and added to the directory. Help us identify non-Zionist congregations.',
 }
 
 export default function SubmitPage() {
@@ -17,7 +17,7 @@ export default function SubmitPage() {
           </div>
           <h1 className="font-display text-4xl sm:text-5xl font-bold text-navy">Submit a Church</h1>
           <p className="font-body text-gray-500 mt-4 max-w-lg mx-auto leading-relaxed">
-            Know a solid, Bible-believing church? Add it to our directory. All submissions are reviewed before being published.
+            Help us build the directory. Submit a church and let us know its Zionist stance. All submissions are reviewed before being published.
           </p>
         </div>
         <div className="bg-white rounded-2xl shadow-lg shadow-navy/5 border border-cream p-6 sm:p-8">

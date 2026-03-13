@@ -56,23 +56,26 @@ const US_STATES = [
   { value: 'DC', label: 'Washington D.C.' },
 ]
 
+const INITIAL_FORM = {
+  name: '',
+  denomination: '',
+  address: '',
+  city: '',
+  state: '',
+  zip: '',
+  website: '',
+  phone: '',
+  zionistStance: 'unknown',
+  theologicalNotes: '',
+  description: '',
+}
+
 export default function SubmitForm() {
-  const [formData, setFormData] = useState({
-    name: '',
-    denomination: '',
-    address: '',
-    city: '',
-    state: '',
-    zip: '',
-    website: '',
-    phone: '',
-    proZionist: false,
-    description: '',
-  })
+  const [formData, setFormData] = useState(INITIAL_FORM)
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
   const [errorMessage, setErrorMessage] = useState('')
 
-  const updateField = (field: string, value: string | boolean) => {
+  const updateField = (field: string, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }))
   }
 
@@ -113,21 +116,7 @@ export default function SubmitForm() {
           Thank you for your contribution. Your submission will be reviewed before appearing in the directory.
         </p>
         <button
-          onClick={() => {
-            setStatus('idle')
-            setFormData({
-              name: '',
-              denomination: '',
-              address: '',
-              city: '',
-              state: '',
-              zip: '',
-              website: '',
-              phone: '',
-              proZionist: false,
-              description: '',
-            })
-          }}
+          onClick={() => { setStatus('idle'); setFormData(INITIAL_FORM) }}
           className="mt-6 px-6 py-2.5 bg-gold text-white font-body text-sm font-semibold rounded-lg hover:bg-gold-light transition-colors"
         >
           Submit Another Church
@@ -149,140 +138,93 @@ export default function SubmitForm() {
       )}
 
       <div>
-        <label className={labelClasses}>
-          Church Name <span className="text-burgundy">*</span>
-        </label>
-        <input
-          type="text"
-          required
-          maxLength={200}
-          value={formData.name}
-          onChange={e => updateField('name', e.target.value)}
-          placeholder="e.g. Grace Community Church"
-          className={inputClasses}
-        />
+        <label className={labelClasses}>Church Name <span className="text-burgundy">*</span></label>
+        <input type="text" required maxLength={200} value={formData.name} onChange={e => updateField('name', e.target.value)} placeholder="e.g. Grace Community Church" className={inputClasses} />
       </div>
 
       <div>
         <label className={labelClasses}>Denomination</label>
-        <input
-          type="text"
-          maxLength={100}
-          value={formData.denomination}
-          onChange={e => updateField('denomination', e.target.value)}
-          placeholder="e.g. Southern Baptist, Non-Denominational, PCA"
-          className={inputClasses}
-        />
+        <input type="text" maxLength={100} value={formData.denomination} onChange={e => updateField('denomination', e.target.value)} placeholder="e.g. Southern Baptist, Non-Denominational, PCA" className={inputClasses} />
       </div>
 
       <div>
-        <label className={labelClasses}>
-          Street Address <span className="text-burgundy">*</span>
-        </label>
-        <input
-          type="text"
-          required
-          maxLength={200}
-          value={formData.address}
-          onChange={e => updateField('address', e.target.value)}
-          placeholder="e.g. 123 Main Street"
-          className={inputClasses}
-        />
+        <label className={labelClasses}>Street Address <span className="text-burgundy">*</span></label>
+        <input type="text" required maxLength={200} value={formData.address} onChange={e => updateField('address', e.target.value)} placeholder="e.g. 123 Main Street" className={inputClasses} />
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
-          <label className={labelClasses}>
-            City <span className="text-burgundy">*</span>
-          </label>
-          <input
-            type="text"
-            required
-            maxLength={100}
-            value={formData.city}
-            onChange={e => updateField('city', e.target.value)}
-            placeholder="e.g. Nashville"
-            className={inputClasses}
-          />
+          <label className={labelClasses}>City <span className="text-burgundy">*</span></label>
+          <input type="text" required maxLength={100} value={formData.city} onChange={e => updateField('city', e.target.value)} placeholder="e.g. Nashville" className={inputClasses} />
         </div>
         <div>
-          <label className={labelClasses}>
-            State <span className="text-burgundy">*</span>
-          </label>
-          <select
-            required
-            value={formData.state}
-            onChange={e => updateField('state', e.target.value)}
-            className={inputClasses}
-          >
+          <label className={labelClasses}>State <span className="text-burgundy">*</span></label>
+          <select required value={formData.state} onChange={e => updateField('state', e.target.value)} className={inputClasses}>
             <option value="">Select State</option>
-            {US_STATES.map(s => (
-              <option key={s.value} value={s.value}>
-                {s.label}
-              </option>
-            ))}
+            {US_STATES.map(s => <option key={s.value} value={s.value}>{s.label}</option>)}
           </select>
         </div>
       </div>
 
       <div>
         <label className={labelClasses}>ZIP Code</label>
-        <input
-          type="text"
-          maxLength={10}
-          value={formData.zip}
-          onChange={e => updateField('zip', e.target.value)}
-          placeholder="e.g. 37201"
-          className={inputClasses}
-        />
+        <input type="text" maxLength={10} value={formData.zip} onChange={e => updateField('zip', e.target.value)} placeholder="e.g. 37201" className={inputClasses} />
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <label className={labelClasses}>Website</label>
-          <input
-            type="url"
-            value={formData.website}
-            onChange={e => updateField('website', e.target.value)}
-            placeholder="https://..."
-            className={inputClasses}
-          />
+          <input type="url" value={formData.website} onChange={e => updateField('website', e.target.value)} placeholder="https://..." className={inputClasses} />
         </div>
         <div>
           <label className={labelClasses}>Phone</label>
-          <input
-            type="tel"
-            value={formData.phone}
-            onChange={e => updateField('phone', e.target.value)}
-            placeholder="(555) 123-4567"
-            className={inputClasses}
-          />
+          <input type="tel" value={formData.phone} onChange={e => updateField('phone', e.target.value)} placeholder="(555) 123-4567" className={inputClasses} />
         </div>
       </div>
 
       <div>
         <label className={labelClasses}>Description</label>
-        <textarea
-          maxLength={1000}
-          rows={3}
-          value={formData.description}
-          onChange={e => updateField('description', e.target.value)}
-          placeholder="Brief description of the church, its beliefs, and community..."
-          className={inputClasses + ' resize-none'}
-        />
+        <textarea maxLength={1000} rows={3} value={formData.description} onChange={e => updateField('description', e.target.value)} placeholder="Brief description of the church, its beliefs, and community..." className={inputClasses + ' resize-none'} />
       </div>
 
-      <div className="flex items-start gap-3 bg-gold-pale/40 border border-gold/15 rounded-xl p-4">
-        <input
-          type="checkbox"
-          id="proZionist"
-          checked={formData.proZionist}
-          onChange={e => updateField('proZionist', e.target.checked)}
-          className="mt-0.5 w-4 h-4 rounded border-gray-300 text-gold focus:ring-gold accent-[#C49A3C]"
-        />
-        <label htmlFor="proZionist" className="font-body text-sm text-navy leading-relaxed">
-          <strong>Pro-Zionist</strong> — This church holds a pro-Israel / Christian Zionist position
-        </label>
+      {/* Zionist Stance */}
+      <div className="bg-ivory rounded-xl p-4 border border-cream">
+        <label className={labelClasses}>Zionist Stance <span className="text-burgundy">*</span></label>
+        <p className="font-body text-xs text-gray-500 mb-3">Does this church hold a Christian Zionist / pro-Israel theological position?</p>
+        <div className="flex flex-wrap gap-3">
+          {[
+            { value: 'no', label: 'Non-Zionist', desc: 'Does not hold Christian Zionist theology', accent: 'border-gold/40 bg-gold/5 text-gold' },
+            { value: 'yes', label: 'Zionist', desc: 'Holds pro-Israel / dispensational views', accent: 'border-burgundy/30 bg-burgundy/5 text-burgundy' },
+            { value: 'unknown', label: 'Unknown', desc: "Not sure or stance isn't clear", accent: 'border-gray-300 bg-gray-50 text-gray-600' },
+          ].map(opt => (
+            <label
+              key={opt.value}
+              className={`flex-1 min-w-[140px] cursor-pointer rounded-lg border-2 p-3 transition-all ${
+                formData.zionistStance === opt.value
+                  ? opt.accent
+                  : 'border-gray-200 bg-white text-gray-700 hover:border-gray-300'
+              }`}
+            >
+              <input
+                type="radio"
+                name="zionistStance"
+                value={opt.value}
+                checked={formData.zionistStance === opt.value}
+                onChange={e => updateField('zionistStance', e.target.value)}
+                className="sr-only"
+              />
+              <span className="font-body text-sm font-semibold block">{opt.label}</span>
+              <span className="font-body text-xs opacity-70 block mt-0.5">{opt.desc}</span>
+            </label>
+          ))}
+        </div>
+      </div>
+
+      {/* Theological Notes */}
+      <div>
+        <label className={labelClasses}>Theological Notes</label>
+        <p className="font-body text-xs text-gray-500 mb-1.5">Eschatology, confessional stance, relevant doctrinal details</p>
+        <textarea maxLength={1000} rows={3} value={formData.theologicalNotes} onChange={e => updateField('theologicalNotes', e.target.value)} placeholder="e.g. Covenantal amillennial, Westminster Confession, rejects dispensationalism..." className={inputClasses + ' resize-none'} />
       </div>
 
       <button
