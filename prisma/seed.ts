@@ -1,0 +1,223 @@
+import { PrismaClient } from '@prisma/client'
+
+const prisma = new PrismaClient()
+
+const churches = [
+  {
+    name: "Grace Community Church",
+    denomination: "Non-Denominational",
+    address: "13248 Roscoe Blvd",
+    city: "Sun Valley",
+    state: "CA",
+    zip: "91352",
+    latitude: 34.2547,
+    longitude: -118.3962,
+    proZionist: true,
+    description: "A large evangelical church known for biblical exposition and commitment to sound doctrine.",
+    approved: true,
+  },
+  {
+    name: "Founders Baptist Church",
+    denomination: "Southern Baptist",
+    address: "24724 Aldine Westfield Rd",
+    city: "Spring",
+    state: "TX",
+    zip: "77373",
+    latitude: 30.0799,
+    longitude: -95.3863,
+    proZionist: true,
+    description: "A Reformed Baptist church focused on the doctrines of grace and expository preaching.",
+    approved: true,
+  },
+  {
+    name: "Apologia Church",
+    denomination: "Reformed Baptist",
+    address: "2024 S Arizona Ave",
+    city: "Mesa",
+    state: "AZ",
+    zip: "85210",
+    latitude: 33.3942,
+    longitude: -111.8413,
+    proZionist: false,
+    description: "Known for apologetics ministry, committed to Reformed theology and cultural engagement.",
+    approved: true,
+  },
+  {
+    name: "Covenant Baptist Church",
+    denomination: "Reformed Baptist",
+    address: "5440 SW 37th St",
+    city: "Topeka",
+    state: "KS",
+    zip: "66614",
+    latitude: 38.9817,
+    longitude: -95.7376,
+    proZionist: false,
+    description: "A confessional Reformed Baptist church committed to the 1689 London Baptist Confession of Faith.",
+    approved: true,
+  },
+  {
+    name: "Christ Fellowship Baptist Church",
+    denomination: "Southern Baptist",
+    address: "5100 S US Highway 17/92",
+    city: "Casselberry",
+    state: "FL",
+    zip: "32707",
+    latitude: 28.6614,
+    longitude: -81.3275,
+    proZionist: true,
+    description: "A gospel-centered church focused on biblical preaching and community outreach in central Florida.",
+    approved: true,
+  },
+  {
+    name: "Cornerstone Church",
+    denomination: "Non-Denominational",
+    address: "18755 Stone Oak Pkwy",
+    city: "San Antonio",
+    state: "TX",
+    zip: "78258",
+    latitude: 29.6120,
+    longitude: -98.4861,
+    proZionist: true,
+    description: "A large evangelical church with a strong emphasis on biblical teaching and support for Israel.",
+    approved: true,
+  },
+  {
+    name: "McLean Bible Church",
+    denomination: "Non-Denominational",
+    address: "8925 Leesburg Pike",
+    city: "Vienna",
+    state: "VA",
+    zip: "22182",
+    latitude: 38.9121,
+    longitude: -77.2270,
+    proZionist: true,
+    description: "An evangelical megachurch in the Washington D.C. area focused on biblical teaching and community impact.",
+    approved: true,
+  },
+  {
+    name: "Heritage Baptist Church",
+    denomination: "Independent Baptist",
+    address: "14510 Sperry Rd",
+    city: "Newbury",
+    state: "OH",
+    zip: "44065",
+    latitude: 41.4633,
+    longitude: -81.2191,
+    proZionist: true,
+    description: "A traditional Baptist church holding to conservative, biblical values in northeast Ohio.",
+    approved: true,
+  },
+  {
+    name: "Trinity Bible Church",
+    denomination: "Non-Denominational",
+    address: "2002 E 8th St",
+    city: "Dallas",
+    state: "TX",
+    zip: "75203",
+    latitude: 32.7724,
+    longitude: -96.7770,
+    proZionist: false,
+    description: "A church committed to verse-by-verse Bible teaching and Reformed theology in Dallas.",
+    approved: true,
+  },
+  {
+    name: "Capitol Hill Baptist Church",
+    denomination: "Southern Baptist",
+    address: "525 A St NE",
+    city: "Washington",
+    state: "DC",
+    zip: "20002",
+    latitude: 38.8893,
+    longitude: -77.0020,
+    proZionist: true,
+    description: "Known for commitment to expository preaching, meaningful church membership, and biblical church leadership.",
+    approved: true,
+  },
+  {
+    name: "First Baptist Dallas",
+    denomination: "Southern Baptist",
+    address: "1707 San Jacinto St",
+    city: "Dallas",
+    state: "TX",
+    zip: "75201",
+    latitude: 32.7837,
+    longitude: -96.7981,
+    proZionist: true,
+    description: "A historic Southern Baptist church in downtown Dallas with a commitment to biblical authority.",
+    approved: true,
+  },
+  {
+    name: "Community Bible Church",
+    denomination: "Non-Denominational",
+    address: "2477 N Loop 1604 W",
+    city: "San Antonio",
+    state: "TX",
+    zip: "78248",
+    latitude: 29.5850,
+    longitude: -98.5290,
+    proZionist: true,
+    description: "A Bible-teaching church focused on making disciples and serving the San Antonio community.",
+    approved: true,
+  },
+  {
+    name: "Providence Church",
+    denomination: "Presbyterian (PCA)",
+    address: "6014 Oleander Dr",
+    city: "Wilmington",
+    state: "NC",
+    zip: "28403",
+    latitude: 34.1985,
+    longitude: -77.8865,
+    proZionist: false,
+    description: "A Presbyterian church in the PCA tradition with a focus on Reformed worship and teaching.",
+    approved: true,
+  },
+  {
+    name: "Redeemer Church",
+    denomination: "Southern Baptist",
+    address: "3075 Old Alabama Rd",
+    city: "Alpharetta",
+    state: "GA",
+    zip: "30022",
+    latitude: 34.0467,
+    longitude: -84.2383,
+    proZionist: true,
+    description: "A gospel-centered church committed to Reformed theology and community engagement in metro Atlanta.",
+    approved: true,
+  },
+  {
+    name: "Bethlehem Baptist Church",
+    denomination: "Baptist General Conference",
+    address: "720 13th Ave S",
+    city: "Minneapolis",
+    state: "MN",
+    zip: "55415",
+    latitude: 44.9669,
+    longitude: -93.2589,
+    proZionist: false,
+    description: "A historic church known for its commitment to joyful theology and global missions.",
+    approved: true,
+  },
+]
+
+async function main() {
+  console.log('Seeding database...')
+
+  // Clear existing data
+  await prisma.church.deleteMany()
+
+  for (const church of churches) {
+    await prisma.church.create({ data: church })
+  }
+
+  console.log(`Seeded ${churches.length} churches.`)
+}
+
+main()
+  .catch(e => {
+    console.error(e)
+    process.exit(1)
+  })
+  .finally(async () => {
+    await prisma.$disconnect()
+  })
