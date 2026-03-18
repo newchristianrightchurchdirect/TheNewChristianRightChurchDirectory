@@ -16,7 +16,7 @@ interface Church {
 function StanceBadge({ stance }: { stance: string }) {
   if (stance === 'anti') {
     return (
-      <span className="shrink-0 inline-flex items-center gap-1 text-[11px] font-body font-bold text-green-800 bg-green-50 px-2.5 py-1 rounded-full border border-green-800/20 uppercase tracking-wider">
+      <span className="shrink-0 inline-flex items-center gap-1 text-[11px] font-body font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-600/25 uppercase tracking-wider">
         &#10013; Anti-Zionist
       </span>
     )

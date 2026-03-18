@@ -36,7 +36,7 @@ const REPORT_REASONS = [
 function StanceBadge({ stance }: { stance: string }) {
   if (stance === 'anti') {
     return (
-      <span className="inline-flex items-center gap-1.5 text-sm font-body font-bold text-green-800 bg-green-50 px-4 py-2 rounded-full border border-green-800/20 uppercase tracking-wider">
+      <span className="inline-flex items-center gap-1.5 text-sm font-body font-bold text-emerald-700 bg-emerald-50 px-4 py-2 rounded-full border border-emerald-600/25 uppercase tracking-wider">
         &#10013; Anti-Zionist
       </span>
     )
