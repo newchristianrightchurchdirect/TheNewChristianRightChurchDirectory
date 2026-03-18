@@ -528,6 +528,38 @@ const churches = [
     description: "RPCGA church in Sheboygan. Gospel-oriented, confessional, and family-friendly.",
     approved: true,
   },
+  // ── New anti-Zionist churches ──
+  {
+    name: "Liberty Fellowship",
+    denomination: "Non-Denominational",
+    address: "1140 US Highway 2 W",
+    city: "Kalispell",
+    state: "MT",
+    zip: "59901",
+    latitude: 48.1980,
+    longitude: -114.3160,
+    website: "https://libertyfellowshipmt.com/",
+    zionistStance: "anti",
+    theologicalNotes: "Pastor Chuck Baldwin (former Constitution Party presidential candidate) has called Christian Zionism 'the most dangerous and devilish' prophetic interpretation. Publicly named John Hagee, Robert Jeffress, and John MacArthur as false teachers on Zionism. Featured on WHTT Podcast: 'How Pastor Chuck Baldwin Came Out of the Bondage of Christian Zionism.'",
+    description: "Independent non-501(c)(3) fellowship led by Dr. Chuck Baldwin. Known for combining constitutional patriotism with anti-Zionist theology.",
+    approved: true,
+  },
+  {
+    name: "Word of Life Church",
+    denomination: "Non-Denominational",
+    address: "3902 NE Riverside Rd",
+    city: "Saint Joseph",
+    state: "MO",
+    zip: "64505",
+    latitude: 39.7870,
+    longitude: -94.7900,
+    website: "https://wolc.com/",
+    phone: "(816) 233-6367",
+    zionistStance: "anti",
+    theologicalNotes: "Pastor Brian Zahnd was a prominent speaker at Christ at the Checkpoint (anti-Zionist conference in Bethlehem). Stated: 'American Christians are not called to take Israel's side. They're called to imitate Israel's Messiah.' Lost nearly half his congregation (~1,000 members) when he publicly rejected Christian Zionism.",
+    description: "A church in Saint Joseph, MO led by Pastor Brian Zahnd, known for challenging Christian Zionism and advocating for Palestinian justice.",
+    approved: true,
+  },
 ]
 
 async function main() {
