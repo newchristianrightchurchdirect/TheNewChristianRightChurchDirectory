@@ -1062,6 +1062,22 @@ const churches = [
     description: "An RPCNA congregation in Laramie, Wyoming. Morning worship at 10:00 AM with Sunday School and occasional evening worship.",
     approved: true,
   },
+  // ── Anti-Zionist addition ──
+  {
+    name: "Whitleyville Reformation Church",
+    denomination: "Reformed",
+    address: "Whitleyville",
+    city: "Whitleyville",
+    state: "TN",
+    zip: "38588",
+    latitude: 36.4317,
+    longitude: -85.5117,
+    website: "https://whitleyvillechurch.com/",
+    zionistStance: "anti",
+    theologicalNotes: "Pastor Andrew Isker — appeared on Tucker Carlson criticizing dispensationalism. Co-authored 'Christian Nationalism: A Biblical Guide to Taking Dominion.' Embraces supersessionism/replacement theology. Rejected 'Judeo-Christian' concept on Joel Webbon's podcast. Explicitly anti-Zionist.",
+    description: "A Reformed church plant in rural Jackson County, Tennessee, part of the RidgeRunner Christian community. Founded by pastor and author Andrew Isker.",
+    approved: true,
+  },
 ]
 
 async function main() {
