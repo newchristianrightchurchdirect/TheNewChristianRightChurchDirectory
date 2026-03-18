@@ -39,7 +39,7 @@ export default function ChurchDirectory() {
   const [search, setSearch] = useState('')
   const [stateFilter, setStateFilter] = useState('')
   const [denomFilter, setDenomFilter] = useState('')
-  const [stanceFilter, setStanceFilter] = useState<'all' | 'no' | 'yes' | 'unknown'>('no')
+  const [stanceFilter, setStanceFilter] = useState<'all' | 'no' | 'anti' | 'yes' | 'unknown'>('all')
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -74,6 +74,7 @@ export default function ChurchDirectory() {
   const denominations = useMemo(() => [...new Set(churches.map(c => c.denomination).filter(Boolean))].sort() as string[], [churches])
 
   const totalCount = churches.length
+  const antiZionistCount = churches.filter(c => c.zionistStance === 'anti').length
   const nonZionistCount = churches.filter(c => c.zionistStance === 'no').length
 
   return (
@@ -93,6 +94,8 @@ export default function ChurchDirectory() {
             {!loading && (
               <div className="flex items-center gap-4 font-body text-xs text-white/50">
                 <span>{totalCount} churches</span>
+                <span className="w-px h-3 bg-white/20"></span>
+                <span className="text-green-400 font-medium">{antiZionistCount} anti-Zionist</span>
                 <span className="w-px h-3 bg-white/20"></span>
                 <span className="text-gold/80 font-medium">{nonZionistCount} non-Zionist</span>
               </div>
@@ -143,8 +146,9 @@ export default function ChurchDirectory() {
                   onChange={e => setStanceFilter(e.target.value as typeof stanceFilter)}
                   className="px-3 py-2.5 rounded-lg border border-gray-200 font-body text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-gold/40 focus:border-gold bg-white transition-all min-w-[150px]"
                 >
-                  <option value="no">Non-Zionist</option>
                   <option value="all">All Stances</option>
+                  <option value="anti">Anti-Zionist</option>
+                  <option value="no">Non-Zionist</option>
                   <option value="yes">Zionist</option>
                   <option value="unknown">Unknown</option>
                 </select>
@@ -164,7 +168,11 @@ export default function ChurchDirectory() {
               ? 'Loading directory...'
               : `${filtered.length} ${filtered.length === 1 ? 'Church' : 'Churches'} Found`}
           </h2>
-          <div className="flex items-center gap-4 text-xs font-body text-gray-500">
+          <div className="flex items-center gap-4 text-xs font-body text-gray-500 flex-wrap">
+            <span className="flex items-center gap-1.5">
+              <span className="w-3 h-3 rounded-full bg-green-800 inline-block shadow-sm"></span>
+              Anti-Zionist
+            </span>
             <span className="flex items-center gap-1.5">
               <span className="w-3 h-3 rounded-full bg-gold inline-block shadow-sm"></span>
               Non-Zionist

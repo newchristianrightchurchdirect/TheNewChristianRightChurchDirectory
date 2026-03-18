@@ -193,6 +193,7 @@ export default function SubmitForm() {
         <p className="font-body text-xs text-gray-500 mb-3">Does this church hold a Christian Zionist / pro-Israel theological position?</p>
         <div className="flex flex-wrap gap-3">
           {[
+            { value: 'anti', label: 'Anti-Zionist', desc: 'Actively opposes Christian Zionism', accent: 'border-green-800/40 bg-green-50 text-green-800' },
             { value: 'no', label: 'Non-Zionist', desc: 'Does not hold Christian Zionist theology', accent: 'border-gold/40 bg-gold/5 text-gold' },
             { value: 'yes', label: 'Zionist', desc: 'Holds pro-Israel / dispensational views', accent: 'border-burgundy/30 bg-burgundy/5 text-burgundy' },
             { value: 'unknown', label: 'Unknown', desc: "Not sure or stance isn't clear", accent: 'border-gray-300 bg-gray-50 text-gray-600' },

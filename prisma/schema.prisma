@@ -19,7 +19,7 @@ model Church {
   longitude        Float?
   website          String?
   phone            String?
-  zionistStance    String   @default("unknown") // "yes", "no", "unknown"
+  zionistStance    String   @default("unknown") // "yes", "no", "anti", "unknown"
   theologicalNotes String?
   description      String?
   approved         Boolean  @default(false)
