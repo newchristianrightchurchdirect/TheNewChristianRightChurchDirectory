@@ -18,7 +18,8 @@ interface Church {
 
 function createMarkerIcon(stance: string) {
   const colors: Record<string, string> = {
-    no: '#C49A3C',      // Gold for non-Zionist (featured)
+    anti: '#166534',    // Forest green for anti-Zionist
+    no: '#C49A3C',      // Gold for non-Zionist
     yes: '#8B2E3B',     // Burgundy for Zionist
     unknown: '#6B7280', // Gray for unknown
   }
@@ -52,11 +53,13 @@ function createMarkerIcon(stance: string) {
 
 function buildPopupHtml(church: Church): string {
   const stanceLabels: Record<string, string> = {
+    anti: 'Anti-Zionist',
     no: 'Non-Zionist',
     yes: 'Zionist',
     unknown: 'Unknown Stance',
   }
   const stanceColors: Record<string, string> = {
+    anti: 'color:#166534;background:rgba(22,101,52,0.1);border:1px solid rgba(22,101,52,0.2)',
     no: 'color:#C49A3C;background:#F5ECD7;border:1px solid rgba(196,154,60,0.2)',
     yes: 'color:#8B2E3B;background:rgba(139,46,59,0.1);border:1px solid rgba(139,46,59,0.15)',
     unknown: 'color:#6B7280;background:#F3F4F6;border:1px solid #E5E7EB',

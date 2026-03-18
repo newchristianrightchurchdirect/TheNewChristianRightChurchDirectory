@@ -28,7 +28,7 @@ export async function POST(request: NextRequest) {
   const description = body.description ? String(body.description).trim().slice(0, 1000) : null
   const theologicalNotes = body.theologicalNotes ? String(body.theologicalNotes).trim().slice(0, 1000) : null
 
-  const validStances = ['yes', 'no', 'unknown']
+  const validStances = ['yes', 'no', 'anti', 'unknown']
   const zionistStance = validStances.includes(body.zionistStance) ? body.zionistStance : 'unknown'
 
   let latitude: number | null = null
