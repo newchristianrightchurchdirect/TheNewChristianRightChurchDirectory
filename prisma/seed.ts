@@ -4010,7 +4010,7 @@ const churches = [
   },
   {
     name: "Apologia Church Utah",
-    denomination: "Reformed Baptist",
+    denomination: "Reformed Baptist (1689 LBCF)",
     address: "10778 S Redwood Rd",
     city: "South Jordan",
     state: "UT",
@@ -4018,9 +4018,9 @@ const churches = [
     latitude: 40.5555711,
     longitude: -111.9392748,
     website: "https://apologiautah.com",
-    zionistStance: "no",
-    theologicalNotes: "Reformed Baptist. Calvinistic soteriology. Rejects dispensationalism.",
-    description: "A Reformed Baptist church committed to biblical, confessional Christianity. Source: reformedbaptistchurches.com.",
+    zionistStance: "anti",
+    theologicalNotes: "Church plant of Apologia Church AZ (Jeff Durbin). 1689 LBCF. Shares parent church's anti-Zionist, postmillennial, theonomic theology. Founded October 2021.",
+    description: "A confessional Reformed Baptist church planted by Apologia Church Arizona. Family-integrated worship with weekly Lord's Supper.",
     approved: true,
   },
   {
