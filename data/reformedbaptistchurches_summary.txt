@@ -1,0 +1,215 @@
+Reformed Baptist Churches Directory - Data Summary
+=======================================================
+Source: https://reformedbaptistchurches.com/
+Extracted: 2026-03-19
+Total churches: 1614
+US churches: 1087
+Non-US churches: 527
+
+CHURCHES BY COUNTRY
+----------------------------------------
+  United States: 1087
+  Brazil: 81
+  Philippines: 80
+  South Africa: 48
+  United Kingdom: 39
+  Canada: 39
+  Australia: 26
+  Italy: 18
+  Cuba: 16
+  New Zealand: 12
+  Zambia: 12
+  Dominican Republic: 8
+  Mexico: 8
+  Costa Rica: 8
+  Germany: 7
+  Singapore: 6
+  India: 6
+  Spain: 6
+  Malawi: 5
+  Kenya: 5
+  Nepal: 5
+  Chile: 5
+  Malaysia: 4
+  France: 4
+  Colombia: 4
+  Rwanda: 4
+  Denmark: 3
+  Ecuador: 3
+  Poland: 3
+  Ireland: 2
+  Barbados: 2
+  Switzerland: 2
+  Argentina: 2
+  Honduras: 2
+  Slovakia: 2
+  Nigeria: 2
+  Austria: 2
+  Ukraine: 2
+  Peru: 2
+  Saudi Arabia: 2
+  Namibia: 2
+  Zimbabwe: 2
+  Puerto Rico: 1
+  Nicaragua: 1
+  Israel: 1
+  Finland: 1
+  Sri Lanka: 1
+  Hong Kong: 1
+  Guatemala: 1
+  Montenegro: 1
+  Trinidad and Tobago: 1
+  Mauritius: 1
+  Cambodia: 1
+  Malta: 1
+  Uganda: 1
+  Paraguay: 1
+  Czechia: 1
+  Moldova: 1
+  Netherlands: 1
+  Romania: 1
+  Jordan: 1
+  Belize: 1
+  Myanmar (Burma): 1
+  Japan: 1
+  Venezuela: 1
+  Sweden: 1
+  Guam: 1
+  Haiti: 1
+  Bahrain: 1
+  El Salvador: 1
+  Democratic Republic of the Congo: 1
+  The Gambia: 1
+  Portugal: 1
+  Botswana: 1
+  Mozambique: 1
+  Eswatini: 1
+  Bolivia: 1
+  Ethiopia: 1
+
+US CHURCHES BY STATE
+----------------------------------------
+  Alabama: 36
+  Alaska: 1
+  Arizona: 18
+  Arkansas: 18
+  California: 69
+  Colorado: 22
+  Connecticut: 3
+  Delaware: 4
+  Florida: 85
+  Georgia: 53
+  Hawaii: 2
+  Idaho: 11
+  Illinois: 30
+  Indiana: 31
+  Iowa: 3
+  Kansas: 19
+  Kentucky: 26
+  Louisiana: 18
+  Maine: 5
+  Maryland: 7
+  Massachusetts: 17
+  Michigan: 22
+  Minnesota: 4
+  Mississippi: 14
+  Missouri: 36
+  Montana: 6
+  Nebraska: 7
+  Nevada: 9
+  New Hampshire: 6
+  New Jersey: 14
+  New Mexico: 5
+  New York: 34
+  North Carolina: 58
+  North Dakota: 1
+  Ohio: 33
+  Oklahoma: 27
+  Oregon: 15
+  Pennsylvania: 38
+  Rhode Island: 4
+  South Carolina: 28
+  Tennessee: 41
+  Texas: 120
+  Utah: 6
+  Vermont: 4
+  Virginia: 31
+  Washington: 25
+  West Virginia: 8
+  Wisconsin: 6
+  Wyoming: 7
+  TOTAL                          1087
+
+CHURCHES BY CONFESSION TYPE (ALL COUNTRIES)
+--------------------------------------------------
+  2nd London (1689): 1253
+  Calvinistic / Non-Confessional: 114
+  New Hampshire (1833): 101
+  Abstract of Principles (1858): 44
+  Other / Unavailable: 40
+  1st London (1644): 28
+  Multiple: 11
+  (blank): 6
+  New Hampshire (1853): 5
+  Reforming: 5
+  Dispensational: 4
+  Philadelphia (1742): 3
+
+US CHURCHES BY CONFESSION TYPE
+--------------------------------------------------
+  2nd London (1689): 787
+  New Hampshire (1833): 101
+  Calvinistic / Non-Confessional: 94
+  Abstract of Principles (1858): 43
+  1st London (1644): 22
+  Other / Unavailable: 14
+  Multiple: 10
+  New Hampshire (1853): 5
+  Reforming: 4
+  Dispensational: 3
+  Philadelphia (1742): 2
+  (blank): 2
+
+CHURCHES BY STATUS (ALL COUNTRIES)
+----------------------------------------
+  Established Church: 1358
+  New Church / Church Plant: 150
+  (blank): 90
+  Coming Soon: 7
+  Needs Revitalization: 5
+  TBD: 2
+  +1 8502907264: 1
+  +1 5596455057: 1
+
+CHURCHES BY CONFESSIONAL RELATIONSHIP (ALL COUNTRIES)
+-------------------------------------------------------
+  (blank): 1277
+  Full/Strict Subscription: 99
+  Substantial Subscription: 95
+  TBD: 87
+  N/A: 29
+  Loose Subscription: 15
+  Unknown: 10
+  digitaladmin@trinityfay.org: 1
+  01/16/2022: 1
+
+LANGUAGES
+----------------------------------------
+  English: 56
+  TBD: 11
+  Spanish: 11
+  Portuguese: 5
+  Chinese: 1
+  Tagalog: 1
+
+DATA COMPLETENESS
+----------------------------------------
+  website                         1468 / 1614 (91.0%)
+  email                           1253 / 1614 (77.6%)
+  phone                           1235 / 1614 (76.5%)
+  confession                      1608 / 1614 (99.6%)
+  confessional_relationship        337 / 1614 (20.9%)
+  church_status                   1524 / 1614 (94.4%)
+  languages                         83 / 1614 (5.1%)
+  associations                      70 / 1614 (4.3%)
+  date_founded                     427 / 1614 (26.5%)
