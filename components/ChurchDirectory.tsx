@@ -39,7 +39,7 @@ export default function ChurchDirectory() {
   const [search, setSearch] = useState('')
   const [stateFilter, setStateFilter] = useState('')
   const [denomFilter, setDenomFilter] = useState('')
-  const [stanceFilter, setStanceFilter] = useState<'all' | 'no' | 'anti' | 'yes' | 'unknown'>('all')
+  const [stanceFilter, setStanceFilter] = useState<'all' | 'no' | 'anti' | 'yes' | 'unknown'>('anti')
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
