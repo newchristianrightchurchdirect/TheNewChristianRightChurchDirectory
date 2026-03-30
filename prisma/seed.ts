@@ -578,21 +578,7 @@ const churches = [
     approved: true,
   },
   // Alaska (AK)
-  {
-    name: "Covenant Bible Church",
-    denomination: "CREC",
-    address: "745 W Auklet Ave",
-    city: "Palmer",
-    state: "AK",
-    zip: "99645",
-    latitude: 61.5994,
-    longitude: -149.1127,
-    website: "https://www.covenantbiblechurch.com/",
-    zionistStance: "no",
-    theologicalNotes: "CREC member since 2004. Pastor Jack Phelps — covenant theology, Reformed. Former presiding minister of the CREC nationally. Rejects dispensationalism.",
-    description: "Founded in 1958. CREC congregation in south-central Alaska. Pastor Phelps is an Air Force veteran and former adviser to four Alaska governors.",
-    approved: true,
-  },
+  
   // Arkansas (AR)
   {
     name: "Christ Church Searcy",
@@ -678,22 +664,7 @@ const churches = [
     approved: true,
   },
   // Hawaii (HI)
-  {
-    name: "Redeemer Reformed Church",
-    denomination: "OPC",
-    address: "94-235 Hanawai Circle, Unit 9",
-    city: "Waipahu",
-    state: "HI",
-    zip: "96797",
-    latitude: 21.3820,
-    longitude: -158.0117,
-    website: "https://www.redeemerhawaii.org/",
-    phone: "(310) 738-1507",
-    zionistStance: "no",
-    theologicalNotes: "OPC church. Westminster Standards. Pastor Eli Hirtzel (MDiv, Westminster Theological Seminary). Multi-ethnic congregation. Rejects dispensationalism by confessional commitment.",
-    description: "A multi-ethnic beacon of Biblical, Reformed Christianity on the island of Oahu.",
-    approved: true,
-  },
+  
   // Illinois (IL)
   {
     name: "Christ Covenant Church of Chicago",
@@ -1112,22 +1083,7 @@ const churches = [
     approved: true,
   },
   // ── Reformed Baptist churches from reformedbaptistchurches.com ──
-  {
-    name: "Agape Fellowship",
-    denomination: "Reformed Baptist",
-    address: "6000 Bear Cub Court",
-    city: "Wasilla",
-    state: "AK",
-    zip: "99654",
-    latitude: 61.6144238,
-    longitude: -149.2991399,
-    website: "https://agapefellowshipak.com",
-    phone: "(907) 723-1787",
-    zionistStance: "no",
-    theologicalNotes: "Reformed Baptist. Calvinistic soteriology. Rejects dispensationalism.",
-    description: "A Reformed Baptist church committed to biblical, confessional Christianity. Source: reformedbaptistchurches.com.",
-    approved: true,
-  },
+  
   {
     name: "Alex City Reformed Baptist Church",
     denomination: "Reformed Baptist",
@@ -1699,38 +1655,8 @@ const churches = [
     description: "A Reformed Baptist church committed to biblical, confessional Christianity. Source: reformedbaptistchurches.com.",
     approved: true,
   },
-  {
-    name: "Central Baptist Church",
-    denomination: "Reformed Baptist",
-    address: "1217 Nehoa Street",
-    city: "Honolulu",
-    state: "HI",
-    zip: "96822",
-    latitude: 21.3087701,
-    longitude: -157.8366972,
-    website: "https://cbchi.org",
-    phone: "(808) 538-6833",
-    zionistStance: "no",
-    theologicalNotes: "1689 London Baptist Confession. Covenant theology, Reformed soteriology. Rejects dispensationalism.",
-    description: "A Reformed Baptist church committed to biblical, confessional Christianity. Source: reformedbaptistchurches.com.",
-    approved: true,
-  },
-  {
-    name: "Honolulu Bible Church",
-    denomination: "Reformed Baptist",
-    address: "1844 Palolo Avenue",
-    city: "Honolulu",
-    state: "HI",
-    zip: "96816",
-    latitude: 21.2966606,
-    longitude: -157.798892,
-    website: "https://honolulubiblechurch.com",
-    phone: "(808) 737-0204",
-    zionistStance: "no",
-    theologicalNotes: "1689 London Baptist Confession. Covenant theology, Reformed soteriology. Rejects dispensationalism.",
-    description: "A Reformed Baptist church committed to biblical, confessional Christianity. Source: reformedbaptistchurches.com.",
-    approved: true,
-  },
+  
+  
   {
     name: "Christendom Reformed Baptist Church",
     denomination: "Reformed Baptist",
@@ -4566,45 +4492,9 @@ const churches = [
     approved: true,
   },
   // === PCA (Presbyterian Church in America) Churches ===
-  {
-    name: "Anchorage New Life Presbyterian Church",
-    denomination: "PCA",
-    address: "Anchorage",
-    city: "Anchorage",
-    state: "AK",
-    website: "https://www.newlifechurchak.org",
-    phone: "907-947-9059",
-    zionistStance: "no",
-    theologicalNotes: "Westminster Standards. PCA — covenantal theology rejects dispensationalism. Pastor: Rev. Young Duk Pak.",
-    description: "A Presbyterian Church in America (PCA) congregation in Anchorage, AK.",
-    approved: true,
-  },
-  {
-    name: "Faith Presbyterian Church",
-    denomination: "PCA",
-    address: "Anchorage",
-    city: "Anchorage",
-    state: "AK",
-    website: "https://www.faithanchorage.org",
-    phone: "907-348-7896",
-    zionistStance: "no",
-    theologicalNotes: "Westminster Standards. PCA — covenantal theology rejects dispensationalism. Pastor: Rev. John F. Jones, IV.",
-    description: "A Presbyterian Church in America (PCA) congregation in Anchorage, AK.",
-    approved: true,
-  },
-  {
-    name: "Redeemer Presbyterian Church",
-    denomination: "PCA",
-    address: "Kenai",
-    city: "Kenai",
-    state: "AK",
-    website: "https://www.redeemerak.org",
-    phone: "907-690-4410",
-    zionistStance: "no",
-    theologicalNotes: "Westminster Standards. PCA — covenantal theology rejects dispensationalism. Pastor: Rev. Andrew Allen, Jr..",
-    description: "A Presbyterian Church in America (PCA) congregation in Kenai, AK.",
-    approved: true,
-  },
+  
+  
+  
   {
     name: "2Cities Church",
     denomination: "PCA",
@@ -7057,7 +6947,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[King's Church]]>",
+    name: "King's Church",
     denomination: "PCA",
     address: "Long Beach",
     city: "Long Beach",
@@ -7674,7 +7564,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[The Lord's Church]]>",
+    name: "The Lord's Church",
     denomination: "PCA",
     address: "Los Angeles",
     city: "Los Angeles",
@@ -8369,7 +8259,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[Stone's Throw Church]]>",
+    name: "Stone's Throw Church",
     denomination: "PCA",
     address: "Middletown",
     city: "Middletown",
@@ -10182,7 +10072,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[St. Paul's Presbyterian Church]]>",
+    name: "St. Paul's Presbyterian Church",
     denomination: "PCA",
     address: "Orlando",
     city: "Orlando",
@@ -11467,7 +11357,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[King's Chapel Presbyterian Church]]>",
+    name: "King's Chapel Presbyterian Church",
     denomination: "PCA",
     address: "Carrollton",
     city: "Carrollton",
@@ -11480,7 +11370,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[Kirk O' the Isles Presbyterian Church]]>",
+    name: "Kirk O' the Isles Presbyterian Church",
     denomination: "PCA",
     address: "Savannah",
     city: "Savannah",
@@ -12072,7 +11962,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[St. Paul's Presbyterian Church]]>",
+    name: "St. Paul's Presbyterian Church",
     denomination: "PCA",
     address: "Atlanta",
     city: "Atlanta",
@@ -12295,58 +12185,12 @@ const churches = [
     description: "A Presbyterian Church in America (PCA) congregation in Norcross, GA.",
     approved: true,
   },
+  
+  
+  
+  
   {
-    name: "Hawaii Korean Central Presbyterian Church",
-    denomination: "PCA",
-    address: "Honolulu",
-    city: "Honolulu",
-    state: "HI",
-    zionistStance: "no",
-    theologicalNotes: "Westminster Standards. PCA — covenantal theology rejects dispensationalism. Pastor: Rev. Kenneth Kang.",
-    description: "A Presbyterian Church in America (PCA) congregation in Honolulu, HI.",
-    approved: true,
-  },
-  {
-    name: "The City Church of Honolulu",
-    denomination: "PCA",
-    address: "Honolulu",
-    city: "Honolulu",
-    state: "HI",
-    website: "https://citychurchhonolulu.org",
-    phone: "808-946-4720",
-    zionistStance: "no",
-    theologicalNotes: "Westminster Standards. PCA — covenantal theology rejects dispensationalism. Pastor: Rev. Paul F. Schuler.",
-    description: "A Presbyterian Church in America (PCA) congregation in Honolulu, HI.",
-    approved: true,
-  },
-  {
-    name: "Trinity Church Central Oahu",
-    denomination: "PCA",
-    address: "Mililani",
-    city: "Mililani",
-    state: "HI",
-    website: "https://www.trinitycentraloahu.org",
-    phone: "808-625-5055",
-    zionistStance: "no",
-    theologicalNotes: "Westminster Standards. PCA — covenantal theology rejects dispensationalism. Pastor: Rev. Matthew Eusey.",
-    description: "A Presbyterian Church in America (PCA) congregation in Mililani, HI.",
-    approved: true,
-  },
-  {
-    name: "Trinity Presbyterian Church",
-    denomination: "PCA",
-    address: "Kailua Oahu",
-    city: "Kailua Oahu",
-    state: "HI",
-    website: "https://www.trinitychurchkailua.org",
-    phone: "808-262-8587",
-    zionistStance: "no",
-    theologicalNotes: "Westminster Standards. PCA — covenantal theology rejects dispensationalism. Pastor: Rev. Todd Capen.",
-    description: "A Presbyterian Church in America (PCA) congregation in Kailua Oahu, HI.",
-    approved: true,
-  },
-  {
-    name: "<![CDATA[Bethany Evangelical & Reformed Church]]>",
+    name: "Bethany Evangelical & Reformed Church",
     denomination: "PCA",
     address: "Ledyard",
     city: "Ledyard",
@@ -13513,7 +13357,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[Grace & Peace Church]]>",
+    name: "Grace & Peace Church",
     denomination: "PCA",
     address: "Bowling Green",
     city: "Bowling Green",
@@ -13822,7 +13666,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[St. Peter's Presbyterian Church]]>",
+    name: "St. Peter's Presbyterian Church",
     denomination: "PCA",
     address: "New Orleans",
     city: "New Orleans",
@@ -14743,7 +14587,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[River's Edge Community Church]]>",
+    name: "River's Edge Community Church",
     denomination: "PCA",
     address: "Oella",
     city: "Oella",
@@ -15338,7 +15182,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[Grace & Peace Fellowship]]>",
+    name: "Grace & Peace Fellowship",
     denomination: "PCA",
     address: "St. Louis",
     city: "St. Louis",
@@ -17295,7 +17139,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[Christ Church at River's Edge]]>",
+    name: "Christ Church at River's Edge",
     denomination: "PCA",
     address: "Belmont",
     city: "Belmont",
@@ -17757,7 +17601,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[Grace & Peace Presbyterian Church]]>",
+    name: "Grace & Peace Presbyterian Church",
     denomination: "PCA",
     address: "Asheville",
     city: "Asheville",
@@ -19830,7 +19674,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[The Lord's Community Church]]>",
+    name: "The Lord's Community Church",
     denomination: "PCA",
     address: "Flushing",
     city: "Flushing",
@@ -20989,7 +20833,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[Grace & Peace Presbyterian Church]]>",
+    name: "Grace & Peace Presbyterian Church",
     denomination: "PCA",
     address: "Pottstown",
     city: "Pottstown",
@@ -25223,7 +25067,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[New St. Peter's Presbyterian Church]]>",
+    name: "New St. Peter's Presbyterian Church",
     denomination: "PCA",
     address: "Dallas",
     city: "Dallas",
@@ -25974,7 +25818,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[Church of Love & Truth]]>",
+    name: "Church of Love & Truth",
     denomination: "PCA",
     address: "Vienna",
     city: "Vienna",
@@ -26125,7 +25969,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[Draper's Valley Presbyterian Church]]>",
+    name: "Draper's Valley Presbyterian Church",
     denomination: "PCA",
     address: "Draper",
     city: "Draper",
@@ -26756,7 +26600,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[River's Edge Bible Church]]>",
+    name: "River's Edge Bible Church",
     denomination: "PCA",
     address: "Hopewell",
     city: "Hopewell",
@@ -27482,7 +27326,7 @@ const churches = [
     approved: true,
   },
   {
-    name: "<![CDATA[Friend of Sinner's Church]]>",
+    name: "Friend of Sinner's Church",
     denomination: "PCA",
     address: "Milwaukee",
     city: "Milwaukee",
@@ -30823,18 +30667,7 @@ const churches = [
     description: "An Orthodox Presbyterian Church (OPC) congregation in Oxnard, CA.",
     approved: true,
   },
-  {
-    name: "Redeemer",
-    denomination: "OPC",
-    address: "Pearl City (Honolulu)",
-    city: "Pearl City (Honolulu)",
-    state: "HI",
-    phone: "949-246-3705",
-    zionistStance: "no",
-    theologicalNotes: "Westminster Standards. OPC — covenantal theology rejects dispensationalism.",
-    description: "An Orthodox Presbyterian Church (OPC) congregation in Pearl City (Honolulu), HI.",
-    approved: true,
-  },
+  
   {
     name: "Sovereign Grace",
     denomination: "OPC",
