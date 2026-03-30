@@ -16,49 +16,22 @@ interface Church {
   website: string | null
 }
 
-function createMarkerIcon(stance: string) {
-  const colors: Record<string, string> = {
-    anti: '#059669',    // Emerald green for anti-Zionist
-    no: '#C49A3C',      // Gold for non-Zionist
-    yes: '#8B2E3B',     // Burgundy for Zionist
-    unknown: '#6B7280', // Gray for unknown
-  }
-  const color = colors[stance] || colors.unknown
-  return L.divIcon({
-    className: '',
-    html: `
-      <div style="width:30px;height:30px;position:relative">
-        <div style="
-          width:26px;height:26px;
-          background:${color};
-          border:3px solid white;
-          border-radius:50% 50% 50% 0;
-          transform:rotate(-45deg);
-          box-shadow:0 3px 10px rgba(0,0,0,0.3);
-          position:absolute;top:0;left:2px;
-        ">
-          <span style="
-            display:block;transform:rotate(45deg);
-            text-align:center;line-height:20px;
-            color:white;font-size:11px;
-          ">&#10013;</span>
-        </div>
-      </div>
-    `,
-    iconSize: [30, 30],
-    iconAnchor: [15, 30],
-    popupAnchor: [0, -30],
-  })
+const stanceColors: Record<string, string> = {
+  anti: '#059669',
+  no: '#C49A3C',
+  yes: '#8B2E3B',
+  unknown: '#6B7280',
+}
+
+const stanceLabels: Record<string, string> = {
+  anti: 'Anti-Zionist',
+  no: 'Non-Zionist',
+  yes: 'Zionist',
+  unknown: 'Unknown Stance',
 }
 
 function buildPopupHtml(church: Church): string {
-  const stanceLabels: Record<string, string> = {
-    anti: 'Anti-Zionist',
-    no: 'Non-Zionist',
-    yes: 'Zionist',
-    unknown: 'Unknown Stance',
-  }
-  const stanceColors: Record<string, string> = {
+  const stanceBorderColors: Record<string, string> = {
     anti: 'color:#059669;background:rgba(5,150,105,0.1);border:1px solid rgba(5,150,105,0.2)',
     no: 'color:#C49A3C;background:#F5ECD7;border:1px solid rgba(196,154,60,0.2)',
     yes: 'color:#8B2E3B;background:rgba(139,46,59,0.1);border:1px solid rgba(139,46,59,0.15)',
@@ -72,13 +45,16 @@ function buildPopupHtml(church: Church): string {
   }
   html += `<p style="font-size:12px;color:#6b7280;margin:0 0 8px 0">${church.city}, ${church.state}</p>`
   html += `<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">`
-  html += `<span style="font-size:10px;font-weight:700;${stanceColors[church.zionistStance] || stanceColors.unknown};padding:2px 8px;border-radius:9999px;text-transform:uppercase;letter-spacing:0.5px">${stanceLabels[church.zionistStance] || 'Unknown'}</span>`
+  html += `<span style="font-size:10px;font-weight:700;${stanceBorderColors[church.zionistStance] || stanceBorderColors.unknown};padding:2px 8px;border-radius:9999px;text-transform:uppercase;letter-spacing:0.5px">${stanceLabels[church.zionistStance] || 'Unknown'}</span>`
   if (church.website) {
     html += `<a href="${church.website}" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#C49A3C;text-decoration:none;font-weight:500">Website &rarr;</a>`
   }
   html += `</div></div>`
   return html
 }
+
+// Continental US bounds
+const US_BOUNDS: L.LatLngBoundsExpression = [[24.5, -125], [49.5, -66.5]]
 
 export default function MapView({ churches }: { churches: Church[] }) {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -91,8 +67,13 @@ export default function MapView({ churches }: { churches: Church[] }) {
     const map = L.map(containerRef.current, {
       center: [39.8283, -98.5795],
       zoom: 4,
-      zoomControl: false,
+      zoomControl: true,
       scrollWheelZoom: true,
+      maxBounds: [[15, -135], [55, -55]],
+      maxBoundsViscosity: 0.8,
+      minZoom: 3,
+      maxZoom: 18,
+      renderer: L.canvas(),
     })
 
     L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
@@ -101,6 +82,8 @@ export default function MapView({ churches }: { churches: Church[] }) {
 
     markersRef.current = L.layerGroup().addTo(map)
     mapRef.current = map
+
+    map.fitBounds(US_BOUNDS, { padding: [20, 20] })
 
     return () => {
       map.remove()
@@ -119,21 +102,18 @@ export default function MapView({ churches }: { churches: Church[] }) {
     const withCoords = churches.filter(c => c.latitude != null && c.longitude != null)
 
     withCoords.forEach(church => {
-      const marker = L.marker([church.latitude!, church.longitude!], {
-        icon: createMarkerIcon(church.zionistStance),
+      const color = stanceColors[church.zionistStance] || stanceColors.unknown
+      const marker = L.circleMarker([church.latitude!, church.longitude!], {
+        radius: 6,
+        fillColor: color,
+        fillOpacity: 0.85,
+        color: '#fff',
+        weight: 1.5,
+        opacity: 1,
       })
       marker.bindPopup(buildPopupHtml(church))
       markerGroup.addLayer(marker)
     })
-
-    if (withCoords.length > 1) {
-      const bounds = L.latLngBounds(
-        withCoords.map(c => [c.latitude!, c.longitude!] as [number, number])
-      )
-      map.fitBounds(bounds, { padding: [60, 60], maxZoom: 12 })
-    } else if (withCoords.length === 1) {
-      map.setView([withCoords[0].latitude!, withCoords[0].longitude!], 10)
-    }
   }, [churches])
 
   return <div ref={containerRef} className="w-full h-full" />
