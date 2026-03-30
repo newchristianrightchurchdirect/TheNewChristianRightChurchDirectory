@@ -41,6 +41,8 @@ export default function ChurchDirectory() {
   const [denomFilter, setDenomFilter] = useState('')
   const [stanceFilter, setStanceFilter] = useState<'all' | 'no' | 'anti' | 'yes' | 'unknown'>('anti')
   const [loading, setLoading] = useState(true)
+  const [page, setPage] = useState(1)
+  const perPage = 60
 
   useEffect(() => {
     fetch('/api/churches')
@@ -69,6 +71,12 @@ export default function ChurchDirectory() {
       return matchesSearch && matchesState && matchesDenom && matchesStance
     })
   }, [churches, search, stateFilter, denomFilter, stanceFilter])
+
+  // Reset to page 1 when filters change
+  useEffect(() => { setPage(1) }, [search, stateFilter, denomFilter, stanceFilter])
+
+  const totalPages = Math.ceil(filtered.length / perPage)
+  const paginated = useMemo(() => filtered.slice((page - 1) * perPage, page * perPage), [filtered, page])
 
   const states = useMemo(() => [...new Set(churches.map(c => c.state))].sort(), [churches])
   const denominations = useMemo(() => [...new Set(churches.map(c => c.denomination).filter(Boolean))].sort() as string[], [churches])
@@ -218,11 +226,56 @@ export default function ChurchDirectory() {
             )}
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {filtered.map((church, i) => (
-              <ChurchCard key={church.id} church={church} index={i} />
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+              {paginated.map((church, i) => (
+                <ChurchCard key={church.id} church={church} index={i} />
+              ))}
+            </div>
+            {totalPages > 1 && (
+              <div className="flex items-center justify-center gap-2 mt-8">
+                <button
+                  onClick={() => { setPage(p => Math.max(1, p - 1)); window.scrollTo({ top: 0, behavior: 'smooth' }) }}
+                  disabled={page === 1}
+                  className="px-3 py-2 rounded-lg border border-gray-200 font-body text-sm text-gray-700 hover:bg-gray-50 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+                >
+                  Previous
+                </button>
+                {Array.from({ length: Math.min(totalPages, 7) }, (_, i) => {
+                  let p: number
+                  if (totalPages <= 7) {
+                    p = i + 1
+                  } else if (page <= 4) {
+                    p = i + 1
+                  } else if (page >= totalPages - 3) {
+                    p = totalPages - 6 + i
+                  } else {
+                    p = page - 3 + i
+                  }
+                  return (
+                    <button
+                      key={p}
+                      onClick={() => { setPage(p); window.scrollTo({ top: 0, behavior: 'smooth' }) }}
+                      className={`w-9 h-9 rounded-lg font-body text-sm transition-colors ${
+                        p === page
+                          ? 'bg-navy text-white font-medium'
+                          : 'border border-gray-200 text-gray-700 hover:bg-gray-50'
+                      }`}
+                    >
+                      {p}
+                    </button>
+                  )
+                })}
+                <button
+                  onClick={() => { setPage(p => Math.min(totalPages, p + 1)); window.scrollTo({ top: 0, behavior: 'smooth' }) }}
+                  disabled={page === totalPages}
+                  className="px-3 py-2 rounded-lg border border-gray-200 font-body text-sm text-gray-700 hover:bg-gray-50 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+                >
+                  Next
+                </button>
+              </div>
+            )}
+          </>
         )}
       </section>
     </div>
