@@ -31,9 +31,7 @@ export default function SubmitPage() {
 
       {/* Form section */}
       <div className="max-w-2xl mx-auto px-4 py-8 sm:py-12">
-        <div className="bg-white rounded-2xl shadow-lg shadow-navy/5 border border-cream p-6 sm:p-8">
-          <SubmitForm />
-        </div>
+        <SubmitForm />
 
         <div className="text-center mt-8">
           <Link
