@@ -6,8 +6,13 @@ export async function GET(
   { params }: { params: Promise<{ id: string }> }
 ) {
   const { id } = await params
+  const churchId = parseInt(id, 10)
+  if (isNaN(churchId)) {
+    return NextResponse.json({ error: 'Invalid ID' }, { status: 400 })
+  }
+
   const church = await prisma.church.findUnique({
-    where: { id: parseInt(id), approved: true },
+    where: { id: churchId, approved: true },
   })
 
   if (!church) {
