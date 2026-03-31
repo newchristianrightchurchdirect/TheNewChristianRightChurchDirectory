@@ -3,57 +3,23 @@
 import { useState, FormEvent } from 'react'
 
 const US_STATES = [
-  { value: 'AL', label: 'Alabama' },
-  { value: 'AK', label: 'Alaska' },
-  { value: 'AZ', label: 'Arizona' },
-  { value: 'AR', label: 'Arkansas' },
-  { value: 'CA', label: 'California' },
-  { value: 'CO', label: 'Colorado' },
-  { value: 'CT', label: 'Connecticut' },
-  { value: 'DE', label: 'Delaware' },
-  { value: 'FL', label: 'Florida' },
-  { value: 'GA', label: 'Georgia' },
-  { value: 'HI', label: 'Hawaii' },
-  { value: 'ID', label: 'Idaho' },
-  { value: 'IL', label: 'Illinois' },
-  { value: 'IN', label: 'Indiana' },
-  { value: 'IA', label: 'Iowa' },
-  { value: 'KS', label: 'Kansas' },
-  { value: 'KY', label: 'Kentucky' },
-  { value: 'LA', label: 'Louisiana' },
-  { value: 'ME', label: 'Maine' },
-  { value: 'MD', label: 'Maryland' },
-  { value: 'MA', label: 'Massachusetts' },
-  { value: 'MI', label: 'Michigan' },
-  { value: 'MN', label: 'Minnesota' },
-  { value: 'MS', label: 'Mississippi' },
-  { value: 'MO', label: 'Missouri' },
-  { value: 'MT', label: 'Montana' },
-  { value: 'NE', label: 'Nebraska' },
-  { value: 'NV', label: 'Nevada' },
-  { value: 'NH', label: 'New Hampshire' },
-  { value: 'NJ', label: 'New Jersey' },
-  { value: 'NM', label: 'New Mexico' },
-  { value: 'NY', label: 'New York' },
-  { value: 'NC', label: 'North Carolina' },
-  { value: 'ND', label: 'North Dakota' },
-  { value: 'OH', label: 'Ohio' },
-  { value: 'OK', label: 'Oklahoma' },
-  { value: 'OR', label: 'Oregon' },
-  { value: 'PA', label: 'Pennsylvania' },
-  { value: 'RI', label: 'Rhode Island' },
-  { value: 'SC', label: 'South Carolina' },
-  { value: 'SD', label: 'South Dakota' },
-  { value: 'TN', label: 'Tennessee' },
-  { value: 'TX', label: 'Texas' },
-  { value: 'UT', label: 'Utah' },
-  { value: 'VT', label: 'Vermont' },
-  { value: 'VA', label: 'Virginia' },
-  { value: 'WA', label: 'Washington' },
-  { value: 'WV', label: 'West Virginia' },
-  { value: 'WI', label: 'Wisconsin' },
-  { value: 'WY', label: 'Wyoming' },
-  { value: 'DC', label: 'Washington D.C.' },
+  { value: 'AL', label: 'Alabama' }, { value: 'AK', label: 'Alaska' }, { value: 'AZ', label: 'Arizona' },
+  { value: 'AR', label: 'Arkansas' }, { value: 'CA', label: 'California' }, { value: 'CO', label: 'Colorado' },
+  { value: 'CT', label: 'Connecticut' }, { value: 'DE', label: 'Delaware' }, { value: 'FL', label: 'Florida' },
+  { value: 'GA', label: 'Georgia' }, { value: 'HI', label: 'Hawaii' }, { value: 'ID', label: 'Idaho' },
+  { value: 'IL', label: 'Illinois' }, { value: 'IN', label: 'Indiana' }, { value: 'IA', label: 'Iowa' },
+  { value: 'KS', label: 'Kansas' }, { value: 'KY', label: 'Kentucky' }, { value: 'LA', label: 'Louisiana' },
+  { value: 'ME', label: 'Maine' }, { value: 'MD', label: 'Maryland' }, { value: 'MA', label: 'Massachusetts' },
+  { value: 'MI', label: 'Michigan' }, { value: 'MN', label: 'Minnesota' }, { value: 'MS', label: 'Mississippi' },
+  { value: 'MO', label: 'Missouri' }, { value: 'MT', label: 'Montana' }, { value: 'NE', label: 'Nebraska' },
+  { value: 'NV', label: 'Nevada' }, { value: 'NH', label: 'New Hampshire' }, { value: 'NJ', label: 'New Jersey' },
+  { value: 'NM', label: 'New Mexico' }, { value: 'NY', label: 'New York' }, { value: 'NC', label: 'North Carolina' },
+  { value: 'ND', label: 'North Dakota' }, { value: 'OH', label: 'Ohio' }, { value: 'OK', label: 'Oklahoma' },
+  { value: 'OR', label: 'Oregon' }, { value: 'PA', label: 'Pennsylvania' }, { value: 'RI', label: 'Rhode Island' },
+  { value: 'SC', label: 'South Carolina' }, { value: 'SD', label: 'South Dakota' }, { value: 'TN', label: 'Tennessee' },
+  { value: 'TX', label: 'Texas' }, { value: 'UT', label: 'Utah' }, { value: 'VT', label: 'Vermont' },
+  { value: 'VA', label: 'Virginia' }, { value: 'WA', label: 'Washington' }, { value: 'WV', label: 'West Virginia' },
+  { value: 'WI', label: 'Wisconsin' }, { value: 'WY', label: 'Wyoming' }, { value: 'DC', label: 'Washington D.C.' },
 ]
 
 const INITIAL_FORM = {
@@ -68,6 +34,7 @@ const INITIAL_FORM = {
   zionistStance: 'unknown',
   theologicalNotes: '',
   description: '',
+  honeypot: '',
 }
 
 export default function SubmitForm() {
@@ -88,7 +55,20 @@ export default function SubmitForm() {
       const res = await fetch('/api/churches', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          name: formData.name,
+          denomination: formData.denomination,
+          address: formData.address,
+          city: formData.city,
+          state: formData.state,
+          zip: formData.zip,
+          website: formData.website,
+          phone: formData.phone,
+          zionistStance: formData.zionistStance,
+          theologicalNotes: formData.theologicalNotes,
+          description: formData.description,
+          honeypot: formData.honeypot,
+        }),
       })
 
       if (!res.ok) {
@@ -106,8 +86,8 @@ export default function SubmitForm() {
   if (status === 'success') {
     return (
       <div className="text-center py-10">
-        <div className="w-16 h-16 bg-green-50 border-2 border-green-200 rounded-full flex items-center justify-center mx-auto mb-5">
-          <svg className="w-8 h-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <div className="w-16 h-16 bg-emerald-50 border-2 border-emerald-200 rounded-full flex items-center justify-center mx-auto mb-5">
+          <svg className="w-8 h-8 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
           </svg>
         </div>
@@ -130,108 +110,173 @@ export default function SubmitForm() {
   const labelClasses = 'block font-body text-sm font-medium text-navy mb-1.5'
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-5">
+    <form onSubmit={handleSubmit} className="space-y-8">
       {status === 'error' && (
         <div className="bg-red-50 border border-red-200 rounded-lg p-4 font-body text-sm text-red-700">
           {errorMessage}
         </div>
       )}
 
-      <div>
-        <label className={labelClasses}>Church Name <span className="text-burgundy">*</span></label>
-        <input type="text" required maxLength={200} value={formData.name} onChange={e => updateField('name', e.target.value)} placeholder="e.g. Grace Community Church" className={inputClasses} />
+      {/* Honeypot field - hidden from real users */}
+      <div className="absolute opacity-0 top-0 left-0 h-0 w-0 -z-10" aria-hidden="true">
+        <label htmlFor="honeypot">Leave blank</label>
+        <input
+          type="text"
+          id="honeypot"
+          name="honeypot"
+          value={formData.honeypot}
+          onChange={e => updateField('honeypot', e.target.value)}
+          tabIndex={-1}
+          autoComplete="off"
+        />
       </div>
 
+      {/* Church Info Section */}
       <div>
-        <label className={labelClasses}>Denomination</label>
-        <input type="text" maxLength={100} value={formData.denomination} onChange={e => updateField('denomination', e.target.value)} placeholder="e.g. Southern Baptist, Non-Denominational, PCA" className={inputClasses} />
+        <div className="flex items-center gap-2 mb-4">
+          <div className="w-7 h-7 rounded-lg bg-navy/5 flex items-center justify-center">
+            <svg className="w-4 h-4 text-navy/50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+            </svg>
+          </div>
+          <h3 className="font-display text-base font-semibold text-navy">Church Information</h3>
+        </div>
+        <div className="space-y-4">
+          <div>
+            <label className={labelClasses}>Church Name <span className="text-burgundy">*</span></label>
+            <input type="text" required maxLength={200} value={formData.name} onChange={e => updateField('name', e.target.value)} placeholder="e.g. Grace Community Church" className={inputClasses} />
+          </div>
+
+          <div>
+            <label className={labelClasses}>Denomination</label>
+            <input type="text" maxLength={100} value={formData.denomination} onChange={e => updateField('denomination', e.target.value)} placeholder="e.g. Southern Baptist, Non-Denominational, PCA" className={inputClasses} />
+          </div>
+
+          <div>
+            <label className={labelClasses}>Description</label>
+            <textarea maxLength={1000} rows={3} value={formData.description} onChange={e => updateField('description', e.target.value)} placeholder="Brief description of the church, its beliefs, and community..." className={inputClasses + ' resize-none'} />
+          </div>
+        </div>
       </div>
 
+      <div className="h-px bg-gradient-to-r from-transparent via-cream to-transparent"></div>
+
+      {/* Location Section */}
       <div>
-        <label className={labelClasses}>Street Address <span className="text-burgundy">*</span></label>
-        <input type="text" required maxLength={200} value={formData.address} onChange={e => updateField('address', e.target.value)} placeholder="e.g. 123 Main Street" className={inputClasses} />
+        <div className="flex items-center gap-2 mb-4">
+          <div className="w-7 h-7 rounded-lg bg-navy/5 flex items-center justify-center">
+            <svg className="w-4 h-4 text-navy/50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+          </div>
+          <h3 className="font-display text-base font-semibold text-navy">Location</h3>
+        </div>
+        <div className="space-y-4">
+          <div>
+            <label className={labelClasses}>Street Address <span className="text-burgundy">*</span></label>
+            <input type="text" required maxLength={200} value={formData.address} onChange={e => updateField('address', e.target.value)} placeholder="e.g. 123 Main Street" className={inputClasses} />
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            <div className="col-span-1">
+              <label className={labelClasses}>City <span className="text-burgundy">*</span></label>
+              <input type="text" required maxLength={100} value={formData.city} onChange={e => updateField('city', e.target.value)} placeholder="Nashville" className={inputClasses} />
+            </div>
+            <div>
+              <label className={labelClasses}>State <span className="text-burgundy">*</span></label>
+              <select required value={formData.state} onChange={e => updateField('state', e.target.value)} className={inputClasses}>
+                <option value="">Select</option>
+                {US_STATES.map(s => <option key={s.value} value={s.value}>{s.label}</option>)}
+              </select>
+            </div>
+            <div>
+              <label className={labelClasses}>ZIP</label>
+              <input type="text" maxLength={10} value={formData.zip} onChange={e => updateField('zip', e.target.value)} placeholder="37201" className={inputClasses} />
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="h-px bg-gradient-to-r from-transparent via-cream to-transparent"></div>
+
+      {/* Contact Section */}
+      <div>
+        <div className="flex items-center gap-2 mb-4">
+          <div className="w-7 h-7 rounded-lg bg-navy/5 flex items-center justify-center">
+            <svg className="w-4 h-4 text-navy/50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+            </svg>
+          </div>
+          <h3 className="font-display text-base font-semibold text-navy">Contact</h3>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label className={labelClasses}>Website</label>
+            <input type="url" value={formData.website} onChange={e => updateField('website', e.target.value)} placeholder="https://..." className={inputClasses} />
+          </div>
+          <div>
+            <label className={labelClasses}>Phone</label>
+            <input type="tel" value={formData.phone} onChange={e => updateField('phone', e.target.value)} placeholder="(555) 123-4567" className={inputClasses} />
+          </div>
+        </div>
+      </div>
+
+      <div className="h-px bg-gradient-to-r from-transparent via-cream to-transparent"></div>
+
+      {/* Theological Section */}
+      <div>
+        <div className="flex items-center gap-2 mb-4">
+          <div className="w-7 h-7 rounded-lg bg-navy/5 flex items-center justify-center">
+            <span className="text-navy/50 text-sm">&#10013;</span>
+          </div>
+          <h3 className="font-display text-base font-semibold text-navy">Theological Stance</h3>
+        </div>
+
+        <div className="bg-ivory rounded-xl p-4 border border-cream mb-4">
+          <label className={labelClasses}>Zionist Stance <span className="text-burgundy">*</span></label>
+          <p className="font-body text-xs text-gray-500 mb-3">Does this church hold a Christian Zionist / pro-Israel theological position?</p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+            {[
+              { value: 'anti', label: 'Anti-Zionist', desc: 'Opposes Christian Zionism', accent: 'border-emerald-600/40 bg-emerald-50 text-emerald-700' },
+              { value: 'no', label: 'Non-Zionist', desc: 'No Zionist theology', accent: 'border-gold/40 bg-gold-pale text-gold' },
+              { value: 'yes', label: 'Zionist', desc: 'Pro-Israel views', accent: 'border-burgundy/30 bg-burgundy/5 text-burgundy' },
+              { value: 'unknown', label: 'Unknown', desc: "Stance isn't clear", accent: 'border-gray-300 bg-gray-50 text-gray-600' },
+            ].map(opt => (
+              <label
+                key={opt.value}
+                className={`cursor-pointer rounded-lg border-2 p-3 transition-all text-center ${
+                  formData.zionistStance === opt.value
+                    ? opt.accent
+                    : 'border-gray-200 bg-white text-gray-700 hover:border-gray-300'
+                }`}
+              >
+                <input
+                  type="radio"
+                  name="zionistStance"
+                  value={opt.value}
+                  checked={formData.zionistStance === opt.value}
+                  onChange={e => updateField('zionistStance', e.target.value)}
+                  className="sr-only"
+                />
+                <span className="font-body text-sm font-semibold block">{opt.label}</span>
+                <span className="font-body text-[11px] opacity-70 block mt-0.5">{opt.desc}</span>
+              </label>
+            ))}
+          </div>
+        </div>
+
         <div>
-          <label className={labelClasses}>City <span className="text-burgundy">*</span></label>
-          <input type="text" required maxLength={100} value={formData.city} onChange={e => updateField('city', e.target.value)} placeholder="e.g. Nashville" className={inputClasses} />
+          <label className={labelClasses}>Theological Notes</label>
+          <p className="font-body text-xs text-gray-500 mb-1.5">Eschatology, confessional stance, relevant doctrinal details</p>
+          <textarea maxLength={1000} rows={3} value={formData.theologicalNotes} onChange={e => updateField('theologicalNotes', e.target.value)} placeholder="e.g. Covenantal amillennial, Westminster Confession, rejects dispensationalism..." className={inputClasses + ' resize-none'} />
         </div>
-        <div>
-          <label className={labelClasses}>State <span className="text-burgundy">*</span></label>
-          <select required value={formData.state} onChange={e => updateField('state', e.target.value)} className={inputClasses}>
-            <option value="">Select State</option>
-            {US_STATES.map(s => <option key={s.value} value={s.value}>{s.label}</option>)}
-          </select>
-        </div>
-      </div>
-
-      <div>
-        <label className={labelClasses}>ZIP Code</label>
-        <input type="text" maxLength={10} value={formData.zip} onChange={e => updateField('zip', e.target.value)} placeholder="e.g. 37201" className={inputClasses} />
-      </div>
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div>
-          <label className={labelClasses}>Website</label>
-          <input type="url" value={formData.website} onChange={e => updateField('website', e.target.value)} placeholder="https://..." className={inputClasses} />
-        </div>
-        <div>
-          <label className={labelClasses}>Phone</label>
-          <input type="tel" value={formData.phone} onChange={e => updateField('phone', e.target.value)} placeholder="(555) 123-4567" className={inputClasses} />
-        </div>
-      </div>
-
-      <div>
-        <label className={labelClasses}>Description</label>
-        <textarea maxLength={1000} rows={3} value={formData.description} onChange={e => updateField('description', e.target.value)} placeholder="Brief description of the church, its beliefs, and community..." className={inputClasses + ' resize-none'} />
-      </div>
-
-      {/* Zionist Stance */}
-      <div className="bg-ivory rounded-xl p-4 border border-cream">
-        <label className={labelClasses}>Zionist Stance <span className="text-burgundy">*</span></label>
-        <p className="font-body text-xs text-gray-500 mb-3">Does this church hold a Christian Zionist / pro-Israel theological position?</p>
-        <div className="flex flex-wrap gap-3">
-          {[
-            { value: 'anti', label: 'Anti-Zionist', desc: 'Actively opposes Christian Zionism', accent: 'border-emerald-600/40 bg-emerald-50 text-emerald-700' },
-            { value: 'no', label: 'Non-Zionist', desc: 'Does not hold Christian Zionist theology', accent: 'border-gold/40 bg-gold/5 text-gold' },
-            { value: 'yes', label: 'Zionist', desc: 'Holds pro-Israel / dispensational views', accent: 'border-burgundy/30 bg-burgundy/5 text-burgundy' },
-            { value: 'unknown', label: 'Unknown', desc: "Not sure or stance isn't clear", accent: 'border-gray-300 bg-gray-50 text-gray-600' },
-          ].map(opt => (
-            <label
-              key={opt.value}
-              className={`flex-1 min-w-[140px] cursor-pointer rounded-lg border-2 p-3 transition-all ${
-                formData.zionistStance === opt.value
-                  ? opt.accent
-                  : 'border-gray-200 bg-white text-gray-700 hover:border-gray-300'
-              }`}
-            >
-              <input
-                type="radio"
-                name="zionistStance"
-                value={opt.value}
-                checked={formData.zionistStance === opt.value}
-                onChange={e => updateField('zionistStance', e.target.value)}
-                className="sr-only"
-              />
-              <span className="font-body text-sm font-semibold block">{opt.label}</span>
-              <span className="font-body text-xs opacity-70 block mt-0.5">{opt.desc}</span>
-            </label>
-          ))}
-        </div>
-      </div>
-
-      {/* Theological Notes */}
-      <div>
-        <label className={labelClasses}>Theological Notes</label>
-        <p className="font-body text-xs text-gray-500 mb-1.5">Eschatology, confessional stance, relevant doctrinal details</p>
-        <textarea maxLength={1000} rows={3} value={formData.theologicalNotes} onChange={e => updateField('theologicalNotes', e.target.value)} placeholder="e.g. Covenantal amillennial, Westminster Confession, rejects dispensationalism..." className={inputClasses + ' resize-none'} />
       </div>
 
       <button
         type="submit"
         disabled={status === 'submitting'}
-        className="w-full py-3 bg-navy text-white font-body text-sm font-semibold rounded-xl hover:bg-navy-light active:scale-[0.99] transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+        className="w-full py-3.5 bg-navy text-white font-body text-sm font-semibold rounded-xl hover:bg-navy-light active:scale-[0.99] transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-navy/10"
       >
         {status === 'submitting' ? (
           <span className="inline-flex items-center gap-2">
@@ -242,6 +287,10 @@ export default function SubmitForm() {
           'Submit Church for Review'
         )}
       </button>
+
+      <p className="font-body text-xs text-gray-400 text-center">
+        Submissions are reviewed manually. Please ensure all information is accurate.
+      </p>
     </form>
   )
 }
