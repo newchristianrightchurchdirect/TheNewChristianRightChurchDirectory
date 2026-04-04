@@ -1,0 +1,35 @@
+{
+  "researchDate": "2026-03-30",
+  "scottishWestminster": {
+    "totalPlacemarks": 169,
+    "usChurches": 30,
+    "subDenominations": {
+      "Free Church of Scotland Continuing (FCC)": 5,
+      "Reformed Presbyterian Church - Hanover Presbytery": 11,
+      "Reformed Presbyterian Church in the United States (RPCUS)": "7 (dissolved 2020)",
+      "Free Presbyterian Church of North America": 1,
+      "WPCUS": 1,
+      "Other": 5
+    },
+    "antiZionistFound": 0,
+    "lgbtq": "All sub-denominations hold traditional views. No LGBTQ-affirming churches.",
+    "womenLeadership": "None of these denominations ordain women in any office."
+  },
+  "otherConfessionalReformed": {
+    "totalPlacemarks": 155,
+    "usChurches": 0,
+    "notes": "All churches in this folder are outside the US."
+  },
+  "byLanguageOrUnique": {
+    "totalPlacemarks": 70,
+    "usChurches": 0,
+    "notes": "All churches in this folder are outside the US."
+  },
+  "continental3FU": {
+    "totalPlacemarks": 306,
+    "usChurches": "~200+ (most lack state data in KML)",
+    "antiZionistFound": 0,
+    "lgbtq": "All sub-denominations (URC, RCUS, PRCA, NRC, FRCNA, HRC) hold traditional views.",
+    "womenLeadership": "None of these denominations ordain women in any office including deacons."
+  }
+}

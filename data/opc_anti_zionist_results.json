@@ -1,0 +1,92 @@
+{
+  "denomination": "OPC",
+  "totalUSChurches": 276,
+  "researchDate": "2026-03-30",
+  "lgbtqStatus": "The OPC condemns same-sex sexual behavior as incompatible with Biblical morality. No OPC churches affirm LGBTQ relationships. No issues found.",
+  "womenLeadership": "The OPC does not ordain women as pastors, elders, or deacons. The 55th General Assembly (1988) ruled against women deacons. No deaconesses in OPC churches.",
+  "knoxLetterSignatories": [
+    {
+      "name": "LeRoy E. Miller",
+      "church": "Faith Orthodox Presbyterian Church",
+      "city": "Lincoln",
+      "state": "NE",
+      "status": "ACTIVE - still pastoring since 1993",
+      "address": "5640 Salt Valley View St",
+      "zip": "68512",
+      "latitude": 40.7559344,
+      "longitude": -96.7046789,
+      "website": "http://www.faithopc.com",
+      "email": "miller.1@opc.org"
+    },
+    {
+      "name": "Stephen Pribble",
+      "church": "Grace Orthodox Presbyterian Church",
+      "city": "Lansing",
+      "state": "MI",
+      "status": "ACTIVE - pastoring since 1989",
+      "address": "1301 W. Wieland Rd",
+      "zip": "48906",
+      "latitude": 42.7630,
+      "longitude": -84.5595,
+      "website": "http://www.all-of-grace.org",
+      "email": "pribble.1@opc.org"
+    },
+    {
+      "name": "Michael L. Babcock",
+      "church": "Calvin Orthodox Presbyterian Church",
+      "city": "Phoenix",
+      "state": "AZ",
+      "status": "ACTIVE - pastoring since 2007 (previously planted Providence OPC Las Vegas 2001-2007)",
+      "address": "4150 E. Acoma Dr",
+      "zip": "85032",
+      "latitude": 33.6195,
+      "longitude": -111.9924,
+      "website": "http://www.calvinopc.org",
+      "email": "babcock.1@opc.org"
+    },
+    {
+      "name": "G.I. Williamson",
+      "church": "Sheldon OPC",
+      "city": "Sheldon",
+      "state": "IA",
+      "status": "DECEASED (d. April 12, 2023)"
+    },
+    {
+      "name": "Allen F. Gewecke",
+      "church": "Faith Orthodox Presbyterian Church",
+      "city": "Lincoln",
+      "state": "NE",
+      "status": "Ruling Elder (same church as LeRoy Miller, not separately counted)"
+    },
+    {
+      "name": "Stephen M. Clark",
+      "church": "Wallace Presbyterian Church",
+      "city": "Hyattsville",
+      "state": "MD",
+      "status": "UNKNOWN - could not verify current status"
+    },
+    {
+      "name": "Stephen D. Doe",
+      "church": "Bethel Reformed Presbyterian Church",
+      "city": "Fredericksburg",
+      "state": "VA",
+      "status": "NO LONGER ACTIVE at that church (replaced by Andrew Miller in 2012)"
+    },
+    {
+      "name": "Patrick H. Morison",
+      "church": "Faith Covenant OPC",
+      "city": "Kalispell",
+      "state": "MT",
+      "status": "RETIRED"
+    },
+    {
+      "name": "Stephen M. Van Roekel",
+      "church": "Lake Osborne Presbyterian Church",
+      "city": "Lake Worth",
+      "state": "FL",
+      "status": "NO LONGER ACTIVE at that church"
+    }
+  ],
+  "antiZionistChurchesToAdd": 3,
+  "notes": "The OPC as a denomination holds replacement theology (the church is the Israel of God), making it non-Zionist by default. These 3 churches are classified as 'anti' because their pastors signed the 2002 Knox Seminary Open Letter, an explicit theological repudiation of Christian Zionism."
+}
