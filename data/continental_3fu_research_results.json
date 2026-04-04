@@ -1,0 +1,22 @@
+{
+  "denomination": "Continental 3FU",
+  "subDenominations": {
+    "URC (United Reformed Churches in NA)": 138,
+    "RCUS (Reformed Church in the US)": 51,
+    "PRCA (Protestant Reformed Churches in America)": 44,
+    "NRC (Netherlands Reformed Congregations)": 25,
+    "FRCNA (Free Reformed Churches of NA)": 22,
+    "HRC (Heritage Reformed Congregations)": 11,
+    "EPCA": 5,
+    "Other": 10
+  },
+  "totalChurches": 306,
+  "researchDate": "2026-03-30",
+  "antiZionistChurchesFound": 0,
+  "antiZionistNotes": "No pastors from any Continental 3FU denomination found in Knox Seminary Open Letter signatory lists or with public anti-Zionist statements. These are very conservative Reformed denominations that hold standard covenantal theology (non-Zionist by default) but none have active anti-Zionist voices.",
+  "lgbtqStatus": "All sub-denominations maintain traditional biblical sexual ethics. No LGBTQ-affirming churches found. The URCNA specifically broke from CRC partly over LGBTQ/women ordination issues.",
+  "womenLeadership": {
+    "pastorsAndElders": "None of these denominations ordain women as pastors or elders.",
+    "deacons": "The RCUS, PRCA, URCNA, NRC, FRCNA, and HRC all restrict the diaconate to qualified males. No women deacons in any of these denominations."
+  }
+}

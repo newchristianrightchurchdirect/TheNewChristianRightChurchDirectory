@@ -96,7 +96,7 @@ export default function ChurchDirectory() {
                 The New <span className="text-gold">Christian Right</span> Church Directory
               </h1>
               <p className="font-body text-sm text-white/50 mt-1">
-                Identifying non-Zionist, Bible-believing churches across America
+                Identifying anti-Zionist, Bible-believing churches across America
               </p>
             </div>
             {!loading && (
@@ -169,7 +169,7 @@ export default function ChurchDirectory() {
       <div className="h-1 bg-gradient-to-r from-transparent via-gold/40 to-transparent"></div>
 
       {/* Results */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10">
+      <section className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-8 sm:py-10">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-6">
           <h2 className="font-display text-2xl font-semibold text-navy">
             {loading

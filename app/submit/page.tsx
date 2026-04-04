@@ -30,7 +30,7 @@ export default function SubmitPage() {
       <div className="h-1 bg-gradient-to-r from-transparent via-gold/40 to-transparent"></div>
 
       {/* Form section */}
-      <div className="max-w-2xl mx-auto px-4 py-8 sm:py-12">
+      <div className="max-w-4xl mx-auto px-4 py-8 sm:py-12">
         <SubmitForm />
 
         <div className="text-center mt-8">

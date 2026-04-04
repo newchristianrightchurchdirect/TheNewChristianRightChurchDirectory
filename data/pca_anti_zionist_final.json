@@ -1,0 +1,98 @@
+{
+  "denomination": "PCA (Presbyterian Church in America)",
+  "total_churches_in_list": 1826,
+  "total_anti_zionist_churches_found": 5,
+  "anti_zionist_churches": [
+    {
+      "name": "Midway Presbyterian Church",
+      "city": "Powder Springs",
+      "state": "GA",
+      "pastor": "Rev. David W. Hall",
+      "website": "www.midwaypca.org",
+      "denomination": "PCA",
+      "zionist": "anti",
+      "evidence": "Pastor David W. Hall signed the 2002 Knox Seminary Open Letter 'The People of God, the Land of Israel, and the Impartiality of the Gospel' \u2014 a direct theological repudiation of Christian Zionism signed by 131 Reformed theologians. Hall is also founder of the Kuyper Institute.",
+      "source": "https://www.bible-researcher.com/openletter.html"
+    },
+    {
+      "name": "Parish Presbyterian Church",
+      "city": "Franklin",
+      "state": "TN",
+      "pastor": "Dr. George Grant",
+      "website": "www.parishpres.org",
+      "denomination": "PCA",
+      "zionist": "anti",
+      "evidence": "George Grant signed the 2002 Knox Seminary Open Letter against Christian Zionism. PCA teaching elder, former associate of D. James Kennedy at Coral Ridge PCA. Also associated with King's Meadow Study Center.",
+      "source": "https://www.bible-researcher.com/openletter.html"
+    },
+    {
+      "name": "Bryce Avenue Presbyterian Church",
+      "city": "White Rock/Los Alamos",
+      "state": "NM",
+      "pastor": "Rev. Zachary Garris",
+      "website": "www.brycepresbyterian.org",
+      "denomination": "PCA",
+      "zionist": "anti",
+      "evidence": "Garris wrote 'No apologies: A Christian case for America before Israel' for The Blaze (2024). Active on X/Twitter opposing Christian Zionism from America-first framework. Writes for American Reformer. Argues the church is 'the Israel of God' and opposes U.S. foreign entanglement with Israel.",
+      "source": "https://www.theblaze.com/align/a-christian-case-for-america-before-israel"
+    },
+    {
+      "name": "New Life in Christ Church",
+      "city": "Fredericksburg",
+      "state": "VA",
+      "pastor": "Rev. Douglas Warren Kittredge (deceased Feb 2024)",
+      "website": "www.nlicc.org",
+      "denomination": "PCA",
+      "zionist": "anti",
+      "evidence": "Kittredge (d. 2024, pastored nearly 49 years) wrote 'The Conflicting Narrative of Jerusalem' for The Aquila Report (PCA publication), presenting Palestinian narratives sympathetically. Wrote book 'Pray for the Peace of Jerusalem.' Supported churches in Bethlehem. Stated 'Zionism is a western motivated attempt at control of the land.'",
+      "source": "https://theaquilareport.com/the-conflicting-narrative-of-jerusalem/"
+    },
+    {
+      "name": "Saint Andrew's Chapel (independent/PCA-affiliated)",
+      "city": "Sanford",
+      "state": "FL",
+      "pastor": "R.C. Sproul (deceased Dec 2017)",
+      "website": "N/A",
+      "denomination": "PCA",
+      "zionist": "anti",
+      "evidence": "R.C. Sproul signed the 2002 Knox Seminary Open Letter. Taught that 'the church has always been the Israel of God.' Founded Ligonier Ministries which published anti-Christian-Zionism teaching materials. Argued 1948 has no prophetic significance. NOTE: Sproul died 2017; church may not maintain this stance under new leadership.",
+      "source": "https://learn.ligonier.org/sermons/present-condition-israel"
+    }
+  ],
+  "knox_letter_pca_adjacent_signatories": [
+    {
+      "name": "O. Palmer Robertson",
+      "role": "Knox Seminary / Covenant Theological Seminary (PCA seminary)",
+      "note": "Author of 'The Israel of God: Yesterday, Today, and Tomorrow' \u2014 full-length book against Christian Zionism"
+    },
+    {
+      "name": "Robert L. Reymond",
+      "role": "Knox Seminary / Covenant Theological Seminary",
+      "note": "PCA minister. Wrote that 'biblical prophecy says nothing about the modern state of Israel'"
+    },
+    {
+      "name": "Gary DeMar",
+      "role": "American Vision, Powder Springs, GA",
+      "note": "PCA layman. Prolific anti-Zionist preterist author. 'Last Days Madness'"
+    },
+    {
+      "name": "Dominic A. Aquila",
+      "role": "New Geneva Theological Seminary",
+      "note": "Knox Letter signatory"
+    },
+    {
+      "name": "Kenneth Wackes",
+      "role": "Coral Ridge Presbyterian Church (PCA)",
+      "note": "Knox Letter signatory, served under D. James Kennedy"
+    }
+  ],
+  "notes": [
+    "PCA General Assembly has NEVER taken any overture or resolution on Israel/Palestine/Zionism",
+    "PCA covenant theology is inherently non-dispensational but few pastors actively oppose Christian Zionism publicly",
+    "The 2002 Knox Seminary Open Letter is the single largest collection of PCA-affiliated anti-Zionist voices",
+    "Most Knox Letter signatories are now deceased or retired",
+    "Among active PCA pastors, Zachary Garris is the most publicly vocal anti-Zionist",
+    "PC(USA) \u2014 a DIFFERENT denomination \u2014 has taken strong institutional anti-Zionist positions (divestment, rejecting Christian Zionism)",
+    "Steven Wedgeworth wrote sympathetically about Palestinian Christians for WORLD magazine but he is Anglican, not PCA"
+  ]
+}

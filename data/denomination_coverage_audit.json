@@ -1,0 +1,108 @@
+{
+  "auditDate": "2026-03-30",
+  "purpose": "Compare KML data coverage against official denomination directories",
+  "denominations": {
+    "PCA": {
+      "officialCount": "1,667 established churches (2025 stats)",
+      "ourData": "1,826 US churches (from PCA directory, includes missions/organizing)",
+      "coverage": "COMPLETE - we have MORE than current established count",
+      "antiZionist": 5,
+      "source": "pca_us_churches.json"
+    },
+    "OPC": {
+      "officialCount": "305 churches + 36 missions = 341 total (2024 stats)",
+      "ourData": "276 US churches (from KML) + verified via opc.org locator",
+      "coverage": "~81% - missing ~65 (includes Canada, newer missions)",
+      "antiZionist": 3,
+      "note": "Anti-Zionist search was by Knox letter signatories, not individual church scan. All OPC Knox signatories identified regardless of KML coverage."
+    },
+    "ARPC": {
+      "officialCount": "~270 US congregations (NAPARC: 258 total)",
+      "ourData": "239 US churches (from KML)",
+      "coverage": "~88%",
+      "antiZionist": 0,
+      "note": "Women deacons allowed denomination-wide. No anti-Zionist voices found."
+    },
+    "RPCNA": {
+      "officialCount": "91 total congregations (NAPARC)",
+      "ourData": "85 US from official site, 10 from KML",
+      "coverage": "~93% (from official site)",
+      "antiZionist": 0,
+      "note": "Women deacons since 1888 (~18% of congregations)."
+    },
+    "URCNA": {
+      "officialCount": "142 total, ~115 US (NAPARC)",
+      "ourData": "7 from KML (very sparse data)",
+      "coverage": "6% from KML, but denomination researched at org level",
+      "antiZionist": 0,
+      "note": "No anti-Zionist voices found. Conservative split from CRC. No women ordination."
+    },
+    "RCUS": {
+      "officialCount": "35 congregations (NAPARC)",
+      "ourData": "0 from KML",
+      "coverage": "0% from KML, but denomination researched at org level",
+      "antiZionist": 0,
+      "note": "No anti-Zionist voices found. No women ordination."
+    },
+    "PRCA": {
+      "officialCount": "33 churches, ~8,700 members",
+      "ourData": "7 from KML",
+      "coverage": "21% from KML, but denomination researched at org level",
+      "antiZionist": 0,
+      "note": "No anti-Zionist voices found. No women ordination."
+    },
+    "NRC": {
+      "officialCount": "~15 US churches, 27 total in N. America",
+      "ourData": "0 from KML",
+      "coverage": "0% from KML, but denomination researched at org level",
+      "antiZionist": 0,
+      "note": "Very conservative Dutch Reformed. No women ordination."
+    },
+    "FRCNA": {
+      "officialCount": "23 total, 2 in US (NJ and MI)",
+      "ourData": "0 from KML",
+      "coverage": "Only 2 US churches exist",
+      "antiZionist": 0
+    },
+    "HRC": {
+      "officialCount": "11-12 total, 6 in US",
+      "ourData": "0 from KML",
+      "coverage": "Only 6 US churches exist",
+      "antiZionist": 0
+    },
+    "KAPC": {
+      "officialCount": "~650 churches, 80,000 members",
+      "ourData": "Not in KML",
+      "coverage": "Not in KML map at all",
+      "antiZionist": 0,
+      "note": "Korean American Presbyterian. Westminster Standards. No women ordination. Not in KML."
+    },
+    "KPCA": {
+      "officialCount": "135 churches (2015)",
+      "ourData": "Not in KML",
+      "coverage": "Not in KML map at all",
+      "antiZionist": 0,
+      "note": "Korean Presbyterian (Kosin). Westminster Standards. No women ordination. Not in KML."
+    },
+    "PresRC": {
+      "officialCount": "6 congregations (NAPARC)",
+      "ourData": "In Scottish Westminster section",
+      "coverage": "Included",
+      "antiZionist": 0
+    },
+    "ConfessionalBaptist": {
+      "officialCount": "609 from reformedbaptistchurches.com + 185 from KML",
+      "ourData": "609 + 42 new = 651 total researched",
+      "coverage": "COMPLETE",
+      "antiZionist": 0
+    }
+  },
+  "summary": {
+    "totalDenominationsScanned": 14,
+    "totalAntiZionistFound": 8,
+    "denominationsWithAntiZionist": ["PCA (5)", "OPC (3)"],
+    "totalAntiZionistInSeedFile": 31,
+    "methodology": "Anti-Zionist identification used Knox Seminary Open Letter signatory matching, targeted web searches per denomination, Twitter/X scanning, and CAMERA article cross-referencing. This approach catches anti-Zionist pastors regardless of KML data completeness because we searched by pastor name and denomination, not by individual KML entries.",
+    "missedChurches": "The KML had incomplete data for URCNA (~108 missing), RCUS (35 missing), PRCA (~26 missing), NRC (~15 missing), and KAPC/KPCA (not in KML at all, ~785 churches). However, denomination-level anti-Zionist research found ZERO voices in any of these denominations, so the missing individual church data does not affect our anti-Zionist identification."
+  }
+}

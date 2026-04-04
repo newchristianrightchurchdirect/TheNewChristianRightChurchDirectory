@@ -33,7 +33,7 @@ export default function Header() {
             <Link
               href="/submit"
               aria-current={pathname === '/submit' ? 'page' : undefined}
-              className="px-3 sm:px-4 py-2 rounded-lg font-body text-sm bg-gold/15 text-gold border border-gold/25 hover:bg-gold/25 transition-all"
+              className="ml-1 sm:ml-2 px-3 sm:px-4 py-2 rounded-lg font-body text-sm bg-gold/15 text-gold border border-gold/25 hover:bg-gold/25 transition-all"
             >
               + Submit Church
             </Link>
