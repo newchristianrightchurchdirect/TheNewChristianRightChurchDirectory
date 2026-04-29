@@ -13,108 +13,128 @@ interface Church {
   latitude: number | null
   longitude: number | null
   zionistStance: string
-  website: string | null
 }
 
-const stanceColors: Record<string, string> = {
-  anti: '#059669',
-  no: '#C49A3C',
-  yes: '#8B2E3B',
-  unknown: '#6B7280',
+const POSITION_CLASS: Record<string, string> = {
+  anti: 'anti-zionist',
+  no: 'non-zionist',
+  yes: 'zionist',
+  unknown: 'unknown',
 }
 
-const stanceLabels: Record<string, string> = {
-  anti: 'Anti-Zionist',
-  no: 'Non-Zionist',
-  yes: 'Zionist',
-  unknown: 'Unknown Stance',
+interface MapViewProps {
+  churches: Church[]
+  activeId?: number | null
+  onSelect?: (id: number) => void
 }
 
-function buildPopupHtml(church: Church): string {
-  const stanceBorderColors: Record<string, string> = {
-    anti: 'color:#059669;background:rgba(5,150,105,0.1);border:1px solid rgba(5,150,105,0.2)',
-    no: 'color:#C49A3C;background:#F5ECD7;border:1px solid rgba(196,154,60,0.2)',
-    yes: 'color:#8B2E3B;background:rgba(139,46,59,0.1);border:1px solid rgba(139,46,59,0.15)',
-    unknown: 'color:#6B7280;background:#F3F4F6;border:1px solid #E5E7EB',
-  }
-
-  let html = `<div style="min-width:180px;font-family:'Plus Jakarta Sans',system-ui,sans-serif">`
-  html += `<h3 style="font-family:'Cormorant Garamond',Georgia,serif;font-size:16px;font-weight:600;color:#0A1628;margin:0 0 4px 0">${church.name}</h3>`
-  if (church.denomination) {
-    html += `<p style="font-size:11px;color:#8B2E3B;text-transform:uppercase;letter-spacing:0.5px;font-weight:600;margin:0 0 6px 0">${church.denomination}</p>`
-  }
-  html += `<p style="font-size:12px;color:#6b7280;margin:0 0 8px 0">${church.city}, ${church.state}</p>`
-  html += `<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">`
-  html += `<span style="font-size:10px;font-weight:700;${stanceBorderColors[church.zionistStance] || stanceBorderColors.unknown};padding:2px 8px;border-radius:9999px;text-transform:uppercase;letter-spacing:0.5px">${stanceLabels[church.zionistStance] || 'Unknown'}</span>`
-  if (church.website) {
-    html += `<a href="${church.website}" target="_blank" rel="noopener noreferrer" style="font-size:11px;color:#C49A3C;text-decoration:none;font-weight:500">Website &rarr;</a>`
-  }
-  html += `</div></div>`
-  return html
-}
-
-// Continental US bounds
-const US_BOUNDS: L.LatLngBoundsExpression = [[24.5, -125], [49.5, -66.5]]
-
-export default function MapView({ churches }: { churches: Church[] }) {
+export default function MapView({ churches, activeId = null, onSelect }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<L.Map | null>(null)
-  const markersRef = useRef<L.LayerGroup | null>(null)
+  const markersRef = useRef<Record<number, L.Marker>>({})
+  const onSelectRef = useRef(onSelect)
+
+  useEffect(() => { onSelectRef.current = onSelect }, [onSelect])
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return
 
     const map = L.map(containerRef.current, {
-      center: [39.8283, -98.5795],
+      center: [39.5, -98.5],
       zoom: 4,
-      zoomControl: true,
+      zoomControl: false,
+      attributionControl: true,
       scrollWheelZoom: true,
-      maxBounds: [[15, -135], [55, -55]],
-      maxBoundsViscosity: 0.8,
       minZoom: 3,
       maxZoom: 18,
-      renderer: L.canvas(),
     })
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; OSM &middot; Carto',
+      subdomains: 'abcd',
+      maxZoom: 19,
     }).addTo(map)
 
-    markersRef.current = L.layerGroup().addTo(map)
-    mapRef.current = map
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}{r}.png', {
+      subdomains: 'abcd',
+      maxZoom: 19,
+      pane: 'shadowPane',
+    }).addTo(map)
 
-    map.fitBounds(US_BOUNDS, { padding: [20, 20] })
+    mapRef.current = map
 
     return () => {
       map.remove()
       mapRef.current = null
-      markersRef.current = null
+      markersRef.current = {}
     }
   }, [])
 
   useEffect(() => {
     const map = mapRef.current
-    const markerGroup = markersRef.current
-    if (!map || !markerGroup) return
+    if (!map) return
 
-    markerGroup.clearLayers()
+    Object.values(markersRef.current).forEach(m => m.remove())
+    markersRef.current = {}
 
     const withCoords = churches.filter(c => c.latitude != null && c.longitude != null)
-
     withCoords.forEach(church => {
-      const color = stanceColors[church.zionistStance] || stanceColors.unknown
-      const marker = L.circleMarker([church.latitude!, church.longitude!], {
-        radius: 6,
-        fillColor: color,
-        fillOpacity: 0.85,
-        color: '#fff',
-        weight: 1.5,
-        opacity: 1,
+      const positionClass = POSITION_CLASS[church.zionistStance] || 'unknown'
+      const icon = L.divIcon({
+        className: '',
+        html: `<div class="church-marker ${positionClass}" data-id="${church.id}"></div>`,
+        iconSize: [12, 12],
+        iconAnchor: [6, 6],
       })
-      marker.bindPopup(buildPopupHtml(church))
-      markerGroup.addLayer(marker)
+      const marker = L.marker([church.latitude!, church.longitude!], { icon }).addTo(map)
+      const denom = church.denomination ? `${church.denomination} &middot; ` : ''
+      marker.bindPopup(
+        `<div class="popup-name">${church.name}</div>
+         <div class="popup-meta">${denom}${church.city}, ${church.state}</div>
+         <div class="popup-link">View Details &rarr;</div>`,
+        { closeButton: false, offset: [0, -4] }
+      )
+      marker.on('click', () => onSelectRef.current?.(church.id))
+      markersRef.current[church.id] = marker
     })
   }, [churches])
 
-  return <div ref={containerRef} className="w-full h-full" />
+  useEffect(() => {
+    Object.entries(markersRef.current).forEach(([id, m]) => {
+      const el = m.getElement()?.querySelector('.church-marker')
+      if (!el) return
+      if (Number(id) === activeId) el.classList.add('active')
+      else el.classList.remove('active')
+    })
+  }, [activeId])
+
+  const zoom = (delta: number) => {
+    const m = mapRef.current
+    if (m) m.setZoom(m.getZoom() + delta)
+  }
+
+  return (
+    <section className="map-region">
+      <div className="map-frame">
+        <div ref={containerRef} className="map-canvas" />
+        <div className="map-corner tl">Fig. 01 &middot; United States</div>
+        <div className="map-corner tr">Mercator Projection</div>
+        <div className="map-corner bl">Updated &middot; MMXXVI</div>
+        <div className="map-corner br">Scale &Vert; Variable</div>
+
+        <div className="map-zoom">
+          <button onClick={() => zoom(1)} aria-label="Zoom in">+</button>
+          <button onClick={() => zoom(-1)} aria-label="Zoom out">&minus;</button>
+        </div>
+
+        <div className="map-legend">
+          <div className="map-legend-title">Legend</div>
+          <div className="legend-item"><span className="legend-dot" style={{ background: 'var(--oxblood)' }} />Anti-Zionist</div>
+          <div className="legend-item"><span className="legend-dot" style={{ background: 'var(--brass)' }} />Non-Zionist</div>
+          <div className="legend-item"><span className="legend-dot" style={{ background: 'var(--ink)' }} />Zionist</div>
+          <div className="legend-item"><span className="legend-dot" style={{ background: 'var(--ink-mute)' }} />Unverified</div>
+        </div>
+      </div>
+    </section>
+  )
 }
