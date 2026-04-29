@@ -1,82 +1,94 @@
 'use client'
 
-import { useState, FormEvent } from 'react'
+import { useState, FormEvent, ReactNode } from 'react'
+import Link from 'next/link'
 
-const US_STATES = [
-  { value: 'AL', label: 'Alabama' }, { value: 'AK', label: 'Alaska' }, { value: 'AZ', label: 'Arizona' },
-  { value: 'AR', label: 'Arkansas' }, { value: 'CA', label: 'California' }, { value: 'CO', label: 'Colorado' },
-  { value: 'CT', label: 'Connecticut' }, { value: 'DE', label: 'Delaware' }, { value: 'FL', label: 'Florida' },
-  { value: 'GA', label: 'Georgia' }, { value: 'HI', label: 'Hawaii' }, { value: 'ID', label: 'Idaho' },
-  { value: 'IL', label: 'Illinois' }, { value: 'IN', label: 'Indiana' }, { value: 'IA', label: 'Iowa' },
-  { value: 'KS', label: 'Kansas' }, { value: 'KY', label: 'Kentucky' }, { value: 'LA', label: 'Louisiana' },
-  { value: 'ME', label: 'Maine' }, { value: 'MD', label: 'Maryland' }, { value: 'MA', label: 'Massachusetts' },
-  { value: 'MI', label: 'Michigan' }, { value: 'MN', label: 'Minnesota' }, { value: 'MS', label: 'Mississippi' },
-  { value: 'MO', label: 'Missouri' }, { value: 'MT', label: 'Montana' }, { value: 'NE', label: 'Nebraska' },
-  { value: 'NV', label: 'Nevada' }, { value: 'NH', label: 'New Hampshire' }, { value: 'NJ', label: 'New Jersey' },
-  { value: 'NM', label: 'New Mexico' }, { value: 'NY', label: 'New York' }, { value: 'NC', label: 'North Carolina' },
-  { value: 'ND', label: 'North Dakota' }, { value: 'OH', label: 'Ohio' }, { value: 'OK', label: 'Oklahoma' },
-  { value: 'OR', label: 'Oregon' }, { value: 'PA', label: 'Pennsylvania' }, { value: 'RI', label: 'Rhode Island' },
-  { value: 'SC', label: 'South Carolina' }, { value: 'SD', label: 'South Dakota' }, { value: 'TN', label: 'Tennessee' },
-  { value: 'TX', label: 'Texas' }, { value: 'UT', label: 'Utah' }, { value: 'VT', label: 'Vermont' },
-  { value: 'VA', label: 'Virginia' }, { value: 'WA', label: 'Washington' }, { value: 'WV', label: 'West Virginia' },
-  { value: 'WI', label: 'Wisconsin' }, { value: 'WY', label: 'Wyoming' }, { value: 'DC', label: 'Washington D.C.' },
+const STATES = ['AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY','DC']
+
+const STANCE_OPTIONS = [
+  { key: 'anti', mark: '\u2020', name: 'Anti-Zionist', desc: 'Opposes Christian Zionism' },
+  { key: 'no', mark: '\u2726', name: 'Non-Zionist', desc: 'No Zionist theology' },
+  { key: 'yes', mark: '\u2691', name: 'Zionist', desc: 'Pro-Zionist views' },
+  { key: 'unknown', mark: '?', name: 'Unknown', desc: 'Stance not yet clear' },
 ]
 
-const INITIAL_FORM = {
-  name: '',
-  denomination: '',
-  address: '',
-  city: '',
-  state: '',
-  zip: '',
-  website: '',
-  phone: '',
-  zionistStance: 'unknown',
-  theologicalNotes: '',
-  description: '',
+const INITIAL = {
+  name: '', denomination: '', description: '',
+  address: '', city: '', state: '', zip: '',
+  website: '', phone: '', pastor: '',
+  zionistStance: '', theologicalNotes: '', source: '',
   honeypot: '',
 }
 
+function Field({ label, required, optional, children }: { label: string; required?: boolean; optional?: boolean; children: ReactNode }) {
+  return (
+    <div className="field">
+      <div className="field-label">
+        <span>{label}{required && <span className="req"> *</span>}</span>
+        {optional && <span className="opt">optional</span>}
+      </div>
+      {children}
+    </div>
+  )
+}
+
+function FormSection({ num, title, titleEm, help, children }: { num: string; title: string; titleEm: string; help: string; children: ReactNode }) {
+  return (
+    <section className="form-section">
+      <div className="form-section-head">
+        <div className="form-section-num">&sect; {num}</div>
+        <div className="form-section-title">{title} <em>{titleEm}</em></div>
+        <div className="form-section-help">{help}</div>
+      </div>
+      <div className="form-fields">{children}</div>
+    </section>
+  )
+}
+
 export default function SubmitForm() {
-  const [formData, setFormData] = useState(INITIAL_FORM)
+  const [form, setForm] = useState(INITIAL)
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle')
   const [errorMessage, setErrorMessage] = useState('')
 
-  const updateField = (field: string, value: string) => {
-    setFormData(prev => ({ ...prev, [field]: value }))
-  }
+  const set = (k: keyof typeof INITIAL, v: string) => setForm(prev => ({ ...prev, [k]: v }))
 
-  const handleSubmit = async (e: FormEvent) => {
+  const onSubmit = async (e: FormEvent) => {
     e.preventDefault()
     setStatus('submitting')
     setErrorMessage('')
+
+    const theologicalNotes = [
+      form.theologicalNotes.trim(),
+      form.pastor.trim() ? `Pastor ${form.pastor.trim()}.` : '',
+      form.source.trim() ? `Source: ${form.source.trim()}` : '',
+    ].filter(Boolean).join(' ')
 
     try {
       const res = await fetch('/api/churches', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          name: formData.name,
-          denomination: formData.denomination,
-          address: formData.address,
-          city: formData.city,
-          state: formData.state,
-          zip: formData.zip,
-          website: formData.website,
-          phone: formData.phone,
-          zionistStance: formData.zionistStance,
-          theologicalNotes: formData.theologicalNotes,
-          description: formData.description,
-          honeypot: formData.honeypot,
+          name: form.name,
+          denomination: form.denomination,
+          address: form.address,
+          city: form.city,
+          state: form.state,
+          zip: form.zip,
+          website: form.website,
+          phone: form.phone,
+          zionistStance: form.zionistStance,
+          theologicalNotes,
+          description: form.description,
+          honeypot: form.honeypot,
         }),
       })
 
       if (!res.ok) {
-        const data = await res.json()
+        const data = await res.json().catch(() => ({}))
         throw new Error(data.error || 'Failed to submit church')
       }
-
       setStatus('success')
+      window.scrollTo({ top: 0, behavior: 'smooth' })
     } catch (err) {
       setStatus('error')
       setErrorMessage(err instanceof Error ? err.message : 'Something went wrong. Please try again.')
@@ -85,236 +97,148 @@ export default function SubmitForm() {
 
   if (status === 'success') {
     return (
-      <div className="bg-white rounded-xl border border-cream p-8 sm:p-10 text-center">
-        <div className="w-16 h-16 bg-emerald-50 border-2 border-emerald-200 rounded-full flex items-center justify-center mx-auto mb-5">
-          <svg className="w-8 h-8 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-          </svg>
+      <div className="page-wrap">
+        <div className="success-card">
+          <div className="success-mark">&#10086;</div>
+          <div className="success-title">Submission <em>Received</em></div>
+          <div className="success-msg">
+            Thank you for contributing to the directory. Our editorial team will review{' '}
+            {form.name ? <strong style={{ color: 'var(--ink)', fontStyle: 'normal' }}>{form.name}</strong> : 'your submission'}{' '}
+            and verify the church&apos;s confession before publication. Expect a response within seven days.
+          </div>
+          <Link href="/" className="btn-submit" style={{ display: 'inline-block', textDecoration: 'none' }}>
+            Return to Directory
+          </Link>
         </div>
-        <h2 className="font-display text-2xl sm:text-3xl font-semibold text-navy">Church Submitted!</h2>
-        <p className="font-body text-gray-500 mt-3 max-w-sm mx-auto leading-relaxed">
-          Thank you for your contribution. Your submission will be reviewed before appearing in the directory.
-        </p>
-        <button
-          onClick={() => { setStatus('idle'); setFormData(INITIAL_FORM) }}
-          className="mt-6 px-8 py-3 bg-gold text-white font-body text-sm font-bold rounded-xl hover:bg-gold-light transition-colors shadow-md shadow-gold/15 uppercase tracking-wide"
-        >
-          Submit Another Church
-        </button>
       </div>
     )
   }
 
-  const inputClasses =
-    'w-full px-4 py-3 rounded-lg border border-cream bg-ivory/50 font-body text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gold/40 focus:border-gold focus:bg-white transition-all'
-  const labelClasses = 'block font-body text-sm font-semibold text-navy/80 mb-1.5'
+  const submitDisabled = !form.name.trim() || !form.zionistStance || !form.address.trim() || !form.city.trim() || !form.state || status === 'submitting'
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-0">
+    <form className="page-wrap" onSubmit={onSubmit}>
+      <div className="page-intro">
+        <span className="page-eyebrow">Community Submission</span>
+        <h1 className="page-h1">Submit a <em>Church</em></h1>
+        <p className="page-lede">
+          Help us build the directory. Submit a congregation and tell us its theological stance.
+          All entries are reviewed by our editors before being published.
+        </p>
+      </div>
+
       {status === 'error' && (
-        <div className="bg-red-50 border border-red-200 rounded-lg p-4 font-body text-sm text-red-700 mb-6">
+        <div style={{
+          padding: '14px 18px',
+          border: '1px solid var(--oxblood)',
+          background: 'var(--paper)',
+          color: 'var(--oxblood)',
+          fontFamily: 'var(--mono)',
+          fontSize: 12,
+          letterSpacing: '0.08em',
+          marginBottom: 24,
+        }}>
           {errorMessage}
         </div>
       )}
 
-      {/* Honeypot field - hidden from real users */}
-      <div className="absolute opacity-0 top-0 left-0 h-0 w-0 -z-10" aria-hidden="true">
+      <div aria-hidden="true" style={{ position: 'absolute', left: '-9999px', height: 0, width: 0, overflow: 'hidden' }}>
         <label htmlFor="honeypot">Leave blank</label>
         <input
           type="text"
           id="honeypot"
           name="honeypot"
-          value={formData.honeypot}
-          onChange={e => updateField('honeypot', e.target.value)}
+          value={form.honeypot}
+          onChange={e => set('honeypot', e.target.value)}
           tabIndex={-1}
           autoComplete="off"
         />
       </div>
 
-      {/* Church Info Section */}
-      <fieldset className="bg-white rounded-xl border border-cream p-5 sm:p-6">
-        <legend className="sr-only">Church Information</legend>
-        <div className="flex items-center gap-3 mb-5">
-          <div className="w-9 h-9 rounded-xl bg-navy/8 flex items-center justify-center">
-            <svg className="w-[18px] h-[18px] text-navy/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-            </svg>
-          </div>
-          <div>
-            <h3 className="font-display text-lg font-semibold text-navy">Church Information</h3>
-            <p className="font-body text-xs text-gray-400 mt-0.5">Basic details about the church</p>
-          </div>
+      <FormSection num="I" title="Church" titleEm="Information" help="The basic identifying details — name, denominational affiliation, and a short description for fellow seekers.">
+        <Field label="Church Name" required>
+          <input type="text" required maxLength={200} placeholder="e.g. Grace Community Church" value={form.name} onChange={e => set('name', e.target.value)} />
+        </Field>
+        <Field label="Denomination" optional>
+          <input type="text" maxLength={100} placeholder="e.g. Reformed Baptist · PCA · OPC · Independent" value={form.denomination} onChange={e => set('denomination', e.target.value)} />
+        </Field>
+        <Field label="Description" optional>
+          <textarea maxLength={1000} placeholder="A brief portrait of the congregation — its history, distinctives, and community character&hellip;" value={form.description} onChange={e => set('description', e.target.value)} />
+        </Field>
+      </FormSection>
+
+      <FormSection num="II" title="Where it" titleEm="Gathers" help="Physical address. We use this to place the congregation on the map and verify its presence.">
+        <Field label="Street Address" required>
+          <input type="text" required maxLength={200} placeholder="123 Main Street" value={form.address} onChange={e => set('address', e.target.value)} />
+        </Field>
+        <div className="field-row cols-3">
+          <Field label="City" required>
+            <input type="text" required maxLength={100} placeholder="Nashville" value={form.city} onChange={e => set('city', e.target.value)} />
+          </Field>
+          <Field label="State" required>
+            <select required value={form.state} onChange={e => set('state', e.target.value)}>
+              <option value="" disabled>Select&hellip;</option>
+              {STATES.map(s => <option key={s} value={s}>{s}</option>)}
+            </select>
+          </Field>
+          <Field label="ZIP" optional>
+            <input type="text" maxLength={10} placeholder="37201" value={form.zip} onChange={e => set('zip', e.target.value)} />
+          </Field>
         </div>
-        <div className="space-y-4">
-          <div>
-            <label className={labelClasses}>Church Name <span className="text-burgundy">*</span></label>
-            <input type="text" required maxLength={200} value={formData.name} onChange={e => updateField('name', e.target.value)} placeholder="e.g. Grace Community Church" className={inputClasses} />
-          </div>
+      </FormSection>
 
-          <div>
-            <label className={labelClasses}>Denomination</label>
-            <input type="text" maxLength={100} value={formData.denomination} onChange={e => updateField('denomination', e.target.value)} placeholder="e.g. Southern Baptist, Non-Denominational, PCA" className={inputClasses} />
-          </div>
-
-          <div>
-            <label className={labelClasses}>Description</label>
-            <textarea maxLength={1000} rows={3} value={formData.description} onChange={e => updateField('description', e.target.value)} placeholder="Brief description of the church, its beliefs, and community..." className={inputClasses + ' resize-none'} />
-          </div>
+      <FormSection num="III" title="Means of" titleEm="Contact" help="Public contact information — only what is already published by the church.">
+        <div className="field-row cols-2">
+          <Field label="Website" optional>
+            <input type="url" placeholder="https://" value={form.website} onChange={e => set('website', e.target.value)} />
+          </Field>
+          <Field label="Telephone" optional>
+            <input type="tel" placeholder="(555) 123-4567" value={form.phone} onChange={e => set('phone', e.target.value)} />
+          </Field>
         </div>
-      </fieldset>
+        <Field label="Pastor or Elder" optional>
+          <input type="text" placeholder="Rev. John Smith" value={form.pastor} onChange={e => set('pastor', e.target.value)} />
+        </Field>
+      </FormSection>
 
-      <div className="py-3 flex justify-center">
-        <div className="h-px w-2/3 bg-gradient-to-r from-transparent via-cream to-transparent"></div>
-      </div>
-
-      {/* Location Section */}
-      <fieldset className="bg-white rounded-xl border border-cream p-5 sm:p-6">
-        <legend className="sr-only">Location</legend>
-        <div className="flex items-center gap-3 mb-5">
-          <div className="w-9 h-9 rounded-xl bg-navy/8 flex items-center justify-center">
-            <svg className="w-[18px] h-[18px] text-navy/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-            </svg>
-          </div>
-          <div>
-            <h3 className="font-display text-lg font-semibold text-navy">Location</h3>
-            <p className="font-body text-xs text-gray-400 mt-0.5">Where the church is located</p>
-          </div>
-        </div>
-        <div className="space-y-4">
-          <div>
-            <label className={labelClasses}>Street Address <span className="text-burgundy">*</span></label>
-            <input type="text" required maxLength={200} value={formData.address} onChange={e => updateField('address', e.target.value)} placeholder="e.g. 123 Main Street" className={inputClasses} />
-          </div>
-
-          <div className="grid grid-cols-5 sm:grid-cols-7 gap-3">
-            <div className="col-span-3 sm:col-span-3">
-              <label className={labelClasses}>City <span className="text-burgundy">*</span></label>
-              <input type="text" required maxLength={100} value={formData.city} onChange={e => updateField('city', e.target.value)} placeholder="Nashville" className={inputClasses} />
-            </div>
-            <div className="col-span-2 sm:col-span-2">
-              <label className={labelClasses}>State <span className="text-burgundy">*</span></label>
-              <select required value={formData.state} onChange={e => updateField('state', e.target.value)} className={inputClasses}>
-                <option value="">Select</option>
-                {US_STATES.map(s => <option key={s.value} value={s.value}>{s.label}</option>)}
-              </select>
-            </div>
-            <div className="col-span-3 sm:col-span-2">
-              <label className={labelClasses}>ZIP Code</label>
-              <input type="text" maxLength={10} value={formData.zip} onChange={e => updateField('zip', e.target.value)} placeholder="37201" className={inputClasses} />
-            </div>
-          </div>
-        </div>
-      </fieldset>
-
-      <div className="py-3 flex justify-center">
-        <div className="h-px w-2/3 bg-gradient-to-r from-transparent via-cream to-transparent"></div>
-      </div>
-
-      {/* Contact Section */}
-      <fieldset className="bg-white rounded-xl border border-cream p-5 sm:p-6">
-        <legend className="sr-only">Contact</legend>
-        <div className="flex items-center gap-3 mb-5">
-          <div className="w-9 h-9 rounded-xl bg-navy/8 flex items-center justify-center">
-            <svg className="w-[18px] h-[18px] text-navy/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
-            </svg>
-          </div>
-          <div>
-            <h3 className="font-display text-lg font-semibold text-navy">Contact</h3>
-            <p className="font-body text-xs text-gray-400 mt-0.5">Optional contact information</p>
-          </div>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div>
-            <label className={labelClasses}>Website</label>
-            <input type="url" value={formData.website} onChange={e => updateField('website', e.target.value)} placeholder="https://..." className={inputClasses} />
-          </div>
-          <div>
-            <label className={labelClasses}>Phone</label>
-            <input type="tel" value={formData.phone} onChange={e => updateField('phone', e.target.value)} placeholder="(555) 123-4567" className={inputClasses} />
-          </div>
-        </div>
-      </fieldset>
-
-      <div className="py-3 flex justify-center">
-        <div className="h-px w-2/3 bg-gradient-to-r from-transparent via-cream to-transparent"></div>
-      </div>
-
-      {/* Theological Section */}
-      <fieldset className="bg-white rounded-xl border border-cream p-5 sm:p-6">
-        <legend className="sr-only">Theological Stance</legend>
-        <div className="flex items-center gap-3 mb-5">
-          <div className="w-9 h-9 rounded-xl bg-navy/8 flex items-center justify-center">
-            <span className="text-navy/60 text-base leading-none">&#10013;</span>
-          </div>
-          <div>
-            <h3 className="font-display text-lg font-semibold text-navy">Theological Stance</h3>
-            <p className="font-body text-xs text-gray-400 mt-0.5">Doctrinal position on Zionism</p>
-          </div>
-        </div>
-
-        <div className="bg-ivory rounded-xl p-4 sm:p-5 border border-cream mb-5">
-          <label className={labelClasses}>Zionist Stance <span className="text-burgundy">*</span></label>
-          <p className="font-body text-xs text-gray-500 mb-3">Does this church hold a Christian Zionist / pro-Israel theological position?</p>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
-            {[
-              { value: 'anti', label: 'Anti-Zionist', desc: 'Opposes Christian Zionism', accent: 'border-emerald-600/50 bg-emerald-50 text-emerald-700 shadow-emerald-100/50 shadow-md' },
-              { value: 'no', label: 'Non-Zionist', desc: 'No Zionist theology', accent: 'border-gold/50 bg-gold-pale text-gold shadow-gold-pale/50 shadow-md' },
-              { value: 'yes', label: 'Zionist', desc: 'Pro-Israel views', accent: 'border-burgundy/40 bg-burgundy/5 text-burgundy shadow-burgundy/5 shadow-md' },
-              { value: 'unknown', label: 'Unknown', desc: "Stance isn't clear", accent: 'border-gray-300 bg-gray-50 text-gray-600 shadow-gray-100/50 shadow-md' },
-            ].map(opt => (
-              <label
-                key={opt.value}
-                className={`cursor-pointer rounded-xl border-2 p-3 sm:p-3.5 transition-all text-center ${
-                  formData.zionistStance === opt.value
-                    ? opt.accent
-                    : 'border-cream bg-white text-gray-600 hover:border-gray-300 hover:shadow-sm'
-                }`}
+      <FormSection num="IV" title="Theological" titleEm="Stance" help="The defining question — does this congregation hold to a Christian Zionist or pro-Israel theological position?">
+        <Field label="Zionist Position" required>
+          <div className="stance-grid">
+            {STANCE_OPTIONS.map(s => (
+              <div
+                key={s.key}
+                data-stance={s.key}
+                className={`stance-card${form.zionistStance === s.key ? ' selected' : ''}`}
+                onClick={() => set('zionistStance', s.key)}
+                role="button"
+                tabIndex={0}
+                onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); set('zionistStance', s.key) } }}
               >
-                <input
-                  type="radio"
-                  name="zionistStance"
-                  value={opt.value}
-                  checked={formData.zionistStance === opt.value}
-                  onChange={e => updateField('zionistStance', e.target.value)}
-                  className="sr-only"
-                />
-                <span className="font-body text-sm font-bold block">{opt.label}</span>
-                <span className="font-body text-[11px] opacity-60 block mt-0.5">{opt.desc}</span>
-              </label>
+                <div className="stance-mark">{s.mark}</div>
+                <div className="stance-name">{s.name}</div>
+                <div className="stance-desc">{s.desc}</div>
+              </div>
             ))}
           </div>
-        </div>
+        </Field>
+        <Field label="Confessional Notes" optional>
+          <textarea maxLength={1000} placeholder="e.g. Covenantal amillennial · Holds to the Westminster Standards · Rejects dispensationalism · 1689 LBCF&hellip;" value={form.theologicalNotes} onChange={e => set('theologicalNotes', e.target.value)} />
+        </Field>
+        <Field label="Source or Reference" optional>
+          <input type="text" placeholder="Statement of faith URL · sermon citation · published article" value={form.source} onChange={e => set('source', e.target.value)} />
+        </Field>
+      </FormSection>
 
-        <div>
-          <label className={labelClasses}>Theological Notes</label>
-          <p className="font-body text-xs text-gray-500 mb-1.5">Eschatology, confessional stance, relevant doctrinal details</p>
-          <textarea maxLength={1000} rows={3} value={formData.theologicalNotes} onChange={e => updateField('theologicalNotes', e.target.value)} placeholder="e.g. Covenantal amillennial, Westminster Confession, rejects dispensationalism..." className={inputClasses + ' resize-none'} />
+      <div className="submit-bar">
+        <div className="submit-note">
+          Submissions are reviewed manually. We verify the church&apos;s confession before publication and may correspond with leadership.
         </div>
-      </fieldset>
-
-      <div className="pt-6">
-        <button
-          type="submit"
-          disabled={status === 'submitting'}
-          className="w-full py-4 bg-navy text-white font-body text-sm font-bold rounded-xl hover:bg-navy-light active:scale-[0.99] transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-navy/15 tracking-wide uppercase"
-        >
-          {status === 'submitting' ? (
-            <span className="inline-flex items-center gap-2">
-              <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"></span>
-              Submitting...
-            </span>
-          ) : (
-            'Submit Church for Review'
-          )}
+        <button type="submit" className="btn-submit" disabled={submitDisabled}>
+          {status === 'submitting' ? 'Submitting\u2026' : 'Submit Church for Review \u2192'}
         </button>
-
-        <p className="font-body text-xs text-gray-400 text-center mt-4">
-          Submissions are reviewed manually. Please ensure all information is accurate.
-        </p>
       </div>
+
+      <Link href="/" className="back-link">&larr; Back to Directory</Link>
     </form>
   )
 }

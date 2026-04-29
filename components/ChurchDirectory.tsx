@@ -1,18 +1,19 @@
 'use client'
 
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useCallback } from 'react'
 import dynamic from 'next/dynamic'
 import ChurchCard from './ChurchCard'
 
 const MapView = dynamic(() => import('./MapView'), {
   ssr: false,
   loading: () => (
-    <div className="w-full h-full bg-navy-light flex items-center justify-center">
-      <div className="text-center">
-        <div className="w-10 h-10 border-2 border-gold/30 border-t-gold rounded-full animate-spin mx-auto mb-3"></div>
-        <p className="font-body text-sm text-white/40">Loading map...</p>
+    <section className="map-region">
+      <div className="map-frame">
+        <div className="map-canvas" style={{ display: 'grid', placeItems: 'center', color: 'var(--ink-mute)', fontFamily: 'var(--serif)', fontStyle: 'italic' }}>
+          Loading map&hellip;
+        </div>
       </div>
-    </div>
+    </section>
   ),
 })
 
@@ -28,256 +29,334 @@ interface Church {
   longitude: number | null
   website: string | null
   phone: string | null
+  email: string | null
   zionistStance: string
   theologicalNotes: string | null
   description: string | null
   upvotes: number
 }
 
+type Position = 'all' | 'anti' | 'no' | 'yes' | 'unknown'
+type SortKey = 'name' | 'state' | 'upvotes'
+
+const POSITION_TABS: Array<{ key: Position; label: string }> = [
+  { key: 'all', label: 'All' },
+  { key: 'anti', label: 'Anti-Zionist' },
+  { key: 'no', label: 'Non-Zionist' },
+  { key: 'unknown', label: 'Unknown' },
+]
+
+function extractPastor(notes: string | null): string | null {
+  if (!notes) return null
+  const m = notes.match(/Pastor\s+([A-Z][A-Za-z'.\-]+(?:\s+[A-Z][A-Za-z'.\-]+){1,3})/)
+  return m ? m[1] : null
+}
+
+const PER_PAGE = 60
+
 export default function ChurchDirectory() {
   const [churches, setChurches] = useState<Church[]>([])
-  const [search, setSearch] = useState('')
+  const [loading, setLoading] = useState(true)
+  const [query, setQuery] = useState('')
   const [stateFilter, setStateFilter] = useState('')
   const [denomFilter, setDenomFilter] = useState('')
-  const [stanceFilter, setStanceFilter] = useState<'all' | 'no' | 'anti' | 'yes' | 'unknown'>('anti')
-  const [loading, setLoading] = useState(true)
+  const [position, setPosition] = useState<Position>('anti')
+  const [sortKey, setSortKey] = useState<SortKey>('name')
+  const [activeId, setActiveId] = useState<number | null>(null)
+  const [detailOpen, setDetailOpen] = useState(false)
   const [page, setPage] = useState(1)
-  const perPage = 60
 
   useEffect(() => {
     fetch('/api/churches')
-      .then(res => res.json())
-      .then(data => {
-        setChurches(data)
-        setLoading(false)
-      })
+      .then(r => r.json())
+      .then((data: Church[]) => { setChurches(data); setLoading(false) })
       .catch(() => setLoading(false))
   }, [])
 
+  useEffect(() => { setPage(1) }, [query, stateFilter, denomFilter, position, sortKey])
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && detailOpen) setDetailOpen(false)
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [detailOpen])
+
+  const states = useMemo(() => [...new Set(churches.map(c => c.state))].sort(), [churches])
+  const denominations = useMemo(
+    () => [...new Set(churches.map(c => c.denomination).filter(Boolean) as string[])].sort(),
+    [churches]
+  )
+
   const filtered = useMemo(() => {
-    return churches.filter(c => {
-      const q = search.toLowerCase()
-      const matchesSearch =
-        !q ||
+    let list = churches
+    if (position !== 'all') list = list.filter(c => c.zionistStance === position)
+    if (stateFilter) list = list.filter(c => c.state === stateFilter)
+    if (denomFilter) list = list.filter(c => c.denomination === denomFilter)
+    if (query.trim()) {
+      const q = query.toLowerCase()
+      list = list.filter(c =>
         c.name.toLowerCase().includes(q) ||
         c.city.toLowerCase().includes(q) ||
         c.state.toLowerCase().includes(q) ||
-        c.denomination?.toLowerCase().includes(q)
-
-      const matchesState = !stateFilter || c.state === stateFilter
-      const matchesDenom = !denomFilter || c.denomination === denomFilter
-      const matchesStance = stanceFilter === 'all' || c.zionistStance === stanceFilter
-
-      return matchesSearch && matchesState && matchesDenom && matchesStance
+        (c.denomination?.toLowerCase().includes(q) ?? false)
+      )
+    }
+    list = [...list].sort((a, b) => {
+      if (sortKey === 'name') return a.name.localeCompare(b.name)
+      if (sortKey === 'state') return a.state.localeCompare(b.state) || a.name.localeCompare(b.name)
+      if (sortKey === 'upvotes') return b.upvotes - a.upvotes
+      return 0
     })
-  }, [churches, search, stateFilter, denomFilter, stanceFilter])
+    return list
+  }, [churches, query, stateFilter, denomFilter, position, sortKey])
 
-  // Reset to page 1 when filters change
-  useEffect(() => { setPage(1) }, [search, stateFilter, denomFilter, stanceFilter])
+  const total = churches.length
+  const counts = useMemo(() => ({
+    anti: churches.filter(c => c.zionistStance === 'anti').length,
+    no: churches.filter(c => c.zionistStance === 'no').length,
+    yes: churches.filter(c => c.zionistStance === 'yes').length,
+    unknown: churches.filter(c => c.zionistStance === 'unknown').length,
+  }), [churches])
 
-  const totalPages = Math.ceil(filtered.length / perPage)
-  const paginated = useMemo(() => filtered.slice((page - 1) * perPage, page * perPage), [filtered, page])
+  const tabCounts: Record<Position, number> = {
+    all: total,
+    anti: counts.anti,
+    no: counts.no,
+    yes: counts.yes,
+    unknown: counts.unknown,
+  }
 
-  const states = useMemo(() => [...new Set(churches.map(c => c.state))].sort(), [churches])
-  const denominations = useMemo(() => [...new Set(churches.map(c => c.denomination).filter(Boolean))].sort() as string[], [churches])
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PER_PAGE))
+  const paginated = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE)
 
-  const totalCount = churches.length
-  const antiZionistCount = churches.filter(c => c.zionistStance === 'anti').length
-  const nonZionistCount = churches.filter(c => c.zionistStance === 'no').length
+  const handleSelect = useCallback((id: number) => {
+    setActiveId(id)
+    setDetailOpen(true)
+  }, [])
+
+  const activeChurch = activeId != null ? churches.find(c => c.id === activeId) || null : null
+
+  const cycleSort = () => {
+    setSortKey(k => k === 'name' ? 'state' : k === 'state' ? 'upvotes' : 'name')
+  }
+
+  const sortLabel = sortKey === 'name' ? 'A → Z' : sortKey === 'state' ? 'By State' : 'By Upvotes'
+
+  const fmt = (n: number) => n.toLocaleString()
+  const pct = (n: number) => total > 0 ? ((n / total) * 100) : 0
 
   return (
-    <div className="min-h-screen bg-ivory">
-      {/* Hero + Map */}
-      <section className="relative">
-        <div className="bg-navy px-4 py-5 sm:py-6">
-          <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
-            <div>
-              <h1 className="font-display text-2xl sm:text-3xl font-bold text-white">
-                The New <span className="text-gold">Christian Right</span> Church Directory
-              </h1>
-              <p className="font-body text-sm text-white/50 mt-1">
-                Identifying anti-Zionist, Bible-believing churches across America
-              </p>
-            </div>
-            {!loading && (
-              <div className="flex items-center gap-4 font-body text-xs text-white/50">
-                <span>{totalCount} churches</span>
-                <span className="w-px h-3 bg-white/20"></span>
-                <span className="text-green-400 font-medium">{antiZionistCount} anti-Zionist</span>
-                <span className="w-px h-3 bg-white/20"></span>
-                <span className="text-gold/80 font-medium">{nonZionistCount} non-Zionist</span>
-              </div>
-            )}
+    <div>
+      <div className="stats-strip">
+        <div className="stat">
+          <div className="stat-label">Currently Showing</div>
+          <div className="stat-value">
+            {fmt(filtered.length)}<span className="small">of {fmt(total)} congregations</span>
           </div>
+          <div className="stat-bar"><span style={{ width: total > 0 ? `${(filtered.length / total * 100).toFixed(1)}%` : '0%' }} /></div>
         </div>
+        <div className="stat">
+          <div className="stat-label">Anti-Zionist</div>
+          <div className="stat-value"><span className="accent">{fmt(counts.anti)}</span><span className="small">&Vert; {pct(counts.anti).toFixed(1)}%</span></div>
+          <div className="stat-bar"><span className="oxblood" style={{ width: `${pct(counts.anti).toFixed(2)}%` }} /></div>
+        </div>
+        <div className="stat">
+          <div className="stat-label">Non-Zionist</div>
+          <div className="stat-value"><span className="brass">{fmt(counts.no)}</span><span className="small">&Vert; {pct(counts.no).toFixed(1)}%</span></div>
+          <div className="stat-bar"><span className="brass" style={{ width: `${pct(counts.no).toFixed(2)}%` }} /></div>
+        </div>
+        <div className="stat">
+          <div className="stat-label">Unverified</div>
+          <div className="stat-value">{fmt(counts.unknown)}<span className="small">&Vert; {pct(counts.unknown).toFixed(1)}%</span></div>
+          <div className="stat-bar"><span style={{ width: `${pct(counts.unknown).toFixed(2)}%`, background: 'var(--ink-mute)' }} /></div>
+        </div>
+      </div>
 
-        <div className="h-[55vh] sm:h-[60vh] relative">
-          <MapView churches={filtered} />
+      <main className="main-grid">
+        <MapView
+          churches={filtered}
+          activeId={activeId}
+          onSelect={handleSelect}
+        />
 
-          {/* Search overlay */}
-          <div className="absolute bottom-0 left-0 right-0 z-[1000] p-3 sm:p-5">
-            <div className="max-w-5xl mx-auto bg-white/95 backdrop-blur-md rounded-xl shadow-2xl shadow-navy/15 border border-cream p-3 sm:p-4">
-              <div className="flex flex-col sm:flex-row gap-2.5">
-                <div className="flex-1 relative">
-                  <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4.5 h-4.5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                  </svg>
-                  <input
-                    type="text"
-                    placeholder="Search by name, city, or denomination..."
-                    value={search}
-                    onChange={e => setSearch(e.target.value)}
-                    className="w-full pl-10 pr-4 py-2.5 rounded-lg border border-gray-200 font-body text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gold/40 focus:border-gold transition-all"
-                  />
-                </div>
+        <aside className="directory">
+          <div className="dir-header">
+            <div className="dir-eyebrow">
+              <span>&sect; II &Vert; The Directory</span>
+              <span>Browse &middot; Sort &middot; Filter</span>
+            </div>
+            <div className="dir-title">Faithful <em>Congregations</em></div>
+          </div>
 
-                <select
-                  value={stateFilter}
-                  onChange={e => setStateFilter(e.target.value)}
-                  className="px-3 py-2.5 rounded-lg border border-gray-200 font-body text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-gold/40 focus:border-gold bg-white transition-all min-w-[120px]"
-                >
+          <div className="filters">
+            <div className="search-box">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <circle cx="11" cy="11" r="7" /><path d="m20 20-3-3" />
+              </svg>
+              <input
+                placeholder="Search by name, city, or denomination&hellip;"
+                value={query}
+                onChange={e => setQuery(e.target.value)}
+              />
+            </div>
+            <div className="filter-row">
+              <div className="filter-select">
+                <select value={stateFilter} onChange={e => setStateFilter(e.target.value)}>
                   <option value="">All States</option>
                   {states.map(s => <option key={s} value={s}>{s}</option>)}
                 </select>
-
-                <select
-                  value={denomFilter}
-                  onChange={e => setDenomFilter(e.target.value)}
-                  className="px-3 py-2.5 rounded-lg border border-gray-200 font-body text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-gold/40 focus:border-gold bg-white transition-all min-w-[150px]"
-                >
+              </div>
+              <div className="filter-select">
+                <select value={denomFilter} onChange={e => setDenomFilter(e.target.value)}>
                   <option value="">All Denominations</option>
                   {denominations.map(d => <option key={d} value={d}>{d}</option>)}
                 </select>
-
-                <select
-                  value={stanceFilter}
-                  onChange={e => setStanceFilter(e.target.value as typeof stanceFilter)}
-                  className="px-3 py-2.5 rounded-lg border border-gray-200 font-body text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-gold/40 focus:border-gold bg-white transition-all min-w-[150px]"
+              </div>
+            </div>
+            <div className="position-tabs">
+              {POSITION_TABS.map(p => (
+                <button
+                  key={p.key}
+                  className={`position-tab${position === p.key ? ' active' : ''}`}
+                  onClick={() => setPosition(p.key)}
+                  type="button"
                 >
-                  <option value="all">All Stances</option>
-                  <option value="anti">Anti-Zionist</option>
-                  <option value="no">Non-Zionist</option>
-                  <option value="yes">Zionist</option>
-                  <option value="unknown">Unknown</option>
-                </select>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div className="h-1 bg-gradient-to-r from-transparent via-gold/40 to-transparent"></div>
-
-      {/* Results */}
-      <section className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-8 sm:py-10">
-        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-6">
-          <h2 className="font-display text-2xl font-semibold text-navy">
-            {loading
-              ? 'Loading directory...'
-              : `${filtered.length} ${filtered.length === 1 ? 'Church' : 'Churches'} Found`}
-          </h2>
-          <div className="flex items-center gap-4 text-xs font-body text-gray-500 flex-wrap">
-            <span className="flex items-center gap-1.5">
-              <span className="w-3 h-3 rounded-full bg-emerald-600 inline-block shadow-sm"></span>
-              Anti-Zionist
-            </span>
-            <span className="flex items-center gap-1.5">
-              <span className="w-3 h-3 rounded-full bg-gold inline-block shadow-sm"></span>
-              Non-Zionist
-            </span>
-            <span className="flex items-center gap-1.5">
-              <span className="w-3 h-3 rounded-full bg-burgundy inline-block shadow-sm"></span>
-              Zionist
-            </span>
-            <span className="flex items-center gap-1.5">
-              <span className="w-3 h-3 rounded-full bg-gray-400 inline-block shadow-sm"></span>
-              Unknown
-            </span>
-          </div>
-        </div>
-
-        {loading ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {[...Array(6)].map((_, i) => (
-              <div key={i} className="bg-white rounded-xl border border-cream p-5 animate-pulse">
-                <div className="h-5 bg-gray-200 rounded w-3/4 mb-3"></div>
-                <div className="h-3 bg-gray-100 rounded w-1/3 mb-4"></div>
-                <div className="h-4 bg-gray-100 rounded w-1/2 mb-2"></div>
-                <div className="h-12 bg-gray-50 rounded w-full mt-3"></div>
-              </div>
-            ))}
-          </div>
-        ) : filtered.length === 0 ? (
-          <div className="text-center py-20">
-            <div className="w-16 h-16 bg-cream rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg className="w-7 h-7 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-              </svg>
-            </div>
-            <p className="font-display text-xl text-gray-400">No churches found</p>
-            <p className="font-body text-sm text-gray-400 mt-2">Try adjusting your search or filters</p>
-            {stanceFilter !== 'all' && (
-              <button
-                onClick={() => setStanceFilter('all')}
-                className="mt-4 px-4 py-2 bg-gold/10 text-gold font-body text-sm font-medium rounded-lg hover:bg-gold/20 transition-colors"
-              >
-                Show All Stances
-              </button>
-            )}
-          </div>
-        ) : (
-          <>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-              {paginated.map((church, i) => (
-                <ChurchCard key={church.id} church={church} index={i} />
+                  <span>{p.label}</span>
+                  <span className="count">{fmt(tabCounts[p.key])}</span>
+                </button>
               ))}
             </div>
-            {totalPages > 1 && (
-              <div className="flex items-center justify-center gap-2 mt-8">
-                <button
-                  onClick={() => { setPage(p => Math.max(1, p - 1)); window.scrollTo({ top: 0, behavior: 'smooth' }) }}
-                  disabled={page === 1}
-                  className="px-3 py-2 rounded-lg border border-gray-200 font-body text-sm text-gray-700 hover:bg-gray-50 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-                >
-                  Previous
-                </button>
-                {Array.from({ length: Math.min(totalPages, 7) }, (_, i) => {
-                  let p: number
-                  if (totalPages <= 7) {
-                    p = i + 1
-                  } else if (page <= 4) {
-                    p = i + 1
-                  } else if (page >= totalPages - 3) {
-                    p = totalPages - 6 + i
-                  } else {
-                    p = page - 3 + i
-                  }
-                  return (
-                    <button
-                      key={p}
-                      onClick={() => { setPage(p); window.scrollTo({ top: 0, behavior: 'smooth' }) }}
-                      className={`w-9 h-9 rounded-lg font-body text-sm transition-colors ${
-                        p === page
-                          ? 'bg-navy text-white font-medium'
-                          : 'border border-gray-200 text-gray-700 hover:bg-gray-50'
-                      }`}
-                    >
-                      {p}
-                    </button>
-                  )
-                })}
-                <button
-                  onClick={() => { setPage(p => Math.min(totalPages, p + 1)); window.scrollTo({ top: 0, behavior: 'smooth' }) }}
-                  disabled={page === totalPages}
-                  className="px-3 py-2 rounded-lg border border-gray-200 font-body text-sm text-gray-700 hover:bg-gray-50 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-                >
-                  Next
-                </button>
-              </div>
+          </div>
+
+          <div className="dir-results-bar">
+            <span><strong>{fmt(filtered.length)}</strong> Churches Found</span>
+            <span className="sort-toggle" onClick={cycleSort} role="button" tabIndex={0}>
+              Sort &Vert; {sortLabel} &updownarrow;
+            </span>
+          </div>
+
+          <div className="church-list">
+            {loading && <div className="empty-state">Loading directory&hellip;</div>}
+            {!loading && filtered.length === 0 && (
+              <div className="empty-state">No congregations match those filters.</div>
             )}
+            {!loading && paginated.map((c, i) => (
+              <ChurchCard
+                key={c.id}
+                church={c}
+                index={(page - 1) * PER_PAGE + i + 1}
+                active={c.id === activeId}
+                onClick={() => handleSelect(c.id)}
+              />
+            ))}
+          </div>
+
+          {totalPages > 1 && (
+            <div className="pagination">
+              <button onClick={() => setPage(p => Math.max(1, p - 1))} disabled={page === 1}>&larr; Prev</button>
+              <span style={{ color: 'var(--ink-soft)' }}>Page {page} / {totalPages}</span>
+              <button onClick={() => setPage(p => Math.min(totalPages, p + 1))} disabled={page === totalPages}>Next &rarr;</button>
+            </div>
+          )}
+        </aside>
+      </main>
+
+      <DetailPanel church={detailOpen ? activeChurch : null} onClose={() => setDetailOpen(false)} />
+    </div>
+  )
+}
+
+function DetailPanel({ church, onClose }: { church: Church | null; onClose: () => void }) {
+  const open = !!church
+  const pastor = extractPastor(church?.theologicalNotes ?? null)
+  const positionLabel = church
+    ? church.zionistStance === 'anti' ? 'Anti-Zionist'
+      : church.zionistStance === 'no' ? 'Non-Zionist'
+      : church.zionistStance === 'yes' ? 'Zionist'
+      : 'Unverified'
+    : ''
+
+  return (
+    <>
+      <div className={`detail-overlay${open ? ' open' : ''}`} onClick={onClose} />
+      <aside className={`detail-panel${open ? ' open' : ''}`} aria-hidden={!open}>
+        {church && (
+          <>
+            <div className="detail-head">
+              <div className="detail-eyebrow">
+                <span>&sect; Congregation Profile</span>
+                <button className="detail-close" onClick={onClose} aria-label="Close">&times;</button>
+              </div>
+              <div className="detail-name">{church.name}</div>
+              <div className="detail-loc">
+                {church.city}, {church.state}{church.denomination ? ` · ${church.denomination}` : ''}
+              </div>
+            </div>
+            <div className="detail-body">
+              {(church.description || church.theologicalNotes) && (
+                <div className="detail-section">
+                  <h4>Confession &amp; Conviction</h4>
+                  <p>{church.description || church.theologicalNotes}</p>
+                </div>
+              )}
+
+              <div className="detail-section">
+                <h4>At a Glance</h4>
+                <div className="detail-stat-grid">
+                  <div className="detail-stat">
+                    <div className="detail-stat-label">Position</div>
+                    <div className="detail-stat-value" style={{ fontSize: 16, textTransform: 'uppercase', fontFamily: 'var(--mono)', letterSpacing: '0.1em' }}>
+                      {positionLabel}
+                    </div>
+                  </div>
+                  <div className="detail-stat">
+                    <div className="detail-stat-label">Denomination</div>
+                    <div className="detail-stat-value" style={{ fontSize: 16 }}>{church.denomination || '—'}</div>
+                  </div>
+                  <div className="detail-stat">
+                    <div className="detail-stat-label">Pastor</div>
+                    <div className="detail-stat-value" style={{ fontSize: 16 }}>{pastor || '—'}</div>
+                  </div>
+                  <div className="detail-stat">
+                    <div className="detail-stat-label">Upvotes</div>
+                    <div className="detail-stat-value">{church.upvotes}</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="detail-section">
+                <h4>Contact</h4>
+                <p style={{ fontFamily: 'var(--mono)', fontSize: 12, lineHeight: 2 }}>
+                  TELEPHONE &Vert; {church.phone || 'not listed'}<br />
+                  EMAIL &Vert; {church.email || 'not listed'}<br />
+                  ADDRESS &Vert; {church.address}, {church.city}, {church.state}{church.zip ? ` ${church.zip}` : ''}<br />
+                  WEBSITE &Vert; {church.website ? 'available' : 'not listed'}
+                </p>
+              </div>
+
+              {church.theologicalNotes && church.theologicalNotes !== church.description && (
+                <div className="detail-section">
+                  <h4>Editor's Note</h4>
+                  <p style={{ fontStyle: 'italic', fontFamily: 'var(--serif)', fontSize: 15 }}>
+                    {church.theologicalNotes}
+                  </p>
+                </div>
+              )}
+            </div>
+            <div className="detail-actions">
+              <button className="btn" type="button" onClick={onClose}>Close</button>
+              {church.phone && <a className="btn" href={`tel:${church.phone}`}>Call</a>}
+              {church.website ? (
+                <a className="btn primary" href={church.website} target="_blank" rel="noopener noreferrer">Visit Website &rarr;</a>
+              ) : (
+                <button className="btn primary" type="button" disabled>No Website</button>
+              )}
+            </div>
           </>
         )}
-      </section>
-    </div>
+      </aside>
+    </>
   )
 }
