@@ -120,7 +120,7 @@ export default function MapView({ churches, activeId = null, onSelect }: MapView
         <div className="map-corner tl">Fig. 01 &middot; United States</div>
         <div className="map-corner tr">Mercator Projection</div>
         <div className="map-corner bl">Updated &middot; MMXXVI</div>
-        <div className="map-corner br">Scale &Vert; Variable</div>
+        <div className="map-corner br">Scale ‖ Variable</div>
 
         <div className="map-zoom">
           <button onClick={() => zoom(1)} aria-label="Zoom in">+</button>

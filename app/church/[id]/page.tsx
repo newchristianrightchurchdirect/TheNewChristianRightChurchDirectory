@@ -172,10 +172,10 @@ export default function ChurchDetailPage() {
             Contact
           </h2>
           <p style={{ fontFamily: 'var(--mono)', fontSize: 12, lineHeight: 2, color: 'var(--ink-soft)' }}>
-            ADDRESS &Vert; {church.address}, {church.city}, {church.state}{church.zip ? ` ${church.zip}` : ''}<br />
-            TELEPHONE &Vert; {church.phone ? <a href={`tel:${church.phone}`} style={{ borderBottom: '1px solid var(--rule)' }}>{church.phone}</a> : 'not listed'}<br />
-            EMAIL &Vert; {church.email ? <a href={`mailto:${church.email}`} style={{ borderBottom: '1px solid var(--rule)' }}>{church.email}</a> : 'not listed'}<br />
-            WEBSITE &Vert; {church.website ? <a href={church.website} target="_blank" rel="noopener noreferrer" style={{ borderBottom: '1px solid var(--brass)', color: 'var(--brass-deep)' }}>{church.website}</a> : 'not listed'}
+            ADDRESS ‖ {church.address}, {church.city}, {church.state}{church.zip ? ` ${church.zip}` : ''}<br />
+            TELEPHONE ‖ {church.phone ? <a href={`tel:${church.phone}`} style={{ borderBottom: '1px solid var(--rule)' }}>{church.phone}</a> : 'not listed'}<br />
+            EMAIL ‖ {church.email ? <a href={`mailto:${church.email}`} style={{ borderBottom: '1px solid var(--rule)' }}>{church.email}</a> : 'not listed'}<br />
+            WEBSITE ‖ {church.website ? <a href={church.website} target="_blank" rel="noopener noreferrer" style={{ borderBottom: '1px solid var(--brass)', color: 'var(--brass-deep)' }}>{church.website}</a> : 'not listed'}
           </p>
         </section>
 

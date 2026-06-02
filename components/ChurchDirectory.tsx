@@ -159,17 +159,17 @@ export default function ChurchDirectory() {
         </div>
         <div className="stat">
           <div className="stat-label">Anti-Zionist</div>
-          <div className="stat-value"><span className="accent">{fmt(counts.anti)}</span><span className="small">&Vert; {pct(counts.anti).toFixed(1)}%</span></div>
+          <div className="stat-value"><span className="accent">{fmt(counts.anti)}</span><span className="small">‖ {pct(counts.anti).toFixed(1)}%</span></div>
           <div className="stat-bar"><span className="oxblood" style={{ width: `${pct(counts.anti).toFixed(2)}%` }} /></div>
         </div>
         <div className="stat">
           <div className="stat-label">Non-Zionist</div>
-          <div className="stat-value"><span className="brass">{fmt(counts.no)}</span><span className="small">&Vert; {pct(counts.no).toFixed(1)}%</span></div>
+          <div className="stat-value"><span className="brass">{fmt(counts.no)}</span><span className="small">‖ {pct(counts.no).toFixed(1)}%</span></div>
           <div className="stat-bar"><span className="brass" style={{ width: `${pct(counts.no).toFixed(2)}%` }} /></div>
         </div>
         <div className="stat">
           <div className="stat-label">Unverified</div>
-          <div className="stat-value">{fmt(counts.unknown)}<span className="small">&Vert; {pct(counts.unknown).toFixed(1)}%</span></div>
+          <div className="stat-value">{fmt(counts.unknown)}<span className="small">‖ {pct(counts.unknown).toFixed(1)}%</span></div>
           <div className="stat-bar"><span style={{ width: `${pct(counts.unknown).toFixed(2)}%`, background: 'var(--ink-mute)' }} /></div>
         </div>
       </div>
@@ -184,7 +184,7 @@ export default function ChurchDirectory() {
         <aside className="directory">
           <div className="dir-header">
             <div className="dir-eyebrow">
-              <span>&sect; II &Vert; The Directory</span>
+              <span>&sect; II ‖ The Directory</span>
               <span>Browse &middot; Sort &middot; Filter</span>
             </div>
             <div className="dir-title">Faithful <em>Congregations</em></div>
@@ -233,7 +233,7 @@ export default function ChurchDirectory() {
           <div className="dir-results-bar">
             <span><strong>{fmt(filtered.length)}</strong> Churches Found</span>
             <span className="sort-toggle" onClick={cycleSort} role="button" tabIndex={0}>
-              Sort &Vert; {sortLabel} &updownarrow;
+              Sort ‖ {sortLabel} ↕
             </span>
           </div>
 
@@ -329,10 +329,10 @@ function DetailPanel({ church, onClose }: { church: Church | null; onClose: () =
               <div className="detail-section">
                 <h4>Contact</h4>
                 <p style={{ fontFamily: 'var(--mono)', fontSize: 12, lineHeight: 2 }}>
-                  TELEPHONE &Vert; {church.phone || 'not listed'}<br />
-                  EMAIL &Vert; {church.email || 'not listed'}<br />
-                  ADDRESS &Vert; {church.address}, {church.city}, {church.state}{church.zip ? ` ${church.zip}` : ''}<br />
-                  WEBSITE &Vert; {church.website ? 'available' : 'not listed'}
+                  TELEPHONE ‖ {church.phone || 'not listed'}<br />
+                  EMAIL ‖ {church.email || 'not listed'}<br />
+                  ADDRESS ‖ {church.address}, {church.city}, {church.state}{church.zip ? ` ${church.zip}` : ''}<br />
+                  WEBSITE ‖ {church.website ? 'available' : 'not listed'}
                 </p>
               </div>
 

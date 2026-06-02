@@ -31,7 +31,7 @@ export default function Header() {
         <div className="masthead-meta-l">
           Established<br />
           MMXXIV<br />
-          &Vert; Independent
+          ‖ Independent
         </div>
         <h1 className="masthead-title">
           The New <em>Christian</em> Right<br />
@@ -40,7 +40,7 @@ export default function Header() {
         <div className="masthead-meta-r">
           {date || '\u00A0'}<br />
           50 States<br />
-          &Vert; Confessional
+          ‖ Confessional
         </div>
       </div>
       <div className="masthead-rule">
