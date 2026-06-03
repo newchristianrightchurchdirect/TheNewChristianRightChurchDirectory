@@ -14,6 +14,10 @@ export default function BibleChapter({ translation, book, chapter }: { translati
   const [ch, setCh] = useState<BC | null>(null)
   const [err, setErr] = useState<string | null>(null)
   const [allBooks, setAllBooks] = useState<BibleBook[] | null>(null)
+  const [selected, setSelected] = useState<Set<number>>(new Set())
+  const [copied, setCopied] = useState<string | null>(null)
+
+  useEffect(() => { setSelected(new Set()); setCopied(null) }, [translation, book, chapter])
 
   const textScale = useHymnalStore((s) => s.textScale)
   const single = useHymnalStore((s) => s.bibleSingleColumn)
@@ -90,15 +94,70 @@ export default function BibleChapter({ translation, book, chapter }: { translati
 
       <div className="bible-prose-wrap">
         <div className={`bible-prose${single ? '' : ' two-col'}`} style={{ fontSize: proseSize }}>
-          {ch.verses.map((v) => (
-            <span key={v.number}>
-              <sup className="vn">{v.number}</sup>
-              {v.text}
-              {' '}
-            </span>
-          ))}
+          {ch.verses.map((v) => {
+            const on = selected.has(v.number)
+            return (
+              <span
+                key={v.number}
+                className={`v${on ? ' selected' : ''}`}
+                role="button"
+                tabIndex={0}
+                onClick={() => {
+                  setSelected((s) => {
+                    const next = new Set(s)
+                    if (next.has(v.number)) next.delete(v.number); else next.add(v.number)
+                    return next
+                  })
+                }}
+                onKeyDown={(e) => {
+                  if (e.key === ' ' || e.key === 'Enter') {
+                    e.preventDefault()
+                    setSelected((s) => {
+                      const next = new Set(s)
+                      if (next.has(v.number)) next.delete(v.number); else next.add(v.number)
+                      return next
+                    })
+                  }
+                }}
+              >
+                <sup className="vn">{v.number}</sup>
+                {v.text}
+                {' '}
+              </span>
+            )
+          })}
         </div>
       </div>
+
+      {selected.size > 0 && (
+        <VerseSelectionBar
+          count={selected.size}
+          onCopy={async () => {
+            const sorted = [...selected].sort((a, b) => a - b)
+            const verses = sorted.map((n) => ch.verses.find((v) => v.number === n)).filter(Boolean) as typeof ch.verses
+            const range = sorted.length === 1 ? `${sorted[0]}` : (sorted[sorted.length - 1] - sorted[0] === sorted.length - 1 ? `${sorted[0]}-${sorted[sorted.length - 1]}` : sorted.join(','))
+            const body = verses.map((v) => `${v.number} ${v.text}`).join(' ')
+            const text = `${bk.name} ${chapter}:${range} (${label}) \u2014 ${body}`
+            try { await navigator.clipboard.writeText(text); setCopied('Copied'); setTimeout(() => setCopied(null), 1400) }
+            catch { setCopied('Copy failed'); setTimeout(() => setCopied(null), 1400) }
+          }}
+          onShare={async () => {
+            const sorted = [...selected].sort((a, b) => a - b)
+            const verses = sorted.map((n) => ch.verses.find((v) => v.number === n)).filter(Boolean) as typeof ch.verses
+            const range = sorted.length === 1 ? `${sorted[0]}` : `${sorted[0]}-${sorted[sorted.length - 1]}`
+            const body = verses.map((v) => `${v.number} ${v.text}`).join(' ')
+            const text = `${bk.name} ${chapter}:${range} (${label}) \u2014 ${body}`
+            if (navigator.share) {
+              try { await navigator.share({ title: `${bk.name} ${chapter}:${range}`, text }) } catch { /* cancelled */ }
+            } else {
+              try { await navigator.clipboard.writeText(text); setCopied('Copied'); setTimeout(() => setCopied(null), 1400) }
+              catch { setCopied('Copy failed'); setTimeout(() => setCopied(null), 1400) }
+            }
+          }}
+          onClear={() => setSelected(new Set())}
+          message={copied}
+        />
+      )}
 
       <div className="chapter-nav-row">
         {prevCh ? (
@@ -120,5 +179,42 @@ export default function BibleChapter({ translation, book, chapter }: { translati
         ) : <span className="dummy">Next</span>}
       </div>
     </article>
+  )
+}
+
+function VerseSelectionBar({ count, onCopy, onShare, onClear, message }: {
+  count: number
+  onCopy: () => void
+  onShare: () => void
+  onClear: () => void
+  message: string | null
+}) {
+  return (
+    <div className="verse-selection-bar">
+      <div className="verse-selection-bar-inner">
+        <span className="cnt">{count} verse{count === 1 ? '' : 's'} selected</span>
+        <div className="acts">
+          <button onClick={onCopy}>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <rect x="9" y="9" width="13" height="13" rx="1" /><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+            </svg>
+            Copy
+          </button>
+          <button onClick={onShare}>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <circle cx="18" cy="5" r="3" /><circle cx="6" cy="12" r="3" /><circle cx="18" cy="19" r="3" />
+              <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" /><line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+            </svg>
+            Share
+          </button>
+          <button onClick={onClear} className="clear">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
+        </div>
+        {message && <div className="msg">{message}</div>}
+      </div>
+    </div>
   )
 }
