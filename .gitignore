@@ -9,3 +9,4 @@ node_modules/
 .claude/settings.local.json
 data/research-queue/
 tsconfig.tsbuildinfo
+.tmp-hymnal-pull/
