@@ -41,7 +41,7 @@ export async function GET(req: NextRequest) {
   const headers = new Headers({
     'Content-Type': ct,
     'Content-Disposition': 'inline',
-    'Cache-Control': 'public, max-age=604800, immutable',
+    'Cache-Control': 'public, max-age=3600, stale-while-revalidate=86400',
     'X-Content-Type-Options': 'nosniff',
     'X-Frame-Options': 'SAMEORIGIN',
     'Content-Security-Policy': "frame-ancestors 'self'",
