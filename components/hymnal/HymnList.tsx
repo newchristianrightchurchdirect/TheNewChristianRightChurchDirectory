@@ -56,7 +56,7 @@ export default function HymnList({ slug }: { slug: string }) {
       <input
         className="hymn-search"
         type="search"
-        placeholder="Search number, title, tune, or author\u2026"
+        placeholder={'Search number, title, tune, or author\u2026'}
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         aria-label="Search hymns"
