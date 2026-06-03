@@ -4,7 +4,7 @@ import { persist, createJSONStorage } from 'zustand/middleware'
 // Identifies one hymn or psalm selection in a specific hymnal.
 export type HymnRef = {
   hymnal: string  // hymnal slug, e.g. 'trinity-psalter-hymnal'
-  number: number
+  number: string  // hymn number (string to support tokens like "1A", "S1")
 }
 
 // Identifies one Bible chapter (book uses NXR id, e.g. 'gen', 'matt').
@@ -67,6 +67,7 @@ type State = {
   bibleSingleColumn: boolean
   defaultHymnal: string   // slug
   defaultBible: string    // slug
+  themePref: 'light' | 'dark' | 'system'
 
   // Mutations
   toggleHymnFavorite: (ref: HymnRef) => void
@@ -94,6 +95,7 @@ type State = {
   setBibleSingleColumn: (b: boolean) => void
   setDefaultHymnal: (slug: string) => void
   setDefaultBible: (slug: string) => void
+  setThemePref: (t: 'light' | 'dark' | 'system') => void
 
   addSearchTerm: (term: string) => void
   removeSearchTerm: (term: string) => void
@@ -137,6 +139,7 @@ export const useHymnalStore = create<State>()(
       bibleSingleColumn: false,
       defaultHymnal: 'trinity-psalter-hymnal',
       defaultBible: 'esv',
+      themePref: 'system',
 
       toggleHymnFavorite: (ref) => set((s) => {
         const present = s.favoriteHymns.some((r) => eqHymn(r, ref))
@@ -218,6 +221,7 @@ export const useHymnalStore = create<State>()(
       setBibleSingleColumn: (b) => set({ bibleSingleColumn: b }),
       setDefaultHymnal: (slug) => set({ defaultHymnal: slug }),
       setDefaultBible: (slug) => set({ defaultBible: slug }),
+      setThemePref: (t) => set({ themePref: t }),
 
       addSearchTerm: (term) => set((s) => {
         const t = term.trim()
@@ -263,6 +267,7 @@ export const useHymnalStore = create<State>()(
         bibleSingleColumn: s.bibleSingleColumn,
         defaultHymnal: s.defaultHymnal,
         defaultBible: s.defaultBible,
+        themePref: s.themePref,
       }),
     },
   ),

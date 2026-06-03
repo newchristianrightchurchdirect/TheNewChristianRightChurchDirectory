@@ -7,7 +7,7 @@ import { HYMNALS } from '@/lib/hymnal/sources'
 
 // Picks a stable hymn-of-the-day by day-of-year from a chosen volume.
 export default function HymnOfTheDay() {
-  const [pick, setPick] = useState<{ hymnal: typeof HYMNALS[number]; number: number; title: string } | null>(null)
+  const [pick, setPick] = useState<{ hymnal: typeof HYMNALS[number]; number: string; title: string } | null>(null)
 
   useEffect(() => {
     const start = new Date(new Date().getFullYear(), 0, 0)
@@ -32,7 +32,7 @@ export default function HymnOfTheDay() {
   }
 
   return (
-    <Link href={`/hymnal/library/${pick.hymnal.slug}/${pick.number}`} className="hymnal-band" style={{ display: 'block' }}>
+    <Link href={`/hymnal/library/${pick.hymnal.slug}/${encodeURIComponent(pick.number)}`} className="hymnal-band" style={{ display: 'block' }}>
       <div className="lhd">
         <span>Hymn of the Day</span>
         <span className="right">{pick.hymnal.short}&nbsp;No.&nbsp;{pick.number}</span>

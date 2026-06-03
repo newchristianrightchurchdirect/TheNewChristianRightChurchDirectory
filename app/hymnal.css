@@ -5,6 +5,7 @@
 /* ====================================================================== */
 
 .hymnal-shell {
+  /* Default = dark (matches SSR / no-JS) */
   --nxr-bg: #0d0b07;
   --nxr-surface: #14110b;
   --nxr-surface-lift: #1a160e;
@@ -22,6 +23,24 @@
   color: var(--nxr-ink);
   font-family: var(--serif);
   padding-bottom: 96px;
+  color-scheme: dark;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.hymnal-shell[data-theme="light"] {
+  /* Light: warm cream parchment with deep walnut ink and aged-gilt accents */
+  --nxr-bg: #f4ecd8;
+  --nxr-surface: #ebe2cb;
+  --nxr-surface-lift: #ded2b6;
+  --nxr-rule: #c2b48d;
+  --nxr-rule-soft: #d6c9a6;
+  --nxr-ink: #211a10;
+  --nxr-ink-soft: #4a3f29;
+  --nxr-ink-mute: #6f6147;
+  --nxr-ink-dim: #9a8d6f;
+  --nxr-brass: #9b7820;
+  --nxr-brass-deep: #7a5d12;
+  color-scheme: light;
 }
 
 /* ----- Top utility strip ------------------------------------------ */
@@ -1435,6 +1454,9 @@
 .svc-roman-row .actions .x { color: #c25b66; }
 .svc-roman-row .actions .x:hover { color: #e0707b; }
 .svc-roman-row .actions button:disabled { color: var(--nxr-ink-dim); cursor: not-allowed; }
+.svc-roman-row[draggable="true"] { cursor: grab; }
+.svc-roman-row[draggable="true"]:active { cursor: grabbing; }
+.svc-roman-row.drag-over { background: color-mix(in srgb, var(--nxr-brass) 12%, transparent); }
 
 /* ====================================================================== */
 /* ============================  SEARCH OVERLAY  ========================= */

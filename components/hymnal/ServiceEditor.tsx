@@ -1,10 +1,35 @@
 'use client'
 
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { useHymnalStore, type ServiceItem } from '@/store/hymnal'
+import { useHymnalStore, type Service, type ServiceItem } from '@/store/hymnal'
 import { HYMNALS, BIBLES, findHymnal, findBible } from '@/lib/hymnal/sources'
 import { toRoman } from '@/lib/hymnal/loader'
+
+function serviceToText(svc: Service): string {
+  const lines: string[] = []
+  lines.push(svc.title)
+  if (svc.date) lines.push(svc.date)
+  lines.push('')
+  svc.items.forEach((it, i) => {
+    const r = toRoman(i + 1)
+    let body = ''
+    if (it.kind === 'hymn') {
+      const h = findHymnal(it.ref.hymnal)
+      body = `Hymn  \u2014  ${h?.short || it.ref.hymnal} No. ${it.ref.number}`
+    } else if (it.kind === 'scripture') {
+      const b = findBible(it.ref.translation)
+      body = `Scripture  \u2014  ${it.ref.book.toUpperCase()} ${it.ref.chapter} (${b?.short || it.ref.translation})`
+    } else if (it.kind === 'confession') {
+      body = `Confession  \u2014  ${it.ref.id}`
+    } else {
+      body = it.text
+    }
+    lines.push(`${r}.  ${body}`)
+    if (it.kind !== 'note' && it.note) lines.push(`     ${it.note}`)
+  })
+  return lines.join('\n')
+}
 
 export default function ServiceEditor({ id }: { id: string }) {
   const router = useRouter()
@@ -17,6 +42,10 @@ export default function ServiceEditor({ id }: { id: string }) {
   const deleteService = useHymnalStore((s) => s.deleteService)
 
   const [adding, setAdding] = useState(false)
+  const [exporting, setExporting] = useState(false)
+  const [exportMsg, setExportMsg] = useState<string | null>(null)
+  const dragFrom = useRef<number | null>(null)
+  const [dragOver, setDragOver] = useState<number | null>(null)
   const [kind, setKind] = useState<'hymn' | 'scripture' | 'confession' | 'note'>('hymn')
   const [hymnal, setHymnal] = useState(HYMNALS[0].slug)
   const [hymnNum, setHymnNum] = useState('')
@@ -40,8 +69,7 @@ export default function ServiceEditor({ id }: { id: string }) {
   function add() {
     let item: ServiceItem | null = null
     if (kind === 'hymn' && hymnNum.trim()) {
-      const n = Number(hymnNum)
-      if (Number.isFinite(n)) item = { kind: 'hymn', ref: { hymnal, number: n } }
+      item = { kind: 'hymn', ref: { hymnal, number: hymnNum.trim() } }
     } else if (kind === 'scripture' && book.trim() && chapter.trim()) {
       const c = Number(chapter)
       if (Number.isFinite(c)) item = { kind: 'scripture', ref: { translation, book: book.trim().toLowerCase(), chapter: c } }
@@ -66,6 +94,11 @@ export default function ServiceEditor({ id }: { id: string }) {
         </button>
         <div className="label">Order of Service</div>
         <div className="actions">
+          <button onClick={() => setExporting(true)} aria-label="Export service" disabled={service.items.length === 0}>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+          </button>
           <button onClick={() => setAdding((v) => !v)} aria-label="Add item">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
               <line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" />
@@ -122,12 +155,33 @@ export default function ServiceEditor({ id }: { id: string }) {
               index={i}
               total={service.items.length}
               item={it}
+              dragOver={dragOver === i}
               onUp={() => moveItem(id, i, i - 1)}
               onDown={() => moveItem(id, i, i + 1)}
               onRemove={() => removeItem(id, i)}
+              onDragStart={() => { dragFrom.current = i }}
+              onDragEnter={() => setDragOver(i)}
+              onDragEnd={() => {
+                const from = dragFrom.current
+                const to = dragOver
+                dragFrom.current = null
+                setDragOver(null)
+                if (from != null && to != null && from !== to) moveItem(id, from, to)
+              }}
             />
           ))}
         </div>
+      )}
+
+      {exporting && (
+        <ExportModal
+          text={serviceToText(service)}
+          filename={`${service.title.replace(/[^a-z0-9]+/gi, '-').toLowerCase() || 'service'}.txt`}
+          title={service.title}
+          message={exportMsg}
+          setMessage={setExportMsg}
+          onClose={() => { setExporting(false); setExportMsg(null) }}
+        />
       )}
 
       <div style={{ marginTop: 36, paddingTop: 18, borderTop: '1px solid var(--nxr-rule)', textAlign: 'center' }}>
@@ -151,18 +205,30 @@ export default function ServiceEditor({ id }: { id: string }) {
   )
 }
 
-function Row({ index, total, item, onUp, onDown, onRemove }: {
+function Row({ index, total, item, dragOver, onUp, onDown, onRemove, onDragStart, onDragEnter, onDragEnd }: {
   index: number
   total: number
   item: ServiceItem
+  dragOver: boolean
   onUp: () => void
   onDown: () => void
   onRemove: () => void
+  onDragStart: () => void
+  onDragEnter: () => void
+  onDragEnd: () => void
 }) {
   const roman = toRoman(index + 1)
   return (
-    <div className="svc-roman-row">
-      <div className="roman">{roman}</div>
+    <div
+      className={`svc-roman-row${dragOver ? ' drag-over' : ''}`}
+      draggable
+      onDragStart={(e) => { e.dataTransfer.effectAllowed = 'move'; onDragStart() }}
+      onDragOver={(e) => { e.preventDefault(); e.dataTransfer.dropEffect = 'move' }}
+      onDragEnter={onDragEnter}
+      onDragEnd={onDragEnd}
+      onDrop={(e) => { e.preventDefault(); onDragEnd() }}
+    >
+      <div className="roman" aria-hidden style={{ cursor: 'grab' }}>{roman}</div>
       <div className="body">
         <div className="ln1">{renderLine(item)}</div>
         <div className="meta">{kindLabel(item.kind)}</div>
@@ -185,6 +251,83 @@ function Row({ index, total, item, onUp, onDown, onRemove }: {
             </svg>
           </button>
         </div>
+      </div>
+    </div>
+  )
+}
+
+function ExportModal({ text, filename, title, message, setMessage, onClose }: {
+  text: string; filename: string; title: string
+  message: string | null; setMessage: (s: string | null) => void
+  onClose: () => void
+}) {
+  async function copy() {
+    try {
+      await navigator.clipboard.writeText(text)
+      setMessage('Copied to clipboard')
+      setTimeout(() => setMessage(null), 1500)
+    } catch {
+      setMessage('Copy failed')
+      setTimeout(() => setMessage(null), 1500)
+    }
+  }
+  function download() {
+    const blob = new Blob([text], { type: 'text/plain;charset=utf-8' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = filename
+    document.body.appendChild(a)
+    a.click()
+    document.body.removeChild(a)
+    URL.revokeObjectURL(url)
+    setMessage('Downloaded')
+    setTimeout(() => setMessage(null), 1500)
+  }
+  function print() {
+    const win = window.open('', '_blank')
+    if (!win) { setMessage('Pop-up blocked'); setTimeout(() => setMessage(null), 1500); return }
+    win.document.write(`<!doctype html><html><head><title>${title}</title><style>body{font-family:Georgia,serif;max-width:640px;margin:48px auto;padding:0 24px;line-height:1.6;color:#211a10}pre{white-space:pre-wrap;font-family:inherit;font-size:15px}</style></head><body><pre>${text.replace(/</g, '&lt;')}</pre></body></html>`)
+    win.document.close()
+    win.focus()
+    win.print()
+  }
+  async function share() {
+    if (navigator.share) {
+      try {
+        await navigator.share({ title, text })
+      } catch { /* user cancelled */ }
+    } else {
+      copy()
+    }
+  }
+  return (
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="modal-shell centered" onClick={(e) => e.stopPropagation()}>
+        <div className="modal-head" style={{ borderBottom: 'none', marginBottom: 0 }}>
+          <span>Export Order</span>
+          <button onClick={onClose} aria-label="Close">&times;</button>
+        </div>
+        <div className="hd">Export <em>{title}</em></div>
+        <button className="opt" onClick={copy}>
+          <span className="lbl">Copy as Text</span>
+          <span className="dk">Full order to clipboard</span>
+        </button>
+        <button className="opt" onClick={download}>
+          <span className="lbl">Download .txt</span>
+          <span className="dk">{filename}</span>
+        </button>
+        <button className="opt" onClick={print}>
+          <span className="lbl">Print / Save PDF</span>
+          <span className="dk">Open the print dialog</span>
+        </button>
+        <button className="opt" onClick={share}>
+          <span className="lbl">System Share</span>
+          <span className="dk">Open the OS share sheet</span>
+        </button>
+        {message && (
+          <div style={{ textAlign: 'center', marginTop: 14, fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--nxr-brass)' }}>{message}</div>
+        )}
       </div>
     </div>
   )

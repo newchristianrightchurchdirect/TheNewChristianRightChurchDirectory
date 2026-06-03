@@ -47,7 +47,7 @@ export default function SavedList() {
               return (
                 <div key={i} className="entry-row">
                   <span className="n">{r.number}</span>
-                  <Link className="body" href={`/hymnal/library/${r.hymnal}/${r.number}`} style={{ color: 'inherit' }}>
+                  <Link className="body" href={`/hymnal/library/${r.hymnal}/${encodeURIComponent(r.number)}`} style={{ color: 'inherit' }}>
                     <span className="ttl">{h?.title || r.hymnal}</span>
                     <span className="meta">
                       {h?.short || r.hymnal.toUpperCase()}

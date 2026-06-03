@@ -53,7 +53,7 @@ export default function HymnList({ slug }: { slug: string }) {
         {filtered.map((h) => {
           const isFav = favs.some((f) => f.hymnal === slug && f.number === h.number)
           return (
-            <Link key={h.number} role="listitem" href={`/hymnal/library/${slug}/${h.number}`} className="hymn-row">
+            <Link key={h.number} role="listitem" href={`/hymnal/library/${slug}/${encodeURIComponent(h.number)}`} className="hymn-row">
               <span className="num">{h.number}</span>
               <span className="ttl">
                 {h.title}

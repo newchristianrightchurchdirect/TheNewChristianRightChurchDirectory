@@ -14,8 +14,7 @@ export async function generateMetadata({ params }: { params: Params }) {
 export default async function HymnDetailPage({ params }: { params: Params }) {
   const { slug, number } = await params
   const src = findHymnal(slug)
-  const n = Number(number)
-  if (!src || !Number.isFinite(n)) return notFound()
+  if (!src || !number) return notFound()
 
-  return <HymnDetail slug={slug} number={n} />
+  return <HymnDetail slug={slug} number={decodeURIComponent(number)} />
 }

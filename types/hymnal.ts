@@ -8,7 +8,7 @@ export type HymnVerse = {
 }
 
 export type Hymn = {
-  number: number
+  number: string
   title: string
   firstLine?: string | null
   tune?: string | null

@@ -7,7 +7,7 @@ import { HYMNALS, BIBLES } from '@/lib/hymnal/sources'
 import { useHymnalStore } from '@/store/hymnal'
 
 type Result =
-  | { kind: 'hymn'; hymnal: string; hymnalShort: string; number: number; title: string; snippet: string }
+  | { kind: 'hymn'; hymnal: string; hymnalShort: string; number: string; title: string; snippet: string }
   | { kind: 'verse'; translation: string; translationShort: string; book: string; bookName: string; chapter: number; number: number; snippet: string }
   | { kind: 'creed'; id: string; title: string; snippet: string }
 
@@ -203,7 +203,7 @@ export default function HymnalSearch() {
 function ResultRow({ r }: { r: Result }) {
   if (r.kind === 'hymn') {
     return (
-      <Link href={`/hymnal/library/${r.hymnal}/${r.number}`} className="hymn-row" style={{ display: 'block' }}>
+      <Link href={`/hymnal/library/${r.hymnal}/${encodeURIComponent(r.number)}`} className="hymn-row" style={{ display: 'block' }}>
         <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: 11, letterSpacing: '0.10em', color: 'var(--nxr-brass-deep)', textTransform: 'uppercase' }}>{r.hymnalShort} #{r.number}</div>
         <div style={{ fontFamily: 'var(--serif)', fontSize: 18, marginTop: 2 }}>{r.title}</div>
         <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--nxr-ink-mute)', fontSize: 14, marginTop: 4 }}>{r.snippet}</div>

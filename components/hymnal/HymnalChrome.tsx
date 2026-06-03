@@ -2,8 +2,9 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { useEffect, useMemo } from 'react'
+import { useEffect, useMemo, useRef } from 'react'
 import { toRoman } from '@/lib/hymnal/loader'
+import { useHymnalStore } from '@/store/hymnal'
 
 type Tab = { href: string; label: string; match: (p: string) => boolean; icon: React.ReactNode }
 
@@ -79,12 +80,29 @@ function pageNumber(pathname: string): string {
 
 export default function HymnalChrome({ children }: { children: React.ReactNode }) {
   const pathname = usePathname() || '/hymnal'
+  const shellRef = useRef<HTMLDivElement>(null)
+  const themePref = useHymnalStore((s) => s.themePref)
 
   useEffect(() => {
     if (typeof window === 'undefined') return
     if (!('serviceWorker' in navigator)) return
     navigator.serviceWorker.register('/sw.js').catch(() => {})
   }, [])
+
+  useEffect(() => {
+    const shell = shellRef.current
+    if (!shell) return
+    const mq = window.matchMedia('(prefers-color-scheme: dark)')
+    const apply = () => {
+      const resolved = themePref === 'system' ? (mq.matches ? 'dark' : 'light') : themePref
+      shell.setAttribute('data-theme', resolved)
+    }
+    apply()
+    if (themePref === 'system') {
+      mq.addEventListener('change', apply)
+      return () => mq.removeEventListener('change', apply)
+    }
+  }, [themePref])
 
   const folio = useMemo(() => pageNumber(pathname), [pathname])
   const volume = useMemo(() => {
@@ -97,7 +115,7 @@ export default function HymnalChrome({ children }: { children: React.ReactNode }
   }, [pathname])
 
   return (
-    <div className="hymnal-shell">
+    <div className="hymnal-shell" ref={shellRef} data-theme="dark">
       <header className="hymnal-masthead">
         <div className="hymnal-masthead-inner">
           <div className="util-left">

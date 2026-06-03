@@ -34,6 +34,8 @@ export default function MoreSettings() {
   const setDefH = useHymnalStore((s) => s.setDefaultHymnal)
   const defB = useHymnalStore((s) => s.defaultBible)
   const setDefB = useHymnalStore((s) => s.setDefaultBible)
+  const theme = useHymnalStore((s) => s.themePref)
+  const setTheme = useHymnalStore((s) => s.setThemePref)
 
   const activeSize = closestSize(textScale)
   const sampleSize = Math.round(20 * textScale)
@@ -48,11 +50,40 @@ export default function MoreSettings() {
       <div className="settings-row">
         <div className="lbl">Theme</div>
         <div className="seg" role="radiogroup" aria-label="Theme">
-          <button type="button" className="on" aria-pressed="true">
+          <button
+            type="button"
+            className={theme === 'light' ? 'on' : ''}
+            onClick={() => setTheme('light')}
+            aria-pressed={theme === 'light'}
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden>
+              <circle cx="12" cy="12" r="4" />
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+            </svg>
+            Light
+          </button>
+          <button
+            type="button"
+            className={theme === 'dark' ? 'on' : ''}
+            onClick={() => setTheme('dark')}
+            aria-pressed={theme === 'dark'}
+          >
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden>
               <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
             </svg>
             Dark
+          </button>
+          <button
+            type="button"
+            className={theme === 'system' ? 'on' : ''}
+            onClick={() => setTheme('system')}
+            aria-pressed={theme === 'system'}
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden>
+              <rect x="3" y="4" width="18" height="13" rx="1.5" />
+              <path d="M8 21h8M12 17v4" />
+            </svg>
+            Auto
           </button>
         </div>
       </div>

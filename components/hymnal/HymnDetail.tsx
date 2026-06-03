@@ -10,12 +10,12 @@ import type { Hymn } from '@/types/hymnal'
 
 type Tab = 'lyrics' | 'music'
 
-export default function HymnDetail({ slug, number }: { slug: string; number: number }) {
+export default function HymnDetail({ slug, number }: { slug: string; number: string }) {
   const router = useRouter()
   const [hymn, setHymn] = useState<Hymn | null>(null)
   const [err, setErr] = useState<string | null>(null)
-  const [prev, setPrev] = useState<number | null>(null)
-  const [next, setNext] = useState<number | null>(null)
+  const [prev, setPrev] = useState<string | null>(null)
+  const [next, setNext] = useState<string | null>(null)
   const [tab, setTab] = useState<Tab>('lyrics')
   const [modal, setModal] = useState<null | 'info' | 'share' | 'order'>(null)
 
@@ -131,10 +131,10 @@ export default function HymnDetail({ slug, number }: { slug: string; number: num
 
       <nav style={{ display: 'flex', justifyContent: 'space-between', gap: 12, marginTop: 28, marginBottom: hymn.audioUrl ? 140 : 24, fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--nxr-ink-mute)' }}>
         <div>
-          {prev != null && <Link href={`/hymnal/library/${slug}/${prev}`}>&larr; #{prev}</Link>}
+          {prev != null && <Link href={`/hymnal/library/${slug}/${encodeURIComponent(prev)}`}>&larr; #{prev}</Link>}
         </div>
         <div>
-          {next != null && <Link href={`/hymnal/library/${slug}/${next}`}>#{next} &rarr;</Link>}
+          {next != null && <Link href={`/hymnal/library/${slug}/${encodeURIComponent(next)}`}>#{next} &rarr;</Link>}
         </div>
       </nav>
 
@@ -142,8 +142,8 @@ export default function HymnDetail({ slug, number }: { slug: string; number: num
         <AudioBar
           src={hymn.audioUrl}
           label={`Hymn No. ${hymn.number}`}
-          onPrev={prev != null ? () => router.push(`/hymnal/library/${slug}/${prev}`) : undefined}
-          onNext={next != null ? () => router.push(`/hymnal/library/${slug}/${next}`) : undefined}
+          onPrev={prev != null ? () => router.push(`/hymnal/library/${slug}/${encodeURIComponent(prev)}`) : undefined}
+          onNext={next != null ? () => router.push(`/hymnal/library/${slug}/${encodeURIComponent(next)}`) : undefined}
           textScale={textScale}
           onScale={setTextScale}
         />
@@ -361,7 +361,7 @@ function HymnInfoModal({ hymn, hymnalShort, onClose }: { hymn: Hymn; hymnalShort
 
 function ShareModal({ hymn, hymnalShort, slug, onClose }: { hymn: Hymn; hymnalShort: string; slug: string; onClose: () => void }) {
   const [copied, setCopied] = useState<string | null>(null)
-  const link = typeof window !== 'undefined' ? `${window.location.origin}/hymnal/library/${slug}/${hymn.number}` : ''
+  const link = typeof window !== 'undefined' ? `${window.location.origin}/hymnal/library/${slug}/${encodeURIComponent(hymn.number)}` : ''
   const plain = useMemo(() => {
     const head = `${hymn.title}\n${hymnalShort ? `${hymnalShort} \u00B7 ` : ''}No. ${hymn.number}\n\n`
     const body = hymn.verses.map((v) => (v.isChorus ? `Chorus\n${v.text}` : `${v.number}.\n${v.text}`)).join('\n\n')
@@ -413,7 +413,7 @@ function ShareModal({ hymn, hymnalShort, slug, onClose }: { hymn: Hymn; hymnalSh
 
 /* ---------------- add-to-order modal ---------------- */
 
-function AddToOrderModal({ hymnal, number, title, onClose }: { hymnal: string; number: number; title: string; onClose: () => void }) {
+function AddToOrderModal({ hymnal, number, title, onClose }: { hymnal: string; number: string; title: string; onClose: () => void }) {
   const services = useHymnalStore((s) => s.services)
   const create = useHymnalStore((s) => s.createService)
   const addItem = useHymnalStore((s) => s.addServiceItem)
