@@ -3,8 +3,18 @@
 import { useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { HYMNALS } from '@/lib/hymnal/sources'
+import { loadHymnal } from '@/lib/hymnal/loader'
 import { useHymnalStore } from '@/store/hymnal'
 import type { HymnalDocument } from '@/types/hymnal'
+
+const BUNDLED_LABEL: Record<string, string> = {
+  'sacred-harp-1991': 'The Sacred Harp (1991)',
+  'trinity-hymnal-1961': 'Trinity Hymnal (1961)',
+  'cantus-christi': 'Cantus Christi',
+  'book-of-psalms-for-worship': 'The Book of Psalms for Worship (2009)',
+  'trinity-psalter-hymnal': 'Trinity Psalter Hymnal (2018)',
+  'hymns-of-grace': 'Hymns of Grace (2015)',
+}
 
 const SAMPLE = `{
   "hymnal": {
@@ -49,6 +59,24 @@ export default function ImportHymnal() {
   const custom = useHymnalStore((s) => s.customHymnals)
   const addCustom = useHymnalStore((s) => s.addCustomHymnal)
   const removeCustom = useHymnalStore((s) => s.removeCustomHymnal)
+  const [bundleBusy, setBundleBusy] = useState(false)
+  const [bundleStatus, setBundleStatus] = useState<{ kind: 'ok' | 'err'; msg: string } | null>(null)
+
+  async function importAllBundled() {
+    setBundleBusy(true)
+    setBundleStatus(null)
+    try {
+      const results = await Promise.allSettled(HYMNALS.map((h) => loadHymnal(h.slug)))
+      const failed = results.filter((r) => r.status === 'rejected').length
+      if (failed === 0) {
+        setBundleStatus({ kind: 'ok', msg: `Cached all ${HYMNALS.length} bundled hymnals for offline use.` })
+      } else {
+        setBundleStatus({ kind: 'err', msg: `${HYMNALS.length - failed} of ${HYMNALS.length} cached; ${failed} failed.` })
+      }
+    } finally {
+      setBundleBusy(false)
+    }
+  }
 
   async function onPick(ev: React.ChangeEvent<HTMLInputElement>) {
     const f = ev.target.files?.[0]
@@ -156,13 +184,32 @@ export default function ImportHymnal() {
 
       <h2 className="import-section-head">Bundled Hymnals</h2>
       <p className="import-section-dek">Already included in the Reader.</p>
+
+      <button className="cta-filled" onClick={importAllBundled} disabled={bundleBusy} style={{ marginBottom: 10 }}>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" y1="15" x2="12" y2="3" />
+        </svg>
+        {bundleBusy ? 'Caching\u2026' : 'Import All Bundled Hymnals'}
+      </button>
+
+      {bundleStatus && (
+        <div style={{
+          marginBottom: 14, padding: '12px 14px',
+          border: `1px solid ${bundleStatus.kind === 'ok' ? 'var(--nxr-brass-deep)' : '#c25b66'}`,
+          color: bundleStatus.kind === 'ok' ? 'var(--nxr-brass)' : '#c25b66',
+          fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: 14,
+        }}>
+          {bundleStatus.msg}
+        </div>
+      )}
+
       {HYMNALS.map((h) => (
         <button
           key={h.slug}
           className="cta-outline-pill"
           onClick={() => router.push(`/hymnal/library/${h.slug}`)}
         >
-          {h.title}
+          {BUNDLED_LABEL[h.slug] ?? h.title}
         </button>
       ))}
 

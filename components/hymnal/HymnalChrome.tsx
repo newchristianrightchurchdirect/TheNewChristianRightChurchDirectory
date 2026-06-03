@@ -62,7 +62,7 @@ const TABS: Tab[] = [
   {
     href: '/hymnal/more',
     label: 'More',
-    match: (p) => p.startsWith('/hymnal/more') || p.startsWith('/hymnal/search') || p.startsWith('/install'),
+    match: (p) => p.startsWith('/hymnal/more') || p.startsWith('/hymnal/search') || p.startsWith('/hymnal/import') || p.startsWith('/install'),
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
         <circle cx="12" cy="12" r="3" />
@@ -127,7 +127,7 @@ export default function HymnalChrome({ children }: { children: React.ReactNode }
                 <circle cx="11" cy="11" r="7" /><path d="M21 21l-4.3-4.3" />
               </svg>
             </Link>
-            <Link href="/install" className="hymnal-icon-btn" aria-label="Install / share">
+            <Link href="/hymnal/import" className="hymnal-icon-btn" aria-label="Import hymnal">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                 <path d="M12 3v12" /><path d="M7 8l5-5 5 5" /><path d="M5 21h14" />
               </svg>

@@ -48,14 +48,14 @@ export default function HymnalHome() {
 
       <HymnOfTheDay />
 
-      <div className="hymnal-band">
+      <Link href="/hymnal/plans" className="hymnal-band" style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
         <div className="lhd">
           <span>Reading Plans</span>
-          <Link href="/hymnal/bible" className="right italic">Browse &rarr;</Link>
+          <span className="right italic">Browse &rarr;</span>
         </div>
         <div className="big">Begin a daily course</div>
         <div className="small">Bible in a Year, Psalter in a Month, and more.</div>
-      </div>
+      </Link>
 
       <section className="hymnal-picker" aria-label="Volumes">
         {HYMNALS.map((h, i) => (

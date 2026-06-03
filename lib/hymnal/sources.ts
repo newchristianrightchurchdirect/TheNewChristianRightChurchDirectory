@@ -10,7 +10,7 @@ export const HYMNALS: HymnalSource[] = [
     title: 'Trinity Psalter Hymnal',
     short: 'TPH',
     year: 2018,
-    blurb: 'OPC / URCNA joint psalter-hymnal. 706 selections.',
+    blurb: 'The Trinity Psalter Hymnal, a joint publication of the Orthodox Presbyterian Church and the United Reformed Churches in North America.',
   },
   {
     slug: 'trinity-hymnal-1961',
@@ -18,7 +18,7 @@ export const HYMNALS: HymnalSource[] = [
     title: 'Trinity Hymnal',
     short: 'TH',
     year: 1961,
-    blurb: 'The original Trinity Hymnal of the Orthodox Presbyterian Church. 748 hymns.',
+    blurb: 'The Trinity Hymnal is a hymnal published by Great Commission Publications for use in Orthodox Presbyterian and Reformed churches. First published in 1961.',
   },
   {
     slug: 'book-of-psalms-for-worship',
@@ -26,7 +26,7 @@ export const HYMNALS: HymnalSource[] = [
     title: 'The Book of Psalms for Worship',
     short: 'BPW',
     year: 2009,
-    blurb: 'Complete metrical Psalter of the RPCNA. 460 selections.',
+    blurb: 'The newest American psalter offering familiar melodies alongside fresh arrangements with contemporary language true to the original Hebrew text.',
   },
   {
     slug: 'cantus-christi',
@@ -34,7 +34,7 @@ export const HYMNALS: HymnalSource[] = [
     title: 'Cantus Christi',
     short: 'CC',
     year: 2002,
-    blurb: 'Psalms, hymns, and spiritual songs in the CREC tradition. 340 selections.',
+    blurb: 'Cantus Christi is a hymnal published by Canon Press for use in Reformed and liturgical churches. Songs sourced from Christ Church (christkirk.com) music library.',
   },
   {
     slug: 'hymns-of-grace',
@@ -42,7 +42,7 @@ export const HYMNALS: HymnalSource[] = [
     title: 'Hymns of Grace',
     short: 'HoG',
     year: 2015,
-    blurb: 'Modern hymnal compiled by The Master\u2019s Seminary. 321 hymns.',
+    blurb: 'Hymns of Grace (2015), The Master\u2019s Seminary Press.',
   },
   {
     slug: 'sacred-harp-1991',
@@ -50,7 +50,7 @@ export const HYMNALS: HymnalSource[] = [
     title: 'The Sacred Harp',
     short: 'SH',
     year: 1991,
-    blurb: 'Shape-note tradition. 1991 Revision. 554 tunes.',
+    blurb: 'The Sacred Harp is an American shape-note tunebook first published in 1844 by Benjamin Franklin White and Elisha J. King. The 1991 revision is the Denson book, maintained by the Sacred Harp Publishing Company.',
   },
 ]
 

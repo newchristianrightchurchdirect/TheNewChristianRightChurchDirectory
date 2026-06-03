@@ -8,15 +8,12 @@ import { findHymnal } from '@/lib/hymnal/sources'
 import { useHymnalStore } from '@/store/hymnal'
 import type { Hymn } from '@/types/hymnal'
 
-type Tab = 'lyrics' | 'music'
-
 export default function HymnDetail({ slug, number }: { slug: string; number: string }) {
   const router = useRouter()
   const [hymn, setHymn] = useState<Hymn | null>(null)
   const [err, setErr] = useState<string | null>(null)
   const [prev, setPrev] = useState<string | null>(null)
   const [next, setNext] = useState<string | null>(null)
-  const [tab, setTab] = useState<Tab>('lyrics')
   const [modal, setModal] = useState<null | 'info' | 'share' | 'order'>(null)
 
   const isFav = useHymnalStore((s) => s.isHymnFavorite({ hymnal: slug, number }))
@@ -26,6 +23,8 @@ export default function HymnDetail({ slug, number }: { slug: string; number: str
   const showRoman = useHymnalStore((s) => s.showRomanNumerals)
   const showDrop = useHymnalStore((s) => s.showDropCaps)
   const setLastOpened = useHymnalStore((s) => s.setLastOpenedHymn)
+  const tab = useHymnalStore((s) => s.hymnDetailTab)
+  const setTab = useHymnalStore((s) => s.setHymnDetailTab)
 
   useEffect(() => { setLastOpened(slug, number) }, [slug, number, setLastOpened])
 
@@ -331,30 +330,41 @@ function AudioBar({
 
 function HymnInfoModal({ hymn, hymnalShort, onClose }: { hymn: Hymn; hymnalShort: string; onClose: () => void }) {
   const rows: Array<[string, React.ReactNode]> = []
-  if (hymnalShort) rows.push(['Hymnal', hymnalShort])
-  rows.push(['Number', `${hymn.number}`])
-  if (hymn.tune) rows.push(['Tune', hymn.tune])
-  if (hymn.meter) rows.push(['Meter', hymn.meter])
-  if (hymn.key) rows.push(['Key', hymn.key])
-  if (hymn.author) rows.push(['Words', hymn.author])
-  if (hymn.composer) rows.push(['Music', hymn.composer])
-  if (hymn.scriptureReference) rows.push(['Scripture', hymn.scriptureReference])
-  rows.push(['Verses', `${hymn.verses.filter((v) => !v.isChorus).length}`])
+  rows.push(['HYMNAL', hymnalShort || '\u2014'])
+  rows.push(['NUMBER', `${hymn.number}`])
+  rows.push(['TITLE', hymn.title])
+  if (hymn.firstLine) rows.push(['FIRST LINE', hymn.firstLine])
+  if (hymn.tune) rows.push(['TUNE', hymn.tune])
+  if (hymn.meter) rows.push(['METER', hymn.meter])
+  if (hymn.key) rows.push(['KEY', hymn.key])
+  if (hymn.author) rows.push(['AUTHOR', hymn.author])
+  if (hymn.composer) rows.push(['COMPOSER', hymn.composer])
+  if (hymn.year != null && hymn.year !== '') rows.push(['FIRST PUB.', String(hymn.year)])
+  if (hymn.scriptureReference) rows.push(['SCRIPTURE', hymn.scriptureReference])
+  if (hymn.copyright) rows.push(['COPYRIGHT', hymn.copyright])
+  if (hymn.notes) rows.push(['NOTES', hymn.notes])
 
   return (
     <div className="modal-overlay" onClick={onClose}>
-      <div className="modal-shell" onClick={(e) => e.stopPropagation()}>
-        <div className="modal-head">
-          <span>Hymn Information</span>
-          <button onClick={onClose} aria-label="Close">&times;</button>
+      <div className="modal-shell colophon" onClick={(e) => e.stopPropagation()}>
+        <div className="colophon-head">
+          <span className="eyebrow">COLOPHON</span>
+          <button onClick={onClose} aria-label="Close" className="x">&times;</button>
         </div>
-        <table className="info-table">
-          <tbody>
-            {rows.map(([k, v]) => (
-              <tr key={k}><th>{k}</th><td>{v}</td></tr>
-            ))}
-          </tbody>
-        </table>
+        <hr className="colophon-rule" />
+        <h2 className="colophon-title">Hymn <em>Info</em></h2>
+        <div className="colophon-sub">&mdash; a brief notation &mdash;</div>
+        <dl className="colophon-list">
+          {rows.map(([k, v]) => (
+            <div key={k} className="row">
+              <dt>{k}</dt>
+              <dd>{v}</dd>
+            </div>
+          ))}
+        </dl>
+        <div className="colophon-foot">
+          <button className="close-btn" onClick={onClose}>CLOSE</button>
+        </div>
       </div>
     </div>
   )

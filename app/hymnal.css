@@ -255,14 +255,14 @@
   padding-top: 10px;
   text-align: right;
 }
-.hymnal-card .body { display: block; }
+.hymnal-card .body { display: block; text-align: center; }
 .hymnal-card .ttl {
   font-family: var(--serif);
   font-size: 24px;
-  line-height: 1.15;
+  line-height: 1.2;
   font-weight: 400;
   color: var(--nxr-ink);
-  margin: 0 0 6px;
+  margin: 0 0 12px;
 }
 .hymnal-card .ttl em { font-style: italic; color: var(--nxr-brass); }
 .hymnal-card .ed {
@@ -270,15 +270,15 @@
   font-style: italic;
   font-size: 14px;
   color: var(--nxr-ink-mute);
-  margin: 2px 0 8px;
+  margin: 0 0 12px;
 }
 .hymnal-card .blurb {
   font-family: var(--serif);
   font-style: italic;
   font-size: 14px;
   color: var(--nxr-ink-soft);
-  margin: 6px 0 8px;
-  line-height: 1.4;
+  margin: 0 0 14px;
+  line-height: 1.5;
 }
 .hymnal-card .stamp {
   font-family: var(--serif);
@@ -286,6 +286,7 @@
   letter-spacing: 0.24em;
   text-transform: uppercase;
   color: var(--nxr-ink-mute);
+  display: block;
 }
 .hymnal-card .stamp .tag {
   color: var(--nxr-brass-deep);
@@ -735,6 +736,9 @@
   font-size: 19px;
   line-height: 1.6;
   color: var(--nxr-ink);
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .verse {
   display: grid;
@@ -922,7 +926,12 @@
 }
 
 /* ----- Creeds (legacy) ------------------------------------------ */
-.creed-toc { border-top: 1px solid var(--nxr-rule); }
+.creed-toc {
+  border-top: 1px solid var(--nxr-rule);
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .creed-toc a {
   display: block;
   padding: 16px 0;
@@ -930,6 +939,7 @@
   font-family: var(--serif);
   font-size: 18px;
   color: var(--nxr-ink);
+  text-align: center;
 }
 .creed-toc a:hover { background: rgba(216, 183, 106, 0.04); }
 .creed-toc .meta {
@@ -1066,9 +1076,9 @@
 /* Replaces the volume folio with back + label + action icons.             */
 /* ====================================================================== */
 .detail-chrome {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  justify-content: space-between;
   gap: 12px;
   padding: 6px 0 14px;
   border-bottom: 1px solid var(--nxr-rule);
@@ -1079,10 +1089,10 @@
   width: 32px; height: 32px;
   color: var(--nxr-ink-soft);
   background: transparent; border: none; cursor: pointer;
+  justify-self: start;
 }
 .detail-chrome .back-btn:hover { color: var(--nxr-ink); }
 .detail-chrome .label {
-  flex: 1;
   text-align: center;
   font-family: var(--serif);
   font-size: 11px;
@@ -1092,12 +1102,14 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  justify-self: center;
 }
 .detail-chrome .actions {
   display: inline-flex;
   align-items: center;
   gap: 6px;
   color: var(--nxr-ink-soft);
+  justify-self: end;
 }
 .detail-chrome .actions button,
 .detail-chrome .actions a {
@@ -1871,4 +1883,104 @@
   .hymnal-card .ttl { font-size: 22px; }
   .chapter-grid { gap: 8px; }
   .chapter-grid a { font-size: 18px; }
+}
+
+/* ====================================================================== */
+/* ============================  COLOPHON MODAL  ========================= */
+/* Hymn-info modal matching the Android "Colophon" dialog.                 */
+/* ====================================================================== */
+.modal-shell.colophon {
+  max-width: 460px;
+  padding: 22px 24px 20px;
+}
+.modal-shell.colophon .colophon-head {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 8px;
+}
+.modal-shell.colophon .eyebrow {
+  font-family: var(--serif);
+  font-size: 11px;
+  letter-spacing: 0.30em;
+  text-transform: uppercase;
+  color: var(--nxr-brass);
+}
+.modal-shell.colophon .x {
+  background: transparent; border: none; cursor: pointer;
+  color: var(--nxr-ink-soft);
+  font-size: 22px; line-height: 1;
+  width: 24px; height: 24px;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.modal-shell.colophon .colophon-rule {
+  border: none;
+  border-top: 1.5px solid var(--nxr-ink);
+  margin: 0 0 14px;
+}
+.modal-shell.colophon .colophon-title {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+  margin: 0 0 2px;
+  color: var(--nxr-ink);
+}
+.modal-shell.colophon .colophon-title em {
+  font-style: italic;
+  color: var(--nxr-brass);
+}
+.modal-shell.colophon .colophon-sub {
+  text-align: center;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--nxr-ink-mute);
+  margin-bottom: 14px;
+}
+.modal-shell.colophon .colophon-list {
+  margin: 0;
+  padding: 0;
+  max-height: 52vh;
+  overflow-y: auto;
+}
+.modal-shell.colophon .colophon-list .row {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--nxr-rule-soft);
+}
+.modal-shell.colophon .colophon-list .row:last-child {
+  border-bottom: none;
+}
+.modal-shell.colophon .colophon-list dt {
+  font-family: var(--serif);
+  font-size: 10px;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--nxr-brass);
+  margin: 0 0 4px;
+}
+.modal-shell.colophon .colophon-list dd {
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--nxr-ink);
+  margin: 0;
+}
+.modal-shell.colophon .colophon-foot {
+  display: flex; justify-content: flex-end;
+  margin-top: 14px;
+}
+.modal-shell.colophon .close-btn {
+  background: transparent;
+  border: 1px solid var(--nxr-ink);
+  color: var(--nxr-ink);
+  padding: 8px 18px;
+  font-family: var(--serif);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.modal-shell.colophon .close-btn:hover {
+  background: var(--nxr-ink);
+  color: var(--nxr-bg);
 }

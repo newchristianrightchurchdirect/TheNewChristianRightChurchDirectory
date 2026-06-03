@@ -36,7 +36,8 @@ export default function BibleChapter({ translation, book, chapter }: { translati
       .then((d) => {
         if (!alive) return
         setAllBooks(d.books)
-        const b = d.books.find((x) => x.id === book) || d.books.find((x) => x.id.toLowerCase() === book.toLowerCase())
+        const target = String(book).toLowerCase()
+        const b = d.books.find((x) => String(x.id).toLowerCase() === target)
         if (!b) { setErr('Book not found'); return }
         setBk(b)
         const c = b.chapters.find((x) => x.number === chapter)

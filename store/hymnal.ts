@@ -76,6 +76,11 @@ type State = {
   defaultBible: string    // slug
   themePref: 'light' | 'dark' | 'system'
 
+  // Session-only: which tab the hymn detail page shows (persists across nav,
+  // not across reload — matches the Android behavior of remembering Music
+  // while paging through next/prev within a sitting).
+  hymnDetailTab: 'lyrics' | 'music'
+
   // Mutations
   toggleHymnFavorite: (ref: HymnRef) => void
   toggleChapterBookmark: (ref: BibleRef) => void
@@ -118,6 +123,8 @@ type State = {
 
   setLastOpenedHymn: (slug: string, number: string) => void
   setLastOpenedChapter: (translation: string, book: string, chapter: number) => void
+
+  setHymnDetailTab: (t: 'lyrics' | 'music') => void
 }
 
 function eqHymn(a: HymnRef, b: HymnRef) {
@@ -155,6 +162,7 @@ export const useHymnalStore = create<State>()(
       defaultHymnal: 'trinity-psalter-hymnal',
       defaultBible: 'esv',
       themePref: 'system',
+      hymnDetailTab: 'lyrics',
 
       toggleHymnFavorite: (ref) => set((s) => {
         const present = s.favoriteHymns.some((r) => eqHymn(r, ref))
@@ -299,6 +307,8 @@ export const useHymnalStore = create<State>()(
       setLastOpenedChapter: (translation, book, chapter) => set((s) => ({
         lastOpenedChapter: { ...s.lastOpenedChapter, [translation]: { book, chapter } },
       })),
+
+      setHymnDetailTab: (t) => set({ hymnDetailTab: t }),
     }),
     {
       name: 'nxr-hymnal',

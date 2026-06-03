@@ -20,7 +20,8 @@ export default function BibleBookToc({ translation, book }: { translation: strin
     loadBible(translation)
       .then((d) => {
         if (!alive) return
-        const b = d.books.find((x) => x.id === book) || d.books.find((x) => x.id.toLowerCase() === book.toLowerCase())
+        const target = String(book).toLowerCase()
+        const b = d.books.find((x) => String(x.id).toLowerCase() === target)
         if (!b) { setErr('Book not found'); return }
         setBk(b)
       })

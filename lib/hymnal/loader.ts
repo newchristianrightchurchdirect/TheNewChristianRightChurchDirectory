@@ -5,6 +5,7 @@
 import type {
   HymnalDocument,
   BibleDocument,
+  BibleBook,
   ConfessionsFile,
 } from '@/types/hymnal'
 import { findHymnal, findBible, CONFESSIONS_FILE } from './sources'
@@ -29,10 +30,41 @@ export function loadHymnal(slug: string): Promise<HymnalDocument> {
   return fetchJson<HymnalDocument>(`/hymnal-data/${src.file}`)
 }
 
+// The bundled Bible JSON files store `book.id` as an integer (1, 2, ...) and
+// `book.testament` as "OT"/"NT". The reader expects string ids and the
+// "old"/"new" testament tokens used by the rest of the UI. Normalize once on
+// load so every consumer can rely on the same shape.
+function normalizeBible(d: BibleDocument): BibleDocument {
+  return {
+    ...d,
+    books: d.books.map((b) => {
+      const t = String(b.testament || '').toLowerCase()
+      const testament: BibleBook['testament'] =
+        t === 'ot' || t.startsWith('o') ? 'old'
+        : t === 'nt' || t.startsWith('n') ? 'new'
+        : b.testament
+      return { ...b, id: String(b.id), testament }
+    }),
+  }
+}
+
+const bibleCache = new Map<string, Promise<BibleDocument>>()
+
 export function loadBible(slug: string): Promise<BibleDocument> {
   const src = findBible(slug)
   if (!src) return Promise.reject(new Error(`Unknown bible: ${slug}`))
-  return fetchJson<BibleDocument>(`/hymnal-data/${src.file}`)
+  const path = `/hymnal-data/${src.file}`
+  let p = bibleCache.get(path)
+  if (!p) {
+    p = fetch(path, { cache: 'force-cache' })
+      .then(async (r) => {
+        if (!r.ok) throw new Error(`Failed to load ${path}: ${r.status}`)
+        return (await r.json()) as BibleDocument
+      })
+      .then(normalizeBible)
+    bibleCache.set(path, p)
+  }
+  return p
 }
 
 export function loadConfessions(): Promise<ConfessionsFile> {

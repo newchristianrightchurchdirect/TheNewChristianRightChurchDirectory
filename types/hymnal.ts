@@ -19,6 +19,9 @@ export type Hymn = {
   scriptureReference?: string | null
   sheetMusicUrl?: string | null
   audioUrl?: string | null
+  year?: number | string | null
+  copyright?: string | null
+  notes?: string | null
   verses: HymnVerse[]
 }
 
