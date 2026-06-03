@@ -336,8 +336,11 @@
   gap: 10px;
   overflow-x: auto;
   padding: 14px 0 4px;
-  margin-bottom: 6px;
+  margin: 0 auto 6px;
   scrollbar-width: thin;
+  max-width: 620px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .chip {
   flex: 0 0 auto;
@@ -362,7 +365,18 @@
 .chip.on::before { content: "\2713  "; color: var(--nxr-brass); letter-spacing: 0; }
 
 /* ----- Numbered row list (creeds, bookmarks) ---------------------- */
-.entry-list { margin: 8px 0 0; border-top: 1px solid var(--nxr-rule); }
+.entry-list {
+  margin: 8px auto 0;
+  border-top: 1px solid var(--nxr-rule);
+  max-width: 620px;
+}
+
+.creeds-toc-wrap {
+  max-width: 620px;
+  margin: 0 auto;
+}
+.creeds-toc-wrap .entry-list { max-width: none; }
+.creeds-toc-wrap .chip-row { max-width: none; }
 .entry-row {
   display: grid;
   grid-template-columns: 64px 1fr 24px;
@@ -736,39 +750,49 @@
   font-size: 19px;
   line-height: 1.6;
   color: var(--nxr-ink);
-  max-width: 480px;
+  max-width: 420px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 32px;
+  padding-right: 32px;
+  box-sizing: content-box;
 }
 .verse {
-  display: grid;
-  grid-template-columns: 24px 1fr;
-  gap: 14px;
+  position: relative;
   margin-bottom: 18px;
-  align-items: baseline;
 }
 .verse .marker {
+  position: absolute;
+  left: -36px;
+  top: 4px;
+  width: 28px;
   font-family: var(--serif);
   font-style: italic;
   color: var(--nxr-brass-deep);
   text-align: right;
   font-size: 15px;
-  padding-top: 2px;
 }
-.verse .text { white-space: pre-wrap; }
+.verse .text {
+  white-space: pre-wrap;
+  display: block;
+}
 .verse.chorus {
   background: var(--nxr-surface-lift);
-  padding: 12px 14px;
-  margin-left: -14px;
+  padding: 14px 18px 14px 22px;
   border-left: 2px solid var(--nxr-brass);
 }
 .verse.chorus .marker {
+  position: static;
+  display: block;
+  width: auto;
+  text-align: left;
   font-family: var(--serif);
   font-size: 10px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--nxr-brass-deep);
   font-style: normal;
+  margin-bottom: 6px;
 }
 .dropcap {
   float: left;
@@ -957,6 +981,9 @@
   line-height: 1.65;
   color: var(--nxr-ink);
   white-space: pre-wrap;
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .creed-prose h3 {
   font-family: var(--serif);
@@ -1244,14 +1271,16 @@
 }
 .audio-bar.no-tabbar { bottom: 0; }
 .audio-bar-inner {
-  max-width: 760px;
+  max-width: 520px;
   margin: 0 auto;
   display: block;
+  text-align: center;
 }
 .audio-bar .meta-row {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 14px;
   font-family: var(--serif);
   font-size: 11px;
   letter-spacing: 0.20em;

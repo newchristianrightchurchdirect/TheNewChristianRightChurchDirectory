@@ -131,7 +131,7 @@ export default function HymnDetail({ slug, number }: { slug: string; number: str
         </div>
       )}
 
-      <nav style={{ display: 'flex', justifyContent: 'space-between', gap: 12, marginTop: 28, marginBottom: hymn.audioUrl ? 140 : 24, fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--nxr-ink-mute)' }}>
+      <nav style={{ display: 'flex', justifyContent: 'space-between', gap: 12, marginTop: 28, marginBottom: 140, fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--nxr-ink-mute)' }}>
         <div>
           {prev != null && <Link href={`/hymnal/library/${slug}/${encodeURIComponent(prev)}`}>&larr; #{prev}</Link>}
         </div>
@@ -140,16 +140,14 @@ export default function HymnDetail({ slug, number }: { slug: string; number: str
         </div>
       </nav>
 
-      {hymn.audioUrl && (
-        <AudioBar
-          src={hymn.audioUrl}
-          label={`Hymn No. ${hymn.number}`}
-          onPrev={prev != null ? () => router.push(`/hymnal/library/${slug}/${encodeURIComponent(prev)}`) : undefined}
-          onNext={next != null ? () => router.push(`/hymnal/library/${slug}/${encodeURIComponent(next)}`) : undefined}
-          textScale={textScale}
-          onScale={setTextScale}
-        />
-      )}
+      <AudioBar
+        src={hymn.audioUrl}
+        label={`Hymn No. ${hymn.number}`}
+        onPrev={prev != null ? () => router.push(`/hymnal/library/${slug}/${encodeURIComponent(prev)}`) : undefined}
+        onNext={next != null ? () => router.push(`/hymnal/library/${slug}/${encodeURIComponent(next)}`) : undefined}
+        textScale={textScale}
+        onScale={setTextScale}
+      />
 
       {modal === 'info' && (
         <HymnInfoModal hymn={hymn} hymnalShort={src?.short ?? ''} onClose={() => setModal(null)} />
@@ -210,7 +208,7 @@ function DetailChrome({
         </button>
         <button onClick={onAdd} aria-label="Add to service">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-            <line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" />
+            <rect x="5" y="3" width="14" height="18" rx="1" /><path d="M8 8h8M8 12h8M8 16h5" />
           </svg>
         </button>
       </div>
@@ -228,7 +226,7 @@ function AudioBar({
   textScale,
   onScale,
 }: {
-  src: string
+  src?: string | null
   label: string
   onPrev?: () => void
   onNext?: () => void
@@ -239,6 +237,8 @@ function AudioBar({
   const [playing, setPlaying] = useState(false)
   const [t, setT] = useState(0)
   const [dur, setDur] = useState(0)
+  const [looping, setLooping] = useState(false)
+  const hasAudio = !!src
 
   useEffect(() => {
     const a = audioRef.current
@@ -255,6 +255,11 @@ function AudioBar({
       a.removeEventListener('ended', onEnd)
     }
   }, [src])
+
+  useEffect(() => {
+    const a = audioRef.current
+    if (a) a.loop = looping
+  }, [looping])
 
   function toggle() {
     const a = audioRef.current
@@ -278,40 +283,41 @@ function AudioBar({
 
   return (
     <div className="audio-bar">
-      <audio ref={audioRef} src={src} preload="metadata" />
+      {hasAudio && <audio ref={audioRef} src={src ?? undefined} preload="metadata" />}
       <div className="audio-bar-inner">
         <div className="meta-row">
           <span>{label}</span>
-          <span>{fmt(t)} / {fmt(dur)}</span>
+          {hasAudio && <span>{fmt(t)} / {fmt(dur)}</span>}
         </div>
-        <div className="progress"><div className="fill" style={{ width: `${pct}%` }} /></div>
+        {hasAudio && (
+          <div className="progress"><div className="fill" style={{ width: `${pct}%` }} /></div>
+        )}
         <div className="controls">
           <button onClick={onPrev} disabled={!onPrev} aria-label="Previous hymn">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
               <polygon points="19 20 9 12 19 4 19 20" /><line x1="5" y1="19" x2="5" y2="5" />
             </svg>
           </button>
-          <button onClick={() => { const a = audioRef.current; if (a) a.currentTime = Math.max(0, a.currentTime - 10) }} aria-label="Back 10 seconds">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-              <polyline points="1 4 1 10 7 10" /><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
-            </svg>
-          </button>
-          <button className="play" onClick={toggle} aria-label={playing ? 'Pause' : 'Play'}>
-            {playing ? (
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
-                <rect x="6" y="4" width="4" height="16" /><rect x="14" y="4" width="4" height="16" />
+          {hasAudio && (
+            <button className="play" onClick={toggle} aria-label={playing ? 'Pause' : 'Play'}>
+              {playing ? (
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+                  <rect x="6" y="4" width="4" height="16" /><rect x="14" y="4" width="4" height="16" />
+                </svg>
+              ) : (
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+                  <polygon points="5 3 19 12 5 21 5 3" />
+                </svg>
+              )}
+            </button>
+          )}
+          {hasAudio && (
+            <button className={looping ? 'on' : ''} onClick={() => setLooping((v) => !v)} aria-label={looping ? 'Disable loop' : 'Enable loop'} aria-pressed={looping}>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                <polyline points="17 1 21 5 17 9" /><path d="M3 11V9a4 4 0 0 1 4-4h14" /><polyline points="7 23 3 19 7 15" /><path d="M21 13v2a4 4 0 0 1-4 4H3" />
               </svg>
-            ) : (
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
-                <polygon points="5 3 19 12 5 21 5 3" />
-              </svg>
-            )}
-          </button>
-          <button onClick={() => { const a = audioRef.current; if (a) a.currentTime = Math.min(dur, a.currentTime + 10) }} aria-label="Forward 10 seconds">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-              <polyline points="23 4 23 10 17 10" /><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
-            </svg>
-          </button>
+            </button>
+          )}
           <button onClick={cycleScale} aria-label="Text size">
             <span style={{ fontFamily: 'var(--serif)', fontSize: 14, letterSpacing: '0.04em' }}>Aa</span>
           </button>

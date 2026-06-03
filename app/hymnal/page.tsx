@@ -25,6 +25,15 @@ const PUBLISHER: Record<string, string> = {
   'sacred-harp-1991':          'Sacred Harp Publishing Company',
 }
 
+const HYMN_COUNT: Record<string, number> = {
+  'trinity-psalter-hymnal':    706,
+  'trinity-hymnal-1961':       748,
+  'book-of-psalms-for-worship':460,
+  'cantus-christi':            340,
+  'hymns-of-grace':            321,
+  'sacred-harp-1991':          554,
+}
+
 export default function HymnalHome() {
   return (
     <div>
@@ -72,7 +81,7 @@ export default function HymnalHome() {
                 <span className="tag">&middot; {(TRADITION[h.slug] || '').toUpperCase()}</span>
               </div>
             </div>
-            <span className="page-no">{(i + 1) * 113}</span>
+            <span className="page-no">{HYMN_COUNT[h.slug] ?? ''}</span>
           </Link>
         ))}
       </section>

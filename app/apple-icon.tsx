@@ -10,17 +10,15 @@ export default function AppleIcon() {
         style={{
           width: '100%',
           height: '100%',
-          background: '#0d0b07',
-          color: '#d8b76a',
+          background: '#14110B',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          fontSize: 130,
-          fontWeight: 500,
-          fontFamily: 'Georgia, serif',
         }}
       >
-        H
+        <svg width="100%" height="100%" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#C9A55A" d="M58,30L58,65C56,62.5 52.5,61 49,61C43.5,61 39,64 39,68C39,72 43.5,75 49,75C54.5,75 59,72 59,68L59,42L70,38L70,32Z" />
+        </svg>
       </div>
     ),
     { ...size },

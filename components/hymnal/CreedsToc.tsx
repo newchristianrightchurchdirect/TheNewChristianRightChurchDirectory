@@ -64,7 +64,7 @@ export default function CreedsToc() {
   if (!docs) return <div className="hymnal-empty">Loading&hellip;</div>
 
   return (
-    <div>
+    <div className="creeds-toc-wrap">
       <div className="chip-row" role="tablist" aria-label="Filter by tradition">
         {traditions.map((t) => (
           <button

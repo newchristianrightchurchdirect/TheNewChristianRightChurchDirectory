@@ -4,7 +4,8 @@ import { useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useHymnalStore, type Service, type ServiceItem } from '@/store/hymnal'
 import { HYMNALS, BIBLES, findHymnal, findBible } from '@/lib/hymnal/sources'
-import { toRoman } from '@/lib/hymnal/loader'
+import { loadHymnal, toRoman } from '@/lib/hymnal/loader'
+import type { Hymn } from '@/types/hymnal'
 
 function serviceToText(svc: Service): string {
   const lines: string[] = []
@@ -156,6 +157,11 @@ export default function ServiceEditor({ id }: { id: string }) {
               total={service.items.length}
               item={it}
               dragOver={dragOver === i}
+              onOpen={() => {
+                if (it.kind === 'hymn') router.push(`/hymnal/library/${it.ref.hymnal}/${encodeURIComponent(it.ref.number)}`)
+                else if (it.kind === 'scripture') router.push(`/hymnal/bible/${it.ref.translation}/${it.ref.book}/${it.ref.chapter}`)
+                else if (it.kind === 'confession') router.push(`/hymnal/creeds/${it.ref.id}`)
+              }}
               onUp={() => moveItem(id, i, i - 1)}
               onDown={() => moveItem(id, i, i + 1)}
               onRemove={() => removeItem(id, i)}
@@ -175,6 +181,7 @@ export default function ServiceEditor({ id }: { id: string }) {
 
       {exporting && (
         <ExportModal
+          service={service}
           text={serviceToText(service)}
           filename={`${service.title.replace(/[^a-z0-9]+/gi, '-').toLowerCase() || 'service'}.txt`}
           title={service.title}
@@ -205,11 +212,12 @@ export default function ServiceEditor({ id }: { id: string }) {
   )
 }
 
-function Row({ index, total, item, dragOver, onUp, onDown, onRemove, onDragStart, onDragEnter, onDragEnd }: {
+function Row({ index, total, item, dragOver, onOpen, onUp, onDown, onRemove, onDragStart, onDragEnter, onDragEnd }: {
   index: number
   total: number
   item: ServiceItem
   dragOver: boolean
+  onOpen: () => void
   onUp: () => void
   onDown: () => void
   onRemove: () => void
@@ -218,6 +226,7 @@ function Row({ index, total, item, dragOver, onUp, onDown, onRemove, onDragStart
   onDragEnd: () => void
 }) {
   const roman = toRoman(index + 1)
+  const navigable = item.kind === 'hymn' || item.kind === 'scripture' || item.kind === 'confession'
   return (
     <div
       className={`svc-roman-row${dragOver ? ' drag-over' : ''}`}
@@ -229,10 +238,16 @@ function Row({ index, total, item, dragOver, onUp, onDown, onRemove, onDragStart
       onDrop={(e) => { e.preventDefault(); onDragEnd() }}
     >
       <div className="roman" aria-hidden style={{ cursor: 'grab' }}>{roman}</div>
-      <div className="body">
+      <button
+        type="button"
+        className="body"
+        onClick={navigable ? onOpen : undefined}
+        disabled={!navigable}
+        style={{ background: 'transparent', border: 'none', padding: 0, textAlign: 'left', cursor: navigable ? 'pointer' : 'default', color: 'inherit', font: 'inherit', width: '100%' }}
+      >
         <div className="ln1">{renderLine(item)}</div>
         <div className="meta">{kindLabel(item.kind)}</div>
-      </div>
+      </button>
       <div className="actions">
         <div className="row-icons">
           <button onClick={onUp} disabled={index === 0} aria-label="Move up">
@@ -256,11 +271,101 @@ function Row({ index, total, item, dragOver, onUp, onDown, onRemove, onDragStart
   )
 }
 
-function ExportModal({ text, filename, title, message, setMessage, onClose }: {
+function escapeHtml(s: string): string {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
+}
+
+async function buildBookletHtml(service: Service): Promise<string> {
+  const hymnalCache = new Map<string, Promise<{ hymn: Hymn | null }>>()
+  function getHymn(slug: string, number: string): Promise<{ hymn: Hymn | null }> {
+    const key = `${slug}|${number}`
+    let p = hymnalCache.get(key)
+    if (!p) {
+      p = loadHymnal(slug)
+        .then((doc) => ({ hymn: doc.hymns.find((h) => h.number === number) || null }))
+        .catch(() => ({ hymn: null }))
+      hymnalCache.set(key, p)
+    }
+    return p
+  }
+
+  const sections: string[] = []
+  for (let i = 0; i < service.items.length; i++) {
+    const it = service.items[i]
+    const r = toRoman(i + 1)
+    if (it.kind === 'hymn') {
+      const h = findHymnal(it.ref.hymnal)
+      const { hymn } = await getHymn(it.ref.hymnal, it.ref.number)
+      const head = `<div class="rom">${r}</div><div class="kind">Hymn</div>`
+      const ttl = hymn?.title ? escapeHtml(hymn.title) : `No. ${escapeHtml(it.ref.number)}`
+      const meta = `${escapeHtml(h?.short || it.ref.hymnal)} &middot; No. ${escapeHtml(it.ref.number)}${hymn?.tune ? ` &middot; ${escapeHtml(hymn.tune)}` : ''}`
+      let body = ''
+      if (hymn) {
+        const verses = (hymn.verses || []).map((v) => {
+          const label = v.isChorus ? 'Chorus' : String(v.number)
+          return `<div class="verse"><div class="vm">${escapeHtml(label)}</div><div class="vt">${escapeHtml(v.text || '')}</div></div>`
+        }).join('')
+        body = `<div class="verses">${verses}</div>`
+        if (hymn.sheetMusicUrl) {
+          body += `<div class="sheet"><img src="${escapeHtml(hymn.sheetMusicUrl)}" alt="Sheet music"/></div>`
+        }
+      } else {
+        body = '<div class="missing">Hymn not available.</div>'
+      }
+      sections.push(`<section class="sect">${head}<h2 class="ttl">${ttl}</h2><div class="meta">${meta}</div>${body}</section>`)
+    } else if (it.kind === 'scripture') {
+      const b = findBible(it.ref.translation)
+      sections.push(`<section class="sect"><div class="rom">${r}</div><div class="kind">Scripture Reading</div><h2 class="ttl">${escapeHtml(it.ref.book.toUpperCase())} ${escapeHtml(String(it.ref.chapter))}</h2><div class="meta">${escapeHtml(b?.short || it.ref.translation)}</div></section>`)
+    } else if (it.kind === 'confession') {
+      sections.push(`<section class="sect"><div class="rom">${r}</div><div class="kind">Confession</div><h2 class="ttl">${escapeHtml(it.ref.id)}</h2></section>`)
+    } else {
+      sections.push(`<section class="sect"><div class="rom">${r}</div><div class="kind">Spoken</div><div class="note">${escapeHtml(it.text)}</div></section>`)
+    }
+  }
+
+  const css = `
+    @page { margin: 0.6in; }
+    * { box-sizing: border-box; }
+    body { font-family: Georgia, "Times New Roman", serif; color: #1d160d; margin: 0; }
+    .cover { text-align: center; padding: 24px 0 32px; border-bottom: 1px solid #b5a273; margin-bottom: 24px; }
+    .cover .eyebrow { font-size: 11px; letter-spacing: 0.28em; text-transform: uppercase; color: #8a6c2a; margin-bottom: 8px; }
+    .cover h1 { font-weight: 400; font-size: 32px; line-height: 1.1; margin: 0 0 6px; }
+    .cover .date { font-style: italic; color: #5a4d2c; font-size: 14px; }
+    .sect { page-break-inside: avoid; margin-bottom: 28px; padding-bottom: 20px; border-bottom: 1px solid #d8c997; }
+    .sect:last-child { border-bottom: none; }
+    .rom { font-style: italic; color: #8a6c2a; font-size: 16px; margin-bottom: 2px; }
+    .kind { font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: #6b5a35; margin-bottom: 6px; }
+    .ttl { font-weight: 400; font-size: 22px; line-height: 1.15; margin: 0 0 4px; }
+    .meta { font-style: italic; color: #6b5a35; font-size: 13px; margin-bottom: 14px; }
+    .verses { max-width: 480px; margin: 0 auto; }
+    .verse { display: grid; grid-template-columns: 28px 1fr; gap: 12px; margin-bottom: 14px; align-items: baseline; }
+    .vm { font-style: italic; color: #8a6c2a; font-size: 13px; text-align: right; }
+    .vt { white-space: pre-wrap; line-height: 1.55; font-size: 15px; }
+    .sheet { margin-top: 16px; text-align: center; }
+    .sheet img { max-width: 100%; height: auto; }
+    .note { font-style: italic; color: #41372a; font-size: 15px; }
+    .missing { color: #a04545; font-style: italic; font-size: 13px; }
+  `
+  const dateLine = service.date ? `<div class="date">${escapeHtml(service.date)}</div>` : ''
+  return `<!doctype html><html><head><meta charset="utf-8"><title>${escapeHtml(service.title)}</title><style>${css}</style></head><body>
+    <div class="cover">
+      <div class="eyebrow">Order of Service</div>
+      <h1>${escapeHtml(service.title)}</h1>
+      ${dateLine}
+    </div>
+    ${sections.join('\n')}
+    <script>window.onload = function(){ setTimeout(function(){ window.focus(); window.print(); }, 250); };<\/script>
+  </body></html>`
+}
+
+function ExportModal({ service, text, filename, title, message, setMessage, onClose }: {
+  service: Service
   text: string; filename: string; title: string
   message: string | null; setMessage: (s: string | null) => void
   onClose: () => void
 }) {
+  const [building, setBuilding] = useState(false)
+
   async function copy() {
     try {
       await navigator.clipboard.writeText(text)
@@ -284,13 +389,21 @@ function ExportModal({ text, filename, title, message, setMessage, onClose }: {
     setMessage('Downloaded')
     setTimeout(() => setMessage(null), 1500)
   }
-  function print() {
-    const win = window.open('', '_blank')
-    if (!win) { setMessage('Pop-up blocked'); setTimeout(() => setMessage(null), 1500); return }
-    win.document.write(`<!doctype html><html><head><title>${title}</title><style>body{font-family:Georgia,serif;max-width:640px;margin:48px auto;padding:0 24px;line-height:1.6;color:#211a10}pre{white-space:pre-wrap;font-family:inherit;font-size:15px}</style></head><body><pre>${text.replace(/</g, '&lt;')}</pre></body></html>`)
-    win.document.close()
-    win.focus()
-    win.print()
+  async function printBooklet() {
+    setBuilding(true)
+    try {
+      const html = await buildBookletHtml(service)
+      const win = window.open('', '_blank')
+      if (!win) { setMessage('Pop-up blocked'); setTimeout(() => setMessage(null), 1500); return }
+      win.document.open()
+      win.document.write(html)
+      win.document.close()
+    } catch (e) {
+      setMessage(`Build failed: ${(e as Error).message}`)
+      setTimeout(() => setMessage(null), 2000)
+    } finally {
+      setBuilding(false)
+    }
   }
   async function share() {
     if (navigator.share) {
@@ -309,6 +422,10 @@ function ExportModal({ text, filename, title, message, setMessage, onClose }: {
           <button onClick={onClose} aria-label="Close">&times;</button>
         </div>
         <div className="hd">Export <em>{title}</em></div>
+        <button className="opt" onClick={printBooklet} disabled={building}>
+          <span className="lbl">{building ? 'Building\u2026' : 'Download PDF (lyrics & sheet music)'}</span>
+          <span className="dk">Full booklet with every hymn</span>
+        </button>
         <button className="opt" onClick={copy}>
           <span className="lbl">Copy as Text</span>
           <span className="dk">Full order to clipboard</span>
@@ -316,10 +433,6 @@ function ExportModal({ text, filename, title, message, setMessage, onClose }: {
         <button className="opt" onClick={download}>
           <span className="lbl">Download .txt</span>
           <span className="dk">{filename}</span>
-        </button>
-        <button className="opt" onClick={print}>
-          <span className="lbl">Print / Save PDF</span>
-          <span className="dk">Open the print dialog</span>
         </button>
         <button className="opt" onClick={share}>
           <span className="lbl">System Share</span>
