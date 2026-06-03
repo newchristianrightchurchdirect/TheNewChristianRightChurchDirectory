@@ -1628,6 +1628,19 @@
   margin: 0 auto 22px;
   color: var(--nxr-ink-dim);
 }
+.search-group { margin-bottom: 18px; }
+.search-group:last-child { margin-bottom: 0; }
+.search-group-h {
+  font-family: var(--serif);
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.30em;
+  text-transform: uppercase;
+  color: var(--nxr-brass-deep);
+  margin: 0 0 6px;
+  padding: 6px 0 6px;
+  border-bottom: 1px solid var(--nxr-rule);
+}
 
 /* ====================================================================== */
 /* ============================  READING PLANS  ========================== */

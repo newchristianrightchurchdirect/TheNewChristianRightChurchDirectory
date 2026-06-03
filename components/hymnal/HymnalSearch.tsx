@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import { loadHymnal, loadBible, loadConfessions } from '@/lib/hymnal/loader'
 import { HYMNALS, BIBLES } from '@/lib/hymnal/sources'
@@ -38,31 +38,36 @@ function highlight(text: string, q: string): React.ReactNode {
   return out
 }
 
+type Scope = 'all' | 'hymns' | 'bible' | 'creeds'
+
 export default function HymnalSearch() {
   const [q, setQ] = useState('')
-  const [scope, setScope] = useState<'all' | 'hymns' | 'bible' | 'creeds'>('all')
+  const [scope, setScope] = useState<Scope>('all')
   const [results, setResults] = useState<Result[]>([])
   const [busy, setBusy] = useState(false)
   const [count, setCount] = useState(0)
   const [searched, setSearched] = useState(false)
+  const runIdRef = useRef(0)
 
   const history = useHymnalStore((s) => s.searchHistory)
   const addTerm = useHymnalStore((s) => s.addSearchTerm)
   const removeTerm = useHymnalStore((s) => s.removeSearchTerm)
   const clearHistory = useHymnalStore((s) => s.clearSearchHistory)
 
-  async function run(query: string = q) {
+  async function execute(query: string, sc: Scope, saveHistory: boolean) {
     const trimmed = query.trim()
-    if (trimmed.length < 2) { setResults([]); setCount(0); setSearched(false); return }
+    if (trimmed.length < 2) { setResults([]); setCount(0); setSearched(false); setBusy(false); return }
+    const id = ++runIdRef.current
     setBusy(true)
-    addTerm(trimmed)
+    if (saveHistory) addTerm(trimmed)
     const out: Result[] = []
     const max = 80
 
     try {
-      if (scope === 'all' || scope === 'hymns') {
+      if (sc === 'all' || sc === 'hymns') {
         for (const src of HYMNALS) {
           const doc = await loadHymnal(src.slug)
+          if (id !== runIdRef.current) return
           for (const h of doc.hymns) {
             const hay = [
               h.title || '', h.firstLine || '', h.tune || '', h.author || '',
@@ -76,8 +81,9 @@ export default function HymnalSearch() {
           if (out.length >= max) break
         }
       }
-      if (out.length < max && (scope === 'all' || scope === 'creeds')) {
+      if (out.length < max && (sc === 'all' || sc === 'creeds')) {
         const cf = await loadConfessions()
+        if (id !== runIdRef.current) return
         for (const d of cf.documents) {
           const parts: string[] = [d.title]
           if (d.content) parts.push(d.content)
@@ -95,9 +101,10 @@ export default function HymnalSearch() {
           }
         }
       }
-      if (out.length < max && (scope === 'all' || scope === 'bible')) {
+      if (out.length < max && (sc === 'all' || sc === 'bible')) {
         const src = BIBLES[0]
         const doc = await loadBible(src.slug)
+        if (id !== runIdRef.current) return
         outer: for (const b of doc.books) {
           for (const c of b.chapters) {
             for (const v of c.verses) {
@@ -111,10 +118,25 @@ export default function HymnalSearch() {
       }
     } catch { /* surface as empty */ }
 
+    if (id !== runIdRef.current) return
     setResults(out)
     setCount(out.length)
     setSearched(true)
     setBusy(false)
+  }
+
+  useEffect(() => {
+    const trimmed = q.trim()
+    if (trimmed.length < 2) { setResults([]); setCount(0); setSearched(false); setBusy(false); return }
+    const t = setTimeout(() => { execute(trimmed, scope, false) }, 280)
+    return () => clearTimeout(t)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [q, scope])
+
+  const grouped = {
+    hymn: results.filter((r) => r.kind === 'hymn'),
+    verse: results.filter((r) => r.kind === 'verse'),
+    creed: results.filter((r) => r.kind === 'creed'),
   }
 
   const showHistory = !searched && q.trim().length < 2 && history.length > 0
@@ -124,7 +146,7 @@ export default function HymnalSearch() {
     <div className="search-page">
       <h1 className="search-h1">Search</h1>
 
-      <form onSubmit={(e) => { e.preventDefault(); run() }} className="search-input-wrap" role="search">
+      <form onSubmit={(e) => { e.preventDefault(); execute(q, scope, true) }} className="search-input-wrap" role="search">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
           <circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" />
         </svg>
@@ -172,7 +194,26 @@ export default function HymnalSearch() {
               No matches.
             </div>
           ) : (
-            results.map((r, i) => <ResultRow key={i} r={r} q={q.trim()} />)
+            <>
+              {grouped.hymn.length > 0 && (
+                <section className="search-group">
+                  <h2 className="search-group-h">Hymns &middot; {grouped.hymn.length}</h2>
+                  {grouped.hymn.map((r, i) => <ResultRow key={`h${i}`} r={r} q={q.trim()} />)}
+                </section>
+              )}
+              {grouped.verse.length > 0 && (
+                <section className="search-group">
+                  <h2 className="search-group-h">Scripture &middot; {grouped.verse.length}</h2>
+                  {grouped.verse.map((r, i) => <ResultRow key={`v${i}`} r={r} q={q.trim()} />)}
+                </section>
+              )}
+              {grouped.creed.length > 0 && (
+                <section className="search-group">
+                  <h2 className="search-group-h">Creeds &middot; Confessions &middot; {grouped.creed.length}</h2>
+                  {grouped.creed.map((r, i) => <ResultRow key={`c${i}`} r={r} q={q.trim()} />)}
+                </section>
+              )}
+            </>
           )}
         </>
       )}
@@ -191,7 +232,7 @@ export default function HymnalSearch() {
                 </svg>
               </span>
               <button
-                onClick={() => { setQ(t); run(t) }}
+                onClick={() => { setQ(t); execute(t, scope, true) }}
                 style={{ background: 'transparent', border: 'none', cursor: 'pointer', textAlign: 'left', color: 'inherit', font: 'inherit', padding: 0 }}
               >
                 {t}
