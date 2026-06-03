@@ -25,6 +25,7 @@ model Church {
   abolitionStance  String   @default("unknown") // "pro_abolition", "anti", "incrementalist", "unknown"
   theologicalNotes String?
   description      String?
+  leadership       String?  // Pastor + elders, e.g. "Pastor: Jane Doe; Elders: A, B, C"
   approved         Boolean  @default(false)
   upvotes          Int      @default(0)
   createdAt        DateTime @default(now())

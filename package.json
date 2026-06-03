@@ -17,6 +17,7 @@
     "@upstash/ratelimit": "^2.0.8",
     "@upstash/redis": "^1.37.0",
     "bcryptjs": "^3.0.3",
+    "c12": "^4.0.0-beta.5",
     "jose": "^6.2.2",
     "jsonwebtoken": "^9.0.3",
     "leaflet": "^1.9.4",
@@ -38,7 +39,7 @@
     "postcss": "^8.0.0",
     "prisma": "^6.0.0",
     "tailwindcss": "^4.0.0",
-    "tsx": "^4.21.0",
+    "tsx": "^4.22.4",
     "typescript": "^5.7.0"
   }
 }
