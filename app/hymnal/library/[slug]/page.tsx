@@ -19,7 +19,7 @@ export default async function HymnalLibraryPage({ params }: { params: Params }) 
 
   return (
     <div>
-      <header className="hymnal-section-head">
+      <header className="hymnal-hero">
         <div className="hymnal-eyebrow">{src.short}{src.year ? ` \u00B7 ${src.year}` : ''}</div>
         <h1 className="hymnal-h1">{src.title}</h1>
         {src.blurb && <p className="hymnal-dek">{src.blurb}</p>}

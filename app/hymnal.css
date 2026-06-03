@@ -736,14 +736,14 @@
   font-size: 19px;
   line-height: 1.6;
   color: var(--nxr-ink);
-  max-width: 520px;
+  max-width: 480px;
   margin-left: auto;
   margin-right: auto;
 }
 .verse {
   display: grid;
-  grid-template-columns: 28px 1fr;
-  gap: 16px;
+  grid-template-columns: 24px 1fr;
+  gap: 14px;
   margin-bottom: 18px;
   align-items: baseline;
 }
@@ -755,7 +755,7 @@
   font-size: 15px;
   padding-top: 2px;
 }
-.verse .text { white-space: pre-wrap; text-align: center; }
+.verse .text { white-space: pre-wrap; }
 .verse.chorus {
   background: var(--nxr-surface-lift);
   padding: 12px 14px;
@@ -774,9 +774,9 @@
   float: left;
   font-family: var(--serif);
   font-style: italic;
-  font-size: 64px;
-  line-height: 0.85;
-  padding: 8px 10px 0 0;
+  font-size: 48px;
+  line-height: 0.9;
+  padding: 4px 6px 0 0;
   color: var(--nxr-brass);
 }
 
