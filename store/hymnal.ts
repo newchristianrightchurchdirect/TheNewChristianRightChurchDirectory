@@ -19,6 +19,12 @@ export type ConfessionRef = {
   id: string
 }
 
+// Identifies one entry within a confession / creed document.
+export type ConfessionEntryRef = {
+  docId: string
+  key: string  // stable composite of group index + entry index (or label)
+}
+
 // One element of a worship-service order.
 export type ServiceItem =
   | { kind: 'hymn'; ref: HymnRef; note?: string }
@@ -40,9 +46,19 @@ type State = {
   favoriteHymns: HymnRef[]
   bookmarkedChapters: BibleRef[]
   favoriteConfessions: ConfessionRef[]
+  bookmarkedConfessionEntries: ConfessionEntryRef[]
 
   // Custom services
   services: Service[]
+
+  // Search overlay history
+  searchHistory: string[]
+
+  // Active reading plans (by plan id)
+  activePlanIds: string[]
+
+  // User-imported hymnals (full HymnalDocument JSON, keyed by slug)
+  customHymnals: { slug: string; title: string; short: string; year?: number; data: unknown }[]
 
   // Reader preferences
   textScale: number       // 0.85 .. 1.5
@@ -56,10 +72,12 @@ type State = {
   toggleHymnFavorite: (ref: HymnRef) => void
   toggleChapterBookmark: (ref: BibleRef) => void
   toggleConfessionFavorite: (ref: ConfessionRef) => void
+  toggleConfessionEntryBookmark: (ref: ConfessionEntryRef) => void
 
   isHymnFavorite: (ref: HymnRef) => boolean
   isChapterBookmarked: (ref: BibleRef) => boolean
   isConfessionFavorite: (ref: ConfessionRef) => boolean
+  isConfessionEntryBookmarked: (ref: ConfessionEntryRef) => boolean
 
   createService: (title: string, date?: string) => string
   deleteService: (id: string) => void
@@ -76,6 +94,16 @@ type State = {
   setBibleSingleColumn: (b: boolean) => void
   setDefaultHymnal: (slug: string) => void
   setDefaultBible: (slug: string) => void
+
+  addSearchTerm: (term: string) => void
+  removeSearchTerm: (term: string) => void
+  clearSearchHistory: () => void
+
+  toggleActivePlan: (planId: string) => void
+  isPlanActive: (planId: string) => boolean
+
+  addCustomHymnal: (h: { slug: string; title: string; short: string; year?: number; data: unknown }) => void
+  removeCustomHymnal: (slug: string) => void
 }
 
 function eqHymn(a: HymnRef, b: HymnRef) {
@@ -85,6 +113,7 @@ function eqChapter(a: BibleRef, b: BibleRef) {
   return a.translation === b.translation && a.book === b.book && a.chapter === b.chapter
 }
 function eqConf(a: ConfessionRef, b: ConfessionRef) { return a.id === b.id }
+function eqEntry(a: ConfessionEntryRef, b: ConfessionEntryRef) { return a.docId === b.docId && a.key === b.key }
 
 function newId() {
   return 'svc_' + Math.random().toString(36).slice(2, 10) + Date.now().toString(36)
@@ -96,7 +125,11 @@ export const useHymnalStore = create<State>()(
       favoriteHymns: [],
       bookmarkedChapters: [],
       favoriteConfessions: [],
+      bookmarkedConfessionEntries: [],
       services: [],
+      searchHistory: [],
+      activePlanIds: [],
+      customHymnals: [],
 
       textScale: 1,
       showRomanNumerals: true,
@@ -123,10 +156,17 @@ export const useHymnalStore = create<State>()(
           ? s.favoriteConfessions.filter((r) => !eqConf(r, ref))
           : [...s.favoriteConfessions, ref] }
       }),
+      toggleConfessionEntryBookmark: (ref) => set((s) => {
+        const present = s.bookmarkedConfessionEntries.some((r) => eqEntry(r, ref))
+        return { bookmarkedConfessionEntries: present
+          ? s.bookmarkedConfessionEntries.filter((r) => !eqEntry(r, ref))
+          : [...s.bookmarkedConfessionEntries, ref] }
+      }),
 
       isHymnFavorite: (ref) => get().favoriteHymns.some((r) => eqHymn(r, ref)),
       isChapterBookmarked: (ref) => get().bookmarkedChapters.some((r) => eqChapter(r, ref)),
       isConfessionFavorite: (ref) => get().favoriteConfessions.some((r) => eqConf(r, ref)),
+      isConfessionEntryBookmarked: (ref) => get().bookmarkedConfessionEntries.some((r) => eqEntry(r, ref)),
 
       createService: (title, date) => {
         const id = newId()
@@ -178,6 +218,31 @@ export const useHymnalStore = create<State>()(
       setBibleSingleColumn: (b) => set({ bibleSingleColumn: b }),
       setDefaultHymnal: (slug) => set({ defaultHymnal: slug }),
       setDefaultBible: (slug) => set({ defaultBible: slug }),
+
+      addSearchTerm: (term) => set((s) => {
+        const t = term.trim()
+        if (!t) return {}
+        const next = [t, ...s.searchHistory.filter((x) => x.toLowerCase() !== t.toLowerCase())].slice(0, 12)
+        return { searchHistory: next }
+      }),
+      removeSearchTerm: (term) => set((s) => ({
+        searchHistory: s.searchHistory.filter((x) => x !== term),
+      })),
+      clearSearchHistory: () => set({ searchHistory: [] }),
+
+      toggleActivePlan: (planId) => set((s) => ({
+        activePlanIds: s.activePlanIds.includes(planId)
+          ? s.activePlanIds.filter((x) => x !== planId)
+          : [...s.activePlanIds, planId],
+      })),
+      isPlanActive: (planId) => get().activePlanIds.includes(planId),
+
+      addCustomHymnal: (h) => set((s) => ({
+        customHymnals: [...s.customHymnals.filter((x) => x.slug !== h.slug), h],
+      })),
+      removeCustomHymnal: (slug) => set((s) => ({
+        customHymnals: s.customHymnals.filter((x) => x.slug !== slug),
+      })),
     }),
     {
       name: 'nxr-hymnal',
@@ -187,7 +252,11 @@ export const useHymnalStore = create<State>()(
         favoriteHymns: s.favoriteHymns,
         bookmarkedChapters: s.bookmarkedChapters,
         favoriteConfessions: s.favoriteConfessions,
+        bookmarkedConfessionEntries: s.bookmarkedConfessionEntries,
         services: s.services,
+        searchHistory: s.searchHistory,
+        activePlanIds: s.activePlanIds,
+        customHymnals: s.customHymnals,
         textScale: s.textScale,
         showRomanNumerals: s.showRomanNumerals,
         showDropCaps: s.showDropCaps,

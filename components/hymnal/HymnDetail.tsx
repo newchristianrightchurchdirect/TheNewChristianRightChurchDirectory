@@ -1,22 +1,33 @@
 'use client'
 
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import { loadHymnal, toRoman } from '@/lib/hymnal/loader'
+import { findHymnal } from '@/lib/hymnal/sources'
 import { useHymnalStore } from '@/store/hymnal'
 import type { Hymn } from '@/types/hymnal'
 
+type Tab = 'lyrics' | 'music'
+
 export default function HymnDetail({ slug, number }: { slug: string; number: number }) {
+  const router = useRouter()
   const [hymn, setHymn] = useState<Hymn | null>(null)
   const [err, setErr] = useState<string | null>(null)
   const [prev, setPrev] = useState<number | null>(null)
   const [next, setNext] = useState<number | null>(null)
+  const [tab, setTab] = useState<Tab>('lyrics')
+  const [modal, setModal] = useState<null | 'info' | 'share' | 'order'>(null)
 
   const isFav = useHymnalStore((s) => s.isHymnFavorite({ hymnal: slug, number }))
   const toggleFav = useHymnalStore((s) => s.toggleHymnFavorite)
   const textScale = useHymnalStore((s) => s.textScale)
+  const setTextScale = useHymnalStore((s) => s.setTextScale)
   const showRoman = useHymnalStore((s) => s.showRomanNumerals)
   const showDrop = useHymnalStore((s) => s.showDropCaps)
+
+  const src = findHymnal(slug)
+  const hymnalLabel = src?.short?.toUpperCase() ?? slug.toUpperCase()
 
   useEffect(() => {
     let alive = true
@@ -38,81 +49,87 @@ export default function HymnDetail({ slug, number }: { slug: string; number: num
   if (err) return <div className="hymnal-empty">{err}</div>
   if (!hymn) return <div className="hymnal-empty">Loading&hellip;</div>
 
+  const credit = [
+    hymn.author ? `Words: ${hymn.author}` : null,
+    hymn.composer ? `Music: ${hymn.composer}` : null,
+  ].filter(Boolean).join('  \u00B7  ')
+
   return (
     <article className="hymn-detail">
-      <div className="num-band">No. {hymn.number}</div>
-      <h1 className="ttl">{hymn.title}</h1>
-      {hymn.tune && <div className="meta">Tune: {hymn.tune}{hymn.meter ? `  \u00B7  ${hymn.meter}` : ''}{hymn.key ? `  \u00B7  ${hymn.key}` : ''}</div>}
-      {(hymn.author || hymn.composer) && (
-        <div className="meta-row">
-          {hymn.author && <>Words: {hymn.author}</>}
-          {hymn.author && hymn.composer && <>  &nbsp;&middot;&nbsp;  </>}
-          {hymn.composer && <>Music: {hymn.composer}</>}
+      <DetailChrome
+        label={hymnalLabel}
+        onBack={() => router.push(`/hymnal/library/${slug}`)}
+        isFav={isFav}
+        onFav={() => toggleFav({ hymnal: slug, number })}
+        onShare={() => setModal('share')}
+        onInfo={() => setModal('info')}
+        onAdd={() => setModal('order')}
+      />
+
+      <header className="hymn-detail-head">
+        <div className="num-band">Hymn No. {hymn.number}</div>
+        <h1 className="ttl">{hymn.title}</h1>
+        {(hymn.tune || hymn.meter || hymn.key) && (
+          <div className="meta">
+            {[hymn.tune, hymn.meter, hymn.key].filter(Boolean).join('  \u00B7  ')}
+          </div>
+        )}
+      </header>
+
+      <div className="hymn-tabs" role="tablist">
+        <button role="tab" aria-selected={tab === 'lyrics'} className={tab === 'lyrics' ? 'on' : ''} onClick={() => setTab('lyrics')}>Lyrics</button>
+        <button role="tab" aria-selected={tab === 'music'} className={tab === 'music' ? 'on' : ''} onClick={() => setTab('music')}>Music</button>
+      </div>
+
+      {tab === 'lyrics' ? (
+        <>
+          <div className="verses" style={{ fontSize: verseFontSize }}>
+            {hymn.verses.map((v, i) => {
+              if (v.isChorus) {
+                return (
+                  <div key={`${v.number}-c-${i}`} className="verse chorus">
+                    <div className="marker">Chorus</div>
+                    <div className="text">{v.text}</div>
+                  </div>
+                )
+              }
+              const marker = showRoman ? toRoman(v.number) : String(v.number)
+              const showDC = showDrop && i === 0 && v.text && v.text.trim().length > 0
+              let body: React.ReactNode = v.text
+              if (showDC) {
+                const trimmed = v.text.replace(/^\s+/, '')
+                const head = trimmed.charAt(0)
+                const tail = trimmed.slice(1)
+                body = (<><span className="dropcap">{head}</span>{tail}</>)
+              }
+              return (
+                <div key={`${v.number}-${i}`} className="verse">
+                  <div className="marker">{marker}</div>
+                  <div className="text">{body}</div>
+                </div>
+              )
+            })}
+          </div>
+          {credit && <div className="hymn-stamp-foot">{credit}</div>}
+        </>
+      ) : (
+        <div className="sheet-card">
+          <div className="tune-name">{hymn.tune ?? hymn.title}</div>
+          {(hymn.composer || hymn.meter) && (
+            <div className="composer">
+              {[hymn.composer, hymn.meter].filter(Boolean).join('  \u00B7  ')}
+            </div>
+          )}
+          {hymn.sheetMusicUrl ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={hymn.sheetMusicUrl} alt={`Sheet music for ${hymn.title}`} />
+          ) : (
+            <div className="sheet-empty">Sheet music not yet available for this hymn.</div>
+          )}
         </div>
       )}
-      {hymn.scriptureReference && (
-        <div className="meta-row">Scripture: {hymn.scriptureReference}</div>
-      )}
 
-      <div style={{ display: 'flex', gap: 12, marginTop: 14, alignItems: 'center' }}>
-        <button
-          className="hymnal-icon-btn"
-          onClick={() => toggleFav({ hymnal: slug, number })}
-          aria-label={isFav ? 'Remove favorite' : 'Add favorite'}
-          title={isFav ? 'Remove favorite' : 'Add favorite'}
-          style={{ color: isFav ? 'var(--nxr-brass)' : 'var(--nxr-ink-soft)' }}
-        >
-          {isFav ? '\u2605' : '\u2606'}
-        </button>
-        {hymn.sheetMusicUrl && (
-          <a className="hymnal-icon-btn" href={hymn.sheetMusicUrl} target="_blank" rel="noopener noreferrer" aria-label="Sheet music" title="Sheet music">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-              <path d="M9 18V5l12-2v13" /><circle cx="6" cy="18" r="3" /><circle cx="18" cy="16" r="3" />
-            </svg>
-          </a>
-        )}
-        {hymn.audioUrl && (
-          <a className="hymnal-icon-btn" href={hymn.audioUrl} target="_blank" rel="noopener noreferrer" aria-label="Audio" title="Audio">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-              <polygon points="6,4 20,12 6,20" />
-            </svg>
-          </a>
-        )}
-      </div>
-
-      <div className="rule" />
-
-      <div className="verses" style={{ fontSize: verseFontSize }}>
-        {hymn.verses.map((v, i) => {
-          if (v.isChorus) {
-            return (
-              <div key={`${v.number}-c-${i}`} className="verse chorus">
-                <div className="marker">Chorus</div>
-                <div className="text">{v.text}</div>
-              </div>
-            )
-          }
-          const marker = showRoman ? toRoman(v.number) : String(v.number)
-          const showDC = showDrop && i === 0 && v.text && v.text.trim().length > 0
-          let body: React.ReactNode = v.text
-          if (showDC) {
-            const trimmed = v.text.replace(/^\s+/, '')
-            const head = trimmed.charAt(0)
-            const tail = trimmed.slice(1)
-            body = (<><span className="dropcap">{head}</span>{tail}</>)
-          }
-          return (
-            <div key={`${v.number}-${i}`} className="verse">
-              <div className="marker">{marker}</div>
-              <div className="text">{body}</div>
-            </div>
-          )
-        })}
-      </div>
-
-      <div className="rule" />
-
-      <nav style={{ display: 'flex', justifyContent: 'space-between', gap: 12, fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--nxr-ink-mute)' }}>
+      <nav style={{ display: 'flex', justifyContent: 'space-between', gap: 12, marginTop: 28, marginBottom: hymn.audioUrl ? 140 : 24, fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--nxr-ink-mute)' }}>
         <div>
           {prev != null && <Link href={`/hymnal/library/${slug}/${prev}`}>&larr; #{prev}</Link>}
         </div>
@@ -120,6 +137,345 @@ export default function HymnDetail({ slug, number }: { slug: string; number: num
           {next != null && <Link href={`/hymnal/library/${slug}/${next}`}>#{next} &rarr;</Link>}
         </div>
       </nav>
+
+      {hymn.audioUrl && (
+        <AudioBar
+          src={hymn.audioUrl}
+          label={`Hymn No. ${hymn.number}`}
+          onPrev={prev != null ? () => router.push(`/hymnal/library/${slug}/${prev}`) : undefined}
+          onNext={next != null ? () => router.push(`/hymnal/library/${slug}/${next}`) : undefined}
+          textScale={textScale}
+          onScale={setTextScale}
+        />
+      )}
+
+      {modal === 'info' && (
+        <HymnInfoModal hymn={hymn} hymnalShort={src?.short ?? ''} onClose={() => setModal(null)} />
+      )}
+      {modal === 'share' && (
+        <ShareModal hymn={hymn} hymnalShort={src?.short ?? ''} slug={slug} onClose={() => setModal(null)} />
+      )}
+      {modal === 'order' && (
+        <AddToOrderModal hymnal={slug} number={hymn.number} title={hymn.title} onClose={() => setModal(null)} />
+      )}
     </article>
+  )
+}
+
+/* ---------------- chrome ---------------- */
+
+function DetailChrome({
+  label,
+  onBack,
+  isFav,
+  onFav,
+  onShare,
+  onInfo,
+  onAdd,
+}: {
+  label: string
+  onBack: () => void
+  isFav: boolean
+  onFav: () => void
+  onShare: () => void
+  onInfo: () => void
+  onAdd: () => void
+}) {
+  return (
+    <div className="detail-chrome">
+      <button className="back-btn" onClick={onBack} aria-label="Back">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+          <polyline points="15 18 9 12 15 6" />
+        </svg>
+      </button>
+      <div className="label">{label}</div>
+      <div className="actions">
+        <button onClick={onFav} aria-label={isFav ? 'Remove favorite' : 'Add favorite'} className={isFav ? 'fav-heart on' : 'fav-heart'}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill={isFav ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+          </svg>
+        </button>
+        <button onClick={onShare} aria-label="Share">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            <circle cx="18" cy="5" r="3" /><circle cx="6" cy="12" r="3" /><circle cx="18" cy="19" r="3" />
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" /><line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+          </svg>
+        </button>
+        <button onClick={onInfo} aria-label="Info">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            <circle cx="12" cy="12" r="10" /><line x1="12" y1="16" x2="12" y2="12" /><line x1="12" y1="8" x2="12.01" y2="8" />
+          </svg>
+        </button>
+        <button onClick={onAdd} aria-label="Add to service">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            <line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  )
+}
+
+/* ---------------- audio bar ---------------- */
+
+function AudioBar({
+  src,
+  label,
+  onPrev,
+  onNext,
+  textScale,
+  onScale,
+}: {
+  src: string
+  label: string
+  onPrev?: () => void
+  onNext?: () => void
+  textScale: number
+  onScale: (n: number) => void
+}) {
+  const audioRef = useRef<HTMLAudioElement | null>(null)
+  const [playing, setPlaying] = useState(false)
+  const [t, setT] = useState(0)
+  const [dur, setDur] = useState(0)
+
+  useEffect(() => {
+    const a = audioRef.current
+    if (!a) return
+    const onTime = () => setT(a.currentTime)
+    const onMeta = () => setDur(a.duration || 0)
+    const onEnd = () => setPlaying(false)
+    a.addEventListener('timeupdate', onTime)
+    a.addEventListener('loadedmetadata', onMeta)
+    a.addEventListener('ended', onEnd)
+    return () => {
+      a.removeEventListener('timeupdate', onTime)
+      a.removeEventListener('loadedmetadata', onMeta)
+      a.removeEventListener('ended', onEnd)
+    }
+  }, [src])
+
+  function toggle() {
+    const a = audioRef.current
+    if (!a) return
+    if (playing) { a.pause(); setPlaying(false) }
+    else { a.play().then(() => setPlaying(true)).catch(() => setPlaying(false)) }
+  }
+  function fmt(s: number) {
+    if (!Number.isFinite(s)) return '0:00'
+    const m = Math.floor(s / 60)
+    const ss = Math.floor(s % 60).toString().padStart(2, '0')
+    return `${m}:${ss}`
+  }
+  function cycleScale() {
+    const steps = [0.85, 1, 1.15, 1.3, 1.5]
+    const idx = steps.findIndex((x) => Math.abs(x - textScale) < 0.01)
+    const nextIdx = idx < 0 ? 1 : (idx + 1) % steps.length
+    onScale(steps[nextIdx])
+  }
+  const pct = dur > 0 ? Math.min(100, (t / dur) * 100) : 0
+
+  return (
+    <div className="audio-bar">
+      <audio ref={audioRef} src={src} preload="metadata" />
+      <div className="audio-bar-inner">
+        <div className="meta-row">
+          <span>{label}</span>
+          <span>{fmt(t)} / {fmt(dur)}</span>
+        </div>
+        <div className="progress"><div className="fill" style={{ width: `${pct}%` }} /></div>
+        <div className="controls">
+          <button onClick={onPrev} disabled={!onPrev} aria-label="Previous hymn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <polygon points="19 20 9 12 19 4 19 20" /><line x1="5" y1="19" x2="5" y2="5" />
+            </svg>
+          </button>
+          <button onClick={() => { const a = audioRef.current; if (a) a.currentTime = Math.max(0, a.currentTime - 10) }} aria-label="Back 10 seconds">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <polyline points="1 4 1 10 7 10" /><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
+            </svg>
+          </button>
+          <button className="play" onClick={toggle} aria-label={playing ? 'Pause' : 'Play'}>
+            {playing ? (
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+                <rect x="6" y="4" width="4" height="16" /><rect x="14" y="4" width="4" height="16" />
+              </svg>
+            ) : (
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+                <polygon points="5 3 19 12 5 21 5 3" />
+              </svg>
+            )}
+          </button>
+          <button onClick={() => { const a = audioRef.current; if (a) a.currentTime = Math.min(dur, a.currentTime + 10) }} aria-label="Forward 10 seconds">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <polyline points="23 4 23 10 17 10" /><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
+            </svg>
+          </button>
+          <button onClick={cycleScale} aria-label="Text size">
+            <span style={{ fontFamily: 'var(--serif)', fontSize: 14, letterSpacing: '0.04em' }}>Aa</span>
+          </button>
+          <button onClick={onNext} disabled={!onNext} aria-label="Next hymn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <polygon points="5 4 15 12 5 20 5 4" /><line x1="19" y1="5" x2="19" y2="19" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+/* ---------------- info modal ---------------- */
+
+function HymnInfoModal({ hymn, hymnalShort, onClose }: { hymn: Hymn; hymnalShort: string; onClose: () => void }) {
+  const rows: Array<[string, React.ReactNode]> = []
+  if (hymnalShort) rows.push(['Hymnal', hymnalShort])
+  rows.push(['Number', `${hymn.number}`])
+  if (hymn.tune) rows.push(['Tune', hymn.tune])
+  if (hymn.meter) rows.push(['Meter', hymn.meter])
+  if (hymn.key) rows.push(['Key', hymn.key])
+  if (hymn.author) rows.push(['Words', hymn.author])
+  if (hymn.composer) rows.push(['Music', hymn.composer])
+  if (hymn.scriptureReference) rows.push(['Scripture', hymn.scriptureReference])
+  rows.push(['Verses', `${hymn.verses.filter((v) => !v.isChorus).length}`])
+
+  return (
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="modal-shell" onClick={(e) => e.stopPropagation()}>
+        <div className="modal-head">
+          <span>Hymn Information</span>
+          <button onClick={onClose} aria-label="Close">&times;</button>
+        </div>
+        <table className="info-table">
+          <tbody>
+            {rows.map(([k, v]) => (
+              <tr key={k}><th>{k}</th><td>{v}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  )
+}
+
+/* ---------------- share modal ---------------- */
+
+function ShareModal({ hymn, hymnalShort, slug, onClose }: { hymn: Hymn; hymnalShort: string; slug: string; onClose: () => void }) {
+  const [copied, setCopied] = useState<string | null>(null)
+  const link = typeof window !== 'undefined' ? `${window.location.origin}/hymnal/library/${slug}/${hymn.number}` : ''
+  const plain = useMemo(() => {
+    const head = `${hymn.title}\n${hymnalShort ? `${hymnalShort} \u00B7 ` : ''}No. ${hymn.number}\n\n`
+    const body = hymn.verses.map((v) => (v.isChorus ? `Chorus\n${v.text}` : `${v.number}.\n${v.text}`)).join('\n\n')
+    return head + body
+  }, [hymn, hymnalShort])
+
+  async function copy(text: string, label: string) {
+    try {
+      await navigator.clipboard.writeText(text)
+      setCopied(label)
+      setTimeout(() => setCopied(null), 1400)
+    } catch {
+      setCopied('Copy failed')
+      setTimeout(() => setCopied(null), 1400)
+    }
+  }
+
+  return (
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="modal-shell centered" onClick={(e) => e.stopPropagation()}>
+        <div className="modal-head" style={{ borderBottom: 'none', marginBottom: 0 }}>
+          <span>Share</span>
+          <button onClick={onClose} aria-label="Close">&times;</button>
+        </div>
+        <div className="hd">Share <em>{hymn.title}</em></div>
+        <div className="dek">No. {hymn.number}</div>
+        <button className="opt" onClick={() => copy(plain, 'Text copied')}>
+          <span className="lbl">Copy as Text</span>
+          <span className="dk">Full lyrics with title &amp; number</span>
+        </button>
+        <button className="opt" onClick={() => copy(link, 'Link copied')}>
+          <span className="lbl">Copy Link</span>
+          <span className="dk">{link.replace(/^https?:\/\//, '')}</span>
+        </button>
+        <button className="opt" onClick={() => {
+          if (navigator.share) navigator.share({ title: hymn.title, text: `${hymn.title} \u2014 No. ${hymn.number}`, url: link }).catch(() => {})
+          else copy(link, 'Link copied')
+        }}>
+          <span className="lbl">System Share</span>
+          <span className="dk">Open the OS share sheet</span>
+        </button>
+        {copied && (
+          <div style={{ textAlign: 'center', marginTop: 14, fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--nxr-brass)' }}>{copied}</div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+/* ---------------- add-to-order modal ---------------- */
+
+function AddToOrderModal({ hymnal, number, title, onClose }: { hymnal: string; number: number; title: string; onClose: () => void }) {
+  const services = useHymnalStore((s) => s.services)
+  const create = useHymnalStore((s) => s.createService)
+  const addItem = useHymnalStore((s) => s.addServiceItem)
+  const [added, setAdded] = useState<string | null>(null)
+  const [creating, setCreating] = useState(false)
+  const [newTitle, setNewTitle] = useState('')
+
+  function add(id: string, label: string) {
+    addItem(id, { kind: 'hymn', ref: { hymnal, number } })
+    setAdded(`Added to ${label}`)
+    setTimeout(() => onClose(), 900)
+  }
+  function makeNew() {
+    const t = newTitle.trim() || `Service \u2014 ${new Date().toLocaleDateString()}`
+    const id = create(t)
+    add(id, t)
+  }
+
+  return (
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="modal-shell" onClick={(e) => e.stopPropagation()}>
+        <div className="modal-head">
+          <span>Add to Service</span>
+          <button onClick={onClose} aria-label="Close">&times;</button>
+        </div>
+        <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--nxr-ink-mute)', fontSize: 13, marginBottom: 8 }}>
+          {title} &middot; No. {number}
+        </div>
+        {services.length === 0 && !creating && (
+          <div style={{ padding: '12px 0', color: 'var(--nxr-ink-soft)', fontFamily: 'var(--serif)', fontStyle: 'italic' }}>
+            No services yet.
+          </div>
+        )}
+        {services.map((s) => (
+          <button key={s.id} className="opt" onClick={() => add(s.id, s.title)}>
+            <span className="lbl">{s.title}</span>
+            <span className="dk">{s.items.length} item{s.items.length === 1 ? '' : 's'}{s.date ? `  \u00B7  ${s.date}` : ''}</span>
+          </button>
+        ))}
+        {creating ? (
+          <div style={{ paddingTop: 14, display: 'flex', flexDirection: 'column', gap: 10 }}>
+            <input
+              autoFocus
+              placeholder="Service title"
+              value={newTitle}
+              onChange={(e) => setNewTitle(e.target.value)}
+              style={{ background: 'transparent', border: '1px solid var(--nxr-rule)', padding: '10px 12px', color: 'var(--nxr-ink)', fontFamily: 'var(--serif)', fontSize: 15 }}
+            />
+            <button className="opt" onClick={makeNew}>
+              <span className="lbl" style={{ color: 'var(--nxr-brass)' }}>+ Create &amp; Add</span>
+            </button>
+          </div>
+        ) : (
+          <button className="opt" onClick={() => setCreating(true)}>
+            <span className="lbl" style={{ color: 'var(--nxr-brass)' }}>+ New Service</span>
+            <span className="dk">Create a service and add this hymn</span>
+          </button>
+        )}
+        {added && (
+          <div style={{ textAlign: 'center', marginTop: 14, fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--nxr-brass)' }}>{added}</div>
+        )}
+      </div>
+    </div>
   )
 }

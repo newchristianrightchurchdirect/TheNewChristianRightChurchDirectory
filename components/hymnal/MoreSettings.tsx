@@ -142,6 +142,28 @@ export default function MoreSettings() {
         </select>
       </div>
 
+      {/* === Library === */}
+      <div className="hymnal-section-head" style={{ marginTop: 16 }}>
+        <span>Library</span>
+        <span className="right">Volumes &amp; plans</span>
+      </div>
+      <div style={{ display: 'grid', gap: 0 }}>
+        <Link href="/hymnal/plans" className="settings-row" style={{ textDecoration: 'none', color: 'inherit' }}>
+          <div>
+            <div className="lbl">Reading plans</div>
+            <span className="desc">Activate calendars of daily reading.</span>
+          </div>
+          <span style={{ color: 'var(--nxr-ink-mute)' }}>&rarr;</span>
+        </Link>
+        <Link href="/hymnal/import" className="settings-row" style={{ textDecoration: 'none', color: 'inherit' }}>
+          <div>
+            <div className="lbl">Import hymnal</div>
+            <span className="desc">Add a custom hymnal or psalter JSON file.</span>
+          </div>
+          <span style={{ color: 'var(--nxr-ink-mute)' }}>&rarr;</span>
+        </Link>
+      </div>
+
       {/* === About === */}
       <div className="hymnal-section-head" style={{ marginTop: 16 }}>
         <span>About</span>
