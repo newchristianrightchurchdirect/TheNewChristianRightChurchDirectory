@@ -163,17 +163,24 @@ export default function HymnDetail({ slug, number }: { slug: string; number: str
 
 /* ---------------- sheet music renderer ---------------- */
 
+const PROXY_HOSTS = new Set(['hymnary.org', 'www.hymnary.org', 'media.hymnary.org'])
+
+function shouldProxy(url: string): boolean {
+  try { return PROXY_HOSTS.has(new URL(url).hostname) } catch { return false }
+}
+
 function SheetMusic({ url, title }: { url: string; title: string }) {
   const [isPdf, setIsPdf] = useState<boolean | null>(null)
   const lower = url.toLowerCase().split('?')[0].split('#')[0]
   const extPdf = lower.endsWith('.pdf')
   const extImg = /\.(png|jpe?g|gif|webp|svg)$/i.test(lower)
+  const proxied = shouldProxy(url) ? `/api/pdf-proxy?url=${encodeURIComponent(url)}` : url
 
   useEffect(() => {
     if (extPdf) { setIsPdf(true); return }
     if (extImg) { setIsPdf(false); return }
     let alive = true
-    fetch(url, { method: 'HEAD' })
+    fetch(proxied, { method: 'HEAD' })
       .then((r) => {
         if (!alive) return
         const ct = (r.headers.get('content-type') || '').toLowerCase()
@@ -181,7 +188,7 @@ function SheetMusic({ url, title }: { url: string; title: string }) {
       })
       .catch(() => { if (alive) setIsPdf(true) })
     return () => { alive = false }
-  }, [url, extPdf, extImg])
+  }, [proxied, extPdf, extImg])
 
   if (isPdf === null) {
     return <div className="sheet-empty">Loading sheet music\u2026</div>
@@ -189,13 +196,15 @@ function SheetMusic({ url, title }: { url: string; title: string }) {
   if (isPdf) {
     return (
       <div className="sheet-pdf">
-        <iframe src={url} title={`Sheet music for ${title}`} loading="lazy" />
-        <a className="sheet-open" href={url} target="_blank" rel="noopener noreferrer">Open PDF in new tab &rarr;</a>
+        <object data={`${proxied}#toolbar=0&navpanes=0`} type="application/pdf" aria-label={`Sheet music for ${title}`}>
+          <iframe src={proxied} title={`Sheet music for ${title}`} loading="lazy" />
+        </object>
+        <a className="sheet-open" href={proxied} target="_blank" rel="noopener noreferrer">Open PDF in new tab &rarr;</a>
       </div>
     )
   }
   // eslint-disable-next-line @next/next/no-img-element
-  return <img src={url} alt={`Sheet music for ${title}`} />
+  return <img src={proxied} alt={`Sheet music for ${title}`} />
 }
 
 /* ---------------- chrome ---------------- */
