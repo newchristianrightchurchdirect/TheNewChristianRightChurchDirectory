@@ -1,13 +1,23 @@
 'use client'
 
 import { useRouter } from 'next/navigation'
-import { READING_PLANS } from '@/lib/hymnal/plans'
+import { READING_PLANS, type ReadingPlan } from '@/lib/hymnal/plans'
 import { useHymnalStore } from '@/store/hymnal'
+
+function todayDayIndex(startDate: string): number {
+  const start = new Date(startDate + 'T00:00:00').getTime()
+  const now = new Date()
+  const todayMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime()
+  return Math.floor((todayMidnight - start) / 86400000) + 1
+}
 
 export default function ReadingPlans() {
   const router = useRouter()
   const activeIds = useHymnalStore((s) => s.activePlanIds)
   const toggle = useHymnalStore((s) => s.toggleActivePlan)
+  const progress = useHymnalStore((s) => s.planProgress)
+  const markDay = useHymnalStore((s) => s.markPlanDay)
+  const resetStart = useHymnalStore((s) => s.resetPlanStart)
 
   return (
     <article>
@@ -34,6 +44,7 @@ export default function ReadingPlans() {
       <div>
         {READING_PLANS.map((p) => {
           const active = activeIds.includes(p.id)
+          const prog = progress[p.id]
           return (
             <div key={p.id} className="plan-card">
               <div className="head">
@@ -49,6 +60,7 @@ export default function ReadingPlans() {
               </div>
               <p className="dek">{p.dek}</p>
               <div className="stamp">{p.stamp} &middot; {p.duration}</div>
+              {active && prog && <PlanProgress plan={p} prog={prog} mark={markDay} resetStart={resetStart} />}
               {active ? (
                 <button className="deactivate" onClick={() => toggle(p.id)}>Deactivate</button>
               ) : (
@@ -69,5 +81,49 @@ export default function ReadingPlans() {
         })}
       </div>
     </article>
+  )
+}
+
+function PlanProgress({ plan, prog, mark, resetStart }: {
+  plan: ReadingPlan
+  prog: { startDate: string; completedDays: number[] }
+  mark: (planId: string, day: number, done: boolean) => void
+  resetStart: (planId: string) => void
+}) {
+  const today = todayDayIndex(prog.startDate)
+  const clampedToday = Math.max(1, Math.min(plan.days, today))
+  const completed = prog.completedDays.length
+  const pct = Math.round((completed / plan.days) * 100)
+  const todayDone = prog.completedDays.includes(clampedToday)
+  const behind = today > 0 ? Math.max(0, clampedToday - completed) : 0
+
+  return (
+    <div className="plan-progress">
+      <div className="row">
+        <span className="lbl">
+          {today < 1 ? 'Not yet begun' : today > plan.days ? `Completed (Day ${plan.days})` : `Day ${clampedToday} of ${plan.days}`}
+        </span>
+        <span className="pct">{pct}% &middot; {completed}/{plan.days}</span>
+      </div>
+      <div className="bar"><div className="fill" style={{ width: `${pct}%` }} /></div>
+      {today >= 1 && today <= plan.days && (
+        <div className="row" style={{ marginTop: 10 }}>
+          <button
+            className="mark-today"
+            onClick={() => mark(plan.id, clampedToday, !todayDone)}
+            aria-pressed={todayDone}
+          >
+            {todayDone ? '\u2713 Day done' : 'Mark today read'}
+          </button>
+          {behind > 1 && <span className="behind">{behind - 1} day{behind - 1 === 1 ? '' : 's'} behind</span>}
+        </div>
+      )}
+      <button
+        className="reset"
+        onClick={() => { if (confirm('Reset progress and start over from today?')) resetStart(plan.id) }}
+      >
+        Reset start to today
+      </button>
+    </div>
   )
 }

@@ -20,6 +20,24 @@ function snip(text: string, q: string, len = 140): string {
   return (start > 0 ? '\u2026' : '') + text.slice(start, end) + (end < text.length ? '\u2026' : '')
 }
 
+function highlight(text: string, q: string): React.ReactNode {
+  if (!q) return text
+  const lower = text.toLowerCase()
+  const ql = q.toLowerCase()
+  const out: React.ReactNode[] = []
+  let cursor = 0
+  let i = lower.indexOf(ql, cursor)
+  let k = 0
+  while (i >= 0) {
+    if (i > cursor) out.push(text.slice(cursor, i))
+    out.push(<mark key={k++}>{text.slice(i, i + q.length)}</mark>)
+    cursor = i + q.length
+    i = lower.indexOf(ql, cursor)
+  }
+  if (cursor < text.length) out.push(text.slice(cursor))
+  return out
+}
+
 export default function HymnalSearch() {
   const [q, setQ] = useState('')
   const [scope, setScope] = useState<'all' | 'hymns' | 'bible' | 'creeds'>('all')
@@ -154,7 +172,7 @@ export default function HymnalSearch() {
               No matches.
             </div>
           ) : (
-            results.map((r, i) => <ResultRow key={i} r={r} />)
+            results.map((r, i) => <ResultRow key={i} r={r} q={q.trim()} />)
           )}
         </>
       )}
@@ -200,13 +218,13 @@ export default function HymnalSearch() {
   )
 }
 
-function ResultRow({ r }: { r: Result }) {
+function ResultRow({ r, q }: { r: Result; q: string }) {
   if (r.kind === 'hymn') {
     return (
       <Link href={`/hymnal/library/${r.hymnal}/${encodeURIComponent(r.number)}`} className="hymn-row" style={{ display: 'block' }}>
         <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: 11, letterSpacing: '0.10em', color: 'var(--nxr-brass-deep)', textTransform: 'uppercase' }}>{r.hymnalShort} #{r.number}</div>
-        <div style={{ fontFamily: 'var(--serif)', fontSize: 18, marginTop: 2 }}>{r.title}</div>
-        <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--nxr-ink-mute)', fontSize: 14, marginTop: 4 }}>{r.snippet}</div>
+        <div style={{ fontFamily: 'var(--serif)', fontSize: 18, marginTop: 2 }}>{highlight(r.title, q)}</div>
+        <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--nxr-ink-mute)', fontSize: 14, marginTop: 4 }}>{highlight(r.snippet, q)}</div>
       </Link>
     )
   }
@@ -214,15 +232,15 @@ function ResultRow({ r }: { r: Result }) {
     return (
       <Link href={`/hymnal/bible/${r.translation}/${r.book}/${r.chapter}`} className="hymn-row" style={{ display: 'block' }}>
         <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: 11, letterSpacing: '0.10em', color: 'var(--nxr-brass-deep)', textTransform: 'uppercase' }}>{r.translationShort} &middot; {r.bookName} {r.chapter}:{r.number}</div>
-        <div style={{ fontFamily: 'var(--serif)', fontSize: 16, marginTop: 4, color: 'var(--nxr-ink-soft)' }}>{r.snippet}</div>
+        <div style={{ fontFamily: 'var(--serif)', fontSize: 16, marginTop: 4, color: 'var(--nxr-ink-soft)' }}>{highlight(r.snippet, q)}</div>
       </Link>
     )
   }
   return (
     <Link href={`/hymnal/creeds/${r.id}`} className="hymn-row" style={{ display: 'block' }}>
       <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: 11, letterSpacing: '0.10em', color: 'var(--nxr-brass-deep)', textTransform: 'uppercase' }}>{r.id}</div>
-      <div style={{ fontFamily: 'var(--serif)', fontSize: 18, marginTop: 2 }}>{r.title}</div>
-      <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--nxr-ink-mute)', fontSize: 14, marginTop: 4 }}>{r.snippet}</div>
+      <div style={{ fontFamily: 'var(--serif)', fontSize: 18, marginTop: 2 }}>{highlight(r.title, q)}</div>
+      <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--nxr-ink-mute)', fontSize: 14, marginTop: 4 }}>{highlight(r.snippet, q)}</div>
     </Link>
   )
 }

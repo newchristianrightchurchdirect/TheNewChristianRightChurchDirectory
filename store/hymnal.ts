@@ -57,6 +57,9 @@ type State = {
   // Active reading plans (by plan id)
   activePlanIds: string[]
 
+  // Per-plan progress: start date (YYYY-MM-DD) + set of completed day numbers (1-indexed)
+  planProgress: Record<string, { startDate: string; completedDays: number[] }>
+
   // User-imported hymnals (full HymnalDocument JSON, keyed by slug)
   customHymnals: { slug: string; title: string; short: string; year?: number; data: unknown }[]
 
@@ -103,6 +106,8 @@ type State = {
 
   toggleActivePlan: (planId: string) => void
   isPlanActive: (planId: string) => boolean
+  markPlanDay: (planId: string, day: number, done: boolean) => void
+  resetPlanStart: (planId: string) => void
 
   addCustomHymnal: (h: { slug: string; title: string; short: string; year?: number; data: unknown }) => void
   removeCustomHymnal: (slug: string) => void
@@ -131,6 +136,7 @@ export const useHymnalStore = create<State>()(
       services: [],
       searchHistory: [],
       activePlanIds: [],
+      planProgress: {},
       customHymnals: [],
 
       textScale: 1,
@@ -234,12 +240,42 @@ export const useHymnalStore = create<State>()(
       })),
       clearSearchHistory: () => set({ searchHistory: [] }),
 
-      toggleActivePlan: (planId) => set((s) => ({
-        activePlanIds: s.activePlanIds.includes(planId)
-          ? s.activePlanIds.filter((x) => x !== planId)
-          : [...s.activePlanIds, planId],
-      })),
+      toggleActivePlan: (planId) => set((s) => {
+        const isActive = s.activePlanIds.includes(planId)
+        if (isActive) {
+          return { activePlanIds: s.activePlanIds.filter((x) => x !== planId) }
+        }
+        const today = new Date().toISOString().slice(0, 10)
+        const prev = s.planProgress[planId]
+        return {
+          activePlanIds: [...s.activePlanIds, planId],
+          planProgress: prev
+            ? s.planProgress
+            : { ...s.planProgress, [planId]: { startDate: today, completedDays: [] } },
+        }
+      }),
       isPlanActive: (planId) => get().activePlanIds.includes(planId),
+      markPlanDay: (planId, day, done) => set((s) => {
+        const today = new Date().toISOString().slice(0, 10)
+        const prev = s.planProgress[planId] ?? { startDate: today, completedDays: [] }
+        const set2 = new Set(prev.completedDays)
+        if (done) set2.add(day); else set2.delete(day)
+        return {
+          planProgress: {
+            ...s.planProgress,
+            [planId]: { ...prev, completedDays: [...set2].sort((a, b) => a - b) },
+          },
+        }
+      }),
+      resetPlanStart: (planId) => set((s) => {
+        const today = new Date().toISOString().slice(0, 10)
+        return {
+          planProgress: {
+            ...s.planProgress,
+            [planId]: { startDate: today, completedDays: [] },
+          },
+        }
+      }),
 
       addCustomHymnal: (h) => set((s) => ({
         customHymnals: [...s.customHymnals.filter((x) => x.slug !== h.slug), h],
@@ -260,6 +296,7 @@ export const useHymnalStore = create<State>()(
         services: s.services,
         searchHistory: s.searchHistory,
         activePlanIds: s.activePlanIds,
+        planProgress: s.planProgress,
         customHymnals: s.customHymnals,
         textScale: s.textScale,
         showRomanNumerals: s.showRomanNumerals,

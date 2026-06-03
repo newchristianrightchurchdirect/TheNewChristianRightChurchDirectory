@@ -1458,6 +1458,13 @@
 .svc-roman-row[draggable="true"]:active { cursor: grabbing; }
 .svc-roman-row.drag-over { background: color-mix(in srgb, var(--nxr-brass) 12%, transparent); }
 
+.search-page mark {
+  background: color-mix(in srgb, var(--nxr-brass) 28%, transparent);
+  color: inherit;
+  padding: 0 1px;
+  border-radius: 1px;
+}
+
 /* ====================================================================== */
 /* ============================  SEARCH OVERLAY  ========================= */
 /* ====================================================================== */
@@ -1593,6 +1600,52 @@
   padding: 6px 0;
 }
 .plan-card .deactivate:hover { color: var(--nxr-brass); }
+
+.plan-progress {
+  margin: 16px 0 14px;
+  padding: 14px 0;
+  border-top: 1px solid var(--nxr-rule-soft);
+  border-bottom: 1px solid var(--nxr-rule-soft);
+}
+.plan-progress .row {
+  display: flex; justify-content: space-between; align-items: center;
+  font-family: var(--serif); font-size: 11px;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--nxr-ink-mute);
+  margin-bottom: 6px;
+}
+.plan-progress .row .pct { color: var(--nxr-brass); }
+.plan-progress .bar {
+  height: 4px; background: var(--nxr-rule); position: relative; overflow: hidden;
+}
+.plan-progress .bar .fill {
+  position: absolute; inset: 0 auto 0 0;
+  background: var(--nxr-brass);
+  transition: width 200ms ease-out;
+}
+.plan-progress .mark-today {
+  background: transparent; border: 1px solid var(--nxr-brass); cursor: pointer;
+  padding: 8px 18px;
+  font-family: var(--serif); font-size: 10px;
+  letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--nxr-brass);
+}
+.plan-progress .mark-today[aria-pressed="true"] {
+  background: var(--nxr-brass); color: var(--nxr-bg);
+}
+.plan-progress .behind {
+  font-family: var(--serif); font-style: italic; font-size: 12px;
+  color: #c25b66; text-transform: none; letter-spacing: 0;
+}
+.plan-progress .reset {
+  display: block; margin-top: 12px;
+  background: transparent; border: none; cursor: pointer;
+  padding: 0;
+  font-family: var(--serif); font-size: 10px;
+  letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--nxr-ink-dim);
+}
+.plan-progress .reset:hover { color: var(--nxr-ink-mute); }
 
 /* ====================================================================== */
 /* ============================  IMPORT PAGE  ============================ */
