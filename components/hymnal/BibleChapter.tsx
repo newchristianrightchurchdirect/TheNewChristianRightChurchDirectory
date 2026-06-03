@@ -64,7 +64,7 @@ export default function BibleChapter({ translation, book, chapter }: { translati
           onClick={() => toggleBookmark({ translation, book, chapter })}
           aria-label={isBookmarked ? 'Remove bookmark' : 'Bookmark chapter'}
           title={isBookmarked ? 'Remove bookmark' : 'Bookmark chapter'}
-          style={{ color: isBookmarked ? 'var(--brass)' : 'var(--ink-soft)' }}
+          style={{ color: isBookmarked ? 'var(--nxr-brass)' : 'var(--nxr-ink-soft)' }}
         >
           {isBookmarked ? '\u2605' : '\u2606'}
         </button>
@@ -92,7 +92,7 @@ export default function BibleChapter({ translation, book, chapter }: { translati
         ))}
       </div>
 
-      <nav style={{ display: 'flex', justifyContent: 'space-between', marginTop: 28, fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.18em', textTransform: 'uppercase' }}>
+      <nav style={{ display: 'flex', justifyContent: 'space-between', marginTop: 28, fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--nxr-ink-mute)' }}>
         <div>
           {prevCh && <Link href={`/hymnal/bible/${translation}/${prevCh.book}/${prevCh.chapter}`}>&larr; {prevCh.book.toUpperCase()} {prevCh.chapter}</Link>}
         </div>

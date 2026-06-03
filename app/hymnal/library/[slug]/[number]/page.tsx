@@ -21,7 +21,7 @@ export default async function HymnDetailPage({ params }: { params: Params }) {
   return (
     <div>
       <div style={{ marginBottom: 12 }}>
-        <Link href={`/hymnal/library/${slug}`} style={{ fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--ink-mute)' }}>
+        <Link href={`/hymnal/library/${slug}`} style={{ fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--nxr-ink-mute)' }}>
           &larr; {src.short}
         </Link>
       </div>

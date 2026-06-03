@@ -20,7 +20,7 @@ export default async function BibleChapterPage({ params }: { params: Params }) {
   return (
     <div>
       <div style={{ marginBottom: 10 }}>
-        <Link href={`/hymnal/bible/${translation}/${book}`} style={{ fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--ink-mute)' }}>
+        <Link href={`/hymnal/bible/${translation}/${book}`} style={{ fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--nxr-ink-mute)' }}>
           &larr; {book.toUpperCase()}
         </Link>
       </div>

@@ -2,8 +2,12 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { loadBible } from '@/lib/hymnal/loader'
+import { loadBible, toRoman } from '@/lib/hymnal/loader'
 import type { BibleBook } from '@/types/hymnal'
+
+function lower(n: number): string {
+  return toRoman(n).toLowerCase()
+}
 
 export default function BibleToc({ translation }: { translation: string }) {
   const [books, setBooks] = useState<BibleBook[] | null>(null)
@@ -22,28 +26,47 @@ export default function BibleToc({ translation }: { translation: string }) {
 
   const ot = books.filter((b) => (b.testament || '').toLowerCase().startsWith('o'))
   const nt = books.filter((b) => (b.testament || '').toLowerCase().startsWith('n'))
-  const other = books.filter((b) => !((b.testament || '').toLowerCase().startsWith('o') || (b.testament || '').toLowerCase().startsWith('n')))
+  const other = books.filter((b) =>
+    !(b.testament || '').toLowerCase().startsWith('o') &&
+    !(b.testament || '').toLowerCase().startsWith('n')
+  )
 
-  function Section({ title, items }: { title: string; items: BibleBook[] }) {
+  let counter = 0
+  const chapCount = (items: BibleBook[]) => items.reduce((a, b) => a + b.chapters.length, 0)
+
+  function Section({ label, latin, items }: { label: string; latin: string; items: BibleBook[] }) {
     if (!items.length) return null
     return (
-      <>
-        <h3>{title}</h3>
-        {items.map((b) => (
-          <Link key={b.id} href={`/hymnal/bible/${translation}/${b.id}`}>
-            {b.name}
-            <span className="ab">{b.abbreviation} &middot; {b.chapters.length} ch.</span>
-          </Link>
-        ))}
-      </>
+      <section>
+        <div className="hymnal-section-head">
+          <span>{label}</span>
+          <span className="right">{latin} &middot; {items.length} books</span>
+        </div>
+        <div className="col-list">
+          {items.map((b) => {
+            counter += 1
+            const n = counter
+            return (
+              <Link key={b.id} href={`/hymnal/bible/${translation}/${b.id}`}>
+                <span className="n">{lower(n)}.</span>
+                <span>{b.name}</span>
+              </Link>
+            )
+          })}
+        </div>
+      </section>
     )
   }
 
   return (
-    <div className="bible-toc">
-      <Section title="Old Testament" items={ot} />
-      <Section title="New Testament" items={nt} />
-      <Section title="Other" items={other} />
+    <div>
+      <div className="hymnal-hero-meta" style={{ marginTop: 0 }}>
+        <span>{books.length} books &middot; {chapCount(books).toLocaleString()} chapt&hellip;</span>
+        <span>Anno Domini MMXXVI</span>
+      </div>
+      <Section label="Old Testament" latin="Vetus Testamentum" items={ot} />
+      <Section label="New Testament" latin="Novum Testamentum" items={nt} />
+      <Section label="Other" latin="Reliqua" items={other} />
     </div>
   )
 }

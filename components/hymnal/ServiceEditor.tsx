@@ -25,7 +25,7 @@ export default function ServiceEditor({ id }: { id: string }) {
   const [confId, setConfId] = useState('')
   const [noteText, setNoteText] = useState('')
 
-  if (!service) return <div className="hymnal-empty">Service not found. <button onClick={() => router.push('/hymnal/services')} style={{ color: 'var(--brass-deep)' }}>Back</button></div>
+  if (!service) return <div className="hymnal-empty">Service not found. <button onClick={() => router.push('/hymnal/services')} style={{ color: 'var(--nxr-brass-deep)' }}>Back</button></div>
 
   function add() {
     let item: ServiceItem | null = null
@@ -132,10 +132,10 @@ export default function ServiceEditor({ id }: { id: string }) {
         </div>
       )}
 
-      <div style={{ marginTop: 36, paddingTop: 18, borderTop: '1px solid var(--rule)' }}>
+      <div style={{ marginTop: 36, paddingTop: 18, borderTop: '1px solid var(--nxr-rule)' }}>
         <button
           className="install-cta"
-          style={{ background: 'var(--oxblood)', borderColor: 'var(--oxblood)' }}
+          style={{ background: 'transparent', borderColor: 'var(--nxr-brass-deep)', color: 'var(--nxr-brass)' }}
           onClick={() => {
             if (confirm(`Delete "${service.title}"? This cannot be undone.`)) {
               deleteService(id)

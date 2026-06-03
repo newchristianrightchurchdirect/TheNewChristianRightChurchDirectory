@@ -10,8 +10,8 @@ export default function Icon() {
         style={{
           width: '100%',
           height: '100%',
-          background: '#faf6ec',
-          color: '#7d5a1f',
+          background: '#0d0b07',
+          color: '#d8b76a',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
@@ -20,7 +20,7 @@ export default function Icon() {
           fontFamily: 'Georgia, serif',
           letterSpacing: '-1px',
           borderRadius: 4,
-          border: '1px solid #1a1814',
+          border: '1px solid #2c2519',
         }}
       >
         H

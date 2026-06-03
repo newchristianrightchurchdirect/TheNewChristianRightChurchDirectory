@@ -1,15 +1,20 @@
 import SavedList from '@/components/hymnal/SavedList'
+import { Footer } from '@/components/hymnal/Ornament'
 
 export const metadata = { title: 'Saved' }
 
 export default function SavedPage() {
   return (
     <div>
-      <header className="hymnal-section-head">
-        <div className="hymnal-eyebrow">Your Library</div>
-        <h1 className="hymnal-h1">Saved &amp; <em>Bookmarked</em></h1>
-      </header>
+      <section className="hymnal-hero">
+        <div className="hymnal-eyebrow">Bookmarked</div>
+        <h1 className="hymnal-h1"><em>Favorites</em></h1>
+        <p className="hymnal-dek">what your soul keeps near</p>
+      </section>
+
       <SavedList />
+
+      <Footer />
     </div>
   )
 }

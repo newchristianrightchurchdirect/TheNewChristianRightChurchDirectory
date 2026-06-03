@@ -116,7 +116,7 @@ export default function InstallClient() {
                 {installState === 'accepted' ? 'Installed' : 'Install NXR Hymnal'}
               </button>
               {installState === 'dismissed' && (
-                <p style={{ marginTop: 12, fontStyle: 'italic', color: 'var(--ink-mute)' }}>
+                <p style={{ marginTop: 12, fontStyle: 'italic', color: 'var(--nxr-ink-mute)' }}>
                   Install dismissed. Refresh the page to try again.
                 </p>
               )}
@@ -138,9 +138,9 @@ export default function InstallClient() {
         </section>
       )}
 
-      <section style={{ marginTop: 32, paddingTop: 18, borderTop: '1px solid var(--rule)' }}>
+      <section style={{ marginTop: 32, paddingTop: 18, borderTop: '1px solid var(--nxr-rule)' }}>
         <h2 className="hymnal-eyebrow">Download for Offline</h2>
-        <p style={{ fontFamily: 'var(--serif)', fontSize: 16, color: 'var(--ink-soft)', marginBottom: 14 }}>
+        <p style={{ fontFamily: 'var(--serif)', fontSize: 16, color: 'var(--nxr-ink-soft)', marginBottom: 14 }}>
           Cache every hymnal, Bible translation, and confession (~31&nbsp;MB) so the app works without a connection.
         </p>
         {!precacheDone ? (
@@ -151,7 +151,7 @@ export default function InstallClient() {
           <div className="hymnal-empty">All content cached. NXR Hymnal will work offline.</div>
         )}
         {precaching && progress && (
-          <div style={{ marginTop: 14, fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.18em', color: 'var(--ink-mute)', textTransform: 'uppercase' }}>
+          <div style={{ marginTop: 14, fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.22em', color: 'var(--nxr-ink-mute)', textTransform: 'uppercase' }}>
             {progress.done} / {progress.total} files
           </div>
         )}

@@ -1,0 +1,940 @@
+/* ====================================================================== */
+/* ============================  HYMNAL  ================================ */
+/* Dark editorial theme — modeled after a leather-bound liturgical book.   */
+/* All tokens scoped to .hymnal-shell so the directory site stays light.   */
+/* ====================================================================== */
+
+.hymnal-shell {
+  --nxr-bg: #0d0b07;
+  --nxr-surface: #14110b;
+  --nxr-surface-lift: #1a160e;
+  --nxr-rule: #2c2519;
+  --nxr-rule-soft: #1f1a12;
+  --nxr-ink: #ece2c4;
+  --nxr-ink-soft: #b7a886;
+  --nxr-ink-mute: #8a7c5e;
+  --nxr-ink-dim: #5e533d;
+  --nxr-brass: #d8b76a;
+  --nxr-brass-deep: #c79a4b;
+
+  min-height: 100vh;
+  background: var(--nxr-bg);
+  color: var(--nxr-ink);
+  font-family: var(--serif);
+  padding-bottom: 96px;
+}
+
+/* ----- Top utility strip ------------------------------------------ */
+.hymnal-masthead {
+  background: var(--nxr-bg);
+  padding: 14px 22px 12px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  border-bottom: 1px solid var(--nxr-rule);
+}
+.hymnal-masthead-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 28px;
+}
+.hymnal-masthead .util-left,
+.hymnal-masthead .util-right {
+  font-family: var(--serif);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nxr-ink-mute);
+}
+.hymnal-masthead .util-actions {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  color: var(--nxr-ink-soft);
+}
+.hymnal-icon-btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 30px; height: 30px;
+  color: var(--nxr-ink-soft);
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  transition: color 0.15s;
+  cursor: pointer;
+}
+.hymnal-icon-btn:hover { color: var(--nxr-ink); }
+
+/* ----- Page wrapper ----------------------------------------------- */
+.hymnal-page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 18px 22px 24px;
+}
+
+/* ----- Centered editorial hero ------------------------------------ */
+.hymnal-hero {
+  text-align: center;
+  padding: 18px 0 14px;
+  margin-bottom: 6px;
+}
+.hymnal-eyebrow {
+  font-family: var(--serif);
+  font-size: 11px;
+  letter-spacing: 0.30em;
+  text-transform: uppercase;
+  color: var(--nxr-brass-deep);
+  margin-bottom: 10px;
+}
+.hymnal-h1 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.02;
+  margin: 0 0 8px;
+  color: var(--nxr-ink);
+}
+.hymnal-h1 em { font-style: italic; font-weight: 400; color: var(--nxr-brass); }
+.hymnal-dek {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--nxr-ink-mute);
+  font-size: 15px;
+  margin: 0;
+}
+.hymnal-dek::before { content: "— "; }
+.hymnal-dek::after  { content: " —"; }
+.hymnal-dek.plain::before, .hymnal-dek.plain::after { content: none; }
+
+/* Hero meta band (date · count) */
+.hymnal-hero-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: var(--serif);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nxr-ink-mute);
+  padding: 12px 0 10px;
+  margin-top: 14px;
+  border-top: 1px solid var(--nxr-rule);
+  border-bottom: 1px solid var(--nxr-rule);
+}
+.hymnal-hero-tagline {
+  text-align: center;
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--nxr-ink-mute);
+  font-size: 14px;
+  padding: 10px 0 14px;
+  border-bottom: 1px solid var(--nxr-rule);
+  margin-bottom: 4px;
+}
+
+/* ----- Section heading row ---------------------------------------- */
+.hymnal-section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 18px 0 8px;
+  border-bottom: 1px solid var(--nxr-rule);
+  margin: 4px 0 0;
+  font-family: var(--serif);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nxr-ink);
+}
+.hymnal-section-head .right {
+  font-family: var(--serif);
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--nxr-ink-mute);
+  font-size: 13px;
+}
+
+/* Mini sections (Hymn of the Day, Reading Plans) ------------------- */
+.hymnal-band {
+  display: block;
+  padding: 12px 0 16px;
+  border-bottom: 1px solid var(--nxr-rule);
+}
+.hymnal-band .lhd {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: var(--serif);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nxr-brass-deep);
+  margin-bottom: 6px;
+}
+.hymnal-band .lhd .right {
+  color: var(--nxr-ink-mute);
+  font-style: normal;
+}
+.hymnal-band .lhd .right.italic {
+  font-style: italic; text-transform: none; letter-spacing: 0; font-size: 13px;
+}
+.hymnal-band .big {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--nxr-ink);
+  line-height: 1.2;
+}
+.hymnal-band .small {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--nxr-ink-mute);
+  margin-top: 2px;
+}
+
+/* ----- Volume cards (home page big I., II., III.) ----------------- */
+.hymnal-picker {
+  display: block;
+  margin-top: 0;
+  border: none;
+}
+.hymnal-card {
+  display: grid;
+  grid-template-columns: 52px 1fr auto;
+  column-gap: 18px;
+  row-gap: 4px;
+  align-items: baseline;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--nxr-rule);
+  background: transparent;
+  transition: background 0.15s;
+}
+.hymnal-card:hover { background: rgba(216, 183, 106, 0.04); }
+.hymnal-card .vol {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 26px;
+  color: var(--nxr-brass-deep);
+  text-align: right;
+  font-weight: 400;
+  line-height: 1;
+  align-self: start;
+  padding-top: 4px;
+}
+.hymnal-card .page-no {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--nxr-brass-deep);
+  align-self: start;
+  padding-top: 10px;
+  text-align: right;
+}
+.hymnal-card .body { display: block; }
+.hymnal-card .ttl {
+  font-family: var(--serif);
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 400;
+  color: var(--nxr-ink);
+  margin: 0 0 6px;
+}
+.hymnal-card .ttl em { font-style: italic; color: var(--nxr-brass); }
+.hymnal-card .ed {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--nxr-ink-mute);
+  margin: 2px 0 8px;
+}
+.hymnal-card .blurb {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--nxr-ink-soft);
+  margin: 6px 0 8px;
+  line-height: 1.4;
+}
+.hymnal-card .stamp {
+  font-family: var(--serif);
+  font-size: 10px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--nxr-ink-mute);
+}
+.hymnal-card .stamp .tag {
+  color: var(--nxr-brass-deep);
+  margin-left: 6px;
+}
+.hymnal-card .bookmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--nxr-brass-deep);
+}
+
+/* ----- Two-column list with italic numerals (Bible OT/NT) --------- */
+.col-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 18px;
+}
+.col-list a {
+  display: grid;
+  grid-template-columns: 36px 1fr;
+  column-gap: 12px;
+  align-items: baseline;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--nxr-rule);
+  font-family: var(--serif);
+  font-size: 17px;
+  color: var(--nxr-ink);
+  transition: background 0.1s;
+}
+.col-list a:hover { background: rgba(216, 183, 106, 0.04); }
+.col-list .n {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--nxr-brass-deep);
+  font-size: 14px;
+  text-align: right;
+}
+
+/* ----- Tag chip row (filters) ------------------------------------- */
+.chip-row {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 14px 0 4px;
+  margin-bottom: 6px;
+  scrollbar-width: thin;
+}
+.chip {
+  flex: 0 0 auto;
+  padding: 8px 14px;
+  border: 1px solid var(--nxr-rule);
+  font-family: var(--serif);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nxr-ink-soft);
+  background: transparent;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.chip:hover { color: var(--nxr-ink); border-color: var(--nxr-ink-mute); }
+.chip.on {
+  color: var(--nxr-ink);
+  border-color: var(--nxr-ink-soft);
+  background: rgba(216, 183, 106, 0.06);
+}
+.chip.on::before { content: "\2713  "; color: var(--nxr-brass); letter-spacing: 0; }
+
+/* ----- Numbered row list (creeds, bookmarks) ---------------------- */
+.entry-list { margin: 8px 0 0; border-top: 1px solid var(--nxr-rule); }
+.entry-row {
+  display: grid;
+  grid-template-columns: 64px 1fr 24px;
+  column-gap: 14px;
+  align-items: baseline;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--nxr-rule);
+  transition: background 0.1s;
+}
+.entry-row:hover { background: rgba(216, 183, 106, 0.04); }
+.entry-row .n {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--nxr-brass-deep);
+  font-size: 18px;
+  text-align: right;
+  align-self: start;
+  padding-top: 1px;
+}
+.entry-row .body { display: block; }
+.entry-row .ttl {
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.25;
+  color: var(--nxr-ink);
+}
+.entry-row .meta {
+  font-family: var(--serif);
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nxr-ink-mute);
+  margin-top: 4px;
+}
+.entry-row .chev {
+  text-align: right;
+  color: var(--nxr-ink-dim);
+  font-size: 16px;
+  align-self: center;
+}
+.entry-row .fav {
+  text-align: right;
+  color: var(--nxr-brass);
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+}
+.entry-row .fav.off { color: var(--nxr-ink-dim); }
+
+/* ----- Bottom ornament and pull quote ----------------------------- */
+.hymnal-ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 36px auto 18px;
+  color: var(--nxr-ink-dim);
+  font-size: 12px;
+  line-height: 1;
+}
+.hymnal-ornament::before,
+.hymnal-ornament::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 1px;
+  background: var(--nxr-ink-dim);
+}
+.hymnal-quote {
+  text-align: center;
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--nxr-ink-mute);
+  font-size: 14px;
+  padding: 0 20px 24px;
+  line-height: 1.5;
+}
+
+/* ----- Outlined CTAs --------------------------------------------- */
+.cta-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 22px;
+  border: 1px solid var(--nxr-ink-soft);
+  background: transparent;
+  font-family: var(--serif);
+  font-size: 12px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--nxr-ink);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.cta-outline:hover { border-color: var(--nxr-brass); color: var(--nxr-brass); }
+.cta-outline .plus { color: var(--nxr-brass); font-size: 16px; font-weight: 400; }
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border: 1px solid var(--nxr-ink-soft);
+  background: transparent;
+  font-family: var(--serif);
+  font-size: 11px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--nxr-ink);
+  cursor: pointer;
+}
+
+/* ----- Segmented control (settings) ------------------------------ */
+.seg {
+  display: inline-flex;
+  border: 1px solid var(--nxr-rule);
+}
+.seg button {
+  padding: 8px 14px;
+  border: none;
+  background: transparent;
+  font-family: var(--serif);
+  font-size: 13px;
+  color: var(--nxr-ink-soft);
+  cursor: pointer;
+  border-right: 1px solid var(--nxr-rule);
+  display: inline-flex; align-items: center; gap: 6px;
+  transition: all 0.15s;
+  min-width: 50px;
+  justify-content: center;
+}
+.seg button:last-child { border-right: none; }
+.seg button.on {
+  background: var(--nxr-ink);
+  color: var(--nxr-bg);
+}
+.seg button:hover:not(.on) { color: var(--nxr-ink); }
+
+/* Sample preview box (settings) */
+.sample-preview {
+  margin-top: 14px;
+  padding: 16px 18px;
+  background: var(--nxr-surface-lift);
+  border: 1px solid var(--nxr-rule);
+}
+.sample-preview .stamp {
+  font-family: var(--serif);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nxr-brass-deep);
+  margin-bottom: 10px;
+}
+.sample-preview .body {
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--nxr-ink);
+}
+
+/* ----- Settings rows --------------------------------------------- */
+.settings-list { border-top: none; }
+.settings-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--nxr-rule);
+  gap: 16px;
+}
+.settings-row .lbl {
+  font-family: var(--serif);
+  font-size: 16px;
+  color: var(--nxr-ink);
+}
+.settings-row .desc {
+  display: block;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--nxr-ink-mute);
+  margin-top: 2px;
+}
+.settings-row select {
+  background: var(--nxr-surface-lift);
+  color: var(--nxr-ink);
+  border: 1px solid var(--nxr-rule);
+  padding: 8px 12px;
+  font-family: var(--serif);
+  font-size: 14px;
+  cursor: pointer;
+}
+.settings-row input[type=range] { accent-color: var(--nxr-brass); }
+
+/* ----- Bottom tab bar -------------------------------------------- */
+.hymnal-tabbar {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  background: var(--nxr-bg);
+  border-top: 1px solid var(--nxr-rule);
+  z-index: 60;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.hymnal-tabbar-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.hymnal-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 4px 12px;
+  font-family: var(--serif);
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nxr-ink-mute);
+  position: relative;
+  transition: color 0.15s;
+}
+.hymnal-tab:hover { color: var(--nxr-ink-soft); }
+.hymnal-tab.active { color: var(--nxr-brass); }
+.hymnal-tab.active::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 32%; right: 32%;
+  height: 1px;
+  background: var(--nxr-brass);
+}
+.hymnal-tab svg { width: 22px; height: 22px; opacity: 0.85; }
+.hymnal-tab.active svg { opacity: 1; }
+
+/* ----- Hymn list ------------------------------------------------- */
+.hymn-search {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--nxr-rule);
+  background: var(--nxr-surface-lift);
+  color: var(--nxr-ink);
+  font-family: var(--serif);
+  font-size: 15px;
+  margin-bottom: 14px;
+}
+.hymn-search:focus { border-color: var(--nxr-ink-soft); outline: none; }
+.hymn-search::placeholder { color: var(--nxr-ink-dim); font-style: italic; }
+
+.hymn-list { border-top: 1px solid var(--nxr-rule); }
+.hymn-row {
+  display: grid;
+  grid-template-columns: 56px 1fr 28px;
+  gap: 14px;
+  align-items: baseline;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--nxr-rule);
+  transition: background 0.1s;
+}
+.hymn-row:hover { background: rgba(216, 183, 106, 0.04); }
+.hymn-row .num {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 18px;
+  color: var(--nxr-brass-deep);
+  text-align: right;
+}
+.hymn-row .ttl {
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.25;
+  color: var(--nxr-ink);
+}
+.hymn-row .ttl .firstline {
+  display: block;
+  font-style: italic;
+  font-size: 13px;
+  color: var(--nxr-ink-mute);
+  margin-top: 2px;
+}
+.hymn-row .fav {
+  color: var(--nxr-ink-dim);
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  text-align: right;
+  cursor: pointer;
+}
+.hymn-row .fav.on { color: var(--nxr-brass); }
+
+/* ----- Hymn detail ----------------------------------------------- */
+.hymn-detail { padding-top: 4px; }
+.hymn-detail .num-band {
+  font-family: var(--serif);
+  font-size: 11px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--nxr-brass-deep);
+  margin-bottom: 8px;
+}
+.hymn-detail .ttl {
+  font-family: var(--serif);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.05;
+  margin-bottom: 6px;
+  color: var(--nxr-ink);
+}
+.hymn-detail .ttl em { font-style: italic; color: var(--nxr-brass); }
+.hymn-detail .meta {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--nxr-ink-mute);
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+.hymn-detail .meta-row {
+  font-family: var(--serif);
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nxr-ink-mute);
+  margin-top: 6px;
+}
+.hymn-detail .rule {
+  width: 60px;
+  height: 1px;
+  background: var(--nxr-brass-deep);
+  margin: 24px 0;
+}
+
+.verses {
+  font-family: var(--serif);
+  font-size: 19px;
+  line-height: 1.6;
+  color: var(--nxr-ink);
+}
+.verse {
+  display: grid;
+  grid-template-columns: 36px 1fr;
+  gap: 16px;
+  margin-bottom: 18px;
+  align-items: baseline;
+}
+.verse .marker {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--nxr-brass-deep);
+  text-align: right;
+  font-size: 15px;
+  padding-top: 2px;
+}
+.verse .text { white-space: pre-wrap; }
+.verse.chorus {
+  background: var(--nxr-surface-lift);
+  padding: 12px 14px;
+  margin-left: -14px;
+  border-left: 2px solid var(--nxr-brass);
+}
+.verse.chorus .marker {
+  font-family: var(--serif);
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nxr-brass-deep);
+  font-style: normal;
+}
+.dropcap {
+  float: left;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 64px;
+  line-height: 0.85;
+  padding: 8px 10px 0 0;
+  color: var(--nxr-brass);
+}
+
+/* ----- Bible TOC (legacy class) ---------------------------------- */
+.bible-toc { border-top: 1px solid var(--nxr-rule); }
+.bible-toc a {
+  display: block;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--nxr-rule);
+  font-family: var(--serif);
+  font-size: 17px;
+  color: var(--nxr-ink);
+  transition: background 0.1s;
+}
+.bible-toc a:hover { background: rgba(216, 183, 106, 0.04); }
+.bible-toc a .ab {
+  display: block;
+  font-family: var(--serif);
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nxr-ink-mute);
+  margin-top: 2px;
+}
+.bible-toc h3 {
+  font-family: var(--serif);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nxr-brass-deep);
+  padding: 18px 0 6px;
+  margin: 0;
+}
+
+.chapter-nav { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 20px; }
+.chapter-nav a {
+  display: inline-block;
+  min-width: 38px;
+  padding: 6px 10px;
+  text-align: center;
+  border: 1px solid var(--nxr-rule);
+  font-family: var(--serif);
+  font-size: 13px;
+  color: var(--nxr-ink-soft);
+  transition: all 0.1s;
+}
+.chapter-nav a:hover, .chapter-nav a.active {
+  background: var(--nxr-ink); color: var(--nxr-bg); border-color: var(--nxr-ink);
+}
+
+.bible-prose {
+  font-family: var(--serif);
+  font-size: 19px;
+  line-height: 1.65;
+  color: var(--nxr-ink);
+  text-align: left;
+}
+.bible-prose.two-col { column-count: 2; column-gap: 32px; column-rule: 1px solid var(--nxr-rule); }
+.bible-prose .vn {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 11px;
+  vertical-align: super;
+  color: var(--nxr-brass-deep);
+  margin: 0 4px 0 2px;
+}
+
+/* ----- Creeds (legacy) ------------------------------------------ */
+.creed-toc { border-top: 1px solid var(--nxr-rule); }
+.creed-toc a {
+  display: block;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--nxr-rule);
+  font-family: var(--serif);
+  font-size: 18px;
+  color: var(--nxr-ink);
+}
+.creed-toc a:hover { background: rgba(216, 183, 106, 0.04); }
+.creed-toc .meta {
+  display: block;
+  font-family: var(--serif);
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nxr-ink-mute);
+  margin-top: 4px;
+}
+.creed-prose {
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--nxr-ink);
+  white-space: pre-wrap;
+}
+.creed-prose h3 {
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 400;
+  margin: 24px 0 8px;
+  color: var(--nxr-ink);
+}
+.qa-block {
+  margin: 16px 0;
+  border-left: 2px solid var(--nxr-brass);
+  padding: 4px 14px;
+}
+.qa-block .q { font-style: italic; color: var(--nxr-ink-soft); margin-bottom: 6px; }
+.qa-block .a { color: var(--nxr-ink); }
+.qa-block .qn {
+  font-family: var(--serif);
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  color: var(--nxr-brass-deep);
+  margin-right: 8px;
+}
+
+/* Generic muted empty state */
+.hymnal-empty {
+  padding: 36px 24px;
+  text-align: center;
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--nxr-ink-mute);
+  border: 1px dashed var(--nxr-rule);
+  background: transparent;
+}
+
+/* ----- Service builder ------------------------------------------- */
+.svc-list { border-top: 1px solid var(--nxr-rule); margin-top: 8px; }
+.svc-list .row {
+  display: block;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--nxr-rule);
+}
+.svc-list .ttl {
+  font-family: var(--serif);
+  font-size: 22px;
+  color: var(--nxr-ink);
+  display: block;
+  margin-bottom: 4px;
+}
+.svc-list .meta {
+  font-family: var(--serif);
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--nxr-ink-mute);
+}
+.svc-item {
+  border-bottom: 1px solid var(--nxr-rule);
+  padding: 12px 0;
+  display: grid;
+  grid-template-columns: 80px 1fr auto;
+  gap: 12px;
+  align-items: baseline;
+}
+.svc-item .kind {
+  font-family: var(--serif);
+  font-size: 10px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--nxr-brass-deep);
+}
+.svc-item .ttl { font-family: var(--serif); font-size: 17px; color: var(--nxr-ink); }
+.svc-item .note { display: block; font-family: var(--serif); font-style: italic; color: var(--nxr-ink-mute); font-size: 14px; }
+
+/* ----- Install page ---------------------------------------------- */
+.install-hero {
+  text-align: center;
+  padding: 36px 24px 24px;
+  border-bottom: 1px solid var(--nxr-rule);
+}
+.install-step {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 18px;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--nxr-rule);
+  align-items: start;
+}
+.install-step .n {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 28px;
+  color: var(--nxr-brass-deep);
+  text-align: right;
+}
+.install-step .body { font-family: var(--serif); font-size: 17px; line-height: 1.55; color: var(--nxr-ink); }
+.install-step .body strong { font-weight: 500; color: var(--nxr-ink); }
+.install-cta {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 14px 26px;
+  background: transparent;
+  color: var(--nxr-ink);
+  font-family: var(--serif);
+  font-size: 12px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  border: 1px solid var(--nxr-ink-soft);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.install-cta:hover { border-color: var(--nxr-brass); color: var(--nxr-brass); }
+.install-cta:disabled { opacity: 0.5; cursor: not-allowed; }
+
+@media (max-width: 600px) {
+  .hymnal-h1 { font-size: 32px; }
+  .hymn-detail .ttl { font-size: 28px; }
+  .bible-prose.two-col { column-count: 1; }
+  .verses { font-size: 18px; }
+  .hymnal-page { padding: 16px 18px 24px; }
+  .col-list a { font-size: 15px; }
+  .col-list { column-gap: 12px; }
+  .hymnal-card { grid-template-columns: 40px 1fr auto; column-gap: 14px; padding: 20px 0; }
+  .hymnal-card .vol { font-size: 22px; }
+  .hymnal-card .ttl { font-size: 22px; }
+}

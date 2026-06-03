@@ -13,7 +13,7 @@ export default async function CreedPage({ params }: { params: Params }) {
   return (
     <div>
       <div style={{ marginBottom: 10 }}>
-        <Link href="/hymnal/creeds" style={{ fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--ink-mute)' }}>
+        <Link href="/hymnal/creeds" style={{ fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--nxr-ink-mute)' }}>
           &larr; Creeds
         </Link>
       </div>

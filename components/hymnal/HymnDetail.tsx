@@ -60,7 +60,7 @@ export default function HymnDetail({ slug, number }: { slug: string; number: num
           onClick={() => toggleFav({ hymnal: slug, number })}
           aria-label={isFav ? 'Remove favorite' : 'Add favorite'}
           title={isFav ? 'Remove favorite' : 'Add favorite'}
-          style={{ color: isFav ? 'var(--brass)' : 'var(--ink-soft)' }}
+          style={{ color: isFav ? 'var(--nxr-brass)' : 'var(--nxr-ink-soft)' }}
         >
           {isFav ? '\u2605' : '\u2606'}
         </button>
@@ -112,7 +112,7 @@ export default function HymnDetail({ slug, number }: { slug: string; number: num
 
       <div className="rule" />
 
-      <nav style={{ display: 'flex', justifyContent: 'space-between', gap: 12, fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.18em', textTransform: 'uppercase' }}>
+      <nav style={{ display: 'flex', justifyContent: 'space-between', gap: 12, fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--nxr-ink-mute)' }}>
         <div>
           {prev != null && <Link href={`/hymnal/library/${slug}/${prev}`}>&larr; #{prev}</Link>}
         </div>

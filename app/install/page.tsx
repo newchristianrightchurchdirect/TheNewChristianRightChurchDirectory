@@ -1,11 +1,14 @@
 import InstallClient from '@/components/hymnal/InstallClient'
+import '../hymnal.css'
 
 export const metadata = { title: 'Install' }
 
 export default function InstallPage() {
   return (
-    <div style={{ maxWidth: 720, margin: '0 auto', padding: '32px 24px 96px', fontFamily: 'var(--serif)' }}>
-      <InstallClient />
+    <div className="hymnal-shell">
+      <div className="hymnal-page" style={{ maxWidth: 720 }}>
+        <InstallClient />
+      </div>
     </div>
   )
 }

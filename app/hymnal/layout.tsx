@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next'
 import HymnalChrome from '@/components/hymnal/HymnalChrome'
+import '../hymnal.css'
 
 export const metadata: Metadata = {
   title: {
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  themeColor: '#faf6ec',
+  themeColor: '#0d0b07',
   width: 'device-width',
   initialScale: 1,
   viewportFit: 'cover',

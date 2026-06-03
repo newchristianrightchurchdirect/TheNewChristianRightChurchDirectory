@@ -129,7 +129,7 @@ export default function HymnalSearch() {
         <button className="install-cta" style={{ marginTop: 0 }} type="submit">{busy ? 'Searching\u2026' : 'Search'}</button>
       </form>
       {!busy && q.trim().length >= 2 && (
-        <div style={{ fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--ink-mute)', margin: '4px 0 16px' }}>
+        <div style={{ fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--nxr-ink-mute)', margin: '4px 0 16px' }}>
           {count} match{count === 1 ? '' : 'es'}
         </div>
       )}
@@ -138,25 +138,25 @@ export default function HymnalSearch() {
         if (r.kind === 'hymn') {
           return (
             <Link key={i} href={`/hymnal/library/${r.hymnal}/${r.number}`} className="hymn-row" style={{ display: 'block' }}>
-              <div style={{ fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.18em', color: 'var(--brass-deep)' }}>{r.hymnalShort} #{r.number}</div>
+              <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: 11, letterSpacing: '0.10em', color: 'var(--nxr-brass-deep)', textTransform: 'uppercase' }}>{r.hymnalShort} #{r.number}</div>
               <div style={{ fontFamily: 'var(--serif)', fontSize: 18, marginTop: 2 }}>{r.title}</div>
-              <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--ink-mute)', fontSize: 14, marginTop: 4 }}>{r.snippet}</div>
+              <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--nxr-ink-mute)', fontSize: 14, marginTop: 4 }}>{r.snippet}</div>
             </Link>
           )
         }
         if (r.kind === 'verse') {
           return (
             <Link key={i} href={`/hymnal/bible/${r.translation}/${r.book}/${r.chapter}`} className="hymn-row" style={{ display: 'block' }}>
-              <div style={{ fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.18em', color: 'var(--brass-deep)' }}>{r.translationShort} &middot; {r.bookName} {r.chapter}:{r.number}</div>
-              <div style={{ fontFamily: 'var(--serif)', fontSize: 16, marginTop: 4, color: 'var(--ink-soft)' }}>{r.snippet}</div>
+              <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: 11, letterSpacing: '0.10em', color: 'var(--nxr-brass-deep)', textTransform: 'uppercase' }}>{r.translationShort} &middot; {r.bookName} {r.chapter}:{r.number}</div>
+              <div style={{ fontFamily: 'var(--serif)', fontSize: 16, marginTop: 4, color: 'var(--nxr-ink-soft)' }}>{r.snippet}</div>
             </Link>
           )
         }
         return (
           <Link key={i} href={`/hymnal/creeds/${r.id}`} className="hymn-row" style={{ display: 'block' }}>
-            <div style={{ fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.18em', color: 'var(--brass-deep)' }}>{r.id}</div>
+            <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: 11, letterSpacing: '0.10em', color: 'var(--nxr-brass-deep)', textTransform: 'uppercase' }}>{r.id}</div>
             <div style={{ fontFamily: 'var(--serif)', fontSize: 18, marginTop: 2 }}>{r.title}</div>
-            <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--ink-mute)', fontSize: 14, marginTop: 4 }}>{r.snippet}</div>
+            <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--nxr-ink-mute)', fontSize: 14, marginTop: 4 }}>{r.snippet}</div>
           </Link>
         )
       })}

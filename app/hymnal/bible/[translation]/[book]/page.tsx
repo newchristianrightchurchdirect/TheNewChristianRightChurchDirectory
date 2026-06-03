@@ -19,7 +19,7 @@ export default async function BibleBookPage({ params }: { params: Params }) {
   return (
     <div>
       <div style={{ marginBottom: 10 }}>
-        <Link href={`/hymnal/bible/${translation}`} style={{ fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--ink-mute)' }}>
+        <Link href={`/hymnal/bible/${translation}`} style={{ fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--nxr-ink-mute)' }}>
           &larr; {src.short}
         </Link>
       </div>

@@ -44,7 +44,7 @@ export default function CreedReader({ id }: { id: string }) {
           <p className="hymnal-dek">By {doc.authors.join(', ')}</p>
         )}
         {doc.alternativeTitles && doc.alternativeTitles.length > 0 && (
-          <p className="meta-row" style={{ fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.16em', textTransform: 'uppercase', color: 'var(--ink-mute)', marginTop: 4 }}>
+          <p className="meta-row" style={{ fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.20em', textTransform: 'uppercase', color: 'var(--nxr-ink-mute)', marginTop: 4 }}>
             Also known as: {doc.alternativeTitles.join('; ')}
           </p>
         )}
@@ -56,7 +56,7 @@ export default function CreedReader({ id }: { id: string }) {
           onClick={() => toggleFav({ id })}
           aria-label={isFav ? 'Remove favorite' : 'Add favorite'}
           title={isFav ? 'Remove favorite' : 'Add favorite'}
-          style={{ color: isFav ? 'var(--brass)' : 'var(--ink-soft)' }}
+          style={{ color: isFav ? 'var(--nxr-brass)' : 'var(--nxr-ink-soft)' }}
         >
           {isFav ? '\u2605' : '\u2606'}
         </button>
@@ -68,7 +68,7 @@ export default function CreedReader({ id }: { id: string }) {
             <section key={gi} style={{ marginBottom: 24 }}>
               {(g.title || g.number) && (
                 <h3>
-                  {g.number != null && <span style={{ fontFamily: 'var(--mono)', fontSize: 11, letterSpacing: '0.18em', color: 'var(--brass-deep)', marginRight: 10 }}>{String(g.number)}</span>}
+                  {g.number != null && <span style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: 13, letterSpacing: '0.06em', color: 'var(--nxr-brass-deep)', marginRight: 10 }}>{String(g.number)}</span>}
                   {g.title}
                 </h3>
               )}
@@ -81,7 +81,7 @@ export default function CreedReader({ id }: { id: string }) {
                       {e.question && <div className="q">{e.question}</div>}
                       {e.answer && <div className="a">{e.answer}</div>}
                       {e.proofs && (
-                        <div style={{ fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.14em', color: 'var(--ink-mute)', marginTop: 6 }}>
+                        <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: 12, letterSpacing: '0.04em', color: 'var(--nxr-ink-mute)', marginTop: 6 }}>
                           {e.proofs}
                         </div>
                       )}
@@ -90,10 +90,10 @@ export default function CreedReader({ id }: { id: string }) {
                 }
                 return (
                   <div key={ei} style={{ marginBottom: 14 }}>
-                    {e.label && <span className="qn" style={{ fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.18em', color: 'var(--brass-deep)', marginRight: 10 }}>{e.label}</span>}
+                    {e.label && <span className="qn" style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: 12, letterSpacing: '0.06em', color: 'var(--nxr-brass-deep)', marginRight: 10 }}>{e.label}</span>}
                     {e.answer || ''}
                     {e.proofs && (
-                      <div style={{ fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.14em', color: 'var(--ink-mute)', marginTop: 4 }}>
+                      <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: 12, letterSpacing: '0.04em', color: 'var(--nxr-ink-mute)', marginTop: 4 }}>
                         {e.proofs}
                       </div>
                     )}
