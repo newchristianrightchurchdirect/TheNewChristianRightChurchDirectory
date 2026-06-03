@@ -132,6 +132,11 @@ export default function HymnalChrome({ children }: { children: React.ReactNode }
                 <path d="M12 3v12" /><path d="M7 8l5-5 5 5" /><path d="M5 21h14" />
               </svg>
             </Link>
+            <Link href="/install" className="hymnal-icon-btn" aria-label="Download app">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                <path d="M12 3v12" /><path d="M7 14l5 5 5-5" /><path d="M5 21h14" />
+              </svg>
+            </Link>
           </div>
         </div>
       </header>

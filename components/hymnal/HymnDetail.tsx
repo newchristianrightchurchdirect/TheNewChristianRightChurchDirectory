@@ -123,8 +123,7 @@ export default function HymnDetail({ slug, number }: { slug: string; number: str
             </div>
           )}
           {hymn.sheetMusicUrl ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img src={hymn.sheetMusicUrl} alt={`Sheet music for ${hymn.title}`} />
+            <SheetMusic url={hymn.sheetMusicUrl} title={hymn.title} />
           ) : (
             <div className="sheet-empty">Sheet music not yet available for this hymn.</div>
           )}
@@ -160,6 +159,43 @@ export default function HymnDetail({ slug, number }: { slug: string; number: str
       )}
     </article>
   )
+}
+
+/* ---------------- sheet music renderer ---------------- */
+
+function SheetMusic({ url, title }: { url: string; title: string }) {
+  const [isPdf, setIsPdf] = useState<boolean | null>(null)
+  const lower = url.toLowerCase().split('?')[0].split('#')[0]
+  const extPdf = lower.endsWith('.pdf')
+  const extImg = /\.(png|jpe?g|gif|webp|svg)$/i.test(lower)
+
+  useEffect(() => {
+    if (extPdf) { setIsPdf(true); return }
+    if (extImg) { setIsPdf(false); return }
+    let alive = true
+    fetch(url, { method: 'HEAD' })
+      .then((r) => {
+        if (!alive) return
+        const ct = (r.headers.get('content-type') || '').toLowerCase()
+        setIsPdf(ct.includes('pdf'))
+      })
+      .catch(() => { if (alive) setIsPdf(true) })
+    return () => { alive = false }
+  }, [url, extPdf, extImg])
+
+  if (isPdf === null) {
+    return <div className="sheet-empty">Loading sheet music\u2026</div>
+  }
+  if (isPdf) {
+    return (
+      <div className="sheet-pdf">
+        <iframe src={url} title={`Sheet music for ${title}`} loading="lazy" />
+        <a className="sheet-open" href={url} target="_blank" rel="noopener noreferrer">Open PDF in new tab &rarr;</a>
+      </div>
+    )
+  }
+  // eslint-disable-next-line @next/next/no-img-element
+  return <img src={url} alt={`Sheet music for ${title}`} />
 }
 
 /* ---------------- chrome ---------------- */

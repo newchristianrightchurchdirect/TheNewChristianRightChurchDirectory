@@ -9,6 +9,8 @@ import type { ConfessionDocument, ConfessionEntry, ConfessionGroup } from '@/typ
 export default function CreedReader({ id }: { id: string }) {
   const router = useRouter()
   const [doc, setDoc] = useState<ConfessionDocument | null>(null)
+  const [prev, setPrev] = useState<ConfessionDocument | null>(null)
+  const [next, setNext] = useState<ConfessionDocument | null>(null)
   const [err, setErr] = useState<string | null>(null)
 
   const textScale = useHymnalStore((s) => s.textScale)
@@ -22,9 +24,11 @@ export default function CreedReader({ id }: { id: string }) {
     loadConfessions()
       .then((d) => {
         if (!alive) return
-        const found = d.documents.find((x) => x.id === id)
-        if (!found) { setErr('Document not found'); return }
-        setDoc(found)
+        const idx = d.documents.findIndex((x) => x.id === id)
+        if (idx < 0) { setErr('Document not found'); return }
+        setDoc(d.documents[idx])
+        setPrev(idx > 0 ? d.documents[idx - 1] : null)
+        setNext(idx < d.documents.length - 1 ? d.documents[idx + 1] : null)
       })
       .catch((e) => { if (alive) setErr(e.message) })
     return () => { alive = false }
@@ -55,6 +59,33 @@ export default function CreedReader({ id }: { id: string }) {
         </div>
       </div>
 
+      <nav className="creed-pager top" aria-label="Document navigation">
+        <button
+          type="button"
+          className="creed-pager-btn"
+          onClick={() => prev && router.push(`/hymnal/creeds/${prev.id}`)}
+          disabled={!prev}
+          aria-label={prev ? `Previous: ${prev.title}` : 'No previous'}
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            <polyline points="15 18 9 12 15 6" />
+          </svg>
+          <span className="lbl">{prev ? prev.title : '\u2014'}</span>
+        </button>
+        <button
+          type="button"
+          className="creed-pager-btn right"
+          onClick={() => next && router.push(`/hymnal/creeds/${next.id}`)}
+          disabled={!next}
+          aria-label={next ? `Next: ${next.title}` : 'No next'}
+        >
+          <span className="lbl">{next ? next.title : '\u2014'}</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            <polyline points="9 18 15 12 9 6" />
+          </svg>
+        </button>
+      </nav>
+
       <header style={{ textAlign: 'center', padding: '4px 0 22px' }}>
         <h1 className="hymnal-h1" style={{ margin: '0 0 6px' }}>{doc.title}</h1>
         {(doc.authors && doc.authors.length > 0) && (
@@ -76,9 +107,34 @@ export default function CreedReader({ id }: { id: string }) {
             <Group key={gi} docId={doc.id} group={g} groupIndex={gi} isBmk={isEntryFav} toggleBmk={toggleEntryFav} />
           ))
         ) : doc.content ? (
-          <div style={{ whiteSpace: 'pre-wrap', fontFamily: 'var(--serif)', lineHeight: 1.65 }}>{doc.content}</div>
+          <div className="creed-body-text">{doc.content}</div>
         ) : null}
       </div>
+
+      <nav className="creed-pager bottom" aria-label="Document navigation">
+        <button
+          type="button"
+          className="creed-pager-btn"
+          onClick={() => prev && router.push(`/hymnal/creeds/${prev.id}`)}
+          disabled={!prev}
+        >
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            <polyline points="15 18 9 12 15 6" />
+          </svg>
+          <span className="lbl">{prev ? prev.title : '\u2014'}</span>
+        </button>
+        <button
+          type="button"
+          className="creed-pager-btn right"
+          onClick={() => next && router.push(`/hymnal/creeds/${next.id}`)}
+          disabled={!next}
+        >
+          <span className="lbl">{next ? next.title : '\u2014'}</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            <polyline points="9 18 15 12 9 6" />
+          </svg>
+        </button>
+      </nav>
     </article>
   )
 }
@@ -116,6 +172,37 @@ function Group({
   )
 }
 
+function renderProofs(proofs: unknown): string | null {
+  if (proofs == null) return null
+  if (typeof proofs === 'string') return proofs.trim() || null
+  if (!Array.isArray(proofs)) return null
+  const parts: string[] = []
+  for (const p of proofs) {
+    if (p == null) continue
+    if (typeof p === 'string') { if (p.trim()) parts.push(p.trim()); continue }
+    if (typeof p === 'object') {
+      const obj = p as Record<string, unknown>
+      const refs = obj.refs
+      if (Array.isArray(refs)) {
+        for (const r of refs) {
+          if (r && typeof r === 'object') {
+            const rec = r as Record<string, unknown>
+            const d = rec.display ?? rec.osis
+            if (typeof d === 'string' && d.trim()) parts.push(d.trim())
+          } else if (typeof r === 'string' && r.trim()) {
+            parts.push(r.trim())
+          }
+        }
+      } else if (typeof obj.display === 'string' && obj.display.trim()) {
+        parts.push(obj.display.trim())
+      } else if (typeof obj.reference === 'string' && obj.reference.trim()) {
+        parts.push(obj.reference.trim())
+      }
+    }
+  }
+  return parts.length ? parts.join(', ') : null
+}
+
 function Card({
   entry,
   bookmarked,
@@ -127,13 +214,14 @@ function Card({
 }) {
   const hasQ = !!(entry.question && entry.question.length > 0)
   const hasA = !!(entry.answer && entry.answer.length > 0)
+  const proofsText = renderProofs(entry.proofs)
   return (
     <div className="creed-card">
       <div>
         {entry.label && <div className="label-l">{entry.label}</div>}
         {hasQ && <div className="qt">{entry.question}</div>}
         {hasA && <div className="at">{entry.answer}</div>}
-        {entry.proofs && <div className="pf">{entry.proofs}</div>}
+        {proofsText && <div className="pf">{proofsText}</div>}
       </div>
       <button className={bookmarked ? 'bmk on' : 'bmk'} onClick={onToggle} aria-label={bookmarked ? 'Remove bookmark' : 'Bookmark'}>
         <svg width="16" height="16" viewBox="0 0 24 24" fill={bookmarked ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>

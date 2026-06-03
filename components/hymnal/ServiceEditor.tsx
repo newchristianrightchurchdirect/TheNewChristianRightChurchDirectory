@@ -1,6 +1,6 @@
 'use client'
 
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useHymnalStore, type Service, type ServiceItem } from '@/store/hymnal'
 import { HYMNALS, BIBLES, findHymnal, findBible } from '@/lib/hymnal/sources'
@@ -55,6 +55,25 @@ export default function ServiceEditor({ id }: { id: string }) {
   const [chapter, setChapter] = useState('')
   const [confId, setConfId] = useState('')
   const [noteText, setNoteText] = useState('')
+  const [addErr, setAddErr] = useState<string | null>(null)
+  const [validating, setValidating] = useState(false)
+  const [hymnNumberSet, setHymnNumberSet] = useState<Set<string> | null>(null)
+  const [hymnNumberSamples, setHymnNumberSamples] = useState<string[]>([])
+
+  useEffect(() => {
+    let alive = true
+    setHymnNumberSet(null)
+    setHymnNumberSamples([])
+    loadHymnal(hymnal)
+      .then((doc) => {
+        if (!alive) return
+        const set = new Set<string>(doc.hymns.map((h) => String(h.number)))
+        setHymnNumberSet(set)
+        setHymnNumberSamples(doc.hymns.slice(0, 4).map((h) => String(h.number)))
+      })
+      .catch(() => { if (alive) setHymnNumberSet(new Set()) })
+    return () => { alive = false }
+  }, [hymnal])
 
   if (!service) {
     return (
@@ -67,13 +86,37 @@ export default function ServiceEditor({ id }: { id: string }) {
     )
   }
 
-  function add() {
+  async function add() {
+    setAddErr(null)
     let item: ServiceItem | null = null
-    if (kind === 'hymn' && hymnNum.trim()) {
-      item = { kind: 'hymn', ref: { hymnal, number: hymnNum.trim() } }
+    if (kind === 'hymn') {
+      const num = hymnNum.trim()
+      if (!num) { setAddErr('Enter a hymn number.'); return }
+      setValidating(true)
+      try {
+        let set = hymnNumberSet
+        if (!set) {
+          const doc = await loadHymnal(hymnal)
+          set = new Set<string>(doc.hymns.map((h) => String(h.number)))
+          setHymnNumberSet(set)
+          setHymnNumberSamples(doc.hymns.slice(0, 4).map((h) => String(h.number)))
+        }
+        if (!set.has(num)) {
+          const h = findHymnal(hymnal)
+          setAddErr(`No hymn No. ${num} in ${h?.short || hymnal}. Try one of: ${hymnNumberSamples.join(', ')}\u2026`)
+          return
+        }
+        item = { kind: 'hymn', ref: { hymnal, number: num } }
+      } catch (e) {
+        setAddErr(`Could not load hymnal: ${(e as Error).message}`)
+        return
+      } finally {
+        setValidating(false)
+      }
     } else if (kind === 'scripture' && book.trim() && chapter.trim()) {
       const c = Number(chapter)
       if (Number.isFinite(c)) item = { kind: 'scripture', ref: { translation, book: book.trim().toLowerCase(), chapter: c } }
+      else { setAddErr('Chapter must be a number.'); return }
     } else if (kind === 'confession' && confId.trim()) {
       item = { kind: 'confession', ref: { id: confId.trim() } }
     } else if (kind === 'note' && noteText.trim()) {
@@ -134,13 +177,16 @@ export default function ServiceEditor({ id }: { id: string }) {
 
       {adding && (
         <AddItemForm
-          kind={kind} setKind={setKind}
-          hymnal={hymnal} setHymnal={setHymnal} hymnNum={hymnNum} setHymnNum={setHymnNum}
+          kind={kind} setKind={(k) => { setKind(k); setAddErr(null) }}
+          hymnal={hymnal} setHymnal={(s) => { setHymnal(s); setAddErr(null) }} hymnNum={hymnNum} setHymnNum={(s) => { setHymnNum(s); setAddErr(null) }}
           translation={translation} setTranslation={setTranslation}
           book={book} setBook={setBook} chapter={chapter} setChapter={setChapter}
           confId={confId} setConfId={setConfId}
           noteText={noteText} setNoteText={setNoteText}
-          onAdd={add} onCancel={() => setAdding(false)}
+          onAdd={add} onCancel={() => { setAdding(false); setAddErr(null) }}
+          error={addErr}
+          submitting={validating}
+          hymnSampleHint={hymnNumberSet ? `${hymnNumberSet.size} hymn${hymnNumberSet.size === 1 ? '' : 's'} \u00B7 e.g. ${hymnNumberSamples.join(', ')}` : 'Loading\u2026'}
         />
       )}
 
@@ -491,6 +537,9 @@ type AddProps = {
   confId: string; setConfId: (s: string) => void
   noteText: string; setNoteText: (s: string) => void
   onAdd: () => void; onCancel: () => void
+  error?: string | null
+  submitting?: boolean
+  hymnSampleHint?: string
 }
 
 function AddItemForm(p: AddProps) {
@@ -518,12 +567,19 @@ function AddItemForm(p: AddProps) {
       </div>
       <div style={{ display: 'grid', gap: 8, marginBottom: 12 }}>
         {p.kind === 'hymn' && (
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 100px', gap: 8 }}>
-            <select value={p.hymnal} onChange={(e) => p.setHymnal(e.target.value)} style={fieldStyle}>
-              {HYMNALS.map((h) => <option key={h.slug} value={h.slug}>{h.title}</option>)}
-            </select>
-            <input type="number" min="1" placeholder="No." value={p.hymnNum} onChange={(e) => p.setHymnNum(e.target.value)} style={fieldStyle} />
-          </div>
+          <>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 110px', gap: 8 }}>
+              <select value={p.hymnal} onChange={(e) => p.setHymnal(e.target.value)} style={fieldStyle}>
+                {HYMNALS.map((h) => <option key={h.slug} value={h.slug}>{h.title}</option>)}
+              </select>
+              <input type="text" inputMode="numeric" placeholder="No." value={p.hymnNum} onChange={(e) => p.setHymnNum(e.target.value)} style={fieldStyle} />
+            </div>
+            {p.hymnSampleHint && (
+              <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--nxr-ink-mute)', fontSize: 12 }}>
+                {p.hymnSampleHint}
+              </div>
+            )}
+          </>
         )}
         {p.kind === 'scripture' && (
           <div style={{ display: 'grid', gridTemplateColumns: '100px 1fr 80px', gap: 8 }}>
@@ -541,9 +597,14 @@ function AddItemForm(p: AddProps) {
           <input type="text" placeholder="Spoken word, prayer, announcement&hellip;" value={p.noteText} onChange={(e) => p.setNoteText(e.target.value)} style={fieldStyle} />
         )}
       </div>
+      {p.error && (
+        <div style={{ marginBottom: 10, padding: '8px 12px', border: '1px solid #c25b66', color: '#c25b66', fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: 13 }}>
+          {p.error}
+        </div>
+      )}
       <div style={{ display: 'flex', gap: 10, justifyContent: 'flex-end' }}>
-        <button onClick={p.onCancel} style={{ background: 'transparent', border: '1px solid var(--nxr-rule)', cursor: 'pointer', padding: '8px 18px', fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--nxr-ink-soft)' }}>Cancel</button>
-        <button onClick={p.onAdd} style={{ background: 'var(--nxr-brass)', border: '1px solid var(--nxr-brass)', cursor: 'pointer', padding: '8px 18px', fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--nxr-bg)' }}>Add</button>
+        <button onClick={p.onCancel} disabled={p.submitting} style={{ background: 'transparent', border: '1px solid var(--nxr-rule)', cursor: 'pointer', padding: '8px 18px', fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--nxr-ink-soft)' }}>Cancel</button>
+        <button onClick={p.onAdd} disabled={p.submitting} style={{ background: 'var(--nxr-brass)', border: '1px solid var(--nxr-brass)', cursor: p.submitting ? 'wait' : 'pointer', padding: '8px 18px', fontFamily: 'var(--serif)', fontSize: 10, letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--nxr-bg)', opacity: p.submitting ? 0.7 : 1 }}>{p.submitting ? 'Checking\u2026' : 'Add'}</button>
       </div>
     </div>
   )
