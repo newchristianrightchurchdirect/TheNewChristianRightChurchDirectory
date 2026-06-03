@@ -23,6 +23,9 @@ export default function BibleChapter({ translation, book, chapter }: { translati
   const single = useHymnalStore((s) => s.bibleSingleColumn)
   const isBookmarked = useHymnalStore((s) => s.isChapterBookmarked({ translation, book, chapter }))
   const toggleBookmark = useHymnalStore((s) => s.toggleChapterBookmark)
+  const setLastOpened = useHymnalStore((s) => s.setLastOpenedChapter)
+
+  useEffect(() => { setLastOpened(translation, book, chapter) }, [translation, book, chapter, setLastOpened])
 
   const src = findBible(translation)
   const label = src?.short?.toUpperCase() ?? translation.toUpperCase()

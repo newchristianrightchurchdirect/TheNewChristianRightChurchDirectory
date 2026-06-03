@@ -63,6 +63,10 @@ type State = {
   // User-imported hymnals (full HymnalDocument JSON, keyed by slug)
   customHymnals: { slug: string; title: string; short: string; year?: number; data: unknown }[]
 
+  // Last-opened memory: hymnal slug -> last hymn number; translation slug -> last chapter ref
+  lastOpenedHymn: Record<string, string>
+  lastOpenedChapter: Record<string, { book: string; chapter: number }>
+
   // Reader preferences
   textScale: number       // 0.85 .. 1.5
   showRomanNumerals: boolean
@@ -111,6 +115,9 @@ type State = {
 
   addCustomHymnal: (h: { slug: string; title: string; short: string; year?: number; data: unknown }) => void
   removeCustomHymnal: (slug: string) => void
+
+  setLastOpenedHymn: (slug: string, number: string) => void
+  setLastOpenedChapter: (translation: string, book: string, chapter: number) => void
 }
 
 function eqHymn(a: HymnRef, b: HymnRef) {
@@ -138,6 +145,8 @@ export const useHymnalStore = create<State>()(
       activePlanIds: [],
       planProgress: {},
       customHymnals: [],
+      lastOpenedHymn: {},
+      lastOpenedChapter: {},
 
       textScale: 1,
       showRomanNumerals: true,
@@ -283,6 +292,13 @@ export const useHymnalStore = create<State>()(
       removeCustomHymnal: (slug) => set((s) => ({
         customHymnals: s.customHymnals.filter((x) => x.slug !== slug),
       })),
+
+      setLastOpenedHymn: (slug, number) => set((s) => ({
+        lastOpenedHymn: { ...s.lastOpenedHymn, [slug]: number },
+      })),
+      setLastOpenedChapter: (translation, book, chapter) => set((s) => ({
+        lastOpenedChapter: { ...s.lastOpenedChapter, [translation]: { book, chapter } },
+      })),
     }),
     {
       name: 'nxr-hymnal',
@@ -298,6 +314,8 @@ export const useHymnalStore = create<State>()(
         activePlanIds: s.activePlanIds,
         planProgress: s.planProgress,
         customHymnals: s.customHymnals,
+        lastOpenedHymn: s.lastOpenedHymn,
+        lastOpenedChapter: s.lastOpenedChapter,
         textScale: s.textScale,
         showRomanNumerals: s.showRomanNumerals,
         showDropCaps: s.showDropCaps,

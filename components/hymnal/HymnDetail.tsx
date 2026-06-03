@@ -25,6 +25,9 @@ export default function HymnDetail({ slug, number }: { slug: string; number: str
   const setTextScale = useHymnalStore((s) => s.setTextScale)
   const showRoman = useHymnalStore((s) => s.showRomanNumerals)
   const showDrop = useHymnalStore((s) => s.showDropCaps)
+  const setLastOpened = useHymnalStore((s) => s.setLastOpenedHymn)
+
+  useEffect(() => { setLastOpened(slug, number) }, [slug, number, setLastOpened])
 
   const src = findHymnal(slug)
   const hymnalLabel = src?.short?.toUpperCase() ?? slug.toUpperCase()

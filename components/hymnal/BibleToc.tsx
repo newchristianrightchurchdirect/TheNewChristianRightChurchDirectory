@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { loadBible, toRoman } from '@/lib/hymnal/loader'
+import { useHymnalStore } from '@/store/hymnal'
 import type { BibleBook } from '@/types/hymnal'
 
 function lower(n: number): string {
@@ -12,6 +13,7 @@ function lower(n: number): string {
 export default function BibleToc({ translation }: { translation: string }) {
   const [books, setBooks] = useState<BibleBook[] | null>(null)
   const [err, setErr] = useState<string | null>(null)
+  const lastChapter = useHymnalStore((s) => s.lastOpenedChapter[translation])
 
   useEffect(() => {
     let alive = true
@@ -23,6 +25,8 @@ export default function BibleToc({ translation }: { translation: string }) {
 
   if (err) return <div className="hymnal-empty">Could not load Bible: {err}</div>
   if (!books) return <div className="hymnal-empty">Loading&hellip;</div>
+
+  const lastBook = lastChapter ? books.find((b) => b.id === lastChapter.book) : null
 
   const ot = books.filter((b) => (b.testament || '').toLowerCase().startsWith('o'))
   const nt = books.filter((b) => (b.testament || '').toLowerCase().startsWith('n'))
@@ -64,6 +68,15 @@ export default function BibleToc({ translation }: { translation: string }) {
         <span>{books.length} books &middot; {chapCount(books).toLocaleString()} chapt&hellip;</span>
         <span>Anno Domini MMXXVI</span>
       </div>
+      {lastBook && lastChapter && (
+        <Link href={`/hymnal/bible/${translation}/${lastBook.id}/${lastChapter.chapter}`} className="continue-pill">
+          <span className="lbl">Continue</span>
+          <span className="ttl">{lastBook.name} {lastChapter.chapter}</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            <polyline points="9 18 15 12 9 6" />
+          </svg>
+        </Link>
+      )}
       <Section label="Old Testament" latin="Vetus Testamentum" items={ot} />
       <Section label="New Testament" latin="Novum Testamentum" items={nt} />
       <Section label="Other" latin="Reliqua" items={other} />

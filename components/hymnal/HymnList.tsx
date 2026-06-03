@@ -13,6 +13,7 @@ export default function HymnList({ slug }: { slug: string }) {
 
   const favs = useHymnalStore((s) => s.favoriteHymns)
   const toggleFav = useHymnalStore((s) => s.toggleHymnFavorite)
+  const lastOpened = useHymnalStore((s) => s.lastOpenedHymn[slug])
 
   useEffect(() => {
     let alive = true
@@ -39,8 +40,19 @@ export default function HymnList({ slug }: { slug: string }) {
   if (err) return <div className="hymnal-empty">Could not load this hymnal: {err}</div>
   if (!hymns) return <div className="hymnal-empty">Loading&hellip;</div>
 
+  const lastHymn = lastOpened ? hymns.find((h) => h.number === lastOpened) : null
+
   return (
     <div>
+      {lastHymn && (
+        <Link href={`/hymnal/library/${slug}/${encodeURIComponent(lastHymn.number)}`} className="continue-pill">
+          <span className="lbl">Continue</span>
+          <span className="ttl">#{lastHymn.number} &middot; {lastHymn.title}</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            <polyline points="9 18 15 12 9 6" />
+          </svg>
+        </Link>
+      )}
       <input
         className="hymn-search"
         type="search"
