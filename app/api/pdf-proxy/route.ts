@@ -43,6 +43,8 @@ export async function GET(req: NextRequest) {
     'Content-Disposition': 'inline',
     'Cache-Control': 'public, max-age=604800, immutable',
     'X-Content-Type-Options': 'nosniff',
+    'X-Frame-Options': 'SAMEORIGIN',
+    'Content-Security-Policy': "frame-ancestors 'self'",
   })
   if (len) headers.set('Content-Length', len)
 
