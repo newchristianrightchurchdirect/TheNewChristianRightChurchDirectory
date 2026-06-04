@@ -4,6 +4,8 @@ const ALLOWED_HOSTS = new Set([
   'hymnary.org',
   'www.hymnary.org',
   'media.hymnary.org',
+  'christkirk.com',
+  'www.christkirk.com',
 ])
 
 export const runtime = 'nodejs'

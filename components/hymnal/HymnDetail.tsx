@@ -169,7 +169,13 @@ export default function HymnDetail({ slug, number }: { slug: string; number: str
 
 /* ---------------- sheet music renderer ---------------- */
 
-const PROXY_HOSTS = new Set(['hymnary.org', 'www.hymnary.org', 'media.hymnary.org'])
+const PROXY_HOSTS = new Set([
+  'hymnary.org',
+  'www.hymnary.org',
+  'media.hymnary.org',
+  'christkirk.com',
+  'www.christkirk.com',
+])
 
 function shouldProxy(url: string): boolean {
   try { return PROXY_HOSTS.has(new URL(url).hostname) } catch { return false }
