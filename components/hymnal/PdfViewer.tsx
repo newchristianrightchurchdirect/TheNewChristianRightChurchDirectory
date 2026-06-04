@@ -48,8 +48,10 @@ export default function PdfViewer({ src, title }: { src: string; title: string }
           canvas.setAttribute('aria-label', `${title} page ${i} of ${doc.numPages}`)
           container.appendChild(canvas)
 
+          const ctx = canvas.getContext('2d')
+          if (!ctx) continue
           await page.render({
-            canvas,
+            canvasContext: ctx,
             viewport,
             transform: dpr !== 1 ? [dpr, 0, 0, dpr, 0, 0] : undefined,
           }).promise
