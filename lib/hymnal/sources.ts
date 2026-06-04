@@ -21,6 +21,14 @@ export const HYMNALS: HymnalSource[] = [
     blurb: 'The Trinity Hymnal is a hymnal published by Great Commission Publications for use in Orthodox Presbyterian and Reformed churches. First published in 1961.',
   },
   {
+    slug: 'trinity-hymnal-1990',
+    file: 'trinity_hymnal_1990.json',
+    title: 'Trinity Hymnal (Revised)',
+    short: 'TH2',
+    year: 1990,
+    blurb: 'The 1990 revised edition of the Trinity Hymnal, also published by Great Commission Publications. Audio mirrored from OPC.org.',
+  },
+  {
     slug: 'book-of-psalms-for-worship',
     file: 'book_of_psalms_for_worship.json',
     title: 'The Book of Psalms for Worship',
@@ -77,6 +85,7 @@ export const CONFESSIONS_FILE = 'confessions.json'
 export const PRECACHE_ORDER = [
   'trinity_psalter_hymnal.json',
   'trinity_hymnal_1961.json',
+  'trinity_hymnal_1990.json',
   'hymns_of_grace.json',
   'cantus_christi.json',
   'book_of_psalms_for_worship.json',
