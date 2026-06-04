@@ -317,6 +317,14 @@ function AudioBar({
     if (playing) { a.pause(); setPlaying(false) }
     else { a.play().then(() => setPlaying(true)).catch(() => setPlaying(false)) }
   }
+  function restart() {
+    const a = audioRef.current
+    if (!a) return
+    a.currentTime = 0
+    if (!playing) {
+      a.play().then(() => setPlaying(true)).catch(() => setPlaying(false))
+    }
+  }
   function fmt(s: number) {
     if (!Number.isFinite(s)) return '0:00'
     const m = Math.floor(s / 60)
@@ -352,6 +360,13 @@ function AudioBar({
             <button className={looping ? 'on' : ''} onClick={() => setLooping((v) => !v)} aria-label={looping ? 'Disable loop' : 'Enable loop'} aria-pressed={looping}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                 <polyline points="17 1 21 5 17 9" /><path d="M3 11V9a4 4 0 0 1 4-4h14" /><polyline points="7 23 3 19 7 15" /><path d="M21 13v2a4 4 0 0 1-4 4H3" />
+              </svg>
+            </button>
+          )}
+          {hasAudio && (
+            <button onClick={restart} aria-label="Restart">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                <polyline points="1 4 1 10 7 10" /><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
               </svg>
             </button>
           )}
