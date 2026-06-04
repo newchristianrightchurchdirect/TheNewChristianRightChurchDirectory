@@ -349,6 +349,13 @@ function AudioBar({
             </svg>
           </button>
           {hasAudio && (
+            <button className={looping ? 'on' : ''} onClick={() => setLooping((v) => !v)} aria-label={looping ? 'Disable loop' : 'Enable loop'} aria-pressed={looping}>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                <polyline points="17 1 21 5 17 9" /><path d="M3 11V9a4 4 0 0 1 4-4h14" /><polyline points="7 23 3 19 7 15" /><path d="M21 13v2a4 4 0 0 1-4 4H3" />
+              </svg>
+            </button>
+          )}
+          {hasAudio && (
             <button className="play" onClick={toggle} aria-label={playing ? 'Pause' : 'Play'}>
               {playing ? (
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
@@ -359,13 +366,6 @@ function AudioBar({
                   <polygon points="5 3 19 12 5 21 5 3" />
                 </svg>
               )}
-            </button>
-          )}
-          {hasAudio && (
-            <button className={looping ? 'on' : ''} onClick={() => setLooping((v) => !v)} aria-label={looping ? 'Disable loop' : 'Enable loop'} aria-pressed={looping}>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-                <polyline points="17 1 21 5 17 9" /><path d="M3 11V9a4 4 0 0 1 4-4h14" /><polyline points="7 23 3 19 7 15" /><path d="M21 13v2a4 4 0 0 1-4 4H3" />
-              </svg>
             </button>
           )}
           <button onClick={cycleScale} aria-label="Text size">
