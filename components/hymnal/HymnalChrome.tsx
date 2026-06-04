@@ -86,7 +86,30 @@ export default function HymnalChrome({ children }: { children: React.ReactNode }
   useEffect(() => {
     if (typeof window === 'undefined') return
     if (!('serviceWorker' in navigator)) return
-    navigator.serviceWorker.register('/sw.js').catch(() => {})
+
+    let reloaded = false
+    const onControllerChange = () => {
+      if (reloaded) return
+      reloaded = true
+      window.location.reload()
+    }
+    navigator.serviceWorker.addEventListener('controllerchange', onControllerChange)
+
+    let reg: ServiceWorkerRegistration | null = null
+    navigator.serviceWorker.register('/sw.js').then((r) => {
+      reg = r
+      r.update().catch(() => {})
+    }).catch(() => {})
+
+    const onVisible = () => {
+      if (document.visibilityState === 'visible' && reg) reg.update().catch(() => {})
+    }
+    document.addEventListener('visibilitychange', onVisible)
+
+    return () => {
+      navigator.serviceWorker.removeEventListener('controllerchange', onControllerChange)
+      document.removeEventListener('visibilitychange', onVisible)
+    }
   }, [])
 
   useEffect(() => {
