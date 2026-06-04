@@ -1,12 +1,18 @@
 'use client'
 
 import { useEffect, useMemo, useRef, useState } from 'react'
+import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { loadHymnal, toRoman } from '@/lib/hymnal/loader'
 import { findHymnal } from '@/lib/hymnal/sources'
 import { useHymnalStore } from '@/store/hymnal'
 import type { Hymn } from '@/types/hymnal'
+
+const PdfViewer = dynamic(() => import('./PdfViewer'), {
+  ssr: false,
+  loading: () => <div className="sheet-empty">Loading sheet music…</div>,
+})
 
 export default function HymnDetail({ slug, number }: { slug: string; number: string }) {
   const router = useRouter()
@@ -194,14 +200,7 @@ function SheetMusic({ url, title }: { url: string; title: string }) {
     return <div className="sheet-empty">Loading sheet music\u2026</div>
   }
   if (isPdf) {
-    return (
-      <div className="sheet-pdf">
-        <object data={`${proxied}#toolbar=0&navpanes=0`} type="application/pdf" aria-label={`Sheet music for ${title}`}>
-          <iframe src={proxied} title={`Sheet music for ${title}`} loading="lazy" />
-        </object>
-        <a className="sheet-open" href={proxied} target="_blank" rel="noopener noreferrer">Open PDF in new tab &rarr;</a>
-      </div>
-    )
+    return <PdfViewer src={proxied} title={title} />
   }
   // eslint-disable-next-line @next/next/no-img-element
   return <img src={proxied} alt={`Sheet music for ${title}`} />
