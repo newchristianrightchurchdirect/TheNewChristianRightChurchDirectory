@@ -6,6 +6,7 @@ export default function PdfViewer({ src, title }: { src: string; title: string }
   const containerRef = useRef<HTMLDivElement>(null)
   const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading')
   const [pageCount, setPageCount] = useState(0)
+  const [errorMsg, setErrorMsg] = useState<string>('')
 
   useEffect(() => {
     let cancelled = false
@@ -47,17 +48,18 @@ export default function PdfViewer({ src, title }: { src: string; title: string }
           canvas.setAttribute('aria-label', `${title} page ${i} of ${doc.numPages}`)
           container.appendChild(canvas)
 
-          const ctx = canvas.getContext('2d')
-          if (!ctx) continue
           await page.render({
-            canvasContext: ctx,
             canvas,
             viewport,
             transform: dpr !== 1 ? [dpr, 0, 0, dpr, 0, 0] : undefined,
           }).promise
         }
-      } catch {
-        if (!cancelled) setStatus('error')
+      } catch (e) {
+        if (cancelled) return
+        const msg = e instanceof Error ? `${e.name}: ${e.message}` : String(e)
+        console.error('[PdfViewer]', e)
+        setErrorMsg(msg)
+        setStatus('error')
       }
     })()
 
@@ -74,6 +76,11 @@ export default function PdfViewer({ src, title }: { src: string; title: string }
         <div className="sheet-empty">
           Could not render PDF.{' '}
           <a href={src} target="_blank" rel="noopener noreferrer">Open in new tab →</a>
+          {errorMsg && (
+            <div style={{ marginTop: 8, fontSize: 11, fontStyle: 'normal', opacity: 0.7, wordBreak: 'break-word' }}>
+              {errorMsg}
+            </div>
+          )}
         </div>
       )}
       <div ref={containerRef} className="pdf-pages" aria-live="polite" />
