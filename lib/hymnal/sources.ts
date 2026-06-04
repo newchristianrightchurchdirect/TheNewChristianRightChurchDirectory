@@ -29,6 +29,14 @@ export const HYMNALS: HymnalSource[] = [
     blurb: 'The 1990 revised edition of the Trinity Hymnal, also published by Great Commission Publications. Audio mirrored from OPC.org.',
   },
   {
+    slug: 'trinity-hymnal-baptist',
+    file: 'trinity_hymnal_baptist.json',
+    title: 'Trinity Hymnal (Baptist Edition)',
+    short: 'THB',
+    year: 1995,
+    blurb: 'The Baptist Edition of the Trinity Hymnal (1995), published by Great Commission Publications. Substantially identical to the 1961 edition with 42 additional Psalter selections and minor doctrinal revisions.',
+  },
+  {
     slug: 'book-of-psalms-for-worship',
     file: 'book_of_psalms_for_worship.json',
     title: 'The Book of Psalms for Worship',
@@ -86,6 +94,7 @@ export const PRECACHE_ORDER = [
   'trinity_psalter_hymnal.json',
   'trinity_hymnal_1961.json',
   'trinity_hymnal_1990.json',
+  'trinity_hymnal_baptist.json',
   'hymns_of_grace.json',
   'cantus_christi.json',
   'book_of_psalms_for_worship.json',
