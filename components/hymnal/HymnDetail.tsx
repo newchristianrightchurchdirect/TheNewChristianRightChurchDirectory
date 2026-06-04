@@ -148,6 +148,7 @@ export default function HymnDetail({ slug, number }: { slug: string; number: str
       <AudioBar
         src={hymn.audioUrl}
         label={`Hymn No. ${hymn.number}`}
+        verseCount={Math.max(1, (hymn.verses ?? []).filter((v) => !v.isChorus).length || (hymn.verses?.length ?? 1))}
         onPrev={prev != null ? () => router.push(`/hymnal/library/${slug}/${encodeURIComponent(prev)}`) : undefined}
         onNext={next != null ? () => router.push(`/hymnal/library/${slug}/${encodeURIComponent(next)}`) : undefined}
         textScale={textScale}
@@ -271,6 +272,7 @@ function DetailChrome({
 function AudioBar({
   src,
   label,
+  verseCount,
   onPrev,
   onNext,
   textScale,
@@ -278,6 +280,7 @@ function AudioBar({
 }: {
   src?: string | null
   label: string
+  verseCount: number
   onPrev?: () => void
   onNext?: () => void
   textScale: number
@@ -287,15 +290,39 @@ function AudioBar({
   const [playing, setPlaying] = useState(false)
   const [t, setT] = useState(0)
   const [dur, setDur] = useState(0)
-  const [looping, setLooping] = useState(false)
+  const [looping, setLooping] = useState(true)
+  const [loopsLeft, setLoopsLeft] = useState(verseCount)
   const hasAudio = !!src
+
+  const loopingRef = useRef(looping)
+  const loopsLeftRef = useRef(loopsLeft)
+  const verseCountRef = useRef(verseCount)
+  useEffect(() => { loopingRef.current = looping }, [looping])
+  useEffect(() => { loopsLeftRef.current = loopsLeft }, [loopsLeft])
+  useEffect(() => { verseCountRef.current = verseCount }, [verseCount])
+
+  useEffect(() => {
+    setLoopsLeft(verseCount)
+  }, [src, verseCount])
 
   useEffect(() => {
     const a = audioRef.current
     if (!a) return
     const onTime = () => setT(a.currentTime)
     const onMeta = () => setDur(a.duration || 0)
-    const onEnd = () => setPlaying(false)
+    const onEnd = () => {
+      if (loopingRef.current && loopsLeftRef.current > 1) {
+        const next = loopsLeftRef.current - 1
+        loopsLeftRef.current = next
+        setLoopsLeft(next)
+        a.currentTime = 0
+        a.play().catch(() => {})
+      } else {
+        loopsLeftRef.current = verseCountRef.current
+        setLoopsLeft(verseCountRef.current)
+        setPlaying(false)
+      }
+    }
     a.addEventListener('timeupdate', onTime)
     a.addEventListener('loadedmetadata', onMeta)
     a.addEventListener('ended', onEnd)
@@ -306,21 +333,24 @@ function AudioBar({
     }
   }, [src])
 
-  useEffect(() => {
-    const a = audioRef.current
-    if (a) a.loop = looping
-  }, [looping])
-
   function toggle() {
     const a = audioRef.current
     if (!a) return
     if (playing) { a.pause(); setPlaying(false) }
-    else { a.play().then(() => setPlaying(true)).catch(() => setPlaying(false)) }
+    else {
+      if (loopsLeftRef.current <= 0) {
+        loopsLeftRef.current = verseCountRef.current
+        setLoopsLeft(verseCountRef.current)
+      }
+      a.play().then(() => setPlaying(true)).catch(() => setPlaying(false))
+    }
   }
   function restart() {
     const a = audioRef.current
     if (!a) return
     a.currentTime = 0
+    loopsLeftRef.current = verseCountRef.current
+    setLoopsLeft(verseCountRef.current)
     if (!playing) {
       a.play().then(() => setPlaying(true)).catch(() => setPlaying(false))
     }
