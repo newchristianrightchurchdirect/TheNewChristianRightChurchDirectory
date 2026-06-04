@@ -10,3 +10,4 @@ node_modules/
 data/research-queue/
 tsconfig.tsbuildinfo
 .tmp-hymnal-pull/
+public/hymnal-media/th-mp3/
