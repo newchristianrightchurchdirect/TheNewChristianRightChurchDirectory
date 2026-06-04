@@ -6,6 +6,24 @@ import { loadConfessions } from '@/lib/hymnal/loader'
 import { useHymnalStore } from '@/store/hymnal'
 import type { ConfessionDocument, ConfessionEntry, ConfessionGroup } from '@/types/hymnal'
 
+const TYPE_ORDER = ['creed', 'confession', 'catechism', 'declaration', 'other']
+
+function typeRank(t: string | undefined): number {
+  const i = TYPE_ORDER.indexOf((t || 'other').toLowerCase())
+  return i < 0 ? TYPE_ORDER.length : i
+}
+
+function sortedDocs(docs: ConfessionDocument[]): ConfessionDocument[] {
+  return [...docs].sort((a, b) => {
+    const r = typeRank(a.type) - typeRank(b.type)
+    if (r !== 0) return r
+    const ay = a.year ?? 9999
+    const by = b.year ?? 9999
+    if (ay !== by) return ay - by
+    return a.title.localeCompare(b.title)
+  })
+}
+
 export default function CreedReader({ id }: { id: string }) {
   const router = useRouter()
   const [doc, setDoc] = useState<ConfessionDocument | null>(null)
@@ -24,11 +42,12 @@ export default function CreedReader({ id }: { id: string }) {
     loadConfessions()
       .then((d) => {
         if (!alive) return
-        const idx = d.documents.findIndex((x) => x.id === id)
+        const ordered = sortedDocs(d.documents)
+        const idx = ordered.findIndex((x) => x.id === id)
         if (idx < 0) { setErr('Document not found'); return }
-        setDoc(d.documents[idx])
-        setPrev(idx > 0 ? d.documents[idx - 1] : null)
-        setNext(idx < d.documents.length - 1 ? d.documents[idx + 1] : null)
+        setDoc(ordered[idx])
+        setPrev(idx > 0 ? ordered[idx - 1] : null)
+        setNext(idx < ordered.length - 1 ? ordered[idx + 1] : null)
       })
       .catch((e) => { if (alive) setErr(e.message) })
     return () => { alive = false }
