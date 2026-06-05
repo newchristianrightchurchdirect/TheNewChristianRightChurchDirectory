@@ -512,7 +512,26 @@
     {
       "number": "16",
       "title": "O God, you are my God",
-      "verses": [],
+      "verses": [
+        {
+          "number": 1,
+          "label": "1",
+          "isChorus": false,
+          "text": "O God, You are my God,\nAnd early will I seek for You;\nMy soul is athirst for You.\nMy flesh cries out for You\nFrom out a dry and thirsty land,\nA land where no water is.\nFor thus to behold You in splendid strength\nI gazed after You in the holy place.\nSince Your grace is much more than life,\nMy lips will give praise to You."
+        },
+        {
+          "number": 2,
+          "label": "2",
+          "isChorus": false,
+          "text": "I’ll bless You while I live,\nAnd I will ever lift my hands\nTo praise and confess Your name.\nMy soul will be made full\nAs with all choice and hearty meats;\nI’ll praise You with joyful lips.\nI think of You thus as I lie in bed\nAnd bring You to mind in the hours of night.\nSince You ever have been my help,\nYour wings are my shield and joy."
+        },
+        {
+          "number": 3,
+          "label": "3",
+          "isChorus": false,
+          "text": "My soul clings fast to You;\nYour right hand holds me safely up.\nWhen men would destroy my life,\nTo depths of earth they go;\nThey are delivered to the sword,\nTo jackals become a prey.\nThe king will rejoice and be glad in God,\nAnd they boast aloud who have sworn in Him,\nBut the mouth will be made to stop\nOf those who declare a lie."
+        }
+      ],
       "audioUrl": "https://hymnary.org/media/fetch/150510/hymnary/audio/GG2013/743-OGodYouAre_accomp.mp3",
       "sheetMusicUrl": "https://hymnary.org/media/fetch/80621"
     },
@@ -669,12 +688,24 @@
     {
       "number": "21",
       "title": "Why do the nations rage and the peoples plot in vain?",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. Why do the nations rage and the peoples plot in vain?\n2. The kings of the earth set themselves, and the rulers take counsel together, against the Lord and against his Anointed, saying,\n3. “Let us burst their bonds apart and cast away their cords from us.”\n4. He who sits in the heavens laughs; the Lord holds them in derision.\n5. Then he will speak to them in his wrath, and terrify them in his fury, saying,\n6. “As for me, I have set my King on Zion, my holy hill.”\n7. I will tell of the decree: The Lord said to me, “You are my Son; today I have begotten you.\n8. Ask of me, and I will make the nations your heritage, and the ends of the earth your possession.\n9. You shall break them with a rod of iron and dash them in pieces like a potter's vessel.”\n10. Now therefore, O kings, be wise; be warned, O rulers of the earth.\n11. Serve the Lord with fear, and rejoice with trembling.\n12. Kiss the Son, lest he be angry, and you perish in the way, for his wrath is quickly kindled. Blessed are all who take refuge in him."
+        }
+      ]
     },
     {
       "number": "22",
       "title": "Now this is the commandment the statutes and the rules",
-      "verses": [],
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. “Now this is the commandment—the statutes and the rules —that the Lord your God commanded me to teach you, that you may do them in the land to which you are going over, to possess it,\n2. that you may fear the Lord your God, you and your son and your son's son, by keeping all his statutes and his commandments, which I command you, all the days of your life, and that your days may be long.\n3. Hear therefore, O Israel, and be careful to do them, that it may go well with you, and that you may multiply greatly, as the Lord , the God of your fathers, has promised you, in a land flowing with milk and honey.\n4. “Hear, O Israel: The Lord our God, the Lord is one.\n5. You shall love the Lord your God with all your heart and with all your soul and with all your might.\n6. And these words that I command you today shall be on your heart.\n7. You shall teach them diligently to your children, and shall talk of them when you sit in your house, and when you walk by the way, and when you lie down, and when you rise.\n8. You shall bind them as a sign on your hand, and they shall be as frontlets between your eyes.\n9. You shall write them on the doorposts of your house and on your gates."
+        }
+      ],
       "audioUrl": "https://hymnary.org/media/fetch/150259/hymnary/audio/GG2013/152-WhatStarIsThis_accomp.mp3",
       "sheetMusicUrl": "https://hymnary.org/media/fetch/80676"
     },
@@ -1185,7 +1216,13 @@
     {
       "number": "43",
       "title": "As a deer pants for flowing streams",
-      "verses": [],
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. As a deer pants for flowing streams, so pants my soul for you, O God.\n2. My soul thirsts for God, for the living God. When shall I come and appear before God?\n3. My tears have been my food day and night, while they say to me all the day long, “Where is your God?”\n4. These things I remember, as I pour out my soul: how I would go with the throng and lead them in procession to the house of God with glad shouts and songs of praise, a multitude keeping festival.\n5. Why are you cast down, O my soul, and why are you in turmoil within me? Hope in God; for I shall again praise him, my salvation\n6. and my God. My soul is cast down within me; therefore I remember you from the land of Jordan and of Hermon, from Mount Mizar.\n7. Deep calls to deep at the roar of your waterfalls; all your breakers and your waves have gone over me.\n8. By day the Lord commands his steadfast love, and at night his song is with me, a prayer to the God of my life.\n9. I say to God, my rock: “Why have you forgotten me? Why do I go mourning because of the oppression of the enemy?”\n10. As with a deadly wound in my bones, my adversaries taunt me, while they say to me all the day long, “Where is your God?”\n11. Why are you cast down, O my soul, and why are you in turmoil within me? Hope in God; for I shall again praise him, my salvation and my God."
+        }
+      ],
       "sheetMusicUrl": "https://hymnary.org/media/fetch/190444",
       "audioUrl": "https://hymnary.org/media/fetch/199212"
     },
@@ -1772,7 +1809,13 @@
     {
       "number": "65",
       "title": "And he said to his disciples, \"Therefore I tell you",
-      "verses": [],
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "22. And he said to his disciples, “Therefore I tell you, do not be anxious about your life, what you will eat, nor about your body, what you will put on.\n23. For life is more than food, and the body more than clothing.\n24. Consider the ravens: they neither sow nor reap, they have neither storehouse nor barn, and yet God feeds them. Of how much more value are you than the birds!\n25. And which of you by being anxious can add a single hour to his span of life?\n26. If then you are not able to do as small a thing as that, why are you anxious about the rest?\n27. Consider the lilies, how they grow: they neither toil nor spin, yet I tell you, even Solomon in all his glory was not arrayed like one of these.\n28. But if God so clothes the grass, which is alive in the field today, and tomorrow is thrown into the oven, how much more will he clothe you, O you of little faith!\n29. And do not seek what you are to eat and what you are to drink, nor be worried.\n30. For all the nations of the world seek after these things, and your Father knows that you need them.\n31. Instead, seek his kingdom, and these things will be added to you.\n32. “Fear not, little flock, for it is your Father's good pleasure to give you the kingdom.\n33. Sell your possessions, and give to the needy. Provide yourselves with moneybags that do not grow old, with a treasure in the heavens that does not fail, where no thief approaches and no moth destroys.\n34. For where your treasure is, there will your heart be also."
+        }
+      ],
       "audioUrl": "https://hymnary.org/media/fetch/149229/hymnary/audio/GG2013/718%20take%20up%20your%20cross.mp3"
     },
     {
@@ -1874,7 +1917,13 @@
     {
       "number": "70",
       "title": "He who dwells in the shelter of the Most High",
-      "verses": [],
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. He who dwells in the shelter of the Most High will abide in the shadow of the Almighty.\n2. I will say to the Lord , “My refuge and my fortress, my God, in whom I trust.”\n3. For he will deliver you from the snare of the fowler and from the deadly pestilence.\n4. He will cover you with his pinions, and under his wings you will find refuge; his faithfulness is a shield and buckler.\n5. You will not fear the terror of the night, nor the arrow that flies by day,\n6. nor the pestilence that stalks in darkness, nor the destruction that wastes at noonday.\n7. A thousand may fall at your side, ten thousand at your right hand, but it will not come near you.\n8. You will only look with your eyes and see the recompense of the wicked.\n9. Because you have made the Lord your dwelling place— the Most High, who is my refuge —\n10. no evil shall be allowed to befall you, no plague come near your tent.\n11. For he will command his angels concerning you to guard you in all your ways.\n12. On their hands they will bear you up, lest you strike your foot against a stone.\n13. You will tread on the lion and the adder; the young lion and the serpent you will trample underfoot.\n14. “Because he holds fast to me in love, I will deliver him; I will protect him, because he knows my name.\n15. When he calls to me, I will answer him; I will be with him in trouble; I will rescue him and honor him.\n16. With long life I will satisfy him and show him my salvation.”"
+        }
+      ],
       "audioUrl": "https://hymnary.org/media/fetch/205886/public%3A//hymnary/media/ELW2006/ELW883_All_People_That_on_Earth_Do_Dwell.mp3",
       "sheetMusicUrl": "https://hymnary.org/media/fetch/82643"
     },
@@ -2202,7 +2251,13 @@
     {
       "number": "82",
       "title": "I am the true vine, and my Father is the vinedresser",
-      "verses": [],
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. “I am the true vine, and my Father is the vinedresser.\n2. Every branch in me that does not bear fruit he takes away, and every branch that does bear fruit he prunes, that it may bear more fruit.\n3. Already you are clean because of the word that I have spoken to you.\n4. Abide in me, and I in you. As the branch cannot bear fruit by itself, unless it abides in the vine, neither can you, unless you abide in me.\n5. I am the vine; you are the branches. Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing.\n6. If anyone does not abide in me, he is thrown away like a branch and withers; and the branches are gathered, thrown into the fire, and burned.\n7. If you abide in me, and my words abide in you, ask whatever you wish, and it will be done for you.\n8. By this my Father is glorified, that you bear much fruit and so prove to be my disciples.\n9. As the Father has loved me, so have I loved you. Abide in my love.\n10. If you keep my commandments, you will abide in my love, just as I have kept my Father's commandments and abide in his love.\n11. These things I have spoken to you, that my joy may be in you, and that your joy may be full.\n12. “This is my commandment, that you love one another as I have loved you.\n13. Greater love has no one than this, that someone lay down his life for his friends.\n14. You are my friends if you do what I command you.\n15. No longer do I call you servants, for the servant does not know what his master is doing; but I have called you friends, for all that I have heard from my Father I have made known to you.\n16. You did not choose me, but I chose you and appointed you that you should go and bear fruit and that your fruit should abide, so that whatever you ask the Father in my name, he may give it to you.\n17. These things I command you, so that you will love one another."
+        }
+      ],
       "audioUrl": "https://hymnary.org/media/fetch/179394/hymnary/media/SCM/MP3-JesusIsAllTheWorld-PipeLC-128-CAM.mp3"
     },
     {
@@ -2397,7 +2452,13 @@
     {
       "number": "90",
       "title": "Blessed is the one whose transgression is forgiven",
-      "verses": [],
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. Blessed is the one whose transgression is forgiven, whose sin is covered.\n2. Blessed is the man against whom the Lord counts no iniquity, and in whose spirit there is no deceit.\n3. For when I kept silent, my bones wasted away through my groaning all day long.\n4. For day and night your hand was heavy upon me; my strength was dried up as by the heat of summer. Selah\n5. I acknowledged my sin to you, and I did not cover my iniquity; I said, “I will confess my transgressions to the Lord ,” and you forgave the iniquity of my sin. Selah\n6. Therefore let everyone who is godly offer prayer to you at a time when you may be found; surely in the rush of great waters, they shall not reach him.\n7. You are a hiding place for me; you preserve me from trouble; you surround me with shouts of deliverance. Selah"
+        }
+      ],
       "audioUrl": "https://hymnary.org/media/fetch/205764/public%3A//hymnary/media/ELW2006/ELW654_The_Church%27s_One_Foundation.mp3"
     },
     {
@@ -2568,7 +2629,13 @@
     {
       "number": "95",
       "title": "For the word of the cross is folly to those who are perishing",
-      "verses": [],
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "18. For the word of the cross is folly to those who are perishing, but to us who are being saved it is the power of God.\n19. For it is written, “I will destroy the wisdom of the wise, and the discernment of the discerning I will thwart.”\n20. Where is the one who is wise? Where is the scribe? Where is the debater of this age? Has not God made foolish the wisdom of the world?\n21. For since, in the wisdom of God, the world did not know God through wisdom, it pleased God through the folly of what we preach to save those who believe.\n22. For Jews demand signs and Greeks seek wisdom,\n23. but we preach Christ crucified, a stumbling block to Jews and folly to Gentiles,\n24. but to those who are called, both Jews and Greeks, Christ the power of God and the wisdom of God.\n25. For the foolishness of God is wiser than men, and the weakness of God is stronger than men.\n26. For consider your calling, brothers: not many of you were wise according to worldly standards, not many were powerful, not many were of noble birth.\n27. But God chose what is foolish in the world to shame the wise; God chose what is weak in the world to shame the strong;\n28. God chose what is low and despised in the world, even things that are not, to bring to nothing things that are,\n29. so that no human being might boast in the presence of God.\n30. And because of him you are in Christ Jesus, who became to us wisdom from God, righteousness and sanctification and redemption,\n31. so that, as it is written, “Let the one who boasts, boast in the Lord.”"
+        }
+      ],
       "audioUrl": "https://hymnary.org/media/fetch/199259/hymnary/media/UMH/0467_TrustAndObey_sample.mp3"
     },
     {
@@ -2939,7 +3006,13 @@
     {
       "number": "108",
       "title": "For since the law was but a shodow of the good things to come",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. For since the law has but a shadow of the good things to come instead of the true form of these realities, it can never, by the same sacrifices that are continually offered every year, make perfect those who draw near.\n2. Otherwise, would they not have ceased to be offered, since the worshipers, having once been cleansed, would no longer have any consciousness of sins?\n3. But in these sacrifices there is a reminder of sins every year.\n4. For it is impossible for the blood of bulls and goats to take away sins.\n5. Consequently, when Christ came into the world, he said, “Sacrifices and offerings you have not desired, but a body have you prepared for me;\n6. in burnt offerings and sin offerings you have taken no pleasure.\n7. Then I said, ‘Behold, I have come to do your will, O God, as it is written of me in the scroll of the book.’”\n8. When he said above, “You have neither desired nor taken pleasure in sacrifices and offerings and burnt offerings and sin offerings” (these are offered according to the law),\n9. then he added, “Behold, I have come to do your will.” He does away with the first in order to establish the second.\n10. And by that will we have been sanctified through the offering of the body of Jesus Christ once for all.\n11. And every priest stands daily at his service, offering repeatedly the same sacrifices, which can never take away sins.\n12. But when Christ had offered for all time a single sacrifice for sins, he sat down at the right hand of God,\n13. waiting from that time until his enemies should be made a footstool for his feet.\n14. For by a single offering he has perfected for all time those who are being sanctified."
+        }
+      ]
     },
     {
       "number": "109",
@@ -3273,7 +3346,13 @@
     {
       "number": "122",
       "title": "So if there is any encouragement in Christ",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. So if there is any encouragement in Christ, any comfort from love, any participation in the Spirit, any affection and sympathy,\n2. complete my joy by being of the same mind, having the same love, being in full accord and of one mind.\n3. Do nothing from selfish ambition or conceit, but in humility count others more significant than yourselves.\n4. Let each of you look not only to his own interests, but also to the interests of others.\n5. Have this mind among yourselves, which is yours in Christ Jesus,\n6. who, though he was in the form of God, did not count equality with God a thing to be grasped,\n7. but emptied himself, by taking the form of a servant, being born in the likeness of men.\n8. And being found in human form, he humbled himself by becoming obedient to the point of death, even death on a cross.\n9. Therefore God has highly exalted him and bestowed on him the name that is above every name,\n10. so that at the name of Jesus every knee should bow, in heaven and on earth and under the earth,\n11. and every tongue confess that Jesus Christ is Lord, to the glory of God the Father."
+        }
+      ]
     },
     {
       "number": "123",
@@ -3732,7 +3811,13 @@
     {
       "number": "139",
       "title": "But Peter said, \"I have no silver and gold\"",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "6. But Peter said, “I have no silver and gold, but what I do have I give to you. In the name of Jesus Christ of Nazareth, rise up and walk!”\n7. And he took him by the right hand and raised him up, and immediately his feet and ankles were made strong.\n8. And leaping up, he stood and began to walk, and entered the temple with them, walking and leaping and praising God.\n9. And all the people saw him walking and praising God,\n10. and recognized him as the one who sat at the Beautiful Gate of the temple, asking for alms. And they were filled with wonder and amazement at what had happened to him.\n11. While he clung to Peter and John, all the people, utterly astounded, ran together to them in the portico called Solomon's.\n12. And when Peter saw it he addressed the people: “Men of Israel, why do you wonder at this, or why do you stare at us, as though by our own power or piety we have made him walk?\n13. The God of Abraham, the God of Isaac, and the God of Jacob, the God of our fathers, glorified his servant Jesus, whom you delivered over and denied in the presence of Pilate, when he had decided to release him.\n14. But you denied the Holy and Righteous One, and asked for a murderer to be granted to you,\n15. and you killed the Author of life, whom God raised from the dead. To this we are witnesses.\n16. And his name—by faith in his name—has made this man strong whom you see and know, and the faith that is through Jesus has given the man this perfect health in the presence of you all."
+        }
+      ]
     },
     {
       "number": "140",
@@ -5141,7 +5226,13 @@
     {
       "number": "192",
       "title": "For this reason, I, Paul, a prisoner for Christ Jesus",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. For this reason I, Paul, a prisoner of Christ Jesus on behalf of you Gentiles—\n2. assuming that you have heard of the stewardship of God's grace that was given to me for you,\n3. how the mystery was made known to me by revelation, as I have written briefly.\n4. When you read this, you can perceive my insight into the mystery of Christ,\n5. which was not made known to the sons of men in other generations as it has now been revealed to his holy apostles and prophets by the Spirit.\n6. This mystery is that the Gentiles are fellow heirs, members of the same body, and partakers of the promise in Christ Jesus through the gospel.\n7. Of this gospel I was made a minister according to the gift of God's grace, which was given me by the working of his power.\n8. To me, though I am the very least of all the saints, this grace was given, to preach to the Gentiles the unsearchable riches of Christ,\n9. and to bring to light for everyone what is the plan of the mystery hidden for ages in God, who created all things,\n10. so that through the church the manifold wisdom of God might now be made known to the rulers and authorities in the heavenly places.\n11. This was according to the eternal purpose that he has realized in Christ Jesus our Lord,\n12. in whom we have boldness and access with confidence through our faith in him.\n13. So I ask you not to lose heart over what I am suffering for you, which is your glory."
+        }
+      ]
     },
     {
       "number": "193",
@@ -5257,7 +5348,13 @@
     {
       "number": "197",
       "title": "Therefore be imitators of God",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. Therefore be imitators of God, as beloved children.\n2. And walk in love, as Christ loved us and gave himself up for us, a fragrant offering and sacrifice to God.\n3. But sexual immorality and all impurity or covetousness must not even be named among you, as is proper among saints.\n4. Let there be no filthiness nor foolish talk nor crude joking, which are out of place, but instead let there be thanksgiving.\n5. For you may be sure of this, that everyone who is sexually immoral or impure, or who is covetous ( that is, an idolater), has no inheritance in the kingdom of Christ and God.\n6. Let no one deceive you with empty words, for because of these things the wrath of God comes upon the sons of disobedience.\n7. Therefore do not become partners with them;\n8. for at one time you were darkness, but now you are light in the Lord. Walk as children of light\n9. (for the fruit of light is found in all that is good and right and true),\n10. and try to discern what is pleasing to the Lord.\n11. Take no part in the unfruitful works of darkness, but instead expose them.\n12. For it is shameful even to speak of the things that they do in secret.\n13. But when anything is exposed by the light, it becomes visible,\n14. for anything that becomes visible is light. Therefore it says, “Awake, O sleeper, and arise from the dead, and Christ will shine on you.”\n15. Look carefully then how you walk, not as unwise but as wise,\n16. making the best use of the time, because the days are evil.\n17. Therefore do not be foolish, but understand what the will of the Lord is.\n18. And do not get drunk with wine, for that is debauchery, but be filled with the Spirit,\n19. addressing one another in psalms and hymns and spiritual songs, singing and making melody to the Lord with your heart,\n20. giving thanks always and for everything to God the Father in the name of our Lord Jesus Christ,\n21. submitting to one another out of reverence for Christ."
+        }
+      ]
     },
     {
       "number": "198",
@@ -5761,7 +5858,13 @@
     {
       "number": "217",
       "title": "In the sixth month the angel Gabriel was sent from God",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "26. In the sixth month the angel Gabriel was sent from God to a city of Galilee named Nazareth,\n27. to a virgin betrothed to a man whose name was Joseph, of the house of David. And the virgin's name was Mary.\n28. And he came to her and said, “Greetings, O favored one, the Lord is with you!”\n29. But she was greatly troubled at the saying, and tried to discern what sort of greeting this might be.\n30. And the angel said to her, “Do not be afraid, Mary, for you have found favor with God.\n31. And behold, you will conceive in your womb and bear a son, and you shall call his name Jesus.\n32. He will be great and will be called the Son of the Most High. And the Lord God will give to him the throne of his father David,\n33. and he will reign over the house of Jacob forever, and of his kingdom there will be no end.”\n34. And Mary said to the angel, “How will this be, since I am a virgin?”\n35. And the angel answered her, “The Holy Spirit will come upon you, and the power of the Most High will overshadow you; therefore the child to be born will be called holy— the Son of God.\n36. And behold, your relative Elizabeth in her old age has also conceived a son, and this is the sixth month with her who was called barren.\n37. For nothing will be impossible with God.”\n38. And Mary said, “Behold, I am the servant of the Lord; let it be to me according to your word.” And the angel departed from her."
+        }
+      ]
     },
     {
       "number": "218",
@@ -5809,7 +5912,23 @@
     {
       "number": "219",
       "title": "Thou who wast rich beyond all splendor",
-      "verses": [],
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "Thou who wast rich beyond all splendor,\nall for love's sake becamest poor;\nthrones for a manger didst surrender,\nsapphire-paved courts for stable floor.\nThou who wast rich beyond all splendor,\nall for love's sake becamest poor."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "Thou who art God beyond all praising,\nall for love's sake becamest man;\nstooping so low, but sinners raising\nheav'nward by thine eternal plan.\nThou who art God beyond all praising,\nall for love's sake becamest man."
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "Thou who art love beyond all telling,\nSavior and King, we worship thee.\nEmmanuel, within us dwelling,\nmake us what thou wouldst have us be.\nThou who art love beyond all telling,\nSavior and King, we worship thee."
+        }
+      ],
       "author": "Frank Houghton",
       "audioUrl": "/hymnal-media/hog-audio/hog_219.mp3",
       "sheetMusicUrl": "https://hymnary.org/media/fetch/190539"
@@ -6357,7 +6476,13 @@
     {
       "number": "241",
       "title": "In those days a decree went out from Caesar Augustus",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. In those days a decree went out from Caesar Augustus that all the world should be registered.\n2. This was the first registration when Quirinius was governor of Syria.\n3. And all went to be registered, each to his own town.\n4. And Joseph also went up from Galilee, from the town of Nazareth, to Judea, to the city of David, which is called Bethlehem, because he was of the house and lineage of David,\n5. to be registered with Mary, his betrothed, who was with child.\n6. And while they were there, the time came for her to give birth.\n7. And she gave birth to her firstborn son and wrapped him in swaddling cloths and laid him in a manger, because there was no place for them in the inn.\n8. And in the same region there were shepherds out in the field, keeping watch over their flock by night.\n9. And an angel of the Lord appeared to them, and the glory of the Lord shone around them, and they were filled with great fear.\n10. And the angel said to them, “Fear not, for behold, I bring you good news of great joy that will be for all the people.\n11. For unto you is born this day in the city of David a Savior, who is Christ the Lord.\n12. And this will be a sign for you: you will find a baby wrapped in swaddling cloths and lying in a manger.”\n13. And suddenly there was with the angel a multitude of the heavenly host praising God and saying,\n14. “Glory to God in the highest, and on earth peace among those with whom he is pleased!”\n15. When the angels went away from them into heaven, the shepherds said to one another, “Let us go over to Bethlehem and see this thing that has happened, which the Lord has made known to us.”\n16. And they went with haste and found Mary and Joseph, and the baby lying in a manger.\n17. And when they saw it, they made known the saying that had been told them concerning this child.\n18. And all who heard it wondered at what the shepherds told them.\n19. But Mary treasured up all these things, pondering them in her heart.\n20. And the shepherds returned, glorifying and praising God for all they had heard and seen, as it had been told them.\n21. And at the end of eight days, when he was circumcised, he was called Jesus, the name given by the angel before he was conceived in the womb."
+        }
+      ]
     },
     {
       "number": "242",
@@ -6544,7 +6669,13 @@
     {
       "number": "248",
       "title": "But you, O Bethlehem Ephrathah",
-      "verses": [],
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "2. But you, O Bethlehem Ephrathah, who are too little to be among the clans of Judah, from you shall come forth for me one who is to be ruler in Israel, whose coming forth is from of old, from ancient days.\n3. Therefore he shall give them up until the time when she who is in labor has given birth; then the rest of his brothers shall return to the people of Israel.\n4. And he shall stand and shepherd his flock in the strength of the Lord , in the majesty of the name of the Lord his God. And they shall dwell secure, for now he shall be great to the ends of the earth.\n5. And he shall be their peace. When the Assyrian comes into our land and treads in our palaces, then we will raise against him seven shepherds and eight princes of men;"
+        }
+      ],
       "audioUrl": "https://hymnary.org/media/fetch/148406/hymnary/audio/GG2013/121-o%20little%20town.mp3"
     },
     {
@@ -7006,7 +7137,13 @@
     {
       "number": "262",
       "title": "Then the angel showed me the river of the water of life",
-      "verses": [],
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. Then the angel showed me the river of the water of life, bright as crystal, flowing from the throne of God and of the Lamb\n2. through the middle of the street of the city; also, on either side of the river, the tree of life with its twelve kinds of fruit, yielding its fruit each month. The leaves of the tree were for the healing of the nations.\n3. No longer will there be anything accursed, but the throne of God and of the Lamb will be in it, and his servants will worship him.\n4. They will see his face, and his name will be on their foreheads.\n5. And night will be no more. They will need no light of lamp or sun, for the Lord God will be their light, and they will reign forever and ever."
+        }
+      ],
       "audioUrl": "https://hymnary.org/media/fetch/199005/hymnary/media/UMH/0175_Jesus%2CTheVeryThoughtOfThee_sample.mp3"
     },
     {
@@ -7116,7 +7253,13 @@
     {
       "number": "267",
       "title": "Therefore, prepare your minds for action",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "13. Therefore, preparing your minds for action, and being sober-minded, set your hope fully on the grace that will be brought to you at the revelation of Jesus Christ.\n14. As obedient children, do not be conformed to the passions of your former ignorance,\n15. but as he who called you is holy, you also be holy in all your conduct,\n16. since it is written, “You shall be holy, for I am holy.”\n17. And if you call on him as Father who judges impartially according to each one's deeds, conduct yourselves with fear throughout the time of your exile,\n18. knowing that you were ransomed from the futile ways inherited from your forefathers, not with perishable things such as silver or gold,\n19. but with the precious blood of Christ, like that of a lamb without blemish or spot.\n20. He was foreknown before the foundation of the world but was made manifest in the last times for the sake of you\n21. who through him are believers in God, who raised him from the dead and gave him glory, so that your faith and hope are in God.\n22. Having purified your souls by your obedience to the truth for a sincere brotherly love, love one another earnestly from a pure heart,\n23. since you have been born again, not of perishable seed but of imperishable, through the living and abiding word of God;\n24. for “All flesh is like grass and all its glory like the flower of grass. The grass withers, and the flower falls,\n25. but the word of the Lord remains forever.” And this word is the good news that was preached to you."
+        }
+      ]
     },
     {
       "number": "268",
@@ -7900,7 +8043,13 @@
     {
       "number": "295",
       "title": "On the next day their rulers and elders and scribed gathered",
-      "verses": [],
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "5. On the next day their rulers and elders and scribes gathered together in Jerusalem,\n6. with Annas the high priest and Caiaphas and John and Alexander, and all who were of the high-priestly family.\n7. And when they had set them in the midst, they inquired, “By what power or by what name did you do this?”\n8. Then Peter, filled with the Holy Spirit, said to them, “Rulers of the people and elders,\n9. if we are being examined today concerning a good deed done to a crippled man, by what means this man has been healed,\n10. let it be known to all of you and to all the people of Israel that by the name of Jesus Christ of Nazareth, whom you crucified, whom God raised from the dead—by him this man is standing before you well.\n11. This Jesus is the stone that was rejected by you, the builders, which has become the cornerstone.\n12. And there is salvation in no one else, for there is no other name under heaven given among men by which we must be saved.”"
+        }
+      ],
       "audioUrl": "https://hymnary.org/media/fetch/179543/hymnary/media/SCM/MP3-StandUpStandUp-Webb-PipeLC-128-CAM.mp3"
     },
     {
@@ -8167,7 +8316,28 @@
     {
       "number": "304",
       "title": "He was wounded for our transgressions",
-      "verses": [],
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "He was wounded for our transgressions, he bore our sins in his body on the tree;\nfor our guilt he gave us peace, from our bondage gave release,\nand with his stripes, and with his stripes, and with his stripes our souls are healed."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "He was numbered among transgressors, we did ill esteem him forsaken by his God;\nas our sacrifice he died, that the law be satisfied,\nand all our sin, and all our sin, and all our sin was laid on him."
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "We had wandered, we all had wandered far from the fold of \"the Shepherd of the sheep\";\nbut he sought us where we were, on the mountains bleak and bare,\nand brought us home, and brought us home, and brought us safely home to God."
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "Who can number his generation? Who shall declare all the triumphs of his cross?\nMillions dead now live again, myriads follow in his train!\nVictorious Lord, victorious Lord, victorious Lord and coming King!"
+        }
+      ],
       "author": "Thomas O. Chisholm(1941)",
       "audioUrl": "/hymnal-media/hog-audio/hog_304.mp3",
       "sheetMusicUrl": "https://hymnary.org/media/fetch/80245"
@@ -8365,7 +8535,13 @@
     {
       "number": "311",
       "title": "You then, my child, be strengthend by the grace",
-      "verses": [],
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. You then, my child, be strengthened by the grace that is in Christ Jesus,\n2. and what you have heard from me in the presence of many witnesses entrust to faithful men, who will be able to teach others also.\n3. Share in suffering as a good soldier of Christ Jesus.\n4. No soldier gets entangled in civilian pursuits, since his aim is to please the one who enlisted him.\n5. An athlete is not crowned unless he competes according to the rules.\n6. It is the hard-working farmer who ought to have the first share of the crops.\n7. Think over what I say, for the Lord will give you understanding in everything.\n8. Remember Jesus Christ, risen from the dead, the offspring of David, as preached in my gospel,\n9. for which I am suffering, bound with chains as a criminal. But the word of God is not bound!\n10. Therefore I endure everything for the sake of the elect, that they also may obtain the salvation that is in Christ Jesus with eternal glory.\n11. The saying is trustworthy, for: If we have died with him, we will also live with him;\n12. if we endure, we will also reign with him; if we deny him, he also will deny us;\n13. if we are faithless, he remains faithful— for he cannot deny himself."
+        }
+      ],
       "audioUrl": "https://hymnary.org/media/fetch/232916/public%3A//hymnary/media/CWH1938/536.mp3"
     },
     {
@@ -8418,7 +8594,13 @@
     {
       "number": "314",
       "title": "There is therefore now no condemnation",
-      "verses": [],
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. There is therefore now no condemnation for those who are in Christ Jesus.\n2. For the law of the Spirit of life has set you free in Christ Jesus from the law of sin and death.\n3. For God has done what the law, weakened by the flesh, could not do. By sending his own Son in the likeness of sinful flesh and for sin, he condemned sin in the flesh,\n4. in order that the righteous requirement of the law might be fulfilled in us, who walk not according to the flesh but according to the Spirit.\n5. For those who live according to the flesh set their minds on the things of the flesh, but those who live according to the Spirit set their minds on the things of the Spirit.\n6. For to set the mind on the flesh is death, but to set the mind on the Spirit is life and peace.\n7. For the mind that is set on the flesh is hostile to God, for it does not submit to God's law; indeed, it cannot.\n8. Those who are in the flesh cannot please God.\n9. You, however, are not in the flesh but in the Spirit, if in fact the Spirit of God dwells in you. Anyone who does not have the Spirit of Christ does not belong to him.\n10. But if Christ is in you, although the body is dead because of sin, the Spirit is life because of righteousness.\n11. If the Spirit of him who raised Jesus from the dead dwells in you, he who raised Christ Jesus from the dead will also give life to your mortal bodies through his Spirit who dwells in you.\n12. So then, brothers, we are debtors, not to the flesh, to live according to the flesh.\n13. For if you live according to the flesh you will die, but if by the Spirit you put to death the deeds of the body, you will live.\n14. For all who are led by the Spirit of God are sons of God.\n15. For you did not receive the spirit of slavery to fall back into fear, but you have received the Spirit of adoption as sons, by whom we cry, “Abba! Father!”\n16. The Spirit himself bears witness with our spirit that we are children of God,\n17. and if children, then heirs—heirs of God and fellow heirs with Christ, provided we suffer with him in order that we may also be glorified with him."
+        }
+      ],
       "sheetMusicUrl": "https://hymnary.org/media/fetch/186209",
       "audioUrl": "https://hymnary.org/media/fetch/186210"
     },
@@ -8618,13 +8800,25 @@
       "number": "322",
       "title": "Truly, truly, I say to you, whoever believes in me",
       "firstLine": "Truly, truly, I say to you, whoever believes in me",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "12. “Truly, truly, I say to you, whoever believes in me will also do the works that I do; and greater works than these will he do, because I am going to the Father.\n13. Whatever you ask in my name, this I will do, that the Father may be glorified in the Son.\n14. If you ask me anything in my name, I will do it.\n15. “If you love me, you will keep my commandments.\n16. And I will ask the Father, and he will give you another Helper, to be with you forever,\n17. even the Spirit of truth, whom the world cannot receive, because it neither sees him nor knows him. You know him, for he dwells with you and will be in you.\n18. “I will not leave you as orphans; I will come to you.\n19. Yet a little while and the world will see me no more, but you will see me. Because I live, you also will live.\n20. In that day you will know that I am in my Father, and you in me, and I in you.\n21. Whoever has my commandments and keeps them, he it is who loves me. And he who loves me will be loved by my Father, and I will love him and manifest myself to him.”\n22. Judas (not Iscariot) said to him, “Lord, how is it that you will manifest yourself to us, and not to the world?”\n23. Jesus answered him, “If anyone loves me, he will keep my word, and my Father will love him, and we will come to him and make our home with him.\n24. Whoever does not love me does not keep my words. And the word that you hear is not mine but the Father's who sent me.\n25. “These things I have spoken to you while I am still with you.\n26. But the Helper, the Holy Spirit, whom the Father will send in my name, he will teach you all things and bring to your remembrance all that I have said to you.\n27. Peace I leave with you; my peace I give to you. Not as the world gives do I give to you. Let not your hearts be troubled, neither let them be afraid.\n28. You heard me say to you, ‘I am going away, and I will come to you.’ If you loved me, you would have rejoiced, because I am going to the Father, for the Father is greater than I."
+        }
+      ]
     },
     {
       "number": "323",
       "title": "Oh sing to the LORD a new song",
       "firstLine": "Oh sing to the LORD a new song",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. Oh sing to the Lord a new song, for he has done marvelous things! His right hand and his holy arm have worked salvation for him.\n2. The Lord has made known his salvation; he has revealed his righteousness in the sight of the nations.\n3. He has remembered his steadfast love and faithfulness to the house of Israel. All the ends of the earth have seen the salvation of our God.\n4. Make a joyful noise to the Lord , all the earth; break forth into joyous song and sing praises!\n5. Sing praises to the Lord with the lyre, with the lyre and the sound of melody!\n6. With trumpets and the sound of the horn make a joyful noise before the King, the Lord !\n7. Let the sea roar, and all that fills it; the world and those who dwell in it!\n8. Let the rivers clap their hands; let the hills sing for joy together\n9. before the Lord , for he comes to judge the earth. He will judge the world with righteousness, and the peoples with equity."
+        }
+      ]
     },
     {
       "number": "324",
@@ -8648,7 +8842,28 @@
       "author": "Anonymous",
       "firstLine": "Come, Thou Almighty King",
       "audioUrl": "/hymnal-media/hog-audio/hog_326.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Come, thou Almighty King,\nHelp us thy Name to sing,\nHelp us to praise:\nFather, all-glorious,\nO'er all victorious,\nCome, and reign over us,\nAncient of days."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "Come, thou Incarnate Word,\nGird on thy mighty sword,\nOur prayer attend:\nCome and thy people bless,\nAnd give thy Word success;\nSpirit of Holiness,\nOn us descend."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "Come, Holy Comforter,\nThy sacred witness bear\nIn this glad hour:\nThou who almighty art,\nNow rule in every heart,\nAnd ne'er from us depart,\nSpirit of pow'r."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "To the great One in Three\nEternal praises be,\nHence evermore.\nHis sovereign majesty\nMay we in glory see,\nAnd to eternity\nLove and adore.\nAmen."
+        }
+      ]
     },
     {
       "number": "327",
@@ -8656,7 +8871,43 @@
       "translator": "Clarence Walworth",
       "firstLine": "Holy God, we praise Thy name",
       "audioUrl": "/hymnal-media/hog-audio/hog_327.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Holy God, we praise thy name!\n\r\nLord of all, we bow before thee!\n\r\nAll on Earth thy sceptre claim,\n\r\nAll in Heav'n above adore thee;\n\r\nInfinite thy vast domain,\n\r\nEverlasting is thy reign."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "Hark! the loud celestial hymn\n\r\nAngel choirs above are raising!\n\r\nCherubim and seraphim,\n\r\nIn unceasing chorus praising,\n\r\nFill the heav'ns with sweet accord;\n\r\nHoly, holy, holy, Lord!"
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "Lo! the apostolic train\n\r\nJoin thy sacred name to hallow!\n\r\nProphets swell the loud refrain,\n\r\nAnd the white-robed martyrs follow,\n\r\nAnd from morn to set of sun,\n\r\nThrough the Church the song goes on."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Holy Father, holy Son,\n\r\nHoly Spirit, Three we name thee,\n\r\nThough in essence only one,\n\r\nUndivided God we claim thee;\n\r\nAnd adoring bend the knee,\n\r\nWhile we own the mystery."
+        },
+        {
+          "number": 5,
+          "isChorus": false,
+          "text": "Thou art King of glory, Christ!\n\r\nSon of God, yet born of Mary;\n\r\nFor us sinners sacrificed,\n\r\nAnd to death a tributary;\n\r\nFirst to break the bars of death,\n\r\nThou hast opened Heav’n to faith."
+        },
+        {
+          "number": 6,
+          "isChorus": false,
+          "text": "From thy high celestial home,\n\r\nJudge of all, again returning,\n\r\nWe believe that thou shalt come\n\r\nOn the dreadful doomsday morning,\n\r\nWhen thy voice shall shake the earth,\n\r\nAnd the startled dead come forth."
+        },
+        {
+          "number": 7,
+          "isChorus": false,
+          "text": "Spare thy people, Lord, we pray,\n\r\nBy a thousand snares surrounded;\n\r\nKeep us without sin today;\n\r\nNever let us be confounded!\n\r\nLo! I put my trust in thee;\n\r\nNever, Lord, abandon me."
+        }
+      ]
     },
     {
       "number": "328",
@@ -8686,7 +8937,13 @@
       "number": "331",
       "title": "Have mercy on me, O God, according to your steadfast love",
       "firstLine": "Have mercy on me, O God, according to your steadfast love",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. Have mercy on me, O God, according to your steadfast love; according to your abundant mercy blot out my transgressions.\n2. Wash me thoroughly from my iniquity, and cleanse me from my sin!\n3. For I know my transgressions, and my sin is ever before me.\n4. Against you, you only, have I sinned and done what is evil in your sight, so that you may be justified in your words and blameless in your judgment.\n5. Behold, I was brought forth in iniquity, and in sin did my mother conceive me.\n6. Behold, you delight in truth in the inward being, and you teach me wisdom in the secret heart.\n7. Purge me with hyssop, and I shall be clean; wash me, and I shall be whiter than snow.\n8. Let me hear joy and gladness; let the bones that you have broken rejoice.\n9. Hide your face from my sins, and blot out all my iniquities.\n10. Create in me a clean heart, O God, and renew a right spirit within me.\n11. Cast me not away from your presence, and take not your Holy Spirit from me.\n12. Restore to me the joy of your salvation, and uphold me with a willing spirit.\n13. Then I will teach transgressors your ways, and sinners will return to you."
+        }
+      ]
     },
     {
       "number": "332",
@@ -8700,7 +8957,13 @@
       "number": "333",
       "title": "Give thanks to the LORD, for he is good",
       "firstLine": "Give thanks to the LORD, for he is good",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. Give thanks to the Lord , for he is good, for his steadfast love endures forever.\n2. Give thanks to the God of gods, for his steadfast love endures forever.\n3. Give thanks to the Lord of lords, for his steadfast love endures forever;\n4. to him who alone does great wonders, for his steadfast love endures forever;\n5. to him who by understanding made the heavens, for his steadfast love endures forever;\n6. to him who spread out the earth above the waters, for his steadfast love endures forever;\n7. to him who made the great lights, for his steadfast love endures forever;\n8. the sun to rule over the day, for his steadfast love endures forever;\n9. the moon and stars to rule over the night, for his steadfast love endures forever;\n10. to him who struck down the firstborn of Egypt, for his steadfast love endures forever;\n11. and brought Israel out from among them, for his steadfast love endures forever;\n12. with a strong hand and an outstretched arm, for his steadfast love endures forever;\n13. to him who divided the Red Sea in two, for his steadfast love endures forever;\n14. and made Israel pass through the midst of it, for his steadfast love endures forever;\n15. but overthrew Pharaoh and his host in the Red Sea, for his steadfast love endures forever;\n16. to him who led his people through the wilderness, for his steadfast love endures forever;\n17. to him who struck down great kings, for his steadfast love endures forever;\n18. and killed mighty kings, for his steadfast love endures forever;\n19. Sihon, king of the Amorites, for his steadfast love endures forever;\n20. and Og, king of Bashan, for his steadfast love endures forever;\n21. and gave their land as a heritage, for his steadfast love endures forever;\n22. a heritage to Israel his servant, for his steadfast love endures forever.\n23. It is he who remembered us in our low estate, for his steadfast love endures forever;\n24. and rescued us from our foes, for his steadfast love endures forever;\n25. he who gives food to all flesh, for his steadfast love endures forever.\n26. Give thanks to the God of heaven, for his steadfast love endures forever."
+        }
+      ]
     },
     {
       "number": "334",
@@ -8708,7 +8971,28 @@
       "author": "George Atkins",
       "firstLine": "Brethren, we have met to worship",
       "audioUrl": "/hymnal-media/hog-audio/hog_334.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "Brethren, we have met to worship\n\r\nand adore the Lord our God;\n\r\nwill you pray with all your power,\n\r\nwhile we try to preach the Word?\n\r\nAll is vain, unless the Spirit\n\r\nof the Holy One comes down;\n\r\nbrethren, pray, and holy manna\n\r\nwill be showered all around."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "Brethren, see poor sinners round you\n\r\nslumb'ring on the brink of woe;\n\r\ndeath is coming, hell is moving–\n\r\ncan you bear to let them go?\n\r\nSee our fathers and our mothers\n\r\nand our children sinking down;\n\r\nbrethren, pray, and holy manna \n\r\nwill be showered all around."
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "Sisters, will you join and help us?\n\r\nMoses' sister aided him;\n\r\nwill you help the trembling mourners\n\r\nwho are struggling hard with sin?\n\r\nTell them all about the Savior–\n\r\ntell them that he will be found;\n\r\nsisters, pray, and holy manna\n\r\nwill be showered all around."
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "Let us love our God supremely,\n\r\nlet us love each other too;\n\r\nlet us love and pray for sinners\n\r\ntill our God makes all things new.\n\r\nThen he'll call us home to heaven,\n\r\nat his table we'll sit down;\n\r\nChrist will gird himself and serve us\n\r\nwith sweet manna all around."
+        }
+      ]
     },
     {
       "number": "335",
@@ -8716,13 +9000,40 @@
       "author": "Frances Ridley Havergal",
       "firstLine": "Who is on the Lord&#039;s side?",
       "audioUrl": "/hymnal-media/hog-audio/hog_335.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "Who is on the Lord's side? Who will serve the King?\n\r\nWho will be his helpers, other lives to bring?\n\r\nWho will leave the world's side? Who will face the foe?\n\r\nWho is on the Lord's side? Who for him will go?\n\r\nBy thy call of mercy, by thy grace divine,\n\r\nwe are on the Lord's side, Savior, we are thine."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "Not for weight of glory, not for crown and palm,\n\r\nenter we the army, raise the warrior psalm;\n\r\nbut for Love that claimeth lives for whom he died:\n\r\nhe whom Jesus nameth must be on his side.\n\r\nBy thy love constraining, by thy grace divine,\n\r\nwe are on the Lord's side, Savior, we are thine."
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "Jesus, thou has bought us, not with gold or gem,\n\r\nbut with thine own life-blood for thy diadem:\n\r\nwith thy blessing filling each who comes to thee,\n\r\nthou hast made us willing, thou has made us free.\n\r\nBy thy grand redemption, by thy grace divine,\n\r\nWe are on the Lord's side, Savior, we are thine."
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "Fierce may be the conflict, strong may be the foe,\n\r\nbut the King's own army none can overthrow:\n\r\nround his standard ranging, vict'ry is secure;\n\r\nfor his truth unchanging makes the triumph sure.\n\r\nJoyfully enlisting by thy grace divine,\n\r\nwe are on the Lord's side, Savior, we are thine."
+        }
+      ]
     },
     {
       "number": "336",
       "title": "Then I saw in the right hand of him who was seated on the throne a scroll",
       "firstLine": "Then I saw in the right hand of him who was seated on the throne a scroll",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. Then I saw in the right hand of him who was seated on the throne a scroll written within and on the back, sealed with seven seals.\n2. And I saw a mighty angel proclaiming with a loud voice, “Who is worthy to open the scroll and break its seals?”\n3. And no one in heaven or on earth or under the earth was able to open the scroll or to look into it,\n4. and I began to weep loudly because no one was found worthy to open the scroll or to look into it.\n5. And one of the elders said to me, “Weep no more; behold, the Lion of the tribe of Judah, the Root of David, has conquered, so that he can open the scroll and its seven seals.”\n6. And between the throne and the four living creatures and among the elders I saw a Lamb standing, as though it had been slain, with seven horns and with seven eyes, which are the seven spirits of God sent out into all the earth.\n7. And he went and took the scroll from the right hand of him who was seated on the throne.\n8. And when he had taken the scroll, the four living creatures and the twenty-four elders fell down before the Lamb, each holding a harp, and golden bowls full of incense, which are the prayers of the saints.\n9. And they sang a new song, saying, “Worthy are you to take the scroll and to open its seals, for you were slain, and by your blood you ransomed people for God from every tribe and language and people and nation,\n10. and you have made them a kingdom and priests to our God, and they shall reign on the earth.”\n11. Then I looked, and I heard around the throne and the living creatures and the elders the voice of many angels, numbering myriads of myriads and thousands of thousands,\n12. saying with a loud voice, “Worthy is the Lamb who was slain, to receive power and wealth and wisdom and might and honor and glory and blessing!”\n13. And I heard every creature in heaven and on earth and under the earth and in the sea, and all that is in them, saying, “To him who sits on the throne and to the Lamb be blessing and honor and glory and might forever and ever!”\n14. And the four living creatures said, “Amen!” and the elders fell down and worshiped."
+        }
+      ]
     },
     {
       "number": "337",
@@ -8752,7 +9063,13 @@
       "number": "340",
       "title": "Seeing the crowds, he went up on the mountain",
       "firstLine": "Seeing the crowds, he went up on the mountain",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. Seeing the crowds, he went up on the mountain, and when he sat down, his disciples came to him.\n2. And he opened his mouth and taught them, saying:\n3. “Blessed are the poor in spirit, for theirs is the kingdom of heaven.\n4. “Blessed are those who mourn, for they shall be comforted.\n5. “Blessed are the meek, for they shall inherit the earth.\n6. “Blessed are those who hunger and thirst for righteousness, for they shall be satisfied.\n7. “Blessed are the merciful, for they shall receive mercy.\n8. “Blessed are the pure in heart, for they shall see God.\n9. “Blessed are the peacemakers, for they shall be called sons of God.\n10. “Blessed are those who are persecuted for righteousness' sake, for theirs is the kingdom of heaven.\n11. “Blessed are you when others revile you and persecute you and utter all kinds of evil against you falsely on my account.\n12. Rejoice and be glad, for your reward is great in heaven, for so they persecuted the prophets who were before you.\n13. “You are the salt of the earth, but if salt has lost its taste, how shall its saltiness be restored? It is no longer good for anything except to be thrown out and trampled under people's feet.\n14. “You are the light of the world. A city set on a hill cannot be hidden.\n15. Nor do people light a lamp and put it under a basket, but on a stand, and it gives light to all in the house.\n16. In the same way, let your light shine before others, so that they may see your good works and give glory to your Father who is in heaven."
+        }
+      ]
     },
     {
       "number": "341",
@@ -8766,7 +9083,13 @@
       "number": "342",
       "title": "For we are the circumcision",
       "firstLine": "For we are the circumcision",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "3. For we are the circumcision, who worship by the Spirit of God and glory in Christ Jesus and put no confidence in the flesh—\n4. though I myself have reason for confidence in the flesh also. If anyone else thinks he has reason for confidence in the flesh, I have more:\n5. circumcised on the eighth day, of the people of Israel, of the tribe of Benjamin, a Hebrew of Hebrews; as to the law, a Pharisee;\n6. as to zeal, a persecutor of the church; as to righteousness under the law, blameless.\n7. But whatever gain I had, I counted as loss for the sake of Christ.\n8. Indeed, I count everything as loss because of the surpassing worth of knowing Christ Jesus my Lord. For his sake I have suffered the loss of all things and count them as rubbish, in order that I may gain Christ\n9. and be found in him, not having a righteousness of my own that comes from the law, but that which comes through faith in Christ, the righteousness from God that depends on faith—\n10. that I may know him and the power of his resurrection, and may share his sufferings, becoming like him in his death,\n11. that by any means possible I may attain the resurrection from the dead.\n12. Not that I have already obtained this or am already perfect, but I press on to make it my own, because Christ Jesus has made me his own.\n13. Brothers, I do not consider that I have made it my own. But one thing I do: forgetting what lies behind and straining forward to what lies ahead,\n14. I press on toward the goal for the prize of the upward call of God in Christ Jesus."
+        }
+      ]
     },
     {
       "number": "343",
@@ -8780,13 +9103,25 @@
       "number": "344",
       "title": "For I received from the Lord what I also delivered to you",
       "firstLine": "For I received from the Lord what I also delivered to you",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "23. For I received from the Lord what I also delivered to you, that the Lord Jesus on the night when he was betrayed took bread,\n24. and when he had given thanks, he broke it, and said, “This is my body, which is for you. Do this in remembrance of me.”\n25. In the same way also he took the cup, after supper, saying, “This cup is the new covenant in my blood. Do this, as often as you drink it, in remembrance of me.”\n26. For as often as you eat this bread and drink the cup, you proclaim the Lord's death until he comes.\n27. Whoever, therefore, eats the bread or drinks the cup of the Lord in an unworthy manner will be guilty concerning the body and blood of the Lord.\n28. Let a person examine himself, then, and so eat of the bread and drink of the cup.\n29. For anyone who eats and drinks without discerning the body eats and drinks judgment on himself.\n30. That is why many of you are weak and ill, and some have died.\n31. But if we judged ourselves truly, we would not be judged."
+        }
+      ]
     },
     {
       "number": "345",
       "title": "I charge you in the presence of God and of Christ Jesus",
       "firstLine": "I charge you in the presence of God and of Christ Jesus",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. I charge you in the presence of God and of Christ Jesus, who is to judge the living and the dead, and by his appearing and his kingdom:\n2. preach the word; be ready in season and out of season; reprove, rebuke, and exhort, with complete patience and teaching.\n3. For the time is coming when people will not endure sound teaching, but having itching ears they will accumulate for themselves teachers to suit their own passions,\n4. and will turn away from listening to the truth and wander off into myths.\n5. But as for you, always be sober-minded, endure suffering, do the work of an evangelist, fulfill your ministry.\n6. For I am already being poured out as a drink offering, and the time of my departure has come.\n7. I have fought the good fight, I have finished the race, I have kept the faith.\n8. Henceforth there is laid up for me the crown of righteousness, which the Lord, the righteous judge, will award to me on that day, and not only to me but also to all who have loved his appearing."
+        }
+      ]
     },
     {
       "number": "346",
@@ -8832,7 +9167,13 @@
       "number": "351",
       "title": "I appeal to you therefore, brothers, by the mercies of God",
       "firstLine": "I appeal to you therefore, brothers, by the mercies of God",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. I appeal to you therefore, brothers, by the mercies of God, to present your bodies as a living sacrifice, holy and acceptable to God, which is your spiritual worship.\n2. Do not be conformed to this world, but be transformed by the renewal of your mind, that by testing you may discern what is the will of God, what is good and acceptable and perfect.\n3. For by the grace given to me I say to everyone among you not to think of himself more highly than he ought to think, but to think with sober judgment, each according to the measure of faith that God has assigned.\n4. For as in one body we have many members, and the members do not all have the same function,\n5. so we, though many, are one body in Christ, and individually members one of another.\n6. Having gifts that differ according to the grace given to us, let us use them: if prophecy, in proportion to our faith;\n7. if service, in our serving; the one who teaches, in his teaching;\n8. the one who exhorts, in his exhortation; the one who contributes, in generosity; the one who leads, with zeal; the one who does acts of mercy, with cheerfulness.\n9. Let love be genuine. Abhor what is evil; hold fast to what is good.\n10. Love one another with brotherly affection. Outdo one another in showing honor.\n11. Do not be slothful in zeal, be fervent in spirit, serve the Lord.\n12. Rejoice in hope, be patient in tribulation, be constant in prayer.\n13. Contribute to the needs of the saints and seek to show hospitality.\n14. Bless those who persecute you; bless and do not curse them.\n15. Rejoice with those who rejoice, weep with those who weep.\n16. Live in harmony with one another. Do not be haughty, but associate with the lowly. Never be wise in your own sight.\n17. Repay no one evil for evil, but give thought to do what is honorable in the sight of all.\n18. If possible, so far as it depends on you, live peaceably with all.\n19. Beloved, never avenge yourselves, but leave it to the wrath of God, for it is written, “Vengeance is mine, I will repay, says the Lord.”\n20. To the contrary, “if your enemy is hungry, feed him; if he is thirsty, give him something to drink; for by so doing you will heap burning coals on his head.”\n21. Do not be overcome by evil, but overcome evil with good."
+        }
+      ]
     },
     {
       "number": "352",
@@ -8840,7 +9181,38 @@
       "author": "Timothy Dwight",
       "firstLine": "I love Thy kingdom, Lord",
       "audioUrl": "/hymnal-media/hog-audio/hog_352.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "I love thy Kingdom, Lord,\nThe house of thine abode,\nThe church our blest Redeemer saved\nWith His own precious blood."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "I love thy church, O God:\nHer walls before thee stand,\nDear as the apple of thine eye,\nAnd graven on thy hand."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "For her my tears shall fall,\nFor her my prayers ascend;\nTo her my cares and toils be giv'n,\nTill toils and cares shall end."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Beyond my highest joy\nI prize her heav'nly ways,\nHer sweet communion, solemn vows,\nHer hymns of love and praise."
+        },
+        {
+          "number": 5,
+          "isChorus": false,
+          "text": "Jesus, thou Friend Divine,\nOur Saviour and our King,\nThy hand from ev'ry snare and foe\nShall great deliv'rance bring."
+        },
+        {
+          "number": 6,
+          "isChorus": false,
+          "text": "Sure as Thy truth shall last,\nTo Zion shall be giv'n\nThe brightest glories earth can yield,\nAnd brighter bliss of heav'n.\nAmen."
+        }
+      ]
     },
     {
       "number": "353",
@@ -8856,7 +9228,33 @@
       "author": "Samuel J. Stone",
       "firstLine": "The Church&#039;s one foundation",
       "audioUrl": "/hymnal-media/hog-audio/hog_354.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "The church's one foundation\n\r\nis Jesus Christ, her Lord;\n\r\nshe is his new creation\n\r\nby water and the Word:\n\r\nfrom heav'n he came and sought her\n\r\nto be his holy bride;\n\r\nwith his own blood he bought her,\n\r\nand for her life he died."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "Elect from ev'ry nation,\n\r\nyet one o'er all the earth,\n\r\nher charter of salvation\n\r\none Lord, one faith, one birth;\n\r\none holy name she blesses,\n\r\npartakes one holy food,\n\r\nand to one hope she presses,\n\r\nwith ev'ry grace endued."
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "Though with a scornful wonder\n\r\nmen see her sore oppressed,\n\r\nby schisms rent asunder,\n\r\nby heresies distressed,\n\r\nyet saints their watch are keeping,\n\r\ntheir cry goes up, \"How long?\"\n\r\nAnd soon the night of weeping\n\r\nshall be the morn of song."
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "The church shall never perish!\n\r\nHer dear Lord to defend,\n\r\nto guide, sustain, and cherish,\n\r\nis with her to the end;\n\r\nthough there be those that hate her,\n\r\nand false sons in her pale,\n\r\nagainst or foe or traitor\n\r\nshe ever shall prevail."
+        },
+        {
+          "number": "5",
+          "isChorus": "False",
+          "text": "'Mid toil and tribulation,\n\r\nand tumult of her war,\n\r\nshe waits the consummation\n\r\nof peace forevermore;\n\r\ntill with the vision glorious\n\r\nher longing eyes are blest,\n\r\nand the great church victorious\n\r\nshall be the church at rest."
+        }
+      ]
     },
     {
       "number": "355",
@@ -8864,7 +9262,33 @@
       "translator": "John Mason Neale",
       "firstLine": "Christ is made the sure foundation",
       "audioUrl": "/hymnal-media/hog-audio/hog_355.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Christ is made the sure Foundation,\nChrist the Head and Cornerstone,\nChosen of the Lord and precious,\nBinding all the church in one;\nHoly Zion's help for ever\nAnd her confidence alone."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "All that dedicated city,\nDearly loved of God on high,\nIn exultant jubilation\nPours perpetual melody;\nGod the One in Three adoring\nIn glad hymns eternally."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "To this temple, where we call thee,\nCome, O Lord of hosts, today:\nWith thy wonted loving-kindness\nHear thy people as they pray;\nAnd thy fullest benediction\nShed within its walls alway."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Here vouchsafe to all thy servants\nWhat they ask of thee to gain,\nWhat they gain from thee for ever\nWith the blessed to retain,\nAnd hereafter in thy glory\nEvermore with thee to reign."
+        },
+        {
+          "number": 5,
+          "isChorus": false,
+          "text": "Laud and honor to the Father,\nLaud and honor to the Son,\nLaud and honor to the Spirit,\nEver Three and ever One,\nOne in might, and One in glory,\nWhile unending ages run.\nAmen."
+        }
+      ]
     },
     {
       "number": "356",
@@ -8888,7 +9312,28 @@
       "author": "Charles Wesley",
       "firstLine": "Ye servants of God, your Master proclaim",
       "audioUrl": "/hymnal-media/hog-audio/hog_358.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Ye servants of God, your Master proclaim,\nAnd publish abroad his wonderful Name;\nThe Name, all victorious, of Jesus extol;\nHis kingdom is glorious, and rules over all."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "God ruleth on high, almighty to save;\nAnd still he is nigh--his presence we have:\nThe great congregation his triumph shall sing,\nAscribing salvation to Jesus, our King."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "Salvation to God who sits on the throne!\nLet all cry aloud and honor the Son:\nThe praises of Jesus the angels proclaim,\nFall down on their faces and worship the Lamb."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Then let us adore, and give him his right,\nAll glory and pow'r, and wisdom and might,\nAll honor and blessing, with angels above,\nAnd thanks never ceasing for infinite love.\nAmen."
+        }
+      ]
     },
     {
       "number": "359",
@@ -8896,13 +9341,38 @@
       "author": "Stuart Townend",
       "firstLine": "My soul finds rest in God alone",
       "audioUrl": "/hymnal-media/hog-audio/hog_359.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "label": "1",
+          "isChorus": false,
+          "text": "My soul finds rest in God alone; \nHe my salvation is.\nMy only Rock, Salvation’s fort;\nI’m safe, for I am His. \nHow long will you press your attack \nTo make a person fall \nAs though against a sagging fence,\nAgainst a leaning wall?"
+        },
+        {
+          "number": 2,
+          "label": "2",
+          "isChorus": false,
+          "text": "They plot to bring his glory down,\nIn lies they take delight;\nAnd while they bless him with their mouths, \nTheir hearts are filled with spite. \nMy soul, find rest in God alone;\nHe’s given hope to me.\nHe’s my salvation, stronghold, rock;\nUnshaken I shall be."
+        },
+        {
+          "number": 3,
+          "label": "3",
+          "isChorus": false,
+          "text": "In God alone my glory is,\nAnd my salvation sure;\nMy rock of strength is found in God, \nMy refuge most secure. \nO people, at all times on Him \nRely with confidence; \nPour out your hearts in prayer to Him, \nFor God is our defense."
+        }
+      ]
     },
     {
       "number": "360",
       "title": "Oh come, let us sing to the LORD",
       "firstLine": "Oh come, let us sing to the LORD",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. Oh come, let us sing to the Lord ; let us make a joyful noise to the rock of our salvation!\n2. Let us come into his presence with thanksgiving; let us make a joyful noise to him with songs of praise!\n3. For the Lord is a great God, and a great King above all gods.\n4. In his hand are the depths of the earth; the heights of the mountains are his also.\n5. The sea is his, for he made it, and his hands formed the dry land.\n6. Oh come, let us worship and bow down; let us kneel before the Lord , our Maker!\n7. For he is our God, and we are the people of his pasture, and the sheep of his hand. Today, if you hear his voice,\n8. do not harden your hearts, as at Meribah, as on the day at Massah in the wilderness,\n9. when your fathers put me to the test and put me to the proof, though they had seen my work.\n10. For forty years I loathed that generation and said, “They are a people who go astray in their heart, and they have not known my ways.”\n11. Therefore I swore in my wrath, “They shall not enter my rest.”"
+        }
+      ]
     },
     {
       "number": "361",
@@ -8916,7 +9386,13 @@
       "number": "362",
       "title": "By faith Abraham, when he was tested",
       "firstLine": "By faith Abraham, when he was tested",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "17. By faith Abraham, when he was tested, offered up Isaac, and he who had received the promises was in the act of offering up his only son,\n18. of whom it was said, “Through Isaac shall your offspring be named.”\n19. He considered that God was able even to raise him from the dead, from which, figuratively speaking, he did receive him back.\n20. By faith Isaac invoked future blessings on Jacob and Esau.\n21. By faith Jacob, when dying, blessed each of the sons of Joseph, bowing in worship over the head of his staff.\n22. By faith Joseph, at the end of his life, made mention of the exodus of the Israelites and gave directions concerning his bones.\n23. By faith Moses, when he was born, was hidden for three months by his parents, because they saw that the child was beautiful, and they were not afraid of the king's edict.\n24. By faith Moses, when he was grown up, refused to be called the son of Pharaoh's daughter,\n25. choosing rather to be mistreated with the people of God than to enjoy the fleeting pleasures of sin.\n26. He considered the reproach of Christ greater wealth than the treasures of Egypt, for he was looking to the reward.\n27. By faith he left Egypt, not being afraid of the anger of the king, for he endured as seeing him who is invisible.\n28. By faith he kept the Passover and sprinkled the blood, so that the Destroyer of the firstborn might not touch them.\n29. By faith the people crossed the Red Sea as on dry land, but the Egyptians, when they attempted to do the same, were drowned.\n30. By faith the walls of Jericho fell down after they had been encircled for seven days.\n31. By faith Rahab the prostitute did not perish with those who were disobedient, because she had given a friendly welcome to the spies.\n32. And what more shall I say? For time would fail me to tell of Gideon, Barak, Samson, Jephthah, of David and Samuel and the prophets—\n33. who through faith conquered kingdoms, enforced justice, obtained promises, stopped the mouths of lions,\n34. quenched the power of fire, escaped the edge of the sword, were made strong out of weakness, became mighty in war, put foreign armies to flight.\n35. Women received back their dead by resurrection. Some were tortured, refusing to accept release, so that they might rise again to a better life.\n36. Others suffered mocking and flogging, and even chains and imprisonment.\n37. They were stoned, they were sawn in two, they were killed with the sword. They went about in skins of sheep and goats, destitute, afflicted, mistreated—\n38. of whom the world was not worthy— wandering about in deserts and mountains, and in dens and caves of the earth.\n39. And all these, though commended through their faith, did not receive what was promised,\n40. since God had provided something better for us, that apart from us they should not be made perfect."
+        }
+      ]
     },
     {
       "number": "363",
@@ -8931,7 +9407,38 @@
       "title": "How firm a foundation, ye saints of the Lord",
       "firstLine": "How firm a foundation, ye saints of the Lord",
       "audioUrl": "/hymnal-media/hog-audio/hog_364.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "How firm a foundation, ye saints of the Lord,\nIs laid for your faith in his excellent Word!\nWhat more can he say than to you he hath said,\nYou who unto Jesus for refuge have fled?\nYou who unto Jesus for refuge have fled?"
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "\"Fear not, I am with thee, O be not dismayed;\nI, I am thy God, and will still give thee aid;\nI'll strengthen thee, help thee, and cause thee to stand,\nUpheld by my righteous, omnipotent hand,\nUpheld by my righteous, omnipotent hand."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "\"When through the deep waters I call thee to go,\nThe rivers of woe shall not thee overflow;\nFor I will be with thee thy troubles to bless,\nAnd sanctify to thee thy deepest distress,\nAnd sanctify to thee thy deepest distress."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "\"When through fiery trials thy pathway shall lie,\nMy grace, all sufficient, shall be thy supply;\nThe flame shall not hurt thee; I only design\nThy dross to consume, and thy gold to refine.\nThy dross to consume, and thy gold to refine."
+        },
+        {
+          "number": 5,
+          "isChorus": false,
+          "text": "\"E'en down to old age all my people shall prove\nMy sovereign, eternal, unchangeable love;\nAnd when hoary hairs shall their temples adorn,\nLike lambs they shall still in my bosom be borne,\nLike lambs they shall still in my bosom be borne."
+        },
+        {
+          "number": 6,
+          "isChorus": false,
+          "text": "\"The soul that on Jesus hath leaned for repose,\nI will not, I will not desert to his foes;\nThat soul, though all hell should endeavor to shake,\nI'll never, no, never, no, never forsake,\nI'll never, no, never, no, never forsake.\"\nAmen."
+        }
+      ]
     },
     {
       "number": "365",
@@ -8953,7 +9460,13 @@
       "number": "367",
       "title": "In you, O LORD, do I take refuge",
       "firstLine": "In you, O LORD, do I take refuge",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. In you, O Lord , do I take refuge; let me never be put to shame!\n2. In your righteousness deliver me and rescue me; incline your ear to me, and save me!\n3. Be to me a rock of refuge, to which I may continually come; you have given the command to save me, for you are my rock and my fortress.\n4. Rescue me, O my God, from the hand of the wicked, from the grasp of the unjust and cruel man.\n5. For you, O Lord, are my hope, my trust, O Lord , from my youth.\n6. Upon you I have leaned from before my birth; you are he who took me from my mother's womb. My praise is continually of you.\n7. I have been as a portent to many, but you are my strong refuge.\n8. My mouth is filled with your praise, and with your glory all the day.\n9. Do not cast me off in the time of old age; forsake me not when my strength is spent.\n10. For my enemies speak concerning me; those who watch for my life consult together\n11. and say, “God has forsaken him; pursue and seize him, for there is none to deliver him.”\n12. O God, be not far from me; O my God, make haste to help me!\n13. May my accusers be put to shame and consumed; with scorn and disgrace may they be covered who seek my hurt.\n14. But I will hope continually and will praise you yet more and more.\n15. My mouth will tell of your righteous acts, of your deeds of salvation all the day, for their number is past my knowledge.\n16. With the mighty deeds of the Lord God I will come; I will remind them of your righteousness, yours alone.\n17. O God, from my youth you have taught me, and I still proclaim your wondrous deeds.\n18. So even to old age and gray hairs, O God, do not forsake me, until I proclaim your might to another generation, your power to all those to come.\n19. Your righteousness, O God, reaches the high heavens. You who have done great things, O God, who is like you?\n20. You who have made me see many troubles and calamities will revive me again; from the depths of the earth you will bring me up again.\n21. You will increase my greatness and comfort me again.\n22. I will also praise you with the harp for your faithfulness, O my God; I will sing praises to you with the lyre, O Holy One of Israel.\n23. My lips will shout for joy, when I sing praises to you; my soul also, which you have redeemed.\n24. And my tongue will talk of your righteous help all the day long, for they have been put to shame and disappointed who sought to do me hurt."
+        }
+      ]
     },
     {
       "number": "368",
@@ -8961,19 +9474,50 @@
       "author": "Stuart Townend",
       "firstLine": "Speak, O Lord, as we come to You",
       "audioUrl": "/hymnal-media/hog-audio/hog_368.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "label": "1",
+          "isChorus": false,
+          "text": "Speak, O Lord, as we come to you\nto receive the food of your Holy Word.\nTake your truth, plant it deep in us;\nshape and fashion us in your likeness,\nthat the light of Christ might be seen today\nin our acts of love and our deeds of faith.\nSpeak, O Lord, and fulfill in us\nall your purposes for your glory."
+        },
+        {
+          "number": 2,
+          "label": "2",
+          "isChorus": false,
+          "text": "Teach us, Lord, full obedience,\nholy reverence, true humility.\nTest our thoughts and our attitudes\nin the radiance of your purity.\nCause our faith to rise, cause our eyes to see\nyour majestic love and authority.\nWords of pow’r that can never fail,\nlet their truth prevail over unbelief."
+        },
+        {
+          "number": 3,
+          "label": "3",
+          "isChorus": false,
+          "text": "Speak, O Lord, and renew our minds;\nhelp us grasp the heights of your plans for us:\ntruths unchanged from the dawn of time,\nthat will echo down thro’ eternity.\nAnd by grace we’ll stand on your promises;\nand by faith we’ll walk as you walk with us.\nSpeak, O Lord, ’til your church is built,\nand the earth is filled with your glory."
+        }
+      ]
     },
     {
       "number": "369",
       "title": "Blessed are those whose way is blameless",
       "firstLine": "Blessed are those whose way is blameless",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. Blessed are those whose way is blameless, who walk in the law of the Lord !\n2. Blessed are those who keep his testimonies, who seek him with their whole heart,\n3. who also do no wrong, but walk in his ways!\n4. You have commanded your precepts to be kept diligently.\n5. Oh that my ways may be steadfast in keeping your statutes!\n6. Then I shall not be put to shame, having my eyes fixed on all your commandments.\n7. I will praise you with an upright heart, when I learn your righteous rules.\n8. I will keep your statutes; do not utterly forsake me!\n9. How can a young man keep his way pure? By guarding it according to your word.\n10. With my whole heart I seek you; let me not wander from your commandments!\n11. I have stored up your word in my heart, that I might not sin against you.\n12. Blessed are you, O Lord ; teach me your statutes!\n13. With my lips I declare all the rules of your mouth.\n14. In the way of your testimonies I delight as much as in all riches.\n15. I will meditate on your precepts and fix my eyes on your ways.\n16. I will delight in your statutes; I will not forget your word."
+        }
+      ]
     },
     {
       "number": "370",
       "title": "Let us therefore strive to enter that rest",
       "firstLine": "Let us therefore strive to enter that rest",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "11. Let us therefore strive to enter that rest, so that no one may fall by the same sort of disobedience.\n12. For the word of God is living and active, sharper than any two-edged sword, piercing to the division of soul and of spirit, of joints and of marrow, and discerning the thoughts and intentions of the heart.\n13. And no creature is hidden from his sight, but all are naked and exposed to the eyes of him to whom we must give account.\n14. Since then we have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold fast our confession.\n15. For we do not have a high priest who is unable to sympathize with our weaknesses, but one who in every respect has been tempted as we are, yet without sin.\n16. Let us then with confidence draw near to the throne of grace, that we may receive mercy and find grace to help in time of need."
+        }
+      ]
     },
     {
       "number": "371",
@@ -8981,13 +9525,40 @@
       "author": "William W. How",
       "firstLine": "O Word of God incarnate",
       "audioUrl": "/hymnal-media/hog-audio/hog_371.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "O Word of God Incarnate,\nO Wisdom from on high,\nO Truth unchanged, unchanging,\nO Light of our dark sky;\nWe praise thee for the radiance\nThat from the hallowed page,\nA lantern to our footsteps\nShines on from age to age."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "The church from her dear Master\nReceived the gift divine,\nAnd still that light she lifteth\nO'er all the earth to shine.\nIt is the golden casket,\nWhere gems of truth are stored;\nIt is the heav'n-drawn picture\nOf Christ, the living Word."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "It floateth like a banner\nBefore God's host unfurled;\nIt shineth like a beacon\nAbove the darkling world.\nIt is the chart and compass\nThat o'er life's surging sea,\n'Mid mists and rocks and quicksands,\nStill guides, O Christ, to thee."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "O make thy church, dear Saviour,\nA lamp of purest gold,\nTo bear before the nations\nThy true light, as of old.\nO teach thy wand'ring pilgrims\nBy this their path to trace,\nTill, clouds and darkness ended,\nThey see thee face to face.\nAmen."
+        }
+      ]
     },
     {
       "number": "372",
       "title": "Oh how I love your law!",
       "firstLine": "Oh how I love your law!",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "97. Oh how I love your law! It is my meditation all the day.\n98. Your commandment makes me wiser than my enemies, for it is ever with me.\n99. I have more understanding than all my teachers, for your testimonies are my meditation.\n100. I understand more than the aged, for I keep your precepts.\n101. I hold back my feet from every evil way, in order to keep your word.\n102. I do not turn aside from your rules, for you have taught me.\n103. How sweet are your words to my taste, sweeter than honey to my mouth!\n104. Through your precepts I get understanding; therefore I hate every false way."
+        }
+      ]
     },
     {
       "number": "373",
@@ -8995,7 +9566,38 @@
       "author": "Edward H. Plumptre",
       "firstLine": "Rejoice, ye pure in heart",
       "audioUrl": "/hymnal-media/hog-audio/hog_373.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Rejoice, ye pure in heart,\nRejoice, give thanks, and sing:\nYour festal banner wave on high,\nThe cross of Christ your King!"
+        },
+        {
+          "number": 2,
+          "isChorus": true,
+          "text": "Rejoice, rejoice,\nRejoice, give thanks and sing."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "Bright youth and snow-crowned age,\nStrong men and maidens meek,\nRaise high your free, exulting song,\nGod's wondrous praises speak! [Rejoice]"
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "With all the angel choirs,\nWith all the saints of earth,\nPour out the strains of joy and bliss,\nTrue rapture, noblest mirth! [Refrain]"
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Yes, on through life's long path,\nStill chanting as ye go;\nFrom youth to age, by night and day,\nIn gladness and in woe. [Refrain]"
+        },
+        {
+          "number": 5,
+          "isChorus": false,
+          "text": "Then on, ye pure in heart,\nRejoice, give thanks, and sing;\nYour glorious banner wave on high,\nThe cross of Christ your King. [Refrain]\nAmen."
+        }
+      ]
     },
     {
       "number": "374",
@@ -9011,7 +9613,38 @@
       "author": "Frances R. Havergal",
       "firstLine": "Take my life and let it be",
       "audioUrl": "/hymnal-media/hog-audio/hog_375.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Take my life, and let it be\nConsecrated, Lord, to thee.\nTake my moments and my days;\nLet them flow in ceaseless praise."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "Take my hands, and let them move\nAt the impulse of thy love.\nTake my feet, and let them be\nSwift and beautiful for thee."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "Take my voice, and let me sing,\nAlways, only, for my King.\nTake my lips, and let them be\nFilled with messages from thee."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Take my silver and my gold;\nNot a mite would I withhold\nTake my intellect, and use\nEv'ry pow'r as thou shalt choose."
+        },
+        {
+          "number": 5,
+          "isChorus": false,
+          "text": "Take my will, and make it thine;\nIt shall be no longer mine.\nTake my heart, it is thine own;\nIt shall be thy royal throne."
+        },
+        {
+          "number": 6,
+          "isChorus": false,
+          "text": "Take my love; my Lord, I pour\nAt thy feet its treasure-store.\nTake myself, and I will be\nEver, only, all for thee.\nAmen."
+        }
+      ]
     },
     {
       "number": "376",
@@ -9027,7 +9660,28 @@
       "author": "Kate B. Wilkinson",
       "firstLine": "May the mind of Christ, my Savior",
       "audioUrl": "/hymnal-media/hog-audio/hog_377.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "May the mind of Christ my Savior \n\r\nlive in me from day to day, \n\r\nby his love and pow'r controlling \n\r\nall I do and say."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "May the Word of God dwell richly \n\r\nin my heart from hour to hour, \n\r\nso that all may see I triumph \n\r\nonly through his pow'r."
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "May the peace of God my Father \n\r\nrule my life in everything, \n\r\nthat I may be calm to comfort \n\r\nsick and sorrowing."
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "May the love of Jesus fill me \n\r\nas the waters fill the sea; \n\r\nhim exalting, self abasing,\n\r\nthis is victory."
+        }
+      ]
     },
     {
       "number": "378",
@@ -9035,7 +9689,38 @@
       "author": "Charles Wesley",
       "firstLine": "Soldiers of Christ, arise",
       "audioUrl": "/hymnal-media/hog-audio/hog_378.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Soldiers of Christ, arise,\nAnd put your armor on,\nStrong in the strength which God supplies\nThrough his Eternal Son."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "Strong in the Lord of hosts,\nAnd in his mighty pow'r,\nWho in the strength of Jesus trusts\nIs more than conqueror."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "Stand then in his great might,\nWith all his strength endued;\nBut take, to arm you for the fight,\nThe panoply of God."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Leave no unguarded place,\nNo weakness of the soul;\nTake ev'ry virtue, ev'ry grace,\nAnd fortify the whole."
+        },
+        {
+          "number": 5,
+          "isChorus": false,
+          "text": "To keep your armor bright,\nAttend with constant care;\nStill walking in your Captain's sight,\nAnd watching unto prayer."
+        },
+        {
+          "number": 6,
+          "isChorus": false,
+          "text": "From strength to strength go on;\nWrestle and fight and pray;\nTread all the pow'rs of darkness down,\nAnd win the well-fought day.\nAmen."
+        }
+      ]
     },
     {
       "number": "379",
@@ -9050,7 +9735,28 @@
       "author": "William R. Featherston",
       "firstLine": "My Jesus, I love Thee, I know Thou art mine",
       "audioUrl": "/hymnal-media/hog-audio/hog_380.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "My Jesus, I love thee, I know thou art mine;\nFor thee all the follies of sin I resign.\nMy gracious Redeemer, my Saviour art thou;\nIf ever I loved thee, my Jesus, 'tis now."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "I love thee because thou hast first loved me,\nAnd purchased my pardon on Calvary's tree.\nI love thee for wearing the thorns on thy brow;\nIf ever I loved thee, my Jesus, 'tis now."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "I'll love thee in life, I will love thee in death;\nAnd praise thee as long as thou lendest me breath;\nAnd say, when the death-dew lies cold on my brow:\nIf ever I loved thee, my Jesus, 'tis now."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "In mansions of glory and endless delight,\nI'll ever adore thee in heaven so bright;\nI'll sing with the glittering crown on my brow:\nIf ever I loved thee, my Jesus, 'tis now.\nAmen."
+        }
+      ]
     },
     {
       "number": "381",
@@ -9058,7 +9764,33 @@
       "author": "Edward Mote",
       "firstLine": "My hope is built on nothing less",
       "audioUrl": "/hymnal-media/hog-audio/hog_381.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "My hope is built on nothing less\nThan Jesus' blood and righteousness;\nI dare not trust the sweetest frame,\nBut wholly lean on Jesus' Name."
+        },
+        {
+          "number": 2,
+          "isChorus": true,
+          "text": "On Christ, the solid Rock, I stand;\nAll other ground is sinking sand."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "When darkness veils his lovely face,\nI rest upon unchanging grace;\nIn ev'ry rough and stormy gale\nMy anchor holds within the veil. [Refrain]"
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "His oath, his covenant, his blood\nSupport me in the whelming flood;\nWhen all around my soul gives way,\nHe then is all my Hope and Stay. [Refrain]"
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "When I shall launch in worlds unseen,\nO may I then be found in him;\nDressed in his righteousness alone,\nFaultless to stand before the throne. [Refrain]"
+        }
+      ]
     },
     {
       "number": "382",
@@ -9080,7 +9812,13 @@
       "number": "384",
       "title": "Therefore, having this ministry by the mercy of God",
       "firstLine": "Therefore, having this ministry by the mercy of God",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. Therefore, having this ministry by the mercy of God, we do not lose heart.\n2. But we have renounced disgraceful, underhanded ways. We refuse to practice cunning or to tamper with God's word, but by the open statement of the truth we would commend ourselves to everyone's conscience in the sight of God.\n3. And even if our gospel is veiled, it is veiled to those who are perishing.\n4. In their case the god of this world has blinded the minds of the unbelievers, to keep them from seeing the light of the gospel of the glory of Christ, who is the image of God.\n5. For what we proclaim is not ourselves, but Jesus Christ as Lord, with ourselves as your servants for Jesus' sake.\n6. For God, who said, “Let light shine out of darkness,” has shone in our hearts to give the light of the knowledge of the glory of God in the face of Jesus Christ.\n7. But we have this treasure in jars of clay, to show that the surpassing power belongs to God and not to us.\n8. We are afflicted in every way, but not crushed; perplexed, but not driven to despair;\n9. persecuted, but not forsaken; struck down, but not destroyed;\n10. always carrying in the body the death of Jesus, so that the life of Jesus also may be manifested in our bodies.\n11. For we who live are always being given over to death for Jesus' sake, so that the life of Jesus also may be manifested in our mortal flesh.\n12. So death is at work in us, but life in you.\n13. Since we have the same spirit of faith according to what has been written, “I believed, and so I spoke,” we also believe, and so we also speak,\n14. knowing that he who raised the Lord Jesus will raise us also with Jesus and bring us with you into his presence."
+        }
+      ]
     },
     {
       "number": "385",
@@ -9088,7 +9826,28 @@
       "author": "Elizabeth Prentiss",
       "firstLine": "More love to Thee, O Christ",
       "audioUrl": "/hymnal-media/hog-audio/hog_385.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "More love to thee, O Christ,\nMore love to thee!\nHear thou the prayer I make\nOn bended knee;\nThis is my earnest plea,\nMore love, O Christ, to thee,\nMore love to thee,\nMore love to thee!"
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "Once earthly joy I craved,\nSought peace and rest;\nNow thee alone I seek;\nGive what is best:\nThis all my prayer shall be,\nMore love, O Christ, to thee,\nMore love to thee,\nMore love to thee!"
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "Let sorrow do its work,\nSend grief and pain;\nSweet are thy messengers,\nSweet their refrain,\nWhen they can sing with me,\nMore love, O Christ, to thee,\nMore love to thee,\nMore love to thee!"
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Then shall my latest breath\nWhisper thy praise;\nThis be the parting cry\nMy heart shall raise,\nThis still its prayer shall be,\nMore love, O Christ, to thee,\nMore love to thee,\nMore love to thee!\nAmen."
+        }
+      ]
     },
     {
       "number": "386",
@@ -9102,7 +9861,13 @@
       "number": "387",
       "title": "I tell you this, brothers: flesh and blood cannot inherit",
       "firstLine": "I tell you this, brothers: flesh and blood cannot inherit",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "50. I tell you this, brothers: flesh and blood cannot inherit the kingdom of God, nor does the perishable inherit the imperishable.\n51. Behold! I tell you a mystery. We shall not all sleep, but we shall all be changed,\n52. in a moment, in the twinkling of an eye, at the last trumpet. For the trumpet will sound, and the dead will be raised imperishable, and we shall be changed.\n53. For this perishable body must put on the imperishable, and this mortal body must put on immortality.\n54. When the perishable puts on the imperishable, and the mortal puts on immortality, then shall come to pass the saying that is written: “Death is swallowed up in victory.”\n55. “O death, where is your victory? O death, where is your sting?”\n56. The sting of death is sin, and the power of sin is the law.\n57. But thanks be to God, who gives us the victory through our Lord Jesus Christ.\n58. Therefore, my beloved brothers, be steadfast, immovable, always abounding in the work of the Lord, knowing that in the Lord your labor is not in vain."
+        }
+      ]
     },
     {
       "number": "388",
@@ -9124,7 +9889,38 @@
       "title": "God, be merciful to me",
       "firstLine": "God, be merciful to me",
       "audioUrl": "/hymnal-media/hog-audio/hog_390.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "God, be merciful to me,\nOn thy grace I rest my plea;\nPlenteous in compassion thou,\nBlot out my transgressions now;\nWash me, make me pure within,\nCleanse, O cleanse me from my sin."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "My transgressions I confess,\nGrief and guilt my soul oppress;\nI have sinned against thy grace\nAnd provoked thee to thy face;\nI confess thy judgment just,\nSpeechless, I thy mercy trust."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "I am evil, born in sin;\nThou desirest truth within.\nThou alone my Saviour art,\nTeach thy wisdom to my heart;\nMake me pure, thy grace bestow,\nWash me whiter than the snow."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Broken, humbled to the dust\nBy thy wrath and judgment just,\nLet my contrite heart rejoice\nAnd in gladness hear thy voice;\nFrom my sins O hide thy face,\nBlot them out in boundless grace."
+        },
+        {
+          "number": 5,
+          "isChorus": false,
+          "text": "Gracious God, my heart renew,\nMake my spirit right and true;\nCast me not away from thee,\nLet thy Spirit dwell in me;\nThy salvation's joy impart,\nStedfast make my willing heart."
+        },
+        {
+          "number": 6,
+          "isChorus": false,
+          "text": "Sinners then shall learn from me\nAnd return, O God, to thee;\nSaviour, all my guilt remove,\nAnd my tongue shall sing thy love;\nTouch my silent lips, O Lord,\nAnd my mouth shall praise accord.\nAmen."
+        }
+      ]
     },
     {
       "number": "391",
@@ -9132,7 +9928,13 @@
       "author": "Joseph Hart",
       "firstLine": "Come, ye sinners, poor and needy",
       "audioUrl": "/hymnal-media/hog-audio/hog_391.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Come, Ye Sinners, Poor and Needy\nb4\n1 Come ye sin ners, poor and needy, Weak and woun ded,\n2 Come,ye thir sty, come and welcome,God' free bounty\n3 Come ye weary, heavyladen, Lost and ruined\n4 Let not consciencemake you linger, Nor of fitness\nsick and sore; Jesus readstands to save you,\nglorify; True belief and true repentance,\nby the fall; If you tarry till you're better,\nfondly dream; All the fitness He requireth\nChorus\nFull of pity, love and pow'.\nEv' - ry grace that brings you nigh.\nI will arise and\nYou will never come at all.\nIs to feel your need of Him.\ngo to Jesus, He will embrace me in His arms;\nIn the arms of my dear Savior,\nO there are ten thousand charms.\nHymnary.org"
+        }
+      ]
     },
     {
       "number": "392",
@@ -9148,7 +9950,38 @@
       "author": "Francis R. Havergal",
       "firstLine": "Take my life and let it be",
       "audioUrl": "/hymnal-media/hog-audio/hog_393.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Take my life, and let it be\nConsecrated, Lord, to thee.\nTake my moments and my days;\nLet them flow in ceaseless praise."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "Take my hands, and let them move\nAt the impulse of thy love.\nTake my feet, and let them be\nSwift and beautiful for thee."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "Take my voice, and let me sing,\nAlways, only, for my King.\nTake my lips, and let them be\nFilled with messages from thee."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Take my silver and my gold;\nNot a mite would I withhold\nTake my intellect, and use\nEv'ry pow'r as thou shalt choose."
+        },
+        {
+          "number": 5,
+          "isChorus": false,
+          "text": "Take my will, and make it thine;\nIt shall be no longer mine.\nTake my heart, it is thine own;\nIt shall be thy royal throne."
+        },
+        {
+          "number": 6,
+          "isChorus": false,
+          "text": "Take my love; my Lord, I pour\nAt thy feet its treasure-store.\nTake myself, and I will be\nEver, only, all for thee.\nAmen."
+        }
+      ]
     },
     {
       "number": "394",
@@ -9156,7 +9989,28 @@
       "author": "Henry Lyte",
       "firstLine": "Jesus, I my cross have taken",
       "audioUrl": "/hymnal-media/hog-audio/hog_394.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Jesus, I my cross have taken,\nAll to leave, and follow thee;\nDestitute, despised, forsaken,\nThou from hence my all shalt be:\nPerish ev'ry fond ambition,\nAll I've sought, or hoped, or known;\nYet how rich is my condition,\nGod and heav'n are still my own."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "Man may trouble and distress me,\n'Twill but drive me to thy breast;\nLife with trials hard may press me,\nHeav'n will bring me sweeter rest:\nO 'tis not in grief to harm me\nWhile thy love is left to me;\nO 'twere not in joy to charm me,\nWere that joy unmixed with thee."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "Take, my soul, thy full salvation,\nRise o'er sin and fear and care;\nJoy to find in ev'ry station\nSomething still to do or bear;\nThink what Spirit dwells within thee,\nWhat a Father's smile is thine,\nWhat a Saviour died to win thee:\nChild of heav'n, shouldst thou repine?"
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Haste then on from grace to glory,\nArmed by faith, and winged by prayer;\nHeav'n's eternal day's before thee,\nGod's own hand shall guide thee there.\nSoon shall close thy earthly mission;\nSwift shall pass thy pilgrim days;\nHope soon change to glad fruition,\nFaith to sight, and prayer to praise.\nAmen."
+        }
+      ]
     },
     {
       "number": "395",
@@ -9170,7 +10024,13 @@
       "number": "396",
       "title": "If then you have been raised with Christ",
       "firstLine": "If then you have been raised with Christ",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. If then you have been raised with Christ, seek the things that are above, where Christ is, seated at the right hand of God.\n2. Set your minds on things that are above, not on things that are on earth.\n3. For you have died, and your life is hidden with Christ in God.\n4. When Christ who is your life appears, then you also will appear with him in glory.\n5. Put to death therefore what is earthly in you: sexual immorality, impurity, passion, evil desire, and covetousness, which is idolatry.\n6. On account of these the wrath of God is coming.\n7. In these you too once walked, when you were living in them.\n8. But now you must put them all away: anger, wrath, malice, slander, and obscene talk from your mouth.\n9. Do not lie to one another, seeing that you have put off the old self with its practices\n10. and have put on the new self, which is being renewed in knowledge after the image of its creator.\n11. Here there is not Greek and Jew, circumcised and uncircumcised, barbarian, Scythian, slave, free; but Christ is all, and in all.\n12. Put on then, as God's chosen ones, holy and beloved, compassionate hearts, kindness, humility, meekness, and patience,\n13. bearing with one another and, if one has a complaint against another, forgiving each other; as the Lord has forgiven you, so you also must forgive.\n14. And above all these put on love, which binds everything together in perfect harmony.\n15. And let the peace of Christ rule in your hearts, to which indeed you were called in one body. And be thankful.\n16. Let the word of Christ dwell in you richly, teaching and admonishing one another in all wisdom, singing psalms and hymns and spiritual songs, with thankfulness in your hearts to God.\n17. And whatever you do, in word or deed, do everything in the name of the Lord Jesus, giving thanks to God the Father through him."
+        }
+      ]
     },
     {
       "number": "397",
@@ -9184,7 +10044,38 @@
       "title": "God, be merciful to me",
       "firstLine": "God, be merciful to me",
       "audioUrl": "/hymnal-media/hog-audio/hog_398.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "God, be merciful to me,\nOn thy grace I rest my plea;\nPlenteous in compassion thou,\nBlot out my transgressions now;\nWash me, make me pure within,\nCleanse, O cleanse me from my sin."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "My transgressions I confess,\nGrief and guilt my soul oppress;\nI have sinned against thy grace\nAnd provoked thee to thy face;\nI confess thy judgment just,\nSpeechless, I thy mercy trust."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "I am evil, born in sin;\nThou desirest truth within.\nThou alone my Saviour art,\nTeach thy wisdom to my heart;\nMake me pure, thy grace bestow,\nWash me whiter than the snow."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Broken, humbled to the dust\nBy thy wrath and judgment just,\nLet my contrite heart rejoice\nAnd in gladness hear thy voice;\nFrom my sins O hide thy face,\nBlot them out in boundless grace."
+        },
+        {
+          "number": 5,
+          "isChorus": false,
+          "text": "Gracious God, my heart renew,\nMake my spirit right and true;\nCast me not away from thee,\nLet thy Spirit dwell in me;\nThy salvation's joy impart,\nStedfast make my willing heart."
+        },
+        {
+          "number": 6,
+          "isChorus": false,
+          "text": "Sinners then shall learn from me\nAnd return, O God, to thee;\nSaviour, all my guilt remove,\nAnd my tongue shall sing thy love;\nTouch my silent lips, O Lord,\nAnd my mouth shall praise accord.\nAmen."
+        }
+      ]
     },
     {
       "number": "399",
@@ -9198,7 +10089,13 @@
       "number": "400",
       "title": "But we do not want you to be uninformed, brothers",
       "firstLine": "But we do not want you to be uninformed, brothers",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "13. But we do not want you to be uninformed, brothers, about those who are asleep, that you may not grieve as others do who have no hope.\n14. For since we believe that Jesus died and rose again, even so, through Jesus, God will bring with him those who have fallen asleep.\n15. For this we declare to you by a word from the Lord, that we who are alive, who are left until the coming of the Lord, will not precede those who have fallen asleep.\n16. For the Lord himself will descend from heaven with a cry of command, with the voice of an archangel, and with the sound of the trumpet of God. And the dead in Christ will rise first.\n17. Then we who are alive, who are left, will be caught up together with them in the clouds to meet the Lord in the air, and so we will always be with the Lord.\n18. Therefore encourage one another with these words."
+        }
+      ]
     },
     {
       "number": "401",
@@ -9206,7 +10103,28 @@
       "author": "William O. Cushing",
       "firstLine": "O safe to the Rock that is higher than I",
       "audioUrl": "/hymnal-media/hog-audio/hog_401.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "O safe to the Rock that is higher than I\nMy soul in its conflicts and sorrows would fly;\nSo sinful, so weary, thine, thine would I be;\nThou blest Rock of Ages, I'm hiding in thee."
+        },
+        {
+          "number": 2,
+          "isChorus": true,
+          "text": "Hiding in thee, hiding in thee -\nThou blest Rock of Ages, I'm hiding in thee."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "In the calm of the noon-tide, in sorrow's lone hour,\nIn times when temptation casts o'er me its power,\nIn the tempests of life, on its wide, heaving sea,\nThou blest Rock of Ages, I'm hiding in thee. [Refrain]"
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "How oft in the conflict, when pressed by the foe,\nI have fled to my refuge and breathed out my woe!\nHow oft when trials like sea-billows roll,\nHave i hidden in thee, O thou Rock of my soul! [Refrain]"
+        }
+      ]
     },
     {
       "number": "402",
@@ -9214,7 +10132,32 @@
       "author": "Laurentius Laurenti",
       "firstLine": "Rejoice! Rejoice, believers",
       "audioUrl": "/hymnal-media/hog-audio/hog_402.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "label": "1",
+          "isChorus": false,
+          "text": "Rejoice, rejoice, believers,\nand let your lights appear!\nThe evening is advancing,\nand darker night is near.\nThe Bridegroom is arising\nand soon he will draw nigh;\nup, watch in expectation!\nAt midnight comes the cry."
+        },
+        {
+          "number": 2,
+          "label": "2",
+          "isChorus": false,
+          "text": "See that your lamps are burning,\nreplenish them with oil;\nand wait for your salvation,\nthe end of earthly toil.\nThe watchers on the mountain\nproclaim the Bridegroom near;\nmeet him as he approaches,\nwith alleluias clear."
+        },
+        {
+          "number": 3,
+          "label": "3",
+          "isChorus": false,
+          "text": "You saints, who here in patience\nyour cross and suff’rings bore,\nshall live and reign forever,\nwhen sorrow is no more:\naround the throne of glory\nthe Lamb you shall behold,\nin triumph cast before him\nyour diadems of gold."
+        },
+        {
+          "number": 4,
+          "label": "4",
+          "isChorus": false,
+          "text": "Our hope and expectation,\nO Jesus, now appear;\narise, O Sun so longed for,\nabove the darkened sphere.\nWith hearts and hands uplifted,\nwe plead, O Lord, to see\nthe day of earth’s redemption\nthat sets your people free!"
+        }
+      ]
     },
     {
       "number": "403",
@@ -9222,7 +10165,23 @@
       "author": "Fanny J. Crosby",
       "firstLine": "Blessed assurance, Jesus is mine!",
       "audioUrl": "/hymnal-media/hog-audio/hog_403.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "Blessed assurance, Jesus is mine! \n\r\nO what a foretaste of glory divine! \n\r\nHeir of salvation, purchase of God, \n\r\nborn of his Spirit, washed in his blood."
+        },
+        {
+          "number": "",
+          "isChorus": "True",
+          "text": "This is my story, this is my song, \n\r\npraising my Savior all the day long; \n\r\nthis is my story, this is my song, \n\r\npraising my Savior all the day long."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "Perfect submission, perfect delight, \n\r\nvisions of rapture now burst on my sight; \n\r\nangels descending, bring from above \n\r\nechoes of mercy, whispers of love. [Refrain]"
+        }
+      ]
     },
     {
       "number": "404",
@@ -9230,7 +10189,28 @@
       "author": "Lidie H. Edmunds",
       "firstLine": "My faith has found a resting place",
       "audioUrl": "/hymnal-media/hog-audio/hog_404.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "My faith has found a resting place,\n\r\nfrom guilt my soul is freed;\n\r\nI trust the ever-living One,\n\r\nhis wounds for me shall plead."
+        },
+        {
+          "number": "",
+          "isChorus": "True",
+          "text": "I need no other argument,\n\r\nI need no other plea,\n\r\nit is enough that Jesus died,\n\r\nand that he died for me."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "Enough for me that Jesus saves,\n\r\nthis ends my fear and doubt;\n\r\na sinful soul I come to him,\n\r\nhe’ll never cast me out. [Refrain]"
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "My heart is leaning on the Word,\n\r\nthe written Word of God:\n\r\nsalvation by my Savior’s name,\n\r\nsalvation thro' his blood. [Refrain]"
+        }
+      ]
     },
     {
       "number": "405",
@@ -9254,7 +10234,33 @@
       "author": "Horatio G. Spafford",
       "firstLine": "When peace, like a river, attendeth my way",
       "audioUrl": "/hymnal-media/hog-audio/hog_407.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "When peace, like a river, attendeth my way,\nWhen sorrows like sea-billows roll;\nWhatever my lot, thou hast taught me to say,\nIt is well, It is well with my soul."
+        },
+        {
+          "number": 2,
+          "isChorus": true,
+          "text": "It is well with my soul,\nit is well, it is well with my soul."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "Though Satan should buffet, though trials should come,\nLet this blest assurance control,\nThat Christ hath regarded my helpless estate,\nAnd hath shed His own blood for my soul. [Refrain]"
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "My sin - O the bliss of this glorious thought! -\nMy sin, not in part, but the whole,\nIs nailed to the cross and I bear it no more;\nPraise the Lord, praise the Lord, oh, my soul! [Refrain]"
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "O Lord, haste the day when the faith shall be sight,\nThe clouds be rolled back as a scroll,\nThe trump shall resound, and the Lord shall descend;\n\"Even so\" - it is well with my soul. [Refrain]\nAmen."
+        }
+      ]
     },
     {
       "number": "408",
@@ -9262,7 +10268,28 @@
       "author": "Ray Palmer",
       "firstLine": "My faith looks up to Thee",
       "audioUrl": "/hymnal-media/hog-audio/hog_408.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "My faith looks up to thee,\nThou Lamb of Calvary,\nSaviour Divine;\nNow hear me while I pray,\nTake all my guilt away,\nO let me from this day\nBe wholly thine."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "May thy rich grace impart\nStrength to my fainting heart,\nMy zeal inspire;\nAs thou hast died for me,\nO may my love to thee\nPure, warm, and changeless be,\nA living fire."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "While life's dark maze I tread,\nAnd griefs around me spread,\nBe thou my guide;\nBid darkness turn to day,\nWipe sorrow's tears away,\nNor let me ever stray\nFrom thee aside."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "When ends life's transient dream,\nWhen death's cold, sullen stream\nShall o'er me roll,\nBlest Saviour, then, in love,\nFear and distrust remove;\nO bear me safe above,\nA ransomed soul.\nAmen."
+        }
+      ]
     },
     {
       "number": "409",
@@ -9277,7 +10304,13 @@
       "title": "Our Father, which art in heaven",
       "firstLine": "Our Father, which art in heaven",
       "audioUrl": "/hymnal-media/hog-audio/hog_410.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Our Father, which art in heaven,\n\r\nHallowed be Thy name.\n\r\nThy kingdom come, Thy will be done\n\r\non earth as it is in heaven.\n\r\nGive us this day our daily bread,\n\r\nand forgive us our debts,\n\r\nas we forgive our debtors.\n\r\nAnd lead us not into temptation,\n\r\nbut deliver us from evil;\n\r\nFor Thine is the kingdom, \n\r\nand the power,\n\r\nand the glory forever. \n\r\nAmen. Amen."
+        }
+      ]
     },
     {
       "number": "411",
@@ -9291,7 +10324,13 @@
       "number": "412",
       "title": "I will extol you, my God and King",
       "firstLine": "I will extol you, my God and King",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. I will extol you, my God and King, and bless your name forever and ever.\n2. Every day I will bless you and praise your name forever and ever.\n3. Great is the Lord , and greatly to be praised, and his greatness is unsearchable.\n4. One generation shall commend your works to another, and shall declare your mighty acts.\n5. On the glorious splendor of your majesty, and on your wondrous works, I will meditate.\n6. They shall speak of the might of your awesome deeds, and I will declare your greatness.\n7. They shall pour forth the fame of your abundant goodness and shall sing aloud of your righteousness.\n8. The Lord is gracious and merciful, slow to anger and abounding in steadfast love.\n9. The Lord is good to all, and his mercy is over all that he has made.\n10. All your works shall give thanks to you, O Lord , and all your saints shall bless you!\n11. They shall speak of the glory of your kingdom and tell of your power,\n12. to make known to the children of man your mighty deeds, and the glorious splendor of your kingdom.\n13. Your kingdom is an everlasting kingdom, and your dominion endures throughout all generations. [The Lord is faithful in all his words and kind in all his works. ]\n14. The Lord upholds all who are falling and raises up all who are bowed down.\n15. The eyes of all look to you, and you give them their food in due season.\n16. You open your hand; you satisfy the desire of every living thing.\n17. The Lord is righteous in all his ways and kind in all his works.\n18. The Lord is near to all who call on him, to all who call on him in truth.\n19. He fulfills the desire of those who fear him; he also hears their cry and saves them.\n20. The Lord preserves all who love him, but all the wicked he will destroy.\n21. My mouth will speak the praise of the Lord , and let all flesh bless his holy name forever and ever."
+        }
+      ]
     },
     {
       "number": "413",
@@ -9307,7 +10346,28 @@
       "author": "John Newton",
       "firstLine": "Approach, my soul, the mercy seat",
       "audioUrl": "/hymnal-media/hog-audio/hog_414.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "Approach, my soul, the mercy seat\n\r\nwhere Jesus answers prayer;\n\r\nthere humbly fall before his feet,\n\r\nfor none can perish there."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "Thy promise is my only plea;\n\r\nwith this I venture nigh:\n\r\nthou callest burdened souls to thee,\n\r\nand such, O Lord, am I."
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "Bowed down beneath a load of sin,\n\r\nby Satan sorely pressed,\n\r\nby war without, and fears within,\n\r\nI come to thee for rest."
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "Be thou my shield and hiding place,\n\r\nthat, sheltered near thy side,\n\r\nI may my fierce accuser face,\n\r\nand tell him thou hast died."
+        }
+      ]
     },
     {
       "number": "415",
@@ -9322,7 +10382,33 @@
       "author": "Annie S. Hawks",
       "firstLine": "I need Thee ev&#039;ry hour",
       "audioUrl": "/hymnal-media/hog-audio/hog_416.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "I need thee ev'ry hour,\nmost gracious Lord;\nno tender voice like thine\ncan peace afford."
+        },
+        {
+          "number": "",
+          "isChorus": "True",
+          "text": "I need thee, O I need thee,\nev'ry hour I need thee;\nO bless me now, my Savior,\nI come to thee."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "I need thee ev'ry hour;\nstay thou near by;\ntemptations lose their pow'r\nwhen thou art nigh. [Refrain]"
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "I need thee ev'ry hour,\nin joy or pain;\ncome quickly, and abide,\nor life is vain. [Refrain]"
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "I need thee ev'ry hour;\nteach me thy will,\nand thy rich promises\nin me fulfil. [Refrain]"
+        }
+      ]
     },
     {
       "number": "417",
@@ -9330,7 +10416,38 @@
       "author": "Horatius Bonar",
       "firstLine": "Fill Thou my life, O Lord, my God",
       "audioUrl": "/hymnal-media/hog-audio/hog_417.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Fill thou my life, O Lord my God,\nIn ev'ry part with praise,\nThat my whole being may proclaim\nThy being and thy ways."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "Not for the lip of praise alone,\nNor e'en the praising heart,\nI ask, but for a life made up\nOf praise in ev'ry part;"
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "Praise in the common things of life,\nIts goings out and in,\nPraise in each duty and each deed,\nHowever small and mean."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Fill ev'ry part of me with praise;\nLet all my being speak\nOf thee and of they love, O Lord,\nPoor though I be, and weak."
+        },
+        {
+          "number": 5,
+          "isChorus": false,
+          "text": "So shalt thou, Lord, from me, e'en me,\nReceive the glory due,\nAnd so shall I begin on earth\nThe song for ever new."
+        },
+        {
+          "number": 6,
+          "isChorus": false,
+          "text": "So shall no part of day or night\nFrom sacredness be free:\nBut all my life, in ev'ry step,\nBe fellowship with thee.\nAmen."
+        }
+      ]
     },
     {
       "number": "418",
@@ -9338,7 +10455,38 @@
       "author": "William W. How",
       "firstLine": "For all the saints who from their labors rest",
       "audioUrl": "/hymnal-media/hog-audio/hog_418.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "For all the saints who from their labors rest,\nWho thee by faith before the world confessed,\nThy Name, O Jesus, be for ever blest.\nAlleluia! Alleluia!"
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "Thou wast their Rock, their Fortress, and their Might;\nThou, Lord, their Captain in the well-fought fight;\nThou, in the darkness drear, their one true Light.\nAlleluia! Alleluia!"
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "O may thy soldiers, faithful, true, and bold,\nFight as the saints who nobly fought of old,\nAnd win with them the victor's crown of gold.\nAlleluia! Alleluia!"
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "The golden evening brightens in the west;\nSoon, soon to faithful warriors comes their rest;\nSweet is the calm of Paradise the blest.\nAlleluia! Alleluia!"
+        },
+        {
+          "number": 5,
+          "isChorus": false,
+          "text": "But lo! there breaks a yet more glorious day;\nThe saints triumphant rise in bright array;\nThe King of Glory passes on his way.\nAlleluia! Alleluia!"
+        },
+        {
+          "number": 6,
+          "isChorus": false,
+          "text": "From earth's wide bounds, from ocean's farthest coast,\nThrough gates of pearl streams in the countless host,\nSinging to Father, Son and Holy Ghost,\nAlleluia! Alleluia!\nAmen."
+        }
+      ]
     },
     {
       "number": "419",
@@ -9354,7 +10502,28 @@
       "author": "Charles Wesley",
       "firstLine": "A charge to keep I have",
       "audioUrl": "/hymnal-media/hog-audio/hog_420.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "A charge to keep I have,\na God to glorify,\na never-dying soul to save,\nand fit it for the sky."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "To serve the present age,\nmy calling to fulfill,\nO may it all my pow'rs engage\nto do my Master's will!"
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "Arm me with watchful care\nas in Thy sight to live,\nand now Thy servant, Lord, prepare\na strict account to give!"
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Help me to watch and pray,\nand still on Thee rely,\nO let me not my trust betray,\nbut press to realms on high.\nSource:\nPsalms and Hymns to the Living God #391"
+        }
+      ]
     },
     {
       "number": "421",
@@ -9362,7 +10531,38 @@
       "author": "Isaac Watts",
       "firstLine": "Am I a soldier of the cross",
       "audioUrl": "/hymnal-media/hog-audio/hog_421.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Am I a soldier of the cross,\nA foll'wer of the Lamb,\nAnd shall I fear to own his cause,\nOr blush to speak his Name?"
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "Must I be carried to the skies\nOn flow'ry beds of ease,\nWhile others fought to win the prize,\nAnd sailed through bloody seas?"
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "Are there no foes for me to face?\nMust I not stem the flood?\nIs this vile world a friend to grace,\nTo help me on to God?"
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Sure I must fight if I would reign:\nIncrease my courage, Lord;\nI'll bear the toil, endure the pain,\nSupported by thy Word."
+        },
+        {
+          "number": 5,
+          "isChorus": false,
+          "text": "Thy saints, in all this glorious war,\nShall conquer, though they die;\nThey view the triumph from afar,\nAnd seize it with their eye."
+        },
+        {
+          "number": 6,
+          "isChorus": false,
+          "text": "When that illustrious day shall rise,\nAnd all thine armies shine\nIn robes of vict'ry through the skies,\nThe glory shall be thine.\nAmen."
+        }
+      ]
     },
     {
       "number": "422",
@@ -9394,7 +10594,28 @@
       "author": "John Newton",
       "firstLine": "Glorious things of thee are spoken",
       "audioUrl": "/hymnal-media/hog-audio/hog_425.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Glorious things of thee are spoken,\nZion, city of our God;\nHe whose word cannot be broken\nFormed thee for his own abode:\nOn the Rock of Ages founded,\nWhat can shake thy sure repose?\nWith salvation's walls surrounded,\nThou may'st smile at all thy foes."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "See, the streams of living waters,\nSpringing from eternal love,\nWell supply thy sons and daughters,\nAnd all fear of want remove:\nWho can faint, while such a river\nEver flows their thirst t'assuage?\nGrace which, like the Lord, the giver,\nNever fails from age to age."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "Round each habitation hov'ring,\nSee the cloud and fire appear\nFor a glory and a cov'ring,\nShowing that the Lord is near:\nThus deriving from their banner\nLight by night and shade by day,\nSafe they feed upon the manna\nWhich he gives them when they pray."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Saviour, if of Zion's city\nI, through grace, a member am,\nLet the world deride or pity,\nI will glory in thy Name:\nFading is the worldling's pleasure,\nAll his boasted pomp and show;\nSolid joys and lasting treasure\nNone but Zion's children know.\nAmen."
+        }
+      ]
     },
     {
       "number": "426",
@@ -9410,7 +10631,28 @@
       "author": "Anne Ross Cousin",
       "firstLine": "The sands of time are sinking",
       "audioUrl": "/hymnal-media/hog-audio/hog_427.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "The sands of time are sinking,\nThe dawn of heaven breaks,\nThe summer morn I've sighed for,\nThe fair sweet morn awakes;\nDark, dark hath been the midnight,\nBut day-spring is at hand,\nAnd glory, glory dwelleth\nIn Emmanuel's land."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "The King there in his beauty\nWithout a veil is seen;\nIt were a well-spent journey\nThough sev'n deaths lay between:\nThe Lamb with his fair army\nDoth on Mount Zion stand,\nAnd glory, glory dwelleth\nIn Emmanuel's land."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "O Christ, he is the fountain,\nThe deep sweet well of love!\nThe streams on earth I've tasted\nMore deep I'll drink above:\nThere to an ocean fulness\nHis mercy doth expand,\nAnd glory, glory dwelleth\nIn Emmanuel's land."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "The bride eyes not her garment,\nBut her dear bridegroom's face;\nI will not gaze at glory,\nBut on my King of grace;\nNot at the crown he gifteth,\nBut on his pierced hand:\nThe Lamb is all the glory\nOf Emmanuel's land.\nAmen."
+        }
+      ]
     },
     {
       "number": "428",
@@ -9418,7 +10660,33 @@
       "author": "Isaac Watts",
       "firstLine": "Come, we that love the Lord",
       "audioUrl": "/hymnal-media/hog-audio/hog_428.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Come, we that love the Lord,\nAnd let our joys be known;\nJoin in a song with sweet accord,\nAnd thus surround the throne."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "Let those refuse to sing\nThat never knew our God;\nBut children of the heav'nly King\nMay speak their joys abroad."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "The men of grace have found\nGlory begun below;\nCelestial fruits on earthly ground\nFrom faith and hope may grow."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "The hill of Zion yields\nA thousand sacred sweets,\nBefore we reach the heav'nly fields,\nOr walk the golden streets."
+        },
+        {
+          "number": 5,
+          "isChorus": false,
+          "text": "Then let our songs abound,\nAnd ev'ry tear be dry;\nWe're marching through Immanuel's ground\nTo fairer worlds on high.\nAmen."
+        }
+      ]
     },
     {
       "number": "429",
@@ -9426,13 +10694,45 @@
       "author": "Folliott S. Pierpoint",
       "firstLine": "For the beauty of the earth",
       "audioUrl": "/hymnal-media/hog-audio/hog_429.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "For the beauty of the earth, \n\r\nfor the glory of the skies, \n\r\nfor the love which from our birth \n\r\nover and around us lies,"
+        },
+        {
+          "number": "",
+          "isChorus": "True",
+          "text": "Lord of all, to thee we raise\n\r\nthis our hymn of grateful praise."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "For the beauty of each hour \n\r\nof the day and of the night, \n\r\nhill and vale, and tree and flow'r, \n\r\nsun and moon and stars of light, [Refrain]"
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "For the joy of ear and eye,\n\r\nfor the heart and mind's delight,\n\r\nfor the mystic harmony\n\r\nlinking sense to sound and sight, [Refrain]"
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "For the joy of human love, \n\r\nbrother, sister, parent, child, \n\r\nfriends on earth and friends above, \n\r\nfor all gentle thoughts and mild, [Refrain]"
+        }
+      ]
     },
     {
       "number": "430",
       "title": "Lord, you have been our dwelling place in all generations",
       "firstLine": "Lord, you have been our dwelling place in all generations",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. Lord, you have been our dwelling place in all generations.\n2. Before the mountains were brought forth, or ever you had formed the earth and the world, from everlasting to everlasting you are God.\n3. You return man to dust and say, “Return, O children of man!”\n4. For a thousand years in your sight are but as yesterday when it is past, or as a watch in the night.\n5. You sweep them away as with a flood; they are like a dream, like grass that is renewed in the morning:\n6. in the morning it flourishes and is renewed; in the evening it fades and withers.\n7. For we are brought to an end by your anger; by your wrath we are dismayed.\n8. You have set our iniquities before you, our secret sins in the light of your presence.\n9. For all our days pass away under your wrath; we bring our years to an end like a sigh.\n10. The years of our life are seventy, or even by reason of strength eighty; yet their span is but toil and trouble; they are soon gone, and we fly away.\n11. Who considers the power of your anger, and your wrath according to the fear of you?\n12. So teach us to number our days that we may get a heart of wisdom.\n13. Return, O Lord ! How long? Have pity on your servants!\n14. Satisfy us in the morning with your steadfast love, that we may rejoice and be glad all our days.\n15. Make us glad for as many days as you have afflicted us, and for as many years as we have seen evil.\n16. Let your work be shown to your servants, and your glorious power to their children.\n17. Let the favor of the Lord our God be upon us, and establish the work of our hands upon us; yes, establish the work of our hands!"
+        }
+      ]
     },
     {
       "number": "431",
@@ -9440,13 +10740,40 @@
       "author": "Daniel C. Roberts",
       "firstLine": "God of our fathers, whose almighty hand",
       "audioUrl": "/hymnal-media/hog-audio/hog_431.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "God of our fathers, whose almighty hand\nLeads forth in beauty all the starry band\nOf shining worlds in splendor through the skies,\nOur grateful songs before thy throne arise."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "Thy love divine hath led us in the past;\nIn this free land by thee our lot is cast;\nBe thou our Ruler, Guardian, Guide, and Stay;\nThy Word our law, thy paths our chosen way."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "From war's alarms, from deadly pestilence,\nBe thy strong arm our ever sure defence;\nThy true religion in our hearts increase,\nThy bounteous goodness nourish us in peace."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Refresh thy people on their toilsome way,\nLead us from night to never-ending day;\nFill all our lives with love and grace divine,\nAnd glory, laud, and praise be ever thine.\nAmen."
+        }
+      ]
     },
     {
       "number": "432",
       "title": "Shout for joy in the LORD, O you righteous",
       "firstLine": "Shout for joy in the LORD, O you righteous",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "1. Shout for joy in the Lord , O you righteous! Praise befits the upright.\n2. Give thanks to the Lord with the lyre; make melody to him with the harp of ten strings!\n3. Sing to him a new song; play skillfully on the strings, with loud shouts.\n4. For the word of the Lord is upright, and all his work is done in faithfulness.\n5. He loves righteousness and justice; the earth is full of the steadfast love of the Lord .\n6. By the word of the Lord the heavens were made, and by the breath of his mouth all their host.\n7. He gathers the waters of the sea as a heap; he puts the deeps in storehouses.\n8. Let all the earth fear the Lord ; let all the inhabitants of the world stand in awe of him!\n9. For he spoke, and it came to be; he commanded, and it stood firm.\n10. The Lord brings the counsel of the nations to nothing; he frustrates the plans of the peoples.\n11. The counsel of the Lord stands forever, the plans of his heart to all generations.\n12. Blessed is the nation whose God is the Lord , the people whom he has chosen as his heritage!"
+        }
+      ]
     },
     {
       "number": "433",
@@ -9455,20 +10782,58 @@
       "translator": "Catherine Winkworth",
       "firstLine": "Now thank we all our God",
       "audioUrl": "/hymnal-media/hog-audio/hog_433.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Now thank we all our God\nWith heart and hands and voices,\nWho wondrous things hath done,\nIn whom his world rejoices;\nWho from our mothers' arms,\nHath blessed us on our way\nWith countless gifts of love,\nAnd still is ours today."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "O may this bounteous God\nThrough all our life be near us,\nWith ever joyful hearts\nAnd blessed peace to cheer us;\nAnd keep us in his grace,\nAnd guide us when perplexed,\nAnd free us from all ills\nIn this world and the next."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "All praise and thanks to God,\nThe Father, now be given,\nThe Son, and Him who reigns\nWith them in highest heaven,\nThe One Eternal God\nWhom earth and heav'n adore;\nFor thus it was, is now,\nAnd shall be evermore.\nAmen."
+        }
+      ]
     },
     {
       "number": "434",
       "title": "And so, from the day we heard",
       "firstLine": "And so, from the day we heard",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "9. And so, from the day we heard, we have not ceased to pray for you, asking that you may be filled with the knowledge of his will in all spiritual wisdom and understanding,\n10. so as to walk in a manner worthy of the Lord, fully pleasing to him: bearing fruit in every good work and increasing in the knowledge of God;\n11. being strengthened with all power, according to his glorious might, for all endurance and patience with joy;\n12. giving thanks to the Father, who has qualified you to share in the inheritance of the saints in light.\n13. He has delivered us from the domain of darkness and transferred us to the kingdom of his beloved Son,\n14. in whom we have redemption, the forgiveness of sins.\n15. He is the image of the invisible God, the firstborn of all creation.\n16. For by him all things were created, in heaven and on earth, visible and invisible, whether thrones or dominions or rulers or authorities—all things were created through him and for him.\n17. And he is before all things, and in him all things hold together.\n18. And he is the head of the body, the church. He is the beginning, the firstborn from the dead, that in everything he might be preeminent.\n19. For in him all the fullness of God was pleased to dwell,\n20. and through him to reconcile to himself all things, whether on earth or in heaven, making peace by the blood of his cross.\n21. And you, who once were alienated and hostile in mind, doing evil deeds,\n22. he has now reconciled in his body of flesh by his death, in order to present you holy and blameless and above reproach before him,\n23. if indeed you continue in the faith, stable and steadfast, not shifting from the hope of the gospel that you heard, which has been proclaimed in all creation under heaven, and of which I, Paul, became a minister."
+        }
+      ]
     },
     {
       "number": "435",
       "title": "We gather together to ask the Lord&#039;s blessing",
       "firstLine": "We gather together to ask the Lord&#039;s blessing",
       "audioUrl": "/hymnal-media/hog-audio/hog_435.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "We gather together to ask the Lord's blessing;\nHe chastens and hastens his will to make known;\nThe wicked oppressing now cease from distressing:\nSing praises to his Name; he forgets not his own."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "Beside us to guide us, our God with us joining,\nOrdaining, maintaining his Kingdom divine;\nSo from the beginning the fight we were winning:\nThou, Lord, wast at our side: all glory be thine!"
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "We all do extol thee, thou Leader triumphant,\nAnd pray that thou still our Defender wilt be.\nLet thy congregation escape tribulation:\nThy Name be ever prais'd! O Lord, make us free!\nAmen."
+        }
+      ]
     },
     {
       "number": "436",
@@ -9476,7 +10841,28 @@
       "author": "Henry Alford",
       "firstLine": "Come, ye thankful people, come",
       "audioUrl": "/hymnal-media/hog-audio/hog_436.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Come, ye thankful people, come,\nRaise the song of harvest-home:\nAll is safely gathered in,\nEre the winter storms begin;\nGod, our Maker, doth provide\nFor our wants to be supplied:\nCome to God's own temple, come,\nRaise the song of harvest-home."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "All the world is God's own field,\nFruit unto his praise to yield;\nWheat and tares together sown,\nUnto joy or sorrow grown:\nFirst the blade, and then the ear,\nThen the full corn shall appear:\nLord of harvest, grant that we\nWholesome grain and pure may be."
+        },
+        {
+          "number": 3,
+          "isChorus": false,
+          "text": "For the Lord our God shall come,\nAnd shall take his harvest home;\nFrom his field shall in that day\nAll offences purge away;\nGive his angels charge at last\nIn the fire the tares to cast,\nBut the fruitful ears to store\nIn his garner evermore."
+        },
+        {
+          "number": 4,
+          "isChorus": false,
+          "text": "Even so, Lord, quickly come\nTo thy final harvest-home;\nGather thou thy people in,\nFree from sorrow, free from sin;\nThere for ever purified,\nIn thy presence to abide:\nCome, with all thine angels, come,\nRaise the glorious harvest-home.\nAmen."
+        }
+      ]
     },
     {
       "number": "437",
@@ -9499,7 +10885,13 @@
       "author": "Thomas Ken",
       "firstLine": "Praise God from whom all blessings flow",
       "audioUrl": "/hymnal-media/hog-audio/hog_439.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "Praise God from whom all blessings flow;\npraise him, all creatures here below;\npraise him above, ye heav'nly host;\npraise Father, Son, and Holy Ghost. Amen."
+        }
+      ]
     },
     {
       "number": "440",
@@ -9507,13 +10899,25 @@
       "author": "Thomas Ken",
       "firstLine": "Praise God from whom all blessings flow",
       "audioUrl": "/hymnal-media/hog-audio/hog_440.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "Praise God from whom all blessings flow;\npraise him, all creatures here below;\npraise him above, ye heav'nly host;\npraise Father, Son, and Holy Ghost. Amen."
+        }
+      ]
     },
     {
       "number": "441",
       "title": "Humble yourselves, therefore, under the mighty hand of God",
       "firstLine": "Humble yourselves, therefore, under the mighty hand of God",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "6. Humble yourselves, therefore, under the mighty hand of God so that at the proper time he may exalt you,\n7. casting all your anxieties on him, because he cares for you.\n8. Be sober-minded; be watchful. Your adversary the devil prowls around like a roaring lion, seeking someone to devour.\n9. Resist him, firm in your faith, knowing that the same kinds of suffering are being experienced by your brotherhood throughout the world.\n10. And after you have suffered a little while, the God of all grace, who has called you to his eternal glory in Christ, will himself restore, confirm, strengthen, and establish you.\n11. To him be the dominion forever and ever. Amen."
+        }
+      ]
     },
     {
       "number": "442",
@@ -9527,14 +10931,31 @@
       "number": "443",
       "title": "Now may the God of peace who brought again from the dead",
       "firstLine": "Now may the God of peace who brought again from the dead",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "20. Now may the God of peace who brought again from the dead our Lord Jesus, the great shepherd of the sheep, by the blood of the eternal covenant,\n21. equip you with everything good that you may do his will, working in us that which is pleasing in his sight, through Jesus Christ, to whom be glory forever and ever. Amen."
+        }
+      ]
     },
     {
       "number": "444",
       "title": "Now blessed be the Lord our God",
       "firstLine": "Now blessed be the Lord our God",
       "audioUrl": "/hymnal-media/hog-audio/hog_444.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": 1,
+          "isChorus": false,
+          "text": "Now blessed be the Lord our God,\nThe God of Israel,\nFor he alone doth wondrous works\nIn glory that excel."
+        },
+        {
+          "number": 2,
+          "isChorus": false,
+          "text": "And blessed be his glorious Name\nTo all eternity:\nThe whole earth let his glory fill.\nAmen, so let it be.\nAmen."
+        }
+      ]
     }
   ]
 }
