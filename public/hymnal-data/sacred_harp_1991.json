@@ -2141,7 +2141,108 @@
       "composer": "B. F. White",
       "audioUrl": "/hymnal-media/sh-audio/76b.mp3",
       "sheetMusicUrl": "/hymnal-media/sh-sheet/076.pdf",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "At length, by certain proofs, 'is plain\n\n\nthat God will to his saints be kind;\n\n\nThat all whose hearts are pure and clean,\n\n\nshall his protecting favour find."
+        },
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "2, 3 Till this sustaining truth I knew,\n\n\nmy stagg'ring feet had almost fail'd;\n\n\nI griev'd, the sinners' wealth to view,\n\n\nand envy'd when the fools prevail'd."
+        },
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "4, 5 They to the grave in peace descend,\n\n\nand, whilst they live, are hale and strong;\n\n\nNo plague or troubles them offend,\n\n\nwhich oft to other men belong."
+        },
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "6, 7 With pride, as with a chain, they're held,\n\n\nand rapine seems their robe of state;\n\n\nTheir eyes stand out, with fatness swell'd;\n\n\nthey grow, beyond their wishes, great."
+        },
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "8, 9 With hearts corrupt, and lofty talk,\n\n\noppressive methods they defend;\n\n\nTheir tongue through all the earth does walk;\n\n\ntheir blasphemies to heav'n ascend."
+        },
+        {
+          "number": "10",
+          "isChorus": "False",
+          "text": "And yet admiring crowds are found,\n\n\nwho servile visits duly make;\n\n\nBecause with plenty they abound,\n\n\nof which their flatt'ring slaves partake."
+        },
+        {
+          "number": "11",
+          "isChorus": "False",
+          "text": "Their fond opinions these pursue,\n\n\ntill they with them profanely cry,\n\n\n\"How should the Lord our actions view?\n\n\n\"can he perceive, who dwells so high?"
+        },
+        {
+          "number": "12",
+          "isChorus": "False",
+          "text": "Behold the wicked! these are they\n\n\nwho openly their sins profess;\n\n\nAnd yet their wealth's increas'd each day,\n\n\nand all their actions meet success."
+        },
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "13, 14 \"Then have I cleans'd my heart,\" said I,\n\n\n\"and wash'd my hands from guilt, in vain,\n\n\n\"If all the day oppress'd I lie,\n\n\n\"and ev'ry morning suffer pain.\""
+        },
+        {
+          "number": "15",
+          "isChorus": "False",
+          "text": "Thus did I once to speak intend:\n\n\nbut, if such things I rashly say,\n\n\nThy children, Lord, I must offend,\n\n\nand basely should their cause betray."
+        },
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "Part II."
+        },
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "16, 17 To fathom this my thoughts I bent,\n\n\nbut found the case too hard for me;\n\n\nTill to the house of God I went;\n\n\nthen I their end did plainly see."
+        },
+        {
+          "number": "18",
+          "isChorus": "False",
+          "text": "How high soe'er advanc'd, they all\n\n\non slipp'ry places loosely stand;\n\n\nThence into ruin headlong fall,\n\n\ncast down by thy avenging hand."
+        },
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "19, 20 How dreadful and how quick their fate!\n\n\ndespis'd by thee, when they're destroy'd;\n\n\nAs waking men with scorn do treat\n\n\nthe fancies that their dreams employ'd."
+        },
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "21, 22 Thus was my heart with grief opprest,\n\n\nmy reins were rack'd with restless pains;\n\n\nSo stupid was I like a beast,\n\n\nwho no reflecting thought retains."
+        },
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "23, 24 Yet still thy presence me supply'd,\n\n\nand thy right-hand assistance gave;\n\n\nThou first shalt with thy counsel guide\n\n\nand then to glory me receive."
+        },
+        {
+          "number": "25",
+          "isChorus": "False",
+          "text": "Whom then in heaven, but thee alone\n\n\nhave I, whose favour I require?\n\n\nThroughout the spacious earth there's none\n\n\nthat I besides thee can desire."
+        },
+        {
+          "number": "26",
+          "isChorus": "False",
+          "text": "My trembling flesh, and aching heart,\n\n\nmay often fail to succour me;\n\n\nBut God shall inward strength impart,\n\n\nand my eternal portion be."
+        },
+        {
+          "number": "27",
+          "isChorus": "False",
+          "text": "For they that far from thee remove,\n\n\nshall into sudden ruin fall;\n\n\nIf after other gods they rove,\n\n\nthy vengeance shall destroy them all."
+        },
+        {
+          "number": "28",
+          "isChorus": "False",
+          "text": "But as for me, 'tis good and just,\n\n\nthat I should still to God repair;\n\n\nIn him I always put my trust,\n\n\nand will his wond'rous works declare."
+        }
+      ]
     },
     {
       "number": "77a",
@@ -2376,7 +2477,23 @@
       "composer": "B. F. White",
       "audioUrl": "/hymnal-media/sh-audio/83a.mp3",
       "sheetMusicUrl": "/hymnal-media/sh-sheet/083.pdf",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "Be still, my soul! the Lord is on your side;\n\n\nBear patiently the cross of grief or pain;\n\n\nLeave to your God to order and provide;\n\n\nIn ev'ry change he faithful will remain.\n\n\nBe still, my soul! your best, your heav’nly friend\n\n\nThru' thorny ways leads to a joyful end."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "Be still, my soul! your God does undertake\n\n\nTo guide the future as he has the past;\n\n\nYour hope, your confidence, let nothing shake;\n\n\nall now mysterious shall be bright at last.\n\n\nBe still, my soul! the waves and winds still know\n\n\nHis voice who ruled them while he lived below."
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "Be still, my soul! when dearest friends depart\n\n\nAnd all is darkened in the vale of tears,\n\n\nThen shall you better know his love, his heart,\n\n\nWho comes to soothe your sorrow and your fears.\n\n\nBe still, my soul! your Jesus can repay\n\n\nFrom his own fullness all he takes away."
+        }
+      ]
     },
     {
       "number": "83b",
@@ -2845,7 +2962,13 @@
       "tune": "CANAAN'S LAND",
       "meter": "C.M.D.",
       "key": "A Major",
-      "verses": [],
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "O for a breeze of heav'nly love To waft my soul away\nTo that celestial world above, Where pleasures ne'er decay.\nEternal Spirit, deign to be My pilot here below,\nTo steer thro' life's tempestuous sea, Where stormy winds do blow."
+        }
+      ],
       "sheetMusicUrl": "/hymnal-media/sh-sheet/101.pdf",
       "audioUrl": "/hymnal-media/sh-audio/101a.mp3"
     },
@@ -3038,7 +3161,18 @@
       "composer": "J. P. Reese",
       "audioUrl": "/hymnal-media/sh-audio/108a.mp3",
       "sheetMusicUrl": "/hymnal-media/sh-sheet/108.pdf",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "Weeping sinners, dry your tears, Jesus on His throne appears;\nMercy comes with balmy wings, Bids you His salvation sing."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "Peace He brings you by His death, Peace He speaks with ev'ry breath;\nCan you slight such heav'nly charms? Flee, oh, flee to Jesus' arms."
+        }
+      ]
     },
     {
       "number": "108b",
@@ -3122,7 +3256,34 @@
       "key": "G Major or modal",
       "composer": "R. F. M. Mann",
       "audioUrl": "/hymnal-media/sh-audio/111a.mp3",
-      "sheetMusicUrl": "/hymnal-media/sh-sheet/111.pdf"
+      "sheetMusicUrl": "/hymnal-media/sh-sheet/111.pdf",
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "On Jordan's stormy banks I stand, \n\n\n\tand cast a wishful eye \n\n\n\tto Canaan's fair and happy land, \n\n\n\twhere my possessions lie."
+        },
+        {
+          "number": "",
+          "isChorus": "True",
+          "text": "I am bound for the promised land, \n\n\n\tI am bound for the promised land; \n\n\n\toh, who will come and go with me? \n\n\n\tI am bound for the promised land."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "O'er all those wide extended plains \n\n\n\tshines one eternal day; \n\n\n\tthere God the Son forever reigns, \n\n\n\tand scatters night away. [Refrain]"
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "No chilling winds or poisonous breath \n\n\n\tcan reach that healthful shore; \n\n\n\tsickness and sorrow, pain and death, \n\n\n\tare felt and feared no more. [Refrain]"
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "When I shall reach that happy place, \n\n\n\tI'll be forever blest, \n\n\n\tfor I shall see my Father's face, \n\n\n\tand in his bosom rest. [Refrain]"
+        }
+      ]
     },
     {
       "number": "111b",
@@ -5187,7 +5348,13 @@
       "composer": "Oliver Brownson",
       "audioUrl": "/hymnal-media/sh-audio/191.mp3",
       "sheetMusicUrl": "/hymnal-media/sh-sheet/191.pdf",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "Thy words the raging winds control, And rule the boist'rous deep;\nThou mak'st the sleeping billows roll, The rolling billows sleep."
+        }
+      ]
     },
     {
       "number": "192",
@@ -6243,7 +6410,13 @@
       "meter": "8,7,8,7,4,7.",
       "key": "A Major",
       "composer": "M. M. Wynn",
-      "verses": [],
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "\"Why, O sinner, me profaning? Why,\" says God, \"my statutes name;\nWhy my cov'nant grace disdaining? Still my cov'nant grace proclaim!\nHating counsel, hating counsel, All my laws exposed to shame.\nLong in grace proclaim! Hating counsel, hating counsel,\nAll my laws exposed to shame. Long in\""
+        }
+      ],
       "audioUrl": "/hymnal-media/sh-audio/263.mp3",
       "sheetMusicUrl": "/hymnal-media/sh-sheet/263.pdf"
     },
@@ -7380,7 +7553,24 @@
       "key": "C Major",
       "composer": "Oliver Holden",
       "audioUrl": "/hymnal-media/sh-audio/313a.mp3",
-      "sheetMusicUrl": "/hymnal-media/sh-sheet/313.pdf"
+      "sheetMusicUrl": "/hymnal-media/sh-sheet/313.pdf",
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "The men of grace have found, Glory begun below;\nCelestial fruits on earthly ground, From faith and hope may grow."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "The hill of Zion yields, A thousand sacred sweets,\nBefore we reach the heav'nly fields, Or walk the golden streets."
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "Then let our songs abound, And ev'ry tear be dry;\nWe're marching through Immanuel's ground, To fairer worlds on high."
+        }
+      ]
     },
     {
       "number": "313b",
@@ -7594,7 +7784,14 @@
       "meter": "7,6,7,7.",
       "key": "F Major or modal",
       "audioUrl": "/hymnal-media/sh-audio/323b.mp3",
-      "sheetMusicUrl": "/hymnal-media/sh-sheet/323.pdf"
+      "sheetMusicUrl": "/hymnal-media/sh-sheet/323.pdf",
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "Hark! the vesper hymn is stealing\n\r\nO’er the waters soft and clear;\n\r\nJubilate, Jubilate, Jubilate,\n\r\nAmen."
+        }
+      ]
     },
     {
       "number": "324",
@@ -8151,7 +8348,34 @@
       "key": "g minor",
       "composer": "Sarah Lancaster",
       "audioUrl": "/hymnal-media/sh-audio/345b.mp3",
-      "sheetMusicUrl": "/hymnal-media/sh-sheet/345.pdf"
+      "sheetMusicUrl": "/hymnal-media/sh-sheet/345.pdf",
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "On Jordan's stormy banks I stand, \n\n\n\tand cast a wishful eye \n\n\n\tto Canaan's fair and happy land, \n\n\n\twhere my possessions lie."
+        },
+        {
+          "number": "",
+          "isChorus": "True",
+          "text": "I am bound for the promised land, \n\n\n\tI am bound for the promised land; \n\n\n\toh, who will come and go with me? \n\n\n\tI am bound for the promised land."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "O'er all those wide extended plains \n\n\n\tshines one eternal day; \n\n\n\tthere God the Son forever reigns, \n\n\n\tand scatters night away. [Refrain]"
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "No chilling winds or poisonous breath \n\n\n\tcan reach that healthful shore; \n\n\n\tsickness and sorrow, pain and death, \n\n\n\tare felt and feared no more. [Refrain]"
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "When I shall reach that happy place, \n\n\n\tI'll be forever blest, \n\n\n\tfor I shall see my Father's face, \n\n\n\tand in his bosom rest. [Refrain]"
+        }
+      ]
     },
     {
       "number": "346",
@@ -8311,7 +8535,28 @@
       "composer": "Hezekiah Moors",
       "audioUrl": "/hymnal-media/sh-audio/351.mp3",
       "sheetMusicUrl": "/hymnal-media/sh-sheet/351.pdf",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "How wondrous great, how glorious bright\n\n\nmust our Creator be,\n\n\nwho dwells amidst the dazzling light\n\n\nof vast eternity."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "Our soaring spirits upwards rise\n\n\nto reach the burning throne\n\n\nand long to see the blessed Three\n\n\nin the Almighty One."
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "Our reason stretches all its wings,\n\n\nand climbs above the skies;\n\n\nbut still how far beneath thy feet\n\n\nour groundling knowledge lies!"
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "While all the heavenly powers conspire\n\n\neternal praise to sing,\n\n\nlet faith in humble notes adore\n\n\nthe great mysterious King."
+        }
+      ]
     },
     {
       "number": "352",
@@ -8463,7 +8708,63 @@
       "composer": "H. S. Reese",
       "audioUrl": null,
       "sheetMusicUrl": "/hymnal-media/sh-sheet/359.pdf",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "The star is not extinguished when it sets\n\n\nUpon the dull horizon; it but goes\n\n\nTo shine in other skies, then re-appear\n\n\nIn ours, as fresh as when it first arose."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "The river is not lost, when, o’er the rock,\n\n\nIt pours its flood into th’abyss below:\n\n\nIts scattered force re-gathering from the shock,\n\n\nIt hastens onward, with yet fuller flow."
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "The bright sun dies not, when the shadowing orb\n\n\nOf the eclipsing moon obscures its ray:\n\n\nIt still is shining on; and soon to us\n\n\nWill burst undimmed into the joy of day."
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "The lily dies not, when both flower and leaf\n\n\nFade, and are strewed upon the chill sad ground:\n\n\nGone down for shelter to its mother-earth,\n\n\n’Twill rise, re-bloom, and shed its fragrance round."
+        },
+        {
+          "number": "5",
+          "isChorus": "False",
+          "text": "The dewdrop dies not, when it leaves the flower,\n\n\nAnd passes upward on the beam of morn:\n\n\nIt does but hide itself in light on high,\n\n\nTo its loved flower at twilight to return."
+        },
+        {
+          "number": "6",
+          "isChorus": "False",
+          "text": "The fine gold has not perished, when the flame\n\n\nSeizes upon it with consuming glow:\n\n\nIn freshened splendor it comes forth anew,\n\n\nTo sparkle on the monarch’s throne or brow."
+        },
+        {
+          "number": "7",
+          "isChorus": "False",
+          "text": "Thus nothing dies, or only dies to live:\n\n\nStar, stream, sun, flower, the dew-drop, and the gold,\n\n\nEach goodly thing, instinct with buoyant hope,\n\n\nHastes to put on its purer, finer mould."
+        },
+        {
+          "number": "8",
+          "isChorus": "False",
+          "text": "Thus in the quiet joy of kindly trust,\n\n\nWe bid each parting saint a brief farewell:\n\n\nWeeping, yet smiling, we commit their dust\n\n\nTo the safe keeping of the silent cell."
+        },
+        {
+          "number": "9",
+          "isChorus": "False",
+          "text": "Softly within that peaceful resting place,\n\n\nWe lay their wearied limbs; and bid the clay\n\n\nPress lightly on them, till the night be past,\n\n\nAnd the far east give note of coming day."
+        },
+        {
+          "number": "10",
+          "isChorus": "False",
+          "text": "The day of re-appearing! how it speeds!\n\n\nHe who is true and faithful speaks the word.\n\n\nThen shall we ever be with those we love,\n\n\nThen shall we be for ever with the Lord."
+        },
+        {
+          "number": "11",
+          "isChorus": "False",
+          "text": "The shout is heard; th’archangel’s voice goes forth;\n\n\nThe trumpet sounds; the dead awake and sing;\n\n\nThe living put on glory; one glad band,\n\n\nThey hasten up to meet their coming king."
+        }
+      ]
     },
     {
       "number": "360",
@@ -8786,7 +9087,28 @@
       "key": "g minor",
       "audioUrl": "/hymnal-media/sh-audio/378b.mp3",
       "sheetMusicUrl": "/hymnal-media/sh-sheet/378.pdf",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "All praise to You, my God, this night,\n\n\nFor all the blessings of the light.\n\n\nKeep me, O keep me, King of kings,\n\n\nBeneath the shelter of Your wings."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "Forgive me, Lord, for this I pray,\n\n\nThe wrong that I have done this day.\n\n\nMay peace with God and neighbor be,\n\n\nBefore I sleep restored to me."
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "Lord, may I be at rest in You\n\n\nAnd sweetly sleep the whole night thro'.\n\n\nRefresh my strength, for Your own sake,\n\n\nSo I may serve You when I wake."
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "Praise God, from whom all blessings flow;\n\n\nPraise Him all creatures here below;\n\n\nPraise Him above, ye heav'nly host;\n\n\nPraise Father, Son, and Holy Ghost."
+        }
+      ]
     },
     {
       "number": "379",
@@ -9546,7 +9868,38 @@
       "key": "A Major",
       "composer": "Ball",
       "audioUrl": "/hymnal-media/sh-audio/410a.mp3",
-      "verses": [],
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "Deep the gloom, and still the night,\n\n\nCold and damp the weather,\n\n\nWhen the chill night air despite,\n\n\nMet three kings together.\n\n\nOne was old with snow-white hair,\n\n\nOne the prime of manhood bare,\n\n\nAnd the third, a youth, stood there\n\n\nWith them on the heather."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "Looking for the promised King,\n\n\nWho, in Eastern quarters,\n\n\nSoon should spring to life, to rule\n\n\nO'er earth's sons and daughters,\n\n\nThem this eve, while rapt in sleep,\n\n\nOne had roused in accents deep,\n\n\n\"Haste ye; watch ye; vigil keep\n\n\nBy Euphrates' waters!\""
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "Up they spring, and quickly hie,\n\n\nEach his pathway bending,\n\n\nThrough the chilly mist and gloom,\n\n\nO'er the earth depending,\n\n\nHow the world in darkness lay,\n\n\nTill the Day-Star shed Its ray,\n\n\nNature thus would fain display;\n\n\nMystic emblems lending."
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "Then the kings with solemn gaze\n\n\nLooked on high beholding;\n\n\nFor the marvel yet to come,\n\n\nHeav'n their spirits moulding,\n\n\nWhen behold, with silent awe,\n\n\nSuddenly the clouds they saw\n\n\nLike a darkened veil withdraw,\n\n\nWonders more unfolding."
+        },
+        {
+          "number": "5",
+          "isChorus": "False",
+          "text": "In a trice a star shone forth,\n\n\nO!  so brightly shining!--\n\n\nNearer, nearer yet it came,\n\n\nStill towards earth inclining!\n\n\nAnd 'twas shaped--O wondrous sight!\n\n\nLike a child enthroned in light,\n\n\nCrown'd, though yet, with sceptre bright.\n\n\nVictor--cross combining!*"
+        },
+        {
+          "number": "6",
+          "isChorus": "False",
+          "text": "Then one cried, \"Behold the star\n\n\nOf which seers have spoken,\n\n\nBeaming on the land afar,\n\n\nAnd of life the token!\n\n\nHaste we, brothers!  let us speed;\n\n\nSee, it moves!  It comes to lead\n\n\nTo the Christ, of Judah's seed\n\n\nBorn of line unbroken!\""
+        }
+      ],
       "sheetMusicUrl": "/hymnal-media/sh-sheet/410.pdf"
     },
     {

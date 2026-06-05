@@ -1,0 +1,644 @@
+{
+  "731": {
+    "psalm": "",
+    "psh_num": null,
+    "reason": "no PsH1934 with this psalm"
+  },
+  "732": {
+    "psalm": "",
+    "psh_num": null,
+    "reason": "no PsH1934 with this psalm"
+  },
+  "733": {
+    "psalm": "4",
+    "psh_num": "6",
+    "first_line": "My righteous God, who oft of old",
+    "overlap_count": 0,
+    "confidence": "low-multi-candidate-first-pick",
+    "all_psalm_candidates": [
+      [
+        "8",
+        "On the good and faithful"
+      ],
+      [
+        "7",
+        "On the good and faithful"
+      ],
+      [
+        "6",
+        "My righteous God, who oft of old"
+      ]
+    ]
+  },
+  "734": {
+    "psalm": "7",
+    "psh_num": "12",
+    "first_line": "Jehovah, my God, on Thy help I depend;",
+    "overlap_count": 0,
+    "overlap_ratio": 0.0,
+    "confidence": "low-single-candidate",
+    "all_psalm_candidates": [
+      [
+        "12",
+        "Jehovah, my God, on Thy help I depend;"
+      ]
+    ]
+  },
+  "735": {
+    "psalm": "17",
+    "psh_num": "25",
+    "first_line": "Lord, hear the right, regard my cry,",
+    "overlap_count": 3,
+    "overlap_ratio": 0.75,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "25",
+        "Lord, hear the right, regard my cry,"
+      ]
+    ]
+  },
+  "736": {
+    "psalm": "20",
+    "psh_num": "34",
+    "first_line": "Jehovah hear thee in thy grief,",
+    "overlap_count": 2,
+    "overlap_ratio": 0.5,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "34",
+        "Jehovah hear thee in thy grief,"
+      ]
+    ]
+  },
+  "737": {
+    "psalm": "21",
+    "psh_num": "35",
+    "first_line": "Now the King in Thy strength shall be joyful, O Lord,",
+    "overlap_count": 4,
+    "overlap_ratio": 0.8,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "35",
+        "Now the King in Thy strength shall be joyful, O Lo"
+      ]
+    ]
+  },
+  "738": {
+    "psalm": "26",
+    "psh_num": "52",
+    "first_line": "Be Thou my Judge, O righteous Lord,",
+    "overlap_count": 2,
+    "overlap_ratio": 0.5,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "52",
+        "Be Thou my Judge, O righteous Lord,"
+      ]
+    ]
+  },
+  "739": {
+    "psalm": "28",
+    "psh_num": "55",
+    "first_line": "O Lord, to Thee I cry;",
+    "overlap_count": 2,
+    "overlap_ratio": 1.0,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "55",
+        "O Lord, to Thee I cry;"
+      ]
+    ]
+  },
+  "740": {
+    "psalm": "35",
+    "psh_num": "67",
+    "first_line": "Be Thou my helper in the strife,",
+    "overlap_count": 2,
+    "overlap_ratio": 0.667,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "67",
+        "Be Thou my helper in the strife,"
+      ]
+    ]
+  },
+  "741": {
+    "psalm": "39",
+    "psh_num": "74",
+    "first_line": "",
+    "overlap_count": 0,
+    "confidence": "low-multi-candidate-first-pick",
+    "all_psalm_candidates": [
+      [
+        "75",
+        "With firm resolve I held my peace"
+      ],
+      [
+        "74",
+        ""
+      ]
+    ]
+  },
+  "742": {
+    "psalm": "41",
+    "psh_num": "79",
+    "first_line": "How blest the man who thoughtfully",
+    "overlap_count": 1,
+    "overlap_ratio": 0.5,
+    "confidence": "low-single-candidate",
+    "all_psalm_candidates": [
+      [
+        "79",
+        "How blest the man who thoughtfully"
+      ]
+    ]
+  },
+  "743": {
+    "psalm": "49",
+    "psh_num": "97",
+    "first_line": "Dust to dust, the mortal dies,",
+    "overlap_count": 2,
+    "overlap_ratio": 0.667,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "97",
+        "Dust to dust, the mortal dies,"
+      ],
+      [
+        "96",
+        "Hear this, all ye people, hear,"
+      ]
+    ]
+  },
+  "744": {
+    "psalm": "52",
+    "psh_num": "104",
+    "first_line": "O mighty man, why wilt Thou boast",
+    "overlap_count": 2,
+    "overlap_ratio": 0.5,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "104",
+        "O mighty man, why wilt Thou boast"
+      ]
+    ]
+  },
+  "745": {
+    "psalm": "53",
+    "psh_num": "105",
+    "first_line": "Fools in their heart have said,",
+    "overlap_count": 3,
+    "overlap_ratio": 0.6,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "105",
+        "Fools in their heart have said,"
+      ]
+    ]
+  },
+  "746": {
+    "psalm": "54",
+    "psh_num": "106",
+    "first_line": "O save me by Thy Name,",
+    "overlap_count": 2,
+    "overlap_ratio": 1.0,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "106",
+        "O save me by Thy Name,"
+      ]
+    ]
+  },
+  "747": {
+    "psalm": "55",
+    "psh_num": "107",
+    "first_line": "Jehovah, to my prayer give ear,",
+    "overlap_count": 2,
+    "overlap_ratio": 0.667,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "107",
+        "Jehovah, to my prayer give ear,"
+      ],
+      [
+        "109",
+        "O God, give Thou ear to my plea,"
+      ],
+      [
+        "108",
+        "On God alone my soul relies,"
+      ]
+    ]
+  },
+  "748": {
+    "psalm": "57",
+    "psh_num": "112",
+    "first_line": "O God, be merciful to me,",
+    "overlap_count": 1,
+    "overlap_ratio": 1.0,
+    "confidence": "low-single-candidate",
+    "all_psalm_candidates": [
+      [
+        "112",
+        "O God, be merciful to me,"
+      ]
+    ]
+  },
+  "749": {
+    "psalm": "58",
+    "psh_num": "113",
+    "first_line": "Do ye, O men, speak righteousness",
+    "overlap_count": 2,
+    "overlap_ratio": 1.0,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "113",
+        "Do ye, O men, speak righteousness"
+      ]
+    ]
+  },
+  "750": {
+    "psalm": "59",
+    "psh_num": "114",
+    "first_line": "Protect and save me, O my God,",
+    "overlap_count": 1,
+    "overlap_ratio": 0.5,
+    "confidence": "low-single-candidate",
+    "all_psalm_candidates": [
+      [
+        "114",
+        "Protect and save me, O my God,"
+      ]
+    ]
+  },
+  "751": {
+    "psalm": "60",
+    "psh_num": "115",
+    "first_line": "O God, Thou hast rejected us,",
+    "overlap_count": 2,
+    "overlap_ratio": 0.667,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "115",
+        "O God, Thou hast rejected us,"
+      ]
+    ]
+  },
+  "752": {
+    "psalm": "61",
+    "psh_num": "116",
+    "first_line": "O God, regard my humble plea;",
+    "overlap_count": 0,
+    "overlap_ratio": 0.0,
+    "confidence": "low-single-candidate",
+    "all_psalm_candidates": [
+      [
+        "116",
+        "O God, regard my humble plea;"
+      ]
+    ]
+  },
+  "753": {
+    "psalm": "64",
+    "psh_num": "120",
+    "first_line": "Hear Lord, the voice of my complaint,",
+    "overlap_count": 3,
+    "overlap_ratio": 0.75,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "120",
+        "Hear Lord, the voice of my complaint,"
+      ]
+    ]
+  },
+  "754": {
+    "psalm": "70",
+    "psh_num": "137",
+    "first_line": "Make haste, O my God, to deliver, I pray,",
+    "overlap_count": 0,
+    "overlap_ratio": 0.0,
+    "confidence": "low-single-candidate",
+    "all_psalm_candidates": [
+      [
+        "137",
+        "Make haste, O my God, to deliver, I pray,"
+      ]
+    ]
+  },
+  "755": {
+    "psalm": "71",
+    "psh_num": "139",
+    "first_line": "From days of early youth, O God,",
+    "overlap_count": 2,
+    "overlap_ratio": 0.5,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "139",
+        "From days of early youth, O God,"
+      ],
+      [
+        "138",
+        "In Thee, O Lord, I put my trust;"
+      ]
+    ]
+  },
+  "756": {
+    "psalm": "74",
+    "psh_num": "150",
+    "first_line": "O wherefore hast Thou cast us off,",
+    "overlap_count": 0,
+    "overlap_ratio": 0.0,
+    "confidence": "low-single-candidate",
+    "all_psalm_candidates": [
+      [
+        "150",
+        "O wherefore hast Thou cast us off,"
+      ]
+    ]
+  },
+  "757": {
+    "psalm": "75",
+    "psh_num": "151",
+    "first_line": "To Thee, O God, we render thanks,",
+    "overlap_count": 2,
+    "overlap_ratio": 0.667,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "151",
+        "To Thee, O God, we render thanks,"
+      ]
+    ]
+  },
+  "758": {
+    "psalm": "81",
+    "psh_num": "165",
+    "first_line": "Now to God, our Strength and Savior,",
+    "overlap_count": 0,
+    "confidence": "low-multi-candidate-first-pick",
+    "all_psalm_candidates": [
+      [
+        "166",
+        ""
+      ],
+      [
+        "165",
+        "Now to God, our Strength and Savior,"
+      ]
+    ]
+  },
+  "759": {
+    "psalm": "82",
+    "psh_num": "167",
+    "first_line": "Where'er His creatures gather",
+    "overlap_count": 1,
+    "overlap_ratio": 0.333,
+    "confidence": "low-single-candidate",
+    "all_psalm_candidates": [
+      [
+        "167",
+        "Where'er His creatures gather"
+      ]
+    ]
+  },
+  "760": {
+    "psalm": "85",
+    "psh_num": "173",
+    "first_line": "Lord, Thou hast greatly blessed our land,",
+    "overlap_count": 5,
+    "overlap_ratio": 0.833,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "173",
+        "Lord, Thou hast greatly blessed our land,"
+      ]
+    ]
+  },
+  "761": {
+    "psalm": "88",
+    "psh_num": "178",
+    "first_line": "Lord, the God of my salvation,",
+    "overlap_count": 2,
+    "overlap_ratio": 1.0,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "178",
+        "Lord, the God of my salvation,"
+      ]
+    ]
+  },
+  "762": {
+    "psalm": "101",
+    "psh_num": "206",
+    "first_line": "Of mercy and of justice",
+    "overlap_count": 1,
+    "confidence": "low-multi-candidate-first-pick",
+    "all_psalm_candidates": [
+      [
+        "206",
+        "Of mercy and of justice"
+      ],
+      [
+        "207",
+        ""
+      ]
+    ]
+  },
+  "763": {
+    "psalm": "105",
+    "psh_num": "222",
+    "first_line": "O praise the Lord, His deeds make known,",
+    "overlap_count": 4,
+    "overlap_ratio": 0.8,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "222",
+        "O praise the Lord, His deeds make known,"
+      ],
+      [
+        "221",
+        ""
+      ]
+    ]
+  },
+  "764": {
+    "psalm": "106",
+    "psh_num": "223",
+    "first_line": "Praise ye the Lord, for He is good;",
+    "overlap_count": 3,
+    "overlap_ratio": 1.0,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "223",
+        "Praise ye the Lord, for He is good;"
+      ]
+    ]
+  },
+  "765": {
+    "psalm": "108",
+    "psh_num": "232",
+    "first_line": "My heart is fixed, O God,",
+    "overlap_count": 2,
+    "overlap_ratio": 1.0,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "232",
+        "My heart is fixed, O God,"
+      ],
+      [
+        "231",
+        "My steadfast heart, O God,"
+      ]
+    ]
+  },
+  "766": {
+    "psalm": "109",
+    "psh_num": "233",
+    "first_line": "O God, whom I delight to praise,",
+    "overlap_count": 0,
+    "overlap_ratio": 0.0,
+    "confidence": "low-single-candidate",
+    "all_psalm_candidates": [
+      [
+        "233",
+        "O God, whom I delight to praise,"
+      ]
+    ]
+  },
+  "767": {
+    "psalm": "111",
+    "psh_num": "236",
+    "first_line": "O give the Lord wholehearted praise,",
+    "overlap_count": 2,
+    "overlap_ratio": 0.5,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "236",
+        "O give the Lord wholehearted praise,"
+      ]
+    ]
+  },
+  "768": {
+    "psalm": "112",
+    "psh_num": "237",
+    "first_line": "How blest the man who fears the Lord",
+    "overlap_count": 2,
+    "overlap_ratio": 0.667,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "237",
+        "How blest the man who fears the Lord"
+      ]
+    ]
+  },
+  "769": {
+    "psalm": "120",
+    "psh_num": "272",
+    "first_line": "I cried to God in my distress,",
+    "overlap_count": 2,
+    "overlap_ratio": 1.0,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "272",
+        "I cried to God in my distress,"
+      ]
+    ]
+  },
+  "770": {
+    "psalm": "129",
+    "psh_num": "285",
+    "first_line": "Through all the years, may Israel say,",
+    "overlap_count": 0,
+    "overlap_ratio": 0.0,
+    "confidence": "low-single-candidate",
+    "all_psalm_candidates": [
+      [
+        "285",
+        "Through all the years, may Israel say,"
+      ]
+    ]
+  },
+  "771": {
+    "psalm": "137",
+    "psh_num": "301",
+    "first_line": "By Babel's streams we sat and wept,",
+    "overlap_count": 2,
+    "overlap_ratio": 0.667,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "301",
+        "By Babel's streams we sat and wept,"
+      ]
+    ]
+  },
+  "772": {
+    "psalm": "140",
+    "psh_num": "307",
+    "first_line": "Deliver me from evil,",
+    "overlap_count": 3,
+    "overlap_ratio": 1.0,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "307",
+        "Deliver me from evil,"
+      ]
+    ]
+  },
+  "773": {
+    "psalm": "141",
+    "psh_num": "308",
+    "first_line": "O Lord, make haste to hear my cry,",
+    "overlap_count": 3,
+    "overlap_ratio": 0.75,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "308",
+        "O Lord, make haste to hear my cry,"
+      ]
+    ]
+  },
+  "774": {
+    "psalm": "143",
+    "psh_num": "311",
+    "first_line": "When morning lights the eastern skies,",
+    "overlap_count": 4,
+    "overlap_ratio": 0.8,
+    "confidence": "high",
+    "all_psalm_candidates": [
+      [
+        "311",
+        "When morning lights the eastern skies,"
+      ],
+      [
+        "310",
+        "Lord, hear me in distress,"
+      ]
+    ]
+  }
+}

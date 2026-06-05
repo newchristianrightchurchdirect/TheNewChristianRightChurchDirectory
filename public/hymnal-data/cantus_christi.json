@@ -1790,7 +1790,13 @@
       "sheetMusicUrl": "/hymnal-media/cc-sheet/create-in-me-a-clean-heart-o-god.pdf",
       "audioUrl": "/hymnal-media/cc-audio/Create-in-Me-a-Clean-Heart-704.mp3",
       "notes": "Psalm 51:10-12",
-      "verses": []
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "Create in me a clean heart, O God;\nAnd renew a right spirit within me.\nCast me not away from Thy presence;\nAnd take not Thy Holy Spirit from me.\nRestore unto me the joy of Thy salvation;\nAnd uphold me with Thy free Spirit."
+        }
+      ]
     },
     {
       "number": "S4",
@@ -2011,7 +2017,33 @@
       "sheetMusicUrl": "/hymnal-media/cc-sheet/For-All-the-Saints.pdf",
       "notes": "Video: https://www.youtube.com/watch?v=ILGCrcmDKtI",
       "audioUrl": "https://hymnary.org/media/fetch/150328/hymnary/audio/GG2013/326-ForAllTheSaints_accom.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "For all the saints who from their labors rest,\n\r\nwho Thee by faith before the world confessed;\n\r\nThy name, O Jesus, be forever blest.\n\r\nAlleluia, Alleluia!"
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "Thou wast their Rock, their Fortress and their Might;\n\r\nThou, Lord, their Captain in the well-fought fight;\n\r\nThou, in the darkness drear, their one true Light.\n\r\nAlleluia, Alleluia!"
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "O blest communion, fellowship divine!\n\r\nWe feebly struggle, they in glory shine;\n\r\nyet all are one in Thee, for all are Thine.\n\r\nAlleluia, Alleluia!"
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "And when the strife is fierce, the warfare long,\n\r\nsteals on the ear the distant triumph song,\n\r\nand hearts are brave again, and arms are strong.\n\r\nAlleluia, Alleluia!"
+        },
+        {
+          "number": "5",
+          "isChorus": "False",
+          "text": "But then there breaks a still more glorious day:\n\r\nthe saints triumphant rise in bright array;\n\r\nthe King of glory passes on His way.\n\r\nAlleluia, Alleluia!"
+        }
+      ]
     },
     {
       "number": "S7",
@@ -3599,7 +3631,23 @@
       "sheetMusicUrl": "/hymnal-media/cc-sheet/I-Love-the-Lord-Ps-116.pdf",
       "notes": "Psalm 116:1–9\nVideo: https://youtu.be/NdqUi9U8ds8",
       "audioUrl": "https://hymnary.org/media/fetch/205842/public%3A//hymnary/media/ELW2006/ELW807_Come%2C_Thou_Fount_of_Every_Blessing.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "Come, thou Fount of every blessing;\n\r\ntune my heart to sing thy grace;\n\r\nstreams of mercy, never ceasing,\n\r\ncall for songs of loudest praise.\n\r\nTeach me some melodious sonnet,\n\r\nsung by flaming tongues above;\n\r\npraise the mount! I’m fixed upon it,\n\r\nmount of God’s unchanging love!"
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "Here I raise my Ebenezer;\n\r\nhither by thy help I’m come;\n\r\nand I hope, by thy good pleasure,\n\r\nsafely to arrive at home.\n\r\nJesus sought me when a stranger,\n\r\nwandering from the fold of God;\n\r\nhe, to rescue me from danger,\n\r\ninterposed his precious blood."
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "O to grace how great a debtor\n\r\ndaily I’m constrained to be!\n\r\nLet that grace now, like a fetter,\n\r\nbind my wandering heart to thee.\n\r\nProne to wander, Lord, I feel it,\n\r\nprone to leave the God I love;\n\r\nhere’s my heart; O take and seal it;\n\r\nseal it for thy courts above."
+        }
+      ]
     },
     {
       "number": "347",
@@ -3924,7 +3972,14 @@
       "title": "Isaiah, Mighty Seer, in Days of Old",
       "sheetMusicUrl": "/hymnal-media/cc-sheet/Isaiah-Might-Seer-in-Days-of-Old.pdf",
       "audioUrl": "https://www.youtube.com/watch?v=eXMP7HQPpss",
-      "notes": "Video: https://youtu.be/PVh-FPeu99E?si=HEFP-kZXLZbLqLrB"
+      "notes": "Video: https://youtu.be/PVh-FPeu99E?si=HEFP-kZXLZbLqLrB",
+      "verses": [
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "Isaiah, mighty seer, in days of old\nThe Lord of all in spirit did behold\nHigh on a lofty throne, in splendor bright,\nWith flowing train that filled the Temple quite.\nAbove the throne were stately seraphim;\nSix wings had they, these messengers of Him.\nWith twain they veiled their faces, as was meet,\nWith twain in rev'rent awe they hid their feet,\nAnd with the other twain aloft they soared;\nOne to the other called and praised the Lord:\n\"Holy is God, the Lord of Sabaoth!\nHoly is God, the Lord of Sabaoth!\nHoly is God, the Lord of Sabaoth!\nBehold, His glory filleth all the earth!\"\nThe beams and lintels trembled at the cry,\nAnd clouds of smoke enwrapped the throne on high."
+        }
+      ]
     },
     {
       "number": "169",
@@ -4410,7 +4465,23 @@
       "title": "Let All the Stars in the Skies Give Praise",
       "sheetMusicUrl": "/hymnal-media/cc-sheet/Let-All-the-Stars-in-the-Skies-Give-Praise.pdf",
       "audioUrl": "https://hymnary.org/media/fetch/205187/public%3A//hymnary/media/ELW2006/ELW300_The_First_Noel.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "Hallelujah, praise Jehovah,\n\r\nfrom the heavens praise his name;\n\r\npraise Jehovah in the highest,\n\r\nall his angels, praise proclaim.\n\r\nAll his hosts, together praise him,\n\r\nsun and moon and stars on high;\n\r\npraise him, O you heav'ns of heavens,\n\r\nand you floods above the sky."
+        },
+        {
+          "number": "",
+          "isChorus": "True",
+          "text": "Let them praises give Jehovah,\n\r\nfor his name alone is high,\n\r\nand his glory is exalted,\n\r\nand his glory is exalted,\n\r\nand his glory is exalted\n\r\nfar above the earth and sky."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "Let them praises give Jehovah,\n\r\nthey were made at his command;\n\r\nthem forever he established,\n\r\nhis decree shall ever stand.\n\r\nFrom the earth O praise Jehovah,\n\r\nall you seas, you monsters all,\n\r\nfire and hail and snow and vapors,\n\r\nstormy winds that hear his call. [Refrain]"
+        }
+      ]
     },
     {
       "number": "415",
@@ -5579,7 +5650,28 @@
       "sheetMusicUrl": "/hymnal-media/cc-sheet/204-O-God-of-My-Praise-Psalm-109.pdf",
       "notes": "Psalm 109:1-20\nVideo: https://www.youtube.com/watch?v=uDlGB6ciEIg",
       "audioUrl": "https://hymnary.org/media/fetch/205889/public%3A//hymnary/media/ELW2006/ELW886_Oh%2C_for_a_Thousand_Tongues_to_Sing.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "Fairest Lord Jesus, \n\n\nruler of all nature, \n\n\n\tO thou of God and man the Son, \n\n\n\tThee will I cherish, \n\n\nThee will I honor, \n\n\n\tthou, my soul's glory, joy, and crown."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "Fair are the meadows, \n\n\nfairer still the woodlands, \n\n\n\trobed in the blooming garb of spring:  \n\n\n\tJesus is fairer, \n\n\nJesus is purer \n\n\n\twho makes the woeful heart to sing."
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "Fair is the sunshine, \n\n\nfairer still the moonlight, \n\n\n\tand all the twinkling starry host:  \n\n\n\tJesus shines brighter, \n\n\nJesus shines purer \n\n\n\tthan all the angels heaven can boast."
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "Beautiful Savior!  \n\n\nLord of all the nations!  \n\n\n\tSon of God and Son of Man!  \n\n\n\tGlory and honor, \n\n\npraise, adoration, \n\n\n\tnow and forevermore be thine."
+        }
+      ]
     },
     {
       "number": "262",
@@ -5740,7 +5832,23 @@
       "title": "O Lord, We Praise Thee",
       "sheetMusicUrl": "/hymnal-media/cc-sheet/O-Lord-We-Praise-Thee.pdf",
       "audioUrl": "/hymnal-media/cc-audio/O-Lord-We-Praise-Thee.mp3",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "O Lord, we praise Thee, bless Thee, and adore Thee,\nIn thanksgiving bow before Thee.\nThou with Thy body and Thy blood didst nourish\nOur weak souls that they may flourish.\nO Lord, have mercy!\nMay Thy body, Lord, born of Mary,\nThat our sins and sorrows did carry,\nAnd Thy blood for us plead\nIn all trial, fear, and need: O Lord, have mercy!"
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "Thy holy body into death was given,\nLife to win for us in heaven.\nNo greater love than this to Thee could bind us;\nMay this feast thereof remind us!\nO Lord, have mercy!\nLord, Thy kindness did so constrain Thee\nThat Thy blood should bless and sustain me.\nAll our debt Thou hast paid;\nPeace with God once more is made: O Lord, have mercy!"
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "May God bestow on us His grace and favor\nTo please Him with our behavior\nAnd live as brethren here in love and union\nNor repent this blessed Communion.\nO Lord, have mercy!\nLet not Thy good Spirit forsake us;\nGrant that heav'nly minded He make us;\nGive Thy church, Lord, to see\nDays of peace and unity: O Lord, have mercy!"
+        }
+      ]
     },
     {
       "number": "13",
@@ -8788,7 +8896,63 @@
       "sheetMusicUrl": "/hymnal-media/cc-sheet/to-all-my-brothers-ill-declare.pdf",
       "audioUrl": "/hymnal-media/cc-audio/To-All-my-Brothers.mp3",
       "notes": "Psalm 22:22-31\nVideo: https://youtu.be/6B2lvllnXmY",
-      "verses": []
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "Hear this all people, and give ear,\n\n\nall in the world who dwell;\n\n\n2 Both low and high, both rich and poor,\n\n\ntogether listen well.\n\n\n3 I with my mouth variety\n\n\nof wisdom will impart,\n\n\nAnd prudent knowledge rising from\n\n\nthe musing of my heart."
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "To an instructive parable\n\n\nI'll first incline mine ear;\n\n\nAnd then will with my song and harp,\n\n\nMy mystery declare.\n\n\n5 Why should fear in evil days\n\n\nwhen the iniquities\n\n\nOf my stray feet surround me with\n\n\nhosts of calamities?"
+        },
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "[2 Part]"
+        },
+        {
+          "number": "6",
+          "isChorus": "False",
+          "text": "Those men that make their great estates\n\n\ntheir stay whereon to trust,\n\n\nOr in th' abundance of their wealth\n\n\nwho confidently boast;\n\n\n7 Yet none of them his brother can\n\n\nby any means redeem,\n\n\nNeither to GOD can ever pay\n\n\na ransom meet for him."
+        },
+        {
+          "number": "8",
+          "isChorus": "False",
+          "text": "So dear his life's redemption is,\n\n\nthat bought it cannot be;\n\n\n9 That he should still for ever live,\n\n\nAnd not corruption see.\n\n\n10 For they must see that wise men die,\n\n\nthe fool and brutish too,\n\n\nAll perish, and their great estates\n\n\nto others leave they do."
+        },
+        {
+          "number": "11",
+          "isChorus": "False",
+          "text": "They think their houses ever stand,\n\n\nand dwelling places shall\n\n\nLast to all ages; and their lands\n\n\nby their own names they call:\n\n\n12 But such men in their honour set\n\n\nContinue but a night;\n\n\nAnd like the beasts are soon cut off,\n\n\nAnd quickly perish quite."
+        },
+        {
+          "number": "13",
+          "isChorus": "False",
+          "text": "This way of theirs their folly is:\n\n\nand yet their mouth and way\n\n\nTheir sons approve, and will pursue;\n\n\nlike foolish sheep are they.\n\n\n14 They in the sepulchre are laid,\n\n\nand death shall them devour;\n\n\nBut in the morning over them\n\n\nthe just shall have the pow'r."
+        },
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "And from the houses where they dwell,\n\n\nThe beauty now they have.\n\n\nShall utterly consume away\n\n\nin the corrupting grave.\n\n\n15 But GOD my soul will from the pow'r\n\n\nev'n of the grave redeem;\n\n\nAnd he will surely me receive\n\n\nto live in bliss with him. (Selah)"
+        },
+        {
+          "number": "",
+          "isChorus": "False",
+          "text": "[3 Part]"
+        },
+        {
+          "number": "16",
+          "isChorus": "False",
+          "text": "Be not disturb'd when thou dost see\n\n\nriches to any flow,\n\n\nNor when the glory of his house\n\n\nabundantly does grow.\n\n\n17 For he shall carry nothing hence,\n\n\nwhen death his days shall end;\n\n\nNor shall his glory after him\n\n\ninto the grave descend."
+        },
+        {
+          "number": "18",
+          "isChorus": "False",
+          "text": "Tho' he his soul doth greatly bless,\n\n\nwhile he on earth does live;\n\n\nAnd when thou to thy self dost well,\n\n\nmen will their praises give;\n\n\n19 Yet in their fathers steps they tread;\n\n\nand when like them thy die,\n\n\nTheir wretched ancestors and they\n\n\nin utter darkness lie."
+        }
+      ]
     },
     {
       "number": "198-201",

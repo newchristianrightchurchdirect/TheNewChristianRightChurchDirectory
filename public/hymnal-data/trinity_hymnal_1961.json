@@ -5171,7 +5171,34 @@
       "composer": "Joachim Neander",
       "scriptureReference": "Romans 9:5",
       "sheetMusicUrl": "/hymnal-media/th-sheet/132.pdf",
-      "audioUrl": "/hymnal-media/th-audio/Th1_132.mid"
+      "audioUrl": "/hymnal-media/th-audio/Th1_132.mid",
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "1 The king, O Lord, with songs of praise,\n\r\nShall in Thy strength rejoice;\n\r\nAnd, blest with Thy salvation, raise\n\r\nTo heav’n his cheerful voice."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "3 Thy sure defense through nations round\n\r\nHas spread his glorious name;\n\r\nAnd his successful actions crowned\n\r\nWith majesty and fame."
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "7 Then let the king on God alone\n\r\nFor timely aid rely;\n\r\nHis mercy shall support the throne,\n\r\nAnd all our wants supply."
+        },
+        {
+          "number": "4",
+          "isChorus": "False",
+          "text": "8 But, righteous Lord, his stubborn foes\n\r\nShall feel Thy dreadful hand;\n\r\nThy vengeful arm shall find out those\n\r\nThat hate his mild command."
+        },
+        {
+          "number": "5",
+          "isChorus": "False",
+          "text": "9 When Thou against them dost engage,\n\r\nThy just but dreadful doom\n\r\nShall, like a fiery oven’s rage,\n\r\nTheir hopes and them consume."
+        }
+      ]
     },
     {
       "number": "133",
@@ -16730,7 +16757,24 @@
       "scriptureReference": "1 Corinthians 2:2",
       "notes": "Tune source: Melodienbuch von Rautenburg by J. Cammin",
       "audioUrl": "/hymnal-media/th-audio/Th1_435.mid",
-      "sheetMusicUrl": "/hymnal-media/th-sheet/435.pdf"
+      "sheetMusicUrl": "/hymnal-media/th-sheet/435.pdf",
+      "verses": [
+        {
+          "number": "1",
+          "isChorus": "False",
+          "text": "Jerusalem the golden!\n\r\nWith milk and honey blest;\n\r\nBeneath your contemplation\n\r\nSink heart and voice opprest.\n\r\nI know not, oh! I know not,\n\r\nWhat joys await us there,\n\r\nWhat radiancy of glory,\n\r\nWhat bliss beyond compare."
+        },
+        {
+          "number": "2",
+          "isChorus": "False",
+          "text": "They stand, those halls of Zion,\n\r\nConjubilant with song,\n\r\nAnd bright with many an angel,\n\r\nAnd all the martyr throng;\n\r\nThe Prince is ever in them,\n\r\nThe daylight is serene;\n\r\nThe pastures of the blessed\n\r\nAre deck'd in glorious sheen."
+        },
+        {
+          "number": "3",
+          "isChorus": "False",
+          "text": "There is the throne of David,\n\r\nAnd there, from care released,\n\r\nThe shout of those who triumph,\n\r\nThe song of those who feast,\n\r\nAnd they, who with their Leader,\n\r\nHave conquer'd in the fight,\n\r\nForever and forever,\n\r\nAre clad in robes of white."
+        }
+      ]
     },
     {
       "number": "436",
