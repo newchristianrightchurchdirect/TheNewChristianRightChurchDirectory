@@ -98,7 +98,8 @@ def main():
             sheet_local = match.get("sheetMusicUrl")
 
         audio_local = None
-        if it["mp3"]:
+        # the library's mp3 column sometimes holds YouTube links; only mirror real files
+        if it["mp3"] and re.search(r"\.(mp3|m4a|ogg|wav)$", it["mp3"].split("?")[0], re.I):
             fn = basename(it["mp3"])
             path = os.path.join(AUDIO_DIR, fn)
             if not os.path.exists(path):
