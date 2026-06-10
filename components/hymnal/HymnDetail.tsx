@@ -672,7 +672,7 @@ export function buildHymnPdfHtml(hymn: Hymn, hymnalShort: string): string {
     .verse { margin-bottom: 16px; page-break-inside: avoid; }
     .verse .vm { font-style: italic; color: #8a6c2a; font-size: 10pt; letter-spacing: 0.14em; text-transform: lowercase; margin-bottom: 4px; }
     .verse .vt { font-size: 12pt; line-height: 1.6; }
-    .verse.first .vt::first-letter { font-size: 30pt; line-height: 0.95; float: left; padding: 4px 8px 0 0; font-style: italic; color: #8a6c2a; }
+    .verse.first .vt::first-letter { font-size: 17pt; font-style: italic; color: #8a6c2a; }
     .verse.refrain { margin: 14px auto; padding: 10px 18px; border-left: 2px solid #b5a273; border-right: 2px solid #b5a273; max-width: 380px; }
     .sheet { margin-top: 28px; text-align: center; page-break-before: auto; }
     .sheet img { max-width: 100%; height: auto; }

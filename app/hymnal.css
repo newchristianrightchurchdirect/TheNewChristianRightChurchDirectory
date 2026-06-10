@@ -902,6 +902,11 @@
   margin-bottom: 14px;
 }
 .hymn-list-actions .hymn-search { margin-bottom: 0; flex: 1 1 auto; }
+@media (max-width: 600px) {
+  .hymn-list-actions { flex-wrap: wrap; }
+  .hymn-list-actions .hymn-search { flex: 1 1 100%; }
+  .hymn-list-actions .hymn-list-pdf { flex: 1 1 0; justify-content: center; padding: 10px 8px; }
+}
 .hymn-list-pdf {
   flex: 0 0 auto;
   display: inline-flex;

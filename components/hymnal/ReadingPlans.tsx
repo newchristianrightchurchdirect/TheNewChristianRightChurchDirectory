@@ -1,7 +1,8 @@
 'use client'
 
+import Link from 'next/link'
 import { useRouter } from 'next/navigation'
-import { READING_PLANS, type ReadingPlan } from '@/lib/hymnal/plans'
+import { READING_PLANS, readingForDay, type ReadingPlan } from '@/lib/hymnal/plans'
 import { useHymnalStore } from '@/store/hymnal'
 
 function todayDayIndex(startDate: string): number {
@@ -96,6 +97,8 @@ function PlanProgress({ plan, prog, mark, resetStart }: {
   const pct = Math.round((completed / plan.days) * 100)
   const todayDone = prog.completedDays.includes(clampedToday)
   const behind = today > 0 ? Math.max(0, clampedToday - completed) : 0
+  const defBible = useHymnalStore((s) => s.defaultBible)
+  const reading = today >= 1 && today <= plan.days ? readingForDay(plan.id, clampedToday) : null
 
   return (
     <div className="plan-progress">
@@ -106,6 +109,22 @@ function PlanProgress({ plan, prog, mark, resetStart }: {
         <span className="pct">{pct}% &middot; {completed}/{plan.days}</span>
       </div>
       <div className="bar"><div className="fill" style={{ width: `${pct}%` }} /></div>
+      {reading && reading.length > 0 && (
+        <div style={{ marginTop: 10, fontFamily: 'var(--serif)', fontSize: 14, color: 'var(--nxr-ink-soft)' }}>
+          <span style={{ fontStyle: 'italic', color: 'var(--nxr-ink-mute)' }}>Today&rsquo;s reading: </span>
+          {reading.map((s, i) => (
+            <span key={`${s.bookId}-${s.from}`}>
+              {i > 0 && ' · '}
+              <Link
+                href={`/hymnal/bible/${defBible}/${s.bookId}/${s.from}`}
+                style={{ color: 'var(--nxr-brass)', textDecoration: 'none', borderBottom: '1px solid var(--nxr-rule)' }}
+              >
+                {s.from === s.to ? `${s.bookName} ${s.from}` : `${s.bookName} ${s.from}–${s.to}`}
+              </Link>
+            </span>
+          ))}
+        </div>
+      )}
       {today >= 1 && today <= plan.days && (
         <div className="row" style={{ marginTop: 10 }}>
           <button

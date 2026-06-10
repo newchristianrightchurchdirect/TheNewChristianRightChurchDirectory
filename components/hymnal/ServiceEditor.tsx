@@ -486,7 +486,7 @@ async function buildBookletHtml(service: Service): Promise<string> {
     .verse { margin-bottom: 14px; page-break-inside: avoid; }
     .verse .vm { font-style: italic; color: #8a6c2a; font-size: 10pt; letter-spacing: 0.12em; text-transform: lowercase; margin-bottom: 4px; }
     .verse .vt { font-size: 12pt; line-height: 1.55; }
-    .verse.first .vt::first-letter { font-size: 30pt; line-height: 0.95; float: left; padding: 4px 8px 0 0; font-style: italic; color: #8a6c2a; }
+    .verse.first .vt::first-letter { font-size: 17pt; font-style: italic; color: #8a6c2a; }
     .verse.refrain { margin: 14px auto; padding: 10px 18px; border-left: 2px solid #b5a273; border-right: 2px solid #b5a273; max-width: 380px; }
     .verse.refrain .vm { color: #6b5a35; }
 
@@ -676,6 +676,7 @@ function AddItemForm(p: AddProps) {
   const fieldStyle: React.CSSProperties = {
     background: 'transparent', border: '1px solid var(--nxr-rule)', padding: '10px 12px',
     color: 'var(--nxr-ink)', fontFamily: 'var(--serif)', fontSize: 14, outline: 'none',
+    minWidth: 0, width: '100%', boxSizing: 'border-box',
   }
   return (
     <div style={{ background: 'var(--nxr-surface-lift)', border: '1px solid var(--nxr-rule)', padding: 16, marginBottom: 18 }}>
@@ -698,7 +699,7 @@ function AddItemForm(p: AddProps) {
       <div style={{ display: 'grid', gap: 8, marginBottom: 12 }}>
         {p.kind === 'hymn' && (
           <>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 160px', gap: 8 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 160px)', gap: 8 }}>
               <select value={p.hymnal} onChange={(e) => p.setHymnal(e.target.value)} style={fieldStyle}>
                 {HYMNALS.map((h) => <option key={h.slug} value={h.slug}>{h.title}</option>)}
               </select>
@@ -728,7 +729,7 @@ function AddItemForm(p: AddProps) {
           </>
         )}
         {p.kind === 'scripture' && (
-          <div style={{ display: 'grid', gridTemplateColumns: '100px 1fr 80px', gap: 8 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 100px) minmax(0, 1fr) minmax(0, 80px)', gap: 8 }}>
             <select value={p.translation} onChange={(e) => p.setTranslation(e.target.value)} style={fieldStyle}>
               {BIBLES.map((b) => <option key={b.slug} value={b.slug}>{b.short}</option>)}
             </select>
