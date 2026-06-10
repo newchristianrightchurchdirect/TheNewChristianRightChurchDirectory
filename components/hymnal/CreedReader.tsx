@@ -132,7 +132,130 @@ function sortedDocs(docs: ConfessionDocument[]): ConfessionDocument[] {
   })
 }
 
-const PAGINATE_THRESHOLD = 6
+const PAGINATE_THRESHOLD = 3
+const CHAPTER_MAX_ENTRIES = 8
+const CHAPTER_MAX_CHARS = 9000
+const ENTRY_MAX_CHARS = 6000
+
+type RuntimeEntry = ConfessionEntry & {
+  _continuation?: boolean
+  _hasMore?: boolean
+  _origIdx: number
+}
+
+type VirtualChapter = {
+  title?: string
+  number?: string | number
+  entries: RuntimeEntry[]
+  origGroupIdx: number
+  partLabel?: string
+}
+
+function entryLen(e: ConfessionEntry): number {
+  return (e.question?.length || 0) + (e.answer?.length || 0)
+}
+
+function chunkAnswer(text: string, max: number): string[] {
+  if (text.length <= max) return [text]
+  const paras = text.split(/\n\s*\n/)
+  const out: string[] = []
+  let buf = ''
+  for (const p of paras) {
+    if (buf && buf.length + p.length + 2 > max) {
+      out.push(buf)
+      buf = p
+    } else {
+      buf = buf ? buf + '\n\n' + p : p
+    }
+  }
+  if (buf) out.push(buf)
+  const final: string[] = []
+  for (const c of out) {
+    if (c.length <= max * 1.4) { final.push(c); continue }
+    const sentences = c.split(/(?<=[.!?])\s+/)
+    let sb = ''
+    for (const s of sentences) {
+      if (sb && sb.length + s.length + 1 > max) {
+        final.push(sb); sb = s
+      } else {
+        sb = sb ? sb + ' ' + s : s
+      }
+    }
+    if (sb) final.push(sb)
+  }
+  return final.length ? final : [text]
+}
+
+function expandEntries(entries: ConfessionEntry[]): RuntimeEntry[] {
+  const out: RuntimeEntry[] = []
+  entries.forEach((e, origIdx) => {
+    const a = e.answer || ''
+    if (a.length <= ENTRY_MAX_CHARS) {
+      out.push({ ...e, _origIdx: origIdx })
+      return
+    }
+    const chunks = chunkAnswer(a, ENTRY_MAX_CHARS)
+    chunks.forEach((c, i) => {
+      const isFirst = i === 0
+      const isLast = i === chunks.length - 1
+      out.push({
+        ...e,
+        label: isFirst ? e.label : undefined,
+        question: isFirst ? e.question : undefined,
+        answer: c,
+        proofs: isLast ? e.proofs : undefined,
+        _continuation: !isFirst,
+        _hasMore: !isLast,
+        _origIdx: origIdx,
+      })
+    })
+  })
+  return out
+}
+
+function buildVirtualChapters(groups: ConfessionGroup[] | undefined): VirtualChapter[] {
+  if (!groups || groups.length === 0) return []
+  const out: VirtualChapter[] = []
+  groups.forEach((g, gi) => {
+    const expanded = expandEntries(g.entries || [])
+    const total = expanded.reduce((s, e) => s + entryLen(e), 0)
+    if (expanded.length <= CHAPTER_MAX_ENTRIES && total <= CHAPTER_MAX_CHARS) {
+      out.push({
+        title: g.title,
+        number: g.number ?? undefined,
+        entries: expanded,
+        origGroupIdx: gi,
+      })
+      return
+    }
+    const parts: RuntimeEntry[][] = []
+    let cur: RuntimeEntry[] = []
+    let chars = 0
+    for (const e of expanded) {
+      const eChars = entryLen(e)
+      if (cur.length > 0 && (cur.length >= CHAPTER_MAX_ENTRIES || chars + eChars > CHAPTER_MAX_CHARS)) {
+        parts.push(cur)
+        cur = []
+        chars = 0
+      }
+      cur.push(e)
+      chars += eChars
+    }
+    if (cur.length) parts.push(cur)
+    parts.forEach((p, pi) => {
+      const totalParts = parts.length
+      const partLabel = totalParts > 1 ? ` (Part ${pi + 1} of ${totalParts})` : ''
+      out.push({
+        title: g.title ? `${g.title}${partLabel}` : (totalParts > 1 ? `Part ${pi + 1} of ${totalParts}` : undefined),
+        number: g.number ?? undefined,
+        entries: p,
+        origGroupIdx: gi,
+        partLabel: totalParts > 1 ? `${pi + 1}/${totalParts}` : undefined,
+      })
+    })
+  })
+  return out
+}
 
 export default function CreedReader({ id }: { id: string }) {
   const router = useRouter()
@@ -173,15 +296,18 @@ export default function CreedReader({ id }: { id: string }) {
     const out: ConfessionEntry[] = []
     for (const g of doc.groups) {
       for (const e of g.entries || []) {
-        if (e.question && e.answer) out.push(e)
+        const q = (e.question || e.label || '').trim()
+        const a = (e.answer || '').trim()
+        if (q && a && a.length >= 25) out.push({ ...e, question: q, answer: a })
       }
     }
     return out
   }, [doc])
 
   const baseSize = useMemo(() => `${Math.round(18 * textScale)}px`, [textScale])
-  const paginated = !!(doc?.groups && doc.groups.length > PAGINATE_THRESHOLD)
-  const totalChapters = doc?.groups?.length ?? 0
+  const chapters = useMemo(() => buildVirtualChapters(doc?.groups ?? undefined), [doc])
+  const paginated = chapters.length > PAGINATE_THRESHOLD
+  const totalChapters = chapters.length
   const chapterIdx = Math.min(Math.max(0, activeChapter), Math.max(0, totalChapters - 1))
 
   if (err) return <div className="hymnal-empty">{err}</div>
@@ -267,20 +393,21 @@ export default function CreedReader({ id }: { id: string }) {
         <QuizPanel entries={quizEntries} onExit={() => setQuizOpen(false)} />
       )}
 
-      {!quizOpen && paginated && doc.groups && (
+      {!quizOpen && paginated && (
         <div className="creed-chapter-strip" role="tablist" aria-label="Chapters">
-          {doc.groups.map((g, gi) => {
-            const num = g.number != null ? String(g.number) : String(gi + 1)
-            const title = g.title || ''
-            const on = gi === chapterIdx
+          {chapters.map((c, ci) => {
+            const baseNum = c.number != null ? String(c.number) : String(c.origGroupIdx + 1)
+            const num = c.partLabel ? `${baseNum}.${c.partLabel.split('/')[0]}` : baseNum
+            const title = c.title || ''
+            const on = ci === chapterIdx
             return (
               <button
-                key={gi}
+                key={ci}
                 type="button"
                 role="tab"
                 aria-selected={on}
                 className={on ? 'chip on' : 'chip'}
-                onClick={() => setActiveChapter(gi)}
+                onClick={() => setActiveChapter(ci)}
                 title={title || `Chapter ${num}`}
               >
                 <em>{num}</em>
@@ -293,19 +420,30 @@ export default function CreedReader({ id }: { id: string }) {
 
       {!quizOpen && (
         <div className="creed-prose" style={{ fontSize: baseSize }}>
-          {doc.groups && doc.groups.length > 0 ? (
+          {chapters.length > 0 ? (
             paginated ? (
               <Group
                 key={chapterIdx}
                 docId={doc.id}
-                group={doc.groups[chapterIdx]}
-                groupIndex={chapterIdx}
+                group={{
+                  title: chapters[chapterIdx].title,
+                  number: chapters[chapterIdx].number,
+                  entries: chapters[chapterIdx].entries,
+                }}
+                groupIndex={chapters[chapterIdx].origGroupIdx}
                 isBmk={isEntryFav}
                 toggleBmk={toggleEntryFav}
               />
             ) : (
-              doc.groups.map((g, gi) => (
-                <Group key={gi} docId={doc.id} group={g} groupIndex={gi} isBmk={isEntryFav} toggleBmk={toggleEntryFav} />
+              chapters.map((c, ci) => (
+                <Group
+                  key={ci}
+                  docId={doc.id}
+                  group={{ title: c.title, number: c.number, entries: c.entries }}
+                  groupIndex={c.origGroupIdx}
+                  isBmk={isEntryFav}
+                  toggleBmk={toggleEntryFav}
+                />
               ))
             )
           ) : doc.content ? (
@@ -382,11 +520,12 @@ function Group({
   toggleBmk,
 }: {
   docId: string
-  group: ConfessionGroup
+  group: { title?: string; number?: string | number; entries: RuntimeEntry[] | ConfessionEntry[] }
   groupIndex: number
   isBmk: (ref: { docId: string; key: string }) => boolean
   toggleBmk: (ref: { docId: string; key: string }) => void
 }) {
+  const entries = group.entries as RuntimeEntry[]
   return (
     <section style={{ marginBottom: 28 }}>
       {(group.title || group.number != null) && (
@@ -395,14 +534,19 @@ function Group({
           {group.title}
         </h2>
       )}
-      {(group.entries || []).map((e, ei) => (
-        <Card
-          key={ei}
-          entry={e}
-          bookmarked={isBmk({ docId, key: `${groupIndex}.${ei}` })}
-          onToggle={() => toggleBmk({ docId, key: `${groupIndex}.${ei}` })}
-        />
-      ))}
+      {entries.map((e, ei) => {
+        const realIdx = e._origIdx ?? ei
+        const isCont = !!e._continuation
+        return (
+          <Card
+            key={ei}
+            entry={e}
+            bookmarked={isBmk({ docId, key: `${groupIndex}.${realIdx}` })}
+            onToggle={() => toggleBmk({ docId, key: `${groupIndex}.${realIdx}` })}
+            isContinuation={isCont}
+          />
+        )
+      })}
     </section>
   )
 }
@@ -442,27 +586,31 @@ function Card({
   entry,
   bookmarked,
   onToggle,
+  isContinuation = false,
 }: {
   entry: ConfessionEntry
   bookmarked: boolean
   onToggle: () => void
+  isContinuation?: boolean
 }) {
   const hasQ = !!(entry.question && entry.question.length > 0)
   const hasA = !!(entry.answer && entry.answer.length > 0)
   const proofsText = renderProofs(entry.proofs)
   return (
-    <div className="creed-card">
+    <div className={isContinuation ? 'creed-card creed-card-cont' : 'creed-card'}>
       <div>
         {entry.label && <div className="label-l">{entry.label}</div>}
         {hasQ && <div className="qt">{linkifyScripture(entry.question || '', 'q')}</div>}
         {hasA && <div className="at">{linkifyScripture(entry.answer || '', 'a')}</div>}
         {proofsText && <div className="pf">{linkifyScripture(proofsText, 'pf')}</div>}
       </div>
-      <button className={bookmarked ? 'bmk on' : 'bmk'} onClick={onToggle} aria-label={bookmarked ? 'Remove bookmark' : 'Bookmark'}>
-        <svg width="16" height="16" viewBox="0 0 24 24" fill={bookmarked ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-          <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
-        </svg>
-      </button>
+      {!isContinuation && (
+        <button className={bookmarked ? 'bmk on' : 'bmk'} onClick={onToggle} aria-label={bookmarked ? 'Remove bookmark' : 'Bookmark'}>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill={bookmarked ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+          </svg>
+        </button>
+      )}
     </div>
   )
 }

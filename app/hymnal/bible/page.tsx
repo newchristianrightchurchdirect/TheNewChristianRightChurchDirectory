@@ -21,7 +21,7 @@ export default function BibleHome() {
         <h1 className="hymnal-h1">The Holy <em>Bible</em></h1>
         <p className="hymnal-dek">Five faithful translations, bound for the saints</p>
         <div className="hymnal-hero-meta">
-          <span>66 Books &middot; 1,189 Chapt&hellip;</span>
+          <span>66 Books &middot; 1,189 Chapters</span>
           <span>Anno Domini MMXXVI</span>
         </div>
       </section>
@@ -45,7 +45,7 @@ export default function BibleHome() {
         ))}
       </section>
 
-      <Footer quote={<>&ldquo;The grass withereth, the flower fadeth: but the word of our God shall stand for ever.&rdquo; &mdash; Isa.&nbsp;xl.&nbsp;8</>} />
+      <Footer quote={<>&ldquo;The grass withereth, the flower fadeth: but the word of our God shall stand for ever.&rdquo; &mdash; Isa.&nbsp;40:8</>} />
     </div>
   )
 }

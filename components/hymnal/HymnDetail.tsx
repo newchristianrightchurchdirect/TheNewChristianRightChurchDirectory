@@ -436,6 +436,8 @@ function AudioBar({
                 )}
               </button>
             )}
+          </div>
+          <div className="grp right">
             {hasAudio && (
               <button className="stop" onClick={stop} aria-label="Stop">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
@@ -443,8 +445,6 @@ function AudioBar({
                 </svg>
               </button>
             )}
-          </div>
-          <div className="grp right">
             <button onClick={cycleScale} aria-label="Text size">
               <span style={{ fontFamily: 'var(--serif)', fontSize: 14, letterSpacing: '0.04em' }}>Aa</span>
             </button>

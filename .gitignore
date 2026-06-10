@@ -11,3 +11,10 @@ data/research-queue/
 tsconfig.tsbuildinfo
 .tmp-hymnal-pull/
 .tmp-renders/
+
+# Master NXR Hymnal PDF (built locally via scripts/build_nxr_hymnal_pdf.py)
+# Too large for git; host externally if shipping in production.
+public/hymnal-media/nxr-hymnal.pdf
+
+# Original source hymnal PDFs (copyrighted material — keep local only)
+public/hymnal-media/originals/

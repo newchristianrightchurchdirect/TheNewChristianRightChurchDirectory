@@ -200,6 +200,50 @@ export default function MoreSettings() {
           </div>
           <span style={{ color: 'var(--nxr-ink-mute)' }}>&rarr;</span>
         </Link>
+        <a
+          href="/hymnal-media/nxr-hymnal.pdf"
+          className="settings-row"
+          style={{ textDecoration: 'none', color: 'inherit' }}
+          target="_blank"
+          rel="noopener"
+        >
+          <div>
+            <div className="lbl">Download NXR Hymnal (PDF)</div>
+            <span className="desc">All eight volumes &mdash; lyrics and sheet music in one file.</span>
+          </div>
+          <span style={{ color: 'var(--nxr-ink-mute)' }}>&darr;</span>
+        </a>
+      </div>
+
+      {/* === Original PDFs === */}
+      <div className="hymnal-section-head" style={{ marginTop: 16 }}>
+        <span>Original Hymnal PDFs</span>
+        <span className="right">Source editions</span>
+      </div>
+      <div style={{ display: 'grid', gap: 0 }}>
+        {[
+          { href: '/hymnal-media/originals/trinity-psalter-hymnal.pdf',  ttl: 'Trinity Psalter Hymnal',         desc: 'Orthodox Presbyterian & URCNA, MMXVIII' },
+          { href: '/hymnal-media/originals/trinity-hymnal-1961.pdf',     ttl: 'Trinity Hymnal',                 desc: 'OPC original, MCMLXI' },
+          { href: '/hymnal-media/originals/trinity-hymnal-revised.pdf',  ttl: 'Trinity Hymnal (Revised)',       desc: 'OPC/PCA, MCMXC' },
+          { href: '/hymnal-media/originals/trinity-hymnal-baptist.pdf',  ttl: 'Trinity Hymnal (Baptist Ed.)',   desc: 'Baptist Reformation Press, MCMXCV' },
+          { href: '/hymnal-media/originals/book-of-psalms-for-worship.pdf', ttl: 'The Book of Psalms for Worship', desc: 'Crown & Covenant, MMIX' },
+          { href: '/hymnal-media/originals/sacred-harp.pdf',             ttl: 'The Sacred Harp',                desc: 'Denson revision, MCMXCI' },
+        ].map((p) => (
+          <a
+            key={p.href}
+            href={p.href}
+            className="settings-row"
+            style={{ textDecoration: 'none', color: 'inherit' }}
+            target="_blank"
+            rel="noopener"
+          >
+            <div>
+              <div className="lbl">{p.ttl}</div>
+              <span className="desc">{p.desc}</span>
+            </div>
+            <span style={{ color: 'var(--nxr-ink-mute)' }}>&darr;</span>
+          </a>
+        ))}
       </div>
 
       {/* === About === */}

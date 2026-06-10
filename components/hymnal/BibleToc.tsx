@@ -2,12 +2,12 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { loadBible, toRoman } from '@/lib/hymnal/loader'
+import { loadBible } from '@/lib/hymnal/loader'
 import { useHymnalStore } from '@/store/hymnal'
 import type { BibleBook } from '@/types/hymnal'
 
-function lower(n: number): string {
-  return toRoman(n).toLowerCase()
+function arabic(n: number): string {
+  return String(n)
 }
 
 export default function BibleToc({ translation }: { translation: string }) {
@@ -52,7 +52,7 @@ export default function BibleToc({ translation }: { translation: string }) {
             const n = counter
             return (
               <Link key={b.id} href={`/hymnal/bible/${translation}/${b.id}`}>
-                <span className="n">{lower(n)}.</span>
+                <span className="n">{arabic(n)}.</span>
                 <span>{b.name}</span>
               </Link>
             )
@@ -65,7 +65,7 @@ export default function BibleToc({ translation }: { translation: string }) {
   return (
     <div>
       <div className="hymnal-hero-meta" style={{ marginTop: 0 }}>
-        <span>{books.length} books &middot; {chapCount(books).toLocaleString()} chapt&hellip;</span>
+        <span>{books.length} books &middot; {chapCount(books).toLocaleString()} chapters</span>
         <span>Anno Domini MMXXVI</span>
       </div>
       {lastBook && lastChapter && (
