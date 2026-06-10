@@ -21,10 +21,18 @@ function normalizeTitle(t: string | null | undefined): string {
 
 function tuneKey(t: string | null | undefined): string {
   if (!t) return ''
-  return t.toLowerCase().replace(/[^a-z0-9]+/g, '')
+  let s = t
+    .replace(/\([^)]*\)/g, ' ')
+    .replace(/\b(CMD|CM|LMD|LM|SMD|SM|HM|D)\b/g, ' ')
+    .replace(/[\d.]+/g, ' ')
+    .replace(/^\s*THE\s+/i, '')
+  return s.toLowerCase().replace(/[^a-z0-9]+/g, '')
 }
 
+type Mode = 'pair' | 'matrix'
+
 export default function HymnalCompare() {
+  const [mode, setMode] = useState<Mode>('pair')
   const [slugA, setSlugA] = useState<string>(HYMNALS[0]?.slug || '')
   const [slugB, setSlugB] = useState<string>(HYMNALS[1]?.slug || '')
   const [a, setA] = useState<Loaded | null>(null)
@@ -32,8 +40,11 @@ export default function HymnalCompare() {
   const [loading, setLoading] = useState(false)
   const [err, setErr] = useState<string | null>(null)
   const [matchBy, setMatchBy] = useState<'title' | 'tune' | 'either'>('title')
+  const [all, setAll] = useState<Loaded[] | null>(null)
+  const [allLoading, setAllLoading] = useState(false)
 
   useEffect(() => {
+    if (mode !== 'pair') return
     let alive = true
     setLoading(true); setErr(null)
     Promise.all([
@@ -52,7 +63,26 @@ export default function HymnalCompare() {
       })
       .catch((e) => { if (alive) { setErr(e.message); setLoading(false) } })
     return () => { alive = false }
-  }, [slugA, slugB])
+  }, [slugA, slugB, mode])
+
+  useEffect(() => {
+    if (mode !== 'matrix' || all) return
+    let alive = true
+    setAllLoading(true); setErr(null)
+    Promise.all(
+      HYMNALS.map((src) =>
+        loadHymnal(src.slug).then((d) => ({
+          slug: src.slug,
+          title: src.title,
+          short: src.short || src.slug,
+          hymns: d.hymns,
+        })),
+      ),
+    )
+      .then((list) => { if (alive) { setAll(list); setAllLoading(false) } })
+      .catch((e) => { if (alive) { setErr(e.message); setAllLoading(false) } })
+    return () => { alive = false }
+  }, [mode, all])
 
   const analysis = useMemo(() => {
     if (!a || !b) return null
@@ -91,23 +121,57 @@ export default function HymnalCompare() {
     return { shared, onlyA, onlyB, totalA: a.hymns.length, totalB: b.hymns.length }
   }, [a, b, matchBy])
 
+  const matrix = useMemo(() => {
+    if (mode !== 'matrix' || !all) return null
+    const keyOf = (h: Hymn): string => {
+      if (matchBy === 'tune') return tuneKey(h.tune)
+      if (matchBy === 'either') return normalizeTitle(h.title) || tuneKey(h.tune)
+      return normalizeTitle(h.title)
+    }
+    const sets = all.map((L) => {
+      const s = new Set<string>()
+      for (const h of L.hymns) { const k = keyOf(h); if (k) s.add(k) }
+      return s
+    })
+    const rows = all.map((rowL, i) =>
+      all.map((colL, j) => {
+        if (i === j) return sets[i].size
+        let n = 0
+        for (const k of sets[i]) if (sets[j].has(k)) n++
+        return n
+      }),
+    )
+    return { rows, labels: all.map((L) => L.short), titles: all.map((L) => L.title), totals: sets.map((s) => s.size) }
+  }, [mode, all, matchBy])
+
   return (
     <div className="hymnal-compare">
-      <div className="cmp-pickers">
-        <label className="cmp-picker">
-          <span className="lbl">Hymnal A</span>
-          <select value={slugA} onChange={(e) => setSlugA(e.target.value)}>
-            {HYMNALS.map((h) => <option key={h.slug} value={h.slug}>{h.short || h.title}</option>)}
-          </select>
-        </label>
-        <div className="cmp-vs">vs.</div>
-        <label className="cmp-picker">
-          <span className="lbl">Hymnal B</span>
-          <select value={slugB} onChange={(e) => setSlugB(e.target.value)}>
-            {HYMNALS.map((h) => <option key={h.slug} value={h.slug}>{h.short || h.title}</option>)}
-          </select>
-        </label>
+      <div className="cmp-mode" role="radiogroup" aria-label="Compare mode">
+        {(['pair', 'matrix'] as const).map((m) => (
+          <label key={m} className={`cm-opt${mode === m ? ' on' : ''}`}>
+            <input type="radio" name="cmpmode" checked={mode === m} onChange={() => setMode(m)} />
+            <span>{m === 'pair' ? 'Two hymnals' : 'All hymnals (matrix)'}</span>
+          </label>
+        ))}
       </div>
+
+      {mode === 'pair' && (
+        <div className="cmp-pickers">
+          <label className="cmp-picker">
+            <span className="lbl">Hymnal A</span>
+            <select value={slugA} onChange={(e) => setSlugA(e.target.value)}>
+              {HYMNALS.map((h) => <option key={h.slug} value={h.slug}>{h.short || h.title}</option>)}
+            </select>
+          </label>
+          <div className="cmp-vs">vs.</div>
+          <label className="cmp-picker">
+            <span className="lbl">Hymnal B</span>
+            <select value={slugB} onChange={(e) => setSlugB(e.target.value)}>
+              {HYMNALS.map((h) => <option key={h.slug} value={h.slug}>{h.short || h.title}</option>)}
+            </select>
+          </label>
+        </div>
+      )}
 
       <div className="cmp-match-mode" role="radiogroup" aria-label="Match by">
         <span className="lbl">Match by:</span>
@@ -120,9 +184,51 @@ export default function HymnalCompare() {
       </div>
 
       {err && <div className="hymnal-empty">{err}</div>}
-      {loading && <div className="hymnal-empty">Loading&hellip;</div>}
+      {mode === 'matrix' && allLoading && <div className="hymnal-empty">Loading all hymnals&hellip;</div>}
+      {mode === 'pair' && loading && <div className="hymnal-empty">Loading&hellip;</div>}
 
-      {!loading && analysis && a && b && (
+      {mode === 'matrix' && matrix && (
+        <section className="cmp-matrix-wrap">
+          <p className="cmp-matrix-hint">
+            Each cell shows the number of hymns shared between the row and column.
+            Diagonal cells show the row hymnal&rsquo;s unique-{matchBy === 'tune' ? 'tune' : 'title'} count.
+            Percentages are of the row hymnal.
+          </p>
+          <div className="cmp-matrix-scroll">
+            <table className="cmp-matrix">
+              <thead>
+                <tr>
+                  <th></th>
+                  {matrix.labels.map((L, j) => (
+                    <th key={j} title={matrix.titles[j]}>{L}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {matrix.rows.map((row, i) => (
+                  <tr key={i}>
+                    <th title={matrix.titles[i]}>{matrix.labels[i]}</th>
+                    {row.map((n, j) => {
+                      const diag = i === j
+                      const pct = !diag && matrix.totals[i] > 0
+                        ? Math.round((n / matrix.totals[i]) * 100)
+                        : null
+                      return (
+                        <td key={j} className={diag ? 'diag' : n > 0 ? 'has' : 'zero'}>
+                          <span className="n">{n}</span>
+                          {pct !== null && <span className="pct">{pct}%</span>}
+                        </td>
+                      )
+                    })}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
+      {mode === 'pair' && !loading && analysis && a && b && (
         <>
           <div className="cmp-summary">
             <div className="cs-card shared">
