@@ -35,7 +35,7 @@ const HYMN_COUNT: Record<string, number> = {
   'trinity-hymnal-1990':       742,
   'trinity-hymnal-baptist':    638,
   'book-of-psalms-for-worship':460,
-  'cantus-christi':            340,
+  'cantus-christi':            360,
   'hymns-of-grace':            321,
   'sacred-harp-1991':          554,
 }
