@@ -72,16 +72,7 @@ export default function HymnalHome() {
         <div className="small">Bible in a Year, Psalter in a Month, and more.</div>
       </Link>
 
-      <Link href="/hymnal/compare" className="hymnal-band" style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
-        <div className="lhd">
-          <span>Compare Hymnals</span>
-          <span className="right italic">Open &rarr;</span>
-        </div>
-        <div className="big">Overlap &amp; differences</div>
-        <div className="small">See which hymns are shared or unique across two volumes.</div>
-      </Link>
-
-      <section className="hymnal-picker" aria-label="Volumes">
+<section className="hymnal-picker" aria-label="Volumes">
         {HYMNALS.map((h, i) => (
           <Link key={h.slug} href={`/hymnal/library/${h.slug}`} className="hymnal-card">
             <span className="vol">{toRoman(i + 1)}.</span>

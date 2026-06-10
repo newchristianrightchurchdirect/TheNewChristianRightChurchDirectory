@@ -1370,6 +1370,7 @@
   margin: 24px auto 0;
   padding: 0 4px;
 }
+.creed-chapter-nav > .creed-pager-btn { min-width: 0; }
 .creed-chapter-nav .creed-pager-btn.right { justify-self: end; }
 .creed-chapter-mark {
   font-family: var(--serif);
@@ -1379,6 +1380,16 @@
   color: var(--nxr-ink-mute);
   text-align: center;
   white-space: nowrap;
+}
+@media (max-width: 520px) {
+  .creed-chapter-nav { gap: 8px; }
+  .creed-chapter-nav .creed-pager-btn {
+    flex: 0 0 auto;
+    padding: 8px 10px;
+    justify-content: center;
+  }
+  .creed-chapter-nav .creed-pager-btn .lbl { display: none; }
+  .creed-chapter-mark { letter-spacing: 0.14em; }
 }
 
 /* ---- Catechism quiz mode ---- */

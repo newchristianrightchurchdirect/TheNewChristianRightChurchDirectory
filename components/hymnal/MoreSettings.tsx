@@ -193,6 +193,13 @@ export default function MoreSettings() {
           </div>
           <span style={{ color: 'var(--nxr-ink-mute)' }}>&rarr;</span>
         </Link>
+        <Link href="/hymnal/compare" className="settings-row" style={{ textDecoration: 'none', color: 'inherit' }}>
+          <div>
+            <div className="lbl">Compare hymnals</div>
+            <span className="desc">Overlap and differences across two or all volumes.</span>
+          </div>
+          <span style={{ color: 'var(--nxr-ink-mute)' }}>&rarr;</span>
+        </Link>
       </div>
 
       {/* === About === */}
