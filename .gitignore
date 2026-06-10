@@ -16,3 +16,6 @@ tsconfig.tsbuildinfo
 # Too large for git; host externally if shipping in production.
 public/hymnal-media/nxr-hymnal.pdf
 
+__pycache__/
+*.bak-*
+episc_dump.txt
