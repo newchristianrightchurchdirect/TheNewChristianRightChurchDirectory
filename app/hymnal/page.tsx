@@ -92,7 +92,7 @@ export default function HymnalHome() {
         ))}
       </section>
 
-      <Footer quote={<>&ldquo;Sing unto the Lord a new song.&rdquo; &mdash; Ps.&nbsp;xcvi.</>} />
+      <Footer quote={<>&ldquo;Sing unto the Lord a new song.&rdquo; &mdash; Ps.&nbsp;96:1</>} />
     </div>
   )
 }

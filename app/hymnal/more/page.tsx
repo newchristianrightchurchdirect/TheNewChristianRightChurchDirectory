@@ -18,7 +18,7 @@ export default function MorePage() {
 
       <MoreSettings />
 
-      <Footer quote={<>&ldquo;Let the word of Christ dwell in you richly.&rdquo; &mdash; Col.&nbsp;iii.&nbsp;16</>} />
+      <Footer quote={<>&ldquo;Let the word of Christ dwell in you richly.&rdquo; &mdash; Col.&nbsp;3:16</>} />
     </div>
   )
 }

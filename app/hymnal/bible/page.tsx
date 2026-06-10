@@ -1,16 +1,15 @@
 import Link from 'next/link'
 import { BIBLES } from '@/lib/hymnal/sources'
-import { toRoman } from '@/lib/hymnal/loader'
 import { Footer } from '@/components/hymnal/Ornament'
 
 export const metadata = { title: 'Bible' }
 
 const LATIN: Record<string, string> = {
-  esv:  'English Standard, MMI',
-  kjv:  'Authorized Version, MDCXI',
-  nkjv: 'New King James, MCMLXXXII',
-  lsb:  'Legacy Standard, MMXXI',
-  gnv:  'Geneva, MDLX',
+  esv:  'English Standard, 2001',
+  kjv:  'Authorized Version, 1611',
+  nkjv: 'New King James, 1982',
+  lsb:  'Legacy Standard, 2021',
+  gnv:  'Geneva, 1560',
 }
 
 export default function BibleHome() {
@@ -19,7 +18,7 @@ export default function BibleHome() {
       <section className="hymnal-hero">
         <div className="hymnal-eyebrow">Sacred Scripture</div>
         <h1 className="hymnal-h1">The Holy <em>Bible</em></h1>
-        <p className="hymnal-dek">Five faithful translations, bound for the saints</p>
+        <p className="hymnal-dek" style={{ whiteSpace: 'nowrap', fontSize: 'clamp(11px, 3.4vw, 15px)' }}>Five faithful translations, bound for the saints</p>
         <div className="hymnal-hero-meta">
           <span>66 Books &middot; 1,189 Chapters</span>
           <span>Anno Domini MMXXVI</span>
@@ -28,13 +27,13 @@ export default function BibleHome() {
 
       <div className="hymnal-section-head">
         <span>Select an Edition</span>
-        <span className="right">{toRoman(BIBLES.length)} translations</span>
+        <span className="right">{BIBLES.length} translations</span>
       </div>
 
       <section className="hymnal-picker" aria-label="Bible translations">
         {BIBLES.map((b, i) => (
           <Link key={b.slug} href={`/hymnal/bible/${b.slug}`} className="hymnal-card">
-            <span className="vol">{toRoman(i + 1)}.</span>
+            <span className="vol">{i + 1}.</span>
             <div className="body">
               <div className="ttl">{b.title}</div>
               <div className="ed">{LATIN[b.slug] || ''}</div>

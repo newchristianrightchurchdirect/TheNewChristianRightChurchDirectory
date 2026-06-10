@@ -109,7 +109,7 @@ export default function MoreSettings() {
       </div>
 
       <div className="sample-preview">
-        <div className="stamp">Sample &middot; Hymn CCXC</div>
+        <div className="stamp">Sample &middot; Hymn 290</div>
         <div className="body" style={{ fontSize: sampleSize }}>
           Amazing grace, how sweet the sound,<br />
           That saved a wretch like me!

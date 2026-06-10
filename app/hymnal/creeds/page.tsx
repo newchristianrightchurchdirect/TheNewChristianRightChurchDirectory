@@ -14,7 +14,7 @@ export default function CreedsHome() {
 
       <CreedsToc />
 
-      <Footer quote={<>&ldquo;Hold fast the form of sound words.&rdquo; &mdash; II Tim.&nbsp;i.&nbsp;13</>} />
+      <Footer quote={<>&ldquo;Hold fast the form of sound words.&rdquo; &mdash; 2 Tim.&nbsp;1:13</>} />
     </div>
   )
 }
