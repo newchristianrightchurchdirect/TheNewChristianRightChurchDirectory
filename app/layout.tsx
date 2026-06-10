@@ -12,9 +12,11 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     siteName: 'The New Christian Right Church Directory',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'The New Christian Right Church Directory' }],
   },
   twitter: {
     card: 'summary_large_image',
+    images: ['/og-image.png'],
   },
   robots: {
     index: true,

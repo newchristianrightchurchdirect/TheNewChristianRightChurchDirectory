@@ -1,10 +1,118 @@
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'
+import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { loadConfessions } from '@/lib/hymnal/loader'
 import { useHymnalStore } from '@/store/hymnal'
 import type { ConfessionDocument, ConfessionEntry, ConfessionGroup } from '@/types/hymnal'
+
+const BOOK_ALIASES: Record<string, string> = {
+  gen: 'genesis', ge: 'genesis', genesis: 'genesis',
+  ex: 'exodus', exo: 'exodus', exod: 'exodus', exodus: 'exodus',
+  lev: 'leviticus', le: 'leviticus', leviticus: 'leviticus',
+  num: 'numbers', nu: 'numbers', numb: 'numbers', numbers: 'numbers',
+  deut: 'deuteronomy', deu: 'deuteronomy', dt: 'deuteronomy', deuteronomy: 'deuteronomy',
+  josh: 'joshua', jos: 'joshua', joshua: 'joshua',
+  judg: 'judges', jdg: 'judges', judges: 'judges',
+  ruth: 'ruth', ru: 'ruth',
+  '1sam': '1samuel', '1sa': '1samuel', isa: 'isaiah', '1samuel': '1samuel',
+  '2sam': '2samuel', '2sa': '2samuel', '2samuel': '2samuel',
+  '1kgs': '1kings', '1ki': '1kings', '1kings': '1kings',
+  '2kgs': '2kings', '2ki': '2kings', '2kings': '2kings',
+  '1chr': '1chronicles', '1ch': '1chronicles', '1chronicles': '1chronicles',
+  '2chr': '2chronicles', '2ch': '2chronicles', '2chronicles': '2chronicles',
+  ezra: 'ezra', ezr: 'ezra',
+  neh: 'nehemiah', nehemiah: 'nehemiah',
+  est: 'esther', esther: 'esther',
+  job: 'job',
+  ps: 'psalms', psa: 'psalms', psalm: 'psalms', psalms: 'psalms',
+  prov: 'proverbs', pr: 'proverbs', pro: 'proverbs', proverbs: 'proverbs',
+  ecc: 'ecclesiastes', eccl: 'ecclesiastes', ecclesiastes: 'ecclesiastes', qoh: 'ecclesiastes',
+  song: 'songofsolomon', songofsolomon: 'songofsolomon', sos: 'songofsolomon', cant: 'songofsolomon',
+  is: 'isaiah', isaiah: 'isaiah',
+  jer: 'jeremiah', jeremiah: 'jeremiah',
+  lam: 'lamentations', lamentations: 'lamentations',
+  ezek: 'ezekiel', eze: 'ezekiel', ezekiel: 'ezekiel',
+  dan: 'daniel', daniel: 'daniel', dn: 'daniel',
+  hos: 'hosea', hosea: 'hosea',
+  joel: 'joel',
+  amos: 'amos', am: 'amos',
+  obad: 'obadiah', obadiah: 'obadiah',
+  jon: 'jonah', jonah: 'jonah',
+  mic: 'micah', micah: 'micah',
+  nah: 'nahum', nahum: 'nahum',
+  hab: 'habakkuk', habakkuk: 'habakkuk',
+  zeph: 'zephaniah', zephaniah: 'zephaniah',
+  hag: 'haggai', haggai: 'haggai',
+  zech: 'zechariah', zec: 'zechariah', zechariah: 'zechariah',
+  mal: 'malachi', malachi: 'malachi',
+  matt: 'matthew', mt: 'matthew', matthew: 'matthew',
+  mark: 'mark', mk: 'mark', mr: 'mark',
+  luke: 'luke', lk: 'luke', luk: 'luke',
+  john: 'john', jn: 'john', joh: 'john',
+  acts: 'acts', ac: 'acts',
+  rom: 'romans', romans: 'romans',
+  '1cor': '1corinthians', '1corinthians': '1corinthians', '1co': '1corinthians',
+  '2cor': '2corinthians', '2corinthians': '2corinthians', '2co': '2corinthians',
+  gal: 'galatians', galatians: 'galatians',
+  eph: 'ephesians', ephesians: 'ephesians',
+  phil: 'philippians', philippians: 'philippians', php: 'philippians',
+  col: 'colossians', colossians: 'colossians',
+  '1thess': '1thessalonians', '1thes': '1thessalonians', '1thessalonians': '1thessalonians', '1th': '1thessalonians',
+  '2thess': '2thessalonians', '2thes': '2thessalonians', '2thessalonians': '2thessalonians', '2th': '2thessalonians',
+  '1tim': '1timothy', '1timothy': '1timothy', '1ti': '1timothy',
+  '2tim': '2timothy', '2timothy': '2timothy', '2ti': '2timothy',
+  titus: 'titus', tit: 'titus',
+  philem: 'philemon', philemon: 'philemon', phm: 'philemon',
+  heb: 'hebrews', hebrews: 'hebrews',
+  jas: 'james', james: 'james', jam: 'james',
+  '1pet': '1peter', '1peter': '1peter', '1pe': '1peter',
+  '2pet': '2peter', '2peter': '2peter', '2pe': '2peter',
+  '1john': '1john', '1jn': '1john', '1jo': '1john',
+  '2john': '2john', '2jn': '2john', '2jo': '2john',
+  '3john': '3john', '3jn': '3john', '3jo': '3john',
+  jude: 'jude',
+  rev: 'revelation', revelation: 'revelation', re: 'revelation',
+}
+
+// Matches: "John 3:16", "1 Cor. 13:1-3", "Rom. 8", "Ps. 23:1", "1Pet 1:5", "Heb 11:6", "Gen 1:1—2:3"
+const REF_RE = /\b(\d?\s?[A-Z][a-z]+\.?)\s+(\d+)(?::(\d+(?:[-\u2013\u2014]\d+)?))?/g
+
+function resolveBook(raw: string): string | null {
+  const key = raw.toLowerCase().replace(/[\s.]+/g, '')
+  return BOOK_ALIASES[key] || null
+}
+
+function linkifyScripture(text: string, key = ''): React.ReactNode {
+  if (!text) return text
+  const out: React.ReactNode[] = []
+  let cursor = 0
+  let m: RegExpExecArray | null
+  let k = 0
+  REF_RE.lastIndex = 0
+  while ((m = REF_RE.exec(text)) !== null) {
+    const [full, bookRaw, chapter, verse] = m
+    const slug = resolveBook(bookRaw)
+    if (!slug) continue
+    if (m.index > cursor) out.push(text.slice(cursor, m.index))
+    const display = verse ? `${bookRaw} ${chapter}:${verse}` : `${bookRaw} ${chapter}`
+    out.push(
+      <Link
+        key={`${key}-${k++}`}
+        href={`/hymnal/bible/kjv/${slug}/${chapter}`}
+        className="scripture-link"
+        prefetch={false}
+      >
+        {display}
+      </Link>
+    )
+    cursor = m.index + full.length
+  }
+  if (cursor === 0) return text
+  if (cursor < text.length) out.push(text.slice(cursor))
+  return <>{out}</>
+}
 
 const TYPE_ORDER = ['creed', 'confession', 'catechism', 'declaration', 'other']
 
@@ -24,12 +132,16 @@ function sortedDocs(docs: ConfessionDocument[]): ConfessionDocument[] {
   })
 }
 
+const PAGINATE_THRESHOLD = 6
+
 export default function CreedReader({ id }: { id: string }) {
   const router = useRouter()
   const [doc, setDoc] = useState<ConfessionDocument | null>(null)
   const [prev, setPrev] = useState<ConfessionDocument | null>(null)
   const [next, setNext] = useState<ConfessionDocument | null>(null)
   const [err, setErr] = useState<string | null>(null)
+  const [activeChapter, setActiveChapter] = useState(0)
+  const [quizOpen, setQuizOpen] = useState(false)
 
   const textScale = useHymnalStore((s) => s.textScale)
   const isFav = useHymnalStore((s) => s.isConfessionFavorite({ id }))
@@ -53,7 +165,24 @@ export default function CreedReader({ id }: { id: string }) {
     return () => { alive = false }
   }, [id])
 
+  useEffect(() => { setActiveChapter(0); setQuizOpen(false) }, [id])
+
+  const isCatechism = (doc?.type || '').toLowerCase() === 'catechism'
+  const quizEntries = useMemo<ConfessionEntry[]>(() => {
+    if (!doc?.groups) return []
+    const out: ConfessionEntry[] = []
+    for (const g of doc.groups) {
+      for (const e of g.entries || []) {
+        if (e.question && e.answer) out.push(e)
+      }
+    }
+    return out
+  }, [doc])
+
   const baseSize = useMemo(() => `${Math.round(18 * textScale)}px`, [textScale])
+  const paginated = !!(doc?.groups && doc.groups.length > PAGINATE_THRESHOLD)
+  const totalChapters = doc?.groups?.length ?? 0
+  const chapterIdx = Math.min(Math.max(0, activeChapter), Math.max(0, totalChapters - 1))
 
   if (err) return <div className="hymnal-empty">{err}</div>
   if (!doc) return <div className="hymnal-empty">Loading&hellip;</div>
@@ -70,6 +199,20 @@ export default function CreedReader({ id }: { id: string }) {
         </button>
         <div className="label">{chromeLabel}{doc.year ? `  \u00B7  ${doc.year}` : ''}</div>
         <div className="actions">
+          {isCatechism && quizEntries.length > 0 && (
+            <button
+              onClick={() => setQuizOpen((v) => !v)}
+              aria-label={quizOpen ? 'Exit quiz' : 'Start quiz'}
+              className={quizOpen ? 'quiz-btn on' : 'quiz-btn'}
+              title={quizOpen ? 'Exit quiz' : 'Start quiz'}
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                <circle cx="12" cy="12" r="10" />
+                <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+                <line x1="12" y1="17" x2="12.01" y2="17" />
+              </svg>
+            </button>
+          )}
           <button onClick={() => toggleFav({ id })} aria-label={isFav ? 'Remove favorite' : 'Add favorite'} className={isFav ? 'fav-heart on' : 'fav-heart'}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill={isFav ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
               <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
@@ -120,15 +263,88 @@ export default function CreedReader({ id }: { id: string }) {
         )}
       </header>
 
-      <div className="creed-prose" style={{ fontSize: baseSize }}>
-        {doc.groups && doc.groups.length > 0 ? (
-          doc.groups.map((g, gi) => (
-            <Group key={gi} docId={doc.id} group={g} groupIndex={gi} isBmk={isEntryFav} toggleBmk={toggleEntryFav} />
-          ))
-        ) : doc.content ? (
-          <div className="creed-body-text">{doc.content}</div>
-        ) : null}
-      </div>
+      {quizOpen && isCatechism && (
+        <QuizPanel entries={quizEntries} onExit={() => setQuizOpen(false)} />
+      )}
+
+      {!quizOpen && paginated && doc.groups && (
+        <div className="creed-chapter-strip" role="tablist" aria-label="Chapters">
+          {doc.groups.map((g, gi) => {
+            const num = g.number != null ? String(g.number) : String(gi + 1)
+            const title = g.title || ''
+            const on = gi === chapterIdx
+            return (
+              <button
+                key={gi}
+                type="button"
+                role="tab"
+                aria-selected={on}
+                className={on ? 'chip on' : 'chip'}
+                onClick={() => setActiveChapter(gi)}
+                title={title || `Chapter ${num}`}
+              >
+                <em>{num}</em>
+                {title && <span className="t">{title}</span>}
+              </button>
+            )
+          })}
+        </div>
+      )}
+
+      {!quizOpen && (
+        <div className="creed-prose" style={{ fontSize: baseSize }}>
+          {doc.groups && doc.groups.length > 0 ? (
+            paginated ? (
+              <Group
+                key={chapterIdx}
+                docId={doc.id}
+                group={doc.groups[chapterIdx]}
+                groupIndex={chapterIdx}
+                isBmk={isEntryFav}
+                toggleBmk={toggleEntryFav}
+              />
+            ) : (
+              doc.groups.map((g, gi) => (
+                <Group key={gi} docId={doc.id} group={g} groupIndex={gi} isBmk={isEntryFav} toggleBmk={toggleEntryFav} />
+              ))
+            )
+          ) : doc.content ? (
+            <div className="creed-body-text">{linkifyScripture(doc.content, 'content')}</div>
+          ) : null}
+        </div>
+      )}
+
+      {!quizOpen && paginated && (
+        <nav className="creed-chapter-nav" aria-label="Chapter navigation">
+          <button
+            type="button"
+            className="creed-pager-btn"
+            onClick={() => setActiveChapter((i) => Math.max(0, i - 1))}
+            disabled={chapterIdx === 0}
+            aria-label="Previous chapter"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <polyline points="15 18 9 12 15 6" />
+            </svg>
+            <span className="lbl">Prev chapter</span>
+          </button>
+          <span className="creed-chapter-mark">
+            Chapter {chapterIdx + 1} of {totalChapters}
+          </span>
+          <button
+            type="button"
+            className="creed-pager-btn right"
+            onClick={() => setActiveChapter((i) => Math.min(totalChapters - 1, i + 1))}
+            disabled={chapterIdx >= totalChapters - 1}
+            aria-label="Next chapter"
+          >
+            <span className="lbl">Next chapter</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <polyline points="9 18 15 12 9 6" />
+            </svg>
+          </button>
+        </nav>
+      )}
 
       <nav className="creed-pager bottom" aria-label="Document navigation">
         <button
@@ -238,15 +454,122 @@ function Card({
     <div className="creed-card">
       <div>
         {entry.label && <div className="label-l">{entry.label}</div>}
-        {hasQ && <div className="qt">{entry.question}</div>}
-        {hasA && <div className="at">{entry.answer}</div>}
-        {proofsText && <div className="pf">{proofsText}</div>}
+        {hasQ && <div className="qt">{linkifyScripture(entry.question || '', 'q')}</div>}
+        {hasA && <div className="at">{linkifyScripture(entry.answer || '', 'a')}</div>}
+        {proofsText && <div className="pf">{linkifyScripture(proofsText, 'pf')}</div>}
       </div>
       <button className={bookmarked ? 'bmk on' : 'bmk'} onClick={onToggle} aria-label={bookmarked ? 'Remove bookmark' : 'Bookmark'}>
         <svg width="16" height="16" viewBox="0 0 24 24" fill={bookmarked ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
           <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
         </svg>
       </button>
+    </div>
+  )
+}
+
+function shuffleArr<T>(arr: T[]): T[] {
+  const a = [...arr]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+
+function QuizPanel({ entries, onExit }: { entries: ConfessionEntry[]; onExit: () => void }) {
+  const [shuffle, setShuffle] = useState(false)
+  const [order, setOrder] = useState<number[]>(() => entries.map((_, i) => i))
+  const [pos, setPos] = useState(0)
+  const [revealed, setRevealed] = useState(false)
+  const [correct, setCorrect] = useState(0)
+  const [missed, setMissed] = useState(0)
+  const [done, setDone] = useState(false)
+
+  useEffect(() => {
+    const base = entries.map((_, i) => i)
+    setOrder(shuffle ? shuffleArr(base) : base)
+    setPos(0); setRevealed(false); setCorrect(0); setMissed(0); setDone(false)
+  }, [shuffle, entries])
+
+  const total = order.length
+  const entry = total > 0 ? entries[order[pos]] : null
+  const answered = correct + missed
+
+  const advance = (mark: 'correct' | 'missed' | 'skip') => {
+    if (mark === 'correct') setCorrect((n) => n + 1)
+    else if (mark === 'missed') setMissed((n) => n + 1)
+    if (pos + 1 >= total) { setDone(true); return }
+    setPos((p) => p + 1)
+    setRevealed(false)
+  }
+
+  const restart = () => {
+    const base = entries.map((_, i) => i)
+    setOrder(shuffle ? shuffleArr(base) : base)
+    setPos(0); setRevealed(false); setCorrect(0); setMissed(0); setDone(false)
+  }
+
+  if (!entry) {
+    return (
+      <div className="quiz-panel">
+        <div className="quiz-empty">No question/answer entries available.</div>
+        <button type="button" className="quiz-exit" onClick={onExit}>Exit quiz</button>
+      </div>
+    )
+  }
+
+  if (done) {
+    const pct = total > 0 ? Math.round((correct / total) * 100) : 0
+    return (
+      <div className="quiz-panel">
+        <div className="quiz-header">
+          <span className="quiz-mark">Quiz complete</span>
+          <button type="button" className="quiz-exit" onClick={onExit} aria-label="Exit quiz">Exit</button>
+        </div>
+        <div className="quiz-summary">
+          <div className="score">{correct} / {total}</div>
+          <div className="pct">{pct}% correct</div>
+          <div className="meta">{missed} missed</div>
+        </div>
+        <div className="quiz-acts">
+          <button type="button" className="qbtn primary" onClick={restart}>Restart</button>
+          <button type="button" className="qbtn" onClick={onExit}>Back to text</button>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="quiz-panel">
+      <div className="quiz-header">
+        <span className="quiz-mark">Question {pos + 1} of {total}</span>
+        <div className="quiz-meta">
+          <label className="quiz-shuffle">
+            <input type="checkbox" checked={shuffle} onChange={(e) => setShuffle(e.target.checked)} />
+            Shuffle
+          </label>
+          <span className="quiz-score">{correct}/{answered}</span>
+          <button type="button" className="quiz-exit" onClick={onExit} aria-label="Exit quiz">Exit</button>
+        </div>
+      </div>
+
+      {entry.label && <div className="quiz-label">{entry.label}</div>}
+      <div className="quiz-q">{entry.question}</div>
+
+      {revealed ? (
+        <>
+          <div className="quiz-a">{entry.answer}</div>
+          <div className="quiz-acts">
+            <button type="button" className="qbtn miss" onClick={() => advance('missed')}>Missed it</button>
+            <button type="button" className="qbtn primary" onClick={() => advance('correct')}>Got it</button>
+          </div>
+        </>
+      ) : (
+        <div className="quiz-acts">
+          <button type="button" className="qbtn" onClick={() => advance('skip')}>Skip</button>
+          <button type="button" className="qbtn primary" onClick={() => setRevealed(true)}>Show answer</button>
+        </div>
+      )}
     </div>
   )
 }

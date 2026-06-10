@@ -3,7 +3,7 @@
 // - cache-first for /hymnal-data/*.json and /_next/static/* (offline)
 // - cache-first for /fonts/* (offline)
 
-const VERSION = 'nxr-hymnal-v15'
+const VERSION = 'nxr-hymnal-v16'
 const SHELL_CACHE = `${VERSION}-shell`
 const DATA_CACHE = `${VERSION}-data`
 const STATIC_CACHE = `${VERSION}-static`
@@ -16,6 +16,7 @@ const SHELL = [
   '/hymnal/saved',
   '/hymnal/more',
   '/hymnal/search',
+  '/hymnal/compare',
   '/install',
   '/manifest.webmanifest',
 ]

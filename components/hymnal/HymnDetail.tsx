@@ -308,8 +308,12 @@ function AudioBar({
   useEffect(() => {
     const a = audioRef.current
     if (!a) return
+    setT(0); setDur(0)
     const onTime = () => setT(a.currentTime)
-    const onMeta = () => setDur(a.duration || 0)
+    const captureDur = () => {
+      const d = a.duration
+      if (Number.isFinite(d) && d > 0) setDur(d)
+    }
     const onEnd = () => {
       if (loopingRef.current && loopsLeftRef.current > 1) {
         const next = loopsLeftRef.current - 1
@@ -324,11 +328,18 @@ function AudioBar({
       }
     }
     a.addEventListener('timeupdate', onTime)
-    a.addEventListener('loadedmetadata', onMeta)
+    a.addEventListener('loadedmetadata', captureDur)
+    a.addEventListener('durationchange', captureDur)
+    a.addEventListener('canplay', captureDur)
+    a.addEventListener('loadeddata', captureDur)
     a.addEventListener('ended', onEnd)
+    captureDur()
     return () => {
       a.removeEventListener('timeupdate', onTime)
-      a.removeEventListener('loadedmetadata', onMeta)
+      a.removeEventListener('loadedmetadata', captureDur)
+      a.removeEventListener('durationchange', captureDur)
+      a.removeEventListener('canplay', captureDur)
+      a.removeEventListener('loadeddata', captureDur)
       a.removeEventListener('ended', onEnd)
     }
   }, [src])
@@ -355,6 +366,15 @@ function AudioBar({
       a.play().then(() => setPlaying(true)).catch(() => setPlaying(false))
     }
   }
+  function stop() {
+    const a = audioRef.current
+    if (!a) return
+    a.pause()
+    a.currentTime = 0
+    loopsLeftRef.current = verseCountRef.current
+    setLoopsLeft(verseCountRef.current)
+    setPlaying(false)
+  }
   function fmt(s: number) {
     if (!Number.isFinite(s)) return '0:00'
     const m = Math.floor(s / 60)
@@ -375,52 +395,65 @@ function AudioBar({
       <div className="audio-bar-inner">
         <div className="meta-row">
           <span>{label}</span>
-          {hasAudio && <span>{fmt(t)} / {fmt(dur)}</span>}
+          {hasAudio && <span>{dur > 0 ? `${fmt(t)} / ${fmt(dur)}` : fmt(t)}</span>}
         </div>
         {hasAudio && (
           <div className="progress"><div className="fill" style={{ width: `${pct}%` }} /></div>
         )}
         <div className="controls">
-          <button onClick={onPrev} disabled={!onPrev} aria-label="Previous hymn">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-              <polygon points="19 20 9 12 19 4 19 20" /><line x1="5" y1="19" x2="5" y2="5" />
-            </svg>
-          </button>
-          {hasAudio && (
-            <button className={looping ? 'on' : ''} onClick={() => setLooping((v) => !v)} aria-label={looping ? 'Disable loop' : 'Enable loop'} aria-pressed={looping}>
+          <div className="grp left">
+            <button onClick={onPrev} disabled={!onPrev} aria-label="Previous hymn">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-                <polyline points="17 1 21 5 17 9" /><path d="M3 11V9a4 4 0 0 1 4-4h14" /><polyline points="7 23 3 19 7 15" /><path d="M21 13v2a4 4 0 0 1-4 4H3" />
+                <polygon points="19 20 9 12 19 4 19 20" /><line x1="5" y1="19" x2="5" y2="5" />
               </svg>
             </button>
-          )}
-          {hasAudio && (
-            <button onClick={restart} aria-label="Restart">
+            {hasAudio && (
+              <button className={looping ? 'on' : ''} onClick={() => setLooping((v) => !v)} aria-label={looping ? 'Disable loop' : 'Enable loop'} aria-pressed={looping}>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                  <polyline points="17 1 21 5 17 9" /><path d="M3 11V9a4 4 0 0 1 4-4h14" /><polyline points="7 23 3 19 7 15" /><path d="M21 13v2a4 4 0 0 1-4 4H3" />
+                </svg>
+              </button>
+            )}
+            {hasAudio && (
+              <button onClick={restart} aria-label="Restart">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                  <polyline points="1 4 1 10 7 10" /><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
+                </svg>
+              </button>
+            )}
+          </div>
+          <div className="grp center">
+            {hasAudio && (
+              <button className="play" onClick={toggle} aria-label={playing ? 'Pause' : 'Play'}>
+                {playing ? (
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+                    <rect x="6" y="4" width="4" height="16" /><rect x="14" y="4" width="4" height="16" />
+                  </svg>
+                ) : (
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+                    <polygon points="5 3 19 12 5 21 5 3" />
+                  </svg>
+                )}
+              </button>
+            )}
+            {hasAudio && (
+              <button className="stop" onClick={stop} aria-label="Stop">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+                  <rect x="5" y="5" width="14" height="14" />
+                </svg>
+              </button>
+            )}
+          </div>
+          <div className="grp right">
+            <button onClick={cycleScale} aria-label="Text size">
+              <span style={{ fontFamily: 'var(--serif)', fontSize: 14, letterSpacing: '0.04em' }}>Aa</span>
+            </button>
+            <button onClick={onNext} disabled={!onNext} aria-label="Next hymn">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-                <polyline points="1 4 1 10 7 10" /><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
+                <polygon points="5 4 15 12 5 20 5 4" /><line x1="19" y1="5" x2="19" y2="19" />
               </svg>
             </button>
-          )}
-          {hasAudio && (
-            <button className="play" onClick={toggle} aria-label={playing ? 'Pause' : 'Play'}>
-              {playing ? (
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
-                  <rect x="6" y="4" width="4" height="16" /><rect x="14" y="4" width="4" height="16" />
-                </svg>
-              ) : (
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden>
-                  <polygon points="5 3 19 12 5 21 5 3" />
-                </svg>
-              )}
-            </button>
-          )}
-          <button onClick={cycleScale} aria-label="Text size">
-            <span style={{ fontFamily: 'var(--serif)', fontSize: 14, letterSpacing: '0.04em' }}>Aa</span>
-          </button>
-          <button onClick={onNext} disabled={!onNext} aria-label="Next hymn">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-              <polygon points="5 4 15 12 5 20 5 4" /><line x1="19" y1="5" x2="19" y2="19" />
-            </svg>
-          </button>
+          </div>
         </div>
       </div>
     </div>
@@ -517,6 +550,15 @@ function ShareModal({ hymn, hymnalShort, slug, onClose }: { hymn: Hymn; hymnalSh
           <span className="lbl">System Share</span>
           <span className="dk">Open the OS share sheet</span>
         </button>
+        <button className="opt" onClick={() => {
+          const html = buildHymnPdfHtml(hymn, hymnalShort)
+          const win = window.open('', '_blank')
+          if (!win) { setCopied('Pop-up blocked'); setTimeout(() => setCopied(null), 1500); return }
+          win.document.open(); win.document.write(html); win.document.close()
+        }}>
+          <span className="lbl">Download as PDF</span>
+          <span className="dk">Lyrics &amp; sheet music in print layout</span>
+        </button>
         {copied && (
           <div style={{ textAlign: 'center', marginTop: 14, fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--nxr-brass)' }}>{copied}</div>
         )}
@@ -592,4 +634,57 @@ function AddToOrderModal({ hymnal, number, title, onClose }: { hymnal: string; n
       </div>
     </div>
   )
+}
+
+function escapeHtmlPdf(s: string): string {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
+}
+
+export function buildHymnPdfHtml(hymn: Hymn, hymnalShort: string): string {
+  const verses = (hymn.verses || []).map((v, vi) => {
+    const isChorus = !!v.isChorus
+    const label = isChorus ? 'Refrain' : String(v.number)
+    const lines = (v.text || '').split(/\n/).map((ln) => escapeHtmlPdf(ln)).join('<br/>')
+    const cls = `verse${isChorus ? ' refrain' : ''}${!isChorus && vi === 0 ? ' first' : ''}`
+    return `<div class="${cls}"><div class="vm">${escapeHtmlPdf(label)}</div><div class="vt">${lines}</div></div>`
+  }).join('')
+  const sheet = hymn.sheetMusicUrl
+    ? `<div class="sheet"><img src="${escapeHtmlPdf(hymn.sheetMusicUrl)}" alt="Sheet music"/></div>`
+    : ''
+  const metaParts: string[] = []
+  if (hymnalShort) metaParts.push(escapeHtmlPdf(hymnalShort))
+  metaParts.push(`No. ${escapeHtmlPdf(hymn.number)}`)
+  if (hymn.tune) metaParts.push(escapeHtmlPdf(hymn.tune))
+  if (hymn.meter) metaParts.push(escapeHtmlPdf(hymn.meter))
+  const meta = metaParts.join(' &middot; ')
+  const author = hymn.author ? `<div class="author">${escapeHtmlPdf(hymn.author)}</div>` : ''
+  const css = `
+    @page { size: letter; margin: 0.8in 0.7in; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body { font-family: "Adobe Garamond Pro", "EB Garamond", Garamond, Georgia, "Times New Roman", serif; color: #1a140a; font-size: 12pt; line-height: 1.5; }
+    .eyebrow { text-align: center; font-size: 10pt; letter-spacing: 0.32em; text-transform: uppercase; color: #8a6c2a; margin-bottom: 14px; }
+    h1 { text-align: center; font-weight: 400; font-style: italic; font-size: 28pt; line-height: 1.1; margin: 0 0 6px; }
+    .meta { text-align: center; font-style: italic; color: #6b5a35; font-size: 12pt; margin-bottom: 4px; }
+    .author { text-align: center; font-style: italic; color: #8a6c2a; font-size: 11pt; margin-bottom: 22px; }
+    .rule { width: 80px; height: 1px; background: linear-gradient(to right, transparent, #b5a273, transparent); margin: 8px auto 24px; }
+    .verses { max-width: 460px; margin: 0 auto; text-align: center; }
+    .verse { margin-bottom: 16px; page-break-inside: avoid; }
+    .verse .vm { font-style: italic; color: #8a6c2a; font-size: 10pt; letter-spacing: 0.14em; text-transform: lowercase; margin-bottom: 4px; }
+    .verse .vt { font-size: 12pt; line-height: 1.6; }
+    .verse.first .vt::first-letter { font-size: 30pt; line-height: 0.95; float: left; padding: 4px 8px 0 0; font-style: italic; color: #8a6c2a; }
+    .verse.refrain { margin: 14px auto; padding: 10px 18px; border-left: 2px solid #b5a273; border-right: 2px solid #b5a273; max-width: 380px; }
+    .sheet { margin-top: 28px; text-align: center; page-break-before: auto; }
+    .sheet img { max-width: 100%; height: auto; }
+  `
+  return `<!doctype html><html><head><meta charset="utf-8"><title>${escapeHtmlPdf(hymn.title)}</title><style>${css}</style></head><body>
+    <div class="eyebrow">${hymnalShort ? escapeHtmlPdf(hymnalShort) : 'Hymn'}</div>
+    <h1>${escapeHtmlPdf(hymn.title)}</h1>
+    <div class="rule"></div>
+    <div class="meta">${meta}</div>
+    ${author}
+    <div class="verses">${verses}</div>
+    ${sheet}
+    <script>window.onload = function(){ setTimeout(function(){ window.focus(); window.print(); }, 350); };<\/script>
+  </body></html>`
 }

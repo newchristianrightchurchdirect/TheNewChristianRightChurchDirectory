@@ -3,7 +3,6 @@
 import { useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { HYMNALS } from '@/lib/hymnal/sources'
-import { loadHymnal } from '@/lib/hymnal/loader'
 import { useHymnalStore } from '@/store/hymnal'
 import type { HymnalDocument } from '@/types/hymnal'
 
@@ -59,69 +58,6 @@ export default function ImportHymnal() {
   const custom = useHymnalStore((s) => s.customHymnals)
   const addCustom = useHymnalStore((s) => s.addCustomHymnal)
   const removeCustom = useHymnalStore((s) => s.removeCustomHymnal)
-  const [bundleBusy, setBundleBusy] = useState(false)
-  const [bundleStatus, setBundleStatus] = useState<{ kind: 'ok' | 'err'; msg: string } | null>(null)
-  const [bundleProgress, setBundleProgress] = useState<{ stage: string; current: number; total: number; sheet: number; audio: number; errors: number } | null>(null)
-
-  async function importAllBundled() {
-    setBundleBusy(true)
-    setBundleStatus(null)
-    setBundleProgress({ stage: 'Reading hymnals\u2026', current: 0, total: HYMNALS.length, sheet: 0, audio: 0, errors: 0 })
-    try {
-      const docs: { slug: string; doc: HymnalDocument | null }[] = []
-      for (let i = 0; i < HYMNALS.length; i++) {
-        const slug = HYMNALS[i].slug
-        setBundleProgress((p) => p && { ...p, current: i + 1, stage: `Reading ${HYMNALS[i].title}\u2026` })
-        try {
-          const doc = await loadHymnal(slug)
-          docs.push({ slug, doc })
-        } catch {
-          docs.push({ slug, doc: null })
-        }
-      }
-      const successes = docs.filter((d) => d.doc != null).length
-      const allUrls: string[] = []
-      for (const d of docs) {
-        if (!d.doc) continue
-        for (const h of d.doc.hymns) {
-          if (h.audioUrl) allUrls.push(h.audioUrl)
-          if (h.sheetMusicUrl) allUrls.push(h.sheetMusicUrl)
-        }
-      }
-      const unique = Array.from(new Set(allUrls))
-      let sheet = 0, audio = 0, errors = 0
-      const total = unique.length
-      setBundleProgress({ stage: 'Downloading media\u2026', current: 0, total, sheet: 0, audio: 0, errors: 0 })
-      const CONCURRENCY = 6
-      let cursor = 0
-      async function worker() {
-        while (true) {
-          const i = cursor++
-          if (i >= unique.length) return
-          const url = unique[i]
-          const isAudio = /\.(mp3|ogg|wav|m4a)(\?|#|$)/i.test(url) || /audio/i.test(url)
-          try {
-            const r = await fetch(url, { mode: 'no-cors', cache: 'force-cache' })
-            void r
-            if (isAudio) audio++; else sheet++
-          } catch {
-            errors++
-          }
-          setBundleProgress((p) => p && { stage: p.stage, current: i + 1, total, sheet, audio, errors })
-        }
-      }
-      await Promise.all(Array.from({ length: CONCURRENCY }, () => worker()))
-      const failed = HYMNALS.length - successes
-      if (failed === 0) {
-        setBundleStatus({ kind: 'ok', msg: `Cached ${successes} hymnals and ${audio} audio + ${sheet} sheet-music files (${errors} skipped).` })
-      } else {
-        setBundleStatus({ kind: 'err', msg: `${successes} of ${HYMNALS.length} cached; ${failed} failed. Media: ${audio} audio, ${sheet} sheets, ${errors} errors.` })
-      }
-    } finally {
-      setBundleBusy(false)
-      setBundleProgress(null)
-    }
-  }
 
   async function onPick(ev: React.ChangeEvent<HTMLInputElement>) {
     const f = ev.target.files?.[0]
@@ -228,37 +164,7 @@ export default function ImportHymnal() {
       )}
 
       <h2 className="import-section-head">Bundled Hymnals</h2>
-      <p className="import-section-dek">Already included in the Reader.</p>
-
-      <button className="cta-filled" onClick={importAllBundled} disabled={bundleBusy} style={{ marginBottom: 10 }}>
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="7 10 12 15 17 10" /><line x1="12" y1="15" x2="12" y2="3" />
-        </svg>
-        {bundleBusy ? 'Caching\u2026' : 'Import All Bundled Hymnals'}
-      </button>
-
-      {bundleProgress && (
-        <div style={{ marginBottom: 14, padding: '12px 14px', border: '1px solid var(--nxr-rule)', fontFamily: 'var(--serif)', fontSize: 13, color: 'var(--nxr-ink-soft)' }}>
-          <div style={{ marginBottom: 6, fontStyle: 'italic' }}>{bundleProgress.stage}</div>
-          <div style={{ height: 4, background: 'var(--nxr-rule)', borderRadius: 2, overflow: 'hidden', marginBottom: 6 }}>
-            <div style={{ width: bundleProgress.total > 0 ? `${Math.round((bundleProgress.current / bundleProgress.total) * 100)}%` : '0%', height: '100%', background: 'var(--nxr-brass)', transition: 'width 0.2s' }} />
-          </div>
-          <div style={{ fontSize: 11, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--nxr-ink-mute)' }}>
-            {bundleProgress.current} / {bundleProgress.total} &middot; {bundleProgress.audio} audio &middot; {bundleProgress.sheet} sheet &middot; {bundleProgress.errors} skipped
-          </div>
-        </div>
-      )}
-
-      {bundleStatus && (
-        <div style={{
-          marginBottom: 14, padding: '12px 14px',
-          border: `1px solid ${bundleStatus.kind === 'ok' ? 'var(--nxr-brass-deep)' : '#c25b66'}`,
-          color: bundleStatus.kind === 'ok' ? 'var(--nxr-brass)' : '#c25b66',
-          fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: 14,
-        }}>
-          {bundleStatus.msg}
-        </div>
-      )}
+      <p className="import-section-dek">Already included in the Reader. Open any to browse.</p>
 
       {HYMNALS.map((h) => (
         <button

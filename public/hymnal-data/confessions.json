@@ -2,6 +2,81 @@
   "source": "https://github.com/conglomo/confessions (CC BY 4.0) + custom",
   "documents": [
     {
+      "id": "apostles-creed",
+      "type": "creed",
+      "title": "Apostles’ Creed",
+      "year": "340",
+      "authors": [],
+      "alternativeTitles": [],
+      "tradition": "Ecumenical",
+      "country": "Italia",
+      "content": "I believe in God the Father Almighty,\nmaker of heaven and earth;\n\nAnd in Jesus Christ, his only Son, our Lord,\nwhich was conceived by the Holy Ghost,\nborn of the Virgin Mary,\nsuffered under Pontius Pilate,\nwas crucified, dead, and buried:\nhe descended into hell;\nthe third day he arose again from the dead;\nhe ascended into heaven,\nand sitteth on the right hand of God the Father Almighty,\nfrom thence he shall come to judge the quick and the dead.\n\nI believe in the Holy Ghost;\nthe holy catholick church;\nthe communion of saints;\nthe forgiveness of sins;\nthe resurrection of the body;\nand the life everlasting.\n\nAmen.",
+      "groups": []
+    },
+    {
+      "id": "nicene-creed",
+      "type": "creed",
+      "title": "Nicene Creed",
+      "year": "381",
+      "authors": [],
+      "alternativeTitles": [],
+      "tradition": "Ecumenical",
+      "country": "Bithynia",
+      "content": "I believe in one God,\nthe Father Almighty,\nMaker of heaven and earth,\nand of all things visible and invisible.\n\nAnd in one Lord Jesus Christ,\nthe only begotten Son of God,\nbegotten of the Father before all worlds;\nGod of God,\nLight of Light,\nvery God of very God;\nbegotten, not made,\nbeing of one substance with the Father,\nby whom all things were made.\n\nWho, for us men and for our salvation,\ncame down from heaven,\nand was incarnate by the Holy Spirit of the virgin Mary,\nand was made man;\nand was crucified also for us under Pontius Pilate;\nhe suffered and was buried;\nand the third day he rose again, according to the Scriptures;\nand ascended into heaven,\nand sits at the right hand of the Father;\nand he shall come again, with glory,\nto judge the living and the dead;\nwhose kingdom shall have no end.\n\nAnd I believe in the Holy Spirit,\nthe Lord and giver of life;\nwho proceeds from the Father and the Son;\nwho with the Father and the Son together is worshipped and glorified;\nwho spoke by the prophets.\n\nAnd I believe one holy catholic and apostolic church.\nI acknowledge one baptism for the remission of sins;\nand I look for the resurrection of the dead,\nand the life of the world to come.\n\nAmen.",
+      "groups": []
+    },
+    {
+      "id": "athanasian-creed",
+      "type": "creed",
+      "title": "Athanasian Creed",
+      "year": "450",
+      "authors": [],
+      "alternativeTitles": [],
+      "tradition": "Ecumenical",
+      "country": "Gaul",
+      "content": null,
+      "groups": [
+        {
+          "number": "1",
+          "title": "Concerning the Trinity",
+          "entries": [
+            {
+              "id": "c1_1",
+              "label": "1",
+              "question": null,
+              "answer": "That we worship one God in Trinity, and Trinity in Unity;\nneither confounding the persons, nor dividing the substance.\nFor there is one person of the Father, another of the Son, and another of the Holy Spirit.\nBut the Godhead of the Father, of the Son, and of the Holy Spirit is all one, the glory equal, the majesty co-eternal.\n\nSuch as the Father is, such is the Son, and such is the Holy Spirit.\nThe Father uncreate, the Son uncreate, and the Holy Spirit uncreate.\nThe Father incomprehensible, the Son incomprehensible, and the Holy Spirit incomprehensible.\nThe Father eternal, the Son eternal, and the Holy Spirit eternal.\nAnd yet they are not three eternals, but one eternal.\nAs also there are not three uncreated nor three incomprehensibles, but one uncreated and one incomprehensible.\nSo likewise the Father is almighty, the Son almighty, and the Holy Spirit almighty; and yet they are not three almighties, but one almighty.\nSo the Father is God, the Son is God, and the Holy Spirit is God; and yet they are not three Gods, but one God.\nSo likewise the Father is Lord, the Son Lord, and the Holy Spirit Lord; and yet they are not three Lords, but one Lord.\n\nFor like as we are compelled by the Christian verity to acknowledge every person by himself to be God and Lord; so are we forbidden by the catholic religion to say, “There are three Gods or three Lords”.\nThe Father is made of none, neither created nor begotten.\nThe Son is of the Father alone; not made, nor created, but begotten.\nThe Holy Spirit is of the Father and of the Son; neither made, nor created, nor begotten, but proceeding.\nSo there is one Father, not three Fathers; one Son, not three Sons; one Holy Spirit, not three Holy Spirits.\nAnd in this Trinity none is afore, or after another; none is greater, or less than another.\nBut the whole three persons are co-eternal, and co-equal.\n\nSo that in all things, as aforesaid, the Unity in Trinity and the Trinity in Unity is to be worshipped.\n\nHe therefore that will be saved must thus think of the Trinity.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "title": "Concerning the Incarnation",
+          "entries": [
+            {
+              "id": "c2_1",
+              "label": "1",
+              "question": null,
+              "answer": "Furthermore, it is necessary to everlasting salvation that he also believe rightly the incarnation of our Lord Jesus Christ.\n\nFor the right faith is that we believe and confess that our Lord Jesus Christ, the Son of God, is God and man.\nGod of the substance of the Father, begotten before the worlds; and man of the substance of his mother, born in the world.\nPerfect God and perfect man, of a reasonable soul and human flesh subsisting.\nEqual to the Father as touching his Godhead, and inferior to the Father as touching his manhood.\nWho, although he is God and man, yet he is not two, but one Christ.\nOne, not by conversion of the Godhead into flesh, but by taking of the manhood into God.\nOne altogether, not by confusion of substance, but by unity of person.\nFor as the reasonable soul and flesh is one man, so God and man is one Christ;\n\nwho suffered for our salvation,\ndescended into hell,\nrose again the third day from the dead;\nhe ascended into heaven,\nhe sits on the right hand of the Father, God Almighty;\nfrom there he shall come to judge the living and the dead.\n\nAt whose coming all men shall rise again with their bodies;\nand shall give account of their own works.\nAnd they that have done good shall go into life everlasting,\nand they that have done evil into everlasting fire.\n\nThis is the catholic faith, which except a man believe faithfully, he cannot be saved.",
+              "proofs": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chalcedonian-creed",
+      "type": "creed",
+      "title": "Chalcedonian Creed",
+      "year": "451",
+      "authors": [],
+      "alternativeTitles": [],
+      "tradition": "Ecumenical",
+      "country": "Bithynia",
+      "content": "We, then, following the holy Fathers, all with one consent, teach men to confess one and the same Son, our Lord Jesus Christ, the same perfect in Godhead and also perfect in manhood; truly God and truly man, of a reasonable [rational] soul and body; consubstantial [coessential] with the Father according to the Godhead, and consubstantial with us according to the Manhood; in all things like unto us, without sin; begotten before all ages of the Father according to the Godhead, and in these latter days, for us and for our salvation, born of the Virgin Mary, the Mother of God, according to the Manhood; one and the same Christ, Son, Lord, Only-begotten, to be acknowledged in two natures, inconfusedly, unchangeably, indivisibly, inseparably; the distinction of natures being by no means taken away by the union, but rather the property of each nature being preserved, and concurring in one Person and one Subsistence, not parted or divided into two persons, but one and the same Son, and only begotten, God the Word, the Lord Jesus Christ, as the prophets from the beginning [have declared] concerning him, and the Lord Jesus Christ himself has taught us, and the Creed of the holy Fathers has handed down to us.",
+      "groups": []
+    },
+    {
       "id": "five-solas",
       "type": "creed",
       "title": "The Five Solas",
@@ -113,81 +188,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "apostles-creed",
-      "type": "creed",
-      "title": "Apostles’ Creed",
-      "year": "340",
-      "authors": [],
-      "alternativeTitles": [],
-      "tradition": "Ecumenical",
-      "country": "Italia",
-      "content": "I believe in God the Father Almighty,\nmaker of heaven and earth;\n\nAnd in Jesus Christ, his only Son, our Lord,\nwhich was conceived by the Holy Ghost,\nborn of the Virgin Mary,\nsuffered under Pontius Pilate,\nwas crucified, dead, and buried:\nhe descended into hell;\nthe third day he arose again from the dead;\nhe ascended into heaven,\nand sitteth on the right hand of God the Father Almighty,\nfrom thence he shall come to judge the quick and the dead.\n\nI believe in the Holy Ghost;\nthe holy catholick church;\nthe communion of saints;\nthe forgiveness of sins;\nthe resurrection of the body;\nand the life everlasting.\n\nAmen.",
-      "groups": []
-    },
-    {
-      "id": "nicene-creed",
-      "type": "creed",
-      "title": "Nicene Creed",
-      "year": "381",
-      "authors": [],
-      "alternativeTitles": [],
-      "tradition": "Ecumenical",
-      "country": "Bithynia",
-      "content": "I believe in one God,\nthe Father Almighty,\nMaker of heaven and earth,\nand of all things visible and invisible.\n\nAnd in one Lord Jesus Christ,\nthe only begotten Son of God,\nbegotten of the Father before all worlds;\nGod of God,\nLight of Light,\nvery God of very God;\nbegotten, not made,\nbeing of one substance with the Father,\nby whom all things were made.\n\nWho, for us men and for our salvation,\ncame down from heaven,\nand was incarnate by the Holy Spirit of the virgin Mary,\nand was made man;\nand was crucified also for us under Pontius Pilate;\nhe suffered and was buried;\nand the third day he rose again, according to the Scriptures;\nand ascended into heaven,\nand sits at the right hand of the Father;\nand he shall come again, with glory,\nto judge the living and the dead;\nwhose kingdom shall have no end.\n\nAnd I believe in the Holy Spirit,\nthe Lord and giver of life;\nwho proceeds from the Father and the Son;\nwho with the Father and the Son together is worshipped and glorified;\nwho spoke by the prophets.\n\nAnd I believe one holy catholic and apostolic church.\nI acknowledge one baptism for the remission of sins;\nand I look for the resurrection of the dead,\nand the life of the world to come.\n\nAmen.",
-      "groups": []
-    },
-    {
-      "id": "athanasian-creed",
-      "type": "creed",
-      "title": "Athanasian Creed",
-      "year": "450",
-      "authors": [],
-      "alternativeTitles": [],
-      "tradition": "Ecumenical",
-      "country": "Gaul",
-      "content": null,
-      "groups": [
-        {
-          "number": "1",
-          "title": "Concerning the Trinity",
-          "entries": [
-            {
-              "id": "c1_1",
-              "label": "1",
-              "question": null,
-              "answer": "That we worship one God in Trinity, and Trinity in Unity;\nneither confounding the persons, nor dividing the substance.\nFor there is one person of the Father, another of the Son, and another of the Holy Spirit.\nBut the Godhead of the Father, of the Son, and of the Holy Spirit is all one, the glory equal, the majesty co-eternal.\n\nSuch as the Father is, such is the Son, and such is the Holy Spirit.\nThe Father uncreate, the Son uncreate, and the Holy Spirit uncreate.\nThe Father incomprehensible, the Son incomprehensible, and the Holy Spirit incomprehensible.\nThe Father eternal, the Son eternal, and the Holy Spirit eternal.\nAnd yet they are not three eternals, but one eternal.\nAs also there are not three uncreated nor three incomprehensibles, but one uncreated and one incomprehensible.\nSo likewise the Father is almighty, the Son almighty, and the Holy Spirit almighty; and yet they are not three almighties, but one almighty.\nSo the Father is God, the Son is God, and the Holy Spirit is God; and yet they are not three Gods, but one God.\nSo likewise the Father is Lord, the Son Lord, and the Holy Spirit Lord; and yet they are not three Lords, but one Lord.\n\nFor like as we are compelled by the Christian verity to acknowledge every person by himself to be God and Lord; so are we forbidden by the catholic religion to say, “There are three Gods or three Lords”.\nThe Father is made of none, neither created nor begotten.\nThe Son is of the Father alone; not made, nor created, but begotten.\nThe Holy Spirit is of the Father and of the Son; neither made, nor created, nor begotten, but proceeding.\nSo there is one Father, not three Fathers; one Son, not three Sons; one Holy Spirit, not three Holy Spirits.\nAnd in this Trinity none is afore, or after another; none is greater, or less than another.\nBut the whole three persons are co-eternal, and co-equal.\n\nSo that in all things, as aforesaid, the Unity in Trinity and the Trinity in Unity is to be worshipped.\n\nHe therefore that will be saved must thus think of the Trinity.",
-              "proofs": []
-            }
-          ]
-        },
-        {
-          "number": "2",
-          "title": "Concerning the Incarnation",
-          "entries": [
-            {
-              "id": "c2_1",
-              "label": "1",
-              "question": null,
-              "answer": "Furthermore, it is necessary to everlasting salvation that he also believe rightly the incarnation of our Lord Jesus Christ.\n\nFor the right faith is that we believe and confess that our Lord Jesus Christ, the Son of God, is God and man.\nGod of the substance of the Father, begotten before the worlds; and man of the substance of his mother, born in the world.\nPerfect God and perfect man, of a reasonable soul and human flesh subsisting.\nEqual to the Father as touching his Godhead, and inferior to the Father as touching his manhood.\nWho, although he is God and man, yet he is not two, but one Christ.\nOne, not by conversion of the Godhead into flesh, but by taking of the manhood into God.\nOne altogether, not by confusion of substance, but by unity of person.\nFor as the reasonable soul and flesh is one man, so God and man is one Christ;\n\nwho suffered for our salvation,\ndescended into hell,\nrose again the third day from the dead;\nhe ascended into heaven,\nhe sits on the right hand of the Father, God Almighty;\nfrom there he shall come to judge the living and the dead.\n\nAt whose coming all men shall rise again with their bodies;\nand shall give account of their own works.\nAnd they that have done good shall go into life everlasting,\nand they that have done evil into everlasting fire.\n\nThis is the catholic faith, which except a man believe faithfully, he cannot be saved.",
-              "proofs": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "chalcedonian-creed",
-      "type": "creed",
-      "title": "Chalcedonian Creed",
-      "year": "451",
-      "authors": [],
-      "alternativeTitles": [],
-      "tradition": "Ecumenical",
-      "country": "Bithynia",
-      "content": "We, then, following the holy Fathers, all with one consent, teach men to confess one and the same Son, our Lord Jesus Christ, the same perfect in Godhead and also perfect in manhood; truly God and truly man, of a reasonable [rational] soul and body; consubstantial [coessential] with the Father according to the Godhead, and consubstantial with us according to the Manhood; in all things like unto us, without sin; begotten before all ages of the Father according to the Godhead, and in these latter days, for us and for our salvation, born of the Virgin Mary, the Mother of God, according to the Manhood; one and the same Christ, Son, Lord, Only-begotten, to be acknowledged in two natures, inconfusedly, unchangeably, indivisibly, inseparably; the distinction of natures being by no means taken away by the union, but rather the property of each nature being preserved, and concurring in one Person and one Subsistence, not parted or divided into two persons, but one and the same Son, and only begotten, God the Word, the Lord Jesus Christ, as the prophets from the beginning [have declared] concerning him, and the Lord Jesus Christ himself has taught us, and the Creed of the holy Fathers has handed down to us.",
-      "groups": []
     },
     {
       "id": "berne-theses",
@@ -89150,27 +89150,978 @@
           "title": "Human Nature",
           "entries": [
             {
-              "id": "s01_1",
+              "id": "episc-1-1",
               "label": "1",
-              "question": null,
-              "answer": "Q. What are we by nature?\nA. We are part of God’s creation, made in the image of God.\n\nQ. What does it mean to be created in the image of God?\nA. It means that we are free to make choices: to love, to create, to reason, and to live in harmony with creation and with God.\n\nQ. Why then do we live apart from God and out of harmony with creation?\nA. From the beginning, human beings have misused their freedom and made wrong choices.\n\nQ. Why do we not use our freedom as we should?\nA. Because we rebel against God, and we put ourselves in the place of God.\n\nQ. What help is there for us?\nA. Our help is in God.\n\nQ. How did God first help us?\nA. God first helped us by revealing himself and his will, through nature and history, through many seers and saints, and especially through the prophets of Israel.\nGod the Father\nQ. What do we learn about God as creator from the revelation to Israel?\nA. We learn that there is one God, the Father Almighty, creator of heaven and earth, of all that is, seen and unseen.\nQ. What does this mean?\nA. This means that the universe is good, that it is the work of a single loving God who creates, sustains, and directs it.\nQ. What does this mean about our place in the universe?\nA. It means that the world belongs to its creator; and that we are called to enjoy it and to care for it in accordance with God’s purposes.\nQ. What does this mean about human life?\nA. It means that all people are worthy of respect and honor, because all are created in the image of God, and all can respond to the love of God.\nQ. How was this revelation handed down to us?\nA. This revelation was handed down to us through a community created by a covenant with God.\nThe Old Covenant\nQ. What is meant by a covenant with God?\nA. A covenant is a relationship initiated by God, to which a body of people responds in faith.\nQ. What is the Old Covenant?\nA. The Old Covenant is the one given by God to the Hebrew people.\nQ. What did God promise them?\nA. God promised that they would be his people to bring all the nations of the world to him.\nQ. What response did God require from the chosen people?\nA. God required the chosen people to be faithful; to love justice, to do mercy, and to walk humbly with their God.\nQ. Where is this Old Covenant to be found?\nA. The covenant with the Hebrew people is to be found in the books which we call the Old Testament.\nQ. Where in the Old Testament is God’s will for us shown most clearly?\nA. God’s will for us is shown most clearly in the Ten Commandments.\nThe Ten Commandments\nQ. What are the Ten Commandments?\nA. The Ten Commandments are the laws given to Moses and the people of Israel.\nQ. What do we learn from these commandments?\nA. We learn two things: our duty to God, and our duty to our neighbors.\nQ. What is our duty to God?\nA. Our duty is to believe and trust in God;\nTo love and obey God and to bring others to know him;\nTo put nothing in the place of God;\nTo show God respect in thought, word, and deed;\nAnd to set aside regular times for worship, prayer, and the study of God’s ways.\nQ. What is our duty to our neighbors?\nA. Our duty to our neighbors is to love them as ourselves, and to do to other people as we wish them to do to us;\nTo love, honor, and help our parents and family; to honor those in authority, and to meet their just demands;\nTo show respect for the life God has given us; to work and pray for peace; to bear no malice, prejudice, or hatred in our hearts; and to be kind to all the creatures of God;\nTo use all our bodily desires as God intended;\nTo be honest and fair in our dealings; to seek justice, freedom, and the necessities of life for all people; and to use our talents and possessions as ones who must answer for them to God;\nTo speak the truth, and not to mislead others by our silence;\nTo resist temptations to envy, greed, and jealousy; to rejoice in other people’s gifts and graces; and to do our duty for the love of God, who has called us into fellowship with him.\nQ. What is the purpose of the Ten Commandments?\nA. The Ten Commandments were given to define our relationship with God and our neighbors.\nQ. Since we do not fully obey them, are they useful at all?\nA. Since we do not fully obey them, we see more clearly our sin and our need for redemption.\nSin and Redemption\nQ. What is sin?\nA. Sin is the seeking of our own will instead of the will of God, thus distorting our relationship with God, with other people, and with all creation.\nQ. How does sin have power over us?\nA. Sin has power over us because we lose our liberty when our relationship with God is distorted.\nQ. What is redemption?\nA. Redemption is the act of God which sets us free from the power of evil, sin, and death.\nQ. How did God prepare us for redemption?\nA. God sent the prophets to call us back to himself, to show us our need for redemption, and to announce the coming of the Messiah.\nQ. What is meant by the Messiah?\nA. The Messiah is one sent by God to free us from the power of sin, so that with the help of God we may live in harmony with God, within ourselves, with our neighbors, and with all creation.\nQ. Who do we believe is the Messiah?\nA. The Messiah, or Christ, is Jesus of Nazareth, the only Son of God.\nGod the Son\nQ. What do we mean when we say that Jesus is the only Son of God?\nA. We mean that Jesus is the only perfect image of the Father, and shows us the nature of God.\nQ. What is the nature of God revealed in Jesus?\nA. God is love.\nQ. What do we mean when we say that Jesus was conceived by the power of the Holy Spirit and became incarnate from the Virgin Mary?\nA. We mean that by God’s own act, his divine Son received our human nature from the Virgin Mary, his mother.\nQ. Why did he take our human nature?\nA. The divine Son became human, so that in him human beings might be adopted as children of God, and be made heirs of God’s kingdom.\nQ. What is the great importance of Jesus’ suffering and death?\nA. By his obedience, even to suffering and death, Jesus made the offering which we could not make; in him we are freed from the power of sin and reconciled to God.\nQ. What is the significance of Jesus’ resurrection?\nA. By his resurrection, Jesus overcame death and opened for us the way of eternal life.\nQ. What do we mean when we say that he descended to the dead?\nA. We mean that he went to the departed and offered them also the benefits of redemption.\nQ. What do we mean when we say that he ascended into heaven and is seated at the right hand of the Father?\nA. We mean that Jesus took our human nature into heaven where he now reigns with the Father and intercedes for us.\nQ. How can we share in his victory over sin, suffering, and death?\nA. We share in his victory when we are baptized into the New Covenant and become living members of Christ.\nThe New Covenant\nQ. What is the New Covenant?\nA. The New Covenant is the new relationship with God given by Jesus Christ, the Messiah, to the apostles; and, through them, to all who believe in him.\nQ. What did the Messiah promise in the New Covenant?\nA. Christ promised to bring us into the kingdom of God and give us life in all its fullness.\nQ. What response did Christ require?\nA. Christ commanded us to believe in him and to keep his commandments.\nQ. What are the commandments taught by Christ?\nA. Christ taught us the Summary of the Law and gave us the New Commandment.\nQ. What is the Summary of the Law?\nA. You shall love the Lord your God with all your heart, with all your soul, and with all your mind. This is the first and the great commandment. And the second is like it: You shall love your neighbor as yourself.\nQ. What is the New Commandment?\nA. The New Commandment is that we love one another as Christ loved us.\nQ. Where may we find what Christians believe about Christ?\nA. What Christians believe about Christ is found in the Scriptures and summed up in the creeds.\nThe Creeds\nQ. What are the creeds?\nA. The creeds are statements of our basic beliefs about God.\nQ. How many creeds does this Church use in its worship?\nA. This Church uses two creeds: The Apostles’ Creed and the Nicene Creed.\nQ. What is the Apostles’ Creed?\nA. The Apostles’ Creed is the ancient creed of Baptism; it is used in the Church’s daily worship to recall our Baptismal Covenant.\nQ. What is the Nicene Creed?\nA. The Nicene Creed is the creed of the universal Church and is used at the Eucharist.\nQ. What, then, is the Athanasian Creed?\nA. The Athanasian Creed is an ancient document proclaiming the nature of the Incarnation and of God as Trinity.\nQ. What is the Trinity?\nA. The Trinity is one God: Father, Son, and Holy Spirit.\nThe Holy Spirit\nQ. Who is the Holy Spirit?\nA. The Holy Spirit is the Third Person of the Trinity, God at work in the world and in the Church even now.\nQ. How is the Holy Spirit revealed in the Old Covenant?\nA. The Holy Spirit is revealed in the Old Covenant as the giver of life, the One who spoke through the prophets.\nQ. How is the Holy Spirit revealed in the New Covenant?\nA. The Holy Spirit is revealed as the Lord who leads us into all truth and enables us to grow in the likeness of Christ.\nQ. How do we recognize the presence of the Holy Spirit in our lives?\nA. We recognize the presence of the Holy Spirit when we confess Jesus Christ as Lord and are brought into love and harmony with God, with ourselves, with our neighbors, and with all creation.\nQ. How do we recognize the truths taught by the Holy Spirit?\nA. We recognize truths to be taught by the Holy Spirit when they are in accord with the Scriptures.\nThe Holy Scriptures\nQ. What are the Holy Scriptures?\nA. The Holy Scriptures, commonly called the Bible, are the books of the Old and New Testaments; other books, called the Apocrypha, are often included in the Bible.\nQ. What is the Old Testament?\nA. The Old Testament consists of books written by the people of the Old Covenant, under the inspiration of the Holy Spirit, to show God at work in nature and history.\nQ. What is the New Testament?\nA. The New Testament consists of books written by the people of the New Covenant, under the inspiration of the Holy Spirit, to set forth the life and teachings of Jesus and to proclaim the Good News of the Kingdom for all people.\nQ. What is the Apocrypha?\nA. The Apocrypha is a collection of additional books written by people of the Old Covenant, and used in the Christian Church.\nQ. Why do we call the Holy Scriptures the Word of God?\nA. We call them the Word of God because God inspired their human authors and because God still speaks to us through the Bible.\nQ. How do we understand the meaning of the Bible?\nA. We understand the meaning of the Bible by the help of the Holy Spirit, who guides the Church in the true interpretation of the Scriptures.\nThe Church\nQ. What is the Church?\nA. The Church is the community of the New Covenant.\nQ. How is the Church described in the Bible?\nA. The Church is described as the Body of which Jesus Christ is the Head and of which all baptized persons are members. It is called the People of God, the New Israel, a holy nation, a royal priesthood, and the pillar and ground of truth.\nQ. How is the Church described in the creeds?\nA. The Church is described as one, holy, catholic, and apostolic.\nQ. Why is the Church described as one?\nA. The Church is one, because it is one Body, under one Head, our Lord Jesus Christ.\nQ. Why is the Church described as holy?\nA. The Church is holy, because the Holy Spirit dwells in it, consecrates its members, and guides them to do God’s work.\nQ. Why is the Church described as catholic?\nA. The Church is catholic, because it proclaims the whole Faith to all people, to the end of time.\nQ. Why is the Church described as apostolic?\nA. The Church is apostolic, because it continues in the teaching and fellowship of the apostles and is sent to carry out Christ’s mission to all people.\nQ. What is the mission of the Church?\nA. The mission of the Church is to restore all people to unity with God and each other in Christ.\nQ. How does the Church pursue its mission?\nA. The Church pursues its mission as it prays and worships, proclaims the Gospel, and promotes justice, peace, and love.\nQ. Through whom does the Church carry out its mission?\nA. The Church carries out its mission through the ministry of all its members.\nThe Ministry\nQ. Who are the ministers of the Church?\nA. The ministers of the Church are lay persons, bishops, priests, and deacons.\nQ. What is the ministry of the laity?\nA. The ministry of lay persons is to represent Christ and his Church; to bear witness to him wherever they may be and, according to the gifts given them, to carry on Christ’s work of reconciliation in the world; and to take their place in the life, worship, and governance of the Church.\nQ. What is the ministry of a bishop?\nA. The ministry of a bishop is to represent Christ and his Church, particularly as apostle, chief priest, and pastor of a diocese; to guard the faith, unity, and discipline of the whole Church; to proclaim the Word of God; to act in Christ’s name for the reconciliation of the world and the building up of the Church; and to ordain others to continue Christ’s ministry.\nQ. What is the ministry of a priest or presbyter?\nA. The ministry of a priest is to represent Christ and his Church, particularly as pastor to the people; to share with the bishop in the overseeing of the Church; to proclaim the Gospel; to administer the sacraments; and to bless and declare pardon in the name of God.\nQ. What is the ministry of a deacon?\nA. The ministry of a deacon is to represent Christ and his Church, particularly as a servant of those in need; and to assist bishops and priests in the proclamation of the Gospel and the administration of the sacraments.\nQ. What is the duty of all Christians?\nA. The duty of all Christians is to follow Christ; to come together week by week for corporate worship; and to work, pray, and give for the spread of the kingdom of God.\nPrayer and Worship\nQ. What is prayer?\nA. Prayer is responding to God, by thought and by deeds, with or without words.\nQ. What is Christian Prayer?\nA. Christian prayer is response to God the Father, through Jesus Christ, in the power of the Holy Spirit.\nQ. What prayer did Christ teach us?\nA. Our Lord gave us the example of prayer known as the Lord’s Prayer.\nQ. What are the principal kinds of prayer?\nA. The principal kinds of prayer are adoration, praise, thanksgiving, penitence, oblation, intercession, and petition.\nQ. What is adoration?\nA. Adoration is the lifting up of the heart and mind to God, asking nothing but to enjoy God’s presence.\nQ. Why do we praise God?\nA. We praise God, not to obtain anything, but because God’s Being draws praise from us.\nQ. For what do we offer thanksgiving?\nA. Thanksgiving is offered to God for all the blessings of this life, for our redemption, and for whatever draws us closer to God.\nQ. What is penitence?\nA. In penitence, we confess our sins and make restitution where possible, with the intention to amend our lives.\nQ. What is prayer of oblation?\nA. Oblation is an offering of ourselves, our lives and labors, in union with Christ, for the purposes of God.\nQ. What are intercession and petition?\nA. Intercession brings before God the needs of others; in petition, we present our own needs, that God’s will may be done.\nQ. What is corporate worship?\nA. In corporate worship, we unite ourselves with others to acknowledge the holiness of God, to hear God’s Word, to offer prayer, and to celebrate the sacraments.\nThe Sacraments\nQ. What are the sacraments?\nA. The sacraments are outward and visible signs of inward and spiritual grace, given by Christ as sure and certain means by which we receive that grace.\nQ. What is grace?\nA. Grace is God’s favor towards us, unearned and undeserved; by grace God forgives our sins, enlightens our minds, stirs our hearts, and strengthens our wills.\nQ. What are the two great sacraments of the Gospel?\nA. The two great sacraments given by Christ to his Church are Holy Baptism and the Holy Eucharist.\nHoly Baptism\nQ. What is Holy Baptism?\nA. Holy Baptism is the sacrament by which God adopts us as his children and makes us members of Christ’s Body, the Church, and inheritors of the kingdom of God.\nQ. What is the outward and visible sign in Baptism?\nA. The outward and visible sign in Baptism is water, in which the person is baptized in the Name of the Father, and of the Son, and of the Holy Spirit.\nQ. What is the inward and spiritual grace in Baptism?\nA. The inward and spiritual grace in Baptism is union with Christ in his death and resurrection, birth into God’s family the Church, forgiveness of sins, and new life in the Holy Spirit.\nQ. What is required of us at Baptism?\nA. It is required that we renounce Satan, repent of our sins, and accept Jesus as our Lord and Savior.\nQ. Why then are infants baptized?\nA. Infants are baptized so that they can share citizenship in the Covenant, membership in Christ, and redemption by God.\nQ. How are the promises for infants made and carried out?\nA. Promises are made for them by their parents and sponsors, who guarantee that the infants will be brought up within the Church, to know Christ and be able to follow him.\nThe Holy Eucharist\nQ. What is the Holy Eucharist?\nA. The Holy Eucharist is the sacrament commanded by Christ for the continual remembrance of his life, death, and resurrection, until his coming again.\nQ. Why is the Eucharist called a sacrifice?\nA. Because the Eucharist, the Church’s sacrifice of praise and thanksgiving, is the way by which the sacrifice of Christ is made present, and in which he unites us to his one offering of himself.\nQ. By what other names is this service known?\nA. The Holy Eucharist is called the Lord’s Supper, and Holy Communion; it is also known as the Divine Liturgy, the Mass, and the Great Offering.\nQ. What is the outward and visible sign in the Eucharist?\nA. The outward and visible sign in the Eucharist is bread and wine, given and received according to Christ’s command.\nQ. What is the inward and spiritual grace given in the Eucharist?\nA. The inward and spiritual grace in the Holy Communion is the Body and Blood of Christ given to his people, and received by faith.\nQ. What are the benefits which we receive in the Lord’s Supper?\nA. The benefits we receive are the forgiveness of our sins, the strengthening of our union with Christ and one another, and the foretaste of the heavenly banquet which is our nourishment in eternal life.\nQ. What is required of us when we come to the Eucharist?\nA. It is required that we should examine our lives, repent of our sins, and be in love and charity with all people.\nOther Sacramental Rites\nQ. What other sacramental rites evolved in the Church under the guidance of the Holy Spirit?\nA. Other sacramental rites which evolved in the Church include confirmation, ordination, holy matrimony, reconciliation of a penitent, and unction.\nQ. How do they differ from the two sacraments of the Gospel?\nA. Although they are means of grace, they are not necessary for all persons in the same way that Baptism and the Eucharist are.\nQ. What is Confirmation?\nA. Confirmation is the rite in which we express a mature commitment to Christ, and receive strength from the Holy Spirit through prayer and the laying on of hands by a bishop.\nQ. What is required of those to be confirmed?\nA. It is required of those to be confirmed that they have been baptized, are sufficiently instructed in the Christian Faith, are penitent for their sins, and are ready to affirm their confession of Jesus Christ as Savior and Lord.\nQ. What is Ordination?\nA. Ordination is the rite in which God gives authority and the grace of the Holy Spirit to those being made bishops, priests, and deacons, through prayer and the laying on of hands by bishops.\nQ. What is Holy Matrimony?\nA. Holy Matrimony is Christian marriage, in which the woman and man enter into a life-long union, make their vows before God and the Church, and receive the grace and blessing of God to help them fulfill their vows.\nQ. What is Reconciliation of a Penitent?\nA. Reconciliation of a Penitent, or Penance, is the rite in which those who repent of their sins may confess them to God in the presence of a priest, and receive the assurance of pardon and the grace of absolution.\nQ. What is Unction of the Sick?\nA. Unction is the rite of anointing the sick with oil, or the laying on of hands, by which God’s grace is given for the healing of spirit, mind, and body.\nQ. Is God’s activity limited to these rites?\nA. God does not limit himself to these rites; they are patterns of countless ways by which God uses material things to reach out to us.\nQ. How are the sacraments related to our Christian hope?\nA. Sacraments sustain our present hope and anticipate its future fulfillment.\nThe Christian Hope\nQ. What is the Christian hope?\nA. The Christian hope is to live with confidence in newness and fullness of life, and to await the coming of Christ in glory, and the completion of God’s purpose for the world.\nQ. What do we mean by the coming of Christ in glory?\nA. By the coming of Christ in glory, we mean that Christ will come, not in weakness but in power, and will make all things new.\nQ. What do we mean by heaven and hell?\nA. By heaven, we mean eternal life in our enjoyment of God; by hell, we mean eternal death in our rejection of God.\nQ. Why do we pray for the dead?\nA. We pray for them, because we still hold them in our love, and because we trust that in God’s presence those who have chosen to serve him will grow in his love, until they see him as he is.\nQ. What do we mean by the last judgment?\nA. We believe that Christ will come in glory and judge the living and the dead.\nQ. What do we mean by the resurrection of the body?\nA. We mean that God will raise us from death in the fullness of our being, that we may live with Christ in the communion of the saints.\nQ. What is the communion of saints?\nA. The communion of saints is the whole family of God, the living and the dead, those whom we love and those whom we hurt, bound together in Christ by sacrament, prayer, and praise.\nQ. What do we mean by everlasting life?\nA. By everlasting life, we mean a new existence, in which we are united with all the people of God, in the joy of fully knowing and loving God and each other.\nQ. What, then, is our assurance as Christians?\nA. Our assurance as Christians is that nothing, not even death, shall separate us from the love of God which is in Christ Jesus our Lord. Amen.",
+              "question": "What are we by nature?",
+              "answer": "We are part of God’s creation, made in the image of God.",
+              "proofs": []
+            },
+            {
+              "id": "episc-1-2",
+              "label": "2",
+              "question": "What does it mean to be created in the image of God?",
+              "answer": "It means that we are free to make choices: to love, to create, to reason, and to live in harmony with creation and with God.",
+              "proofs": []
+            },
+            {
+              "id": "episc-1-3",
+              "label": "3",
+              "question": "Why then do we live apart from God and out of harmony with creation?",
+              "answer": "From the beginning, human beings have misused their freedom and made wrong choices.",
+              "proofs": []
+            },
+            {
+              "id": "episc-1-4",
+              "label": "4",
+              "question": "Why do we not use our freedom as we should?",
+              "answer": "Because we rebel against God, and we put ourselves in the place of God.",
+              "proofs": []
+            },
+            {
+              "id": "episc-1-5",
+              "label": "5",
+              "question": "What help is there for us?",
+              "answer": "Our help is in God.",
+              "proofs": []
+            },
+            {
+              "id": "episc-1-6",
+              "label": "6",
+              "question": "How did God first help us?",
+              "answer": "God first helped us by revealing himself and his will, through nature and history, through many seers and saints, and especially through the prophets of Israel.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "2",
+          "title": "God the Father",
+          "entries": [
+            {
+              "id": "episc-2-1",
+              "label": "1",
+              "question": "What do we learn about God as creator from the revelation to Israel?",
+              "answer": "We learn that there is one God, the Father Almighty, creator of heaven and earth, of all that is, seen and unseen.",
+              "proofs": []
+            },
+            {
+              "id": "episc-2-2",
+              "label": "2",
+              "question": "What does this mean?",
+              "answer": "This means that the universe is good, that it is the work of a single loving God who creates, sustains, and directs it.",
+              "proofs": []
+            },
+            {
+              "id": "episc-2-3",
+              "label": "3",
+              "question": "What does this mean about our place in the universe?",
+              "answer": "It means that the world belongs to its creator; and that we are called to enjoy it and to care for it in accordance with God’s purposes.",
+              "proofs": []
+            },
+            {
+              "id": "episc-2-4",
+              "label": "4",
+              "question": "What does this mean about human life?",
+              "answer": "It means that all people are worthy of respect and honor, because all are created in the image of God, and all can respond to the love of God.",
+              "proofs": []
+            },
+            {
+              "id": "episc-2-5",
+              "label": "5",
+              "question": "How was this revelation handed down to us?",
+              "answer": "This revelation was handed down to us through a community created by a covenant with God.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "3",
+          "title": "The Old Covenant",
+          "entries": [
+            {
+              "id": "episc-3-1",
+              "label": "1",
+              "question": "What is meant by a covenant with God?",
+              "answer": "A covenant is a relationship initiated by God, to which a body of people responds in faith.",
+              "proofs": []
+            },
+            {
+              "id": "episc-3-2",
+              "label": "2",
+              "question": "What is the Old Covenant?",
+              "answer": "The Old Covenant is the one given by God to the Hebrew people.",
+              "proofs": []
+            },
+            {
+              "id": "episc-3-3",
+              "label": "3",
+              "question": "What did God promise them?",
+              "answer": "God promised that they would be his people to bring all the nations of the world to him.",
+              "proofs": []
+            },
+            {
+              "id": "episc-3-4",
+              "label": "4",
+              "question": "What response did God require from the chosen people?",
+              "answer": "God required the chosen people to be faithful; to love justice, to do mercy, and to walk humbly with their God.",
+              "proofs": []
+            },
+            {
+              "id": "episc-3-5",
+              "label": "5",
+              "question": "Where is this Old Covenant to be found?",
+              "answer": "The covenant with the Hebrew people is to be found in the books which we call the Old Testament.",
+              "proofs": []
+            },
+            {
+              "id": "episc-3-6",
+              "label": "6",
+              "question": "Where in the Old Testament is God’s will for us shown most clearly?",
+              "answer": "God’s will for us is shown most clearly in the Ten Commandments.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "4",
+          "title": "The Ten Commandments",
+          "entries": [
+            {
+              "id": "episc-4-1",
+              "label": "1",
+              "question": "What are the Ten Commandments?",
+              "answer": "The Ten Commandments are the laws given to Moses and the people of Israel.",
+              "proofs": []
+            },
+            {
+              "id": "episc-4-2",
+              "label": "2",
+              "question": "What do we learn from these commandments?",
+              "answer": "We learn two things: our duty to God, and our duty to our neighbors.",
+              "proofs": []
+            },
+            {
+              "id": "episc-4-3",
+              "label": "3",
+              "question": "What is our duty to God?",
+              "answer": "Our duty is to believe and trust in God;\nTo love and obey God and to bring others to know him;\nTo put nothing in the place of God;\nTo show God respect in thought, word, and deed;\nAnd to set aside regular times for worship, prayer, and the study of God’s ways.",
+              "proofs": []
+            },
+            {
+              "id": "episc-4-4",
+              "label": "4",
+              "question": "What is our duty to our neighbors?",
+              "answer": "Our duty to our neighbors is to love them as ourselves, and to do to other people as we wish them to do to us;\nTo love, honor, and help our parents and family; to honor those in authority, and to meet their just demands;\nTo show respect for the life God has given us; to work and pray for peace; to bear no malice, prejudice, or hatred in our hearts; and to be kind to all the creatures of God;\nTo use all our bodily desires as God intended;\nTo be honest and fair in our dealings; to seek justice, freedom, and the necessities of life for all people; and to use our talents and possessions as ones who must answer for them to God;\nTo speak the truth, and not to mislead others by our silence;\nTo resist temptations to envy, greed, and jealousy; to rejoice in other people’s gifts and graces; and to do our duty for the love of God, who has called us into fellowship with him.",
+              "proofs": []
+            },
+            {
+              "id": "episc-4-5",
+              "label": "5",
+              "question": "What is the purpose of the Ten Commandments?",
+              "answer": "The Ten Commandments were given to define our relationship with God and our neighbors.",
+              "proofs": []
+            },
+            {
+              "id": "episc-4-6",
+              "label": "6",
+              "question": "Since we do not fully obey them, are they useful at all?",
+              "answer": "Since we do not fully obey them, we see more clearly our sin and our need for redemption.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "5",
+          "title": "Sin and Redemption",
+          "entries": [
+            {
+              "id": "episc-5-1",
+              "label": "1",
+              "question": "What is sin?",
+              "answer": "Sin is the seeking of our own will instead of the will of God, thus distorting our relationship with God, with other people, and with all creation.",
+              "proofs": []
+            },
+            {
+              "id": "episc-5-2",
+              "label": "2",
+              "question": "How does sin have power over us?",
+              "answer": "Sin has power over us because we lose our liberty when our relationship with God is distorted.",
+              "proofs": []
+            },
+            {
+              "id": "episc-5-3",
+              "label": "3",
+              "question": "What is redemption?",
+              "answer": "Redemption is the act of God which sets us free from the power of evil, sin, and death.",
+              "proofs": []
+            },
+            {
+              "id": "episc-5-4",
+              "label": "4",
+              "question": "How did God prepare us for redemption?",
+              "answer": "God sent the prophets to call us back to himself, to show us our need for redemption, and to announce the coming of the Messiah.",
+              "proofs": []
+            },
+            {
+              "id": "episc-5-5",
+              "label": "5",
+              "question": "What is meant by the Messiah?",
+              "answer": "The Messiah is one sent by God to free us from the power of sin, so that with the help of God we may live in harmony with God, within ourselves, with our neighbors, and with all creation.",
+              "proofs": []
+            },
+            {
+              "id": "episc-5-6",
+              "label": "6",
+              "question": "Who do we believe is the Messiah?",
+              "answer": "The Messiah, or Christ, is Jesus of Nazareth, the only Son of God.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "6",
+          "title": "God the Son",
+          "entries": [
+            {
+              "id": "episc-6-1",
+              "label": "1",
+              "question": "What do we mean when we say that Jesus is the only Son of God?",
+              "answer": "We mean that Jesus is the only perfect image of the Father, and shows us the nature of God.",
+              "proofs": []
+            },
+            {
+              "id": "episc-6-2",
+              "label": "2",
+              "question": "What is the nature of God revealed in Jesus?",
+              "answer": "God is love.",
+              "proofs": []
+            },
+            {
+              "id": "episc-6-3",
+              "label": "3",
+              "question": "What do we mean when we say that Jesus was conceived by the power of the Holy Spirit and became incarnate from the Virgin Mary?",
+              "answer": "We mean that by God’s own act, his divine Son received our human nature from the Virgin Mary, his mother.",
+              "proofs": []
+            },
+            {
+              "id": "episc-6-4",
+              "label": "4",
+              "question": "Why did he take our human nature?",
+              "answer": "The divine Son became human, so that in him human beings might be adopted as children of God, and be made heirs of God’s kingdom.",
+              "proofs": []
+            },
+            {
+              "id": "episc-6-5",
+              "label": "5",
+              "question": "What is the great importance of Jesus’ suffering and death?",
+              "answer": "By his obedience, even to suffering and death, Jesus made the offering which we could not make; in him we are freed from the power of sin and reconciled to God.",
+              "proofs": []
+            },
+            {
+              "id": "episc-6-6",
+              "label": "6",
+              "question": "What is the significance of Jesus’ resurrection?",
+              "answer": "By his resurrection, Jesus overcame death and opened for us the way of eternal life.",
+              "proofs": []
+            },
+            {
+              "id": "episc-6-7",
+              "label": "7",
+              "question": "What do we mean when we say that he descended to the dead?",
+              "answer": "We mean that he went to the departed and offered them also the benefits of redemption.",
+              "proofs": []
+            },
+            {
+              "id": "episc-6-8",
+              "label": "8",
+              "question": "What do we mean when we say that he ascended into heaven and is seated at the right hand of the Father?",
+              "answer": "We mean that Jesus took our human nature into heaven where he now reigns with the Father and intercedes for us.",
+              "proofs": []
+            },
+            {
+              "id": "episc-6-9",
+              "label": "9",
+              "question": "How can we share in his victory over sin, suffering, and death?",
+              "answer": "We share in his victory when we are baptized into the New Covenant and become living members of Christ.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "7",
+          "title": "The New Covenant",
+          "entries": [
+            {
+              "id": "episc-7-1",
+              "label": "1",
+              "question": "What is the New Covenant?",
+              "answer": "The New Covenant is the new relationship with God given by Jesus Christ, the Messiah, to the apostles; and, through them, to all who believe in him.",
+              "proofs": []
+            },
+            {
+              "id": "episc-7-2",
+              "label": "2",
+              "question": "What did the Messiah promise in the New Covenant?",
+              "answer": "Christ promised to bring us into the kingdom of God and give us life in all its fullness.",
+              "proofs": []
+            },
+            {
+              "id": "episc-7-3",
+              "label": "3",
+              "question": "What response did Christ require?",
+              "answer": "Christ commanded us to believe in him and to keep his commandments.",
+              "proofs": []
+            },
+            {
+              "id": "episc-7-4",
+              "label": "4",
+              "question": "What are the commandments taught by Christ?",
+              "answer": "Christ taught us the Summary of the Law and gave us the New Commandment.",
+              "proofs": []
+            },
+            {
+              "id": "episc-7-5",
+              "label": "5",
+              "question": "What is the Summary of the Law?",
+              "answer": "You shall love the Lord your God with all your heart, with all your soul, and with all your mind. This is the first and the great commandment. And the second is like it: You shall love your neighbor as yourself.",
+              "proofs": []
+            },
+            {
+              "id": "episc-7-6",
+              "label": "6",
+              "question": "What is the New Commandment?",
+              "answer": "The New Commandment is that we love one another as Christ loved us.",
+              "proofs": []
+            },
+            {
+              "id": "episc-7-7",
+              "label": "7",
+              "question": "Where may we find what Christians believe about Christ?",
+              "answer": "What Christians believe about Christ is found in the Scriptures and summed up in the creeds.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "8",
+          "title": "The Creeds",
+          "entries": [
+            {
+              "id": "episc-8-1",
+              "label": "1",
+              "question": "What are the creeds?",
+              "answer": "The creeds are statements of our basic beliefs about God.",
+              "proofs": []
+            },
+            {
+              "id": "episc-8-2",
+              "label": "2",
+              "question": "How many creeds does this Church use in its worship?",
+              "answer": "This Church uses two creeds: The Apostles’ Creed and the Nicene Creed.",
+              "proofs": []
+            },
+            {
+              "id": "episc-8-3",
+              "label": "3",
+              "question": "What is the Apostles’ Creed?",
+              "answer": "The Apostles’ Creed is the ancient creed of Baptism; it is used in the Church’s daily worship to recall our Baptismal Covenant.",
+              "proofs": []
+            },
+            {
+              "id": "episc-8-4",
+              "label": "4",
+              "question": "What is the Nicene Creed?",
+              "answer": "The Nicene Creed is the creed of the universal Church and is used at the Eucharist.",
+              "proofs": []
+            },
+            {
+              "id": "episc-8-5",
+              "label": "5",
+              "question": "What, then, is the Athanasian Creed?",
+              "answer": "The Athanasian Creed is an ancient document proclaiming the nature of the Incarnation and of God as Trinity.",
+              "proofs": []
+            },
+            {
+              "id": "episc-8-6",
+              "label": "6",
+              "question": "What is the Trinity?",
+              "answer": "The Trinity is one God: Father, Son, and Holy Spirit.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "9",
+          "title": "The Holy Spirit",
+          "entries": [
+            {
+              "id": "episc-9-1",
+              "label": "1",
+              "question": "Who is the Holy Spirit?",
+              "answer": "The Holy Spirit is the Third Person of the Trinity, God at work in the world and in the Church even now.",
+              "proofs": []
+            },
+            {
+              "id": "episc-9-2",
+              "label": "2",
+              "question": "How is the Holy Spirit revealed in the Old Covenant?",
+              "answer": "The Holy Spirit is revealed in the Old Covenant as the giver of life, the One who spoke through the prophets.",
+              "proofs": []
+            },
+            {
+              "id": "episc-9-3",
+              "label": "3",
+              "question": "How is the Holy Spirit revealed in the New Covenant?",
+              "answer": "The Holy Spirit is revealed as the Lord who leads us into all truth and enables us to grow in the likeness of Christ.",
+              "proofs": []
+            },
+            {
+              "id": "episc-9-4",
+              "label": "4",
+              "question": "How do we recognize the presence of the Holy Spirit in our lives?",
+              "answer": "We recognize the presence of the Holy Spirit when we confess Jesus Christ as Lord and are brought into love and harmony with God, with ourselves, with our neighbors, and with all creation.",
+              "proofs": []
+            },
+            {
+              "id": "episc-9-5",
+              "label": "5",
+              "question": "How do we recognize the truths taught by the Holy Spirit?",
+              "answer": "We recognize truths to be taught by the Holy Spirit when they are in accord with the Scriptures.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "10",
+          "title": "The Holy Scriptures",
+          "entries": [
+            {
+              "id": "episc-10-1",
+              "label": "1",
+              "question": "What are the Holy Scriptures?",
+              "answer": "The Holy Scriptures, commonly called the Bible, are the books of the Old and New Testaments; other books, called the Apocrypha, are often included in the Bible.",
+              "proofs": []
+            },
+            {
+              "id": "episc-10-2",
+              "label": "2",
+              "question": "What is the Old Testament?",
+              "answer": "The Old Testament consists of books written by the people of the Old Covenant, under the inspiration of the Holy Spirit, to show God at work in nature and history.",
+              "proofs": []
+            },
+            {
+              "id": "episc-10-3",
+              "label": "3",
+              "question": "What is the New Testament?",
+              "answer": "The New Testament consists of books written by the people of the New Covenant, under the inspiration of the Holy Spirit, to set forth the life and teachings of Jesus and to proclaim the Good News of the Kingdom for all people.",
+              "proofs": []
+            },
+            {
+              "id": "episc-10-4",
+              "label": "4",
+              "question": "What is the Apocrypha?",
+              "answer": "The Apocrypha is a collection of additional books written by people of the Old Covenant, and used in the Christian Church.",
+              "proofs": []
+            },
+            {
+              "id": "episc-10-5",
+              "label": "5",
+              "question": "Why do we call the Holy Scriptures the Word of God?",
+              "answer": "We call them the Word of God because God inspired their human authors and because God still speaks to us through the Bible.",
+              "proofs": []
+            },
+            {
+              "id": "episc-10-6",
+              "label": "6",
+              "question": "How do we understand the meaning of the Bible?",
+              "answer": "We understand the meaning of the Bible by the help of the Holy Spirit, who guides the Church in the true interpretation of the Scriptures.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "11",
+          "title": "The Church",
+          "entries": [
+            {
+              "id": "episc-11-1",
+              "label": "1",
+              "question": "What is the Church?",
+              "answer": "The Church is the community of the New Covenant.",
+              "proofs": []
+            },
+            {
+              "id": "episc-11-2",
+              "label": "2",
+              "question": "How is the Church described in the Bible?",
+              "answer": "The Church is described as the Body of which Jesus Christ is the Head and of which all baptized persons are members. It is called the People of God, the New Israel, a holy nation, a royal priesthood, and the pillar and ground of truth.",
+              "proofs": []
+            },
+            {
+              "id": "episc-11-3",
+              "label": "3",
+              "question": "How is the Church described in the creeds?",
+              "answer": "The Church is described as one, holy, catholic, and apostolic.",
+              "proofs": []
+            },
+            {
+              "id": "episc-11-4",
+              "label": "4",
+              "question": "Why is the Church described as one?",
+              "answer": "The Church is one, because it is one Body, under one Head, our Lord Jesus Christ.",
+              "proofs": []
+            },
+            {
+              "id": "episc-11-5",
+              "label": "5",
+              "question": "Why is the Church described as holy?",
+              "answer": "The Church is holy, because the Holy Spirit dwells in it, consecrates its members, and guides them to do God’s work.",
+              "proofs": []
+            },
+            {
+              "id": "episc-11-6",
+              "label": "6",
+              "question": "Why is the Church described as catholic?",
+              "answer": "The Church is catholic, because it proclaims the whole Faith to all people, to the end of time.",
+              "proofs": []
+            },
+            {
+              "id": "episc-11-7",
+              "label": "7",
+              "question": "Why is the Church described as apostolic?",
+              "answer": "The Church is apostolic, because it continues in the teaching and fellowship of the apostles and is sent to carry out Christ’s mission to all people.",
+              "proofs": []
+            },
+            {
+              "id": "episc-11-8",
+              "label": "8",
+              "question": "What is the mission of the Church?",
+              "answer": "The mission of the Church is to restore all people to unity with God and each other in Christ.",
+              "proofs": []
+            },
+            {
+              "id": "episc-11-9",
+              "label": "9",
+              "question": "How does the Church pursue its mission?",
+              "answer": "The Church pursues its mission as it prays and worships, proclaims the Gospel, and promotes justice, peace, and love.",
+              "proofs": []
+            },
+            {
+              "id": "episc-11-10",
+              "label": "10",
+              "question": "Through whom does the Church carry out its mission?",
+              "answer": "The Church carries out its mission through the ministry of all its members.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "12",
+          "title": "The Ministry",
+          "entries": [
+            {
+              "id": "episc-12-1",
+              "label": "1",
+              "question": "Who are the ministers of the Church?",
+              "answer": "The ministers of the Church are lay persons, bishops, priests, and deacons.",
+              "proofs": []
+            },
+            {
+              "id": "episc-12-2",
+              "label": "2",
+              "question": "What is the ministry of the laity?",
+              "answer": "The ministry of lay persons is to represent Christ and his Church; to bear witness to him wherever they may be and, according to the gifts given them, to carry on Christ’s work of reconciliation in the world; and to take their place in the life, worship, and governance of the Church.",
+              "proofs": []
+            },
+            {
+              "id": "episc-12-3",
+              "label": "3",
+              "question": "What is the ministry of a bishop?",
+              "answer": "The ministry of a bishop is to represent Christ and his Church, particularly as apostle, chief priest, and pastor of a diocese; to guard the faith, unity, and discipline of the whole Church; to proclaim the Word of God; to act in Christ’s name for the reconciliation of the world and the building up of the Church; and to ordain others to continue Christ’s ministry.",
+              "proofs": []
+            },
+            {
+              "id": "episc-12-4",
+              "label": "4",
+              "question": "What is the ministry of a priest or presbyter?",
+              "answer": "The ministry of a priest is to represent Christ and his Church, particularly as pastor to the people; to share with the bishop in the overseeing of the Church; to proclaim the Gospel; to administer the sacraments; and to bless and declare pardon in the name of God.",
+              "proofs": []
+            },
+            {
+              "id": "episc-12-5",
+              "label": "5",
+              "question": "What is the ministry of a deacon?",
+              "answer": "The ministry of a deacon is to represent Christ and his Church, particularly as a servant of those in need; and to assist bishops and priests in the proclamation of the Gospel and the administration of the sacraments.",
+              "proofs": []
+            },
+            {
+              "id": "episc-12-6",
+              "label": "6",
+              "question": "What is the duty of all Christians?",
+              "answer": "The duty of all Christians is to follow Christ; to come together week by week for corporate worship; and to work, pray, and give for the spread of the kingdom of God.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "13",
+          "title": "Prayer and Worship",
+          "entries": [
+            {
+              "id": "episc-13-1",
+              "label": "1",
+              "question": "What is prayer?",
+              "answer": "Prayer is responding to God, by thought and by deeds, with or without words.",
+              "proofs": []
+            },
+            {
+              "id": "episc-13-2",
+              "label": "2",
+              "question": "What is Christian Prayer?",
+              "answer": "Christian prayer is response to God the Father, through Jesus Christ, in the power of the Holy Spirit.",
+              "proofs": []
+            },
+            {
+              "id": "episc-13-3",
+              "label": "3",
+              "question": "What prayer did Christ teach us?",
+              "answer": "Our Lord gave us the example of prayer known as the Lord’s Prayer.",
+              "proofs": []
+            },
+            {
+              "id": "episc-13-4",
+              "label": "4",
+              "question": "What are the principal kinds of prayer?",
+              "answer": "The principal kinds of prayer are adoration, praise, thanksgiving, penitence, oblation, intercession, and petition.",
+              "proofs": []
+            },
+            {
+              "id": "episc-13-5",
+              "label": "5",
+              "question": "What is adoration?",
+              "answer": "Adoration is the lifting up of the heart and mind to God, asking nothing but to enjoy God’s presence.",
+              "proofs": []
+            },
+            {
+              "id": "episc-13-6",
+              "label": "6",
+              "question": "Why do we praise God?",
+              "answer": "We praise God, not to obtain anything, but because God’s Being draws praise from us.",
+              "proofs": []
+            },
+            {
+              "id": "episc-13-7",
+              "label": "7",
+              "question": "For what do we offer thanksgiving?",
+              "answer": "Thanksgiving is offered to God for all the blessings of this life, for our redemption, and for whatever draws us closer to God.",
+              "proofs": []
+            },
+            {
+              "id": "episc-13-8",
+              "label": "8",
+              "question": "What is penitence?",
+              "answer": "In penitence, we confess our sins and make restitution where possible, with the intention to amend our lives.",
+              "proofs": []
+            },
+            {
+              "id": "episc-13-9",
+              "label": "9",
+              "question": "What is prayer of oblation?",
+              "answer": "Oblation is an offering of ourselves, our lives and labors, in union with Christ, for the purposes of God.",
+              "proofs": []
+            },
+            {
+              "id": "episc-13-10",
+              "label": "10",
+              "question": "What are intercession and petition?",
+              "answer": "Intercession brings before God the needs of others; in petition, we present our own needs, that God’s will may be done.",
+              "proofs": []
+            },
+            {
+              "id": "episc-13-11",
+              "label": "11",
+              "question": "What is corporate worship?",
+              "answer": "In corporate worship, we unite ourselves with others to acknowledge the holiness of God, to hear God’s Word, to offer prayer, and to celebrate the sacraments.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "14",
+          "title": "The Sacraments",
+          "entries": [
+            {
+              "id": "episc-14-1",
+              "label": "1",
+              "question": "What are the sacraments?",
+              "answer": "The sacraments are outward and visible signs of inward and spiritual grace, given by Christ as sure and certain means by which we receive that grace.",
+              "proofs": []
+            },
+            {
+              "id": "episc-14-2",
+              "label": "2",
+              "question": "What is grace?",
+              "answer": "Grace is God’s favor towards us, unearned and undeserved; by grace God forgives our sins, enlightens our minds, stirs our hearts, and strengthens our wills.",
+              "proofs": []
+            },
+            {
+              "id": "episc-14-3",
+              "label": "3",
+              "question": "What are the two great sacraments of the Gospel?",
+              "answer": "The two great sacraments given by Christ to his Church are Holy Baptism and the Holy Eucharist.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "15",
+          "title": "Holy Baptism",
+          "entries": [
+            {
+              "id": "episc-15-1",
+              "label": "1",
+              "question": "What is Holy Baptism?",
+              "answer": "Holy Baptism is the sacrament by which God adopts us as his children and makes us members of Christ’s Body, the Church, and inheritors of the kingdom of God.",
+              "proofs": []
+            },
+            {
+              "id": "episc-15-2",
+              "label": "2",
+              "question": "What is the outward and visible sign in Baptism?",
+              "answer": "The outward and visible sign in Baptism is water, in which the person is baptized in the Name of the Father, and of the Son, and of the Holy Spirit.",
+              "proofs": []
+            },
+            {
+              "id": "episc-15-3",
+              "label": "3",
+              "question": "What is the inward and spiritual grace in Baptism?",
+              "answer": "The inward and spiritual grace in Baptism is union with Christ in his death and resurrection, birth into God’s family the Church, forgiveness of sins, and new life in the Holy Spirit.",
+              "proofs": []
+            },
+            {
+              "id": "episc-15-4",
+              "label": "4",
+              "question": "What is required of us at Baptism?",
+              "answer": "It is required that we renounce Satan, repent of our sins, and accept Jesus as our Lord and Savior.",
+              "proofs": []
+            },
+            {
+              "id": "episc-15-5",
+              "label": "5",
+              "question": "Why then are infants baptized?",
+              "answer": "Infants are baptized so that they can share citizenship in the Covenant, membership in Christ, and redemption by God.",
+              "proofs": []
+            },
+            {
+              "id": "episc-15-6",
+              "label": "6",
+              "question": "How are the promises for infants made and carried out?",
+              "answer": "Promises are made for them by their parents and sponsors, who guarantee that the infants will be brought up within the Church, to know Christ and be able to follow him.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "16",
+          "title": "The Holy Eucharist",
+          "entries": [
+            {
+              "id": "episc-16-1",
+              "label": "1",
+              "question": "What is the Holy Eucharist?",
+              "answer": "The Holy Eucharist is the sacrament commanded by Christ for the continual remembrance of his life, death, and resurrection, until his coming again.",
+              "proofs": []
+            },
+            {
+              "id": "episc-16-2",
+              "label": "2",
+              "question": "Why is the Eucharist called a sacrifice?",
+              "answer": "Because the Eucharist, the Church’s sacrifice of praise and thanksgiving, is the way by which the sacrifice of Christ is made present, and in which he unites us to his one offering of himself.",
+              "proofs": []
+            },
+            {
+              "id": "episc-16-3",
+              "label": "3",
+              "question": "By what other names is this service known?",
+              "answer": "The Holy Eucharist is called the Lord’s Supper, and Holy Communion; it is also known as the Divine Liturgy, the Mass, and the Great Offering.",
+              "proofs": []
+            },
+            {
+              "id": "episc-16-4",
+              "label": "4",
+              "question": "What is the outward and visible sign in the Eucharist?",
+              "answer": "The outward and visible sign in the Eucharist is bread and wine, given and received according to Christ’s command.",
+              "proofs": []
+            },
+            {
+              "id": "episc-16-5",
+              "label": "5",
+              "question": "What is the inward and spiritual grace given in the Eucharist?",
+              "answer": "The inward and spiritual grace in the Holy Communion is the Body and Blood of Christ given to his people, and received by faith.",
+              "proofs": []
+            },
+            {
+              "id": "episc-16-6",
+              "label": "6",
+              "question": "What are the benefits which we receive in the Lord’s Supper?",
+              "answer": "The benefits we receive are the forgiveness of our sins, the strengthening of our union with Christ and one another, and the foretaste of the heavenly banquet which is our nourishment in eternal life.",
+              "proofs": []
+            },
+            {
+              "id": "episc-16-7",
+              "label": "7",
+              "question": "What is required of us when we come to the Eucharist?",
+              "answer": "It is required that we should examine our lives, repent of our sins, and be in love and charity with all people.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "17",
+          "title": "Other Sacramental Rites",
+          "entries": [
+            {
+              "id": "episc-17-1",
+              "label": "1",
+              "question": "What other sacramental rites evolved in the Church under the guidance of the Holy Spirit?",
+              "answer": "Other sacramental rites which evolved in the Church include confirmation, ordination, holy matrimony, reconciliation of a penitent, and unction.",
+              "proofs": []
+            },
+            {
+              "id": "episc-17-2",
+              "label": "2",
+              "question": "How do they differ from the two sacraments of the Gospel?",
+              "answer": "Although they are means of grace, they are not necessary for all persons in the same way that Baptism and the Eucharist are.",
+              "proofs": []
+            },
+            {
+              "id": "episc-17-3",
+              "label": "3",
+              "question": "What is Confirmation?",
+              "answer": "Confirmation is the rite in which we express a mature commitment to Christ, and receive strength from the Holy Spirit through prayer and the laying on of hands by a bishop.",
+              "proofs": []
+            },
+            {
+              "id": "episc-17-4",
+              "label": "4",
+              "question": "What is required of those to be confirmed?",
+              "answer": "It is required of those to be confirmed that they have been baptized, are sufficiently instructed in the Christian Faith, are penitent for their sins, and are ready to affirm their confession of Jesus Christ as Savior and Lord.",
+              "proofs": []
+            },
+            {
+              "id": "episc-17-5",
+              "label": "5",
+              "question": "What is Ordination?",
+              "answer": "Ordination is the rite in which God gives authority and the grace of the Holy Spirit to those being made bishops, priests, and deacons, through prayer and the laying on of hands by bishops.",
+              "proofs": []
+            },
+            {
+              "id": "episc-17-6",
+              "label": "6",
+              "question": "What is Holy Matrimony?",
+              "answer": "Holy Matrimony is Christian marriage, in which the woman and man enter into a life-long union, make their vows before God and the Church, and receive the grace and blessing of God to help them fulfill their vows.",
+              "proofs": []
+            },
+            {
+              "id": "episc-17-7",
+              "label": "7",
+              "question": "What is Reconciliation of a Penitent?",
+              "answer": "Reconciliation of a Penitent, or Penance, is the rite in which those who repent of their sins may confess them to God in the presence of a priest, and receive the assurance of pardon and the grace of absolution.",
+              "proofs": []
+            },
+            {
+              "id": "episc-17-8",
+              "label": "8",
+              "question": "What is Unction of the Sick?",
+              "answer": "Unction is the rite of anointing the sick with oil, or the laying on of hands, by which God’s grace is given for the healing of spirit, mind, and body.",
+              "proofs": []
+            },
+            {
+              "id": "episc-17-9",
+              "label": "9",
+              "question": "Is God’s activity limited to these rites?",
+              "answer": "God does not limit himself to these rites; they are patterns of countless ways by which God uses material things to reach out to us.",
+              "proofs": []
+            },
+            {
+              "id": "episc-17-10",
+              "label": "10",
+              "question": "How are the sacraments related to our Christian hope?",
+              "answer": "Sacraments sustain our present hope and anticipate its future fulfillment.",
+              "proofs": []
+            }
+          ]
+        },
+        {
+          "number": "18",
+          "title": "The Christian Hope",
+          "entries": [
+            {
+              "id": "episc-18-1",
+              "label": "1",
+              "question": "What is the Christian hope?",
+              "answer": "The Christian hope is to live with confidence in newness and fullness of life, and to await the coming of Christ in glory, and the completion of God’s purpose for the world.",
+              "proofs": []
+            },
+            {
+              "id": "episc-18-2",
+              "label": "2",
+              "question": "What do we mean by the coming of Christ in glory?",
+              "answer": "By the coming of Christ in glory, we mean that Christ will come, not in weakness but in power, and will make all things new.",
+              "proofs": []
+            },
+            {
+              "id": "episc-18-3",
+              "label": "3",
+              "question": "What do we mean by heaven and hell?",
+              "answer": "By heaven, we mean eternal life in our enjoyment of God; by hell, we mean eternal death in our rejection of God.",
+              "proofs": []
+            },
+            {
+              "id": "episc-18-4",
+              "label": "4",
+              "question": "Why do we pray for the dead?",
+              "answer": "We pray for them, because we still hold them in our love, and because we trust that in God’s presence those who have chosen to serve him will grow in his love, until they see him as he is.",
+              "proofs": []
+            },
+            {
+              "id": "episc-18-5",
+              "label": "5",
+              "question": "What do we mean by the last judgment?",
+              "answer": "We believe that Christ will come in glory and judge the living and the dead.",
+              "proofs": []
+            },
+            {
+              "id": "episc-18-6",
+              "label": "6",
+              "question": "What do we mean by the resurrection of the body?",
+              "answer": "We mean that God will raise us from death in the fullness of our being, that we may live with Christ in the communion of the saints.",
+              "proofs": []
+            },
+            {
+              "id": "episc-18-7",
+              "label": "7",
+              "question": "What is the communion of saints?",
+              "answer": "The communion of saints is the whole family of God, the living and the dead, those whom we love and those whom we hurt, bound together in Christ by sacrament, prayer, and praise.",
+              "proofs": []
+            },
+            {
+              "id": "episc-18-8",
+              "label": "8",
+              "question": "What do we mean by everlasting life?",
+              "answer": "By everlasting life, we mean a new existence, in which we are united with all the people of God, in the joy of fully knowing and loving God and each other.",
+              "proofs": []
+            },
+            {
+              "id": "episc-18-9",
+              "label": "9",
+              "question": "What, then, is our assurance as Christians?",
+              "answer": "Our assurance as Christians is that nothing, not even death, shall separate us from the love of God which is in Christ Jesus our Lord. Amen.",
               "proofs": []
             }
           ]
         }
       ]
-    },
-    {
-      "id": "danvers-statement",
-      "type": "confession",
-      "title": "Danvers Statement",
-      "year": "1987",
-      "authors": [],
-      "alternativeTitles": [],
-      "tradition": "Evangelical",
-      "country": "USA",
-      "content": "The Danvers Statement summarizes the need for the Council on Biblical Manhood and Womanhood (CBMW) and serves as an overview of our core beliefs. This statement was prepared by several evangelical leaders at a CBMW meeting in Danvers, Massachusetts, in December of 1987. It was first published in final form by the CBMW in Wheaton, Illinois in November of 1988.\n\nWe have been moved in our purpose by the following contemporary developments which we observe with deep concern:\n\nRecognizing our own abiding sinfulness and fallibility, and acknowledging the genuine evangelical standing of many who do not agree with all of our convictions, nevertheless, moved by the preceding observations and by the hope that the noble Biblical vision of sexual complementarity may yet win the mind and heart of Christ’s church, we engage to pursue the following purposes:\n\nBased on our understanding of Biblical teachings, we affirm the following:\n\nProvided courtesy of the Council on Biblical Manhood and Womanhood.\n\nProvided courtesy of the Council on Biblical Manhood and Womanhood.",
-      "groups": []
     },
     {
       "id": "cambridge-declaration",

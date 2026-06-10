@@ -4,8 +4,8 @@ import { useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { useHymnalStore, type Service, type ServiceItem } from '@/store/hymnal'
 import { HYMNALS, BIBLES, findHymnal, findBible } from '@/lib/hymnal/sources'
-import { loadHymnal, toRoman } from '@/lib/hymnal/loader'
-import type { Hymn } from '@/types/hymnal'
+import { loadHymnal, loadBible, loadConfessions, toRoman } from '@/lib/hymnal/loader'
+import type { Hymn, BibleBook, ConfessionDocument } from '@/types/hymnal'
 
 function serviceToText(svc: Service): string {
   const lines: string[] = []
@@ -59,19 +59,22 @@ export default function ServiceEditor({ id }: { id: string }) {
   const [validating, setValidating] = useState(false)
   const [hymnNumberSet, setHymnNumberSet] = useState<Set<string> | null>(null)
   const [hymnNumberSamples, setHymnNumberSamples] = useState<string[]>([])
+  const [hymnIndex, setHymnIndex] = useState<{ number: string; title: string }[]>([])
 
   useEffect(() => {
     let alive = true
     setHymnNumberSet(null)
     setHymnNumberSamples([])
+    setHymnIndex([])
     loadHymnal(hymnal)
       .then((doc) => {
         if (!alive) return
         const set = new Set<string>(doc.hymns.map((h) => String(h.number)))
         setHymnNumberSet(set)
         setHymnNumberSamples(doc.hymns.slice(0, 4).map((h) => String(h.number)))
+        setHymnIndex(doc.hymns.map((h) => ({ number: String(h.number), title: h.title || '' })))
       })
-      .catch(() => { if (alive) setHymnNumberSet(new Set()) })
+      .catch(() => { if (alive) { setHymnNumberSet(new Set()); setHymnIndex([]) } })
     return () => { alive = false }
   }, [hymnal])
 
@@ -187,6 +190,7 @@ export default function ServiceEditor({ id }: { id: string }) {
           error={addErr}
           submitting={validating}
           hymnSampleHint={hymnNumberSet ? `${hymnNumberSet.size} hymn${hymnNumberSet.size === 1 ? '' : 's'} \u00B7 e.g. ${hymnNumberSamples.join(', ')}` : 'Loading\u2026'}
+          hymnIndex={hymnIndex}
         />
       )}
 
@@ -321,6 +325,14 @@ function escapeHtml(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
 }
 
+function bookMatches(b: BibleBook, raw: string): boolean {
+  const target = String(raw).toLowerCase().replace(/[\s.]+/g, '')
+  const id = String(b.id).toLowerCase()
+  const name = (b.name || '').toLowerCase().replace(/[\s.]+/g, '')
+  const abbr = (b.abbreviation || '').toLowerCase().replace(/[\s.]+/g, '')
+  return id === target || name === target || abbr === target
+}
+
 async function buildBookletHtml(service: Service): Promise<string> {
   const hymnalCache = new Map<string, Promise<{ hymn: Hymn | null }>>()
   function getHymn(slug: string, number: string): Promise<{ hymn: Hymn | null }> {
@@ -335,73 +347,190 @@ async function buildBookletHtml(service: Service): Promise<string> {
     return p
   }
 
+  const bibleCache = new Map<string, Promise<{ book: BibleBook | null; chapter: { verses: { number: number; text: string }[] } | null }>>()
+  function getChapter(translation: string, bookRef: string, chapterNum: number) {
+    const key = `${translation}|${bookRef}|${chapterNum}`
+    let p = bibleCache.get(key)
+    if (!p) {
+      p = loadBible(translation)
+        .then((d) => {
+          const book = d.books.find((b) => bookMatches(b, bookRef)) || null
+          const chapter = book?.chapters.find((c) => c.number === chapterNum) || null
+          return { book, chapter: chapter ? { verses: chapter.verses } : null }
+        })
+        .catch(() => ({ book: null, chapter: null }))
+      bibleCache.set(key, p)
+    }
+    return p
+  }
+
+  let confessionsP: Promise<ConfessionDocument[]> | null = null
+  function getConfessionDocs(): Promise<ConfessionDocument[]> {
+    if (!confessionsP) {
+      confessionsP = loadConfessions().then((d) => d.documents).catch(() => [] as ConfessionDocument[])
+    }
+    return confessionsP
+  }
+
   const sections: string[] = []
   for (let i = 0; i < service.items.length; i++) {
     const it = service.items[i]
     const r = toRoman(i + 1)
+    const headBlock = `<header class="sect-head"><div class="rom-tag">${r}</div><div class="kind-line">${kindLabel(it.kind)}</div></header>`
+
     if (it.kind === 'hymn') {
       const h = findHymnal(it.ref.hymnal)
       const { hymn } = await getHymn(it.ref.hymnal, it.ref.number)
-      const head = `<div class="rom">${r}</div><div class="kind">Hymn</div>`
-      const ttl = hymn?.title ? escapeHtml(hymn.title) : `No. ${escapeHtml(it.ref.number)}`
-      const meta = `${escapeHtml(h?.short || it.ref.hymnal)} &middot; No. ${escapeHtml(it.ref.number)}${hymn?.tune ? ` &middot; ${escapeHtml(hymn.tune)}` : ''}`
+      const ttl = hymn?.title ? escapeHtml(hymn.title) : `Hymn No. ${escapeHtml(it.ref.number)}`
+      const metaParts = [
+        h?.short ? escapeHtml(h.short) : escapeHtml(it.ref.hymnal),
+        `No. ${escapeHtml(it.ref.number)}`,
+      ]
+      if (hymn?.tune) metaParts.push(escapeHtml(hymn.tune))
+      if (hymn?.meter) metaParts.push(escapeHtml(hymn.meter))
+      const meta = metaParts.join(' &middot; ')
       let body = ''
       if (hymn) {
-        const verses = (hymn.verses || []).map((v) => {
-          const label = v.isChorus ? 'Chorus' : String(v.number)
-          return `<div class="verse"><div class="vm">${escapeHtml(label)}</div><div class="vt">${escapeHtml(v.text || '')}</div></div>`
+        const verses = (hymn.verses || []).map((v, vi) => {
+          const label = v.isChorus ? 'Refrain' : romanLower(v.number)
+          const text = (v.text || '').trim()
+          const lines = text.split(/\n/).map((ln) => escapeHtml(ln)).join('<br/>')
+          const cls = v.isChorus ? 'verse refrain' : 'verse'
+          const firstClass = !v.isChorus && vi === 0 ? ' first' : ''
+          return `<div class="${cls}${firstClass}"><div class="vm">${escapeHtml(label)}</div><div class="vt">${lines}</div></div>`
         }).join('')
         body = `<div class="verses">${verses}</div>`
         if (hymn.sheetMusicUrl) {
           body += `<div class="sheet"><img src="${escapeHtml(hymn.sheetMusicUrl)}" alt="Sheet music"/></div>`
         }
       } else {
-        body = '<div class="missing">Hymn not available.</div>'
+        body = '<div class="missing">Hymn text not available in this collection.</div>'
       }
-      sections.push(`<section class="sect">${head}<h2 class="ttl">${ttl}</h2><div class="meta">${meta}</div>${body}</section>`)
+      const note = it.note ? `<div class="note">${escapeHtml(it.note)}</div>` : ''
+      sections.push(`<section class="sect">${headBlock}<h2 class="ttl">${ttl}</h2><div class="meta">${meta}</div>${note}${body}</section>`)
     } else if (it.kind === 'scripture') {
       const b = findBible(it.ref.translation)
-      sections.push(`<section class="sect"><div class="rom">${r}</div><div class="kind">Scripture Reading</div><h2 class="ttl">${escapeHtml(it.ref.book.toUpperCase())} ${escapeHtml(String(it.ref.chapter))}</h2><div class="meta">${escapeHtml(b?.short || it.ref.translation)}</div></section>`)
+      const { book, chapter } = await getChapter(it.ref.translation, it.ref.book, it.ref.chapter)
+      const bookName = book?.name || it.ref.book
+      const ttl = `${escapeHtml(bookName)} <em>${escapeHtml(String(it.ref.chapter))}</em>`
+      const meta = escapeHtml(b?.short || it.ref.translation)
+      let body = ''
+      if (chapter && chapter.verses.length > 0) {
+        const verses = chapter.verses.map((v) =>
+          `<span class="v"><sup>${v.number}</sup>${escapeHtml(v.text)} </span>`
+        ).join('')
+        body = `<div class="scripture-prose">${verses}</div>`
+      } else {
+        body = '<div class="missing">Passage not available in this translation.</div>'
+      }
+      const note = it.note ? `<div class="note">${escapeHtml(it.note)}</div>` : ''
+      sections.push(`<section class="sect">${headBlock}<h2 class="ttl">${ttl}</h2><div class="meta">${meta}</div>${note}${body}</section>`)
     } else if (it.kind === 'confession') {
-      sections.push(`<section class="sect"><div class="rom">${r}</div><div class="kind">Confession</div><h2 class="ttl">${escapeHtml(it.ref.id)}</h2></section>`)
+      const docs = await getConfessionDocs()
+      const doc = docs.find((d) => d.id === it.ref.id) || null
+      const ttl = doc?.title ? escapeHtml(doc.title) : escapeHtml(it.ref.id)
+      const metaParts: string[] = []
+      if (doc?.type) metaParts.push(escapeHtml((doc.type || '').toUpperCase()))
+      if (doc?.year) metaParts.push(String(doc.year))
+      if (doc?.tradition) metaParts.push(escapeHtml(doc.tradition))
+      const meta = metaParts.join(' &middot; ')
+      let body = ''
+      if (doc?.content) {
+        body = `<div class="creed-body-pdf">${escapeHtml(doc.content).replace(/\n/g, '<br/>')}</div>`
+      } else if (doc?.groups && doc.groups.length > 0) {
+        const first = doc.groups[0]
+        const items = (first.entries || []).slice(0, 1).map((e) => {
+          const q = e.question ? `<div class="cq">${escapeHtml(e.question)}</div>` : ''
+          const a = e.answer ? `<div class="ca">${escapeHtml(e.answer)}</div>` : ''
+          return q + a
+        }).join('')
+        body = `<div class="creed-body-pdf">${items || '<div class="missing">See full text.</div>'}</div>`
+      }
+      const note = it.note ? `<div class="note">${escapeHtml(it.note)}</div>` : ''
+      sections.push(`<section class="sect">${headBlock}<h2 class="ttl">${ttl}</h2>${meta ? `<div class="meta">${meta}</div>` : ''}${note}${body}</section>`)
     } else {
-      sections.push(`<section class="sect"><div class="rom">${r}</div><div class="kind">Spoken</div><div class="note">${escapeHtml(it.text)}</div></section>`)
+      sections.push(`<section class="sect spoken">${headBlock}<div class="spoken-text">${escapeHtml(it.text)}</div></section>`)
     }
   }
 
   const css = `
-    @page { margin: 0.6in; }
+    @page { size: letter; margin: 0.75in 0.7in; }
+    @page :first { margin: 0; }
     * { box-sizing: border-box; }
-    body { font-family: Georgia, "Times New Roman", serif; color: #1d160d; margin: 0; }
-    .cover { text-align: center; padding: 24px 0 32px; border-bottom: 1px solid #b5a273; margin-bottom: 24px; }
-    .cover .eyebrow { font-size: 11px; letter-spacing: 0.28em; text-transform: uppercase; color: #8a6c2a; margin-bottom: 8px; }
-    .cover h1 { font-weight: 400; font-size: 32px; line-height: 1.1; margin: 0 0 6px; }
-    .cover .date { font-style: italic; color: #5a4d2c; font-size: 14px; }
-    .sect { page-break-inside: avoid; margin-bottom: 28px; padding-bottom: 20px; border-bottom: 1px solid #d8c997; }
-    .sect:last-child { border-bottom: none; }
-    .rom { font-style: italic; color: #8a6c2a; font-size: 16px; margin-bottom: 2px; }
-    .kind { font-size: 10px; letter-spacing: 0.24em; text-transform: uppercase; color: #6b5a35; margin-bottom: 6px; }
-    .ttl { font-weight: 400; font-size: 22px; line-height: 1.15; margin: 0 0 4px; }
-    .meta { font-style: italic; color: #6b5a35; font-size: 13px; margin-bottom: 14px; }
-    .verses { max-width: 480px; margin: 0 auto; }
-    .verse { display: grid; grid-template-columns: 28px 1fr; gap: 12px; margin-bottom: 14px; align-items: baseline; }
-    .vm { font-style: italic; color: #8a6c2a; font-size: 13px; text-align: right; }
-    .vt { white-space: pre-wrap; line-height: 1.55; font-size: 15px; }
-    .sheet { margin-top: 16px; text-align: center; }
+    html, body { margin: 0; padding: 0; }
+    body { font-family: "Adobe Garamond Pro", "EB Garamond", Garamond, Georgia, "Times New Roman", serif; color: #1a140a; font-size: 12pt; line-height: 1.45; }
+
+    /* Cover */
+    .cover { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 1in 0.8in; text-align: center; page-break-after: always; background: #fbf8f1; }
+    .cover .crest { width: 64px; height: 64px; margin-bottom: 30px; opacity: 0.85; }
+    .cover .eyebrow { font-size: 10pt; letter-spacing: 0.34em; text-transform: uppercase; color: #8a6c2a; margin-bottom: 18px; }
+    .cover .rule { width: 90px; height: 1px; background: linear-gradient(to right, transparent, #b5a273, transparent); margin: 0 0 22px; }
+    .cover h1 { font-weight: 400; font-style: italic; font-size: 36pt; line-height: 1.05; margin: 0 0 14px; color: #1a140a; }
+    .cover .date { font-style: italic; color: #5a4d2c; font-size: 14pt; margin-bottom: 36px; }
+    .cover .ornament { font-size: 14pt; color: #b5a273; letter-spacing: 0.4em; margin-top: 28px; }
+    .cover .footnote { position: absolute; bottom: 0.7in; font-size: 9pt; letter-spacing: 0.22em; text-transform: uppercase; color: #8a6c2a; }
+
+    /* Section */
+    .sect { page-break-inside: avoid; padding: 24px 0 0; margin-bottom: 32px; }
+    .sect + .sect { border-top: 1px solid #e8dfc6; padding-top: 28px; }
+    .sect-head { text-align: center; margin-bottom: 12px; }
+    .rom-tag { font-style: italic; font-size: 13pt; color: #b5a273; letter-spacing: 0.05em; }
+    .kind-line { font-size: 9pt; letter-spacing: 0.28em; text-transform: uppercase; color: #6b5a35; margin-top: 4px; }
+    .ttl { text-align: center; font-weight: 400; font-size: 22pt; line-height: 1.1; margin: 6px 0 4px; color: #1a140a; }
+    .ttl em { font-style: italic; color: #8a6c2a; }
+    .meta { text-align: center; font-style: italic; color: #6b5a35; font-size: 11pt; margin-bottom: 16px; }
+    .note { text-align: center; font-style: italic; color: #5a4d2c; font-size: 11pt; margin: 6px auto 14px; max-width: 480px; }
+
+    /* Hymn verses */
+    .verses { max-width: 460px; margin: 0 auto; text-align: center; }
+    .verse { margin-bottom: 14px; page-break-inside: avoid; }
+    .verse .vm { font-style: italic; color: #8a6c2a; font-size: 10pt; letter-spacing: 0.12em; text-transform: lowercase; margin-bottom: 4px; }
+    .verse .vt { font-size: 12pt; line-height: 1.55; }
+    .verse.first .vt::first-letter { font-size: 30pt; line-height: 0.95; float: left; padding: 4px 8px 0 0; font-style: italic; color: #8a6c2a; }
+    .verse.refrain { margin: 14px auto; padding: 10px 18px; border-left: 2px solid #b5a273; border-right: 2px solid #b5a273; max-width: 380px; }
+    .verse.refrain .vm { color: #6b5a35; }
+
+    .sheet { margin-top: 22px; text-align: center; page-break-before: auto; }
     .sheet img { max-width: 100%; height: auto; }
-    .note { font-style: italic; color: #41372a; font-size: 15px; }
-    .missing { color: #a04545; font-style: italic; font-size: 13px; }
+
+    /* Scripture */
+    .scripture-prose { max-width: 540px; margin: 0 auto; text-align: justify; font-size: 12pt; line-height: 1.7; }
+    .scripture-prose sup { font-size: 8pt; color: #8a6c2a; font-style: italic; margin-right: 2px; vertical-align: super; }
+
+    /* Confession / spoken */
+    .creed-body-pdf { max-width: 540px; margin: 0 auto; font-size: 12pt; line-height: 1.6; }
+    .creed-body-pdf .cq { font-style: italic; color: #6b5a35; margin-bottom: 6px; }
+    .creed-body-pdf .ca { margin-bottom: 12px; }
+    .spoken-text { max-width: 480px; margin: 0 auto; font-style: italic; text-align: center; font-size: 13pt; color: #41372a; line-height: 1.55; }
+
+    .missing { color: #a04545; font-style: italic; font-size: 11pt; text-align: center; }
+
+    /* Hide for screen, but show ornament between sections */
+    .ornament-rule { text-align: center; color: #b5a273; font-size: 12pt; letter-spacing: 0.5em; margin: 18px 0; }
   `
   const dateLine = service.date ? `<div class="date">${escapeHtml(service.date)}</div>` : ''
+  const crest = `<svg class="crest" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <circle cx="32" cy="32" r="28" fill="none" stroke="#b5a273" stroke-width="1"/>
+    <path d="M32 12 V52 M14 32 H50" stroke="#8a6c2a" stroke-width="1.2" stroke-linecap="round"/>
+    <circle cx="32" cy="32" r="6" fill="none" stroke="#8a6c2a" stroke-width="1"/>
+  </svg>`
   return `<!doctype html><html><head><meta charset="utf-8"><title>${escapeHtml(service.title)}</title><style>${css}</style></head><body>
-    <div class="cover">
+    <section class="cover">
+      ${crest}
       <div class="eyebrow">Order of Service</div>
+      <div class="rule"></div>
       <h1>${escapeHtml(service.title)}</h1>
       ${dateLine}
-    </div>
+      <div class="ornament">&#10086; &middot; &#10086; &middot; &#10086;</div>
+      <div class="footnote">NXR Hymnal</div>
+    </section>
     ${sections.join('\n')}
-    <script>window.onload = function(){ setTimeout(function(){ window.focus(); window.print(); }, 250); };<\/script>
+    <script>window.onload = function(){ setTimeout(function(){ window.focus(); window.print(); }, 450); };<\/script>
   </body></html>`
+}
+
+function romanLower(n: number): string {
+  return toRoman(n).toLowerCase()
 }
 
 function ExportModal({ service, text, filename, title, message, setMessage, onClose }: {
@@ -540,6 +669,7 @@ type AddProps = {
   error?: string | null
   submitting?: boolean
   hymnSampleHint?: string
+  hymnIndex?: { number: string; title: string }[]
 }
 
 function AddItemForm(p: AddProps) {
@@ -568,11 +698,27 @@ function AddItemForm(p: AddProps) {
       <div style={{ display: 'grid', gap: 8, marginBottom: 12 }}>
         {p.kind === 'hymn' && (
           <>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 110px', gap: 8 }}>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 160px', gap: 8 }}>
               <select value={p.hymnal} onChange={(e) => p.setHymnal(e.target.value)} style={fieldStyle}>
                 {HYMNALS.map((h) => <option key={h.slug} value={h.slug}>{h.title}</option>)}
               </select>
-              <input type="text" inputMode="numeric" placeholder="No." value={p.hymnNum} onChange={(e) => p.setHymnNum(e.target.value)} style={fieldStyle} />
+              <input
+                type="text"
+                list="svc-hymn-picker"
+                placeholder="Search no. or title"
+                value={p.hymnNum}
+                onChange={(e) => {
+                  const v = e.target.value
+                  const m = v.match(/^(\S+?)\s*\u2014/)
+                  p.setHymnNum(m ? m[1] : v)
+                }}
+                style={fieldStyle}
+              />
+              <datalist id="svc-hymn-picker">
+                {(p.hymnIndex || []).map((h) => (
+                  <option key={h.number} value={`${h.number} \u2014 ${h.title}`} />
+                ))}
+              </datalist>
             </div>
             {p.hymnSampleHint && (
               <div style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--nxr-ink-mute)', fontSize: 12 }}>

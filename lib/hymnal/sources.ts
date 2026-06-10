@@ -75,11 +75,11 @@ export function findHymnal(slug: string): HymnalSource | undefined {
 }
 
 export const BIBLES: BibleSource[] = [
-  { slug: 'esv',  file: 'bible_esv.json',  title: 'English Standard Version',  short: 'ESV'  },
   { slug: 'kjv',  file: 'bible_kjv.json',  title: 'King James Version',         short: 'KJV'  },
   { slug: 'nkjv', file: 'bible_nkjv.json', title: 'New King James Version',     short: 'NKJV' },
   { slug: 'lsb',  file: 'bible_lsb.json',  title: 'Legacy Standard Bible',      short: 'LSB'  },
   { slug: 'gnv',  file: 'bible_gnv.json',  title: 'Geneva Bible (1599)',        short: 'GNV'  },
+  { slug: 'esv',  file: 'bible_esv.json',  title: 'English Standard Version',  short: 'ESV'  },
 ]
 
 export function findBible(slug: string): BibleSource | undefined {

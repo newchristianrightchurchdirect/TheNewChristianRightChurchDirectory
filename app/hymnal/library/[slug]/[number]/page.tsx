@@ -8,7 +8,11 @@ export async function generateMetadata({ params }: { params: Params }) {
   const { slug, number } = await params
   const src = findHymnal(slug)
   if (!src) return { title: 'Hymn' }
-  return { title: `#${number} \u00B7 ${src.short}` }
+  const decodedNumber = decodeURIComponent(number)
+  return {
+    title: `Hymn #${decodedNumber} \u00B7 ${src.short}`,
+    description: `Hymn No. ${decodedNumber} from ${src.title}${src.year ? ` (${src.year})` : ''}.`,
+  }
 }
 
 export default async function HymnDetailPage({ params }: { params: Params }) {

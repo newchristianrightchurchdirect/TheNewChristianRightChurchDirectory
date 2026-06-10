@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { loadHymnal, loadBible, loadConfessions } from '@/lib/hymnal/loader'
 import { HYMNALS, BIBLES } from '@/lib/hymnal/sources'
 import { useHymnalStore } from '@/store/hymnal'
+import BackBar from './BackBar'
 
 type Result =
   | { kind: 'hymn'; hymnal: string; hymnalShort: string; number: string; title: string; snippet: string }
@@ -144,6 +145,7 @@ export default function HymnalSearch() {
 
   return (
     <div className="search-page">
+      <BackBar />
       <h1 className="search-h1">Search</h1>
 
       <form onSubmit={(e) => { e.preventDefault(); execute(q, scope, true) }} className="search-input-wrap" role="search">

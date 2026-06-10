@@ -21582,7 +21582,11 @@
     }
   ],
   "hymnal": {
-    "title": "Trinity Hymnal (Baptist Edition, 1995)",
-    "slug": "trinity_hymnal_baptist"
+    "id": "trinity_hymnal_baptist",
+    "name": "Trinity Hymnal (Baptist Edition)",
+    "abbreviation": "THB",
+    "description": "The Baptist Edition of the Trinity Hymnal (1995), published by Great Commission Publications. Substantially identical to the 1961 edition with 42 additional Psalter selections and minor doctrinal revisions.",
+    "year": 1995,
+    "publisher": "Great Commission Publications"
   }
 }

@@ -1,14 +1,17 @@
 import InstallClient from '@/components/hymnal/InstallClient'
+import HymnalChrome from '@/components/hymnal/HymnalChrome'
+import BackBar from '@/components/hymnal/BackBar'
 import '../hymnal.css'
 
 export const metadata = { title: 'Install' }
 
 export default function InstallPage() {
   return (
-    <div className="hymnal-shell">
-      <div className="hymnal-page" style={{ maxWidth: 720 }}>
+    <HymnalChrome>
+      <div style={{ maxWidth: 720, margin: '0 auto' }}>
+        <BackBar />
         <InstallClient />
       </div>
-    </div>
+    </HymnalChrome>
   )
 }

@@ -10,6 +10,8 @@ export const metadata = { title: 'Home' }
 const TRADITION: Record<string, string> = {
   'trinity-psalter-hymnal':    'Reformed',
   'trinity-hymnal-1961':       'Reformed',
+  'trinity-hymnal-1990':       'Reformed',
+  'trinity-hymnal-baptist':    'Reformed Baptist',
   'book-of-psalms-for-worship':'Presbyterian',
   'cantus-christi':            'Reformed',
   'hymns-of-grace':            'Reformed',
@@ -19,6 +21,8 @@ const TRADITION: Record<string, string> = {
 const PUBLISHER: Record<string, string> = {
   'trinity-psalter-hymnal':    'Great Commission Publications',
   'trinity-hymnal-1961':       'Great Commission Publications',
+  'trinity-hymnal-1990':       'Great Commission Publications',
+  'trinity-hymnal-baptist':    'Great Commission Publications',
   'book-of-psalms-for-worship':'Crown & Covenant Publications',
   'cantus-christi':            'Canon Press',
   'hymns-of-grace':            'The Master\u2019s Seminary Press',
@@ -28,6 +32,8 @@ const PUBLISHER: Record<string, string> = {
 const HYMN_COUNT: Record<string, number> = {
   'trinity-psalter-hymnal':    706,
   'trinity-hymnal-1961':       748,
+  'trinity-hymnal-1990':       742,
+  'trinity-hymnal-baptist':    638,
   'book-of-psalms-for-worship':460,
   'cantus-christi':            340,
   'hymns-of-grace':            321,
@@ -64,6 +70,15 @@ export default function HymnalHome() {
         </div>
         <div className="big">Begin a daily course</div>
         <div className="small">Bible in a Year, Psalter in a Month, and more.</div>
+      </Link>
+
+      <Link href="/hymnal/compare" className="hymnal-band" style={{ display: 'block', textDecoration: 'none', color: 'inherit' }}>
+        <div className="lhd">
+          <span>Compare Hymnals</span>
+          <span className="right italic">Open &rarr;</span>
+        </div>
+        <div className="big">Overlap &amp; differences</div>
+        <div className="small">See which hymns are shared or unique across two volumes.</div>
       </Link>
 
       <section className="hymnal-picker" aria-label="Volumes">

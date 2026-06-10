@@ -7,7 +7,11 @@ type Params = Promise<{ translation: string; book: string; chapter: string }>
 export async function generateMetadata({ params }: { params: Params }) {
   const { translation, book, chapter } = await params
   const src = findBible(translation)
-  return { title: src ? `${book.toUpperCase()} ${chapter} \u00B7 ${src.short}` : 'Bible' }
+  const title = src ? `${book.toUpperCase()} ${chapter} \u00B7 ${src.short}` : 'Bible'
+  const description = src
+    ? `Read ${book.toUpperCase()} chapter ${chapter} in ${src.title}.`
+    : 'Read the Bible online.'
+  return { title, description }
 }
 
 export default async function BibleChapterPage({ params }: { params: Params }) {
