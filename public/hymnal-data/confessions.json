@@ -194,12 +194,95 @@
       "type": "confession",
       "title": "Ten Theses of Berne",
       "year": "1528",
-      "authors": [],
-      "alternativeTitles": [],
+      "authors": [
+        "Berchtold Haller",
+        "Franz Kolb"
+      ],
+      "alternativeTitles": [
+        "Bernese Theses",
+        "Ten Conclusions of Berne"
+      ],
       "tradition": "Reformed",
       "country": "Switzerland",
-      "content": "English Translation of the Ten Theses of Berne by Peter Chapman, licensed under CC BY 4.0.\n\nEnglish Translation of the Ten Theses of Berne by Peter Chapman, licensed under CC BY 4.0.",
-      "groups": []
+      "content": "The Ten Theses of Berne (also called the Bernese Theses) were drafted by Berchtold Haller and Franz Kolb, revised by Huldrych Zwingli, and debated at the Bern Disputation of January 1528. Their acceptance led to the Reformation of the Canton of Bern.\n\nEnglish translation by Peter Chapman, licensed under CC BY 4.0.",
+      "groups": [
+        {
+          "number": "1",
+          "title": "The Ten Theses",
+          "entries": [
+            {
+              "id": "thesis-1",
+              "label": "Thesis 1",
+              "question": "The Church Lives by the Word",
+              "answer": "The holy Christian Church, whose only Head is Christ, is born of the Word of God, and abides in the same, and listens not to the voice of a stranger.",
+              "proofs": []
+            },
+            {
+              "id": "thesis-2",
+              "label": "Thesis 2",
+              "question": "No Law Without Scripture",
+              "answer": "The Church of Christ makes no laws and commandments without the Word of God; hence all human traditions are not binding upon us except so far as they are grounded upon or prescribed by the Word of God.",
+              "proofs": []
+            },
+            {
+              "id": "thesis-3",
+              "label": "Thesis 3",
+              "question": "Christ Alone Saves",
+              "answer": "Christ is the only wisdom, righteousness, redemption, and satisfaction for the sins of the whole world; hence to confess any other ground of salvation, or satisfaction for sins, is to deny Christ.",
+              "proofs": []
+            },
+            {
+              "id": "thesis-4",
+              "label": "Thesis 4",
+              "question": "No Corporal Presence in the Supper",
+              "answer": "The essential and corporal presence of the body and the blood of Christ cannot be demonstrated from the Holy Scripture.",
+              "proofs": []
+            },
+            {
+              "id": "thesis-5",
+              "label": "Thesis 5",
+              "question": "The Mass Repudiated",
+              "answer": "The Mass, as now in use, in which Christ is offered to God the Father for the sins of the living and the dead, is contrary to the Scripture, a blasphemy against the most holy sacrifice, passion, and death of Christ, and on account of its abuses an abomination before God.",
+              "proofs": []
+            },
+            {
+              "id": "thesis-6",
+              "label": "Thesis 6",
+              "question": "Christ the Only Mediator",
+              "answer": "As Christ alone died for us, so He is also to be adored as the only Mediator and Advocate between God the Father and the believers. Therefore it is contrary to the Word of God to propose and invoke other mediators.",
+              "proofs": []
+            },
+            {
+              "id": "thesis-7",
+              "label": "Thesis 7",
+              "question": "No Purgatory",
+              "answer": "Scripture knows nothing of a purgatory after this life. Hence all masses and other offices for the dead are useless.",
+              "proofs": []
+            },
+            {
+              "id": "thesis-8",
+              "label": "Thesis 8",
+              "question": "Image Worship Abolished",
+              "answer": "The worship of images is contrary to Scripture. Therefore images should be abolished when they are set up as objects of adoration.",
+              "proofs": []
+            },
+            {
+              "id": "thesis-9",
+              "label": "Thesis 9",
+              "question": "Marriage Open to All",
+              "answer": "Matrimony is not forbidden in the Scripture to any class of men, but permitted to all. But all fornication and unchastity are forbidden to clergy and laity alike.",
+              "proofs": []
+            },
+            {
+              "id": "thesis-10",
+              "label": "Thesis 10",
+              "question": "Clerical Celibacy Rejected",
+              "answer": "Since, according to Scripture, an open fornicator must be excommunicated, it follows that unchastity and impure celibacy are more pernicious to the clergy than to any other class.",
+              "proofs": []
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "luthers-large-catechism",
@@ -19210,7 +19293,78 @@
         {
           "number": "9",
           "title": "Conclusion",
-          "entries": []
+          "entries": [
+            {
+              "id": "concl-introduction",
+              "label": "Introduction",
+              "question": "The Sum of the Synod’s Declaration",
+              "answer": "And so this is the clear, simple, and straightforward explanation of the orthodox teaching on the five articles in dispute in the Netherlands, as well as the rejection of the errors by which the Dutch churches have for some time been disturbed. This explanation and rejection the Synod declares to be derived from God’s Word and in agreement with the confessions of the Reformed churches. Hence it clearly appears that those of whom one could hardly expect it have shown no truth, equity, and charity at all in wishing to make the public believe:",
+              "proofs": []
+            },
+            {
+              "id": "concl-accusation-1",
+              "label": "First Accusation Refuted",
+              "question": "Charge: Reformed Teaching Promotes Ungodliness",
+              "answer": "That the teaching of the Reformed churches on predestination and on the points associated with it by its very nature and tendency draws the minds of people away from all godliness and religion, is an opiate of the flesh and the devil, and is a stronghold of Satan where he lies in wait for all people, wounds most of them, and fatally pierces many of them with the arrows of both despair and self-assurance;",
+              "proofs": []
+            },
+            {
+              "id": "concl-accusation-2",
+              "label": "Second Accusation Refuted",
+              "question": "Charge: Reformed Teaching Makes God the Author of Sin",
+              "answer": "That this teaching makes God the author of sin, unjust, a tyrant, and a hypocrite; and is nothing but a refurbished Stoicism, Manicheism, Libertinism, and Mohammedanism;",
+              "proofs": []
+            },
+            {
+              "id": "concl-accusation-3",
+              "label": "Third Accusation Refuted",
+              "question": "Charge: Reformed Teaching Breeds Carnal Self-Assurance",
+              "answer": "That this teaching makes people carnally self-assured, since it persuades them that nothing endangers the salvation of the chosen, no matter how they live, so that they may commit the most outrageous crimes with self-assurance; and that on the other hand nothing is of use to the reprobate for salvation even if they have truly performed all the works of the saints;",
+              "proofs": []
+            },
+            {
+              "id": "concl-accusation-4",
+              "label": "Fourth Accusation Refuted",
+              "question": "Charge: Reformed Teaching Damns Infants Without Cause",
+              "answer": "That this teaching means that God predestined and created, by the bare and unqualified choice of his will, without the least regard or consideration of any sin, the greatest part of the world to eternal condemnation; that in the same manner in which election is the source and cause of faith and good works, reprobation is the cause of unbelief and ungodliness; that many infant children of believers are snatched in their innocence from their mothers’ breasts and cruelly cast into hell so that neither the blood of Christ nor their baptism nor the prayers of the church at their baptism can be of any use to them;",
+              "proofs": []
+            },
+            {
+              "id": "concl-disavowal",
+              "label": "Disavowal",
+              "question": "The Reformed Churches Denounce These Charges",
+              "answer": "And very many other slanderous accusations of this kind, which the Reformed churches not only disavow but even denounce with their whole heart.",
+              "proofs": []
+            },
+            {
+              "id": "concl-appeal",
+              "label": "Appeal",
+              "question": "Judge the Reformed Faith by Its Own Confessions",
+              "answer": "Therefore this Synod of Dort in the name of the Lord pleads with all who devoutly call on the name of our Savior Jesus Christ to form their judgment about the faith of the Reformed churches, not on the basis of false accusations gathered from here or there, or even on the basis of the personal statements of a number of ancient and modern authorities—statements which are also often either quoted out of context or misquoted and twisted to convey a different meaning—but on the basis of the churches’ own official confessions and of the present explanation of the orthodox teaching which has been endorsed by the unanimous consent of the members of the whole Synod, one and all.",
+              "proofs": []
+            },
+            {
+              "id": "concl-warning",
+              "label": "Warning",
+              "question": "A Warning to False Accusers",
+              "answer": "Moreover, the Synod earnestly warns the false accusers themselves to consider how heavy a judgment of God awaits those who give false testimony against so many churches and their confessions, trouble the consciences of the weak, and seek to prejudice the minds of many against the fellowship of true believers.",
+              "proofs": []
+            },
+            {
+              "id": "concl-charge",
+              "label": "Charge to Ministers",
+              "question": "How Ministers Must Teach This Doctrine",
+              "answer": "Finally, this Synod urges all fellow ministers in the gospel of Christ to deal with this teaching in a godly and reverent manner, in the academic institutions as well as in the churches; to do so, both in their speaking and writing, with a view to the glory of God’s name, holiness of life, and the comfort of anxious souls; to think and also speak with Scripture according to the analogy of faith; and, finally, to refrain from all those ways of speaking which go beyond the bounds set for us by the genuine sense of the Holy Scriptures and which could give impertinent sophists a just occasion to scoff at the teaching of the Reformed churches or even to bring false accusations against it.",
+              "proofs": []
+            },
+            {
+              "id": "concl-prayer",
+              "label": "Closing Prayer",
+              "question": "Final Prayer of the Synod",
+              "answer": "May God’s Son Jesus Christ, who sits at the right hand of God and gives gifts to men, sanctify us in the truth, lead to the truth those who err, silence the mouths of those who lay false accusations against sound teaching, and equip faithful ministers of his Word with a spirit of wisdom and discretion, that all they say may be to the glory of God and the building up of their hearers. Amen.",
+              "proofs": []
+            }
+          ]
         }
       ]
     },
@@ -88882,7 +89036,43 @@
         {
           "number": "1",
           "title": "Preface",
-          "entries": []
+          "entries": [
+            {
+              "id": "chicago-preface-p1",
+              "label": "¶ 1",
+              "question": "The Authority of Scripture",
+              "answer": "The authority of Scripture is a key issue for the Christian church in this and every age. Those who profess faith in Jesus Christ as Lord and Savior are called to show the reality of their discipleship by humbly and faithfully obeying God’s written Word. To stray from Scripture in faith or conduct is disloyalty to our Master. Recognition of the total truth and trustworthiness of Holy Scripture is essential to a full grasp and adequate confession of its authority.",
+              "proofs": []
+            },
+            {
+              "id": "chicago-preface-p2",
+              "label": "¶ 2",
+              "question": "Affirming Inerrancy",
+              "answer": "The following Statement affirms this inerrancy of Scripture afresh, making clear our understanding of it and warning against its denial. We are persuaded that to deny it is to set aside the witness of Jesus Christ and of the Holy Spirit and to refuse that submission to the claims of God’s own Word which marks true Christian faith. We see it as our timely duty to make this affirmation in the face of current lapses from the truth of inerrancy among our fellow Christians and misunderstandings of this doctrine in the world at large.",
+              "proofs": []
+            },
+            {
+              "id": "chicago-preface-p3",
+              "label": "¶ 3",
+              "question": "Form and Scope of the Statement",
+              "answer": "This Statement consists of three parts: a Summary Statement, Articles of Affirmation and Denial, and an accompanying Exposition. It has been prepared in the course of a three-day consultation in Chicago. Those who have signed the Summary Statement and the Articles wish to affirm their own conviction as to the inerrancy of Scripture and to encourage and challenge one another and all Christians to growing appreciation and understanding of this doctrine. We acknowledge the limitations of a document prepared in a brief, intensive conference and do not propose that this Statement be given creedal weight. Yet we rejoice in the deepening of our own convictions through our discussions together, and we pray that the Statement we have signed may be used to the glory of our God toward a new reformation of the Church in its faith, life, and mission.",
+              "proofs": []
+            },
+            {
+              "id": "chicago-preface-p4",
+              "label": "¶ 4",
+              "question": "Spirit of the Statement",
+              "answer": "We offer this Statement in a spirit, not of contention, but of humility and love, which we purpose by God’s grace to maintain in any future dialogue arising out of what we have said. We gladly acknowledge that many who deny the inerrancy of Scripture do not display the consequences of this denial in the rest of their belief and behavior, and we are conscious that we who confess this doctrine often deny it in life by failing to bring our thoughts and deeds, our traditions and habits, into true subjection to the divine Word.",
+              "proofs": []
+            },
+            {
+              "id": "chicago-preface-p5",
+              "label": "¶ 5",
+              "question": "Invitation to Response",
+              "answer": "We invite response to this statement from any who see reason to amend its affirmations about Scripture by the light of Scripture itself, under whose infallible authority we stand as we speak. We claim no personal infallibility for the witness we bear, and for any help which enables us to strengthen this testimony to God’s Word we shall be grateful.\n\n— The Draft Committee",
+              "proofs": []
+            }
+          ]
         },
         {
           "number": "2",
@@ -90149,7 +90339,36 @@
         {
           "number": "1",
           "title": "Preamble",
-          "entries": []
+          "entries": [
+            {
+              "id": "nashville-preamble-p1",
+              "label": "¶ 1",
+              "question": "A Period of Historic Transition",
+              "answer": "Evangelical Christians at the dawn of the twenty-first century find themselves living in a period of historic transition. As Western culture has become increasingly post-Christian, it has embarked upon a massive revision of what it means to be a human being. By and large, the spirit of our age no longer discerns or delights in the beauty of God’s design for human life. Many deny that God created human beings for His glory and that His good purposes for us include our personal and physical design as male and female. It is common to think that human identity as male and female is not part of God’s beautiful plan but is, rather, an expression of an individual’s autonomous preferences. The pathway to full and lasting joy through God’s good design for His creatures is thus replaced by the path of shortsighted alternatives that, sooner or later, ruin human life and dishonor God.",
+              "proofs": []
+            },
+            {
+              "id": "nashville-preamble-p2",
+              "label": "¶ 2",
+              "question": "A Challenge to the Church",
+              "answer": "This secular spirit of our age presents a great challenge to the Christian church. Will the church of the Lord Jesus Christ lose her biblical conviction, clarity, and courage, and blend into the spirit of the age? Or will she hold fast to the word of life, draw courage from Jesus, and unashamedly proclaim His way as the way of life? Will she maintain her clear, counter-cultural witness to a world that seems bent on ruin?",
+              "proofs": []
+            },
+            {
+              "id": "nashville-preamble-p3",
+              "label": "¶ 3",
+              "question": "Faithfulness Means Telling the True Story",
+              "answer": "We are persuaded that faithfulness in our generation means declaring once again the true story of the world and of our place in it—particularly as male and female. Christian Scripture teaches that there is but one God who alone is Creator and Lord of all. To Him alone, every person owes glad-hearted thanksgiving, heartfelt praise, and total allegiance. This is the path not only of glorifying God but of knowing ourselves. To forget our Creator is to forget who we are, for He made us for Himself. And we cannot know ourselves truly without truly knowing Him who made us. We did not make ourselves. We are not our own. Our true identity, as male and female persons, is given by God. It is not only foolish but hopeless to try to make ourselves what God did not create us to be.",
+              "proofs": []
+            },
+            {
+              "id": "nashville-preamble-p4",
+              "label": "¶ 4",
+              "question": "Offered for the Good of the Church",
+              "answer": "We believe that God’s design for His creation and His way of salvation serve to bring Him the greatest glory and bring us the greatest good. God’s good plan provides us with the greatest freedom. Jesus said He came that we might have life and have it in overflowing measure. He is for us and not against us. Therefore, in the hope of serving Christ’s church and witnessing publicly to the good purposes of God for human sexuality revealed in Christian Scripture, we offer the following affirmations and denials.",
+              "proofs": []
+            }
+          ]
         },
         {
           "number": "2",
