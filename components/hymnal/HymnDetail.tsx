@@ -29,7 +29,7 @@ export default function HymnDetail({ slug, number }: { slug: string; number: str
   const showRoman = useHymnalStore((s) => s.showRomanNumerals)
   const showDrop = useHymnalStore((s) => s.showDropCaps)
   const setLastOpened = useHymnalStore((s) => s.setLastOpenedHymn)
-  const tab = useHymnalStore((s) => s.hymnDetailTab)
+  const storedTab = useHymnalStore((s) => s.hymnDetailTab)
   const setTab = useHymnalStore((s) => s.setHymnDetailTab)
 
   useEffect(() => { setLastOpened(slug, number) }, [slug, number, setLastOpened])
@@ -61,6 +61,9 @@ export default function HymnDetail({ slug, number }: { slug: string; number: str
     hymn.author ? `Words: ${hymn.author}` : null,
     hymn.composer ? `Music: ${hymn.composer}` : null,
   ].filter(Boolean).join('  \u00B7  ')
+
+  // hymns without transcribed lyrics open on the sheet music instead
+  const tab = hymn.verses?.length ? storedTab : 'music'
 
   return (
     <article className="hymn-detail">
@@ -182,12 +185,50 @@ function shouldProxy(url: string): boolean {
   try { return PROXY_HOSTS.has(new URL(url).hostname) } catch { return false }
 }
 
+/**
+ * Local sheet PDFs ship with pre-rendered JPEG pages (<stem>.1.jpg, .2.jpg…)
+ * because the scans are JPEG2000 and pdf.js's software JPX decode hangs or
+ * OOMs mobile browsers. Show the images; fall back to pdf.js only if the
+ * first image is missing.
+ */
+function ImagePagesSheet({ pdfUrl, title }: { pdfUrl: string; title: string }) {
+  const [pages, setPages] = useState(1)
+  const [failed, setFailed] = useState(false)
+  const stem = pdfUrl.slice(0, -4)
+
+  if (failed) return <PdfViewer src={pdfUrl} title={title} />
+  return (
+    <div className="sheet-pdf">
+      <div className="pdf-pages">
+        {Array.from({ length: pages }, (_, i) => (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            key={i}
+            src={`${stem}.${i + 1}.jpg`}
+            alt={`Sheet music for ${title}, page ${i + 1}`}
+            style={{ width: '100%', display: 'block', marginBottom: 12 }}
+            onLoad={() => { if (i + 1 === pages) setPages(pages + 1) }}
+            onError={(e) => {
+              if (i === 0) { setFailed(true); return }
+              ;(e.currentTarget as HTMLImageElement).remove()
+            }}
+          />
+        ))}
+      </div>
+      <a className="sheet-open" href={pdfUrl} target="_blank" rel="noopener noreferrer">
+        Open PDF in new tab &rarr;
+      </a>
+    </div>
+  )
+}
+
 function SheetMusic({ url, title }: { url: string; title: string }) {
   const [isPdf, setIsPdf] = useState<boolean | null>(null)
   const lower = url.toLowerCase().split('?')[0].split('#')[0]
   const extPdf = lower.endsWith('.pdf')
   const extImg = /\.(png|jpe?g|gif|webp|svg)$/i.test(lower)
   const proxied = shouldProxy(url) ? `/api/pdf-proxy?url=${encodeURIComponent(url)}` : url
+  const localPdf = extPdf && url.startsWith('/hymnal-media/')
 
   useEffect(() => {
     if (extPdf) { setIsPdf(true); return }
@@ -203,6 +244,9 @@ function SheetMusic({ url, title }: { url: string; title: string }) {
     return () => { alive = false }
   }, [proxied, extPdf, extImg])
 
+  if (localPdf) {
+    return <ImagePagesSheet pdfUrl={url} title={title} />
+  }
   if (isPdf === null) {
     return <div className="sheet-empty">Loading sheet music\u2026</div>
   }
@@ -648,9 +692,19 @@ export function buildHymnPdfHtml(hymn: Hymn, hymnalShort: string): string {
     const cls = `verse${isChorus ? ' refrain' : ''}${!isChorus && vi === 0 ? ' first' : ''}`
     return `<div class="${cls}"><div class="vm">${escapeHtmlPdf(label)}</div><div class="vt">${lines}</div></div>`
   }).join('')
-  const sheet = hymn.sheetMusicUrl
-    ? `<div class="sheet"><img src="${escapeHtmlPdf(hymn.sheetMusicUrl)}" alt="Sheet music"/></div>`
-    : ''
+  // local PDFs ship pre-rendered <stem>.N.jpg pages (browsers can't <img> a
+  // PDF); extra page slots 404 and remove themselves before print fires
+  let sheet = ''
+  const su = hymn.sheetMusicUrl
+  if (su && /\.pdf$/i.test(su) && su.startsWith('/hymnal-media/')) {
+    const stem = escapeHtmlPdf(su.slice(0, -4))
+    const imgs = Array.from({ length: 6 }, (_, i) =>
+      `<img src="${stem}.${i + 1}.jpg" alt="Sheet music page ${i + 1}" onerror="this.remove()"/>`
+    ).join('')
+    sheet = `<div class="sheet">${imgs}</div>`
+  } else if (su && !/\.pdf$/i.test(su)) {
+    sheet = `<div class="sheet"><img src="${escapeHtmlPdf(su)}" alt="Sheet music"/></div>`
+  }
   const metaParts: string[] = []
   if (hymnalShort) metaParts.push(escapeHtmlPdf(hymnalShort))
   metaParts.push(`No. ${escapeHtmlPdf(hymn.number)}`)

@@ -401,7 +401,18 @@ async function buildBookletHtml(service: Service): Promise<string> {
         }).join('')
         body = `<div class="verses">${verses}</div>`
         if (hymn.sheetMusicUrl) {
-          body += `<div class="sheet"><img src="${escapeHtml(hymn.sheetMusicUrl)}" alt="Sheet music"/></div>`
+          const su = hymn.sheetMusicUrl
+          if (/\.pdf$/i.test(su) && su.startsWith('/hymnal-media/')) {
+            // local PDFs ship pre-rendered <stem>.N.jpg pages; extra slots
+            // 404 and remove themselves before print fires
+            const stem = escapeHtml(su.slice(0, -4))
+            const imgs = Array.from({ length: 6 }, (_, i) =>
+              `<img src="${stem}.${i + 1}.jpg" alt="Sheet music page ${i + 1}" onerror="this.remove()"/>`
+            ).join('')
+            body += `<div class="sheet">${imgs}</div>`
+          } else if (!/\.pdf$/i.test(su)) {
+            body += `<div class="sheet"><img src="${escapeHtml(su)}" alt="Sheet music"/></div>`
+          }
         }
       } else {
         body = '<div class="missing">Hymn text not available in this collection.</div>'
