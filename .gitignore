@@ -16,5 +16,3 @@ tsconfig.tsbuildinfo
 # Too large for git; host externally if shipping in production.
 public/hymnal-media/nxr-hymnal.pdf
 
-# Original source hymnal PDFs (copyrighted material — keep local only)
-public/hymnal-media/originals/
