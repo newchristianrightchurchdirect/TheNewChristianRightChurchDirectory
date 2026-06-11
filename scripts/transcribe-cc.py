@@ -20,10 +20,17 @@ def clean_line(t):
     t = unicodedata.normalize("NFKC", t)
     t = re.sub(r"\s*-\s*", "", t)                    # de-hyphenate syllables
     t = re.sub(r"(?<=[a-z])(?=[A-Z])", " ", t)       # rejoin "isHis" -> "is His"
+    # OCR digit/letter confusion at line start: 0 -> O, 1/11 -> I
+    t = re.sub(r"^\s*0(?=\s|h\b)", "O", t)
+    t = re.sub(r"^\s*11?(?=\s)", "I", t)
     t = re.sub(r"\b(\d{1,2})(?=[A-Z])", "", t)       # inline psalm verse nums
-    t = re.sub(r"^\d{1,2}\s+(?=[A-Z])", "", t)
     t = re.sub(r"\s+", " ", t).strip()
     return t
+
+
+def squash(t):
+    t = unicodedata.normalize("NFKD", t or "").encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z]", "", t)
 
 
 def rows_from_image(ocr, img):
@@ -79,9 +86,15 @@ def main():
     ocr = RapidOCR()
     f = "public/hymnal-data/cantus_christi.json"
     d = json.load(open(f, encoding="utf-8"))
+    redo = set()
+    if "--redo" in sys.argv:
+        prev = json.load(open(".tmp-renders/cc-transcripts.json", encoding="utf-8"))
+        redo = {n for n, v in prev.items() if v.get("verses")}
     drafts = {}
     for h in d["hymns"]:
-        if h.get("verses") or not h.get("sheetMusicUrl"):
+        if not h.get("sheetMusicUrl"):
+            continue
+        if h.get("verses") and h["number"] not in redo:
             continue
         stem = "public" + h["sheetMusicUrl"][:-4]
         imgs = [f"{stem}.{i}.jpg" for i in (1, 2, 3, 4) if os.path.exists(f"{stem}.{i}.jpg")]
@@ -92,6 +105,25 @@ def main():
             verses, conf = transcribe(ocr, imgs)
         except Exception as e:
             verses, conf = None, f"error:{e}"
+        # the title is the authoritative first line in CC: anchor verse 1 to it
+        if verses:
+            title = re.sub(r"\s*\(.*?\)\s*$", "", h.get("title") or "").strip()
+            lines = verses[0]["text"].split("\n")
+            ts, ls = squash(title), squash(lines[0])
+            import difflib
+            if ts and difflib.SequenceMatcher(None, ts, ls[:len(ts) + 6]).ratio() >= 0.5:
+                tail = ""
+                if len(ls) > len(ts) + 8:
+                    # keep OCR words beyond the title's span
+                    words = lines[0].split()
+                    acc = ""
+                    for i, w in enumerate(words):
+                        acc += squash(w)
+                        if len(acc) >= len(ts):
+                            tail = " " + " ".join(words[i + 1:]) if i + 1 < len(words) else ""
+                            break
+                lines[0] = title.rstrip(".,;") + ("," if not title.rstrip().endswith((",", ";", "!", "?", ":")) else "") + tail
+                verses[0]["text"] = "\n".join(lines)
         drafts[h["number"]] = {"conf": conf, "verses": verses}
         print(f"{h['number']:9} {conf:16} {(verses[0]['text'][:60] if verses else '')!r}", flush=True)
         if apply and verses:
