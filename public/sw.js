@@ -1,9 +1,10 @@
 // NXR Hymnal service worker.
 // - network-first for HTML (so updates ship fast)
-// - cache-first for /hymnal-data/*.json and /_next/static/* (offline)
-// - cache-first for /fonts/* (offline)
+// - network-first for /hymnal-data/*.json (data fixes must show on next
+//   reload; the cache only serves offline)
+// - cache-first for /_next/static/* and /fonts/* (immutable)
 
-const VERSION = 'nxr-hymnal-v25'
+const VERSION = 'nxr-hymnal-v26'
 const SHELL_CACHE = `${VERSION}-shell`
 const DATA_CACHE = `${VERSION}-data`
 const STATIC_CACHE = `${VERSION}-static`
@@ -56,7 +57,7 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return
 
   if (isJsonData(url)) {
-    event.respondWith(cacheFirst(req, DATA_CACHE))
+    event.respondWith(networkFirst(req, DATA_CACHE))
     return
   }
   if (isStatic(url)) {
