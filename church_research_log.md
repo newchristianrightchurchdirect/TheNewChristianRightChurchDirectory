@@ -140,3 +140,13 @@ abolitionStance classified: ~217 · leadership filled: ~205.
 This turn researched 32 churches (ids 1–40 range, minus the gaps). **Next ≈ #41+.**
 CREC/RPCGA bloc: zionist confirmed `no/anti`, abolition mostly `unknown` (needs per-pastor stance pass).
 Standouts found: pro_abolition = Apologia(3), Webbon/Covenant(17), Grace Life Dallas(32), Chuck Baldwin(36).
+
+## Progress log (live counts)
+- 2026-06-21: researchStatus researched=240, blocked=1, not_researched=3785.
+- Worked ids ~35-53 (CREC/Reformed-family bloc) with site -> pastor-dig -> denominational-default.
+  Pastor digs upgraded the vocal ones (Sauve, Kayser, Partridge, Lankford). The small local CREC
+  missions were genuinely silent (site + no public pastor record) -> denominational default
+  (zionist no, abolition incrementalist), pastors filled where listed.
+- abolition among researched: incrementalist=229, pro_abolition=8, unknown=3.
+- **Cursor: next not_researched id = ~#54+.**
+
