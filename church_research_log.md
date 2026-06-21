@@ -20,10 +20,17 @@ The pre-existing AI-generated notes contain **fabrications** that must be correc
 So "individual research" = correct + verify, not just fill blanks.
 
 ## ⚑ STANDARD: individual-first, denominational-default fallback (per user, 2026-06-21)
-For EACH stance: (1) research the individual church/pastor first (statement of faith, ministries, sermons,
-documented public record). (2) Use what they actually say. (3) **If the church's own site has nothing on a
-stance, fall back to the DENOMINATIONAL DEFAULT — do NOT leave it "unknown".** Only leave unknown if the
-denomination is also unknown/unclassifiable.
+For EACH stance: (1) research the individual church site (statement of faith, ministries). (2) **If the site
+is silent, DIG into the pastor** — sermons (SermonAudio/YouTube), books, public record, ministry/network
+affiliations, and social media (X, Facebook). (3) Use what they actually say. (4) **Only if all that turns
+up nothing, fall back to the DENOMINATIONAL DEFAULT — do NOT leave it "unknown".** Unknown only if the
+denomination is also unclassifiable.
+
+Pastor-dig payoff (batch 8) — 4 defaults upgraded to evidenced stances:
+- #16 Refuge / Brian Sauvé → self-described "Abortion Abolitionist" (pro_abolition) + active anti-CZ/antisemitic (zionist anti)
+- #19 Dominion Covenant / Phillip Kayser → abortion = capital murder (pro_abolition)
+- #20 King's Way / Dale Partridge → wrote "The Israel Delusion" vs Christian Zionism (zionist anti)
+- #24 Shepherd's Church / Kendall Lankford → church "abortion is murder", abolitionist (pro_abolition)
 
 Denominational defaults:
 - **zionist** — Reformed/Presbyterian family (CREC, RPCNA, RPCGA, OPC, PCA, URC, ARP, PRCA, Reformed,
