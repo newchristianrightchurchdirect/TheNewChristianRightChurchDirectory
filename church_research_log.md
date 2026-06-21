@@ -19,6 +19,17 @@ The pre-existing AI-generated notes contain **fabrications** that must be correc
 - #12 Community Bible Church (San Antonio) has a wrong website (cbcvallejo.org — Vallejo, CA).
 So "individual research" = correct + verify, not just fill blanks.
 
+## ⚑ EVIDENCE-ONLY STANDARD (per user, 2026-06-21)
+Research EACH stance individually from the church's/pastor's own evidence. **Do NOT infer a stance from
+denomination.** A stance is only set to yes/no/anti or pro_abolition/incrementalist when the church's
+statement of faith, ministries, sermons, or the pastor's documented public record supports it. Otherwise
+the stance stays **unknown**. (CREC ≠ automatically "zionist no"; RB ≠ automatically anything.)
+
+Correction applied: downgraded denomination/theology-inferred stances to unknown for ids
+2,12,16,19,20,23,25,26,27,28,29,30,31,32,33,34,38,40. Kept only evidenced calls (e.g., MacArthur=yes,
+Hagee=yes/CUFI, Jeffress=yes, Durbin=anti, Webbon/Baldwin=anti+pro_abolition, Wilson=anti+incrementalist,
+Zahnd=anti, Grace Life Dallas=pro_abolition, Christ Church Spokane=no via stated "optimistic eschatology").
+
 ## Standard per church
 - leadership: real pastor(s)/elders from the church site or reliable source
 - zionistStance: yes / no / anti / unknown — confirmed from a statement or strong public record
