@@ -48,11 +48,24 @@ Batch 2 → resumed-batch-2-output.json (applied via prisma/apply-research-batch
 **Key lesson:** abolition stance is NOT inferable from theology — Webbon (postmill) = pro_abolition,
 Wilson (postmill) = incrementalist. Confirm from a stated position; else leave "unknown".
 
-## Pending (pulled but not finished) — next session
-#9 Trinity Bible (Dallas) — /about 404, pastor TBD · #13 Providence PCA (Wilmington NC) — website looks
-wrong (providencepcathomaston.org) · #15 Bethlehem Baptist (Minneapolis, post-Piper) — current pastor TBD
-· #16 Refuge (Ogden UT) · #22 Christ Church Spokane (CREC).
+## Batch 3 (applied) — scraped via Node (WebFetch/WebSearch hit session limit, resets 2:30pm ET)
+| id | church | note | zionist | abolition |
+|---|---|---|---|---|
+| 9 | Trinity Bible (Dallas TX) | elders Condy/Ng/+; prior "amillennial" claim contradicted by site → downgraded | unknown | unknown |
+| 15 | Bethlehem Baptist (Minneapolis MN) | Piper-era historic premil; current pastor TBD | no | incrementalist |
+| 22 | Christ Church Spokane (WA) | Pastor Kenton Spratt; covenantal/postmill (CREC-style) | no | unknown |
+
+## ⚠ Tooling note
+WebFetch/WebSearch hit a session rate limit (resets 2:30pm America/New_York). Node-`fetch` scraping is the
+fallback — works for static sites (leadership, fabrication fixes) but returns nothing for JS-rendered sites
+(Squarespace/Wix) and can't always reach the eschatology/abortion sections ⇒ more "unknown" until clean tools return.
+
+## Deferred — needs clean WebFetch/WebSearch
+- #13 Providence PCA (Wilmington NC): listed site providencepcathomaston.org is dead/wrong — find correct site + pastor.
+- #16 Refuge Church (Ogden UT): JS-rendered (Squarespace) — leadership/beliefs not scrapeable.
+- #15 Bethlehem: confirm current (post-Piper) lead pastor.
+- Upgrade the "unknown" zionist/abolition on #9, #19, #20, #22 once sources are reachable.
 
 ## Cursor
-Researched ids: 1,2,3,6,7,10,11,12,17,18,19,20. **Next un-researched id ≈ 9, then 13,15,16,22, then 23+.**
-~3,821 churches still unclassified. Cadence ≈ 10–15/session at this depth.
+Researched ids: 1,2,3,6,7,9,10,11,12,15,17,18,19,20,22 (15 total). Deferred: 13,16. **Next un-researched id ≈ 23+.**
+~3,818 churches still unclassified. Resume at full quality when WebFetch resets; static-site scraping can continue meanwhile.
