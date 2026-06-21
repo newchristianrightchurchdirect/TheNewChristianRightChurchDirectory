@@ -19,16 +19,25 @@ The pre-existing AI-generated notes contain **fabrications** that must be correc
 - #12 Community Bible Church (San Antonio) has a wrong website (cbcvallejo.org — Vallejo, CA).
 So "individual research" = correct + verify, not just fill blanks.
 
-## ⚑ EVIDENCE-ONLY STANDARD (per user, 2026-06-21)
-Research EACH stance individually from the church's/pastor's own evidence. **Do NOT infer a stance from
-denomination.** A stance is only set to yes/no/anti or pro_abolition/incrementalist when the church's
-statement of faith, ministries, sermons, or the pastor's documented public record supports it. Otherwise
-the stance stays **unknown**. (CREC ≠ automatically "zionist no"; RB ≠ automatically anything.)
+## ⚑ STANDARD: individual-first, denominational-default fallback (per user, 2026-06-21)
+For EACH stance: (1) research the individual church/pastor first (statement of faith, ministries, sermons,
+documented public record). (2) Use what they actually say. (3) **If the church's own site has nothing on a
+stance, fall back to the DENOMINATIONAL DEFAULT — do NOT leave it "unknown".** Only leave unknown if the
+denomination is also unknown/unclassifiable.
 
-Correction applied: downgraded denomination/theology-inferred stances to unknown for ids
-2,12,16,19,20,23,25,26,27,28,29,30,31,32,33,34,38,40. Kept only evidenced calls (e.g., MacArthur=yes,
-Hagee=yes/CUFI, Jeffress=yes, Durbin=anti, Webbon/Baldwin=anti+pro_abolition, Wilson=anti+incrementalist,
-Zahnd=anti, Grace Life Dallas=pro_abolition, Christ Church Spokane=no via stated "optimistic eschatology").
+Denominational defaults:
+- **zionist** — Reformed/Presbyterian family (CREC, RPCNA, RPCGA, OPC, PCA, URC, ARP, PRCA, Reformed,
+  Reformed Baptist, Presbyterian, HRC, Converge, CPC) → **no**. Dispensational (Bible Church, most
+  charismatic/evangelical non-denom, much of SBC) → **yes**. ("anti" only with individual evidence of
+  active anti-Christian-Zionism.)
+- **abolition** — conservative Christian default → **incrementalist** (pro-life). "pro_abolition" only with
+  individual evidence (EAN/Free the States/equal-protection/signed abolition statement/abolition conference).
+  "anti" only for pro-choice/affirming (mainline).
+- `researchNote` flags when a stance came from the denominational default vs the church itself.
+
+Individually-evidenced calls so far: MacArthur=yes, Hagee=yes(CUFI), Jeffress=yes, Durbin=anti+pro_abolition,
+Webbon=anti+pro_abolition, Baldwin=anti+pro_abolition, Wilson=anti+incrementalist, Zahnd=anti,
+Grace Life Dallas=pro_abolition, Christ Church Spokane=no(stated optimistic eschatology).
 
 ## Standard per church
 - leadership: real pastor(s)/elders from the church site or reliable source
