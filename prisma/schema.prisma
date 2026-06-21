@@ -23,6 +23,8 @@ model Church {
   email            String?
   zionistStance    String   @default("unknown") // "yes", "no", "anti", "unknown"
   abolitionStance  String   @default("unknown") // "pro_abolition", "anti", "incrementalist", "unknown"
+  researchStatus   String   @default("not_researched") // "researched" | "blocked" | "not_researched"
+  researchNote     String?  // if blocked: why (dead site, JS-rendered, 403, bad record); else research source/date
   theologicalNotes String?
   description      String?
   leadership       String?  // Pastor + elders, e.g. "Pastor: Jane Doe; Elders: A, B, C"

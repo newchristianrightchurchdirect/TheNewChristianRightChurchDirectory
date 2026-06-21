@@ -86,11 +86,30 @@ CREC churches: zionist "no/anti" is denominationally sound (covenantal/postmill,
 and leadership is scrapeable — but **abolition splits** (Wilson = incrementalist; others abolitionist), so
 abolition stays "unknown" until each pastor's stated position is found. Worth a dedicated abolition pass.
 
+## NEW: researchStatus column (added to schema + DB)
+`researchStatus` = "not_researched" (default) | "researched" | "blocked"; plus `researchNote` (block reason
+or source). Back-filled: researched where leadership/abolition was set. Apply script now stamps "researched";
+mark "blocked" via an output entry's researchStatus + researchNote. Pull query filters not_researched.
+
+## Batches 6–7 (applied) — mostly CREC/RPCGA + notable non-denoms
+| id | church | leadership | zionist | abolition |
+|---|---|---|---|---|
+| 26 | Holy Trinity Reformed (Concord NC) CREC | Brian Phillips | no | unknown |
+| 27 | Christ the King (Greenville SC) CREC | Michael Hansen / Caleb Levi | no | unknown |
+| 33 | Christ Covenant RPC (Wylie TX) RPCGA | Todd Ruddell | no | unknown |
+| 37 | Word of Life (St Joseph MO) | Brian Zahnd (anti-CZ) | anti | unknown |
+| 30 | Tri-City Covenant (Somersworth NH) CREC | Harold Guptill | no | unknown |
+| 31 | Phoenix Reformed Baptist (AZ) 1689 | elder Dr. James White | no | unknown |
+| 34 | Brainerd Hills (Chattanooga TN) RPCGA | (not listed) | no | unknown |
+| 36 | Liberty Fellowship (Kalispell MT) | Chuck Baldwin | **anti** | **pro_abolition** |
+| 38 | Trinity Pres (Birmingham AL) CREC | Rich Lusk (+ Leithart) | no | unknown |
+| 40 | Christ Church Santa Clarita (CA) CREC | Garrett Craw | no | unknown |
+
 ## DB progress (live)
-abolitionStance classified: **205** (was 193) · leadership filled: **190** · total 4,026.
+researchStatus: **researched=225, blocked=1 (#13), not_researched=3,800**.
+abolitionStance classified: ~217 · leadership filled: ~205.
 
 ## Cursor
-Researched this session (22): 1,2,3,6,7,9,10,11,12,15,16,17,18,19,20,22,23,24,25,28,29,32.
-Still pending in last pull: #26 Holy Trinity Reformed (Concord NC), #27 Christ the King (Greenville SC),
-#30 Tri-City Covenant (Somersworth NH), #31 Phoenix RB (403-blocked), #32 pastor. Deferred: #13.
-**Next ≈ #26, then #33+.** ~3,804 still need research.
+This turn researched 32 churches (ids 1–40 range, minus the gaps). **Next ≈ #41+.**
+CREC/RPCGA bloc: zionist confirmed `no/anti`, abolition mostly `unknown` (needs per-pastor stance pass).
+Standouts found: pro_abolition = Apologia(3), Webbon/Covenant(17), Grace Life Dallas(32), Chuck Baldwin(36).
