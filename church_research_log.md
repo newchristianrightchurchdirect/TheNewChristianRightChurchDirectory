@@ -66,6 +66,31 @@ fallback — works for static sites (leadership, fabrication fixes) but returns 
 - #15 Bethlehem: confirm current (post-Piper) lead pastor.
 - Upgrade the "unknown" zionist/abolition on #9, #19, #20, #22 once sources are reachable.
 
+## Batches 4–5 (applied) — web tools reset, full quality
+| id | church | leadership | zionist | abolition |
+|---|---|---|---|---|
+| 16 | Refuge (Ogden UT) | Brian Sauvé (theonomic) | anti | unknown |
+| 23 | Reformation Covenant (Oregon City OR) CREC | Bo Cogbill / Dennis Tuuri | no | unknown |
+| 24 | The Shepherd's Church (Chelmsford MA) CREC | Kendall Lankford | anti | unknown |
+| 29 | Trinity Church Kirkland (WA) CREC | Dave Hatcher | no | unknown |
+| 32 | Grace Life Church of Dallas (Plano TX) | pastor TBD | no | **pro_abolition** (hosts "Pro-Life Is Not Enough") |
+| 25 | Providence Pensacola (FL) CREC | Uriesou Brito + elders | no | unknown |
+| 28 | Providence Lynchburg (VA) CREC | Virgil Hurt + elders | no | unknown |
+
+## ⚠ Bad record flagged (not changed)
+- #13 Providence Church, Wilmington NC (PCA): no PCA "Providence" found in Wilmington NC; listed site
+  (providencepcathomaston.org) is dead. Likely mis-located/mis-named import — needs manual verification.
+
+## Note on CREC bloc
+CREC churches: zionist "no/anti" is denominationally sound (covenantal/postmill, reject Christian Zionism),
+and leadership is scrapeable — but **abolition splits** (Wilson = incrementalist; others abolitionist), so
+abolition stays "unknown" until each pastor's stated position is found. Worth a dedicated abolition pass.
+
+## DB progress (live)
+abolitionStance classified: **205** (was 193) · leadership filled: **190** · total 4,026.
+
 ## Cursor
-Researched ids: 1,2,3,6,7,9,10,11,12,15,17,18,19,20,22 (15 total). Deferred: 13,16. **Next un-researched id ≈ 23+.**
-~3,818 churches still unclassified. Resume at full quality when WebFetch resets; static-site scraping can continue meanwhile.
+Researched this session (22): 1,2,3,6,7,9,10,11,12,15,16,17,18,19,20,22,23,24,25,28,29,32.
+Still pending in last pull: #26 Holy Trinity Reformed (Concord NC), #27 Christ the King (Greenville SC),
+#30 Tri-City Covenant (Somersworth NH), #31 Phoenix RB (403-blocked), #32 pastor. Deferred: #13.
+**Next ≈ #26, then #33+.** ~3,804 still need research.
