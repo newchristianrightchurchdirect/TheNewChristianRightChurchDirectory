@@ -188,3 +188,84 @@ Added structured `recordFlag` column to Church (semicolon-separated tags): dupli
 - denom_ambiguous (6): #300,#371,#400,#427,#467,#520
 - denom_corrected (1): #447 (PCA->OPC)
 Query: SELECT * FROM "Church" WHERE "recordFlag" IS NOT NULL. apply-research-batch.ts now writes recordFlag for future research.
+
+## Website / duplicate cleanup (2026-06-22)
+Scanned all rows sharing a website host (168 rows on shared hosts). Actions:
+- **69 websites NULLed** (provably garbage: foreign-TLD/forum/blog/resource/denominational placeholders e.g. gracechurchrotorua.co.nz x20, puritanboard threads x16, reformation.edu x10, jerseycitygrace.org, *.org.nz/.au, abuse-blog URLs). recordFlag += website_removed. Removed values listed below (recoverable).
+- **21 duplicate_of** total (added 18: e.g. #3989->76 GBC Conway, #3737->392 Urban Hope, #3316->374 Redeemer Shoals, #3752->2249 First OPC SF, #3596->3497 Coddle Creek, #3658->3937, #3668->3935).
+- **63 shared_website_review**: different real churches sharing one real church domain (owner unverified) - FLAGGED not nulled, for human/targeted-research resolution.
+- **15 corrupted**: name/city fields holding garbage (addresses, phone numbers, names, PO boxes).
+Query: SELECT id,name,recordFlag FROM "Church" WHERE recordFlag IS NOT NULL.
+
+### NULLed website audit (id / name / removed-url)
+```
+#2210	Grace	https://www.gracechurchrotorua.co.nz
+#2240	Grace	https://www.gracechurchrotorua.co.nz
+#3720	Grace Bible Fellowship	https://www.gbf.org.au/index.php/about/about-the-church/what-we-believe
+#1294	Covenant Presbyterian Church	http://covenantchurch.org.nz
+#3785	Reformed Presbyterian Church	http://reformedpresbyterian.org/)
+#3814	Reformed Presbyterian Church	http://reformedpresbyterian.org/)
+#3860	Grace Reformed Church	https://jerseycitygrace.org
+#3863	True Dutch Reformed Church	https://www.puritanboard.com/threads/question-regarding-netherlands-reformed-churches-heritage-reformed-churches.61328
+#3864	Netherland Reformed Congregation	https://www.puritanboard.com/threads/question-regarding-netherlands-reformed-churches-heritage-reformed-churches.61328
+#3865	Ebenezer Netherland Reformed	https://www.puritanboard.com/threads/question-regarding-netherlands-reformed-churches-heritage-reformed-churches.61328
+#3866	First Netherlands Reformed Congregation	https://www.puritanboard.com/threads/question-regarding-netherlands-reformed-churches-heritage-reformed-churches.61328
+#3874	Netherlands Reformed Congregation	https://www.puritanboard.com/threads/question-regarding-netherlands-reformed-churches-heritage-reformed-churches.61328
+#3875	Netherlands Reformed Church	https://www.puritanboard.com/threads/question-regarding-netherlands-reformed-churches-heritage-reformed-churches.61328
+#3876	Netherlands Reformed Congregation	https://www.puritanboard.com/threads/question-regarding-netherlands-reformed-churches-heritage-reformed-churches.61328
+#4024	Georgetown	https://thouarttheman.org/2018/04/24/arbca-pastors-middle-sexual-abuse-cover
+#4025	Mansfield	https://thouarttheman.org/2018/04/24/arbca-pastors-middle-sexual-abuse-cover
+#4026	Glenside	https://thewartburgwatch.com/2023/06/09/westminster-theological-seminary-ignores-abuse-and-gives-steve-estes-an-honorary-doctorate-for-what-exactly-never-forget
+#4027	Elverson	https://thewartburgwatch.com/2023/06/09/westminster-theological-seminary-ignores-abuse-and-gives-steve-estes-an-honorary-doctorate-for-what-exactly-never-forget
+#3862	Grace Reformed Church	https://jerseycitygrace.org
+#371	Providence Presbyterian Church	http://files.puritanboard.com/confessions.htm
+#2343	Grace	https://www.gracechurchrotorua.co.nz
+#2346	Grace	https://www.gracechurchrotorua.co.nz
+#2373	Trinity Presbyterian Church	https://www.capnz.org
+#2190	Grace	https://www.gracechurchrotorua.co.nz
+#2151	Grace Reformed Church	https://jerseycitygrace.org
+#3956	Unity Associate Reformed Presbyterian Church	https://veritaspresbytery.com/our-beginning
+#3871	Netherlands Reformed Congregation	https://www.puritanboard.com/threads/question-regarding-netherlands-reformed-churches-heritage-reformed-churches.61328
+#324	First Presbyterian Church	https://www.reformation.edu
+#307	Covenant Presbyterian Church	http://covenantchurch.org.nz
+#334	First Presbyterian Church	https://www.reformation.edu
+#851	Providence Presbyterian Church	http://files.puritanboard.com/confessions.htm
+#3444	Troy ARP Church	https://veritaspresbytery.com/our-beginning
+#2246	Grace	https://www.gracechurchrotorua.co.nz
+#3870	Netherlands Reformed Congregation	https://www.puritanboard.com/threads/question-regarding-netherlands-reformed-churches-heritage-reformed-churches.61328
+#3549	First Presbyterian Church	https://www.reformation.edu
+#3818	Reformed Presbyterian Church	http://reformedpresbyterian.org/)
+#3868	Netherlands Reformed Congregation	https://www.puritanboard.com/threads/question-regarding-netherlands-reformed-churches-heritage-reformed-churches.61328
+#3872	Netherlands Reformed Congregations	https://www.puritanboard.com/threads/question-regarding-netherlands-reformed-churches-heritage-reformed-churches.61328
+#3867	Netherlands Reformed Church	https://www.puritanboard.com/threads/question-regarding-netherlands-reformed-churches-heritage-reformed-churches.61328
+#2176	Grace	https://www.gracechurchrotorua.co.nz
+#2205	Grace	https://www.gracechurchrotorua.co.nz
+#2370	Grace	https://www.gracechurchrotorua.co.nz
+#3329	Resurrection SD	https://Robert Novak
+#1682	First Presbyterian Church	https://www.reformation.edu
+#1747	Trinity Presbyterian Church	https://www.capnz.org
+#939	Reformed Presbyterian Church	http://reformedpresbyterian.org/)
+#328	First Presbyterian Church	https://www.reformation.edu
+#792	First Presbyterian Church	https://www.reformation.edu
+#3740	Resurrection SD	https://Robert Novak
+#1960	Covenant Presbyterian Church	http://covenantchurch.org.nz
+#3291	Grace Bible Fellowship	https://www.gbf.org.au/index.php/about/about-the-church/what-we-believe
+#3626	Grace Reformed Church	https://jerseycitygrace.org
+#1170	First Presbyterian Church	https://www.reformation.edu
+#1178	First Presbyterian Church	https://www.reformation.edu
+#1182	First Presbyterian Church	https://www.reformation.edu
+#1185	First Presbyterian Church	https://www.reformation.edu
+#3873	Netherlands Reformed Congregation	https://www.puritanboard.com/threads/question-regarding-netherlands-reformed-churches-heritage-reformed-churches.61328
+#3869	Netherlands Reformed Church	https://www.puritanboard.com/threads/question-regarding-netherlands-reformed-churches-heritage-reformed-churches.61328
+#2146	Grace	https://www.gracechurchrotorua.co.nz
+#2165	Grace	https://www.gracechurchrotorua.co.nz
+#2189	Grace	https://www.gracechurchrotorua.co.nz
+#2200	Grace	https://www.gracechurchrotorua.co.nz
+#2213	Grace	https://www.gracechurchrotorua.co.nz
+#2226	Grace	https://www.gracechurchrotorua.co.nz
+#2244	Grace	https://www.gracechurchrotorua.co.nz
+#2286	Grace	https://www.gracechurchrotorua.co.nz
+#2288	Grace	https://www.gracechurchrotorua.co.nz
+#2306	Grace	https://www.gracechurchrotorua.co.nz
+#2323	Grace	https://www.gracechurchrotorua.co.nz
+```
