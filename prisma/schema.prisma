@@ -25,6 +25,7 @@ model Church {
   abolitionStance  String   @default("unknown") // "pro_abolition", "anti", "incrementalist", "unknown"
   researchStatus   String   @default("not_researched") // "researched" | "blocked" | "not_researched"
   researchNote     String?  // if blocked: why (dead site, JS-rendered, 403, bad record); else research source/date
+  recordFlag       String?  // data-quality tags, ';'-separated: "duplicate_of:<id>" | "closed" | "in_transition" | "denom_corrected" | "denom_ambiguous" | "corrected"
   theologicalNotes String?
   description      String?
   leadership       String?  // Pastor + elders, e.g. "Pastor: Jane Doe; Elders: A, B, C"
