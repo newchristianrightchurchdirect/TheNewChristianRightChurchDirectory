@@ -26,6 +26,9 @@ model Church {
   researchStatus   String   @default("not_researched") // "researched" | "blocked" | "not_researched"
   researchNote     String?  // if blocked: why (dead site, JS-rendered, 403, bad record); else research source/date
   recordFlag       String?  // data-quality tags, ';'-separated: "duplicate_of:<id>" | "closed" | "in_transition" | "denom_corrected" | "denom_ambiguous" | "corrected"
+  stanceBasis      String?  // "evidenced" | "denominational_default" | "mixed" — how zionist/abolition stances were determined
+  sourceUrls       String?  // ';'-separated research source URLs (provenance)
+  lastResearchedAt DateTime? // when stances/leadership were last verified
   theologicalNotes String?
   description      String?
   leadership       String?  // Pastor + elders, e.g. "Pastor: Jane Doe; Elders: A, B, C"

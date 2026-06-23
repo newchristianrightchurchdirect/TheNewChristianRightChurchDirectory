@@ -7,8 +7,10 @@ async function main(){
   const rows = JSON.parse(readFileSync(file,'utf8'))
   for (const r of rows){
     const data: any = { researchStatus: r.researchStatus || 'researched' }
-    for (const k of ['leadership','theologicalNotes','zionistStance','abolitionStance','website','description','phone','email','researchNote','recordFlag'])
+    for (const k of ['denomination','leadership','theologicalNotes','zionistStance','abolitionStance','website','phone','email','description','researchNote','recordFlag','stanceBasis','sourceUrls','address','zip'])
       if (r[k] !== undefined && r[k] !== null) data[k] = r[k]
+    if (Array.isArray((r as any).sources) && (r as any).sources.length) data.sourceUrls = (r as any).sources.join(';')
+    if ((data.researchStatus === 'researched') && r.lastResearchedAt === undefined) data.lastResearchedAt = new Date()
     await p.church.update({ where:{id:r.id}, data })
     console.log(`#${r.id} ${r.name}: ${data.researchStatus}, abolition=${r.abolitionStance||'(unchanged)'}`)
   }
