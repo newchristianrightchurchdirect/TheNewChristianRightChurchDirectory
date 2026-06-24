@@ -45,6 +45,13 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 - **Flip Benham** — founder of Operation Save America (renamed from Operation Rescue, 1994); foundational rescue-movement figure.
 - **Cal Zastrow** — co-founder, Personhood USA (2008, w/ Keith Mason); longtime Michigan abolitionist/itinerant activist; federally charged under the FACE Act (2023).
 - **Keith Mason** — co-founder, Personhood USA.
+
+### State / local abolition-org leaders (activists — no settled directory church)
+- **Norman Patterson Jr.** — director/founder, Abolish Abortion Connecticut (Reformed Presbyterian pastor 30+ yrs; not currently pastoring a congregation).
+- **James Baird** — Proverbs 24 Ministries (Oro Valley/Phoenix AZ); full-time abortion-clinic missionary.
+- **Joe Goodson** — president, Concerned Christian Citizens (Temple, TX).
+- **Preston Andrews** — founder, SPUR Ministries (Durham, NC); clinic-ministry activist.
+*(Most other state "Abolish Abortion [State]" heads are either already listed above (Baggett, Hunter, the Ascols, Pierce, Trewhella, Thomas, Storms, Deevers) or are local activists running ministries with no notable platform / no settled church.)*
 - **Voddie Baucham** — *Fault Lines*; dean, African Christian University (Zambia). Massive anti-woke voice.
 - **Owen Strachan** — *Christianity and Wokeness*; Provost, Grace Bible Theological Seminary; associated w/ Grace Bible Church, Conway AR `[#76]`.
 
