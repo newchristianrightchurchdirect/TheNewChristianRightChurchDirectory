@@ -332,3 +332,6 @@ Fixed bad city strings AND geocoded (Nominatim). Typo fixes: San Deigo->San Dieg
 
 ## POLICY: PCUSA churches excluded (2026-06-24)
 User directive: PCUSA (mainline) churches do NOT belong in this directory. When a church is determined PCUSA, DELETE the record completely (hard delete). Removed: #456 Gateway Presbyterian (San Fernando, was mislabeled PCA - actually Presbytery of San Fernando/PCUSA) and #406 First Presbyterian Clarendon AR (PCUSA archives + woman lay pastor). Total churches: 4033 -> 4031. Going forward: never add PCUSA; watch generic "First Presbyterian"/"[City] Presbyterian" records mislabeled PCA.
+
+## PCUSA sweep result (2026-06-24): CLEAN
+Verified 11 generic "First Presbyterian" PCA-labeled records across diverse geography (Schenectady NY, Bad Axe MI, Hinckley MN, Weaverville NC, North Port FL, Sandersville GA, Hazlehurst MS, Woodville MS, Dillon SC, +). ALL confirmed PCA (several are famous mainline-exit congregations). Conclusion: directory is PCA-sourced; the 2 deleted PCUSA (#406,#456) were isolated, not systemic. Did NOT exhaustively verify all ~200 Presbyterian records - low contamination rate makes that low-yield; each gets denomination-verified during normal mode-#1 scans where PCUSA-delete policy is active. (Note: #644 North Port renamed "Word of Life Church of North Port" 3/2025 - update when researched.)
