@@ -282,3 +282,29 @@ Still pre-existing-from-import (not yet backfilled for existing rows; now wired 
 - 2026-06-23: resumed scans in FULL-CAPTURE+VERIFY mode (denomination/website/leadership/contact verified per church, all columns filled). Batch #4-360 (no-website early gaps). researched=716. Verified/corrected: #4 SBC (not RB), #14 Redeemer=Mason OH PCA (was wrongly Alpharetta GA/SBC; corrected), #8 IFB zionist yes. Closed: #144 Triune Grace (hidden). Speece yoked parish (#338/#347/#355). Cursor: next no-website not_researched.
 - 2026-06-23: full-capture batch #363-452 (AL rural + CA Korean PCA). researched=731. Refined Korean->PCA(Korean); #406 flagged denom_ambiguous (woman lay pastor=PCUSA signal vs PCA listing); #370 Cureton yoked. Cursor ~#455+.
 - 2026-06-23: abolitionist cross-check (FAA/SBC-abolition-resolution/Free the States lists). Upgraded #2470 Ekklesia Muskogee (Brett Baggett) + #3910 Providence Reformed Des Moines (Jody Lucero) to pro_abolition. Other named abolitionist churches (Geyer Springs, FBC Edmond/Buffalo, High Point Mayfield) not in DB. Prominent abolitionist churches in DB now all pro_abolition. Going forward: scan queries include abortion/abolition/Israel (mode #1).
+
+## Evidenced pro_abolition churches (N=18, as of 2026-06-23)
+- #3 Apologia Church (Mesa AZ) — Jeff Durbin / End Abortion Now
+- #16 Refuge Church (Ogden UT) — Brian Sauvé
+- #17 Covenant Bible Church (Georgetown TX) — Joel Webbon
+- #19 Dominion Covenant Church (Omaha NE) — Phillip Kayser
+- #24 The Shepherd's Church (Chelmsford MA) — Kendall Lankford
+- #32 Grace Life Church of Dallas (Plano TX) — Phil George
+- #36 Liberty Fellowship (Kalispell MT) — Chuck Baldwin
+- #66 Sovereign King Church (Jeffersonville IN) — Joseph Spurgeon
+- #109 Eastside Baptist Church (Twin Falls ID) — Paul Thompson
+- #123 Cross Point Baptist Church (Caney KS) — Josh Eaton
+- #212 Bethel Baptist Church (Owasso OK) — Bill Ascol
+- #214 Christ Reformed Baptist Church (Edmond OK)
+- #216 Grace Reformed Baptist Church of Elgin (Elgin OK) — Dusty Deevers
+- #251 Apologia Church Utah (South Jordan UT) — Jeff Durbin network
+- #279 Parish Presbyterian Church (Franklin TN) — George Grant
+- #2470 Ekklesia Muskogee (Muskogee OK) — Brett Baggett  *(added via cross-check 2026-06-23)*
+- #3771 Syracuse Reformed Presbyterian Church (Syracuse NY)
+- #3910 Providence Reformed Church (Des Moines IA) — Jody Lucero  *(added via cross-check 2026-06-23)*
+
+## ⚠️ KNOWN GAP — REVISIT WHEN WE HAVE MORE DATA
+We almost certainly MISSED some abolitionist (and Christian-Zionist) churches that are currently sitting at the denominational default:
+- ~686 stances are `denominational_default`; the ~400 PCA/Presbyterian-belt rows researched BEFORE "mode #1" were not each dug for an abortion/Israel signal — a long-tail outlier (e.g., a smaller End Abortion Now-affiliated PCA church) could be defaulted to incrementalist/no.
+- The EAN "find a church" dashboard (1000+ trained churches) is NOT public, so we couldn't cross-check the full list — only the prominent named churches (FAA leadership, SBC abolition-resolution co-authors).
+REVISIT LATER with more data: (a) re-touch the already-defaulted PCA rows with abortion/abolition/Israel queries, and/or (b) cross-check against a fuller EAN / equal-protection / Free the States signatory roster when obtainable.
