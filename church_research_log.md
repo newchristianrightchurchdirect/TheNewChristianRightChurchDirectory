@@ -308,3 +308,11 @@ We almost certainly MISSED some abolitionist (and Christian-Zionist) churches th
 - ~686 stances are `denominational_default`; the ~400 PCA/Presbyterian-belt rows researched BEFORE "mode #1" were not each dug for an abortion/Israel signal — a long-tail outlier (e.g., a smaller End Abortion Now-affiliated PCA church) could be defaulted to incrementalist/no.
 - The EAN "find a church" dashboard (1000+ trained churches) is NOT public, so we couldn't cross-check the full list — only the prominent named churches (FAA leadership, SBC abolition-resolution co-authors).
 REVISIT LATER with more data: (a) re-touch the already-defaulted PCA rows with abortion/abolition/Israel queries, and/or (b) cross-check against a fuller EAN / equal-protection / Free the States signatory roster when obtainable.
+
+## Added 4 SBC abolitionist churches as NEW records (2026-06-23)
+SBC 'On Abolishing Abortion' (2021) resolution co-authors not previously in the DB — created with pro_abolition (evidenced), recordFlag=added_via_crosscheck:
+- #4031 First Baptist Church of Edmond (Edmond OK) — Blake Gideon
+- #4032 First Baptist Church of Buffalo (Buffalo MO) — Dave Van Bebber  [street address unverified]
+- #4033 Geyer Springs First Baptist Church (Little Rock AR) — Dave Hughey
+- #4034 High Point Baptist Church (Mayfield KY) — Darrick Holloman
+pro_abolition now 22. NOTE: these 4 lack lat/long (not geocoded) -> won't appear on map until geocoded. 3 of the 9 resolution co-authors remain unnamed (add later if identified).
