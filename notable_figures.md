@@ -4,7 +4,7 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 
 ## Moscow / CREC / CrossPolitic (Fight Laugh Feast)
 - **Doug Wilson** — Christ Church, Moscow ID (CREC) `[#18]`. The central figure: Blog & Mablog, Canon Press, CrossPolitic, "Man Rampant," *Mere Christendom*.
-- **Toby Sumpter** — King's Cross Church, Moscow ID (CREC). CrossPolitic co-host; Substack; *Blood-Bought World*.
+- **Toby Sumpter** — King's Cross Church, Moscow ID (CREC) `[#4038]`. CrossPolitic co-host; Substack; *Blood-Bought World*; "Classical Reformed Christian Nationalism."
 - **Joe Rigney** — Christ Church Moscow (assoc.); New Saint Andrews fellow; "The Sin of Empathy."
 - **Gabriel Rench** — CrossPolitic co-host, Moscow ID.
 - **David "Chocolate Knox" Knox** — CrossPolitic co-host.
@@ -36,7 +36,9 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 - **Bill Ascol** — Bethel Baptist, Owasso OK `[#212]`. Founders board chairman; 2021 SBC abolition-resolution frontman.
 
 ## Founders Ministries / SBC Reformed (anti-woke)
-- **Tom Ascol** — Grace Baptist Church, Cape Coral FL. President, Founders Ministries; "By What Standard."
+- **Tom Ascol** — Grace Baptist Church, Cape Coral FL `[#2543]`. President, Founders Ministries; "By What Standard."
+- **Matthew Trewhella** — Mercy Seat Christian Church, Milwaukee WI `[#3240]`. Founder, Missionaries to the Preborn; author *The Doctrine of the Lesser Magistrates* — the foundational interposition/resistance text for the CN & abolition movements.
+- **Rusty Thomas** — National Director, Operation Save America; founder, Elijah Ministries (Waco TX). Itinerant rescue/abolition leader (no settled pastorate → not a directory church).
 - **Voddie Baucham** — *Fault Lines*; dean, African Christian University (Zambia). Massive anti-woke voice.
 - **Owen Strachan** — *Christianity and Wokeness*; Grace Bible Theological Seminary.
 
@@ -50,7 +52,7 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 - **Aaron Renn** — "The Masculinist"; "three worlds of evangelicalism."
 
 ## Biblical patriarchy / masculinity
-- **Michael Foster** — East River Church, Batavia OH. *It's Good to Be a Man*; IGTBAM podcast.
+- **Michael Foster** — East River Church, Batavia OH `[#4039]`. *It's Good to Be a Man*; IGTBAM podcast; American Reformer.
 - **Dominic Bnonn Tennant** — *It's Good to Be a Man* co-author (NZ).
 - **C.R. Wiley** — Presbyterian Church of Manchester CT `[#566]`. Theology Pugcast; *Man of the House*.
 
