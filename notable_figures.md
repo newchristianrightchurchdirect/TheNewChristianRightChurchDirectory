@@ -25,7 +25,7 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 ## Apologia Studios / End Abortion Now (Mesa, AZ)
 - **Jeff Durbin** — Apologia Church `[#3, network #251]`. Apologia Studios; End Abortion Now. (Note: broke publicly with Stephen Wolfe's CN brand.)
 - **James White** — Apologia Church `[#3]`. Alpha & Omega Ministries; "The Dividing Line."
-- **Marcus Pittman** — co-founder, Apologia Studios; founder of Loor TV (Christian streaming); film/media.
+- **Marcus Pittman** — co-founder, Apologia Studios (Mesa AZ orbit, Apologia `[#3]`); founder of Loor TV (Christian streaming); film/media.
 - **Luke Pierson** — pastor, Apologia Church `[#3]`; co-founder of Apologia Studios & End Abortion Now.
 
 ## Abortion-abolition movement
@@ -46,18 +46,18 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 - **Cal Zastrow** — co-founder, Personhood USA (2008, w/ Keith Mason); longtime Michigan abolitionist/itinerant activist; federally charged under the FACE Act (2023).
 - **Keith Mason** — co-founder, Personhood USA.
 - **Voddie Baucham** — *Fault Lines*; dean, African Christian University (Zambia). Massive anti-woke voice.
-- **Owen Strachan** — *Christianity and Wokeness*; Grace Bible Theological Seminary.
+- **Owen Strachan** — *Christianity and Wokeness*; Provost, Grace Bible Theological Seminary; associated w/ Grace Bible Church, Conway AR `[#76]`.
 
 ## Christian-nationalism theorists & authors
 - **Stephen Wolfe** — *The Case for Christian Nationalism*.
-- **Andrew Isker** — 4th Street Evangelical (Waseca MN → TN). *The Boniface Option*; *Christian Nationalism* (w/ Torba); Contra Mundum.
+- **Andrew Isker** — Whitleyville Reformation Church, Whitleyville TN `[#64]` (planted 2025 on the RidgeRunner property). *The Boniface Option*; *Christian Nationalism* (w/ Torba); Contra Mundum.
 - **Andrew Torba** — Gab founder; *Christian Nationalism* co-author.
 - **William Wolfe** — Center for Baptist Leadership.
 - **Joe Boot** — Ezra Institute for Contemporary Christianity; theonomy/cultural apologetics.
 - **P. Andrew Sandlin** — Center for Cultural Leadership.
 - **Aaron Renn** — "The Masculinist"; "three worlds of evangelicalism."
 - **Nate Fischer** — Chairman/founder, New Founding; founder, *American Reformer*. Institutional architect of the "New Christian Right" build-out.
-- **Josh Abbotoy** — Managing Director, New Founding; Executive Director/co-founder, *American Reformer*; "Ridgerunner" Christian-community developments (TN/KY).
+- **Josh Abbotoy** — Managing Director, New Founding; Executive Director/co-founder, *American Reformer*; "Ridgerunner" Christian-community developments (TN/KY). Connected to Whitleyville Reformation `[#64]` via RidgeRunner.
 
 ## Biblical patriarchy / masculinity
 - **Michael Foster** — East River Church, Batavia OH `[#4039]`. *It's Good to Be a Man*; IGTBAM podcast; American Reformer.
@@ -75,7 +75,7 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 - **Chuck Baldwin** — Liberty Fellowship, Kalispell MT `[#36]`. (Constitution Party; SPLC-flagged — controversial.)
 - **A.D. Robles** — YouTuber/commentator (Christian nationalism, anti-woke).
 - **Michael O'Fallon** — Sovereign Nations.
-- **Rosaria Butterfield** — speaker/author; prominent against Side B / Revoice.
+- **Rosaria Butterfield** — author/speaker; prominent against Side B / Revoice. Member of First RPC Durham NC `[#3797]` (husband Kent Butterfield pastors it).
 
 ## COVID-resistance pastors (notable, Canada)
 - **James Coates** — GraceLife Church, Edmonton AB (jailed for staying open).
