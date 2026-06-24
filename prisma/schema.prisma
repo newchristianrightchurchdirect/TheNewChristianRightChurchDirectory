@@ -28,6 +28,8 @@ model Church {
   theonomy         String   @default("unknown") // "theonomic" | "sympathetic" | "non_theonomic" | "unknown"
   federalVision    String   @default("unknown") // "affirm" | "sympathetic" | "critical" | "unknown" (CREC/Moscow alignment)
   socialJusticeStance String @default("unknown") // anti-woke/CRT (Dallas Statement): "anti_crt" | "mixed" | "affirming" | "unknown"
+  sexualityStance  String   @default("unknown") // Side B/Revoice axis: "traditional" | "side_b" | "affirming" | "unknown"
+  genderStance     String   @default("unknown") // women's roles: "patriarchal" | "complementarian" | "egalitarian" | "unknown" (egalitarian => excluded from directory)
   researchStatus   String   @default("not_researched") // "researched" | "blocked" | "not_researched"
   researchNote     String?  // if blocked: why (dead site, JS-rendered, 403, bad record); else research source/date
   recordFlag       String?  // data-quality tags, ';'-separated: "duplicate_of:<id>" | "closed" | "in_transition" | "denom_corrected" | "denom_ambiguous" | "corrected"
