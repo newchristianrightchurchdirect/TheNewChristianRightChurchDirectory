@@ -23,6 +23,11 @@ model Church {
   email            String?
   zionistStance    String   @default("unknown") // "yes", "no", "anti", "unknown"
   abolitionStance  String   @default("unknown") // "pro_abolition", "anti", "incrementalist", "unknown"
+  christianNationalism String @default("unknown") // "affirm" | "sympathetic" | "critical" | "unknown"
+  eschatology      String   @default("unknown") // "postmill" | "amill" | "premill" | "dispensational" | "unknown"
+  theonomy         String   @default("unknown") // "theonomic" | "sympathetic" | "non_theonomic" | "unknown"
+  federalVision    String   @default("unknown") // "affirm" | "sympathetic" | "critical" | "unknown" (CREC/Moscow alignment)
+  socialJusticeStance String @default("unknown") // anti-woke/CRT (Dallas Statement): "anti_crt" | "mixed" | "affirming" | "unknown"
   researchStatus   String   @default("not_researched") // "researched" | "blocked" | "not_researched"
   researchNote     String?  // if blocked: why (dead site, JS-rendered, 403, bad record); else research source/date
   recordFlag       String?  // data-quality tags, ';'-separated: "duplicate_of:<id>" | "closed" | "in_transition" | "denom_corrected" | "denom_ambiguous" | "corrected"
