@@ -316,3 +316,10 @@ SBC 'On Abolishing Abortion' (2021) resolution co-authors not previously in the 
 - #4033 Geyer Springs First Baptist Church (Little Rock AR) — Dave Hughey
 - #4034 High Point Baptist Church (Mayfield KY) — Darrick Holloman
 pro_abolition now 22. NOTE: these 4 lack lat/long (not geocoded) -> won't appear on map until geocoded. 3 of the 9 resolution co-authors remain unnamed (add later if identified).
+
+## Added remaining 3 co-authors + geocoded all 7 (2026-06-23)
+All 9 SBC 'On Abolishing Abortion' (2021) co-authors now in DB. Added:
+- #4035 By the Word Baptist Church (formerly FBC Briar) (Azle TX) — Jon Speed
+- #4036 Harmony Baptist Church (Frankfort IN) — Derin Stidd
+- #4037 First Baptist Church of Mena (Mena AR) — Russell Threet
+Also fixed #4032 Buffalo address -> 1006 W Main St. Geocoded #4031-4037 via Nominatim (4 street-level, 3 city-level fallback) -> lat/long 100% again, all map-ready. pro_abolition=25. (Ascol #212 + Baggett #2470 were already in DB.)
