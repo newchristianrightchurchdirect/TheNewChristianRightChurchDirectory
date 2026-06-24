@@ -323,3 +323,6 @@ All 9 SBC 'On Abolishing Abortion' (2021) co-authors now in DB. Added:
 - #4036 Harmony Baptist Church (Frankfort IN) — Derin Stidd
 - #4037 First Baptist Church of Mena (Mena AR) — Russell Threet
 Also fixed #4032 Buffalo address -> 1006 W Main St. Geocoded #4031-4037 via Nominatim (4 street-level, 3 city-level fallback) -> lat/long 100% again, all map-ready. pro_abolition=25. (Ascol #212 + Baggett #2470 were already in DB.)
+
+## Geocoded 34 of 35 previously-blank churches + city fixes (2026-06-23)
+Fixed bad city strings AND geocoded (Nominatim). Typo fixes: San Deigo->San Diego(#503), Indianaplis->Indianapolis(#952), St. Robere->St. Robert(#1113), Senaca->Seneca(#1539), Tyalors->Taylors(#3677). Stripped parentheticals on ~20 RPCNA/OPC plant cities. Corrupted-field fixes: #3352->Corona, #3359->Cornerstone Presbyterian (OPC)/Duncanville, #3715->Minneapolis, #3721->Potter Valley. German military chapels #3323 Stuttgart / #3325 Landstuhl geocoded to Germany (state still mislabeled 'AL'). #3321 Kailua corrected from Big-Island to Oahu. ONLY #3691 (Presbyterian Reformed Church of NC) left blank — record has no city (was service times); needs research. lat/long now 4032/4033.
