@@ -25,20 +25,26 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 ## Apologia Studios / End Abortion Now (Mesa, AZ)
 - **Jeff Durbin** — Apologia Church `[#3, network #251]`. Apologia Studios; End Abortion Now. (Note: broke publicly with Stephen Wolfe's CN brand.)
 - **James White** — Apologia Church `[#3]`. Alpha & Omega Ministries; "The Dividing Line."
+- **Marcus Pittman** — co-founder, Apologia Studios; founder of Loor TV (Christian streaming); film/media.
+- **Luke Pierson** — pastor, Apologia Church `[#3]`; co-founder of Apologia Studios & End Abortion Now.
 
 ## Abortion-abolition movement
 - **Dusty Deevers** — Grace Reformed Baptist, Elgin OK `[#216]`. OK State Senator; self-described Christian Nationalist; American Reformer.
 - **Brett Baggett** — Ekklesia, Muskogee OK `[#2470]`. President, Rescue Those; Shepherd School.
 - **Jon Speed** — By the Word Baptist, Azle TX `[#4035]`. *Babies Are Murdered Here* documentaries; open-air preaching.
 - **Derin Stidd** — Harmony Baptist, Frankfort IN `[#4036]`. Asst. National Director, Operation Save America.
-- **T. Russell Hunter** — founder, Free the States / Abolitionists Rising (Abolish Human Abortion), Oklahoma.
+- **T. Russell Hunter** — founder of Free the States / **Abolitionists Rising** and **Abolish Human Abortion**, Oklahoma; organized the first national abortion-abolition conference (2020); the movement's chief debater/theorist & artist. (Itinerant — no settled directory church.)
 - **Bradley Pierce** — President, Foundation to Abolish Abortion / Abolish Abortion Texas.
 - **Bill Ascol** — Bethel Baptist, Owasso OK `[#212]`. Founders board chairman; 2021 SBC abolition-resolution frontman.
 
 ## Founders Ministries / SBC Reformed (anti-woke)
 - **Tom Ascol** — Grace Baptist Church, Cape Coral FL `[#2543]`. President, Founders Ministries; "By What Standard."
 - **Matthew Trewhella** — Mercy Seat Christian Church, Milwaukee WI `[#3240]`. Founder, Missionaries to the Preborn; author *The Doctrine of the Lesser Magistrates* — the foundational interposition/resistance text for the CN & abolition movements.
-- **Rusty Thomas** — National Director, Operation Save America; founder, Elijah Ministries (Waco TX). Itinerant rescue/abolition leader (no settled pastorate → not a directory church).
+- **Rusty Thomas** — pastor/founder, American Reformation Church, West Melbourne FL `[#3241]`. OSA National Director (2014–2023); Elijah Ministries; Kingdom Leadership Institute. *(Correction: he does pastor a settled church — ARC.)*
+- **Jason Storms** — current National Director, Operation Save America (2025); elder, American Reformation Church `[#3241]`. Street/campus evangelist; "Defy Tyrants" wing.
+- **Flip Benham** — founder of Operation Save America (renamed from Operation Rescue, 1994); foundational rescue-movement figure.
+- **Cal Zastrow** — co-founder, Personhood USA (2008, w/ Keith Mason); longtime Michigan abolitionist/itinerant activist; federally charged under the FACE Act (2023).
+- **Keith Mason** — co-founder, Personhood USA.
 - **Voddie Baucham** — *Fault Lines*; dean, African Christian University (Zambia). Massive anti-woke voice.
 - **Owen Strachan** — *Christianity and Wokeness*; Grace Bible Theological Seminary.
 
@@ -50,6 +56,8 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 - **Joe Boot** — Ezra Institute for Contemporary Christianity; theonomy/cultural apologetics.
 - **P. Andrew Sandlin** — Center for Cultural Leadership.
 - **Aaron Renn** — "The Masculinist"; "three worlds of evangelicalism."
+- **Nate Fischer** — Chairman/founder, New Founding; founder, *American Reformer*. Institutional architect of the "New Christian Right" build-out.
+- **Josh Abbotoy** — Managing Director, New Founding; Executive Director/co-founder, *American Reformer*; "Ridgerunner" Christian-community developments (TN/KY).
 
 ## Biblical patriarchy / masculinity
 - **Michael Foster** — East River Church, Batavia OH `[#4039]`. *It's Good to Be a Man*; IGTBAM podcast; American Reformer.
@@ -74,4 +82,4 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 - **Tim Stephens** — Fairview Baptist, Calgary AB.
 
 ---
-*~55 named. To verify/expand: many are not yet matched to a directory church — a future pass can cross-reference and add their churches where missing (e.g., Tom Ascol/Grace Cape Coral, Toby Sumpter/King's Cross Moscow, Michael Foster/East River, Andrew Isker's TN church).*
+*~67 named after a systematic org-leadership sweep (2026-06-24) of OSA, Missionaries to the Preborn, Free the States/Abolitionists Rising, Personhood USA, Foundation to Abolish Abortion, Apologia/End Abortion Now, New Founding/American Reformer, Founders, CREC/Moscow, King's Hall, Right Response. Directory churches now cross-referenced; several figures are itinerant org-leaders (Hunter, Zastrow, Benham, Mason) or media/venture figures (Fischer, Abbotoy, Pittman) with no separate addable church. Remaining loose end: Andrew Isker's new TN church is too informal/new to pin.*
