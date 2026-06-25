@@ -392,3 +392,4 @@ The 7 new stance fields on the early ~778 researched are mostly DENOMINATIONAL D
 - 2026-06-25: scans batch #893-907 (IOWA finish + ID + ILLINOIS begin). STANDOUT #893 Harvest/Sacha Walicord (anti-woke voice -> anti_crt/CN sympathetic). Rest covenantal defaults; pastors filled (Muzio, Janssen, Bankston, Stadtlander, Chaney, Herche, Jooho, A.Lee, Eppstein, Casoria). researched=1086.
 - 2026-06-25: scans batch #908-920 (IL PCA). CORRECTION #917 Grace Church Lansing left PCA (2023)->non-denom. Pastors filled (Smart, Sandifer, Baker, Revlett, Bennett, Gerber, Cho, Jones, Coverstone, Rogers). researched=1098.
 - 2026-06-25: scans batch #921-924 (IL PCA). CROSSED 1100. Pastors filled (M.Brown, Keithley, J.Park).
+- 2026-06-25: scans batch #925-938 (IL PCA). #932 Naperville/Dane Ortlund (noted 2026 retaliation ruling). All covenantal defaults; pastors filled (Collins, Lewis, Ryan, Vroom, Ortlund, Kruger, Edburg, Henninger). researched=1113.
