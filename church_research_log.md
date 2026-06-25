@@ -381,3 +381,4 @@ The 7 new stance fields on the early ~778 researched are mostly DENOMINATIONAL D
 - 2026-06-25: scans batch #731-742 (FL PCA, 6 Westminster churches). All covenantal defaults; pastors filled (Gilmartin, Jeffares, Spinnenweber, Broadhurst, Holland, Hornick, Craft, Colravy, Evans, Labby). #742 Willow Creek noted Tullian Tchividjian role. researched=962.
 - 2026-06-25: scans batch #746-759 (GEORGIA PCA begins). All covenantal defaults; pastors filled (Henegar, Bradley, Bruce, Myers, Russell, Thompson, Louis, Daniell, Hendrick). researched=974.
 - 2026-06-25: scans batch #760-772 (GA PCA Atlanta-metro). All covenantal defaults; pastors filled (Barham, Adair, Lester, Wood, Archer, Moreland, Entrekin, Armstrong, Boland). researched=986.
+- 2026-06-25: scans batch #773-788 (GA PCA). All covenantal defaults; pastors filled (Gleason, Miller, Bellino, Bryan, Jarrett, Lambert, Good, Hector, Martin, Parker). researched=998.
