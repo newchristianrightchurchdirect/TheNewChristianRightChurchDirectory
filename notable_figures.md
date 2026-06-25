@@ -83,6 +83,7 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 - **Dominic Bnonn Tennant** — *It's Good to Be a Man* co-author (NZ).
 - **C.R. Wiley** — Presbyterian Church of Manchester CT `[#566]`. Theology Pugcast; *Man of the House*.
 - **Zachary Garris** — Bryce Avenue Presbyterian, Los Alamos NM (PCA) `[#1429]`. *Masculine Christianity* (New Christendom Press); KnowingScripture.com / TeachDiligently.com; attorney; American Reformer / TruthScript / Abbeville contributor; anti-feminist patriarchy + Christian nationalism.
+- **David Bayly** — Christ the Word Church, Sylvania/Toledo OH (PCA) `[#1483]`. Warhorn Media / BaylyBlog ("Out of Our Minds"); with brother Tim Bayly, a longtime anti-feminist/patriarchy + anti-woke Reformed voice.
 
 ## Theonomy / Reconstruction
 - **Phillip Kayser** — Dominion Covenant Church, Omaha NE `[#19]`. Dominion Institute.
