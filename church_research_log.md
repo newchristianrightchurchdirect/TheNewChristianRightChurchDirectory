@@ -442,3 +442,4 @@ The 7 new stance fields on the early ~778 researched are mostly DENOMINATIONAL D
 - 2026-06-25: scans batch #1536-1542 (PENNSYLVANIA PCA). All covenantal defaults; pastors filled (M.Purdy, T.Stein, J.K.Choi, J.Coyer, M.Herzer, E.Huber). CROSSED 1600.
 - 2026-06-25: per user, DELETED #1468 New Life Ithaca (Tim LeCroy, progressive wing) + #1508 City Pres OKC (Doug Serven, racial-reconciliation) + #1453 Emmanuel NYC (PCUSA/mainline). total=4046, researched=1598.
 - 2026-06-25: scans batch #1544-1555 (PENNSYLVANIA PCA - Philly/Pittsburgh metro). All covenantal defaults; pastors filled (R.Egli, Koerber, B.Haines, J.Price, Muhlfeld, S.Huber, J.Leonard, Goneau, Quillen). researched=1610.
+- 2026-06-25: scans batch #1556-1568 (PENNSYLVANIA PCA). CORRECTIONS: #1556 location AL->Darlington PA; #1560 Malvern pastor (was conflated w/ Quarryville #1563). #1565 FRPC Pittsburgh (est. 1800); #1566 Everhard (Reformed YouTuber). All covenantal defaults. researched=1622.
