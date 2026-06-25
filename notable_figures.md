@@ -36,6 +36,10 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 - **T. Russell Hunter** — founder of Free the States / **Abolitionists Rising** and **Abolish Human Abortion**, Oklahoma; organized the first national abortion-abolition conference (2020); the movement's chief debater/theorist & artist. (Itinerant — no settled directory church.)
 - **Bradley Pierce** — President, Foundation to Abolish Abortion / Abolish Abortion Texas.
 - **Bill Ascol** — Bethel Baptist, Owasso OK `[#212]`. Founders board chairman; 2021 SBC abolition-resolution frontman.
+- **Jason Garwood** — Cross & Crown Church, Warrenton VA `[#4043]`. Christian Reconstructionist author (expanded Reconstruction to "7 points" incl. abolitionism); president, Virginia Center for Public Theology; leads Abolish Abortion Virginia.
+- **Ken Peters** — Patriot Church, Knoxville TN `[#4064]` (network also in Spokane/Moses Lake WA). Founder of The Church at Planned Parenthood (TCAPP); overtly Christian-nationalist.
+- **Joseph Silk** — former Oklahoma State Senator; abolitionist author (*The Inevitable Conflict*); early Abolish Abortion OK figure.
+- **Patrick Johnston** — director, Personhood Ohio; *Things You Say To Us*; physician, author (*The Revolt Trilogy*).
 
 ## Founders Ministries / SBC Reformed (anti-woke)
 - **Tom Ascol** — Grace Baptist Church, Cape Coral FL `[#2543]`. President, Founders Ministries; "By What Standard."
@@ -51,7 +55,14 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 - **James Baird** — Proverbs 24 Ministries (Oro Valley/Phoenix AZ); full-time abortion-clinic missionary.
 - **Joe Goodson** — president, Concerned Christian Citizens (Temple, TX).
 - **Preston Andrews** — founder, SPUR Ministries (Durham, NC); clinic-ministry activist.
-*(Most other state "Abolish Abortion [State]" heads are either already listed above (Baggett, Hunter, the Ascols, Pierce, Trewhella, Thomas, Storms, Deevers) or are local activists running ministries with no notable platform / no settled church.)*
+- **Wesley Russell** — pastor, Immanuel Baptist Church, Pikeville KY `[#4063]`; president, Abolish Abortion Kentucky.
+- **Nathan Weisser** — interim executive director, Abolish Abortion Oklahoma.
+- **Jarrod Ridge** — founder, End Abortion Nebraska. · **Luke Gorsett** — Nebraska abolitionist pastor (Abolish Abortion NE).
+- **DJ Parten** — founder, End Abortion Alabama (Prattville).
+- **Austin Beigel** — founder, End Abortion Ohio. · **Wayne Groover** — director of education, Abolish Abortion North Carolina.
+- **Mark Cowperthwaite** — King's Coalition for Abolition (Maine).
+- **Timothy Carey Jr.** — Faithfully Radical Ministries (Valparaiso, IN).
+*(Covers the bulk of the ~40 AR-listed state orgs. The remaining heads are either already listed above (Baggett, Hunter, the Ascols, Pierce, Trewhella, Thomas, Storms, Deevers, Stidd=Abolish Abortion IN) or are unidentifiable / churchless local activists.)*
 - **Voddie Baucham** — *Fault Lines*; dean, African Christian University (Zambia). Massive anti-woke voice.
 - **Owen Strachan** — *Christianity and Wokeness*; Provost, Grace Bible Theological Seminary; associated w/ Grace Bible Church, Conway AR `[#76]`.
 
