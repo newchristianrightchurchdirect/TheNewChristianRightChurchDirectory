@@ -65,6 +65,7 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 *(Covers the bulk of the ~40 AR-listed state orgs. The remaining heads are either already listed above (Baggett, Hunter, the Ascols, Pierce, Trewhella, Thomas, Storms, Deevers, Stidd=Abolish Abortion IN) or are unidentifiable / churchless local activists.)*
 - **Voddie Baucham** — *Fault Lines*; dean, African Christian University (Zambia). Massive anti-woke voice.
 - **Owen Strachan** — *Christianity and Wokeness*; Provost, Grace Bible Theological Seminary; associated w/ Grace Bible Church, Conway AR `[#76]`.
+- **Jeff Johnson** (Jeffrey D. Johnson) — pastor, Grace Bible Church, Conway AR `[#76]`; founder of Grace Bible Theological Seminary & Free Grace Press; prolific Reformed Baptist author.
 
 ## Christian-nationalism theorists & authors
 - **Stephen Wolfe** — *The Case for Christian Nationalism*.
