@@ -440,3 +440,4 @@ The 7 new stance fields on the early ~778 researched are mostly DENOMINATIONAL D
 - 2026-06-25: scans batch #1509-1521 (OKLAHOMA finish + OREGON begin). All covenantal defaults; pastors filled (Rodriguez, Van Hooser, Philliber, R.Jones, S.Murphy, B.Altman, E.Costa, Awtry, G.Joines). researched=1582.
 - 2026-06-25: scans batch #1522-1535 (OREGON finish + PENNSYLVANIA begin). All covenantal defaults; pastors filled (A.Parker, Bechtel, A.Morris, B.Buck, J.Won, C.Hooper, J.Macha, Hollenbach, A.Gomez, A.Garber). #1525 Intown flagged verify_stance (BaylyBlog criticism). researched=1594.
 - 2026-06-25: scans batch #1536-1542 (PENNSYLVANIA PCA). All covenantal defaults; pastors filled (M.Purdy, T.Stein, J.K.Choi, J.Coyer, M.Herzer, E.Huber). CROSSED 1600.
+- 2026-06-25: per user, DELETED #1468 New Life Ithaca (Tim LeCroy, progressive wing) + #1508 City Pres OKC (Doug Serven, racial-reconciliation) + #1453 Emmanuel NYC (PCUSA/mainline). total=4046, researched=1598.
