@@ -377,3 +377,4 @@ The 7 new stance fields on the early ~778 researched are mostly DENOMINATIONAL D
 - 2026-06-25: scans batch #678-690 (FL PCA incl Korean/Chinese). All covenantal defaults; pastors filled (Burguet, Bopp, Kandt/NewCity Orlando, Cecil, Godwin, Cosner, Kim, Campbell, Groff, Chen). researched=914.
 - 2026-06-25: scans batch #691-704 (FL PCA incl Korean + 5 Redeemer churches). All covenantal defaults; pastors filled (J.Kim, Hinson, Colclasure, Leon, Funyak, Cooper, Gunter, Martin, Swartz). researched=926.
 - 2026-06-25: scans batch #706-718 (FL PCA). All covenantal defaults; pastors filled (Winfree, Mashburn, Hendrikse, Camera, Calderazzo, Jacobson, Cortese/Seven Rivers, Light). #716 renamed Christ Central. researched=938.
+- 2026-06-25: scans batch #719-730 (FL PCA). STANDOUT-size #719 Spanish River (Cassidy; SRCP planting hub). CORRECTION #727 The Avenue = Acts 29 not PCA. Pastors filled (Cassidy, Owen, Campo, Harding, Turner, Fritz, Rice, Eusey). researched=950.
