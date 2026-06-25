@@ -384,3 +384,4 @@ The 7 new stance fields on the early ~778 researched are mostly DENOMINATIONAL D
 - 2026-06-25: scans batch #773-788 (GA PCA). All covenantal defaults; pastors filled (Gleason, Miller, Bellino, Bryan, Jarrett, Lambert, Good, Hector, Martin, Parker). researched=998.
 - 2026-06-25: scans batch #789-793 (GA First Presby). #789 Gabe Fluhrer (Reformed author); #791 First Pres Augusta (historic 1804, Woodrow Wilson boyhood church). All covenantal defaults. CROSSED 1000.
 - 2026-06-25: scans batch #794-806 (GA PCA). All covenantal defaults; pastors filled (Miller, Myers, McClellan, Brown, Hembree, Balzer, Danner, Park, Garmany, Donovan). #801 Grace Islands pulpit vacant (Waller deposed). researched=1014.
+- 2026-06-25: scans batch #808-824 (GA PCA). All covenantal defaults; pastors filled (Jacobs, Turner, Parsons, Gilbert, Johnston, May, Hawley, Bankson, King, Agan, Garland, Hendley). researched=1026.
