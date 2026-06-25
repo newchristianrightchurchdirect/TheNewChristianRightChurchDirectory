@@ -424,3 +424,4 @@ The 7 new stance fields on the early ~778 researched are mostly DENOMINATIONAL D
 - 2026-06-25: scans batch #1293-1308 (NORTH CAROLINA PCA). All covenantal defaults; pastors filled (S.Mirich, S.McCann, C.Berry, McQuitty, M.Thompson, C.Starnes, Gillikin). researched=1404.
 - 2026-06-25: scans batch #1309-1323 (NORTH CAROLINA PCA - Grace cluster). All covenantal defaults; pastors filled (J.Krestar, B.Drake, McCullough, J.Inman, E.Oldham, Lafferty, Sofield). researched=1416.
 - 2026-06-25: scans batch #1324-1335 (NORTH CAROLINA PCA). All covenantal defaults; pastors filled (Svendsen, Colvard, Schubert, Petterson, Deneen, Womack, Hope Community multi-site, McAulay). researched=1428.
+- 2026-06-25: scans batch #1336-1351 (NORTH CAROLINA PCA). CORRECTION #1336 Landis Marion now OPC. All covenantal defaults; pastors filled (Serafini, T.Cox, Troutman, Sayour, L.Williams, Byers, Hong, G.Purdy, Darville, B.Brown). researched=1440.
