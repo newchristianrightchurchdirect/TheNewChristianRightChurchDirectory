@@ -394,3 +394,4 @@ The 7 new stance fields on the early ~778 researched are mostly DENOMINATIONAL D
 - 2026-06-25: scans batch #921-924 (IL PCA). CROSSED 1100. Pastors filled (M.Brown, Keithley, J.Park).
 - 2026-06-25: scans batch #925-938 (IL PCA). #932 Naperville/Dane Ortlund (noted 2026 retaliation ruling). All covenantal defaults; pastors filled (Collins, Lewis, Ryan, Vroom, Ortlund, Kruger, Edburg, Henninger). researched=1113.
 - 2026-06-25: scans batch #940-953 (IL finish + INDIANA begin). All covenantal defaults; pastors filled (B.Park, Nielson, J.Park, Ziegler, Dietmeier, S.Park, R.Cho, S.Jones, J.Jones, Hawkins). #941 renamed Christ Presby Roselle. researched=1125.
+- 2026-06-25: scans batch #954-965 (INDIANA PCA). All covenantal defaults; pastors filled (Thomson, S.Dean, P.Cho, Davelaar, P.Wallace, R.Williams, OBannon, Straight, C.Anderson, Brice). researched=1137.
