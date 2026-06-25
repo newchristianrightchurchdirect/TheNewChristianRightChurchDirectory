@@ -387,3 +387,4 @@ The 7 new stance fields on the early ~778 researched are mostly DENOMINATIONAL D
 - 2026-06-25: scans batch #808-824 (GA PCA). All covenantal defaults; pastors filled (Jacobs, Turner, Parsons, Gilbert, Johnston, May, Hawley, Bankson, King, Agan, Garland, Hendley). researched=1026.
 - 2026-06-25: scans batch #825-840 (GA PCA incl Korean). CORRECTION #830 Liberty=Vanguard Presbytery not PCA; #837 wrong Canadian website fixed (newcitydtl.org). Pastors filled (Hong, Palombo, Vosseller, Lira, Morgan, Johnson, Maves, Stevenson). researched=1038.
 - 2026-06-25: scans batch #841-855 (GA PCA). #847 Perimeter Church (megachurch; Norris/founding Randy Pope). All covenantal defaults; pastors filled (Albano, Weldon, A.Johnson, Cho, J.Martin, Norris, Shaw, Stakely, Horne). researched=1050.
+- 2026-06-25: scans batch #856-872 (GA PCA incl Korean). All covenantal defaults; pastors filled (Causey, Bryant, Stancil, Youngblood, B.Pierce, W.Park, Smit, Saye). researched=1062.
