@@ -24,3 +24,6 @@ episc_dump.txt
 # Hymnal media now lives in Cloudflare R2 (see next.config.ts redirect).
 # ~8.8 GB / 13,678 files - kept on disk, never committed.
 public/hymnal-media/
+
+# Outreach target lists are strategy, not directory data — keep them local.
+data/AAM_*_outreach_*.csv
