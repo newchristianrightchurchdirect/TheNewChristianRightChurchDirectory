@@ -436,9 +436,9 @@ input, select, textarea { font: inherit; color: inherit; }
   background: var(--paper);
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 280px);
+  height: calc(100vh - 60px);
   position: sticky;
-  top: 0;
+  top: 20px;
 }
 
 .dir-header {
