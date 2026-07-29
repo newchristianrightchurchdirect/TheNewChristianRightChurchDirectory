@@ -553,3 +553,21 @@ Corrections confirmed **directly by the congregation** to the directory owner, w
   while the `eschatology` field was `unknown` — the postmill label came from a third-party
   directory and the church has never confirmed it. The description was published asserting
   something the record itself did not hold; it has been rewritten to drop the claim.
+
+## 2026-07-29 — One Life For Life ministry contact (#3247)
+
+`justin@onelifeforlife.org` was supplied as a further contact for the Grand Blanc
+congregation. It is recorded as a **ministry contact on the outreach sheet only**, not in the
+church's `email` field, for two reasons:
+
+1. `email` is rendered publicly with a `mailto:` link on every church page
+   (`app/church/[id]/page.tsx:197`, `components/ChurchDirectory.tsx:411`). That field should hold
+   the address the congregation itself publishes as its own — `nick@ekklesiagb.com`, which
+   Ekklesia of Grand Blanc lists on its own leadership page. Publishing a named individual's
+   ministry address there exposes it to scrapers without the church having chosen to.
+2. The address belongs to One Life For Life, a separate organisation, not to the church.
+
+Justin Phillips is also on Ekklesia's leadership team, so the two records are consistent. The
+export script gained a `MINISTRY_CONTACT` map and a "Ministry contact" column for this. Since One
+Life For Life is the mill-missionary work itself, this is the right address for the
+equal-protection / abolition question that keeps `abolitionStance` at `unknown` on this row.

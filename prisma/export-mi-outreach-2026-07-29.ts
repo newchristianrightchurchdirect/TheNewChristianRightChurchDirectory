@@ -61,12 +61,21 @@ async function main() {
   // applies per church so nobody has to work that out from three half-filled columns.
   const routeOf = (c: any) => c.email ? 'Email' : c.phone ? 'Call' : c.website ? 'Website form' : ''
 
-  const header = ['Priority', 'Church', 'Denomination', 'City', 'Address', 'Zip', 'Pastor', 'Contact via', 'Email', 'Phone', 'Website', 'Why prioritised', 'Contacted? (date)', 'Response', 'Abolitionist? (Y/N/Unsure)']
+  // Second contacts that belong to an affiliated PRO-LIFE MINISTRY rather than to the church.
+  // These are deliberately NOT written to the church's `email` field: that field is published
+  // with a mailto: link on the public site, and it should hold the address the congregation
+  // itself publishes as its own. These live on the outreach sheet only, which is gitignored.
+  const MINISTRY_CONTACT: Record<number, string> = {
+    3247: 'justin@onelifeforlife.org (One Life For Life — the mill-missionary work; best address for the equal-protection/abolition question)',
+  }
+
+  const header = ['Priority', 'Church', 'Denomination', 'City', 'Address', 'Zip', 'Pastor', 'Contact via', 'Email', 'Phone', 'Website', 'Ministry contact', 'Why prioritised', 'Contacted? (date)', 'Response', 'Abolitionist? (Y/N/Unsure)']
   const lines = [header.join(',')]
   for (const { c, tier, why } of enriched) {
     lines.push([
       `Tier ${tier}`, c.name, c.denomination, c.city, c.address, c.zip,
-      pastorOf(c.leadership), routeOf(c), c.email, c.phone, c.website, why, '', '', '',
+      pastorOf(c.leadership), routeOf(c), c.email, c.phone, c.website,
+      MINISTRY_CONTACT[c.id] ?? '', why, '', '', '',
     ].map(csvCell).join(','))
   }
 
