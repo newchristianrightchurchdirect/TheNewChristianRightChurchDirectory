@@ -4,7 +4,10 @@
 //   reload; the cache only serves offline)
 // - cache-first for /_next/static/* and /fonts/* (immutable)
 
-const VERSION = 'nxr-hymnal-v26'
+// v27: hymnal media moved to Cloudflare R2, so /hymnal-media/* now 307s cross-origin.
+// The Cache API refuses redirected responses (cache.put throws TypeError), hence the
+// !res.redirected guards below. Version bumped so every client drops its old caches.
+const VERSION = 'nxr-hymnal-v27'
 const SHELL_CACHE = `${VERSION}-shell`
 const DATA_CACHE = `${VERSION}-data`
 const STATIC_CACHE = `${VERSION}-static`
@@ -80,7 +83,7 @@ async function cacheFirst(req, cacheName) {
   if (hit) return hit
   try {
     const res = await fetch(req)
-    if (res && res.ok) cache.put(req, res.clone())
+    if (res && res.ok && !res.redirected) cache.put(req, res.clone())
     return res
   } catch (e) {
     const fallback = await cache.match(req)
@@ -93,7 +96,7 @@ async function networkFirst(req, cacheName) {
   const cache = await caches.open(cacheName)
   try {
     const res = await fetch(req)
-    if (res && res.ok) cache.put(req, res.clone())
+    if (res && res.ok && !res.redirected) cache.put(req, res.clone())
     return res
   } catch (e) {
     const hit = await cache.match(req)
@@ -118,7 +121,7 @@ async function precacheData(urls, source) {
   for (const u of urls) {
     try {
       const r = await fetch(u, { cache: 'reload' })
-      if (r && r.ok) await cache.put(u, r.clone())
+      if (r && r.ok && !r.redirected) await cache.put(u, r.clone())
     } catch {}
     done++
     if (source && source.postMessage) {
