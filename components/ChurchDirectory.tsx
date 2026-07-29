@@ -87,6 +87,7 @@ export default function ChurchDirectory() {
   const [denomFilter, setDenomFilter] = useState('')
   const [position, setPosition] = useState<Position>('transformationalist')
   const [stances, setStances] = useState<Record<string, string>>({})
+  const [showStances, setShowStances] = useState(false)
   const [sortKey, setSortKey] = useState<SortKey>('name')
   const [activeId, setActiveId] = useState<number | null>(null)
   const [detailOpen, setDetailOpen] = useState(false)
@@ -157,6 +158,8 @@ export default function ChurchDirectory() {
     unknown: counts.unknown,
   }
 
+  const activeStanceCount = Object.values(stances).filter(Boolean).length
+
   const totalPages = Math.max(1, Math.ceil(filtered.length / PER_PAGE))
   const paginated = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE)
 
@@ -216,7 +219,7 @@ export default function ChurchDirectory() {
               <span>&sect; II ‖ The Directory</span>
               <span>Browse &middot; Sort &middot; Filter</span>
             </div>
-            <div className="dir-title">Faithful <em>Congregations</em></div>
+            <div className="dir-title">Contending <em>Congregations</em></div>
           </div>
 
           <div className="filters">
@@ -243,26 +246,41 @@ export default function ChurchDirectory() {
                   {denominations.map(d => <option key={d} value={d}>{d}</option>)}
                 </select>
               </div>
-              {STANCE_FILTERS.map(f => (
-                <div className="filter-select" key={String(f.key)}>
-                  <select
-                    aria-label={f.label}
-                    value={stances[String(f.key)] || ''}
-                    onChange={e => setStances(prev => ({ ...prev, [String(f.key)]: e.target.value }))}
-                  >
-                    <option value="">{f.label}: Any</option>
-                    {f.options.map(([val, lbl]) => (
-                      <option key={val} value={val}>{lbl}</option>
-                    ))}
-                  </select>
-                </div>
-              ))}
-              {Object.values(stances).some(Boolean) && (
-                <button type="button" className="filter-clear" onClick={() => setStances({})}>
-                  Clear stances &times;
-                </button>
-              )}
             </div>
+
+            <button
+              type="button"
+              className="stance-toggle"
+              aria-expanded={showStances}
+              onClick={() => setShowStances(v => !v)}
+            >
+              {showStances ? '−' : '+'} Stance filters
+              {activeStanceCount > 0 && <span className="stance-count">{activeStanceCount}</span>}
+            </button>
+
+            {showStances && (
+              <div className="stance-filter-panel">
+                {STANCE_FILTERS.map(f => (
+                  <div className="filter-select" key={String(f.key)}>
+                    <select
+                      aria-label={f.label}
+                      value={stances[String(f.key)] || ''}
+                      onChange={e => setStances(prev => ({ ...prev, [String(f.key)]: e.target.value }))}
+                    >
+                      <option value="">{f.label}: Any</option>
+                      {f.options.map(([val, lbl]) => (
+                        <option key={val} value={val}>{lbl}</option>
+                      ))}
+                    </select>
+                  </div>
+                ))}
+                {activeStanceCount > 0 && (
+                  <button type="button" className="filter-clear" onClick={() => setStances({})}>
+                    Clear &times;
+                  </button>
+                )}
+              </div>
+            )}
             <div className="position-tabs">
               {POSITION_TABS.map(p => (
                 <button

@@ -529,7 +529,7 @@ input, select, textarea { font: inherit; color: inherit; }
 
 .position-tabs {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   border: 1px solid var(--ink);
 }
 .position-tab {
@@ -1525,9 +1525,7 @@ input, select, textarea { font: inherit; color: inherit; }
 .church-marker.quietist            { background: var(--ink); }
 
 
-/* --- Stance filters: the filter row now carries ~11 controls, so it wraps --- */
-.filter-row { flex-wrap: wrap; }
-.filter-row .filter-select { flex: 1 1 168px; min-width: 148px; }
+/* --- Stance filters --- */
 .filter-clear {
   flex: 0 0 auto;
   font-family: var(--mono);
@@ -1541,3 +1539,47 @@ input, select, textarea { font: inherit; color: inherit; }
   cursor: pointer;
 }
 .filter-clear:hover { background: var(--oxblood); color: var(--paper); }
+
+
+/* Collapsible stance filters. Kept out of .filter-row (a 2-col grid) because
+   eleven controls there pushed the church list clean out of .directory's
+   fixed height and left nothing to scroll. */
+.stance-toggle {
+  width: 100%;
+  margin-top: 8px;
+  padding: 7px 10px;
+  background: none;
+  border: 1px dashed var(--rule);
+  color: var(--ink-soft);
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.stance-toggle:hover { border-color: var(--ink); color: var(--ink); }
+.stance-count {
+  background: var(--oxblood);
+  color: var(--paper);
+  border-radius: 999px;
+  padding: 1px 7px;
+  font-size: 9px;
+}
+.stance-filter-panel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+  padding: 10px;
+  border: 1px solid var(--rule);
+  background: var(--bg-soft);
+  max-height: 34vh;
+  overflow-y: auto;
+}
+/* Flex children need an explicit min-height:0 before they will scroll. */
+.church-list { min-height: 0; }
+.directory { min-height: 0; }
