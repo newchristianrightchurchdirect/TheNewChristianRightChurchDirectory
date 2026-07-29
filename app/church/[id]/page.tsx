@@ -150,13 +150,13 @@ export default function ChurchDetailPage() {
           </div>
         </header>
 
-        {(church.description || church.theologicalNotes) && (
+        {church.description && (
           <section style={{ padding: '32px 0', borderBottom: '1px solid var(--rule)' }}>
             <h2 style={{ fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--ink-mute)', marginBottom: 12, fontWeight: 500 }}>
               Confession &amp; Conviction
             </h2>
             <p style={{ fontFamily: 'var(--serif)', fontSize: 18, lineHeight: 1.6, color: 'var(--ink-soft)' }}>
-              {church.description || church.theologicalNotes}
+              {church.description}
             </p>
           </section>
         )}

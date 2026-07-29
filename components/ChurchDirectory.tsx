@@ -362,10 +362,10 @@ function DetailPanel({ church, onClose }: { church: Church | null; onClose: () =
               </div>
             </div>
             <div className="detail-body">
-              {(church.description || church.theologicalNotes) && (
+              {church.description && (
                 <div className="detail-section">
                   <h4>Confession &amp; Conviction</h4>
-                  <p>{church.description || church.theologicalNotes}</p>
+                  <p>{church.description}</p>
                 </div>
               )}
 
