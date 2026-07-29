@@ -17,10 +17,19 @@
  * Safe to re-run: it HEADs each key first and skips objects whose size already matches,
  * so an interrupted run resumes instead of re-uploading 8.9 GB.
  */
-import { readdirSync, statSync, createReadStream } from 'fs'
+import { readdirSync, statSync, createReadStream, readFileSync, existsSync } from 'fs'
 import { join, relative, sep, extname } from 'path'
 import { S3Client, HeadObjectCommand } from '@aws-sdk/client-s3'
 import { Upload } from '@aws-sdk/lib-storage'
+
+// Load .env.local (gitignored) so the R2 credentials never have to be exported by hand.
+const envFile = join(process.cwd(), '.env.local')
+if (existsSync(envFile)) {
+  for (const line of readFileSync(envFile, 'utf8').split(/\r?\n/)) {
+    const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/)
+    if (m && !process.env[m[1]]) process.env[m[1]] = m[2].trim().replace(/^["']|["']$/g, '')
+  }
+}
 
 const ROOT = join(process.cwd(), 'public', 'hymnal-media')
 const DRY = process.argv.includes('--dry-run')
