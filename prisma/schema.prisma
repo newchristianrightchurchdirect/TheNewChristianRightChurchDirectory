@@ -30,6 +30,21 @@ model Church {
   socialJusticeStance String @default("unknown") // anti-woke/CRT (Dallas Statement): "anti_crt" | "mixed" | "affirming" | "unknown"
   sexualityStance  String   @default("unknown") // Side B/Revoice axis: "traditional" | "side_b" | "affirming" | "unknown"
   genderStance     String   @default("unknown") // women's roles: "patriarchal" | "complementarian" | "egalitarian" | "unknown" (egalitarian => excluded from directory)
+  culturalEngagement String @default("unknown") // does the CHURCH AS INSTITUTION fight social/political battles?
+  // "transformationalist" = Christ's lordship covers law/politics/culture and the church says so corporately;
+  //                         expects to shape the civil order (Kuyperian, postmill, theonomic, Christian
+  //                         nationalist; CREC/Moscow orbit). These are the churches that will join a fight.
+  // "limited_mission"     = the church as institution does not take up political/social causes; members act
+  //                         as citizens on their own. Covers both confessional two-kingdoms (WSC/Escondido)
+  //                         and the Dallas-Statement denial that activism is "primary to the mission of the
+  //                         church." NOT the same as being liberal or pro-choice - a church here can be
+  //                         thoroughly pro-life and still refuse to act corporately.
+  // "quietist"            = stronger: political engagement treated as worldly or a distraction from the
+  //                         gospel (much of fundamentalism; PRC antithesis-separatism).
+  // "mixed" | "unknown"   = conflicting evidence / not established.
+  // EVIDENCE-ONLY - do not default by broad denomination (PCA/OPC/SBC each contain all three). The two
+  // reliable tells are CREC/Moscow-orbit membership (transformationalist) and a published Dallas Statement
+  // affirmation (limited_mission at most - it rules transformationalist OUT).
   researchStatus   String   @default("not_researched") // "researched" | "blocked" | "not_researched"
   researchNote     String?  // if blocked: why (dead site, JS-rendered, 403, bad record); else research source/date
   recordFlag       String?  // data-quality tags, ';'-separated: "duplicate_of:<id>" | "closed" | "in_transition" | "denom_corrected" | "denom_ambiguous" | "corrected"
