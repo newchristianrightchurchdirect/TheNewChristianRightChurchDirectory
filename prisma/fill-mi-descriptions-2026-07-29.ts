@@ -21,6 +21,10 @@ const denomBlurb: Record<string, string> = {
   'American Baptist': 'An American Baptist Churches USA congregation',
   'Non-Denominational': 'An independent, non-denominational congregation',
   'Vanguard Presbyterian': 'A Vanguard Presbyterian Church congregation (Westminster Presbytery) holding the Westminster Standards',
+  Converge: 'A Converge (Baptist General Conference) congregation',
+  SBC: 'A Southern Baptist Convention congregation',
+  GARBC: 'An independent Baptist church in fellowship with the GARBC',
+  Baptist: 'A Baptist congregation listed on the Founders Ministries church search',
 }
 
 // Churches whose status needs saying plainly rather than a stock blurb.
