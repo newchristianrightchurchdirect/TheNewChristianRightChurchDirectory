@@ -20,3 +20,7 @@ __pycache__/
 *.bak-*
 episc_dump.txt
 .tools/
+
+# Hymnal media now lives in Cloudflare R2 (see next.config.ts redirect).
+# ~8.8 GB / 13,678 files - kept on disk, never committed.
+public/hymnal-media/
