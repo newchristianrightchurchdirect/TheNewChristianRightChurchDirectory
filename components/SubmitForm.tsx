@@ -12,11 +12,19 @@ const STANCE_OPTIONS = [
   { key: 'unknown', mark: '?', name: 'Unknown', desc: 'Stance not yet clear' },
 ]
 
+// The directory's primary axis: does the church act corporately on public questions?
+const ENGAGEMENT_OPTIONS = [
+  { key: 'transformationalist', mark: '†', name: 'Transformationalist', desc: 'Acts as a church on law, politics and culture' },
+  { key: 'limited_mission', mark: '✦', name: 'Limited Mission', desc: 'Members engage; the church as institution does not' },
+  { key: 'quietist', mark: '•', name: 'Quietist', desc: 'Treats political engagement as a distraction' },
+  { key: 'unknown', mark: '?', name: 'Unsure', desc: 'Not established' },
+]
+
 const INITIAL = {
   name: '', denomination: '', description: '',
   address: '', city: '', state: '', zip: '',
   website: '', phone: '', pastor: '',
-  zionistStance: '', theologicalNotes: '', source: '',
+  zionistStance: '', culturalEngagement: '', theologicalNotes: '', source: '',
   honeypot: '',
 }
 
@@ -77,6 +85,7 @@ export default function SubmitForm() {
           website: form.website,
           phone: form.phone,
           zionistStance: form.zionistStance,
+          culturalEngagement: form.culturalEngagement,
           theologicalNotes,
           description: form.description,
           honeypot: form.honeypot,
@@ -114,7 +123,7 @@ export default function SubmitForm() {
     )
   }
 
-  const submitDisabled = !form.name.trim() || !form.zionistStance || !form.address.trim() || !form.city.trim() || !form.state || status === 'submitting'
+  const submitDisabled = !form.name.trim() || !form.culturalEngagement || !form.zionistStance || !form.address.trim() || !form.city.trim() || !form.state || status === 'submitting'
 
   return (
     <form className="page-wrap" onSubmit={onSubmit}>
@@ -201,8 +210,27 @@ export default function SubmitForm() {
         </Field>
       </FormSection>
 
-      <FormSection num="IV" title="Theological" titleEm="Stance" help="The defining question — does this congregation hold to a Christian Zionist or pro-Israel theological position?">
-        <Field label="Zionist Position" required>
+      <FormSection num="IV" title="Public" titleEm="Posture" help="The defining question — when a public question arises, does this congregation act as a church, or leave it to members acting privately?">
+        <Field label="Cultural Engagement" required>
+          <div className="stance-grid">
+            {ENGAGEMENT_OPTIONS.map(s => (
+              <div
+                key={s.key}
+                data-stance={s.key}
+                className={`stance-card${form.culturalEngagement === s.key ? ' selected' : ''}`}
+                onClick={() => set('culturalEngagement', s.key)}
+                role="button"
+                tabIndex={0}
+                onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); set('culturalEngagement', s.key) } }}
+              >
+                <div className="stance-mark">{s.mark}</div>
+                <div className="stance-name">{s.name}</div>
+                <div className="stance-desc">{s.desc}</div>
+              </div>
+            ))}
+          </div>
+        </Field>
+        <Field label="Zionist Position (secondary indicator)" required>
           <div className="stance-grid">
             {STANCE_OPTIONS.map(s => (
               <div

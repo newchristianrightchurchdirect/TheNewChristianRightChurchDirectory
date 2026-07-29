@@ -68,6 +68,8 @@ export async function POST(request: NextRequest) {
 
   const validStances = ['yes', 'no', 'anti', 'unknown']
   const zionistStance = validStances.includes(body.zionistStance) ? body.zionistStance : 'unknown'
+  const validEngagement = ['transformationalist', 'limited_mission', 'quietist', 'mixed', 'unknown']
+  const culturalEngagement = validEngagement.includes(body.culturalEngagement) ? body.culturalEngagement : 'unknown'
 
   let latitude: number | null = null
   let longitude: number | null = null
@@ -105,7 +107,7 @@ export async function POST(request: NextRequest) {
     data: {
       name, denomination, address, city, state, zip,
       latitude, longitude, website, phone,
-      zionistStance, theologicalNotes, description,
+      zionistStance, culturalEngagement, theologicalNotes, description,
       approved: false,
     },
   })

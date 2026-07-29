@@ -19,9 +19,9 @@ export default async function AboutPage() {
   return (
     <div className="page-wrap" style={{ maxWidth: 1100 }}>
       <section className="about-hero">
-        <h1>A directory for the <em>faithful</em>.</h1>
+        <h1>A directory of churches that <em>contend</em>.</h1>
         <p className="lede" style={{ textAlign: 'left' }}>
-          <span className="dropcap">T</span>he New Christian Right exists to identify, map, and document Bible-believing churches across America that reject Christian Zionism — congregations whose theology rests on the historic Reformed and confessional tradition rather than on dispensationalist political alignments.
+          <span className="dropcap">T</span>he New Christian Right exists to identify, map, and document Bible-believing churches across America that confess Christ&apos;s lordship over more than the sanctuary — congregations that take up public questions as churches, rather than leaving the field to the individual conscience.
         </p>
       </section>
 
@@ -30,7 +30,7 @@ export default async function AboutPage() {
           <div className="pillar-num">I.</div>
           <div className="pillar-title">Identify</div>
           <div className="pillar-body">
-            We catalogue congregations across all fifty states, classifying each by denomination, confessional standard, and theological stance toward Christian Zionism.
+            We catalogue congregations across all fifty states, classifying each by denomination, confessional standard, and — above all — whether the church acts corporately on the questions of the age.
           </div>
         </div>
         <div className="pillar">
@@ -54,17 +54,17 @@ export default async function AboutPage() {
         <div className="about-prose">
           <h2>Why this <em>directory</em> exists.</h2>
           <p>
-            For nearly a century, large segments of American evangelicalism have been shaped by a theological framework that treats the modern political state of Israel as the focal point of biblical prophecy. That framework — generally called <strong>Christian Zionism</strong> — is widely assumed but rarely scrutinised by the people who fill its pews each Sunday.
+            For the better part of a century, American evangelicalism has been taught that the church&apos;s business stops at the church door — that the pulpit preaches, and whatever follows in law, court, and legislature is a matter for private citizens acting alone. Whole confessions of faith are held sincerely and applied nowhere.
           </p>
           <p>
-            A growing number of Bible-believing congregations reject this framework. They read the Scriptures within the historic Reformed and confessional tradition, hold to covenantal hermeneutics, and refuse to confuse a political nation with the people of God. These churches are scattered, often quiet, and difficult to find.
+            A growing number of Bible-believing congregations reject that settlement. They hold that Christ&apos;s crown rights extend over magistrates as well as members, and they act accordingly — as churches. On abortion above all, but also on the education of children, the ordering of the family, and the claims the state makes on the conscience. These churches are scattered, often small, and genuinely difficult to find.
           </p>
           <p>
             <strong>This directory makes them findable.</strong>
           </p>
 
           <div className="pull-quote">
-            We are not building a movement. We are drawing a map of one that already exists — so the faithful might find one another.
+            We are not building a movement. We are drawing a map of one that already exists — so those who mean to contend might find one another.
             <cite>— The Editors</cite>
           </div>
         </div>
@@ -101,7 +101,7 @@ export default async function AboutPage() {
               <span className="num">I.</span>
               <span className="text">
                 <strong>Published statement of faith.</strong>
-                <small>Does the church publicly articulate a covenantal, non-dispensational reading of Scripture?</small>
+                <small>Does the church confess Christ&apos;s authority over the civil sphere, or expressly limit its mission to word and sacrament?</small>
               </span>
             </li>
             <li>
@@ -140,8 +140,8 @@ export default async function AboutPage() {
           </div>
 
           <div className="faq-item">
-            <div className="faq-q"><span>Is &ldquo;anti-Zionist&rdquo; a political label?</span><span className="q-num">Q.02</span></div>
-            <div className="faq-a">In this directory it is a strictly theological one. It marks a church&apos;s rejection of dispensational Christian Zionism — not a position on any contemporary political question.</div>
+            <div className="faq-q"><span>What does &ldquo;transformationalist&rdquo; mean here?</span><span className="q-num">Q.02</span></div>
+            <div className="faq-a">That the congregation believes Christ&apos;s lordship covers law, politics, and culture, and says so as a church rather than leaving it to members acting privately. It is a description of a church&apos;s posture, not a partisan alignment. A church marked <em>Limited Mission</em> is not thereby liberal or compromised — many are thoroughly orthodox and simply hold that the institutional church should not take up such causes. Zionist stance and abolition commitment are recorded as separate indicators.</div>
           </div>
 
           <div className="faq-item">
@@ -157,8 +157,8 @@ export default async function AboutPage() {
       </section>
 
       <section className="about-footer-cta">
-        <h3>Know a faithful <em>congregation</em>?</h3>
-        <p>If a church belongs in this directory and is not yet listed, send it our way. The work belongs to the whole body.</p>
+        <h3>Know a church that <em>contends</em>?</h3>
+        <p>If a congregation belongs in this directory and is not yet listed, send it our way. The work belongs to the whole body.</p>
         <div className="cta-row">
           <Link href="/submit" className="btn-cta solid">Submit a Church &rarr;</Link>
           <Link href="/" className="btn-cta">Browse Directory</Link>

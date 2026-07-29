@@ -15,6 +15,7 @@ interface Church {
   website: string | null
   phone: string | null
   zionistStance: string
+  culturalEngagement?: string
   theologicalNotes: string | null
   description: string | null
   createdAt: string

@@ -52,7 +52,7 @@ export default function Header() {
         </div>
       </div>
       <div className="masthead-rule">
-        <span className="masthead-rule-text">Identifying anti-Zionist, Bible-believing churches across America</span>
+        <span className="masthead-rule-text">Identifying churches that confess Christ&rsquo;s lordship over the public square</span>
       </div>
     </header>
   )

@@ -4,10 +4,10 @@ import Header from '@/components/Header'
 
 export const metadata: Metadata = {
   title: {
-    default: 'The New Christian Right Church Directory — A Directory of Faithful Churches',
+    default: 'The New Christian Right Church Directory — Churches Contending for the Crown Rights of Christ',
     template: '%s — The New Christian Right',
   },
-  description: 'Identifying anti-Zionist, Bible-believing churches across America. A reader-supported, editorially independent directory of confessional congregations.',
+  description: 'Identifying Bible-believing churches across America that confess Christ&apos;s lordship over the public square and act on it as churches. A reader-supported, editorially independent directory of confessional congregations.'.replace('&apos;', "'"),
   openGraph: {
     type: 'website',
     locale: 'en_US',

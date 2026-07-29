@@ -253,7 +253,7 @@ export default function MoreSettings() {
       </div>
       <div style={{ padding: '16px 0', borderBottom: '1px solid var(--nxr-rule)' }}>
         <p style={{ fontFamily: 'var(--serif)', fontSize: 15, lineHeight: 1.55, color: 'var(--nxr-ink-soft)', margin: 0 }}>
-          The <em>NXR Hymnal</em> is a companion to <em>The New Christian Right</em>&mdash;a directory of faithful churches. Compiled for the Sabbath assembly, MMXXVI.
+          The <em>NXR Hymnal</em> is a companion to <em>The New Christian Right</em>&mdash;a directory of churches contending for the crown rights of Christ. Compiled for the Sabbath assembly, MMXXVI.
         </p>
         <div style={{ marginTop: 16 }}>
           <Link href="/install" className="install-cta">Install to home screen</Link>
