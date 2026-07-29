@@ -33,6 +33,13 @@ interface Church {
   zionistStance: string
   culturalEngagement: string
   abolitionStance: string
+  christianNationalism: string
+  eschatology: string
+  theonomy: string
+  federalVision: string
+  socialJusticeStance: string
+  sexualityStance: string
+  genderStance: string
   theologicalNotes: string | null
   description: string | null
   upvotes: number
@@ -56,6 +63,20 @@ function extractPastor(notes: string | null): string | null {
   return m ? m[1] : null
 }
 
+// Secondary stance filters. Add a row here and the control, filtering and reset
+// all follow automatically.
+const STANCE_FILTERS: Array<{ key: keyof Church; label: string; options: Array<[string, string]> }> = [
+  { key: 'abolitionStance', label: 'Abolition', options: [['pro_abolition', 'Abolitionist'], ['incrementalist', 'Incrementalist'], ['anti', 'Opposed'], ['unknown', 'Unverified']] },
+  { key: 'eschatology', label: 'Eschatology', options: [['postmill', 'Postmillennial'], ['amill', 'Amillennial'], ['premill', 'Premillennial'], ['dispensational', 'Dispensational'], ['unknown', 'Unverified']] },
+  { key: 'theonomy', label: 'Theonomy', options: [['theonomic', 'Theonomic'], ['sympathetic', 'Sympathetic'], ['non_theonomic', 'Non-theonomic'], ['unknown', 'Unverified']] },
+  { key: 'christianNationalism', label: 'Christian Nationalism', options: [['affirm', 'Affirms'], ['sympathetic', 'Sympathetic'], ['critical', 'Critical'], ['unknown', 'Unverified']] },
+  { key: 'zionistStance', label: 'Zionism', options: [['anti', 'Anti-Zionist'], ['no', 'Non-Zionist'], ['yes', 'Zionist'], ['unknown', 'Unverified']] },
+  { key: 'socialJusticeStance', label: 'Social Justice', options: [['anti_crt', 'Anti-CRT'], ['mixed', 'Mixed'], ['affirming', 'Affirming'], ['unknown', 'Unverified']] },
+  { key: 'federalVision', label: 'Federal Vision', options: [['affirm', 'Affirms'], ['sympathetic', 'Sympathetic'], ['critical', 'Critical'], ['unknown', 'Unverified']] },
+  { key: 'genderStance', label: 'Gender', options: [['patriarchal', 'Patriarchal'], ['complementarian', 'Complementarian'], ['unknown', 'Unverified']] },
+  { key: 'sexualityStance', label: 'Sexuality', options: [['traditional', 'Traditional'], ['side_b', 'Side B'], ['unknown', 'Unverified']] },
+]
+
 const PER_PAGE = 60
 
 export default function ChurchDirectory() {
@@ -65,6 +86,7 @@ export default function ChurchDirectory() {
   const [stateFilter, setStateFilter] = useState('')
   const [denomFilter, setDenomFilter] = useState('')
   const [position, setPosition] = useState<Position>('transformationalist')
+  const [stances, setStances] = useState<Record<string, string>>({})
   const [sortKey, setSortKey] = useState<SortKey>('name')
   const [activeId, setActiveId] = useState<number | null>(null)
   const [detailOpen, setDetailOpen] = useState(false)
@@ -77,7 +99,7 @@ export default function ChurchDirectory() {
       .catch(() => setLoading(false))
   }, [])
 
-  useEffect(() => { setPage(1) }, [query, stateFilter, denomFilter, position, sortKey])
+  useEffect(() => { setPage(1) }, [query, stateFilter, denomFilter, position, sortKey, stances])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -98,6 +120,9 @@ export default function ChurchDirectory() {
     if (position !== 'all') list = list.filter(c => c.culturalEngagement === position)
     if (stateFilter) list = list.filter(c => c.state === stateFilter)
     if (denomFilter) list = list.filter(c => c.denomination === denomFilter)
+    for (const [key, val] of Object.entries(stances)) {
+      if (val) list = list.filter(c => (c as unknown as Record<string, string>)[key] === val)
+    }
     if (query.trim()) {
       const q = query.toLowerCase()
       list = list.filter(c =>
@@ -114,7 +139,7 @@ export default function ChurchDirectory() {
       return 0
     })
     return list
-  }, [churches, query, stateFilter, denomFilter, position, sortKey])
+  }, [churches, query, stateFilter, denomFilter, position, sortKey, stances])
 
   const total = churches.length
   const counts = useMemo(() => ({
@@ -218,6 +243,25 @@ export default function ChurchDirectory() {
                   {denominations.map(d => <option key={d} value={d}>{d}</option>)}
                 </select>
               </div>
+              {STANCE_FILTERS.map(f => (
+                <div className="filter-select" key={String(f.key)}>
+                  <select
+                    aria-label={f.label}
+                    value={stances[String(f.key)] || ''}
+                    onChange={e => setStances(prev => ({ ...prev, [String(f.key)]: e.target.value }))}
+                  >
+                    <option value="">{f.label}: Any</option>
+                    {f.options.map(([val, lbl]) => (
+                      <option key={val} value={val}>{lbl}</option>
+                    ))}
+                  </select>
+                </div>
+              ))}
+              {Object.values(stances).some(Boolean) && (
+                <button type="button" className="filter-clear" onClick={() => setStances({})}>
+                  Clear stances &times;
+                </button>
+              )}
             </div>
             <div className="position-tabs">
               {POSITION_TABS.map(p => (
