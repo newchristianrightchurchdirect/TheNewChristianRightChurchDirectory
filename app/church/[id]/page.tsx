@@ -23,6 +23,7 @@ interface Church {
   zionistStance: string
   culturalEngagement: string
   abolitionStance: string
+  notablePeople: string | null
   theologicalNotes: string | null
   description: string | null
   upvotes: number
@@ -197,6 +198,19 @@ export default function ChurchDetailPage() {
             WEBSITE ‖ {church.website ? <a href={church.website} target="_blank" rel="noopener noreferrer" style={{ borderBottom: '1px solid var(--brass)', color: 'var(--brass-deep)' }}>{church.website}</a> : 'not listed'}
           </p>
         </section>
+
+        {church.notablePeople && (
+          <section style={{ padding: '32px 0', borderBottom: '1px solid var(--rule)' }}>
+            <h2 style={{ fontFamily: 'var(--mono)', fontSize: 10, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'var(--ink-mute)', marginBottom: 12, fontWeight: 500 }}>
+              Notable People
+            </h2>
+            <ul className="notable-people">
+              {church.notablePeople.split(' | ').map((person, i) => (
+                <li key={i}>{person}</li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {church.theologicalNotes && church.theologicalNotes !== church.description && (
           <section style={{ padding: '32px 0', borderBottom: '1px solid var(--rule)' }}>

@@ -51,6 +51,10 @@ model Church {
   stanceBasis      String?  // "evidenced" | "denominational_default" | "mixed" — how zionist/abolition stances were determined
   sourceUrls       String?  // ';'-separated research source URLs (provenance)
   lastResearchedAt DateTime? // when stances/leadership were last verified
+  notablePeople    String?  // Named figures tied to this congregation and why they matter
+                            // (pastors, authors, org leaders). Rendered as its own "Notable
+                            // People" section ABOVE the editor's note - kept separate so the
+                            // roster is not buried in prose. Source: notable_figures.md.
   theologicalNotes String?
   description      String?
   leadership       String?  // Pastor + elders, e.g. "Pastor: Jane Doe; Elders: A, B, C"

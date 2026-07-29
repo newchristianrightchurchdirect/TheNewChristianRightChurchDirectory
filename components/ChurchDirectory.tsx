@@ -40,6 +40,7 @@ interface Church {
   socialJusticeStance: string
   sexualityStance: string
   genderStance: string
+  notablePeople: string | null
   theologicalNotes: string | null
   description: string | null
   upvotes: number
@@ -365,6 +366,17 @@ function DetailPanel({ church, onClose }: { church: Church | null; onClose: () =
                 <div className="detail-section">
                   <h4>Confession &amp; Conviction</h4>
                   <p>{church.description || church.theologicalNotes}</p>
+                </div>
+              )}
+
+              {church.notablePeople && (
+                <div className="detail-section">
+                  <h4>Notable People</h4>
+                  <ul className="notable-people">
+                    {church.notablePeople.split(' | ').map((person, i) => (
+                      <li key={i}>{person}</li>
+                    ))}
+                  </ul>
                 </div>
               )}
 
