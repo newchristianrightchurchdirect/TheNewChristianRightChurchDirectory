@@ -5,10 +5,10 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 ## Moscow / CREC / CrossPolitic (Fight Laugh Feast)
 - **Doug Wilson** — Christ Church, Moscow ID (CREC) `[#18]`. The central figure: Blog & Mablog, Canon Press, CrossPolitic, "Man Rampant," *Mere Christendom*.
 - **Toby Sumpter** — King's Cross Church, Moscow ID (CREC) `[#4038]`. CrossPolitic co-host; Substack; *Blood-Bought World*; "Classical Reformed Christian Nationalism."
-- **Joe Rigney** — Christ Church Moscow (assoc.); New Saint Andrews fellow; "The Sin of Empathy."
+- **Joe Rigney** — Christ Church Moscow (assoc.) `[#18]`; New Saint Andrews fellow; "The Sin of Empathy."
 - **Gabriel Rench** — CrossPolitic co-host, Moscow ID.
 - **David "Chocolate Knox" Knox** — CrossPolitic co-host.
-- **Jared Longshore** — Christ Church / Canon Press VP; FLF.
+- **Jared Longshore** — Christ Church, Moscow ID `[#18]` / Canon Press VP; FLF.
 - **Ben Merkle** — President, New Saint Andrews College.
 - **N.D. (Nate) Wilson** — author, Canon Press (Doug Wilson's son).
 - **Gordon Wilson** — author/creation films (Doug Wilson's brother).
@@ -16,8 +16,8 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 
 ## New Christendom Press / King's Hall (Ogden, UT)
 - **Brian Sauvé** — Refuge Church, Ogden UT `[#16]`. The King's Hall podcast; briansauve.com; **also a musician** (Psalm settings, hymns, "sea shanties"; album *Even Dragons Shall Him Praise*).
-- **Eric Conn** — Refuge Church, Ogden UT. Hard Men Podcast; King's Hall co-host; CEO, New Christendom Press.
-- **Dan Berkholder** — King's Hall co-host; Refuge Church.
+- **Eric Conn** — Refuge Church, Ogden UT `[#16]`. Hard Men Podcast; King's Hall co-host; CEO, New Christendom Press.
+- **Dan Berkholder** — King's Hall co-host; Refuge Church, Ogden UT `[#16]`.
 
 ## Right Response Ministries (Texas)
 - **Joel Webbon** — Covenant Bible Church, Georgetown/Austin TX `[#17]`. Right Response Ministries; "Theology Applied" podcast. One of the loudest CN voices.
@@ -33,7 +33,7 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 - **Brett Baggett** — Ekklesia, Muskogee OK `[#2470]`. President, Rescue Those; Shepherd School.
 - **Jon Speed** — By the Word Baptist, Azle TX `[#4035]`. *Babies Are Murdered Here* documentaries; open-air preaching.
 - **Derin Stidd** — Harmony Baptist, Frankfort IN `[#4036]`. Asst. National Director, Operation Save America.
-- **T. Russell Hunter** — founder of Free the States / **Abolitionists Rising** and **Abolish Human Abortion**, Oklahoma; organized the first national abortion-abolition conference (2020); the movement's chief debater/theorist & artist. (Itinerant — no settled directory church.)
+- **T. Russell Hunter** — founder of Free the States / **Abolitionists Rising** and **Abolish Human Abortion**, Oklahoma; organized the first national abortion-abolition conference (2020); the movement's chief debater/theorist & artist. (Reported to attend **Areopagus Church, Norman OK** — small/informal, not yet verified enough to add as a directory row.)
 - **Bradley Pierce** — President, Foundation to Abolish Abortion / Abolish Abortion Texas.
 - **Bill Ascol** — Bethel Baptist, Owasso OK `[#212]`. Founders board chairman; 2021 SBC abolition-resolution frontman.
 - **Jason Garwood** — Cross & Crown Church, Warrenton VA `[#4043]`. Christian Reconstructionist author (expanded Reconstruction to "7 points" incl. abolitionism); president, Virginia Center for Public Theology; leads Abolish Abortion Virginia.
@@ -63,7 +63,7 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 - **Mark Cowperthwaite** — King's Coalition for Abolition (Maine).
 - **Timothy Carey Jr.** — Faithfully Radical Ministries (Valparaiso, IN).
 *(Covers the bulk of the ~40 AR-listed state orgs. The remaining heads are either already listed above (Baggett, Hunter, the Ascols, Pierce, Trewhella, Thomas, Storms, Deevers, Stidd=Abolish Abortion IN) or are unidentifiable / churchless local activists.)*
-- **Voddie Baucham** — *Fault Lines*; dean, African Christian University (Zambia). Massive anti-woke voice.
+- **Voddie Baucham** — *Fault Lines*; dean, African Christian University (Zambia). Massive anti-woke voice. **DIED 25 September 2025, aged 56**, after a medical incident following long-standing heart disease; he was to be founding president of Founders Seminary (Cape Coral FL).
 - **Owen Strachan** — *Christianity and Wokeness*; Provost, Grace Bible Theological Seminary; associated w/ Grace Bible Church, Conway AR `[#76]`.
 - **Jeff Johnson** (Jeffrey D. Johnson) — pastor, Grace Bible Church, Conway AR `[#76]`; founder of Grace Bible Theological Seminary & Free Grace Press; prolific Reformed Baptist author.
 
