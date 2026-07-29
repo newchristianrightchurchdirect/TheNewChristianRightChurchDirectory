@@ -5,13 +5,6 @@ import Link from 'next/link'
 
 const STATES = ['AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY','DC']
 
-const STANCE_OPTIONS = [
-  { key: 'anti', mark: '\u2020', name: 'Anti-Zionist', desc: 'Opposes Christian Zionism' },
-  { key: 'no', mark: '\u2726', name: 'Non-Zionist', desc: 'No Zionist theology' },
-  { key: 'yes', mark: '\u2691', name: 'Zionist', desc: 'Pro-Zionist views' },
-  { key: 'unknown', mark: '?', name: 'Unknown', desc: 'Stance not yet clear' },
-]
-
 // The directory's primary axis: does the church act corporately on public questions?
 const ENGAGEMENT_OPTIONS = [
   { key: 'transformationalist', mark: '†', name: 'Transformationalist', desc: 'Acts as a church on law, politics and culture' },
@@ -24,7 +17,7 @@ const INITIAL = {
   name: '', denomination: '', description: '',
   address: '', city: '', state: '', zip: '',
   website: '', phone: '', pastor: '',
-  zionistStance: '', culturalEngagement: '', theologicalNotes: '', source: '',
+  culturalEngagement: '', theologicalNotes: '', source: '',
   honeypot: '',
 }
 
@@ -84,7 +77,6 @@ export default function SubmitForm() {
           zip: form.zip,
           website: form.website,
           phone: form.phone,
-          zionistStance: form.zionistStance,
           culturalEngagement: form.culturalEngagement,
           theologicalNotes,
           description: form.description,
@@ -123,7 +115,7 @@ export default function SubmitForm() {
     )
   }
 
-  const submitDisabled = !form.name.trim() || !form.culturalEngagement || !form.zionistStance || !form.address.trim() || !form.city.trim() || !form.state || status === 'submitting'
+  const submitDisabled = !form.name.trim() || !form.culturalEngagement || !form.address.trim() || !form.city.trim() || !form.state || status === 'submitting'
 
   return (
     <form className="page-wrap" onSubmit={onSubmit}>
@@ -131,7 +123,7 @@ export default function SubmitForm() {
         <span className="page-eyebrow">Community Submission</span>
         <h1 className="page-h1">Submit a <em>Church</em></h1>
         <p className="page-lede">
-          Help us build the directory. Submit a congregation and tell us its theological stance.
+          Help us build the directory. Submit a congregation and tell us how it engages the public square.
           All entries are reviewed by our editors before being published.
         </p>
       </div>
@@ -222,25 +214,6 @@ export default function SubmitForm() {
                 role="button"
                 tabIndex={0}
                 onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); set('culturalEngagement', s.key) } }}
-              >
-                <div className="stance-mark">{s.mark}</div>
-                <div className="stance-name">{s.name}</div>
-                <div className="stance-desc">{s.desc}</div>
-              </div>
-            ))}
-          </div>
-        </Field>
-        <Field label="Zionist Position (secondary indicator)" required>
-          <div className="stance-grid">
-            {STANCE_OPTIONS.map(s => (
-              <div
-                key={s.key}
-                data-stance={s.key}
-                className={`stance-card${form.zionistStance === s.key ? ' selected' : ''}`}
-                onClick={() => set('zionistStance', s.key)}
-                role="button"
-                tabIndex={0}
-                onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); set('zionistStance', s.key) } }}
               >
                 <div className="stance-mark">{s.mark}</div>
                 <div className="stance-name">{s.name}</div>
