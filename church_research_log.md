@@ -523,3 +523,33 @@ Michigan email coverage: **81 → 123 of 150.** No stance fields were touched by
 remaining 3 (#3866, #3867, #4002) have no contact channel at all and are excluded from the
 outreach sheet. The regenerated sheet now carries a **Contact via** column
 (Email=119, Call=21, Website form=4) so outreach runs in the order AAM intends.
+
+## 2026-07-29 — #3247 Ekklesia of Grand Blanc (was "OneLife Church")
+
+Corrections confirmed **directly by the congregation** to the directory owner, which resolves the
+`in_transition` flag that reporting alone could not:
+
+- **Name:** OneLife Church → **Ekklesia of Grand Blanc**. Verified against the church's own
+  leadership page, which presents that name throughout.
+- **Email:** `ekklesiagb@gmail.com` (harvested) → **`nick@ekklesiagb.com`**. Nick Staley is one of
+  six leaders listed on ekklesiagb.com/leadership; no titles are published there, so the five
+  non-pastoral names were recorded as a leadership team without inventing titles.
+- **Daily mill presence confirmed:** the church has missionaries at abortion facilities every day
+  through **One Life For Life** (onelifeforlife.org — a domain not previously on this record).
+  This corroborates the existing `culturalEngagement = transformationalist`, which had been
+  evidenced only from the church's website section. `stanceBasis` stays `evidenced`.
+- `recordFlag` cleared.
+
+**Two things deliberately NOT changed:**
+
+- **`abolitionStance` stays `unknown`.** One Life For Life calls abortion "the murder of our
+  pre-born neighbors" and speaks of "the American Holocaust", but its published method is
+  missionary presence and persuasion at the facility. Nothing was found from the church or the
+  ministry on equal protection, on criminalising abortion as homicide, or on abolition versus
+  incremental legislation — the questions that actually separate abolitionism from mill ministry.
+  Recording `pro_abolition` off rescue-ministry evidence would corrupt the one field this
+  directory exists to make trustworthy. **This is the single best question to ask them.**
+- **Eschatology.** The public description read "A postmillennial church in Grand Blanc, MI"
+  while the `eschatology` field was `unknown` — the postmill label came from a third-party
+  directory and the church has never confirmed it. The description was published asserting
+  something the record itself did not hold; it has been rewritten to drop the claim.
