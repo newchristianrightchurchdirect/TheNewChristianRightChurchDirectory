@@ -1583,3 +1583,7 @@ input, select, textarea { font: inherit; color: inherit; }
 /* Flex children need an explicit min-height:0 before they will scroll. */
 .church-list { min-height: 0; }
 .directory { min-height: 0; }
+
+/* Five tabs on one line: tighten the type rather than let them wrap, since a
+   second tab row costs the church list ~34px of scroll height. */
+.position-tab { font-size: 9.5px; letter-spacing: 0.06em; padding-left: 2px; padding-right: 2px; white-space: nowrap; }

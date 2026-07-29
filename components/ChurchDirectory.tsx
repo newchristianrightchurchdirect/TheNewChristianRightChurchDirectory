@@ -50,8 +50,8 @@ type Position = 'all' | 'transformationalist' | 'limited_mission' | 'quietist' |
 type SortKey = 'name' | 'state' | 'upvotes'
 
 const POSITION_TABS: Array<{ key: Position; label: string }> = [
-  { key: 'transformationalist', label: 'Transformationalist' },
-  { key: 'limited_mission', label: 'Limited Mission' },
+  { key: 'transformationalist', label: 'Transform.' },
+  { key: 'limited_mission', label: 'Limited' },
   { key: 'quietist', label: 'Quietist' },
   { key: 'unknown', label: 'Unverified' },
   { key: 'all', label: 'All' },
