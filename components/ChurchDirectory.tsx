@@ -31,19 +31,23 @@ interface Church {
   phone: string | null
   email: string | null
   zionistStance: string
+  culturalEngagement: string
+  abolitionStance: string
   theologicalNotes: string | null
   description: string | null
   upvotes: number
 }
 
-type Position = 'all' | 'anti' | 'no' | 'yes' | 'unknown'
+// Primary axis: does the church act corporately on public questions?
+type Position = 'all' | 'transformationalist' | 'limited_mission' | 'quietist' | 'unknown'
 type SortKey = 'name' | 'state' | 'upvotes'
 
 const POSITION_TABS: Array<{ key: Position; label: string }> = [
+  { key: 'transformationalist', label: 'Transformationalist' },
+  { key: 'limited_mission', label: 'Limited Mission' },
+  { key: 'quietist', label: 'Quietist' },
+  { key: 'unknown', label: 'Unverified' },
   { key: 'all', label: 'All' },
-  { key: 'anti', label: 'Anti-Zionist' },
-  { key: 'no', label: 'Non-Zionist' },
-  { key: 'unknown', label: 'Unknown' },
 ]
 
 function extractPastor(notes: string | null): string | null {
@@ -60,7 +64,7 @@ export default function ChurchDirectory() {
   const [query, setQuery] = useState('')
   const [stateFilter, setStateFilter] = useState('')
   const [denomFilter, setDenomFilter] = useState('')
-  const [position, setPosition] = useState<Position>('anti')
+  const [position, setPosition] = useState<Position>('transformationalist')
   const [sortKey, setSortKey] = useState<SortKey>('name')
   const [activeId, setActiveId] = useState<number | null>(null)
   const [detailOpen, setDetailOpen] = useState(false)
@@ -91,7 +95,7 @@ export default function ChurchDirectory() {
 
   const filtered = useMemo(() => {
     let list = churches
-    if (position !== 'all') list = list.filter(c => c.zionistStance === position)
+    if (position !== 'all') list = list.filter(c => c.culturalEngagement === position)
     if (stateFilter) list = list.filter(c => c.state === stateFilter)
     if (denomFilter) list = list.filter(c => c.denomination === denomFilter)
     if (query.trim()) {
@@ -114,17 +118,17 @@ export default function ChurchDirectory() {
 
   const total = churches.length
   const counts = useMemo(() => ({
-    anti: churches.filter(c => c.zionistStance === 'anti').length,
-    no: churches.filter(c => c.zionistStance === 'no').length,
-    yes: churches.filter(c => c.zionistStance === 'yes').length,
-    unknown: churches.filter(c => c.zionistStance === 'unknown').length,
+    transformationalist: churches.filter(c => c.culturalEngagement === 'transformationalist').length,
+    limited_mission: churches.filter(c => c.culturalEngagement === 'limited_mission').length,
+    quietist: churches.filter(c => c.culturalEngagement === 'quietist').length,
+    unknown: churches.filter(c => c.culturalEngagement === 'unknown').length,
   }), [churches])
 
   const tabCounts: Record<Position, number> = {
     all: total,
-    anti: counts.anti,
-    no: counts.no,
-    yes: counts.yes,
+    transformationalist: counts.transformationalist,
+    limited_mission: counts.limited_mission,
+    quietist: counts.quietist,
     unknown: counts.unknown,
   }
 
@@ -158,14 +162,14 @@ export default function ChurchDirectory() {
           <div className="stat-bar"><span style={{ width: total > 0 ? `${(filtered.length / total * 100).toFixed(1)}%` : '0%' }} /></div>
         </div>
         <div className="stat">
-          <div className="stat-label">Anti-Zionist</div>
-          <div className="stat-value"><span className="accent">{fmt(counts.anti)}</span><span className="small">‖ {pct(counts.anti).toFixed(1)}%</span></div>
-          <div className="stat-bar"><span className="oxblood" style={{ width: `${pct(counts.anti).toFixed(2)}%` }} /></div>
+          <div className="stat-label">Transformationalist</div>
+          <div className="stat-value"><span className="accent">{fmt(counts.transformationalist)}</span><span className="small">‖ {pct(counts.transformationalist).toFixed(1)}%</span></div>
+          <div className="stat-bar"><span className="oxblood" style={{ width: `${pct(counts.transformationalist).toFixed(2)}%` }} /></div>
         </div>
         <div className="stat">
-          <div className="stat-label">Non-Zionist</div>
-          <div className="stat-value"><span className="brass">{fmt(counts.no)}</span><span className="small">‖ {pct(counts.no).toFixed(1)}%</span></div>
-          <div className="stat-bar"><span className="brass" style={{ width: `${pct(counts.no).toFixed(2)}%` }} /></div>
+          <div className="stat-label">Limited Mission</div>
+          <div className="stat-value"><span className="brass">{fmt(counts.limited_mission)}</span><span className="small">‖ {pct(counts.limited_mission).toFixed(1)}%</span></div>
+          <div className="stat-bar"><span className="brass" style={{ width: `${pct(counts.limited_mission).toFixed(2)}%` }} /></div>
         </div>
         <div className="stat">
           <div className="stat-label">Unverified</div>

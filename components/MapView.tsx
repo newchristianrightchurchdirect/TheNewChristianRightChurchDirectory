@@ -13,12 +13,14 @@ interface Church {
   latitude: number | null
   longitude: number | null
   zionistStance: string
+  culturalEngagement: string
 }
 
+// Markers follow the directory's primary axis (cultural engagement), not Zionism.
 const POSITION_CLASS: Record<string, string> = {
-  anti: 'anti-zionist',
-  no: 'non-zionist',
-  yes: 'zionist',
+  transformationalist: 'transformationalist',
+  limited_mission: 'limited-mission',
+  quietist: 'quietist',
   unknown: 'unknown',
 }
 
@@ -79,7 +81,7 @@ export default function MapView({ churches, activeId = null, onSelect }: MapView
 
     const withCoords = churches.filter(c => c.latitude != null && c.longitude != null)
     withCoords.forEach(church => {
-      const positionClass = POSITION_CLASS[church.zionistStance] || 'unknown'
+      const positionClass = POSITION_CLASS[church.culturalEngagement] || 'unknown'
       const icon = L.divIcon({
         className: '',
         html: `<div class="church-marker ${positionClass}" data-id="${church.id}"></div>`,

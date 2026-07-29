@@ -1506,3 +1506,19 @@ input, select, textarea { font: inherit; color: inherit; }
 
 
 /* Hymnal section moved to ./hymnal.css */
+
+
+/* --- Cultural engagement: the directory's primary axis (2026-07-29 reframe) --- */
+/* Transformationalist churches are the point of the directory, so they carry the
+   strongest colour; the secondary indicator chips stay deliberately quieter. */
+.church-tag.transformationalist { color: var(--oxblood); border-color: var(--oxblood); font-weight: 600; }
+.church-tag.limited-mission     { color: var(--brass-deep); border-color: var(--brass-deep); }
+.church-tag.quietist            { color: var(--ink-soft, #6b6b6b); border-color: var(--ink-soft, #6b6b6b); }
+
+.church-tags { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+.church-tag.indicator { font-size: 0.68em; opacity: 0.85; font-weight: 500; }
+.church-tag.indicator.abolition { color: var(--oxblood); border-color: var(--oxblood); }
+
+.church-marker.transformationalist { background: var(--oxblood); }
+.church-marker.limited-mission     { background: var(--brass); }
+.church-marker.quietist            { background: var(--ink); }

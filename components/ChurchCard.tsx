@@ -5,17 +5,29 @@ interface Church {
   city: string
   state: string
   zionistStance: string
+  culturalEngagement: string
+  abolitionStance: string
   website: string | null
   phone: string | null
   description: string | null
   theologicalNotes: string | null
 }
 
+// PRIMARY axis - does the church act corporately on public questions?
 const POSITION: Record<string, { cls: string; label: string }> = {
-  anti: { cls: 'anti-zionist', label: '† Anti-Zion' },
-  no: { cls: 'non-zionist', label: 'Non-Zion' },
-  yes: { cls: 'zionist', label: 'Zionist' },
+  transformationalist: { cls: 'transformationalist', label: '† Transformational' },
+  limited_mission: { cls: 'limited-mission', label: 'Limited Mission' },
+  quietist: { cls: 'quietist', label: 'Quietist' },
   unknown: { cls: 'unknown', label: 'Unverified' },
+}
+
+// SECONDARY indicators - shown only when they say something, so the card stays quiet.
+function indicators(c: Church): Array<{ cls: string; label: string }> {
+  const out: Array<{ cls: string; label: string }> = []
+  if (c.abolitionStance === 'pro_abolition') out.push({ cls: 'abolition', label: 'Abolitionist' })
+  if (c.zionistStance === 'anti') out.push({ cls: 'anti-zionist', label: 'Anti-Zionist' })
+  else if (c.zionistStance === 'yes') out.push({ cls: 'zionist', label: 'Zionist' })
+  return out
 }
 
 interface Props {
@@ -26,7 +38,8 @@ interface Props {
 }
 
 export default function ChurchCard({ church, index, active, onClick }: Props) {
-  const position = POSITION[church.zionistStance] || POSITION.unknown
+  const position = POSITION[church.culturalEngagement] || POSITION.unknown
+  const tags = indicators(church)
   const blurb = church.description || church.theologicalNotes || ''
 
   return (
@@ -46,7 +59,12 @@ export default function ChurchCard({ church, index, active, onClick }: Props) {
           {church.phone && <span>{church.phone}</span>}
         </div>
       </div>
-      <div className={`church-tag ${position.cls}`}>{position.label}</div>
+      <div className="church-tags">
+        <div className={`church-tag ${position.cls}`}>{position.label}</div>
+        {tags.map(t => (
+          <div key={t.cls} className={`church-tag indicator ${t.cls}`}>{t.label}</div>
+        ))}
+      </div>
     </button>
   )
 }

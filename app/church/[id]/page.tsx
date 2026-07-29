@@ -21,13 +21,16 @@ interface Church {
   phone: string | null
   email: string | null
   zionistStance: string
+  culturalEngagement: string
+  abolitionStance: string
   theologicalNotes: string | null
   description: string | null
   upvotes: number
 }
 
 const REPORT_REASONS = [
-  { value: 'wrong_stance', label: 'Zionist stance is incorrect' },
+  { value: 'wrong_stance', label: 'Cultural-engagement position is incorrect' },
+  { value: 'wrong_zionist', label: 'Zionist stance is incorrect' },
   { value: 'wrong_info', label: 'Other information is wrong' },
   { value: 'closed', label: 'Church is permanently closed' },
   { value: 'duplicate', label: 'Duplicate listing' },
@@ -35,10 +38,16 @@ const REPORT_REASONS = [
 ]
 
 const POSITION: Record<string, { cls: string; label: string }> = {
-  anti: { cls: 'anti-zionist', label: '\u2020 Anti-Zionist' },
-  no: { cls: 'non-zionist', label: 'Non-Zionist' },
-  yes: { cls: 'zionist', label: 'Zionist' },
+  transformationalist: { cls: 'transformationalist', label: '† Transformational' },
+  limited_mission: { cls: 'limited-mission', label: 'Limited Mission' },
+  quietist: { cls: 'quietist', label: 'Quietist' },
   unknown: { cls: 'unknown', label: 'Unverified' },
+}
+
+// Secondary indicators, shown alongside the primary badge.
+const INDICATORS: Record<string, { cls: string; label: string }> = {
+  anti: { cls: 'anti-zionist', label: 'Anti-Zionist' },
+  yes: { cls: 'zionist', label: 'Zionist' },
 }
 
 export default function ChurchDetailPage() {
@@ -98,7 +107,7 @@ export default function ChurchDetailPage() {
     )
   }
 
-  const position = POSITION[church.zionistStance] || POSITION.unknown
+  const position = POSITION[church.culturalEngagement] || POSITION.unknown
   const pastorMatch = church.theologicalNotes?.match(/Pastor\s+([A-Z][A-Za-z'.\-]+(?:\s+[A-Z][A-Za-z'.\-]+){1,3})/)
   const pastor = pastorMatch ? pastorMatch[1] : null
 
@@ -124,8 +133,18 @@ export default function ChurchDetailPage() {
                 {church.city}, {church.state}{church.denomination ? ` · ${church.denomination}` : ''}
               </p>
             </div>
-            <div className={`church-tag ${position.cls}`} style={{ fontSize: 11, padding: '6px 12px' }}>
-              {position.label}
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 6 }}>
+              <div className={`church-tag ${position.cls}`} style={{ fontSize: 11, padding: '6px 12px' }}>
+                {position.label}
+              </div>
+              {church.abolitionStance === 'pro_abolition' && (
+                <div className="church-tag indicator abolition" style={{ fontSize: 10, padding: '4px 10px' }}>Abolitionist</div>
+              )}
+              {INDICATORS[church.zionistStance] && (
+                <div className={`church-tag indicator ${INDICATORS[church.zionistStance].cls}`} style={{ fontSize: 10, padding: '4px 10px' }}>
+                  {INDICATORS[church.zionistStance].label}
+                </div>
+              )}
             </div>
           </div>
         </header>

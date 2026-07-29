@@ -43,7 +43,7 @@ export default function Header() {
         </div>
         <h1 className="masthead-title">
           The New <em>Christian</em> Right<br />
-          <span className="masthead-subtitle">— A Directory of Faithful Churches —</span>
+          <span className="masthead-subtitle">— Churches Contending for the Crown Rights of Christ —</span>
         </h1>
         <div className="masthead-meta-r">
           {date || '\u00A0'}<br />
