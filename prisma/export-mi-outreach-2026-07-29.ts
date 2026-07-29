@@ -57,12 +57,16 @@ async function main() {
     return { c, tier, why }
   }).sort((a, b) => a.tier - b.tier || a.c.city.localeCompare(b.c.city) || a.c.name.localeCompare(b.c.name))
 
-  const header = ['Priority', 'Church', 'Denomination', 'City', 'Address', 'Zip', 'Pastor', 'Phone', 'Email', 'Website', 'Why prioritised', 'Contacted? (date)', 'Response', 'Abolitionist? (Y/N/Unsure)']
+  // Outreach runs email first, then phone, then the website's contact form. Say which one
+  // applies per church so nobody has to work that out from three half-filled columns.
+  const routeOf = (c: any) => c.email ? 'Email' : c.phone ? 'Call' : c.website ? 'Website form' : ''
+
+  const header = ['Priority', 'Church', 'Denomination', 'City', 'Address', 'Zip', 'Pastor', 'Contact via', 'Email', 'Phone', 'Website', 'Why prioritised', 'Contacted? (date)', 'Response', 'Abolitionist? (Y/N/Unsure)']
   const lines = [header.join(',')]
   for (const { c, tier, why } of enriched) {
     lines.push([
       `Tier ${tier}`, c.name, c.denomination, c.city, c.address, c.zip,
-      pastorOf(c.leadership), c.phone, c.email, c.website, why, '', '', '',
+      pastorOf(c.leadership), routeOf(c), c.email, c.phone, c.website, why, '', '', '',
     ].map(csvCell).join(','))
   }
 
@@ -75,6 +79,9 @@ async function main() {
   console.log(`  churches on the sheet: ${enriched.length} of ${all.length} Michigan rows`)
   console.log(`  by priority: ` + Object.entries(byTier).map(([t, n]) => `Tier ${t}=${n}`).join('  '))
   console.log(`  with email: ${rows.filter(c => c.email).length}   phone: ${rows.filter(c => c.phone).length}   website: ${rows.filter(c => c.website).length}   named pastor: ${rows.filter(c => c.leadership).length}`)
+  const routes: Record<string, number> = {}
+  enriched.forEach(({ c }) => { const r = routeOf(c); routes[r] = (routes[r] || 0) + 1 })
+  console.log(`  contact route: ` + Object.entries(routes).map(([r, n]) => `${r}=${n}`).join('  '))
   console.log(`\n  EXCLUDED (${excluded.length}):`)
   excluded.forEach(e => console.log('    - ' + e))
   console.log('\n  Tier 1 (contact these first):')
