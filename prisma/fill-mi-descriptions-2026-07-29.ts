@@ -21,6 +21,7 @@ const denomBlurb: Record<string, string> = {
   'American Baptist': 'An American Baptist Churches USA congregation',
   'Non-Denominational': 'An independent, non-denominational congregation',
   'Vanguard Presbyterian': 'A Vanguard Presbyterian Church congregation (Westminster Presbytery) holding the Westminster Standards',
+  RPC: 'A Reformed Protestant Churches (RPC) congregation holding the Three Forms of Unity',
   Converge: 'A Converge (Baptist General Conference) congregation',
   SBC: 'A Southern Baptist Convention congregation',
   GARBC: 'An independent Baptist church in fellowship with the GARBC',
