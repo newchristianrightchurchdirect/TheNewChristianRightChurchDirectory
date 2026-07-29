@@ -33,7 +33,7 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 - **Brett Baggett** — Ekklesia, Muskogee OK `[#2470]`. President, Rescue Those; Shepherd School.
 - **Jon Speed** — By the Word Baptist, Azle TX `[#4035]`. *Babies Are Murdered Here* documentaries; open-air preaching.
 - **Derin Stidd** — Harmony Baptist, Frankfort IN `[#4036]`. Asst. National Director, Operation Save America.
-- **T. Russell Hunter** — founder of Free the States / **Abolitionists Rising** and **Abolish Human Abortion**, Oklahoma; organized the first national abortion-abolition conference (2020); the movement's chief debater/theorist & artist. (Reported to attend **Areopagus Church, Norman OK** — small/informal, not yet verified enough to add as a directory row.)
+- **T. Russell Hunter** — founder of Free the States / **Abolitionists Rising** and **Abolish Human Abortion**, Oklahoma; organized the first national abortion-abolition conference (2020); the movement's chief debater/theorist & artist. `[#4112]` (Reported to attend **Areopagus Church, Norman OK** — small/informal, not yet verified enough to add as a directory row.)
 - **Bradley Pierce** — President, Foundation to Abolish Abortion / Abolish Abortion Texas.
 - **Bill Ascol** — Bethel Baptist, Owasso OK `[#212]`. Founders board chairman; 2021 SBC abolition-resolution frontman.
 - **Jason Garwood** — Cross & Crown Church, Warrenton VA `[#4043]`. Christian Reconstructionist author (expanded Reconstruction to "7 points" incl. abolitionism); president, Virginia Center for Public Theology; leads Abolish Abortion Virginia.
@@ -47,7 +47,7 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 - **Rusty Thomas** — pastor/founder, American Reformation Church, West Melbourne FL `[#3241]`. OSA National Director (2014–2023); Elijah Ministries; Kingdom Leadership Institute. *(Correction: he does pastor a settled church — ARC.)*
 - **Jason Storms** — current National Director, Operation Save America (2025); elder, American Reformation Church `[#3241]`. Street/campus evangelist; "Defy Tyrants" wing.
 - **Flip Benham** — founder of Operation Save America (renamed from Operation Rescue, 1994); foundational rescue-movement figure.
-- **Cal Zastrow** — co-founder, Personhood USA (2008, w/ Keith Mason); longtime Michigan abolitionist/itinerant activist; federally charged under the FACE Act (2023).
+- **Cal Zastrow** `[#4111?]` — co-founder, Personhood USA (2008, w/ Keith Mason); longtime Michigan abolitionist/itinerant activist; federally charged under the FACE Act (2023).
 - **Keith Mason** — co-founder, Personhood USA.
 
 ### State / local abolition-org leaders (activists — no settled directory church)
@@ -82,7 +82,7 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 - **Michael Foster** — East River Church, Batavia OH `[#4039]`. *It's Good to Be a Man*; IGTBAM podcast; American Reformer.
 - **Dominic Bnonn Tennant** — *It's Good to Be a Man* co-author (NZ).
 - **C.R. Wiley** — Presbyterian Church of Manchester CT `[#566]`. Theology Pugcast; *Man of the House*.
-- **Zachary Garris** — Bryce Avenue Presbyterian, Los Alamos NM (PCA) `[#1429]`. *Masculine Christianity* (New Christendom Press); KnowingScripture.com / TeachDiligently.com; attorney; American Reformer / TruthScript / Abbeville contributor; anti-feminist patriarchy + Christian nationalism.
+- **Zachary Garris** — Bryce Avenue Presbyterian, White Rock/Los Alamos NM (PCA) `[#1429]`. **SUSPENDED INDEFINITELY by Rio Grande Presbytery, late May 2026**, found guilty of 'unwholesome speech' (Eph. 4:29) over a 2023 X exchange with Anthony Bradley — and found NOT guilty of the separate charge concerning his June 2024 comments on slavery. He is appealing. *Masculine Christianity* (New Christendom Press); KnowingScripture.com / TeachDiligently.com; attorney; American Reformer / TruthScript / Abbeville contributor; anti-feminist patriarchy + Christian nationalism.
 - **David Bayly** — Christ the Word Church, Sylvania/Toledo OH (PCA) `[#1483]`. Warhorn Media / BaylyBlog ("Out of Our Minds"); with brother Tim Bayly, a longtime anti-feminist/patriarchy + anti-woke Reformed voice.
 
 ## Theonomy / Reconstruction
@@ -104,3 +104,7 @@ Compiled 2026-06-24. The most prominent, media-active voices in the New Christia
 
 ---
 *~67 named after a systematic org-leadership sweep (2026-06-24) of OSA, Missionaries to the Preborn, Free the States/Abolitionists Rising, Personhood USA, Foundation to Abolish Abortion, Apologia/End Abortion Now, New Founding/American Reformer, Founders, CREC/Moscow, King's Hall, Right Response. Directory churches now cross-referenced; several figures are itinerant org-leaders (Hunter, Zastrow, Benham, Mason) or media/venture figures (Fischer, Abbotoy, Pittman) with no separate addable church. Remaining loose end: Andrew Isker's new TN church is too informal/new to pin.*
+
+
+## Considered and deliberately NOT listed
+- **Jordan "J.D." Hall** — founder of Pulpit & Pen / Protestia; former pastor, Fellowship Baptist Church, Sidney MT. **Excluded**: his own church declared him "disqualified from pastoral ministry" in June 2022 over serious sin, he was removed from Protestia, and he was subsequently **found guilty of embezzling from that church**. He holds no pulpit and no organisational role in this movement today, so there is no congregation to attach him to — and a roster of people who define the movement is not the place for someone the movement itself removed.
