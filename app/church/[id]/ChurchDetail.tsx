@@ -92,6 +92,27 @@ export default function ChurchDetail({ church }: { church: Church }) {
       <article className="page-wrap" style={{ maxWidth: 820 }}>
         <Link href="/" className="back-link" style={{ marginBottom: 24, marginTop: 0 }}>&larr; Back to Directory</Link>
 
+        {church.culturalEngagement !== 'transformationalist' && (
+          <div className="listing-caveat">
+            {church.culturalEngagement === 'unknown' ? (
+              <>
+                <strong>Not yet classified.</strong> This congregation has not been researched
+                closely enough to say whether it meets this directory&rsquo;s standard. Its
+                presence here records that it is on file — nothing more.
+              </>
+            ) : (
+              <>
+                <strong>Does not meet the standard.</strong> This congregation was examined and
+                does not act corporately on public questions
+                {church.culturalEngagement === 'quietist'
+                  ? ', treating political engagement as outside the church’s calling'
+                  : ', holding the institutional church should not take up such causes'}
+                . It is listed to record that it was looked into, not to commend it.
+              </>
+            )}
+          </div>
+        )}
+
         <header style={{ paddingBottom: 24, borderBottom: '1px solid var(--ink)', marginBottom: 0 }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 24, flexWrap: 'wrap' }}>
             <div style={{ flex: 1, minWidth: 0 }}>

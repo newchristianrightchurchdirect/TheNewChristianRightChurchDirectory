@@ -1,3 +1,7 @@
+// NOTE: stance changes made through this script are NOT recorded in the StanceChange
+// audit trail. For per-church stance edits prefer `updateStances` from lib/stance-audit.ts,
+// which requires a reason and writes the trail. Batch runs still need a
+// church_research_log.md entry either way.
 import { PrismaClient } from '@prisma/client'
 import { readFileSync } from 'fs'
 const p = new PrismaClient()

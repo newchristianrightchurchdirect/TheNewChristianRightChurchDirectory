@@ -1770,3 +1770,37 @@ input, select, textarea { font: inherit; color: inherit; }
 }
 .admin-chip.held { border-color: var(--oxblood); color: var(--oxblood); }
 .admin-chip.unknown { border-style: dashed; color: var(--ink-mute); }
+
+/* Being listed is not an endorsement — the tabs alone did not convey that. */
+.position-note {
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  padding: 10px 0 0;
+  border-top: 1px solid var(--rule-soft);
+  margin-top: 10px;
+}
+.position-note strong { color: var(--oxblood); }
+.position-note-link {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brass-deep);
+  white-space: nowrap;
+}
+
+/* Shown on every church that does not meet the standard, so a listing is never mistaken
+   for an endorsement. */
+.listing-caveat {
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  background: var(--bg-soft);
+  border-left: 3px solid var(--rule);
+  padding: 14px 18px;
+  margin-bottom: 24px;
+}
+.listing-caveat strong { color: var(--oxblood); }

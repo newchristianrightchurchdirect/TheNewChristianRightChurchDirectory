@@ -16,6 +16,39 @@ export default function DuplicatesPage() {
   const [nameMatches, setNameMatches] = useState(0)
   const [addressMatches, setAddressMatches] = useState(0)
   const [loading, setLoading] = useState(true)
+  const [busy, setBusy] = useState(false)
+
+  // Always previews first: the operator sees exactly what would move off the duplicate before
+  // anything is deleted, because the loss is not recoverable.
+  const merge = async (duplicateId: number, survivorId: number) => {
+    setBusy(true)
+    try {
+      const pre = await fetch('/api/admin/duplicates/merge', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ duplicateId, survivorId, dryRun: true }),
+      })
+      const d = await pre.json()
+      if (!pre.ok) { alert(d.error || 'Preview failed'); return }
+      const moving = d.rescued.length
+        ? ['These will be copied across first:', ...d.rescued.map((x: string) => `  • ${x}`)].join('\n')
+        : 'The duplicate holds nothing the survivor lacks.'
+      if (!confirm([
+        `Merge #${duplicateId} into #${survivorId}?`,
+        '',
+        moving,
+        '',
+        `#${duplicateId} will then be DELETED permanently.`,
+      ].join('\n'))) return
+      const res = await fetch('/api/admin/duplicates/merge', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ duplicateId, survivorId }),
+      })
+      if (res.ok) location.reload()
+      else alert('Merge failed')
+    } finally {
+      setBusy(false)
+    }
+  }
 
   useEffect(() => {
     fetch('/api/admin/duplicates')
@@ -89,6 +122,19 @@ export default function DuplicatesPage() {
                         <Link className="btn" href={`/admin/dashboard/churches?q=${encodeURIComponent(r.name)}`}>Edit</Link>
                         {' '}
                         <a className="btn" href={`/church/${r.id}`} target="_blank" rel="noopener noreferrer">View</a>
+                        {g.rows.length === 2 && (
+                          <>
+                            {' '}
+                            <button
+                              className="btn"
+                              disabled={busy}
+                              style={{ color: 'var(--oxblood)', borderColor: 'var(--oxblood)' }}
+                              onClick={() => merge(r.id, g.rows.find(x => x.id !== r.id)!.id)}
+                            >
+                              Merge into other &rarr;
+                            </button>
+                          </>
+                        )}
                       </td>
                     </tr>
                   ))}

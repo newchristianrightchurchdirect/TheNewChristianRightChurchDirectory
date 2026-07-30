@@ -10,10 +10,13 @@ export const metadata: Metadata = {
 export const revalidate = 3600
 
 export default async function AboutPage() {
-  const [total, states, denominations] = await Promise.all([
+  const [total, states, denominations, qualifying, examinedNo, unverified] = await Promise.all([
     prisma.church.count({ where: { approved: true } }),
     prisma.church.findMany({ where: { approved: true }, select: { state: true }, distinct: ['state'] }),
     prisma.church.findMany({ where: { approved: true, denomination: { not: null } }, select: { denomination: true }, distinct: ['denomination'] }),
+    prisma.church.count({ where: { approved: true, culturalEngagement: 'transformationalist' } }),
+    prisma.church.count({ where: { approved: true, culturalEngagement: { in: ['limited_mission', 'quietist'] } } }),
+    prisma.church.count({ where: { approved: true, culturalEngagement: 'unknown' } }),
   ])
 
   return (
@@ -22,6 +25,13 @@ export default async function AboutPage() {
         <h1>A directory of churches that <em>contend</em>.</h1>
         <p className="lede" style={{ textAlign: 'left' }}>
           <span className="dropcap">T</span>he New Christian Right exists to identify, map, and document Bible-believing churches across America that confess Christ&apos;s lordship over more than the sanctuary — congregations that take up public questions as churches, rather than leaving the field to the individual conscience.
+        </p>
+        <p className="lede" style={{ textAlign: 'left', marginTop: 18 }}>
+          <strong>Being listed here is not an endorsement.</strong> Of the {total.toLocaleString()} congregations
+          documented, <strong>{qualifying}</strong> presently meet that standard. {examinedNo} have been
+          examined and do not. The remaining {unverified.toLocaleString()} have not been researched
+          closely enough to say either way. A listing means we have looked into a church — not that
+          it belongs to this movement.
         </p>
       </section>
 
@@ -72,8 +82,12 @@ export default async function AboutPage() {
 
       <section className="about-stats">
         <div className="about-stat">
-          <div className="about-stat-num"><em>{total.toLocaleString()}</em></div>
-          <div className="about-stat-label">Churches Indexed</div>
+          <div className="about-stat-num"><em>{qualifying}</em></div>
+          <div className="about-stat-label">Meet the Standard</div>
+        </div>
+        <div className="about-stat">
+          <div className="about-stat-num">{total.toLocaleString()}</div>
+          <div className="about-stat-label">Congregations Documented</div>
         </div>
         <div className="about-stat">
           <div className="about-stat-num">{states.length}</div>
@@ -141,16 +155,21 @@ export default async function AboutPage() {
 
           <div className="faq-item">
             <div className="faq-q"><span>What does &ldquo;transformationalist&rdquo; mean here?</span><span className="q-num">Q.02</span></div>
-            <div className="faq-a">That the congregation believes Christ&apos;s lordship covers law, politics, and culture, and says so as a church rather than leaving it to members acting privately. It is a description of a church&apos;s posture, not a partisan alignment. A church marked <em>Limited Mission</em> is not thereby liberal or compromised — many are thoroughly orthodox and simply hold that the institutional church should not take up such causes. Zionist stance and abolition commitment are recorded as separate indicators.</div>
+            <div className="faq-a">That the congregation believes Christ&apos;s lordship covers law, politics, and culture, and says so <em>as a church</em> rather than leaving it to members acting privately. <strong>This is the standard, and only these {qualifying} churches meet it.</strong> A church marked <em>Limited Mission</em> holds that the institutional church should not take up such causes; a <em>Quietist</em> church treats political engagement as worldly. Many in both groups are thoroughly orthodox and entirely sincere — but they are not what this directory exists to find, and they are listed to record that they were examined, not to commend them. Zionist stance and abolition commitment are recorded as separate indicators.</div>
           </div>
 
           <div className="faq-item">
-            <div className="faq-q"><span>How can I correct a listing?</span><span className="q-num">Q.03</span></div>
+            <div className="faq-q"><span>My church is listed — does that mean you endorse it?</span><span className="q-num">Q.03</span></div>
+            <div className="faq-a">No. Most listings are records of research, not recommendations. A congregation is only being held up as part of this movement if it is marked <strong>Transformational</strong>. <em>Unverified</em> means exactly that — we have not yet done the work to classify it, and no judgement either way should be read into it.</div>
+          </div>
+
+          <div className="faq-item">
+            <div className="faq-q"><span>How can I correct a listing?</span><span className="q-num">Q.04</span></div>
             <div className="faq-a">Use the submission form to flag any listing that misrepresents your congregation. Editorial corrections are typically reviewed within seven days.</div>
           </div>
 
           <div className="faq-item">
-            <div className="faq-q"><span>Do you charge for inclusion?</span><span className="q-num">Q.04</span></div>
+            <div className="faq-q"><span>Do you charge for inclusion?</span><span className="q-num">Q.05</span></div>
             <div className="faq-a">Never. The directory is free for both the listed church and the searching reader. There is no premium tier, no sponsored placement, and no advertising.</div>
           </div>
         </div>
