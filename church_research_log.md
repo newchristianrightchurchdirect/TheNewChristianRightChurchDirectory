@@ -605,3 +605,33 @@ Totals: 4,095 → **4,067**. Zero rows still flagged `duplicate_of`.
 **STILL OPEN:** two closed congregations remain live from before this batch — #2625 Grace Life
 Baptist (Clyde Township MI, closed Dec 2025) and #1495 New City Presbyterian (Hilliard OH,
 dissolved 2023, flagged `closed_hidden` yet `approved = true`).
+
+## 2026-07-30 — PROVENANCE AUDIT of the 104 "transformationalist" rows
+
+Asked how the 104 were arrived at, and the answer is: mostly by inference, not evidence.
+`culturalEngagement` is documented in schema.prisma as **EVIDENCE-ONLY — do not default by broad
+denomination**. That rule was not held to.
+
+Of the 104:
+- **39** were set by denominational default (`stanceBasis = denominational_default`, or a
+  researchNote saying "Stance(s) set by denominational default" / "Defaults (CREC)").
+- **28 of the 33 CREC rows** were classified transformationalist on blanket "it is CREC"
+  reasoning rather than anything the individual congregation said or did.
+- **26** were set only by the notable-figure sync — a notable person is associated with the
+  church, therefore the church was marked transformationalist. That is an inference about a
+  person, not about the institution.
+- **8** carry no `sourceUrls` at all.
+- **Exactly 1** has notes that actually argue the congregation acts corporately on public
+  questions, which is the definition of the category.
+
+**Defensible today: 31** (has sources, not denominationally defaulted, not notable-figure-only).
+**Needs re-examination: 73.**
+
+This matters more than an ordinary data gap because the About page now leads with "104 Meet the
+Standard". That figure currently overstates what has been verified. Options are to re-audit the
+73 against the evidence-only rule and demote what fails, or to publish the qualification openly.
+NOT YET ACTED ON — flagged for a decision.
+
+Also corrected on the About page: the mission paragraph read "On abortion above all, but also
+on…", which elevated one issue over the rest. The directory's criteria are not ranked; a church
+that contends on one question and is silent on the others has not grasped the principle.

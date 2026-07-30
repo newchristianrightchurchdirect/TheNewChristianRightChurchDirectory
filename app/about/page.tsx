@@ -67,7 +67,7 @@ export default async function AboutPage() {
             For the better part of a century, American evangelicalism has been taught that the church&apos;s business stops at the church door — that the pulpit preaches, and whatever follows in law, court, and legislature is a matter for private citizens acting alone. Whole confessions of faith are held sincerely and applied nowhere.
           </p>
           <p>
-            A growing number of Bible-believing congregations reject that settlement. They hold that Christ&apos;s crown rights extend over magistrates as well as members, and they act accordingly — as churches. On abortion above all, but also on the education of children, the ordering of the family, and the claims the state makes on the conscience. These churches are scattered, often small, and genuinely difficult to find.
+            A growing number of Bible-believing congregations reject that settlement. They hold that Christ&apos;s crown rights extend over magistrates as well as members, and they act accordingly — as churches. On the shedding of innocent blood, the education of children, the ordering of the family, and the claims the state makes on the conscience. No one of these is the test; a church that contends on one and stays silent on the rest has not grasped the principle. These churches are scattered, often small, and genuinely difficult to find.
           </p>
           <p>
             <strong>This directory makes them findable.</strong>
