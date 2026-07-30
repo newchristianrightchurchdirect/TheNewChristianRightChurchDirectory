@@ -6,7 +6,8 @@ import { useEffect, useMemo, useRef } from 'react'
 import { toRoman } from '@/lib/hymnal/loader'
 import { useHymnalStore } from '@/store/hymnal'
 
-type Tab = { href: string; label: string; match: (p: string) => boolean; icon: React.ReactNode }
+// `aria` overrides the visible label when it is too generic to stand alone as link text.
+type Tab = { href: string; label: string; aria?: string; match: (p: string) => boolean; icon: React.ReactNode }
 
 const TABS: Tab[] = [
   {
@@ -62,6 +63,7 @@ const TABS: Tab[] = [
   {
     href: '/hymnal/more',
     label: 'More',
+    aria: 'More hymnal tools and settings',
     match: (p) => p.startsWith('/hymnal/more') || p.startsWith('/hymnal/search') || p.startsWith('/hymnal/import') || p.startsWith('/install'),
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
@@ -171,7 +173,12 @@ export default function HymnalChrome({ children }: { children: React.ReactNode }
       <nav className="hymnal-tabbar" aria-label="Hymnal sections">
         <div className="hymnal-tabbar-inner">
           {TABS.map((t) => (
-            <Link key={t.href} href={t.href} className={`hymnal-tab${t.match(pathname) ? ' active' : ''}`}>
+            <Link
+              key={t.href}
+              href={t.href}
+              aria-label={t.aria ?? t.label}
+              className={`hymnal-tab${t.match(pathname) ? ' active' : ''}`}
+            >
               {t.icon}
               <span>{t.label}</span>
             </Link>

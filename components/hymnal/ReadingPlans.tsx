@@ -49,7 +49,7 @@ export default function ReadingPlans() {
           return (
             <div key={p.id} className="plan-card">
               <div className="head">
-                <h3>{p.title}</h3>
+                <h2 className="plan-title">{p.title}</h2>
                 {active && (
                   <span className="active-pill">
                     <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden>

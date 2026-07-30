@@ -101,7 +101,7 @@ export default function SecureLoginPage() {
       <div className="min-h-screen flex items-center justify-center bg-ivory">
         <div className="text-center space-y-4">
           <div className="w-8 h-8 border-2 border-gold/30 border-t-gold rounded-full animate-spin mx-auto"></div>
-          <p className="font-body text-sm text-gray-500">Checking authentication...</p>
+          <p className="font-body text-sm text-gray-600">Checking authentication...</p>
         </div>
       </div>
     )
@@ -119,7 +119,7 @@ export default function SecureLoginPage() {
               </svg>
             </div>
             <h1 className="font-display text-2xl font-bold text-navy">Restricted Access</h1>
-            <p className="font-body text-sm text-gray-500">Enter the access code to continue</p>
+            <p className="font-body text-sm text-gray-600">Enter the access code to continue</p>
           </div>
 
           <div className="bg-white rounded-2xl shadow-lg shadow-navy/5 border border-cream p-6">
@@ -173,13 +173,13 @@ export default function SecureLoginPage() {
             <span className="text-gold text-2xl">&#10013;</span>
           </div>
           <h1 className="font-display text-3xl font-bold text-navy">Admin Login</h1>
-          <p className="font-body text-sm text-gray-500">Church Directory Administration</p>
+          <p className="font-body text-sm text-gray-600">Church Directory Administration</p>
         </div>
 
         <div className="bg-white rounded-2xl shadow-lg shadow-navy/5 border border-cream p-6">
           <div className="mb-5">
             <h2 className="font-display text-lg font-semibold text-navy">Sign In</h2>
-            <p className="font-body text-xs text-gray-500 mt-0.5">Enter your credentials to access the admin dashboard</p>
+            <p className="font-body text-xs text-gray-600 mt-0.5">Enter your credentials to access the admin dashboard</p>
           </div>
 
           {error && (
