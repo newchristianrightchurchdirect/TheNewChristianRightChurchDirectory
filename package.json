@@ -24,6 +24,8 @@
     "leaflet": "^1.9.4",
     "next": "^15.3.0",
     "pdfjs-dist": "^4.10.38",
+    "posthog-js": "^1.408.3",
+    "posthog-node": "^5.46.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "sanitize-html": "^2.17.2",

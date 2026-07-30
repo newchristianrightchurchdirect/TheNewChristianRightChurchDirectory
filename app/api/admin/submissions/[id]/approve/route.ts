@@ -2,6 +2,7 @@ import { prisma } from '@/lib/prisma'
 import { NextRequest, NextResponse } from 'next/server'
 import { getAuthToken, verifyToken } from '@/lib/actions/auth-actions'
 import { validateCsrf } from '@/lib/csrf'
+import { getPostHogClient } from '@/lib/posthog-server'
 
 export async function POST(
   request: NextRequest,
@@ -28,6 +29,20 @@ export async function POST(
     where: { id: churchId },
     data: { approved: true },
   })
+
+  const posthog = getPostHogClient()
+  if (posthog) {
+    posthog.capture({
+      distinctId: result.user!.id,
+      event: 'church_submission_approved',
+      properties: {
+        church_id: churchId,
+        church_state: church.state,
+        cultural_engagement: church.culturalEngagement,
+      },
+    })
+    await posthog.flush()
+  }
 
   return NextResponse.json(church)
 }

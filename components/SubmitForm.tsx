@@ -2,6 +2,7 @@
 
 import { useState, FormEvent, ReactNode } from 'react'
 import Link from 'next/link'
+import posthog from 'posthog-js'
 
 const STATES = ['AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT','VA','WA','WV','WI','WY','DC']
 
@@ -88,9 +89,16 @@ export default function SubmitForm() {
         const data = await res.json().catch(() => ({}))
         throw new Error(data.error || 'Failed to submit church')
       }
+      posthog.capture('church_submission_completed', {
+        church_state: form.state,
+        cultural_engagement: form.culturalEngagement,
+        has_denomination: !!form.denomination.trim(),
+        has_website: !!form.website.trim(),
+      })
       setStatus('success')
       window.scrollTo({ top: 0, behavior: 'smooth' })
     } catch (err) {
+      posthog.captureException(err)
       setStatus('error')
       setErrorMessage(err instanceof Error ? err.message : 'Something went wrong. Please try again.')
     }

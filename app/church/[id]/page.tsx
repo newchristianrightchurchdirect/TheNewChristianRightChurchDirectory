@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { useParams } from 'next/navigation'
 import dynamic from 'next/dynamic'
 import Link from 'next/link'
+import posthog from 'posthog-js'
 
 const MapView = dynamic(() => import('@/components/MapView'), { ssr: false })
 
@@ -77,18 +78,34 @@ export default function ChurchDetailPage() {
     if (hasVoted) return
     setHasVoted(true)
     setUpvotes(prev => prev + 1)
+    posthog.capture('church_upvoted', {
+      church_id: church?.id,
+      church_name: church?.name,
+      church_state: church?.state,
+      denomination: church?.denomination,
+    })
     await fetch(`/api/churches/${id}/upvote`, { method: 'POST' })
   }
 
   const handleReport = async () => {
     if (!reportReason) return
     setReportStatus('sending')
-    await fetch(`/api/churches/${id}/report`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ reason: reportReason, details: reportDetails }),
-    })
-    setReportStatus('sent')
+    try {
+      await fetch(`/api/churches/${id}/report`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ reason: reportReason, details: reportDetails }),
+      })
+      setReportStatus('sent')
+      posthog.capture('church_report_submitted', {
+        church_id: church?.id,
+        church_state: church?.state,
+        reason: reportReason,
+      })
+    } catch (err) {
+      posthog.captureException(err)
+      setReportStatus('idle')
+    }
   }
 
   if (loading) {
@@ -240,7 +257,18 @@ export default function ChurchDetailPage() {
             Report Listing
           </button>
           {church.website && (
-            <a href={church.website} target="_blank" rel="noopener noreferrer" className="btn primary" style={{ flex: '1 1 auto', minWidth: 200 }}>
+            <a
+              href={church.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn primary"
+              style={{ flex: '1 1 auto', minWidth: 200 }}
+              onClick={() => posthog.capture('church_website_clicked', {
+                church_id: church.id,
+                church_state: church.state,
+                denomination: church.denomination,
+              })}
+            >
               Visit Website &rarr;
             </a>
           )}

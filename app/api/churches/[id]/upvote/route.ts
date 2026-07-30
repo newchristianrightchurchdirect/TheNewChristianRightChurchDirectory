@@ -2,6 +2,7 @@ import { prisma } from '@/lib/prisma'
 import { NextRequest, NextResponse } from 'next/server'
 import { validateCsrf } from '@/lib/csrf'
 import { checkRateLimit } from '@/lib/rate-limit'
+import { getPostHogClient } from '@/lib/posthog-server'
 
 export async function POST(
   request: NextRequest,
@@ -30,6 +31,18 @@ export async function POST(
       where: { id: churchId },
       data: { upvotes: { increment: 1 } },
     })
+    const posthog = getPostHogClient()
+    if (posthog) {
+      posthog.capture({
+        distinctId: 'anonymous',
+        event: 'church_upvote_recorded',
+        properties: {
+          church_id: churchId,
+          new_upvote_count: church.upvotes,
+        },
+      })
+      await posthog.flush()
+    }
     return NextResponse.json({ upvotes: church.upvotes })
   } catch {
     return NextResponse.json({ error: 'Church not found' }, { status: 404 })
