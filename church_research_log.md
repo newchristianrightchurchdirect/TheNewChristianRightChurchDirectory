@@ -571,3 +571,37 @@ Justin Phillips is also on Ekklesia's leadership team, so the two records are co
 export script gained a `MINISTRY_CONTACT` map and a "Ministry contact" column for this. Since One
 Life For Life is the mill-missionary work itself, this is the right address for the
 equal-protection / abolition question that keeps `abolitionStance` at `unknown` on this row.
+
+## 2026-07-30 — 28 mistaken approvals removed (6 closed, 22 duplicates)
+
+28 rows were approved in the admin dashboard on the assumption they were pending submissions.
+They were not: they were the quarantine pile, held back on purpose. The dashboard lists rows
+awaiting approval **without showing `recordFlag`**, so there was no way to see why.
+
+- **6 flagged `closed`** — defunct congregations published as if active: #144 Triune Grace RB
+  (Denton MD), #189 South Baptist (Laconia NH), #371 Providence Presbyterian (Montgomery AL),
+  #437 Calvary Presbyterian (Glendale CA), #492 New Life Burbank (dissolved Aug 2025),
+  #1012 Christ the King JP/Roxbury ("no longer meeting").
+- **22 flagged `duplicate_of:N`** — each already present under another id, so those churches
+  appeared twice in the public directory.
+
+Doctrinally the batch was in-bounds: Reformed Baptist, PCA, URCNA, ARP, mostly. Nothing tripped
+the exclusion rules. The defect was duplication and defunct listings, not fit. Several also
+carried junk city values ("French Creek Precinct, IL", "Iredell County, NC", "Sakom Township,
+ME") and one was titled "East Anaheim Community Center", which is not a church name.
+
+**Duplicates were merged before deletion, not merely deleted.** 19 of the 22 held something the
+surviving row lacked — 2 emails, 2 leadership fields, 1 description, and research text — which
+is exactly the loss that cost this directory a Knox Open Letter signatory note in a previous
+dedupe. Stance fields were deliberately NOT copied: the survivor is the researched row, and these
+duplicates mostly carried denominational defaults, so copying them would have downgraded
+evidenced stances to guesses. Full pre-delete backup: `data/purged-approvals-backup-2026-07-30.json`.
+
+#58 All Souls Reformed Church (Green Camp, OH — CREC, sourced, transformationalist) was in the
+same batch and is legitimate; it stays.
+
+Totals: 4,095 → **4,067**. Zero rows still flagged `duplicate_of`.
+
+**STILL OPEN:** two closed congregations remain live from before this batch — #2625 Grace Life
+Baptist (Clyde Township MI, closed Dec 2025) and #1495 New City Presbyterian (Hilliard OH,
+dissolved 2023, flagged `closed_hidden` yet `approved = true`).
