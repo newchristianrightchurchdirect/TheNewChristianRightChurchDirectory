@@ -1612,3 +1612,18 @@ input, select, textarea { font: inherit; color: inherit; }
   padding-left: 16px;
   border-left: 2px solid var(--oxblood);
 }
+
+/* The church name is the card's link to the full profile. It inherits the card's type so the
+   list looks unchanged, and only signals "link" on hover/focus. */
+.church-name-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.church-name-link:hover {
+  border-bottom-color: var(--brass);
+}
+.church-name-link:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 2px;
+}

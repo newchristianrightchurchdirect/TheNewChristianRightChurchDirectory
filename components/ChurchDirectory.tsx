@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useMemo, useCallback } from 'react'
 import dynamic from 'next/dynamic'
+import Link from 'next/link'
 import ChurchCard from './ChurchCard'
 
 const MapView = dynamic(() => import('./MapView'), {
@@ -426,10 +427,14 @@ function DetailPanel({ church, onClose }: { church: Church | null; onClose: () =
             <div className="detail-actions">
               <button className="btn" type="button" onClick={onClose}>Close</button>
               {church.phone && <a className="btn" href={`tel:${church.phone}`}>Call</a>}
+              {/* This panel is a summary. Everything researched about the congregation —
+                  notable people, the editor's note, the full stance record — is on its own
+                  page, and until now nothing in the UI linked there. */}
+              <Link className="btn primary" href={`/church/${church.id}`}>Full Profile &rarr;</Link>
               {church.website ? (
-                <a className="btn primary" href={church.website} target="_blank" rel="noopener noreferrer">Visit Website &rarr;</a>
+                <a className="btn" href={church.website} target="_blank" rel="noopener noreferrer">Visit Website &rarr;</a>
               ) : (
-                <button className="btn primary" type="button" disabled>No Website</button>
+                <button className="btn" type="button" disabled>No Website</button>
               )}
             </div>
           </>

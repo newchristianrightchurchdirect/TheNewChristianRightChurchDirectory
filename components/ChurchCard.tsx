@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 interface Church {
   id: number
   name: string
@@ -43,14 +45,21 @@ export default function ChurchCard({ church, index, active, onClick }: Props) {
   const blurb = church.description || church.theologicalNotes || ''
 
   return (
-    <button
-      type="button"
+    <div
       className={`church-card${active ? ' active' : ''}`}
       onClick={onClick}
     >
       <div className="church-num">N&deg;{String(index).padStart(2, '0')}</div>
       <div className="church-body">
-        <div className="church-name">{church.name}</div>
+        <div className="church-name">
+          <Link
+            href={`/church/${church.id}`}
+            className="church-name-link"
+            onClick={e => e.stopPropagation()}
+          >
+            {church.name}
+          </Link>
+        </div>
         {church.denomination && <div className="church-denom">{church.denomination}</div>}
         <div className="church-loc">{church.city}, {church.state}</div>
         {blurb && <div className="church-blurb">{blurb}</div>}
@@ -65,6 +74,6 @@ export default function ChurchCard({ church, index, active, onClick }: Props) {
           <div key={t.cls} className={`church-tag indicator ${t.cls}`}>{t.label}</div>
         ))}
       </div>
-    </button>
+    </div>
   )
 }
