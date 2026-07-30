@@ -47,44 +47,31 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
 
   if (isCheckingAuth) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-ivory">
-        <div className="text-center space-y-4">
-          <div className="w-8 h-8 border-2 border-gold/30 border-t-gold rounded-full animate-spin mx-auto"></div>
-          <p className="font-body text-sm text-gray-500">Checking authentication...</p>
-        </div>
+      <div className="admin-shell" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <p style={{ fontFamily: 'var(--serif)', fontStyle: 'italic', color: 'var(--ink-mute)' }}>
+          Checking authentication&hellip;
+        </p>
       </div>
     )
   }
 
   return (
-    <div className="min-h-screen bg-ivory">
-      {/* Admin Header */}
-      <div className="bg-navy border-b border-white/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-14">
-            <div className="flex items-center gap-4">
-              <Link href="/" className="flex items-center gap-2 group">
-                <span className="text-gold text-lg">&#10013;</span>
-                <span className="font-display text-sm font-semibold text-gold/80 group-hover:text-gold transition-colors">Directory</span>
-              </Link>
-              <span className="w-px h-4 bg-white/15"></span>
-              <span className="font-body text-xs text-white/50 uppercase tracking-wider">Admin</span>
-            </div>
-            <button
-              onClick={async () => { await logout(); router.push('/') }}
-              className="px-3 py-1.5 rounded-lg font-body text-xs text-white/50 hover:text-white hover:bg-white/5 transition-all"
-            >
-              Sign Out
-            </button>
+    <div className="admin-shell">
+      <div className="admin-bar">
+        <div className="admin-bar-inner">
+          <div className="admin-bar-left">
+            <Link href="/">&#10013;&nbsp; Directory</Link>
+            <span className="admin-bar-sep" />
+            <span>Admin</span>
           </div>
+          <button className="admin-signout" onClick={async () => { await logout(); router.push('/') }}>
+            Sign Out
+          </button>
         </div>
       </div>
 
-      {/* Content */}
       <div ref={scrollRef} data-admin-scroll>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
-          {children}
-        </div>
+        <div className="admin-wrap">{children}</div>
       </div>
     </div>
   )

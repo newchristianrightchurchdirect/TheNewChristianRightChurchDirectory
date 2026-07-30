@@ -48,6 +48,11 @@ model Church {
   researchStatus   String   @default("not_researched") // "researched" | "blocked" | "not_researched"
   researchNote     String?  // if blocked: why (dead site, JS-rendered, 403, bad record); else research source/date
   recordFlag       String?  // data-quality tags, ';'-separated: "duplicate_of:<id>" | "closed" | "in_transition" | "denom_corrected" | "denom_ambiguous" | "corrected"
+  // Provenance for anything sitting at approved=false. "public_form" means a visitor submitted
+  // it and it genuinely awaits review; null means it was created by an import or a script and is
+  // being HELD, not queued. Without this the admin queue cannot tell a submission from a
+  // quarantined duplicate — which is how 28 flagged rows got published on 2026-07-30.
+  submissionSource String?
   stanceBasis      String?  // "evidenced" | "denominational_default" | "mixed" — how zionist/abolition stances were determined
   sourceUrls       String?  // ';'-separated research source URLs (provenance)
   lastResearchedAt DateTime? // when stances/leadership were last verified

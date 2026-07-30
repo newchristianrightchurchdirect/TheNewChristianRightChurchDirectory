@@ -109,6 +109,9 @@ export async function POST(request: NextRequest) {
       latitude, longitude, website, phone,
       zionistStance, culturalEngagement, theologicalNotes, description,
       approved: false,
+      // Marks this as a genuine public submission awaiting review, as opposed to an
+      // imported or scripted row that is being held back deliberately.
+      submissionSource: 'public_form',
     },
   })
 

@@ -1631,3 +1631,96 @@ input, select, textarea { font: inherit; color: inherit; }
   outline: 2px solid var(--brass);
   outline-offset: 2px;
 }
+
+/* ============ ADMIN ============
+   The admin screens were written against a pre-redesign Tailwind palette (bg-navy, text-gold,
+   border-cream, bg-ivory) that no longer exists in @theme, so every colour resolved to nothing
+   and the pages rendered unstyled. These classes use the current tokens instead. */
+.admin-shell { min-height: 100vh; background: var(--bg); }
+.admin-bar {
+  background: var(--paper);
+  border-bottom: 1px solid var(--ink);
+}
+.admin-bar-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 12px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
+.admin-bar-left { display: flex; align-items: center; gap: 14px; }
+.admin-bar-left a { color: var(--ink); }
+.admin-bar-left a:hover { color: var(--brass-deep); }
+.admin-bar-sep { width: 1px; height: 12px; background: var(--rule); }
+.admin-signout {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  border-bottom: 1px solid transparent;
+}
+.admin-signout:hover { color: var(--oxblood); border-bottom-color: var(--oxblood); }
+
+.admin-wrap { max-width: 1100px; margin: 0 auto; padding: 36px 32px 72px; }
+.admin-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap; margin-bottom: 28px; }
+.admin-title { font-family: var(--serif); font-weight: 500; font-size: 34px; line-height: 1; }
+.admin-sub { font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-mute); margin-top: 8px; }
+
+.admin-section-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--ink);
+  margin: 40px 0 0;
+}
+.admin-card {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-top: none;
+  padding: 20px 24px;
+}
+.admin-card:first-of-type { border-top: 1px solid var(--rule); }
+.admin-card-name { font-family: var(--serif); font-size: 22px; line-height: 1.15; }
+.admin-card-denom { font-family: var(--mono); font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--brass-deep); margin-top: 6px; }
+.admin-card-meta { font-family: var(--mono); font-size: 11px; color: var(--ink-mute); margin-top: 10px; line-height: 1.8; }
+.admin-card-actions { display: flex; gap: 8px; margin-top: 16px; flex-wrap: wrap; }
+
+/* A held row is not a submission. It reads as a warning, never as something to rubber-stamp. */
+.admin-card.held { border-left: 3px solid var(--oxblood); background: var(--bg-soft); }
+.admin-held-reason {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--oxblood);
+  margin-top: 8px;
+}
+.admin-empty {
+  text-align: center;
+  padding: 64px 0;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 20px;
+  color: var(--ink-mute);
+  border: 1px solid var(--rule);
+  background: var(--paper);
+}
+.admin-note {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 15px;
+  color: var(--ink-soft);
+  margin-top: 10px;
+  padding-left: 12px;
+  border-left: 2px solid var(--rule);
+}
