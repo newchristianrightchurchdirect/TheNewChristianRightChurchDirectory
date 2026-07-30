@@ -159,14 +159,14 @@ export default function HymnalCompare() {
         <div className="cmp-pickers">
           <label className="cmp-picker">
             <span className="lbl">Hymnal A</span>
-            <select value={slugA} onChange={(e) => setSlugA(e.target.value)}>
+            <select aria-label="First hymnal to compare" value={slugA} onChange={(e) => setSlugA(e.target.value)}>
               {HYMNALS.map((h) => <option key={h.slug} value={h.slug}>{h.short || h.title}</option>)}
             </select>
           </label>
           <div className="cmp-vs">vs.</div>
           <label className="cmp-picker">
             <span className="lbl">Hymnal B</span>
-            <select value={slugB} onChange={(e) => setSlugB(e.target.value)}>
+            <select aria-label="Second hymnal to compare" value={slugB} onChange={(e) => setSlugB(e.target.value)}>
               {HYMNALS.map((h) => <option key={h.slug} value={h.slug}>{h.short || h.title}</option>)}
             </select>
           </label>

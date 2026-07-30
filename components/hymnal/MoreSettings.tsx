@@ -159,7 +159,7 @@ export default function MoreSettings() {
           <div className="lbl">Default hymnal</div>
           <span className="desc">Opens first when you add a hymn to a service.</span>
         </div>
-        <select value={defH} onChange={(e) => setDefH(e.target.value)}>
+        <select aria-label="Default hymnal" value={defH} onChange={(e) => setDefH(e.target.value)}>
           {HYMNALS.map((h) => <option key={h.slug} value={h.slug}>{h.title}</option>)}
         </select>
       </div>
@@ -168,7 +168,7 @@ export default function MoreSettings() {
           <div className="lbl">Default Bible</div>
           <span className="desc">Used for search and quick links.</span>
         </div>
-        <select value={defB} onChange={(e) => setDefB(e.target.value)}>
+        <select aria-label="Default Bible translation" value={defB} onChange={(e) => setDefB(e.target.value)}>
           {BIBLES.map((b) => <option key={b.slug} value={b.slug}>{b.title}</option>)}
         </select>
       </div>

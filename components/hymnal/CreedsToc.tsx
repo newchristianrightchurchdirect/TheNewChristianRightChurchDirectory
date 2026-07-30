@@ -70,6 +70,9 @@ export default function CreedsToc() {
           <button
             key={t}
             type="button"
+            // The parent is role="tablist", which requires its children to be role="tab".
+            role="tab"
+            aria-selected={t === tradition}
             className={`chip${t === tradition ? ' on' : ''}`}
             onClick={() => setTradition(t)}
           >

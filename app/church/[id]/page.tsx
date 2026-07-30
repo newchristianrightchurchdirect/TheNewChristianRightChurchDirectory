@@ -260,7 +260,7 @@ export default function ChurchDetailPage() {
                 <div className="form-fields">
                   <div className="field">
                     <div className="field-label"><span>Reason</span></div>
-                    <select value={reportReason} onChange={e => setReportReason(e.target.value)}>
+                    <select aria-label="Reason for report" value={reportReason} onChange={e => setReportReason(e.target.value)}>
                       <option value="">Select a reason&hellip;</option>
                       {REPORT_REASONS.map(r => <option key={r.value} value={r.value}>{r.label}</option>)}
                     </select>

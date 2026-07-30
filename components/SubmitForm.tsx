@@ -177,7 +177,7 @@ export default function SubmitForm() {
             <input type="text" required maxLength={100} placeholder="Nashville" value={form.city} onChange={e => set('city', e.target.value)} />
           </Field>
           <Field label="State" required>
-            <select required value={form.state} onChange={e => set('state', e.target.value)}>
+            <select aria-label="State" required value={form.state} onChange={e => set('state', e.target.value)}>
               <option value="" disabled>Select&hellip;</option>
               {STATES.map(s => <option key={s} value={s}>{s}</option>)}
             </select>

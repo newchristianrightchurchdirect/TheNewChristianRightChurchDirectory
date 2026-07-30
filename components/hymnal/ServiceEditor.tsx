@@ -711,7 +711,7 @@ function AddItemForm(p: AddProps) {
         {p.kind === 'hymn' && (
           <>
             <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 160px)', gap: 8 }}>
-              <select value={p.hymnal} onChange={(e) => p.setHymnal(e.target.value)} style={fieldStyle}>
+              <select aria-label="Hymnal" value={p.hymnal} onChange={(e) => p.setHymnal(e.target.value)} style={fieldStyle}>
                 {HYMNALS.map((h) => <option key={h.slug} value={h.slug}>{h.title}</option>)}
               </select>
               <input
@@ -741,7 +741,7 @@ function AddItemForm(p: AddProps) {
         )}
         {p.kind === 'scripture' && (
           <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 100px) minmax(0, 1fr) minmax(0, 80px)', gap: 8 }}>
-            <select value={p.translation} onChange={(e) => p.setTranslation(e.target.value)} style={fieldStyle}>
+            <select aria-label="Bible translation" value={p.translation} onChange={(e) => p.setTranslation(e.target.value)} style={fieldStyle}>
               {BIBLES.map((b) => <option key={b.slug} value={b.slug}>{b.short}</option>)}
             </select>
             <input type="text" placeholder="book (e.g. john)" value={p.book} onChange={(e) => p.setBook(e.target.value)} style={fieldStyle} />
