@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { prisma } from '@/lib/prisma'
 import { HYMNALS, BIBLES } from '@/lib/hymnal/sources'
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://churchdirectory.com'
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://the-new-christian-right-church-dire.vercel.app'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date()

@@ -29,7 +29,13 @@ const mono = JetBrains_Mono({
   display: 'swap',
 })
 
+// Without metadataBase, relative canonical/OG URLs are emitted as-is — the church pages were
+// shipping <link rel="canonical" href="/church/3247">, which is not a valid canonical.
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL || 'https://the-new-christian-right-church-dire.vercel.app'
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: 'The New Christian Right Church Directory — Churches Contending for the Crown Rights of Christ',
     template: '%s — The New Christian Right',

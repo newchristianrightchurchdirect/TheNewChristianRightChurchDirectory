@@ -147,7 +147,7 @@ export default function SecureLoginPage() {
 
               <button
                 type="submit"
-                className="w-full py-3 bg-navy text-white font-body text-sm font-semibold rounded-xl hover:bg-navy-light transition-colors disabled:opacity-50"
+                className="w-full mt-3 py-3 bg-navy text-white font-body text-sm font-semibold rounded-xl hover:bg-navy-light transition-colors disabled:opacity-50"
                 disabled={isVerifyingCode}
               >
                 {isVerifyingCode ? (
@@ -240,7 +240,7 @@ export default function SecureLoginPage() {
 
             <button
               type="submit"
-              className="w-full py-3 bg-navy text-white font-body text-sm font-semibold rounded-xl hover:bg-navy-light transition-colors disabled:opacity-50"
+              className="w-full mt-3 py-3 bg-navy text-white font-body text-sm font-semibold rounded-xl hover:bg-navy-light transition-colors disabled:opacity-50"
               disabled={isLoading}
             >
               {isLoading ? (
