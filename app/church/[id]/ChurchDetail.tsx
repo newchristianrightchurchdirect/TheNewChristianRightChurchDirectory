@@ -85,7 +85,7 @@ export default function ChurchDetail({ church }: { church: Church }) {
     <div>
       {church.latitude != null && church.longitude != null && (
         <div style={{ height: '32vh', minHeight: 240, position: 'relative', borderBottom: '1px solid var(--ink)' }}>
-          <MapView churches={[church]} />
+          <MapView churches={[church]} focusSingle />
         </div>
       )}
 

@@ -28,9 +28,12 @@ interface MapViewProps {
   churches: Church[]
   activeId?: number | null
   onSelect?: (id: number) => void
+  /** Centre the map on the congregation when exactly one is shown (the church detail page).
+   *  Off by default so the directory keeps its national view while filtering. */
+  focusSingle?: boolean
 }
 
-export default function MapView({ churches, activeId = null, onSelect }: MapViewProps) {
+export default function MapView({ churches, activeId = null, onSelect, focusSingle = false }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<L.Map | null>(null)
   const markersRef = useRef<Record<number, L.Marker>>({})
@@ -110,7 +113,12 @@ export default function MapView({ churches, activeId = null, onSelect }: MapView
       marker.on('click', () => onSelectRef.current?.(church.id))
       markersRef.current[church.id] = marker
     })
-  }, [churches])
+
+    if (focusSingle && withCoords.length === 1) {
+      const only = withCoords[0]
+      map.setView([only.latitude!, only.longitude!], 13)
+    }
+  }, [churches, focusSingle])
 
   useEffect(() => {
     Object.entries(markersRef.current).forEach(([id, m]) => {

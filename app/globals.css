@@ -270,6 +270,10 @@ input, select, textarea { font: inherit; color: inherit; }
   background: var(--bg-soft);
   border-right: 1px solid var(--ink);
   overflow: hidden;
+  /* Every child is absolutely positioned, so without this the section has no content height.
+     On the homepage it survives as a stretched grid item, but anywhere else (the church page,
+     where the parent is a plain block) it collapsed to 2px and clipped the map entirely. */
+  height: 100%;
 }
 .map-frame {
   position: absolute;
