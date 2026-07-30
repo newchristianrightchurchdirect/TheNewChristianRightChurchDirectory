@@ -62,7 +62,7 @@ const TABS: Tab[] = [
   },
   {
     href: '/hymnal/more',
-    label: 'More',
+    label: 'Tools',
     aria: 'More hymnal tools and settings',
     match: (p) => p.startsWith('/hymnal/more') || p.startsWith('/hymnal/search') || p.startsWith('/hymnal/import') || p.startsWith('/install'),
     icon: (

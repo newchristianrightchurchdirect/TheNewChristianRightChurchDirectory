@@ -163,7 +163,7 @@
   border-bottom: 1px solid var(--nxr-rule);
   margin: 4px 0 0;
   font-family: var(--serif);
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--nxr-ink);
@@ -347,7 +347,7 @@
   padding: 8px 14px;
   border: 1px solid var(--nxr-rule);
   font-family: var(--serif);
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--nxr-ink-soft);
@@ -407,7 +407,7 @@
 .entry-row .meta {
   display: block;
   font-family: var(--serif);
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--nxr-ink-mute);

@@ -10,6 +10,21 @@ import { notFound } from 'next/navigation'
 import { prisma } from '@/lib/prisma'
 import ChurchDetail from './ChurchDetail'
 
+// Rendered on demand and then cached, rather than dynamically per request. This matters for
+// more than speed: on a purely dynamic route Next STREAMS metadata into the body and lets React
+// hoist it at hydration, so <title> and <meta name="description"> land outside <head> in the
+// initial HTML (measured at byte 22,711 with </head> at 1,787). A cached render puts them back
+// in <head> for every client, JS or not.
+//
+// Nothing is prerendered at build time — 4,067 pages would bloat the build — so the first
+// request for a church generates it and every later one is served from cache.
+export const revalidate = 3600
+export const dynamicParams = true
+
+export async function generateStaticParams() {
+  return []
+}
+
 const POSITION_LABEL: Record<string, string> = {
   transformationalist: 'a transformationalist congregation that acts corporately on public issues',
   limited_mission: 'a congregation holding the church’s institutional mission to be a limited one',
