@@ -236,13 +236,13 @@ export default function ChurchDirectory() {
             </div>
             <div className="filter-row">
               <div className="filter-select">
-                <select value={stateFilter} onChange={e => setStateFilter(e.target.value)}>
+                <select aria-label="Filter by state" value={stateFilter} onChange={e => setStateFilter(e.target.value)}>
                   <option value="">All States</option>
                   {states.map(s => <option key={s} value={s}>{s}</option>)}
                 </select>
               </div>
               <div className="filter-select">
-                <select value={denomFilter} onChange={e => setDenomFilter(e.target.value)}>
+                <select aria-label="Filter by denomination" value={denomFilter} onChange={e => setDenomFilter(e.target.value)}>
                   <option value="">All Denominations</option>
                   {denominations.map(d => <option key={d} value={d}>{d}</option>)}
                 </select>

@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+/* Web fonts are self-hosted through next/font in app/layout.tsx, which exposes them as
+   --font-cormorant / --font-inter-tight / --font-jetbrains. The previous
+   @import from fonts.googleapis.com was blocked by this site's own CSP
+   (style-src 'self' 'unsafe-inline'), so none of these faces were ever loading. */
 
 @font-face {
   font-family: 'Cormorant Garamond Local';
@@ -43,9 +46,9 @@
   --color-brass: #a87c2f;
   --color-brass-deep: #7d5a1f;
   --color-oxblood: #6e1f1a;
-  --font-serif: 'Cormorant Garamond', 'EB Garamond', Georgia, serif;
-  --font-sans: 'Inter Tight', 'Inter', system-ui, sans-serif;
-  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  --font-serif: var(--font-cormorant), 'EB Garamond Local', Georgia, serif;
+  --font-sans: var(--font-inter-tight), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, 'SF Mono', Menlo, monospace;
 }
 
 :root {
@@ -67,9 +70,9 @@
   --tag-non: #a87c2f;
   --tag-zio: #2c2622;
   --tag-unk: #8a8275;
-  --serif: 'Cormorant Garamond', 'EB Garamond', Georgia, serif;
-  --sans: 'Inter Tight', 'Inter', system-ui, sans-serif;
-  --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  --serif: var(--font-cormorant), 'EB Garamond Local', Georgia, serif;
+  --sans: var(--font-inter-tight), system-ui, sans-serif;
+  --mono: var(--font-jetbrains), ui-monospace, 'SF Mono', Menlo, monospace;
   --shadow-sm: 0 1px 0 rgba(26, 24, 20, 0.04), 0 1px 2px rgba(26, 24, 20, 0.04);
   --shadow-md: 0 1px 0 rgba(26, 24, 20, 0.04), 0 8px 24px -10px rgba(26, 24, 20, 0.18);
 }
@@ -364,6 +367,9 @@ input, select, textarea { font: inherit; color: inherit; }
 .church-marker {
   width: 12px;
   height: 12px;
+  /* Centres the 12px dot inside the 24px icon box from MapView. The larger box is the
+     touch target; the dot is what you see. 6 + 12 + 6 = 24. */
+  margin: 6px;
   border-radius: 50%;
   border: 1.5px solid var(--paper);
   box-shadow: 0 0 0 1px rgba(0,0,0,0.4), 0 2px 4px rgba(0,0,0,0.2);

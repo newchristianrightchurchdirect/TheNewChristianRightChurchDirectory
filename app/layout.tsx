@@ -1,6 +1,33 @@
 import type { Metadata } from 'next'
+import { Cormorant_Garamond, Inter_Tight, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
+
+// Self-hosted at build time rather than pulled from fonts.googleapis.com. The CSP sets
+// `style-src 'self' 'unsafe-inline'`, which blocked the old @import outright — the site was
+// silently rendering in Georgia and system fallbacks. Self-hosting also drops a render-blocking
+// third-party stylesheet from the critical path.
+const serif = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  style: ['normal', 'italic'],
+  variable: '--font-cormorant',
+  display: 'swap',
+})
+
+const sans = Inter_Tight({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  variable: '--font-inter-tight',
+  display: 'swap',
+})
+
+const mono = JetBrains_Mono({
+  subsets: ['latin'],
+  weight: ['400', '500'],
+  variable: '--font-jetbrains',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: {
@@ -30,7 +57,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${serif.variable} ${sans.variable} ${mono.variable}`}>
       <body>
         <a
           href="#main-content"

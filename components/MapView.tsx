@@ -82,13 +82,24 @@ export default function MapView({ churches, activeId = null, onSelect }: MapView
     const withCoords = churches.filter(c => c.latitude != null && c.longitude != null)
     withCoords.forEach(church => {
       const positionClass = POSITION_CLASS[church.culturalEngagement] || 'unknown'
+      // The hit area is 24x24 (the minimum comfortable touch target); the visible dot stays
+      // 12px and is centred inside it by `.church-marker`'s margin. Anchoring at the centre of
+      // the 24px box keeps the dot itself exactly on the coordinate.
       const icon = L.divIcon({
         className: '',
         html: `<div class="church-marker ${positionClass}" data-id="${church.id}"></div>`,
-        iconSize: [12, 12],
-        iconAnchor: [6, 6],
+        iconSize: [24, 24],
+        iconAnchor: [12, 12],
       })
-      const marker = L.marker([church.latitude!, church.longitude!], { icon }).addTo(map)
+      // Leaflet gives every interactive marker role="button" and tabindex="0", so each one
+      // needs its own accessible name or a screen reader announces 4,000 bare "button"s.
+      const label = `${church.name}, ${church.city}, ${church.state}`
+      const marker = L.marker([church.latitude!, church.longitude!], {
+        icon,
+        title: label,
+        alt: label,
+      }).addTo(map)
+      marker.getElement()?.setAttribute('aria-label', label)
       const denom = church.denomination ? `${church.denomination} &middot; ` : ''
       marker.bindPopup(
         `<div class="popup-name">${church.name}</div>
