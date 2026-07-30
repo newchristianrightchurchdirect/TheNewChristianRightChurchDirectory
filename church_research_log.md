@@ -635,3 +635,44 @@ NOT YET ACTED ON — flagged for a decision.
 Also corrected on the About page: the mission paragraph read "On abortion above all, but also
 on…", which elevated one issue over the rest. The directory's criteria are not ranked; a church
 that contends on one question and is silent on the others has not grasped the principle.
+
+## 2026-07-30 — Evidence audit of the 104 (automated pass, NOT applied)
+
+`prisma/audit-transformationalist-2026-07-30.ts` plus a Playwright pass fetched each
+congregation's own site looking for evidence the CHURCH AS INSTITUTION acts on public questions.
+Results in `data/transformationalist-audit-2026-07-30.json`. **Nothing was reclassified.**
+
+Final tally: 8 SUPPORTED · 32 no evidence on site · 21 weak · 1 doctrine-only · 40 unreadable ·
+2 no website.
+
+**Two tool bugs found on the way, both worth remembering:**
+1. v1 reported "73 of 104 have no evidence". Most of those sites were never read — bot
+   challenges and JS-only pages produced the same verdict as a fully-read site. The script now
+   records pagesRead/bytesRead and only claims absence of evidence about a site it demonstrably
+   read. **Apologia Church — Jeff Durbin's congregation, End Abortion Now is theirs — was in
+   that "no evidence" bucket**, because the pattern looked for "abolitionist" and the site says
+   "End Abortion Now".
+2. v2 then filed Apologia as UNREADABLE *despite* matching on abolition: the read-threshold was
+   evaluated before the evidence. Absence-of-evidence logic must never override evidence that
+   was actually found. Fixed; positive findings now take precedence.
+
+**The ceiling on automation is about 60%.** 40 sites cannot be read by script or headless
+browser. Christ Church Moscow (christkirk.com) is among them — the flagship congregation of this
+entire movement, unreadable to the tool and obviously qualifying to any human. That is the
+standing argument against letting a scraper decide classifications.
+
+**Worklist produced:**
+- **8 CONFIRMED** by their own site: #3 Apologia, #66 Sovereign King, #212 Bethel Baptist,
+  #214 Christ Reformed Baptist, #1429 Bryce Avenue Presbyterian, #2758 North Athens Baptist,
+  #3241 American Reformation, #4045 Redeemer Church of South Hills.
+- **35 PRIORITY DEMOTIONS** — site was read, nothing found, AND the label came from a
+  denominational default or the notable-figure sync. Mostly CREC (#23-#30, #38 …).
+- **19** read with nothing found but not originally guessed — check by hand.
+- **42** unreadable / no website — manual verification required.
+
+Ranking markers cut from 8 to 6 at the owner's direction: socialJusticeStance and federalVision
+are still researched but no longer scored. Confirmed in data: 97% of churches with 4 core
+markers are already anti_crt (redundant), and Federal Vision is a CREC-specific controversy that
+was re-encoding denomination into the score. On the core six, #17 Covenant Bible Church and
+#16 Refuge Church score 6/6 and neither is CREC; Christ Church Moscow drops to 5/6 (no abolition
+marker). Nothing reaches 9/9 — anti-Zionism (13 churches nationally) acts as a veto.
