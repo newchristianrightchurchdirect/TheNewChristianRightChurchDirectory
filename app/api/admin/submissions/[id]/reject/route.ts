@@ -2,6 +2,7 @@ import { prisma } from '@/lib/prisma'
 import { NextRequest, NextResponse } from 'next/server'
 import { getAuthToken, verifyToken } from '@/lib/actions/auth-actions'
 import { validateCsrf } from '@/lib/csrf'
+import { getPostHogClient } from '@/lib/posthog-server'
 
 export async function DELETE(
   request: NextRequest,
@@ -27,6 +28,18 @@ export async function DELETE(
   await prisma.church.delete({
     where: { id: churchId },
   })
+
+  const posthog = getPostHogClient()
+  if (posthog) {
+    posthog.capture({
+      distinctId: result.user!.id,
+      event: 'church_submission_rejected',
+      properties: {
+        church_id: churchId,
+      },
+    })
+    await posthog.flush()
+  }
 
   return NextResponse.json({ success: true })
 }

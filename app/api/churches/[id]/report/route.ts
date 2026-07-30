@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { validateCsrf } from '@/lib/csrf'
 import { checkRateLimit } from '@/lib/rate-limit'
 import { escapeHtml } from '@/lib/sanitize'
+import { getPostHogClient } from '@/lib/posthog-server'
 
 export async function POST(
   request: NextRequest,
@@ -43,6 +44,19 @@ export async function POST(
       details,
     },
   })
+
+  const posthog = getPostHogClient()
+  if (posthog) {
+    posthog.capture({
+      distinctId: 'anonymous',
+      event: 'church_report_recorded',
+      properties: {
+        church_id: churchId,
+        reason,
+      },
+    })
+    await posthog.flush()
+  }
 
   return NextResponse.json(report, { status: 201 })
 }

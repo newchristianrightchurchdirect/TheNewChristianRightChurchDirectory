@@ -3,6 +3,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { validateCsrf } from '@/lib/csrf'
 import { checkRateLimit } from '@/lib/rate-limit'
 import { escapeHtml } from '@/lib/sanitize'
+import { getPostHogClient } from '@/lib/posthog-server'
 
 export async function GET() {
   const churches = await prisma.church.findMany({
@@ -111,6 +112,24 @@ export async function POST(request: NextRequest) {
       approved: false,
     },
   })
+
+  const posthog = getPostHogClient()
+  if (posthog) {
+    posthog.capture({
+      distinctId: 'anonymous',
+      event: 'church_submitted',
+      properties: {
+        church_id: church.id,
+        church_state: state,
+        cultural_engagement: culturalEngagement,
+        zionist_stance: zionistStance,
+        has_denomination: !!denomination,
+        has_website: !!website,
+        geocoded: latitude !== null,
+      },
+    })
+    await posthog.flush()
+  }
 
   return NextResponse.json(church, { status: 201 })
 }

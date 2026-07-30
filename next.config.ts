@@ -9,6 +9,8 @@ const R2_MEDIA_BASE =
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
+  // Required to support PostHog trailing slash API requests
+  skipTrailingSlashRedirect: true,
   turbopack: {
     root: process.cwd(),
   },
@@ -18,6 +20,22 @@ const nextConfig: NextConfig = {
         source: '/hymnal-media/:path*',
         destination: `${R2_MEDIA_BASE}/:path*`,
         permanent: false,
+      },
+    ]
+  },
+  async rewrites() {
+    return [
+      {
+        source: '/ingest/static/:path*',
+        destination: 'https://us-assets.i.posthog.com/static/:path*',
+      },
+      {
+        source: '/ingest/array/:path*',
+        destination: 'https://us-assets.i.posthog.com/array/:path*',
+      },
+      {
+        source: '/ingest/:path*',
+        destination: 'https://us.i.posthog.com/:path*',
       },
     ]
   },

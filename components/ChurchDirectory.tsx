@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
 import dynamic from 'next/dynamic'
 import ChurchCard from './ChurchCard'
+import posthog from 'posthog-js'
 
 const MapView = dynamic(() => import('./MapView'), {
   ssr: false,
@@ -167,7 +168,14 @@ export default function ChurchDirectory() {
   const handleSelect = useCallback((id: number) => {
     setActiveId(id)
     setDetailOpen(true)
-  }, [])
+    const selected = churches.find(c => c.id === id)
+    posthog.capture('directory_church_selected', {
+      church_id: id,
+      church_state: selected?.state,
+      denomination: selected?.denomination,
+      cultural_engagement: selected?.culturalEngagement,
+    })
+  }, [churches])
 
   const activeChurch = activeId != null ? churches.find(c => c.id === activeId) || null : null
 
@@ -266,7 +274,16 @@ export default function ChurchDirectory() {
                     <select
                       aria-label={f.label}
                       value={stances[String(f.key)] || ''}
-                      onChange={e => setStances(prev => ({ ...prev, [String(f.key)]: e.target.value }))}
+                      onChange={e => {
+                        const value = e.target.value
+                        setStances(prev => ({ ...prev, [String(f.key)]: value }))
+                        if (value) {
+                          posthog.capture('directory_filter_applied', {
+                            filter_type: String(f.key),
+                            filter_value: value,
+                          })
+                        }
+                      }}
                     >
                       <option value="">{f.label}: Any</option>
                       {f.options.map(([val, lbl]) => (
@@ -287,7 +304,10 @@ export default function ChurchDirectory() {
                 <button
                   key={p.key}
                   className={`position-tab${position === p.key ? ' active' : ''}`}
-                  onClick={() => setPosition(p.key)}
+                  onClick={() => {
+                    setPosition(p.key)
+                    posthog.capture('directory_position_changed', { position: p.key })
+                  }}
                   type="button"
                 >
                   <span>{p.label}</span>
