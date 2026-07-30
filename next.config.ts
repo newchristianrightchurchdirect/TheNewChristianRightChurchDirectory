@@ -1,4 +1,5 @@
 import type { NextConfig } from 'next'
+import { withSentryConfig } from '@sentry/nextjs'
 
 // Hymnal media (~8.8 GB) lives in Cloudflare R2, not in this repo. Every stored URL
 // is still the original root-relative /hymnal-media/... path, so a single redirect
@@ -52,4 +53,21 @@ const nextConfig: NextConfig = {
   },
 }
 
-export default nextConfig
+export default withSentryConfig(nextConfig, {
+  // Read from SENTRY_ORG / SENTRY_PROJECT so no org slug is hardcoded in a public repo.
+  org: process.env.SENTRY_ORG,
+  project: process.env.SENTRY_PROJECT,
+
+  // Build-time secret, separate from the DSN. Without it the build still succeeds, it just
+  // skips source-map upload — so production stack traces would show minified code.
+  authToken: process.env.SENTRY_AUTH_TOKEN,
+  widenClientFileUpload: true,
+
+  // Routes events through this app's own origin instead of ingest.sentry.io. Two reasons here:
+  // ad-blockers drop direct Sentry requests, and the CSP above sets `connect-src 'self'` —
+  // a same-origin tunnel is already allowed, so the policy needs no Sentry exception.
+  // middleware.ts only matches /admin/:path*, so it does not intercept this route.
+  tunnelRoute: '/monitoring',
+
+  silent: !process.env.CI,
+})

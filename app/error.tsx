@@ -1,5 +1,6 @@
 'use client'
 
+import * as Sentry from '@sentry/nextjs'
 import Link from 'next/link'
 import { useEffect } from 'react'
 
@@ -11,6 +12,9 @@ export default function Error({
   reset: () => void
 }) {
   useEffect(() => {
+    // This boundary catches the error before it reaches window.onerror, so without an explicit
+    // capture Sentry would never see route-level client errors.
+    Sentry.captureException(error)
     console.error('Application error:', error)
   }, [error])
 
