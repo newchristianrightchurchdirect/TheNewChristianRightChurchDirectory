@@ -70,6 +70,27 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
         </div>
       </div>
 
+      <nav className="admin-nav">
+        <div className="admin-nav-inner">
+          {[
+            { href: '/admin/dashboard', label: 'Review Queue' },
+            { href: '/admin/dashboard/health', label: 'Data Health' },
+            { href: '/admin/dashboard/churches', label: 'Churches' },
+            { href: '/admin/dashboard/duplicates', label: 'Duplicates' },
+            { href: '/admin/dashboard/reports', label: 'Reports' },
+            { href: '/admin/dashboard/history', label: 'Stance History' },
+          ].map(t => (
+            <Link
+              key={t.href}
+              href={t.href}
+              className={`admin-nav-tab${pathname === t.href ? ' active' : ''}`}
+            >
+              {t.label}
+            </Link>
+          ))}
+        </div>
+      </nav>
+
       <div ref={scrollRef} data-admin-scroll>
         <div className="admin-wrap">{children}</div>
       </div>

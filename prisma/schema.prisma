@@ -70,9 +70,29 @@ model Church {
 }
 
 model Report {
-  id        Int      @id @default(autoincrement())
-  churchId  Int
-  reason    String
-  details   String?
-  createdAt DateTime @default(now())
+  id         Int       @id @default(autoincrement())
+  churchId   Int
+  reason     String
+  details    String?
+  createdAt  DateTime  @default(now())
+  status     String    @default("open") // "open" | "resolved" | "dismissed"
+  resolvedAt DateTime?
+  adminNote  String?
+}
+
+// Audit trail for stance edits. CLAUDE.md requires a log entry for every stance change —
+// this makes that structural rather than a matter of whoever is editing remembering to do it.
+model StanceChange {
+  id         Int      @id @default(autoincrement())
+  churchId   Int
+  churchName String?  // denormalised so history survives the church being deleted
+  field      String
+  oldValue   String?
+  newValue   String?
+  actor      String?  // "admin" for dashboard edits, script name for batch runs
+  note       String?
+  createdAt  DateTime @default(now())
+
+  @@index([churchId])
+  @@index([createdAt])
 }
