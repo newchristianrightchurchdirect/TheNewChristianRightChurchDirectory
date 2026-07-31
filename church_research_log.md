@@ -853,3 +853,31 @@ Both are leads. Only the congregation's own site settled it.
 
 One of five held up. That is the actual reliability rate of the source behind 99 imported rows,
 and it is the argument for checking every one rather than sampling.
+
+## 2026-07-31 — Christ Church Spokane reviewed to standard: nothing found
+
+Caught shortcutting my own standard. The first Spokane pass answered only "who is the pastor" and
+I reported the row as handled. Applying the full standard — site, church socials, pastor socials,
+and the pastor's name searched against every marker — gives a different and honest result:
+
+**Nothing qualifying found.** No material attributable to **Kenton Spratt** on abolition,
+Christian nationalism, theonomy, postmillennialism or patriarchy. The church's denomination page
+carries only CREC generalities ("thoroughly Trinitarian, historically Reformed, and warmly
+evangelical") with no statement on the civil sphere, politics, education or abortion. The one
+cultural institution named, **New St. Andrews College**, is CREC-affiliated rather than this
+congregation's work.
+
+Still unread: the sermon archive (embedded by iFrame, not machine-readable) and the YouTube
+channel and Facebook group. Recorded on the row as the outstanding avenues.
+
+The classification therefore rests on **CREC membership plus a single third-party postmill
+listing** — exactly the thin basis this verification pass exists to catch. Left `mixed` +
+`verify_stance`, **not promoted**, and the negative result written into the Editor's Note so the
+row is not re-researched from scratch.
+
+**Lead noted:** Spratt also appears in the sermon archives of Trinity Church, Coeur d'Alene (#21,
+Stuart Bryan — verified), suggesting a preaching or presbytery link worth following.
+
+**Process change:** the research standard is now recorded as non-negotiable for every church and
+every kind of pass, including narrow lookups and corrections. Answering one sub-question well is
+not researching a church.
