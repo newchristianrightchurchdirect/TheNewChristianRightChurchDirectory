@@ -1333,3 +1333,59 @@ could be read; that is stated rather than papered over.
 Valley and Minden. Site is mid-rebuild and unreadable. Added to the deep-dive queue.
 
 **106 `signature_only` rows remain.**
+
+## 2026-07-31 — Lutheran cluster verified individually (13 churches). The sharpest correction yet.
+
+Third discharge of the `signature_only` debt, and the most consequential, because confessional
+Lutheranism has a doctrine about **precisely the question this directory classifies on**.
+
+### Two kingdoms is the foil, and Augsburg XVII closes the door
+
+Lutheran doctrine holds that God rules through two kingdoms — the left-hand kingdom of civil
+government, by law and sword, and the right-hand kingdom of the church, by the gospel. The
+institutional church preaches; the Christian serves as citizen. **This is the historic foil to
+transformationalism** — the position against which postmillennial and theonomic programmes define
+themselves.
+
+And **Augsburg Confession XVII condemns the millennial hope by name**, rejecting "others who now
+scatter Jewish opinions, that before the resurrection of the dead the godly shall take possession of
+the kingdom of the world, the ungodly being everywhere suppressed." A congregation subscribing to
+the Book of Concord is **confessionally barred from postmillennialism**. Recorded amillennial on
+that basis — a confessional fact, not a denominational guess.
+
+### But the signature is entirely coherent, and that is the interesting part
+
+Two kingdoms teaches that the magistrate "does not bear the sword in vain" and is God's servant to
+punish the evildoer. **Demanding that the state treat the killing of a child as murder is the
+left-hand kingdom doing its God-given job.** The abolitionism here is real and confessionally
+grounded — it simply does not carry the other five markers with it.
+
+The LCMS has held since **1979** that "the living and unborn are persons in the sight of God from
+the time of conception," and the Council of Presidents reaffirmed the synod's position in 2019. One
+precise note: the Nebraska statement **rejects "exception clauses" outright**, which goes somewhat
+further than the LCMS's own formulation.
+
+### Composition — and two churches that are not what the rest are
+
+Ten are **LCMS** (Nebraska District): Pacific Hills Omaha (Rev. Bryan Drebes, Concordia St. Louis,
+called 2015), Bethlehem Crete (organised **1889**), St. Paul Wisner (Rev. Jared Hartman, LWML
+district counselor), Zion Ainsworth (**organised 1884** — oldest in the signatory list), First
+Trinity Beatrice (**150 years**), Mount Calvary Fullerton, and two **two-point parishes**:
+Beemer/Bancroft under Rev. Mike Belinsky Sr. (West Point Circuit) and Tecumseh/Sterling under Rev.
+Marcel Kohlmeyer, who share a site as "2 Gather in Christ."
+
+**Rock of Ages, Gordon is WELS** — the most confessionally strict major American Lutheran body,
+which does not hold altar or pulpit fellowship with the LCMS. Mission 1980, organised 1987, Pastor
+David Young since July 2023. WELS is if anything *more* insistent that the church as institution
+stays out of political programmes, so a WELS signature is **more striking, not less**.
+
+**Trinity Gothenburg is LCMC** — Lutheran Congregations in Mission for Christ, the association formed
+by congregations **departing the ELCA**. Its pastor, Rev. Jeff Cottingham, signs **STS**: a member of
+the **Society of the Holy Trinity**, a pan-Lutheran confessional-renewal ministerium. Fourteenth year
+here, thirtieth of ordained ministry. This signature is a mark of the mainline realignment rather
+than of settled confessional habit — a different thing from the Missouri Synod ones, and recorded as such.
+
+**Trinity Schuyler's synod could not be confirmed** and is recorded as "Lutheran" without one, rather
+than assumed to be LCMS like its neighbours.
+
+**93 `signature_only` rows remain.**
