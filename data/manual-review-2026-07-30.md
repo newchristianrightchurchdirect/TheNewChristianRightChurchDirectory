@@ -70,3 +70,61 @@ lives in a podcast, a blog series, a sermon archive or a news story — none of 
 homepage a scraper reads. **Absence of evidence on a homepage is not evidence of absence**, and
 for this directory the cost of a false demotion is higher than the cost of leaving a row
 unverified a little longer.
+
+---
+
+## #20 King's Way Reformed Church (Prescott AZ) — **QUALIFIES (strongly)**
+
+Pastor **Dale Partridge** — president of Relearn.org, founder of Reformation Seminary, host of
+the *Real Christianity* podcast, author of *The Manliness of Christ* and *Jesus and My Gender*.
+
+Public-square engagement is explicit and national:
+- Publicly campaigning to **repeal the 19th Amendment** — quoted: *"We will repeal the 19th
+  Amendment within 10 years."* Covered by Baptist News as part of a movement on women's suffrage.
+- Writes *"Christians, Being Anti-Abortion Doesn't Make You Pro-Life"* at Relearn.org.
+- Church practises family-integrated worship and criticises age-segregated ministry as "a bad
+  experiment of American Christianity".
+
+Socials: instagram/X @kingswayarizona, YouTube sermon playlist, simplecast podcast.
+
+**Verdict: keep transformationalist. Basis: evidenced.** Note this is a case where the *pastor's*
+public programme is the evidence — worth deciding whether that counts as the institution acting.
+Given he preaches it from this pulpit and publishes under the church's banner, I read it as yes.
+
+---
+
+## #23 Reformation Covenant Church (CREC, Oregon City OR) — **LEAN KEEP, thin**
+
+Pastor **Bo Cogbill**. Independently listed on postmillennialworldview.com's postmillennial
+church directory, which corroborates the eschatology marker from a third party rather than a
+denominational guess. Sermon archive spans decades "from God's law to technology in the home".
+Mission line: "Transforming the fallen world."
+
+Still no *specific* corporate action on a public question found. Postmill + theonomic-adjacent
+preaching is doctrine, not action.
+
+**Verdict: do not demote, but this is the weakest of the four examined. Flag `verify_stance`.**
+
+---
+
+## #25 Providence Church Pensacola (CREC, FL) — **STILL UNRESOLVED**
+
+Homepage is service times only. Socials exist (facebook.com/ProvidenceCREC, x.com/ProvidenceCREC,
+youtube.com/@providencepensacola) but YouTube listings are JS-rendered and neither WebFetch nor
+search surfaced titles. Needs a browser pass or a human eye.
+
+---
+
+## Running tally of the manual review
+
+| Church | Verdict |
+|---|---|
+| #19 Dominion Covenant | QUALIFIES — church's own words |
+| #20 King's Way (Dale Partridge) | QUALIFIES — national public campaign |
+| #24 The Shepherd's Church (Kendall Lankford) | QUALIFIES — podcast, abortion teaching, Fox News |
+| #23 Reformation Covenant | LEAN KEEP — postmill corroborated, no action found |
+| #25 Providence Pensacola | UNRESOLVED |
+
+**4 of the first 5 examined were on the automated demotion list. None should be demoted.**
+The automation's error rate on this sample is effectively total, and every confirmation came
+from a podcast, a book, a news story or a third-party directory — never the homepage.
