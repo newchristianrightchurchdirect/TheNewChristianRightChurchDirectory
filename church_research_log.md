@@ -881,3 +881,40 @@ Stuart Bryan — verified), suggesting a preaching or presbytery link worth foll
 **Process change:** the research standard is now recorded as non-negotiable for every church and
 every kind of pass, including narrow lookups and corrections. Answering one sub-question well is
 not researching a church.
+
+## 2026-07-31 — The four partial reviews completed to full standard
+
+Re-did #23, #25, #26 and #28 properly: site, church socials, pastor socials and podcast, and the
+pastor's name searched against every marker. The partial passes had understated two and
+overstated nothing — worth knowing, because it means the shortcut was costing findings, not just
+rigour.
+
+**#25 Providence Church, Pensacola — Uri Brito — PROMOTED to evidenced.** Far more than the
+partial pass found. He **founded Kuyperian Commentary** (20+ contributors; named for the "every
+square inch" tradition itself), is **Senior Fellow for Pastoral Theology at the Center for
+Cultural Leadership**, sits on the boards of the **Theopolis Institute** and **New Saint Andrews
+College**, hosts the Perspectivalist Podcast, writes for Fight Laugh Feast — and
+**presented at the National Conservatism Conference (NatCon 4, Washington 2024)**. A pastor
+addressing a national political-movement conference is civil-sphere engagement outright.
+`christianNationalism = sympathetic` rather than `affirm`: NatCon is not the same as Christian
+nationalism and no explicit CN statement was located.
+
+**#28 Providence Church, Lynchburg — Virgil Hurt — PROMOTED to evidenced.** Planted 2000 as a
+mission of Christ Church Moscow; now one of the largest CREC congregations. Hurt has **twice been
+the CREC's Presiding Minister of Council** and becomes **President of Reformed Evangelical
+Seminary on 1 July 2026**. Recorded plainly on the row that this is *movement leadership*, not a
+record of the church acting on a public question — no such action was found.
+
+**#23 Reformation Covenant, Oregon City — Bo Cogbill — NOT promoted.** Installed January 2019
+(the directory is current on him, unusually). Founded the **Reformation Bible Institute** in 2021,
+but that equips pastors internally rather than engaging the civil sphere. **Nothing found on any
+marker.** Sermon archive (SermonAudio `rccoffice`, 503 on attempt), Facebook and YouTube remain
+unread — recorded as the outstanding avenues.
+
+**#26 Holy Trinity Reformed, Concord — Brian Phillips — NOT promoted.** **Nothing found on any
+marker.** Deeply embedded in classical Christian education — **CIRCE Institute**, Schole Academy,
+the ACCS Legal Update, MassHope and TEACH CT conventions — but that is the pastor's vocation and
+the academies are not this church's. No evidence either way on the civil sphere.
+
+Two promoted, two honestly left flagged with their negative results written into the Editor's
+Notes. **282 transformationalist, 38 evidenced.**
