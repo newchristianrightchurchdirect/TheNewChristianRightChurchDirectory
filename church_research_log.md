@@ -1084,3 +1084,31 @@ Iowa and Nebraska documents are templates that already work.
 
 All signature-sourced rows now carry `recordFlag = 'signature_only'` (110 rows), and the
 obligation to research each individually is recorded in the deep-dive queue and in project memory.
+
+## 2026-07-31 — FAA mined by browser; the Iowa sequence is the lesson
+
+faa.life 403s to plain fetch; a Playwright pass read it fine.
+
+**12 states have active abolition legislation** — Georgia, Illinois, Iowa, Kansas, Kentucky,
+**Michigan**, Missouri, Ohio, Oklahoma, South Carolina, South Dakota, Tennessee — with 15 more
+carrying FAA state pages. Each state has its own page naming bill and sponsor.
+
+**Michigan: HB 4671, the "Justice for Babies in the Womb Act"**, filed 26 June 2025 by **Rep. Josh
+Schriver**; bill text at legislature.mi.gov `2025-HB-4671`, with FAA FAQs and a section-by-section
+overview published.
+
+**Iowa: HF 2316**, filed 6 February 2026 by **Rep. Zach Dieken**.
+
+**The sequence matters more than either fact.** Iowa's pastors published their equal-protection
+statement in **January 2024**. The Iowa bill was filed in **February 2026**. **The pastor roster
+came first, and the legislation followed.** Nebraska ran the same order. Michigan has the bill
+already but no roster — so the question for AAM is whether a Michigan pastors' statement would
+now consolidate support behind HB 4671, having been the thing that generated momentum in the two
+states that did it the other way round.
+
+**FAA leadership:** Bradley Pierce (president; constitutional attorney, drafted equal-protection
+bills in 30+ states, Dobbs amicus for 21 organisations and 20 legislators, president of Abolish
+Abortion Texas) and J.R. Haas (VP; Texas Capitol organising, testifies against incremental
+measures).
+
+25 state pages remain unread — queued.

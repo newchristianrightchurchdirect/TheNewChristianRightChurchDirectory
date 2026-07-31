@@ -220,3 +220,38 @@ denominational proxies. The Iowa and Nebraska documents are ready-made templates
 
 **Also to mine:** faa.life/articles (403s to automated fetch — needs a browser), Abolitionists
 Rising, Southern Baptists for Abolishing Abortion, Liberty Rising Institute, End Abortion Now.
+
+---
+
+## 11. FAA STATE MAP — mined by browser 2026-07-31 (faa.life 403s to plain fetch)
+
+**States with ACTIVE legislation (12):** Georgia · Illinois · **Iowa** · Kansas · Kentucky ·
+**MICHIGAN** · Missouri · Ohio · Oklahoma · South Carolina · South Dakota · Tennessee
+
+**Other states with FAA pages (15):** Alabama · Alaska · Arizona · Arkansas · Colorado · Idaho ·
+Indiana · Louisiana · Maine · Maryland · North Carolina · North Dakota · Pennsylvania · Texas ·
+Washington
+
+Each has a page at `faa.life/<state>`. Only Michigan and Iowa have been read so far.
+
+**Michigan — HB 4671, "Justice for Babies in the Womb Act"**, filed **26 June 2025** by **State
+Rep. Josh Schriver**. Bill text: legislature.mi.gov `2025-HB-4671`. FAA publishes bill FAQs and a
+section-by-section overview.
+
+**Iowa — HF 2316**, filed **6 February 2026** by **State Rep. Zach Dieken**, recognising that
+"innocent human life, created in the image of God, should be equally protected under the law from
+fertilization to natural death." Note the sequence: **Iowa's pastors published their statement in
+January 2024, and the bill followed.** The roster came first.
+
+**FAA leadership** — **Bradley Pierce**, President (constitutional attorney; has drafted equal
+protection bills in 30+ states; filed a Dobbs amicus for 21 organisations and 20 state
+legislators; also president of Abolish Abortion Texas). **J.R. Haas**, VP (organises Texas Capitol
+rallies, citizen lobbying, testifies against incremental measures; seven years outside abortion
+mills; Republican precinct chairman).
+
+**To do:** browser-pass the remaining 25 state pages. Each names the bill and sponsor, and the
+active-legislation states are where pastors are most likely to have organised — which is what
+produced the Iowa and Nebraska rosters.
+
+**FAA socials for monitoring:** x.com/AbolitionistFAA, facebook.com/AbolitionistFAA,
+youtube.com/@AbolitionistFAA, instagram.com/abolitionistfaa. Also abortionfree.com.
