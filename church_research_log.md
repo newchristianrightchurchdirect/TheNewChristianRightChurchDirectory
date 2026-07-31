@@ -918,3 +918,35 @@ the academies are not this church's. No evidence either way on the civil sphere.
 
 Two promoted, two honestly left flagged with their negative results written into the Editor's
 Notes. **282 transformationalist, 38 evidenced.**
+
+## 2026-07-31 — Correction: education is movement-building, and is now counted as such
+
+Owner's correction. My notes on #23 and #26 treated founding a Bible institute and building
+classical Christian schools as *lesser* than civil-sphere action — I wrote "internal" and "the
+pastor's vocation rather than an act of this congregation". That was wrong about how this
+movement actually grows.
+
+**Doug Wilson founded Logos School in Moscow in 1981 and the entire classical Christian school
+movement grew out of it.** The schools are how Moscow became Moscow. Education is this
+tradition's primary means of reproduction, not a consolation prize for churches not doing
+politics — it is training the next generation of fighters.
+
+Both reframed and **promoted to transformationalist / evidenced**:
+
+- **#23 Reformation Covenant (Bo Cogbill)** — founded the **Reformation Bible Institute** in 2021
+  to equip local churches' pastors with rigorous theological training. That reproduces the
+  movement in the next generation of ministers.
+- **#26 Holy Trinity Reformed (Brian Phillips)** — Ed.D. in Classical Education; teaches at
+  Schole Academy and Oaks Classical Christian Academy; serves the **CIRCE Institute**; writes the
+  **ACCS Legal Update**. Working at the institutional centre of classical education is building
+  the movement, not pursuing a private career.
+
+Both keep `verify_stance`, and both Editor's Notes state plainly what is still *not* evidenced:
+neither pastor returned anything on abortion, politics, Christian nationalism, theonomy or
+patriarchy, and the academies Phillips serves are not owned by his congregation. Promotion rests
+on the institution-building plus third-party postmill corroboration.
+
+**Standard updated in project memory** so this is applied going forward rather than re-litigated:
+education counts.
+
+**282 transformationalist, 40 evidenced.**
