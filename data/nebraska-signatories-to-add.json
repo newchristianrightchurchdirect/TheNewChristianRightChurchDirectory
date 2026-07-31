@@ -1,0 +1,567 @@
+[
+ {
+  "pastor": "John Goodell",
+  "church": "New Life Fellowship Church",
+  "city": "Grant"
+ },
+ {
+  "pastor": "Lyn Hansen",
+  "church": "North Park Church",
+  "city": "Columbus"
+ },
+ {
+  "pastor": "Tim Wilkinson",
+  "church": "First Baptist Church of Valentine",
+  "city": "Valentine"
+ },
+ {
+  "pastor": "Tyler White",
+  "church": "Kimball Evangelical Free Church",
+  "city": "Kimball"
+ },
+ {
+  "pastor": "Mark Danielson",
+  "church": "Aurora Evangelical Free Church",
+  "city": "Aurora"
+ },
+ {
+  "pastor": "Daniel Hutchison",
+  "church": "Northridge Church",
+  "city": "Peru"
+ },
+ {
+  "pastor": "Doug Olson",
+  "church": "Ord Evangelical Free Church",
+  "city": "Ord"
+ },
+ {
+  "pastor": "Tom Barnes",
+  "church": "Minden Evangelical Free Church / A Nebraska Gospel Network Church",
+  "city": "Minden"
+ },
+ {
+  "pastor": "Glenn Johnson",
+  "church": "Alliance Berean Church",
+  "city": "Alliance"
+ },
+ {
+  "pastor": "Dale Bowlin",
+  "church": "Sandhills Church of Hope",
+  "city": "Cody"
+ },
+ {
+  "pastor": "Kevin Hausman",
+  "church": "Chalk Hills Community Church",
+  "city": "Scotia"
+ },
+ {
+  "pastor": "Tom Walker",
+  "church": "Alma Berean Church",
+  "city": "Alma"
+ },
+ {
+  "pastor": "Jesse Neal",
+  "church": "Alma Berean Church",
+  "city": "Alma"
+ },
+ {
+  "pastor": "Scott Newman",
+  "church": "Cornerstone Bible Church",
+  "city": "Gothenburg"
+ },
+ {
+  "pastor": "Joel Wentworth",
+  "church": "Burwell Baptist Church",
+  "city": "Burwell"
+ },
+ {
+  "pastor": "Fred Anderson",
+  "church": "Syracuse Bible Church",
+  "city": "Syracuse"
+ },
+ {
+  "pastor": "Keith Feisel",
+  "church": "Zion Countryside Church",
+  "city": "Fairbury"
+ },
+ {
+  "pastor": "Nathan Goshert",
+  "church": "River Valley Evangelical Free Church",
+  "city": "Arapahoe"
+ },
+ {
+  "pastor": "Don Ehrke",
+  "church": "Alma Berean Church",
+  "city": "Alma"
+ },
+ {
+  "pastor": "Casey Holencik",
+  "church": "Wausa Covenant Church",
+  "city": "Wausa"
+ },
+ {
+  "pastor": "Kyle Campise",
+  "church": "Bethel Baptist Church",
+  "city": "Ord"
+ },
+ {
+  "pastor": "Jon Hawkins",
+  "church": "Arbor Drive Community Church",
+  "city": "York"
+ },
+ {
+  "pastor": "David Young",
+  "church": "Rock of Ages Lutheran Church",
+  "city": "Gordon"
+ },
+ {
+  "pastor": "Rev. Jeffrey G. Jensen",
+  "church": "Geneva Evangelical Free Church",
+  "city": "Geneva"
+ },
+ {
+  "pastor": "Riaan Nel",
+  "church": "Chappell Methodist Church",
+  "city": "Chappell"
+ },
+ {
+  "pastor": "Mark Rohrbach",
+  "church": "Cornerstone Church EPC",
+  "city": "Stapleton"
+ },
+ {
+  "pastor": "Daniel Urman",
+  "church": "First Baptist Church of Gothenburg",
+  "city": "Gothenburg"
+ },
+ {
+  "pastor": "Larry Unruh",
+  "church": "Christian Union Church",
+  "city": "Stratton"
+ },
+ {
+  "pastor": "Jared P. Hartman",
+  "church": "St. Paul Lutheran Church",
+  "city": "Wisner"
+ },
+ {
+  "pastor": "Rev. Richard Peralez",
+  "church": "Siouxland Community Bible Church",
+  "city": "South Sioux City"
+ },
+ {
+  "pastor": "Samuel Tschetter",
+  "church": "Stromsburg Baptist Church",
+  "city": "Stromsburg"
+ },
+ {
+  "pastor": "Oleksii Barkalov",
+  "church": "New Breath Church",
+  "city": "Lincoln"
+ },
+ {
+  "pastor": "Frank Scott",
+  "church": "Gandy Community Bible Church",
+  "city": "Gandy"
+ },
+ {
+  "pastor": "Joe Marino",
+  "church": "The Well Church",
+  "city": "Hastings"
+ },
+ {
+  "pastor": "Paul Canady",
+  "church": "True North Church",
+  "city": "Grand Island"
+ },
+ {
+  "pastor": "Lige Reed",
+  "church": "Minden Evangelical Free Church / A Nebraska Gospel Network Church",
+  "city": "Minden"
+ },
+ {
+  "pastor": "Luke Veldt",
+  "church": "Cornerstone Community Church",
+  "city": "Fairbury"
+ },
+ {
+  "pastor": "Samuel Parker",
+  "church": "Ridgeview Bible Church",
+  "city": "Chadron"
+ },
+ {
+  "pastor": "Allen Pingel",
+  "church": "Mount Calvary Lutheran Church",
+  "city": "Fullerton"
+ },
+ {
+  "pastor": "Fred Sundt",
+  "church": "Living Water Evangelical Free Church",
+  "city": "South Sioux City"
+ },
+ {
+  "pastor": "Trent Fugitt",
+  "church": "Pleasant Point Community Church",
+  "city": "Ellsworth"
+ },
+ {
+  "pastor": "Dr. Geoffrey Plummer",
+  "church": "Calvary Baptist Church",
+  "city": "Cambridge"
+ },
+ {
+  "pastor": "Jeff Peters",
+  "church": "Christ the King Community Church",
+  "city": "Ponca"
+ },
+ {
+  "pastor": "Nat Crawford",
+  "church": "Living Life Reformed Church",
+  "city": "Firth"
+ },
+ {
+  "pastor": "Curtis Tschetter",
+  "church": "GracePoint",
+  "city": "Ogallala"
+ },
+ {
+  "pastor": "Scott Randall",
+  "church": "Naponee Wesleyan Church",
+  "city": "Naponee"
+ },
+ {
+  "pastor": "Timothy Schmidt",
+  "church": "Firth Bible Church",
+  "city": "Firth"
+ },
+ {
+  "pastor": "Seth Hower",
+  "church": "Sandhills Community Bible Church",
+  "city": "Mullen"
+ },
+ {
+  "pastor": "Rick Wolfenden",
+  "church": "Sandhills Community Bible Church",
+  "city": "Mullen"
+ },
+ {
+  "pastor": "Keet Redden",
+  "church": "Stromsburg Evangelical Free Church",
+  "city": "Stromsburg"
+ },
+ {
+  "pastor": "Aaron Hannemann",
+  "church": "Trinity Lutheran Church",
+  "city": "Schuyler"
+ },
+ {
+  "pastor": "Brent DeJong",
+  "church": "Grace Community Fellowship",
+  "city": "Chappell"
+ },
+ {
+  "pastor": "Mike Szekely",
+  "church": "Lighthouse Baptist Church",
+  "city": "Loomis"
+ },
+ {
+  "pastor": "Todd Thelen",
+  "church": "Evangelical Free Church of Concord",
+  "city": "Concord"
+ },
+ {
+  "pastor": "Russ Monnette",
+  "church": "Sandhills Community Bible Church",
+  "city": "Mullen"
+ },
+ {
+  "pastor": "Seth Williams",
+  "church": "Sandhills Community Bible Church",
+  "city": "Mullen"
+ },
+ {
+  "pastor": "Matt Waitley",
+  "church": "New Hope Church",
+  "city": "Ogallala"
+ },
+ {
+  "pastor": "Clint Hogrefe",
+  "church": "Stanton Evangelical Free Church",
+  "city": "Stanton"
+ },
+ {
+  "pastor": "Brian Keene",
+  "church": "Hope Center Church",
+  "city": "Beaver Crossing"
+ },
+ {
+  "pastor": "L. W. Christensen",
+  "church": "Zion Lutheran Church",
+  "city": "Ainsworth"
+ },
+ {
+  "pastor": "Brad Perry",
+  "church": "Moses Hill Covenant Church",
+  "city": "Loomis"
+ },
+ {
+  "pastor": "Matt Maxwell",
+  "church": "Imperial Berean Church",
+  "city": "Imperial"
+ },
+ {
+  "pastor": "Dr. Walt Ray",
+  "church": "McCook Baptist Church",
+  "city": "McCook"
+ },
+ {
+  "pastor": "Timothy Wagner",
+  "church": "First Trinity Lutheran Church",
+  "city": "Beatrice"
+ },
+ {
+  "pastor": "Rev. Ty K. Woznek",
+  "church": "Heartland Church",
+  "city": "Norfolk"
+ },
+ {
+  "pastor": "Thaddeus J. Rexilius",
+  "church": "Community Bible Church",
+  "city": "Central City"
+ },
+ {
+  "pastor": "T. Barlow",
+  "church": "Saint Matthew Baptist Church",
+  "city": "Omaha"
+ },
+ {
+  "pastor": "Scott McClellen",
+  "church": "The Berean Bible Church",
+  "city": "Valentine"
+ },
+ {
+  "pastor": "Mike Sechler",
+  "church": "Oakland Evangelical Free Church",
+  "city": "Oakland"
+ },
+ {
+  "pastor": "Jeremy Bradshaw",
+  "church": "First Baptist Cairo",
+  "city": "Cairo"
+ },
+ {
+  "pastor": "Tyce Jensen",
+  "church": "President / Berean Fellowship of Churches",
+  "city": "Broken Bow"
+ },
+ {
+  "pastor": "Jeffrey Kelley",
+  "church": "Memorial Methodist Church",
+  "city": "McCook"
+ },
+ {
+  "pastor": "Rev. Ronald J. Benson",
+  "church": "Bethlehem Lutheran Church",
+  "city": "Crete"
+ },
+ {
+  "pastor": "Daniel Bear",
+  "church": "Grace Baptist Church",
+  "city": "Saint Paul"
+ },
+ {
+  "pastor": "Nathan Joslin",
+  "church": "Christ Church Omaha",
+  "city": "Omaha"
+ },
+ {
+  "pastor": "George Little",
+  "church": "Christ Church Omaha",
+  "city": "Omaha"
+ },
+ {
+  "pastor": "Art Smith",
+  "church": "Alliance Evangelical Free Church",
+  "city": "Alliance"
+ },
+ {
+  "pastor": "Ken Wombacher",
+  "church": "Standing Stone Bible Church",
+  "city": "Gretna"
+ },
+ {
+  "pastor": "John Hart",
+  "church": "Faith Family Baptist Church",
+  "city": "Tekamah"
+ },
+ {
+  "pastor": "Dan Coke",
+  "church": "Sower Church",
+  "city": "Lincoln"
+ },
+ {
+  "pastor": "Justin Bebb",
+  "church": "Columbus Berean Church",
+  "city": "Columbus"
+ },
+ {
+  "pastor": "Eric Jones",
+  "church": "Hope Evangelical Free Church",
+  "city": "Kearney"
+ },
+ {
+  "pastor": "James McClenahan",
+  "church": "Missions Pastor / LifePoint Church",
+  "city": "Norfolk"
+ },
+ {
+  "pastor": "Jeffery Girdner",
+  "church": "Fellowship Baptist Church",
+  "city": "Lincoln"
+ },
+ {
+  "pastor": "Jacob Richardson",
+  "church": "Citylight Mosaic Church",
+  "city": "Omaha"
+ },
+ {
+  "pastor": "Grant Little",
+  "church": "Christ Church Omaha",
+  "city": "Omaha"
+ },
+ {
+  "pastor": "Jon McNeel",
+  "church": "Grace Bible Church",
+  "city": "Bellevue"
+ },
+ {
+  "pastor": "David Chambers",
+  "church": "Zion PCA",
+  "city": "Lincoln"
+ },
+ {
+  "pastor": "Eugene F. Rollerson",
+  "church": "Greater New Hope Missionary Baptist Church",
+  "city": "Omaha"
+ },
+ {
+  "pastor": "Peter L. Coon",
+  "church": "Crossroads Bible Fellowship",
+  "city": "Henderson"
+ },
+ {
+  "pastor": "Tony Tangwall",
+  "church": "Spirit of Faith Church",
+  "city": "Chadron"
+ },
+ {
+  "pastor": "Aaron Trimble",
+  "church": "West Point Family Worship Center",
+  "city": "West Point"
+ },
+ {
+  "pastor": "Jason Dowell",
+  "church": "Freedom Baptist Church",
+  "city": "Stamford"
+ },
+ {
+  "pastor": "Doug Hitzel",
+  "church": "Lighthouse Church",
+  "city": "Auburn"
+ },
+ {
+  "pastor": "Chris D. Phelps",
+  "church": "Fellowship Bible Church",
+  "city": "Newman Grove"
+ },
+ {
+  "pastor": "Jim Bates",
+  "church": "Victory Christian Fellowship",
+  "city": "Columbus"
+ },
+ {
+  "pastor": "Jason D. Owens",
+  "church": "First Baptist Church",
+  "city": "Norfolk"
+ },
+ {
+  "pastor": "Shane Sundermann",
+  "church": "Calvary Community Church",
+  "city": "Lincoln"
+ },
+ {
+  "pastor": "Neal Kloster",
+  "church": "Heights Church of Elkhorn",
+  "city": "Elkhorn"
+ },
+ {
+  "pastor": "Bryan Drebes",
+  "church": "Pacific Hills Lutheran Church",
+  "city": "Omaha"
+ },
+ {
+  "pastor": "Ramel Williams",
+  "church": "North Metro Bible Church",
+  "city": "Omaha"
+ },
+ {
+  "pastor": "David Mraz",
+  "church": "Firth Bible Church",
+  "city": "Firth"
+ },
+ {
+  "pastor": "Jeff Cottingham",
+  "church": "Trinity Lutheran Church",
+  "city": "Gothenburg"
+ },
+ {
+  "pastor": "Benjamin Jones",
+  "church": "Shell Creek Baptist Church",
+  "city": "Columbus"
+ },
+ {
+  "pastor": "Chris Clinchard",
+  "church": "One Hope Assembly of God",
+  "city": "Wayne"
+ },
+ {
+  "pastor": "Shawn Rittmiller",
+  "church": "Park Lane Baptist Church",
+  "city": "Omaha"
+ },
+ {
+  "pastor": "Steve Davenport",
+  "church": "Calvary Community Church",
+  "city": "Lincoln"
+ },
+ {
+  "pastor": "Brad Myers",
+  "church": "Teaching Pastor / Faith Bible Church",
+  "city": "Lincoln"
+ },
+ {
+  "pastor": "Todd Bowen",
+  "church": "Grace Covenant Church (PCA)",
+  "city": "Grand Island"
+ },
+ {
+  "pastor": "David Watson",
+  "church": "Pleasant View Bible Church",
+  "city": "Aurora"
+ },
+ {
+  "pastor": "Blake Frost",
+  "church": "Victory Assembly of God",
+  "city": "Gothenburg"
+ },
+ {
+  "pastor": "Koty Krawczyk",
+  "church": "Youth Pastor / Faith Bible Church",
+  "city": "Lincoln"
+ },
+ {
+  "pastor": "Patrick Volquartsen",
+  "church": "Living Hope Assembly of God",
+  "city": "Blair"
+ }
+]

@@ -1025,3 +1025,37 @@ published list spells it "Humbolt"), #46 Christ the Redeemer Pella (Shover).
 has the same document** (`abolishabortionne.org`). Assume other states do too — these lists are
 the highest-yield source found in this entire effort, because they are formal acts rather than
 third-party attributions.
+
+## 2026-07-31 — Nebraska equal-protection statement mined: 103 churches added, 4 errors corrected
+
+*"Biblical Counsel from the Protestant Pastors of the Church in Nebraska"* (2024,
+abolishabortionne.org). Extracted **122 signatories** with church and city from the PDF.
+
+The document states the abolitionist position without ambiguity: *"life begins at conception,
+abortion is murder, and the human being in the womb is entitled to **equal protection under the
+law**, which means parent(s) and doctor are guilty of murder in the civil criminal code"* — and
+explicitly repudiates *"incrementalism, politicization, exception clauses, heartbeat bills... and
+criminal laws that leave the mother (and father) and the doctor guiltless before society."*
+
+- **8 congregations already held** — all now `pro_abolition` + `transformationalist` + `evidenced`.
+- **4 of those 8 read `incrementalist`** — the exact position the document their pastor signed
+  repudiates. #181 Emmaus Bible, #180 Columbus First Baptist, #1383 Grace Church PCA, #282 Faith
+  OPC. All corrected, with the correction stated on each record.
+- **103 congregations added**, each with the signature as first-hand evidence.
+- #19 Dominion Covenant carries **two** signatories (Phil Kayser and Gary Duff).
+
+**4,164 → 4,266 churches · pro_abolition 67 → 177 · evidenced 56 → 166.**
+
+Every added row says plainly what it is: the abolition stance is formal and first-hand, but
+**nothing else about the congregation has been researched** — denomination, eschatology and the
+other markers are unset and the church has not been read on its own terms.
+
+**Note on breadth:** these signatories are Evangelical Free, Methodist, Lutheran, Berean and
+Baptist as well as Reformed. That matches the standing instruction to widen the directory beyond
+the Reformed qualifier to any publicly abolitionist congregation.
+
+**The pattern is now proven twice.** Iowa and Nebraska both produced verified abolitionist rosters
+from a single document. The Nebraska paper itself names the movement's organisations — Foundation
+to Abolish Abortion, End Abortion Now, Abolitionists Rising, Southern Baptists for Abolishing
+Abortion, Liberty Rising Institute — and cites **faa.life/states**, noting **19 states have seen
+abolition bills introduced**. Those states are the next places to look for equivalent statements.
