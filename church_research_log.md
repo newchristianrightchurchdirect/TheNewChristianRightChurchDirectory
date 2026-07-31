@@ -676,3 +676,31 @@ markers are already anti_crt (redundant), and Federal Vision is a CREC-specific 
 was re-encoding denomination into the score. On the core six, #17 Covenant Bible Church and
 #16 Refuge Church score 6/6 and neither is CREC; Christ Church Moscow drops to 5/6 (no abolition
 marker). Nothing reaches 9/9 — anti-Zionism (13 churches nationally) acts as a veto.
+
+## 2026-07-30 — Manual review begun; the automated demotion list is NOT safe to act on
+
+Owner's instruction: read the sites personally, and check **socials, podcasts and recent
+sermons** — X, Facebook, TikTok, YouTube — not just the church website. Correct, and it
+immediately overturned the automated result.
+
+**#24 The Shepherd's Church (CREC, Chelmsford MA)** was on the automated PRIORITY DEMOTION list
+with verdict "NO EVIDENCE FOUND". It is in fact plainly transformationalist:
+- Teaching pastor Kendall Lankford hosts *The PRODCAST*; ep. 121 "Postmillennialism and
+  Politics", ep. 127 an interview with Ben Zeisloft on "Postmillennialism and Journalism".
+- Published teaching: **"Ending Abortion: The Church's Role and the Government's Role"** — the
+  exact corporate/civil distinction this directory classifies on.
+- Church distinctives series includes "Gospel Centered & **Confrontational**".
+- Fox News covered the church running a "Pastor Story Hour" at a public library, the pastor
+  arguing faith belongs in the public square — the institution acting publicly.
+
+None of that is on the homepage, which is why three automated passes missed it.
+
+**#19 Dominion Covenant Church (CPC, Omaha NE)** also confirmed from the church's own words:
+"we desire to go boldly into Satan's territory and to begin capturing our culture for King
+Jesus", covering "education, politics, arts, business... journalism", with postmillennial
+language about "total victory for King Jesus in history".
+
+**Consequence: the 35 "priority demotions" must NOT be bulk-applied.** The first CREC row
+examined in depth qualifies. Working notes in `data/manual-review-2026-07-30.md`; review is
+per-church and ongoing. Absence of evidence on a homepage is not evidence of absence, and a
+false demotion costs this directory more than an unverified row does.
