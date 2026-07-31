@@ -291,3 +291,15 @@ youtube.com/@AbolitionistFAA, instagram.com/abolitionistfaa. Also abortionfree.c
 **Next:** search each of these states for a pastors' equal-protection statement, using the *event*
 rather than church phrasing. Sponsors' names are now known, which gives a second search axis — the
 pastors who back a bill often appear in coverage of its hearings.
+
+## Nebraska Gospel Network (nebraskagospel.net) — found 2026-07-31
+
+A state-level pastors' network that surfaced twice while verifying the EFCA cluster: **Nathan
+Goshert** (River Valley E-Free, Arapahoe) is listed as affiliated, and it also appears in connection
+with **Minden E-Free** (Dr. Tom Barnes). Its site was mid-rebuild when checked — every page returns
+"New WordPress website is being built and will be published soon" — so the doctrinal basis, leadership
+and member list could not be read.
+
+**Why it matters:** a network is connective tissue between congregations, which is exactly what this
+directory is trying to map, and Nebraska is now the state with the densest signatory coverage.
+Re-check once the site is live; if it stays down, approach via the two known affiliated pastors.

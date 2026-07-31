@@ -1270,3 +1270,66 @@ signature is real; the inference from it was not. Every remaining `signature_onl
 same treatment.
 
 **119 `signature_only` rows remain.**
+
+## 2026-07-31 — Evangelical Free cluster verified individually (13 churches)
+
+Second discharge of the `signature_only` debt. Thirteen Nebraska EFCA congregations, each read on
+its own terms plus the denominational documents that actually bind them.
+
+### The denomination will not let me default eschatology — and that is the finding
+
+Article 9 of the EFCA Statement of Faith read "the personal, bodily and **premillennial** return of
+our Lord Jesus Christ" until **19 June 2019**, when the conference voted **79%** — against a
+two-thirds threshold — to replace "premillennial" with "**glorious**", on the ground that the
+millennial position is not an essential doctrine. Oakland E-Free publishes the amended text, which
+confirms the change has reached the local churches.
+
+**So eschatology was left unset on all thirteen.** Not unknown-through-laziness — unknown because
+the denomination deliberately declines to say, and no local church published its own wording. The
+temptation was to reach for "premillennial" from the pre-2019 heritage; that would have been a guess
+dressed as a finding.
+
+What the EFCA *does* bind: marriage "between a man and a woman" and "welcoming but not affirming";
+**no ordination of women since a 1988 conference decision** (ordination "designed for qualified
+males"), with the eldership question left to congregational polity. **No article on civil government
+anywhere in the Statement of Faith.** Set: complementarian, traditional, non-theonomic.
+
+### One church is not like the others
+
+**Minden E-Free — Dr. Tom Barnes.** Thirty-plus years pastoring here, **seven books with Evangelical
+Press** (a Reformed house), including *God Rules Over All* and *Divine Sovereignty and Human Choice*.
+On **7 and 20 July 2026 — days ago —** he published a two-part series, **"Against Socialism And
+Communism"**, offering sixteen scriptural reasons to oppose them "and, at the same time, sixteen
+reasons to advocate for a **biblical approach to government, work, and economics**." He argues from
+Romans 13:1-4:
+
+> "God's design for government is for limited tasks, tasks that include **preserving righteousness
+> and justice**, not to provide for needs of a person, nor to take from one person to give to another."
+
+closing: "**Love demands Christians oppose Socialism and Communism, and advocate for a biblical
+approach to work, government, production, and distribution.**"
+
+**That is evidenced cultural engagement — a pastor teaching how Scripture governs the political and
+economic order — not an inference from one signature.** It is also *not* theonomy: he grounds limited
+magistracy in Romans 13 and creation order, not in Mosaic judicial law. The same 2026 run is firmly
+complementarian on the household ("Wives, Win Your Husbands By Your Actions", "Wife, Find Joy In
+Helping Your Husband Flourish", "Modesty For The Joy Of Others To God's Glory").
+
+**A near-miss worth recording:** his 2015 book *A Matter Of Life Or Death* reads from the title like
+a book on abortion. It is not — it is evangelistic, subtitled *Discovering what it is to be fully
+alive*. Checked rather than assumed, which is the whole discipline.
+
+### The rest
+
+Ordinary small-town EFCA ministry, and the negative result is recorded as a result. Notable details:
+**Stromsburg** (Keet Redden) is listed in **The Gospel Coalition's Nebraska church finder**;
+**Stanton** staffs an **Associate Pastor for Biblical Counseling**; **Concord** has celebrated its
+**125th anniversary** under a pastor settled since 2001; **Living Water** (South Sioux City) was
+established only in 2010; **Alliance** has *two* signatory congregations — the E-Free and the Berean.
+Ord, Alliance E-Free and Living Water have no independent website, so nothing beyond the signature
+could be read; that is stated rather than papered over.
+
+**New lead:** the **Nebraska Gospel Network** (nebraskagospel.net) surfaced twice — Goshert at River
+Valley and Minden. Site is mid-rebuild and unreadable. Added to the deep-dive queue.
+
+**106 `signature_only` rows remain.**
