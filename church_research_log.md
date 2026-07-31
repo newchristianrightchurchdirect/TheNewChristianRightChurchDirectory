@@ -789,3 +789,37 @@ congregation as #65 under its pre-2018 name; merged then deleted.
 Resources church directory (2011, so expect drift) and the **Alliance of Reformed and Theonomic
 Churches** member list — the latter stronger, since membership is a formal act by the church
 rather than an outsider's opinion.
+
+## 2026-07-31 — #65 classified per owner; Nixon attribution found to be wrong, not stale
+
+**#65 Christ the King Reformed (Charlotte MI)** classified **transformationalist**, `evidenced`,
+by owner decision. Bret McAtee is explicitly postmillennial and theonomic — "theonomy remains the
+only model that can consistently provide relief" — and defends Bahnsen in print at Iron Ink.
+
+**The Kinism record is kept in the Editor's Note, not erased**: McAtee promotes Kinism, the
+congregation was removed from the CRC in December 2018 over it, and the SPLC listed the church
+among white-nationalist hate groups in February 2021. A directory whose value is traceable claims
+should carry facts a reader would want, and Kinism is a separate axis from cultural engagement.
+`recordFlag = review_nonfit` retained as a marker that this was a considered editorial decision.
+
+**Joost Nixon — the "issue" was a misattribution, and a new kind of one.** He does **not** pastor
+Christ Covenant Reformed, Billings MT. He has been **Pastor of Christ Church, Spokane WA since
+2001**, is contributing editor to **Credenda/Agenda** and executive editor of St. Anne's Public
+House, and is Director of Formal Education at Training Leaders International. Billings is a
+**partnering church for his training ministry** — the directory mistook a partnership for a
+pastorate.
+
+So Billings' postmill listing rests on a man pastoring 500 miles away; its actual pastor is
+unidentified. Left `mixed` + `verify_stance`, leadership cleared.
+
+**Fourth attribution failure in that source, and the first that was never true:**
+
+| Church | Directory says | Reality |
+|---|---|---|
+| Colwood, Caro MI | Jason Garwood | resigned 2017 |
+| Christ is King, Syracuse | Jon Speed | left 2019 |
+| All Saints, PA | Gregg Strawbridge | died 2022 |
+| **Christ Covenant, Billings MT** | **Joost Nixon** | **pastors in Spokane WA — never here** |
+
+Also noted: the same directory lists Christ Church Spokane (#22) under Kenton Spratt while Nixon
+has pastored there since 2001. Both cannot be simply right; leadership flagged for confirmation.
