@@ -1,0 +1,142 @@
+[
+ {
+  "pastor": "Sutton, Clay County",
+  "title": "Pastor",
+  "churches": [
+   {
+    "church": "Michael Belinsky, Sr.",
+    "city": "Pastor"
+   },
+   {
+    "church": "St. John’s Lutheran Church",
+    "city": "Beemer"
+   },
+   {
+    "church": "Zion Lutheran Church",
+    "city": "Bancroft"
+   }
+  ],
+  "county": "Cuming County"
+ },
+ {
+  "pastor": "Rev. Joel Rathbun, Pastor/Elder",
+  "title": "Pastor",
+  "churches": [
+   {
+    "church": "Arapahoe Methodist Church",
+    "city": "Arapahoe"
+   },
+   {
+    "church": "Beaver City Methodist Church",
+    "city": "Beaver City"
+   }
+  ],
+  "county": "Furnas County"
+ },
+ {
+  "pastor": "Fullerton, Nance County",
+  "title": "Pastor",
+  "churches": [
+   {
+    "church": "Gregory Lawhorn",
+    "city": "Pastor"
+   },
+   {
+    "church": "One Hope Fellowship",
+    "city": "Norfolk"
+   },
+   {
+    "church": "Community of Believers Church",
+    "city": "Creighton"
+   }
+  ],
+  "county": "Madison and Knox Counties"
+ },
+ {
+  "pastor": "Stromsburg, Polk County",
+  "title": "Pastor",
+  "churches": [
+   {
+    "church": "Marcel Kohlmeyer",
+    "city": "Pastor"
+   },
+   {
+    "church": "St. John Lutheran Church",
+    "city": "Tecumseh"
+   },
+   {
+    "church": "Immanuel Lutheran Church",
+    "city": "Sterling"
+   }
+  ],
+  "county": "Johnson County"
+ },
+ {
+  "pastor": "Johnson County",
+  "title": "Pastor",
+  "churches": [
+   {
+    "church": "Bruce Phillips",
+    "city": "Pastor"
+   },
+   {
+    "church": "Neligh Faith Community Church",
+    "city": "Neligh"
+   },
+   {
+    "church": "Oakdale Faith Community Church",
+    "city": "Oakdale"
+   }
+  ],
+  "county": "Antelope County"
+ },
+ {
+  "pastor": "O’Neill Methodist Church, O’Neill",
+  "title": "Pastor",
+  "churches": [
+   {
+    "church": "Atkinson Methodist Church",
+    "city": "Atkinson"
+   }
+  ],
+  "county": "Holt County"
+ },
+ {
+  "pastor": "Omaha, Douglas County",
+  "title": "Pastor",
+  "churches": [
+   {
+    "church": "Brian G. Loy",
+    "city": "Pastor"
+   },
+   {
+    "church": "Imperial Methodist Church",
+    "city": "Imperial"
+   },
+   {
+    "church": "Wauneta Global Methodist Church",
+    "city": "Wauneta"
+   }
+  ],
+  "county": "Chase County"
+ },
+ {
+  "pastor": "Auburn, Nemaha County",
+  "title": "Pastor",
+  "churches": [
+   {
+    "church": "Lee E. Wonch",
+    "city": "Pastor"
+   },
+   {
+    "church": "Tallin Church",
+    "city": "Gothenburg"
+   },
+   {
+    "church": "Amazing Grace Church",
+    "city": "Thedford"
+   }
+  ],
+  "county": "Custer and Thomas Counties"
+ }
+]

@@ -1164,3 +1164,37 @@ hundreds of supporters still did not produce a vote.
 — Michigan status, the full national bill map with sponsors, the Iowa/Nebraska pastors'-statement
 model and the roster-before-bill sequence, the organisations and FAA leadership, the opposition
 analysis above, verified pastor references, and suggested next steps.
+
+## 2026-07-31 — Repaired my own Nebraska import; +16 congregations from multi-church pastors
+
+Returning to the church research surfaced defects in the import I had run earlier. Both are mine.
+
+**1. Three rows were named after job titles.** The parser recognised a standalone role line only
+if it began with a known prefix, so **"Missions Pastor"**, **"Teaching Pastor"** and **"Youth
+Pastor"** were each consumed as a *church name* — losing the real one.
+- #4297 "Missions Pastor" → **LifePoint Church, Norfolk** (James McClenahan)
+- #4319 "Teaching Pastor" → **Faith Bible Church, Lincoln** (Brad Myers)
+- #4323 "Youth Pastor" → the *same* Faith Bible Church via its second signatory Koty Krawczyk;
+  merged into #4319 and deleted
+
+**I checked for a systematic shift and there is none.** Diffing every imported row against a
+corrected parse found only those three wrong. Calvary Community Church (Lincoln) genuinely has two
+signatories — Shane Sundermann and Steve Davenport — as do Dominion Covenant and Faith Bible; both
+are now recorded.
+
+**2. Eight pastors each serve TWO congregations**, listed in a format the parser could not read
+(`Pastor` / `Church A, City` / `Church B, City` / `County`). Read from the source by hand and
+verified line by line: **16 congregations added**, each carrying its pastor and its partner church.
+
+Michael Belinsky Sr. (St. John's Lutheran Beemer + Zion Lutheran Bancroft) · Rev. Joel Rathbun
+(Arapahoe + Beaver City Methodist) · Gregory Lawhorn (One Hope Fellowship Norfolk + Community of
+Believers Creighton) · Marcel Kohlmeyer (St. John Lutheran Tecumseh + Immanuel Lutheran Sterling) ·
+Bruce Phillips (Neligh + Oakdale Faith Community) · Bob Wynn (O'Neill + Atkinson Methodist) ·
+Brian G. Loy (Imperial + Wauneta Global Methodist) · Lee E. Wonch (Tallin Gothenburg + Amazing
+Grace Thedford).
+
+**4,265 → 4,281 churches · pro_abolition 177 → 192.** All 16 carry `signature_only`.
+
+**Lesson:** a parser that silently mis-reads a line does not fail loudly — it produces plausible
+rows. "Missions Pastor, Norfolk NE" looked like a church until someone read the list. Extraction
+from a document should be diffed against the source before the rows are trusted.

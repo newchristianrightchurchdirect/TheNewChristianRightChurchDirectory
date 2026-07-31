@@ -1,0 +1,74 @@
+[
+ {
+  "id": 181,
+  "currentName": "Emmaus Bible Church",
+  "currentCity": "Omaha",
+  "pastor": "Lead Pastor Luke Gorsett.",
+  "correctChurch": null,
+  "correctCity": null,
+  "correctTitle": null
+ },
+ {
+  "id": 180,
+  "currentName": "Columbus First Baptist Church",
+  "currentCity": "Columbus",
+  "pastor": "Pastor Evan.",
+  "correctChurch": null,
+  "correctCity": null,
+  "correctTitle": null
+ },
+ {
+  "id": 1383,
+  "currentName": "Grace Church PCA",
+  "currentCity": "Fremont",
+  "pastor": "Senior Pastor Clint Eberspacher (since 2024; Kyle McClellan former).",
+  "correctChurch": null,
+  "correctCity": null,
+  "correctTitle": null
+ },
+ {
+  "id": 19,
+  "currentName": "Dominion Covenant Church",
+  "currentCity": "Omaha",
+  "pastor": "Senior Pastor Dr. Phillip Kayser (Dominion Institute; ethics prof., Whitefield Theo. Sem.).",
+  "correctChurch": null,
+  "correctCity": null,
+  "correctTitle": null
+ },
+ {
+  "id": 4297,
+  "currentName": "Missions Pastor",
+  "currentCity": "Norfolk",
+  "pastor": "James McClenahan",
+  "correctChurch": "LifePoint Church",
+  "correctCity": "Norfolk",
+  "correctTitle": "Missions Pastor"
+ },
+ {
+  "id": 4307,
+  "currentName": "Lighthouse Church",
+  "currentCity": "Auburn",
+  "pastor": "Doug Hitzel",
+  "correctChurch": "Pastor/Elder / Lighthouse Church",
+  "correctCity": "Auburn",
+  "correctTitle": "Pastor"
+ },
+ {
+  "id": 4319,
+  "currentName": "Teaching Pastor",
+  "currentCity": "Lincoln",
+  "pastor": "Brad Myers",
+  "correctChurch": "Faith Bible Church",
+  "correctCity": "Lincoln",
+  "correctTitle": "Teaching Pastor"
+ },
+ {
+  "id": 4323,
+  "currentName": "Youth Pastor",
+  "currentCity": "Lincoln",
+  "pastor": "Koty Krawczyk",
+  "correctChurch": "Faith Bible Church",
+  "correctCity": "Lincoln",
+  "correctTitle": "Youth Pastor"
+ }
+]
