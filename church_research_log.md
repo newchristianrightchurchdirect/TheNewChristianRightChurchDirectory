@@ -1389,3 +1389,50 @@ than of settled confessional habit — a different thing from the Missouri Synod
 than assumed to be LCMS like its neighbours.
 
 **93 `signature_only` rows remain.**
+
+## 2026-07-31 — Methodist cluster verified individually (11 churches). These are the realignment churches.
+
+Fourth discharge of the `signature_only` debt.
+
+### The naming was the tell, and the disaffiliation list confirmed it
+
+Every congregation in this cluster is "**Methodist**", not "*United* Methodist" — and one is
+"Wauneta **Global Methodist** Church", which is what cracked the group open. In 2023 the Great Plains
+Annual Conference approved **155 disaffiliations, 59 of them in Nebraska**, most departing for the
+**Global Methodist Church** (launched 2022, now 3,100+ congregations) over the UMC's direction on
+sexuality.
+
+**Four are confirmed by name on the conference's own disaffiliation list: Arapahoe, Beaver City,
+Neligh and Oakdale.** The UMC's data now carries "Beaver City First United Methodist Church" as
+**closed** — it did not close, it left.
+
+**That also solved two rows that matched no Methodist listing anywhere.** Bruce Phillips's churches
+are **Neligh Faith Community Church** and **Oakdale Faith Community Church** — the renamed former
+UMC congregations. Their names *are* the evidence of what happened to them.
+
+### What this cluster is NOT, and why that matters
+
+**The Global Methodist Church ordains women.** So unlike the Berean, EFCA and Lutheran clusters,
+**genderStance was deliberately left unset here** rather than defaulted to complementarian. Applying
+the previous clusters' pattern would have been a denominational default wearing the costume of
+research. Eschatology is left unset for the same reason — the GMC binds no millennial position, and
+classical Wesleyanism's postmillennial strand (the one behind 19th-century Methodist abolitionism
+and temperance) is a historical association, not evidence about these congregations.
+
+### One church is in the cluster by name only
+
+**Naponee Wesleyan Church** is not a disaffiliated UMC congregation. It belongs to the **Wesleyan
+Church**, which broke from the Methodist Episcopal Church in **1843 over slavery**, when abolitionists
+under Orange Scott left rather than stay in fellowship with slaveholders. In a directory about
+churches acting on public questions that origin deserves recording: the denomination exists because
+Methodists concluded a legally sanctioned moral evil required separation rather than patience.
+Pastor Scott Randall's signature sits in exactly that lineage. Recorded as context, not as evidence
+of the congregation's present programme.
+
+### Assessment
+
+1 marker of 6 across the cluster. What *is* evidenced beyond the signature is a body of congregations
+that paid a real price to leave a denomination they judged unfaithful. That is genuine, and it is
+recorded — but it is not the same thing as the transformationalist thesis, and it is not counted as such.
+
+**82 `signature_only` rows remain.**
