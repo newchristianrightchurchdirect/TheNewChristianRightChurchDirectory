@@ -299,3 +299,57 @@ separates abolitionism from pro-life street evangelism. Same care as Ekklesia of
 
 ## Running totals
 281 transformationalist · **27 evidenced** (first-hand) · 175 awaiting verification.
+
+---
+
+## Verified batch 3 — 2026-07-30
+
+### Covenant Bible Church, Georgetown TX (#17) — Joel Webbon — **EVIDENCED**
+Self-proclaimed **Christian nationalist**; argues "the United States belongs to Christians" and
+that non-Christians should not hold public office. **Opposes women's suffrage.** Advocates
+outlawing abortion, pornography and contraceptives in civil law. Founder/president of **Right
+Response Ministries**. Documented at length in national coverage.
+Set: CN `affirm`, gender `patriarchal`, abolition `pro_abolition`, theonomy `sympathetic`, postmill.
+
+### Apologia Church, Tempe AZ (#3) — Jeff Durbin — **EVIDENCED, clearest abolition case in the directory**
+**End Abortion Now is an outreach ministry _of Apologia Church_** — the congregation runs it.
+Purpose: criminalise abortion nationwide through local churches and state legislation. Durbin
+**helped draft equal-protection bills in Alabama and Louisiana**. Equal protection is precisely
+the test separating abolitionism from incrementalism, which is why mainstream pro-life groups and
+the SBC's ERLC have rejected the movement. The church, not merely the pastor, is the vehicle.
+
+### By the Word Baptist, Azle TX (#4035) — Jon Speed — **EVIDENCED**
+Co-producer of **"Babies Are Murdered Here"**, a foundational abolition documentary. In 2019 his
+Syracuse store publicly defied New York's Reproductive Health Act (Fox & Friends, Hannity, Beck).
+Pastor of Missions and Evangelism here since November 2019.
+
+### Immanuel Baptist, Tucumcari NM (#3289) — Gordan Runyan — **EVIDENCED**
+Wrote **_Resistance to Tyrants: Romans 13 and the Christian Duty to Oppose Wicked Rulers_** and a
+published defence of **theonomy from within 1689 Reformed Baptist confessionalism**. Hosts The
+Ragtown Pulpit. *Connection: his Romans 13 argument is the same tradition as Trewhella's lesser
+magistrates — that doctrine keeps recurring and looks like a network axis.*
+
+### Covenant Reformed Presbyterian, Graham/Burlington NC (#1296) — John M. Otis — **EVIDENCED**
+**RPCUS** congregation — the denomination founded to apply theonomy. Otis wrote *Jesus' Victorious
+Kingdom* and the 540-page **_Danger in the Camp_**, a refutation of the Federal Vision.
+*Theonomic and postmillennial yet strongly anti-FV* — RPCUS and CREC converge on the civil sphere
+and diverge on Federal Vision, which is exactly why FV was dropped from the ranking markers.
+
+---
+
+## THIRD stale pastor attribution — the pattern is now established
+
+The postmillennialworldview.com directory is demonstrably unmaintained:
+
+| Church | Directory says | Reality |
+|---|---|---|
+| Colwood, Caro MI (#4165) | Jason Garwood | **resigned Sept 2017** |
+| Christ is King, Syracuse NY (#4180) | Jon Speed | **left Nov 2019** (now at #4035) |
+| All Saints, PA (#60) | Gregg Strawbridge | **died 2022** |
+
+Three for three among the pastors checked closely. Every pastor name imported from that source
+must be treated as unverified — the doctrine claim may hold while the leadership record does not.
+All Saints is separately confirmed as a **1999 church plant of Christ Church, Moscow ID**.
+
+## Running totals
+281 transformationalist · **30 evidenced** · 175 awaiting verification.
