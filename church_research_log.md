@@ -1112,3 +1112,27 @@ Abortion Texas) and J.R. Haas (VP; Texas Capitol organising, testifies against i
 measures).
 
 25 state pages remain unread — queued.
+
+## 2026-07-31 — Full equal-protection bill map mined; Deevers recorded as the thesis case
+
+Browser-mined every FAA state page with active legislation. Bills and sponsors captured for
+Michigan, Georgia, Illinois, Iowa, Kansas, Kentucky, Missouri, Ohio, Oklahoma, South Carolina and
+South Dakota — 12 new equal-protection bills in 2026 plus 4 carried from 2025. Table in the
+deep-dive queue.
+
+**#216 Grace Reformed Baptist Church of Elgin — Dusty Deevers.** Already in the directory and
+already evidenced. Now recorded: he **filed SB 456, the Abolition of Abortion Act**, in the
+Oklahoma Senate. He is the pastor of this congregation *and* the state senator who wrote the bill.
+He was nominated for SBC first vice president in 2023 (20% of the vote) and writes for American
+Reformer and the Center for Baptist Leadership. **This is the clearest case in the directory of
+the thesis it exists to test** — not a church addressing the civil sphere from outside, but a
+pastor legislating within it.
+
+**Georgia documents the movement's central split in citable form.** Georgia Life Alliance — the
+state's largest pro-life organisation and a National Right to Life affiliate — refused to support
+HB 441 and "worked behind the scenes against the bill, trying to persuade state lawmakers to
+oppose it." That is the same fault line Bill Ascol crossed inside the SBC (#212) and Jeff Durbin
+presses through legislatures (#3), now with a named organisation on the other side of it.
+
+Sponsors' names give a second search axis for finding pastors' statements state by state: pastors
+backing a bill tend to surface in coverage of its hearings.

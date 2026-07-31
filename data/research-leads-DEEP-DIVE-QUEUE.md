@@ -255,3 +255,39 @@ produced the Iowa and Nebraska rosters.
 
 **FAA socials for monitoring:** x.com/AbolitionistFAA, facebook.com/AbolitionistFAA,
 youtube.com/@AbolitionistFAA, instagram.com/abolitionistfaa. Also abortionfree.com.
+
+---
+
+## 12. EQUAL-PROTECTION BILLS AND SPONSORS — full map (browser-mined 2026-07-31)
+
+| State | Bill | Sponsor(s) |
+|---|---|---|
+| **Michigan** | **HB 4671** *Justice for Babies in the Womb Act* | **Rep. Josh Schriver** |
+| Georgia | HB 441 *Prenatal Equal Protection Act* | Rep. Emory Dunahoo |
+| Illinois | SB 3572 *Abolish Abortion Illinois Act* | Sen. Neil Anderson |
+| Iowa | HF 2316 | Rep. Zach Dieken |
+| Kansas | HB 2789 / HB 2171 (earlier HB 2737, HB 2181) | Rep. Samantha Poetter Parshall; Rep. Trevor Jacobs |
+| Kentucky | HB 714 / HB 523 *Prenatal Equal Protection Act* | Reps. Richard White, Josh Calloway |
+| Missouri | SB 951 / HB 1682 | Sen. Mike Moon; Rep. Burt Whaley |
+| Ohio | HB 370 *Ohio Prenatal Equal Protection Act* | Reps. Levi Dean, Johnathan Newman |
+| **Oklahoma** | HB 3038 / **SB 456** *Abolition of Abortion Act* | Rep. Gabe Woolley (co-sponsor Sen. Warren Hamilton); **Sen. Dusty Deevers — a PASTOR (#216)** |
+| South Carolina | S. 783 / HB 3537 | Sen. Lee Bright; Rep. Rob Harris |
+| South Dakota | HB 1212 | Rep. Tony Randolph, Sen. John Carley |
+
+**2026 volume:** 12 new equal-protection bills plus 4 carried over from 2025.
+
+**Two findings worth acting on:**
+
+1. **Dusty Deevers (#216) is the directory's thesis in one person** — pastor of Grace Reformed
+   Baptist Church of Elgin *and* the Oklahoma senator who filed SB 456. Not a church commenting on
+   the civil sphere; a pastor legislating in it. Recorded on his row.
+
+2. **Georgia documents the split concretely.** Georgia Life Alliance — the state's largest pro-life
+   group and a **National Right to Life affiliate** — not only refused to back HB 441 but "worked
+   behind the scenes against the bill, trying to persuade state lawmakers to oppose it."
+   That is the abolitionist/incrementalist fault line in a citable form, and it is the same line
+   Bill Ascol crossed inside the SBC (#212) and Jeff Durbin presses through legislatures (#3).
+
+**Next:** search each of these states for a pastors' equal-protection statement, using the *event*
+rather than church phrasing. Sponsors' names are now known, which gives a second search axis — the
+pastors who back a bill often appear in coverage of its hearings.
