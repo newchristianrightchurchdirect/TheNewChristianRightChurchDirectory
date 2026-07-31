@@ -128,3 +128,51 @@ search surfaced titles. Needs a browser pass or a human eye.
 **4 of the first 5 examined were on the automated demotion list. None should be demoted.**
 The automation's error rate on this sample is effectively total, and every confirmation came
 from a podcast, a book, a news story or a third-party directory — never the homepage.
+
+---
+
+## Batch 2 — #25, #26, #28, #29
+
+### #25 Providence Church Pensacola (CREC, FL) — **LEAN KEEP**
+Pastor **Uri Brito** (CREC Athanasius Presbytery; writes *Resurrectio et Vita*). The church
+"offers classes on the distinctives of the congregation, among them being their commitment to a
+**postmillennial eschatology**" — the congregation teaching postmillennialism as an official
+distinctive, which corroborates the marker at church level rather than by denominational guess.
+No specific corporate action on a public question found yet. Socials: FB/X @ProvidenceCREC,
+YouTube @providencepensacola.
+
+### #26 Holy Trinity Reformed Church (CREC, Concord NC) — **LEAN KEEP**
+Pastor **Brian Phillips** — Ed.D. in Classical Education, writes the Legal Update for the
+Association of Classical Christian Schools, teaches at Schole Academy and Oaks Classical
+Christian Academy. Classical Christian education is institution-building for the culture, which
+is transformationalist in substance. **Caveat:** those academies are not obviously *this church's*
+schools, so this is the pastor's vocation more than the congregation acting.
+
+### #28 Providence Church Lynchburg (CREC, VA) — **LEAN KEEP**
+Pastor **Virgil Hurt**. Independently listed as a postmillennial church with a postmillennial
+pastor. Founded 1999; became a mission church of **Christ Church, Moscow ID** in 2000 — direct
+Moscow lineage rather than mere CREC membership. Socials: X/Instagram/FB @ProvidenceKirk.
+
+### #29 Trinity Church Kirkland (CREC, WA) — **UNRESOLVED, weakest so far**
+Pastor **Dave Hatcher**. Podcast running 2008–2026, 100 episodes, but no political, abortion or
+cultural content surfaced in search. Nothing found beyond CREC membership.
+
+---
+
+## Pattern emerging after 9 churches
+
+The CREC rows are **doctrinally** corroborated far better than the denominational-default note
+suggested — postmillennialism keeps being confirmed by third-party directories and by the
+churches' own distinctives classes, not just assumed from the denomination.
+
+But **corporate action** — the actual test — is only demonstrable for a minority. #19, #20 and
+#24 clearly act. #23, #25, #26, #28 hold the doctrine without evidence of the deed. #29 shows
+neither beyond membership.
+
+That suggests the honest outcome is not a mass demotion to `unknown`, but a **split**: churches
+that demonstrably act stay transformationalist on `evidenced` basis; churches with corroborated
+doctrine but no demonstrated action need either a `verify_stance` flag or a decision from the
+owner about whether shared conviction without public action meets the standard.
+
+**That is a definitional question only Dustin can settle**, and it affects far more rows than any
+individual verdict here.
