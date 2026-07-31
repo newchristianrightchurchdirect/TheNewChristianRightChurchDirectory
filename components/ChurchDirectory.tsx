@@ -48,11 +48,12 @@ interface Church {
 }
 
 // Primary axis: does the church act corporately on public questions?
-type Position = 'all' | 'transformationalist' | 'limited_mission' | 'quietist' | 'unknown'
+type Position = 'all' | 'transformationalist' | 'single_issue' | 'limited_mission' | 'quietist' | 'unknown'
 type SortKey = 'name' | 'state' | 'upvotes'
 
 const POSITION_TABS: Array<{ key: Position; label: string; title: string }> = [
   { key: 'transformationalist', label: 'Qualifying', title: 'Churches that meet the standard: they act corporately on public questions' },
+  { key: 'single_issue', label: 'Single Issue', title: 'Examined, does NOT qualify — acts publicly on one question (usually abortion), but is not otherwise transformationalist' },
   { key: 'limited_mission', label: 'Limited', title: 'Examined, does NOT qualify — holds the institutional church should not take up public causes' },
   { key: 'quietist', label: 'Quietist', title: 'Examined, does NOT qualify — treats political engagement as worldly' },
   { key: 'unknown', label: 'Unresearched', title: 'Not yet researched closely enough to classify' },
@@ -147,6 +148,7 @@ export default function ChurchDirectory() {
   const total = churches.length
   const counts = useMemo(() => ({
     transformationalist: churches.filter(c => c.culturalEngagement === 'transformationalist').length,
+    single_issue: churches.filter(c => c.culturalEngagement === 'single_issue').length,
     limited_mission: churches.filter(c => c.culturalEngagement === 'limited_mission').length,
     quietist: churches.filter(c => c.culturalEngagement === 'quietist').length,
     unknown: churches.filter(c => c.culturalEngagement === 'unknown').length,
@@ -155,6 +157,7 @@ export default function ChurchDirectory() {
   const tabCounts: Record<Position, number> = {
     all: total,
     transformationalist: counts.transformationalist,
+    single_issue: counts.single_issue,
     limited_mission: counts.limited_mission,
     quietist: counts.quietist,
     unknown: counts.unknown,
@@ -197,9 +200,9 @@ export default function ChurchDirectory() {
           <div className="stat-bar"><span className="oxblood" style={{ width: `${pct(counts.transformationalist).toFixed(2)}%` }} /></div>
         </div>
         <div className="stat">
-          <div className="stat-label">Limited Mission</div>
-          <div className="stat-value"><span className="brass">{fmt(counts.limited_mission)}</span><span className="small">‖ {pct(counts.limited_mission).toFixed(1)}%</span></div>
-          <div className="stat-bar"><span className="brass" style={{ width: `${pct(counts.limited_mission).toFixed(2)}%` }} /></div>
+          <div className="stat-label">Single Issue</div>
+          <div className="stat-value"><span className="brass">{fmt(counts.single_issue)}</span><span className="small">‖ {pct(counts.single_issue).toFixed(1)}%</span></div>
+          <div className="stat-bar"><span className="brass" style={{ width: `${pct(counts.single_issue).toFixed(2)}%` }} /></div>
         </div>
         <div className="stat">
           <div className="stat-label">Unverified</div>
@@ -299,10 +302,12 @@ export default function ChurchDirectory() {
             </div>
             <p className="position-note">
               Only <strong>Qualifying</strong> churches meet this directory&rsquo;s standard —
-              they act corporately on public questions. <em>Limited</em> and <em>Quietist</em>
-              congregations were examined and do not; they are listed to record that they were
-              looked into, not to commend them. <em>Unresearched</em> means we have not yet
-              done the work. <Link href="/about" className="position-note-link">How we classify &rarr;</Link>
+              they act corporately on public questions. <em>Single Issue</em> congregations act
+              publicly on one matter, usually abortion, but are not otherwise transformationalist;{' '}
+              <em>Limited</em> and <em>Quietist</em> churches were examined and do not qualify either.
+              All three are listed to record that they were looked into, not to commend them.{' '}
+              <em>Unresearched</em> means we have not yet done the work.{' '}
+              <Link href="/about" className="position-note-link">How we classify &rarr;</Link>
             </p>
           </div>
 

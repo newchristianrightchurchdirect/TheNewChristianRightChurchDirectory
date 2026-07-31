@@ -1436,3 +1436,49 @@ that paid a real price to leave a denomination they judged unfaithful. That is g
 recorded — but it is not the same thing as the transformationalist thesis, and it is not counted as such.
 
 **82 `signature_only` rows remain.**
+
+## 2026-07-31 — "Transformationalist" now requires evidenced engagement. 124 churches reclassified.
+
+Dustin's call, made on the evidence from the four verification clusters above.
+
+### Why the rule changed
+
+The working rule had been: **one of the six markers is enough to count as transformationalist.**
+Abolition is one of the six, so every equal-protection signatory qualified automatically. Verifying
+43 of them individually showed what that produced:
+
+- **Not one of the 43 is postmillennial.**
+- **13 are confessionally barred from postmillennialism** — Augsburg Confession XVII condemns the
+  millennial hope by name, and they subscribe to the Book of Concord.
+- **3 are explicitly pretribulational dispensational premillennial**, the eschatology furthest from
+  the transformationalist thesis.
+- **All 43 nonetheless read `culturalEngagement = transformationalist`.**
+
+A label that a confessionally amillennial Missouri Synod parish and a postmillennial theonomic
+congregation both carry is not doing any work.
+
+### The new standard
+
+**Transformationalist now requires evidence that the church acts corporately across public
+questions.** One marker is not enough.
+
+New value **`single_issue`** — examined; acts publicly on one question, nearly always abortion, and
+nearly always because the pastor signed an equal-protection statement. **Does not qualify as an NXR
+church.** It is not a demotion of the finding: the signature is first-hand, formal and attributable,
+and `abolitionStance = pro_abolition` is untouched on every one of these rows. What was withdrawn is
+the *inference built on top of it*.
+
+**124 churches reclassified.** Qualifying falls **412 → 288**.
+
+**One exception: Minden E-Free (#4229) stays transformationalist**, because its engagement is
+evidenced independently of the signature — Dr. Tom Barnes publishes political theology on government
+and economics under his own name.
+
+### Shipped alongside
+
+`single_issue` added end to end: directory tab and stats strip (the "Limited Mission" stat, at 3
+churches, was replaced by "Single Issue" at 124 — far more informative), church-card and detail
+badges, map markers, admin filters and labels, the submit API's accepted values, and the about page —
+whose public "qualifying" figure and Q.02 definition now count single-issue churches among the
+examined-and-does-not-qualify group. Church pages carry a specific caveat explaining that the
+signature is real and documented but is not the standard.

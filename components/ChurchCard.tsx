@@ -18,6 +18,7 @@ interface Church {
 // PRIMARY axis - does the church act corporately on public questions?
 const POSITION: Record<string, { cls: string; label: string }> = {
   transformationalist: { cls: 'transformationalist', label: '† Transformational' },
+  single_issue: { cls: 'single-issue', label: 'Single Issue' },
   limited_mission: { cls: 'limited-mission', label: 'Limited Mission' },
   quietist: { cls: 'quietist', label: 'Quietist' },
   unknown: { cls: 'unknown', label: 'Unverified' },

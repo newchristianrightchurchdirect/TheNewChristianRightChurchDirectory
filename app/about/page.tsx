@@ -15,7 +15,7 @@ export default async function AboutPage() {
     prisma.church.findMany({ where: { approved: true }, select: { state: true }, distinct: ['state'] }),
     prisma.church.findMany({ where: { approved: true, denomination: { not: null } }, select: { denomination: true }, distinct: ['denomination'] }),
     prisma.church.count({ where: { approved: true, culturalEngagement: 'transformationalist' } }),
-    prisma.church.count({ where: { approved: true, culturalEngagement: { in: ['limited_mission', 'quietist'] } } }),
+    prisma.church.count({ where: { approved: true, culturalEngagement: { in: ['single_issue', 'limited_mission', 'quietist'] } } }),
     prisma.church.count({ where: { approved: true, culturalEngagement: 'unknown' } }),
   ])
 
@@ -155,7 +155,7 @@ export default async function AboutPage() {
 
           <div className="faq-item">
             <div className="faq-q"><span>What does &ldquo;transformationalist&rdquo; mean here?</span><span className="q-num">Q.02</span></div>
-            <div className="faq-a">That the congregation believes Christ&apos;s lordship covers law, politics, and culture, and says so <em>as a church</em> rather than leaving it to members acting privately. <strong>This is the standard, and only these {qualifying} churches meet it.</strong> A church marked <em>Limited Mission</em> holds that the institutional church should not take up such causes; a <em>Quietist</em> church treats political engagement as worldly. Many in both groups are thoroughly orthodox and entirely sincere — but they are not what this directory exists to find, and they are listed to record that they were examined, not to commend them. Zionist stance and abolition commitment are recorded as separate indicators.</div>
+            <div className="faq-a">That the congregation believes Christ&apos;s lordship covers law, politics, and culture, and says so <em>as a church</em> rather than leaving it to members acting privately. <strong>This is the standard, and only these {qualifying} churches meet it.</strong> A <em>Single Issue</em> church acts publicly on one matter — nearly always abortion, and nearly always because its pastor signed an equal-protection statement — without evidence of acting corporately across public questions; that signature is real and is documented, but one marker is not the standard. A church marked <em>Limited Mission</em> holds that the institutional church should not take up such causes; a <em>Quietist</em> church treats political engagement as worldly. Many in all three groups are thoroughly orthodox and entirely sincere — but they are not what this directory exists to find, and they are listed to record that they were examined, not to commend them. Zionist stance and abolition commitment are recorded as separate indicators.</div>
           </div>
 
           <div className="faq-item">

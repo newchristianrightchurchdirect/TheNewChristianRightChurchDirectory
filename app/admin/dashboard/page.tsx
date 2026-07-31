@@ -37,6 +37,7 @@ function heldReason(c: Church): string {
 
 const POSITION_LABEL: Record<string, string> = {
   transformationalist: 'Transformational',
+  single_issue: 'Single Issue',
   limited_mission: 'Limited Mission',
   quietist: 'Quietist',
   unknown: 'Unverified',

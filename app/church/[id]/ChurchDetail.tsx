@@ -39,6 +39,7 @@ const REPORT_REASONS = [
 
 const POSITION: Record<string, { cls: string; label: string }> = {
   transformationalist: { cls: 'transformationalist', label: '† Transformational' },
+  single_issue: { cls: 'single-issue', label: 'Single Issue' },
   limited_mission: { cls: 'limited-mission', label: 'Limited Mission' },
   quietist: { cls: 'quietist', label: 'Quietist' },
   unknown: { cls: 'unknown', label: 'Unverified' },
@@ -99,6 +100,14 @@ export default function ChurchDetail({ church }: { church: Church }) {
                 <strong>Not yet classified.</strong> This congregation has not been researched
                 closely enough to say whether it meets this directory&rsquo;s standard. Its
                 presence here records that it is on file — nothing more.
+              </>
+            ) : church.culturalEngagement === 'single_issue' ? (
+              <>
+                <strong>Does not meet the standard.</strong> This congregation was examined and
+                acts publicly on <strong>one</strong> question — usually abortion, and usually
+                because its pastor signed an equal-protection statement. That act is real and is
+                recorded in full below. But it is not evidence that the church acts corporately
+                across public questions, and this directory does not treat it as such.
               </>
             ) : (
               <>

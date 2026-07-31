@@ -7,7 +7,7 @@ import { parseFlags, RECORD_FLAGS } from '@/lib/record-flags'
 type Church = Record<string, any>
 
 const STANCE_FIELDS: Array<{ key: string; label: string; options: string[] }> = [
-  { key: 'culturalEngagement', label: 'Cultural engagement', options: ['unknown', 'transformationalist', 'limited_mission', 'quietist'] },
+  { key: 'culturalEngagement', label: 'Cultural engagement', options: ['unknown', 'transformationalist', 'single_issue', 'limited_mission', 'quietist'] },
   { key: 'zionistStance', label: 'Zionism', options: ['unknown', 'anti', 'no', 'yes'] },
   { key: 'abolitionStance', label: 'Abolition', options: ['unknown', 'pro_abolition', 'incrementalist', 'anti'] },
   { key: 'christianNationalism', label: 'Christian nationalism', options: ['unknown', 'affirm', 'sympathetic', 'critical'] },

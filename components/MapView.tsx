@@ -19,6 +19,7 @@ interface Church {
 // Markers follow the directory's primary axis (cultural engagement), not Zionism.
 const POSITION_CLASS: Record<string, string> = {
   transformationalist: 'transformationalist',
+  single_issue: 'single-issue',
   limited_mission: 'limited-mission',
   quietist: 'quietist',
   unknown: 'unknown',

@@ -1523,6 +1523,7 @@ input, select, textarea { font: inherit; color: inherit; }
 /* Transformationalist churches are the point of the directory, so they carry the
    strongest colour; the secondary indicator chips stay deliberately quieter. */
 .church-tag.transformationalist { color: var(--oxblood); border-color: var(--oxblood); font-weight: 600; }
+.church-tag.single-issue        { color: var(--brass-deep); border-color: var(--brass-deep); }
 .church-tag.limited-mission     { color: var(--brass-deep); border-color: var(--brass-deep); }
 .church-tag.quietist            { color: var(--ink-soft, #6b6b6b); border-color: var(--ink-soft, #6b6b6b); }
 
@@ -1531,6 +1532,7 @@ input, select, textarea { font: inherit; color: inherit; }
 .church-tag.indicator.abolition { color: var(--oxblood); border-color: var(--oxblood); }
 
 .church-marker.transformationalist { background: var(--oxblood); }
+.church-marker.single-issue        { background: var(--brass); }
 .church-marker.limited-mission     { background: var(--brass); }
 .church-marker.quietist            { background: var(--ink); }
 
