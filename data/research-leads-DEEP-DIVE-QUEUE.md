@@ -120,3 +120,46 @@ of the kind that justified the postmill upgrade, and each is a discovery list in
 **To do:** capture both, cross-reference with strict state+city+name matching (never a state-only
 fallback — that produced the Yorba Linda / Redding false match), and treat ARTC membership as
 stronger than a directory listing.
+
+---
+
+## 8. EQUAL-PROTECTION SIGNATORY LISTS — the best evidence source found so far (2026-07-31)
+
+Found while chasing an unconfirmed claim on #3910. **Pastors who sign a public equal-protection
+statement have taken a formal, attributable act**, which is stronger than a directory listing, a
+denomination, or even a sermon. These lists are the highest-yield source discovered in this whole
+verification effort.
+
+**Iowa (January 2024)** — eighteen pastors signed biblical guidance presented at a Capitol event
+in Des Moines: abortion prosecuted as murder under the existing penal code, doctor *and* mother
+accountable. Captured; 7 of 16 named signatories were already in the directory and are now
+`evidenced` + `pro_abolition`.
+
+**STILL TO ADD — nine Iowa signatory churches not yet in the directory:**
+- Central Baptist Church, Sioux City — Lloyd Grant
+- Cornerstone Church, Sioux City — Cary Gordon
+- Church of All Nations, Sioux City — Joshua Loomis
+- Ascension Reformed Church, Red Oak & Stanton — Garry Mayes
+- Zion Lutheran Church, Atlantic — Kyle McBee
+- First Baptist Church, Bedford — Jamie Mogler
+- First Baptist Church, Dunkerton — Micah Sample
+- Christian Life Church, Cedar Rapids — Christian Shields
+- (plus two of the eighteen not named in the coverage found)
+
+**Nebraska has the same document** — *"Biblical Counsel from the Protestant Pastors of the Church
+in Nebraska"*, PDF at `abolishabortionne.org/docs/Biblical-Counsel-to-Nebraska-on-Abortion-2024.pdf`.
+Not yet captured. **Assume other states have one too** — this looks like a coordinated national
+pattern, and each is a ready-made list of verified abolitionist pastors with their churches.
+
+**Organisations to mine:**
+- **Iowa Abolitionists** (iowaabolitionists.org) — formed by pastors in 2024.
+- **End Abortion Iowa** (endabortioniowa.com) — Bible-believing Protestants across the state
+  seeking "total abolition and criminalization".
+- **Abolitionists Rising** (abolitionistsrising.com/criminalization) — already the source behind
+  several "AR-listed" rows in the directory.
+- **Foundation to Abolish Abortion** (faa.life) — leadership page named Brett Baggett.
+
+**Method note:** my first search for this letter used the church's own phrasing and returned
+nothing, and I recorded the claim as unconfirmable. Searching instead for the *event* — "Iowa
+pastors equal protection capitol" — found it immediately. **A failed search is not a disproof;
+try the event, the organisation and the state before concluding a claim is unsupported.**

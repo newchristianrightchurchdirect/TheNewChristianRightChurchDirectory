@@ -992,3 +992,36 @@ their own stated positions on women's suffrage, plus Doug Wilson's reported ment
 Defense Secretary Pete Hegseth. Ascol carried abolition inside the SBC while Durbin pressed it
 through state legislatures — the same fault line from two directions. Kuyperian Commentary
 (Brito, McIntosh) is emerging as a contributor network worth mapping in its own right.
+
+## 2026-07-31 — Iowa equal-protection statement found; claim vindicated, and a record corrected
+
+Went looking for the letter #3910 asserted its pastor had signed. **It exists, and he did.**
+
+*Iowa pastors' equal-protection statement*, January 2024: eighteen pastors signed biblical
+guidance presented at a Capitol event in Des Moines calling for **equal protection of all humans
+in Iowa from conception** — all chemical and surgical abortion outlawed but for medical
+emergencies, and **both doctor and mother accountable under the existing penal code, with
+abortion classified as murder** in degrees by knowledge and intent. That is criminalisation, not
+incrementalism, and **signing it is a formal public act by the pastor** — the strongest abolition
+evidence available short of a church running its own ministry.
+
+**#3910 Providence Reformed (Jody James Lucero) is vindicated** — I had recorded the claim as
+unconfirmable; it was true. My first search used the church's own phrasing; searching for the
+*event* found it at once. **A failed search is not disproof.**
+
+**#46 Christ the Redeemer, Pella — CORRECTED.** The row read `abolitionStance = incrementalist`
+while its pastor, Michael Shover, had signed an equal-protection statement — the opposite
+position. Now `pro_abolition`, with the correction stated on the record.
+
+Seven signatory congregations were already in the directory and are now `evidenced` +
+`pro_abolition`: #3910 Providence Reformed (Lucero), #3280 Crossroad Earlham (**two** signatories
+— Grant Brown and David Koch), #3904 Rock Valley URC (Castro), #3907 Redeemer URC Orange City
+(DeRooy), #3908 Cornerstone URC Sanborn (Donovan), #4060 Abundant Life Humboldt (Sam Jones — the
+published list spells it "Humbolt"), #46 Christ the Redeemer Pella (Shover).
+
+**284 transformationalist · 56 evidenced · 67 pro_abolition.**
+
+**Nine more Iowa signatory churches are not yet in the directory** and are queued, and **Nebraska
+has the same document** (`abolishabortionne.org`). Assume other states do too — these lists are
+the highest-yield source found in this entire effort, because they are formal acts rather than
+third-party attributions.
