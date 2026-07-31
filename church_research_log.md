@@ -950,3 +950,45 @@ on the institution-building plus third-party postmill corroboration.
 education counts.
 
 **282 transformationalist, 40 evidenced.**
+
+## 2026-07-31 — 50 congregations verified first-hand
+
+**284 transformationalist · 50 evidenced · 173 awaiting verification.**
+
+Verified this run, each to the full standard with a complete Editor's Note: Paul Viggiano (Branch
+of Hope OPC — Bahnsen Theological Seminary; publicly debated postmillennialism against Thomas
+Ice), Wayne Sedlak (Reformation Hope — the church states its own applied-worldview purpose and
+organised the Parent Information Network), Adam McIntosh (St. David's — Kuyperian Commentary
+contributor; gives invocations at city council), Michael Shover (Christ the Redeemer Pella —
+preached the First Amendment as idol, national coverage), Gabriel Render (Stone Mountain Baptist
+— TruthScript author and podcast co-host), **Jason Garwood** (Cross & Crown — founded the Virginia
+Center for Public Theology, leads Abolish Abortion Virginia), Anthony Mathenia (Christ Church
+Radford — founded Better Than Life Ministries), **Brett Baggett** (Ekklesia Muskogee — president
+of Rescue Those, FAA leadership, open letter for SB13), **Bill Ascol** (Bethel Baptist Owasso —
+co-author and floor advocate of the 2021 SBC resolution demanding immediate abolition), **Paul
+Thompson** (Eastside Baptist — sanctuary-city-for-the-preborn campaigns, Idaho State Senate
+candidate).
+
+**The Caro, Michigan thread is closed.** Jason Garwood, who resigned from Colwood in 2017, went to
+Cross & Crown in Warrenton VA. The Caro postmill attribution belonged to the man and left with
+him; Colwood still needs assessing on its own terms.
+
+**Not promoted, deliberately, with reasons on each row:** Joost Nixon (Billings — pastors in
+Spokane; attribution simply wrong), Kenton Spratt (Spokane — nothing found on any marker), Steven
+Wedgeworth (Christ Church Lakeland — now rector in South Bend, and his own writing probes
+postmillennialism rather than professing it), Nathan Eshelman (LA RP — prolific but confessional
+rather than civil-sphere), Rich Hamlin (Tacoma — expository only), Jim West (Sacramento — left
+2013, died 2023), Jody Lucero (Des Moines — **the equal-protection signature this row asserts
+could not be confirmed**; flagged rather than reversed, since absence of a search result is not
+disproof).
+
+**Attribution failures now seven of eight checked** in the postmillennialworldview.com source:
+Garwood (resigned 2017), Speed (left 2019), Strawbridge (died 2022), Nixon (never pastored there),
+Wedgeworth (moved, doctrine claim doubtful too), West (left 2013, died 2023). Only Kenton Spratt
+held up. That is the reliability of the source behind 99 imported rows.
+
+**Connections recorded:** Christ Church Moscow now carries Jared Longshore and Toby Sumpter with
+their own stated positions on women's suffrage, plus Doug Wilson's reported mentorship of US
+Defense Secretary Pete Hegseth. Ascol carried abolition inside the SBC while Durbin pressed it
+through state legislatures — the same fault line from two directions. Kuyperian Commentary
+(Brito, McIntosh) is emerging as a contributor network worth mapping in its own right.
