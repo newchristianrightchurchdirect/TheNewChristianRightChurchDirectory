@@ -704,3 +704,30 @@ language about "total victory for King Jesus in history".
 examined in depth qualifies. Working notes in `data/manual-review-2026-07-30.md`; review is
 per-church and ongoing. Absence of evidence on a homepage is not evidence of absence, and a
 false demotion costs this directory more than an unverified row does.
+
+## 2026-07-30 — 78 rows raised to transformationalist on third-party corroboration
+
+Owner's ruling: corroborated conviction qualifies even without a demonstrated public deed, but
+these are still to be verified individually the way #19, #20 and #24 were.
+
+Applied via `prisma/apply-postmill-xref-2026-07-30.ts`, which routes every change through
+`updateStances` so the StanceChange audit trail records old value, new value, actor and reason.
+**146 audit rows written** — the first real use of that trail.
+
+- **104 → 182 transformationalist.**
+- **78 flagged `verify_stance`**, `stanceBasis = 'mixed'` (deliberately NOT `evidenced`), with
+  the directory URL added to sourceUrls. That keeps "a third party says the pastor is postmill"
+  visibly distinct from "we read this church ourselves" — the absence of that distinction is what
+  caused the original problem.
+- Eschatology filled to `postmill` on the 68 rows where it was `unknown`.
+
+**10 eschatology conflicts NOT overwritten** — the row records one thing, the directory another:
+#31 Phoenix Reformed Baptist, #440 Christ Church Presbyterian, #885 Westminster Presbyterian
+Martinez, #106 Reformed Baptist Tama, #979 Community Presbyterian Louisville, #2142 New Life
+Fellowship, #1507 Christ the King Presbyterian, #1585 Laurel Highlands, #1755 Woodruff Road
+(all amill), and #174 Catherine Lake Baptist (dispensational). Those stored values are themselves
+likely denominational defaults, so this is one guess against one third-party claim — it needs a
+human, not a bulk overwrite.
+
+**Still outstanding:** 99 directory churches not matched to any row here — a discovery list, in
+`data/postmill-xref-2026-07-30.json`.
