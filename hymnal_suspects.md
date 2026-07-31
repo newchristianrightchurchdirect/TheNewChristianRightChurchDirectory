@@ -1,0 +1,267 @@
+# Hymnal suspects — title not found in the hymn's own verses
+
+(Possible misattached lyrics. SH listed separately = known OCR-garbage with no source.)
+
+
+## BoPW — 8 different-text, 0 garbled-title
+
+- **#41C** title=`Book One Doxology` | v1=`Blessed be the LORD, the God of Israel,`
+- **#72F** title=`Book Two Doxology` | v1=`Now blessed be the LORD our God,`
+- **#72G** title=`Book Two Doxology` | v1=`Blessed be the LORD, the God of Israel,`
+- **#89C** title=`How Happy Are the People` | v1=`Behold how blessed the people are`
+- **#89H** title=`Book Three Doxology` | v1=`Now to the LORD all blessings be`
+- **#106G** title=`Book Four Doxology` | v1=`Blessed be the LORD,`
+- **#106H** title=`Book Four Doxology` | v1=`The LORD be blessed,`
+- **#150D** title=`Book Five Doxology` | v1=`Praise God within His holy place,`
+
+## CC — 15 different-text, 54 garbled-title
+
+- **#181 a-b** title=`Oh, Sing a New Song to the Lord` | v1=`O sing unto the Lord a new song,`
+- **#210** title=`Come, Ye Disconsolate` | v1=`Come, you disconsolate, where'er you languish;`
+- **#226b** title=`O Come with Thanks, God's Goodness Praising` | v1=`I'll thank the LORD; now let me enter.`
+- **#230** title=`Angels We Have Heard on High` | v1=`Gloria in excelsis Deo.`
+- **#248-249** title=`The First Noel` | v1=`The first Nowell the angel did say`
+- **#316** title=`O God of Bethel! by Whose Hand` | v1=`God of the ages, whose almighty hand`
+- **#387** title=`Guide Me, O Thou Great Jehovah` | v1=`Guide me, O my great Redeemer,`
+- **#396-397** title=`Gloria in Excelsis` | v1=`Glory be to God on high,`
+- **#416-419** title=`Magnificat` | v1=`O come, Thou Rod of Jesse, free Thine own from Satan's tyran`
+- **#510** title=`Who Would True Valor See` | v1=`All who would valiant be`
+- **#734** title=`Doxology` | v1=`Praise God, from whom all blessings flow;`
+- **#735** title=`Gloria Patri` | v1=`Glory be to the Father,`
+- **#736** title=`Gloria Patri (alt.)` | v1=`Glory be to the Father,`
+- **#S5** title=`Elect of God (Colossians 3:12-17)` | v1=`2 Elect of God`
+- **#S9** title=`Gilead` | v1=`Salvation, oh, the joyful sound,`
+- **#4** [garbled title] title=`Psalm 3` | v1=`LORD, how they have increased who trouble me! Many are they `
+- **#15** [garbled title] title=`Psalm 8` | v1=`On the instrument of Gath. A Psalm of David. O LORD, our Lor`
+- **#20** [garbled title] title=`Psalm 11` | v1=`In the LORD I put my trust; How can you say to my soul, “Fle`
+- **#22** [garbled title] title=`Psalm 12` | v1=`On an eight-stringed harp. A Psalm of David. Help, LORD, for`
+- **#28** [garbled title] title=`Psalm 14` | v1=`The fool hath said in his heart, There is no God. They are c`
+- **#50** [garbled title] title=`Psalm 113` | v1=`Praise the LORD! Praise, O servants of the LORD, Praise the `
+- **#84** [garbled title] title=`Psalm 43` | v1=`Vindicate me, O God, And plead my cause against an ungodly n`
+- **#100** [garbled title] title=`Psalm 53` | v1=`The fool hath said in his heart, There is no God. Corrupt ar`
+- **#116a** [garbled title] title=`Psalm 61` | v1=`On a stringed instrument. A Psalm of David. Hear my cry, O G`
+- **#116b** [garbled title] title=`Psalm 82` | v1=`God stands in the congregation of the mighty; He judges amon`
+- **#211b** [garbled title] title=`Psalm 112` | v1=`Praise the LORD! Blessed is the man who fears the LORD, Who `
+- **#276** [garbled title] title=`Psalm 137` | v1=`By the rivers of Babylon, There we sat down, yea, we wept Wh`
+- **#411** [garbled title] title=`The Lord's Prayer` | v1=`Our Father, which art in heaven,`
+- **#479a-b** [garbled title] title=`Soul Adorn Thyself with Gladness` | v1=`Deck thyself, my soul, with gladness,`
+- **#656** [garbled title] title=`The Sword of the Spirit` | v1=`On Pentecost the Spirit came:`
+- **#722** [garbled title] title=`Sanctus` | v1=`Holy, holy, holy, Holy is the Lord!`
+- **#S14** [garbled title] title=`Psalm 1` | v1=`Blessed is the man that walketh not in the counsel of the un`
+- **#S30** [garbled title] title=`Psalm 100` | v1=`Make a joyful shout to the LORD, all you lands!`
+- **#S31** [garbled title] title=`Psalm 111` | v1=`Praise the LORD! I will praise the LORD with my whole heart,`
+- **#S32** [garbled title] title=`Psalm 114` | v1=`When Israel went out of Egypt, The house of Jacob from a peo`
+- **#S33** [garbled title] title=`Psalm 117` | v1=`O Praise the LORD, all ye nations: praise him, all ye people`
+- **#S34** [garbled title] title=`Psalm 120` | v1=`In my distress I cried to the LORD, And He heard me.`
+- **#S35** [garbled title] title=`Psalm 121` | v1=`I will lift up my eyes to the hills— From whence comes my he`
+- **#S36** [garbled title] title=`Psalm 122` | v1=`Of David. I was glad when they said to me, “Let us go into t`
+- **#S37** [garbled title] title=`Psalm 123` | v1=`Unto You I lift up my eyes, O You who dwell in the heavens.`
+- **#S38** [garbled title] title=`Psalm 124` | v1=`Of David. “If it had not been the LORD who was on our side,”`
+- **#S39** [garbled title] title=`Psalm 125` | v1=`Those who trust in the LORD Are like Mount Zion, Which canno`
+- **#S40** [garbled title] title=`Psalm 126` | v1=`When the LORD brought back the captivity of Zion, We were li`
+- **#S41** [garbled title] title=`Psalm 127` | v1=`Except the LORD build the house, they labour in vain that bu`
+- **#S42** [garbled title] title=`Psalm 128` | v1=`Blessed is every one who fears the LORD, Who walks in His wa`
+- **#S43** [garbled title] title=`Psalm 129` | v1=`Song of Ascents. “Many a time they have afflicted me from my`
+- **#S16** [garbled title] title=`Psalm 13` | v1=`How long, O LORD? Will You forget me forever? How long will `
+- **#S44** [garbled title] title=`Psalm 130` | v1=`Out of the depths I have cried to You, O LORD;`
+- **#S45** [garbled title] title=`Psalm 131` | v1=`Lord, my heart is not haughty, nor mine eyes lofty: neither `
+- **#S46** [garbled title] title=`Psalm 132` | v1=`LORD, remember David And all his afflictions;`
+- **#S47** [garbled title] title=`Psalm 133` | v1=`Of David. Behold, how good and how pleasant it is For brethr`
+- **#S48** [garbled title] title=`Psalm 134` | v1=`Behold, bless the LORD, All you servants of the LORD, Who by`
+- **#S49** [garbled title] title=`Psalm 148` | v1=`Praise the LORD! Praise the LORD from the heavens; Praise Hi`
+- **#S50** [garbled title] title=`Psalm 149` | v1=`Praise the LORD! Sing to the LORD a new song, And His praise`
+- **#S17** [garbled title] title=`Psalm 15` | v1=`LORD, who may abide in Your tabernacle? Who may dwell in You`
+- **#S51** [garbled title] title=`Psalm 150` | v1=`Praise the LORD! Praise God in His sanctuary; Praise Him in `
+- **#S18** [garbled title] title=`Psalm 19` | v1=`The heavens declare the glory of God; And the firmament show`
+- **#S19** [garbled title] title=`Psalm 23` | v1=`The LORD is my shepherd; I shall not want.`
+- **#S20** [garbled title] title=`Psalm 24` | v1=`The earth is the LORD’s, and the fulness thereof; the world,`
+- **#S21** [garbled title] title=`Psalm 29` | v1=`Give unto the LORD, O you mighty ones, Give unto the LORD gl`
+- **#S22** [garbled title] title=`Psalm 46` | v1=`A Song for Alamoth. God is our refuge and strength, A very p`
+- **#S23** [garbled title] title=`Psalm 47` | v1=`Oh, clap your hands, all you peoples! Shout to God with the `
+- **#S24** [garbled title] title=`Psalm 54` | v1=`With stringed instruments. A Contemplation of David when the`
+- **#S15** [garbled title] title=`Psalm 6` | v1=`With stringed instruments. On an eight-stringed harp. A Psal`
+- **#S25** [garbled title] title=`Psalm 63` | v1=`O God, You are my God; Early will I seek You; My soul thirst`
+- **#S26** [garbled title] title=`Psalm 67` | v1=`On stringed instruments. A Psalm. A Song. God be merciful to`
+- **#S27** [garbled title] title=`Psalm 70` | v1=`To bring to remembrance. Make haste, O God, to deliver me! M`
+- **#S28** [garbled title] title=`Psalm 87` | v1=`A Song. His foundation is in the holy mountains.`
+- **#S29** [garbled title] title=`Psalm 93` | v1=`The LORD reigns, He is clothed with majesty; The LORD is clo`
+
+## HoG — 46 different-text, 8 garbled-title
+
+- **#13** title=`Long ago, at many times and in many ways` | v1=`There was a time, I know,`
+- **#15** title=`The heavens declare the glory of God` | v1=`Heaven and earth, and sea and air,`
+- **#17** title=`O Father, You are sov'reign in all the worlds You made` | v1=`O Father, you are sovereign`
+- **#28** title=`Incline your ear, O Lord, and answer me` | v1=`Bow down Thy ear, O LORD, and hear,`
+- **#34** title=`Bless the Lord, O my soul, and all that is within me` | v1=`O bless the Lord, my soul!`
+- **#38** title=`I lift up my eyes to the hills. From where does my help come?` | v1=`To Sion's hill I lift my eyes,`
+- **#45** title=`Therefore David blessed the Lord in the presence` | v1=`The Lord is just in his ways all,`
+- **#46** title=`And you were dead in the trespasses and sins` | v1=`My former hopes are fled,`
+- **#54** title=`My Lord, I did not choose You` | v1=`Lord, 'tis not that I did choose you;`
+- **#56** title=`Paul, an apostle of Christ Jesus by the will of God` | v1=`They healed the sick in Jesus' Name`
+- **#61** title=`Guide me, O Thou great Jehovah` | v1=`Guide me, O my great Redeemer,`
+- **#74** title=`Paul, an apostle of Christ Jesus by the will of God` | v1=`They healed the sick in Jesus' Name`
+- **#77** title=`God of grace, amazing wonder` | v1=`Eternal Power, Almighty God,`
+- **#79** title=`When trials come, no longer fear` | v1=`There’s coming a wonderful, wonderful day, Its glory has nev`
+- **#87** title=`Love of God, revealed in wonder by the works of a Maker's hand` | v1=`ALEPH:`
+- **#99** title=`Nicodemus said to him` | v1=`A man named Nicodemus to Jesus came one night.`
+- **#100** title=`O God, my joy, You reign above` | v1=`Sing praise to God who reigns above, the`
+- **#102** title=`"Jesus is Lord"— the cry that echoes through creation` | v1=`Jesus, my Lord, to Thee I cry; Unless Thou help me`
+- **#108** title=`For since the law was but a shodow of the good things to come` | v1=`1. For since the law has but a shadow of the good things to `
+- **#110** title=`Thine is the glory` | v1=`Thine be the glory, risen, conqu'ring Son;`
+- **#123** title=`Then I heard what seemed to be the voice of a great multitude` | v1=`Behold what witnesses unseen`
+- **#142** title=`Beloved, let us love one another` | v1=`Lord, thou on earth didst love thine own,`
+- **#145** title=`Now if Christ is proclaimed as raised from the dead` | v1=`Christ is our cornerstone;`
+- **#162** title=`Wonderful, merciful Savior` | v1=`Wonderful promise, oh, precious word, Coming to Jesus, I`
+- **#165** title=`Jesus, draw me ever nearer` | v1=`O Jesus, I have promised To serve Thee to the`
+- **#167** title=`Good Shepherd of my soul` | v1=`The King of love my shepherd is, whose`
+- **#178** title=`For this reason, because I have heard of your faith` | v1=`We with our ears have heard, O God,`
+- **#198** title=`You're the Word of God the Father` | v1=`To the bar of God on high`
+- **#199** title=`In the beginning was the Word` | v1=`Whene’er I look into Thy word,`
+- **#201** title=`There is a Redeemer` | v1=`There is a place of quiet rest, Near to the heart of`
+- **#205** title=`You, however, have followed my teaching` | v1=`Have I an object, Lord, below`
+- **#206** title=`Jesus! what a Friend for sinners!` | v1=`Hallelujah! what a Savior!`
+- **#211** title=`Brothers, my heart's desire and prayer to God` | v1=`"Nearer the cross!" my heart can say,`
+- **#221** title=`Fullness of grace in man's human frailty` | v1=`Hear what the Lord in vision said,`
+- **#227** title=`Angels we have heard on high` | v1=`Gloria in excelsis Deo.`
+- **#243** title=`For to us a child is born` | v1=`To us a child of royal birth,`
+- **#253** title=`Thru long ages of the past` | v1=`He is born, the divine Christ child;`
+- **#257** title=`With a pray'r You fed the hungry` | v1=`To the work! To the work! We are servants of God, Let us`
+- **#258** title=`If I speak in the tongues of men and angels` | v1=`Could I, with tongues of Angels speak`
+- **#265** title=`Your only Son, no sin to hide` | v1=`Where shall my wond'ring soul begin? `
+- **#267** title=`Therefore, prepare your minds for action` | v1=`13. Therefore, preparing your minds for action, and being so`
+- **#270** title=`And the soldiers lead him away inside the palace` | v1=`Soldiers of Zion, on we go,`
+- **#272** title=`Oh, to see the dawn of the darkest day` | v1=`1. The Bible is a brilliant lamp,`
+- **#297** title=`So they took Jesus, and he went out` | v1=`Christ taught us of a farmer who went out sowing seeds.`
+- **#306** title=`Now on the first day of the week` | v1=`Oh! day of days! shall hearts set free`
+- **#318** title=`Holy Spirit, living Breath of God` | v1=`Breathe on me, Breath of God, `
+- **#49** [garbled title] title=`What then shall we say to these things?` | v1=`O say, can you see, by the dawn's early light,`
+- **#69** [garbled title] title=`Day by day and with each passing moment` | v1=`Day by day, God’s gracious love surrounds me`
+- **#97** [garbled title] title=`We will glorify the King of kings` | v1=`Refrain:`
+- **#98** [garbled title] title=`My worth is not in what I own` | v1=`Not what I am, O Lord, but what Thou art,`
+- **#132** [garbled title] title=`Servants, be subject to your masters with all respect` | v1=`Christians, in your several stations,`
+- **#160** [garbled title] title=`Remember my affliction and my wanderings` | v1=`Lord God! Thou art for evermore`
+- **#300** [garbled title] title=`My Jesus, fair, was pierced by thorns` | v1=`Fair Salem's daughters ask to know`
+- **#320** [garbled title] title=`But I say, walk by the Spirit` | v1=`The Spirit in our hearts`
+
+## SH — 51 different-text, 11 garbled-title
+
+- **#129** title=`And if you meet with noebles And tnon the way - Iv` | v1=`And if you meet with troubles`
+- **#134** title=`A few more days on earth to spend` | v1=`few more days on earth to spend, And all my toils and cares `
+- **#142** title=`Through ev'ry age, eternal God` | v1=`F# Minor Isaac Watts, 1719. Ezra Goff, 1786.`
+- **#149** title=`The chariot! the chariot! its wheels roll in fire` | v1=`ajor H.H. Milman, 1827. rN J. Williams, 1831.`
+- **#169** title=`Come, sound His praise abroad` | v1=`elt sectric leelet rier Ie erin pri telS ierer eS`
+- **#179** title=`I find myself placed in a state of probation` | v1=`. 12s & 11s. 179`
+- **#184** title=`Before the rosy dawn of day` | v1=`¥C r SUy , 6 y ! SSSa Ta — Be S er fe s ! r S 29 S 7 — eo le`
+- **#212** title=`How pleasant 'tis to see` | v1=`A E N S S £ 7 s 5 E Sal o S as l ite S r m s S H y T , ie al`
+- **#218** title=`There is a house not made with hands` | v1=`B ( S’ S , es : Ss Hf o Bs t t om t —H i if i — Coe eesl i a`
+- **#228** title=`O for a shout of sacred joy` | v1=`for ashout of sacred joy To God the sov - ’reignKing! Let ev`
+- **#235** title=`Jerusalem! my happy home!` | v1=`. Concluded. 235`
+- **#236** title=`The Lord is ris'n indeed! Hallelujah!` | v1=`The Lord is ris’’ n indeed! lelujah! The Lord is ris’, n ind`
+- **#242** title=`The morning sun shines from the east` | v1=`S ajor Jez S aniah Su mner, 1798. 5 8 S 3 n o v . £5) we z 6`
+- **#250** title=`I beheld, and lo a great multitude` | v1=`Based on Revelation 7:9; 5:11; 4:8; 8:13; 6:1517.`
+- **#292** title=`Behold the Savior of mankind` | v1=`( wr Al ieae aea : eea om 2 eeet`
+- **#299** title=`Lo, what a glorious sight appears` | v1=`“And ohn saw the holy city, new Jerusalem, coming down from `
+- **#302** title=`The day is past and gone` | v1=`nay ineronnes is past F gone, The evening shades appear; O m`
+- **#316** title=`Jesus, what shall I do to show` | v1=`Jesus, what shallI do to show How muchI _ love Thy charmingn`
+- **#317** title=`I am a stranger here below` | v1=`. Concluded. 317`
+- **#320** title=`I heard a great voice from heav'n` | v1=`F# Minor Rev. 14:13. William Billings, 1778.`
+- **#322** title=`The glorious plan of man's redemption` | v1=`(gs G Macjorr Beattlee’s rColl ection tof Hyemns , 1814.t oe`
+- **#334** title=`O come, come away` | v1=`come, come away, From labor now reposing, Our jubilee has se`
+- **#339** title=`Shed not a tear o'er your friend's early bier` | v1=`I . 10s & 4s. 339`
+- **#341** title=`I came to the place where the lone pilgrim lay` | v1=`. Ils, 8s. 341`
+- **#350** title=`O for a thousand tongues to sing` | v1=`Major Charles Wesley, 1739. Thomas Jarman, 1812. Arr.-Phil A`
+- **#354a** title=`See, gracious God, before Thy throne` | v1=`Almighty Lord, before Thy throne`
+- **#360** title=`Hosanna to Jesus, my soul's fill'd with praises` | v1=`@E 8Mintor MerFcer’s Cluster n , 1829 n . er eee Flpppiphee `
+- **#369** title=`Oh, tell me no more of this world's vain stare` | v1=`“Hereafter ye shall see heaven open, and the angels of God a`
+- **#383** title=`O what of all my suff'rings here` | v1=`“He became the author of eternal salvation unto all them tha`
+- **#396** title=`Oh, could I speak the matchless worth` | v1=`_and the true light now shineth.” -- 1 John`
+- **#406** title=`I want to live a Christian here` | v1=`(as G MajoSr eSacreed Harp, e185e9. eee M.L. A. Lancaster, 1`
+- **#412** title=`Wake, O my soul, and hail the morn` | v1=`e6o” Saya) fssseeminnce ' ' eefae Sie seec S`
+- **#416** title=`I'll sing my Savior's grace` | v1=`een sing my Savior’s grace, And His sweet name I'll praise, `
+- **#420** title=`Our Father's gone to that bright land` | v1=`lifts her eyes, For guilt, heavy chain, Still drags her down`
+- **#421** title=`The happy day will soon appear` | v1=`“And let him hear the cry in the morning, and the shouting a`
+- **#422** title=`Oh, for a heart to praise my God` | v1=`Oh, for heart to praise my God, A heart from sin set free, A`
+- **#429** title=`Peace, troubled soul, thou need not fear` | v1=`F# Minor Samuel Ecking, 1778. Arr. - William L. Williams, 18`
+- **#432** title=`Grace, 'tis a most delightful theme` | v1=`s eee si ; ne`
+- **#440** title=`My soul, come meditate the day` | v1=`4 7 W ) : D ) S S E L S o S S s S 0 P I es 6 6 es I s 0 O A `
+- **#449** title=`There is a place where my hopes are stayed` | v1=`Bp hp rep pene ea`
+- **#465** title=`I have my troubles here below` | v1=`’S . L.M.D. 465`
+- **#475** title=`Give me a calm, a thankful heart` | v1=`“In my distress I cried unto the Lord, and he heard me.” -- `
+- **#479** title=`Let the high heav'ns your songs invite` | v1=`ealeet the high heav’ns your songs invite, These spacious fi`
+- **#483** title=`I'm not ashamed to own my Lord` | v1=`A F Major Isaac Watts, 1707. H. N. McGraw, 1960.`
+- **#492** title=`Arise, my soul, my joyful pow'rs` | v1=`B Major Isaac Watts, 1707, Alt. Frais alielinaiasalliee ii R`
+- **#496** title=`Convinced as a sinner, to Jesus I come` | v1=`rac sraciaeres iain cae`
+- **#504** title=`When we our wearied limbs to rest` | v1=`“Oh, that the salvation of Israel were come out of Zion!" --`
+- **#511** title=`Look up, my soul, with cheerful eyes` | v1=`Look up, my soul, withcheerful eyes, See where the great Red`
+- **#512** title=`When the sun, or light, or the moon, or the stars` | v1=`” ..and the spirit shall return unto God who gave it. ”`
+- **#528** title=`With songs and honors sounding loud` | v1=`Son s y 32 S 2 8 ees S F 2 Ear i S — l r Be aa ( aes S o ll `
+- **#530** title=`I've learned to sing a glad, new song` | v1=`530 A . C.M.D.`
+- **#99** [garbled title] title=`Hark! How the gos pel trumpet sounds! Thro’ all the world the echo bounds; —` | v1=`Hark! How the gospel trumpet sounds!`
+- **#193** [garbled title] title=`Lord, what a thoughtless wretch was I` | v1=`6) 7S Ea Le oBOe P el ) Ee ) 2 Ge 1 2.`
+- **#222** [garbled title] title=`Thy works of glory, mighty Lord` | v1=`.W A,Ea Gad Ht`
+- **#225b** [garbled title] title=`Christmas Anthem` | v1=`Oh, how charming, oh, how charming,`
+- **#298** [garbled title] title=`What shall I render to my God` | v1=`A Isaac Watts, 1719. C. Curtis, 1820.`
+- **#391** [garbled title] title=`Behold the morning sun` | v1=`7 (G , mma ovr , eS — gg ees ere ale Era S C S 1 s B S P S`
+- **#398** [garbled title] title=`I'm dying, Mother, dying now` | v1=`I'm dyi ng, Mother, dying now, Please raise my aching head, `
+- **#501** [garbled title] title=`And will the Judge descend` | v1=`. Concluded. 501`
+- **#545** [garbled title] title=`Dark and thorny is the desert` | v1=`’S . 8s & 7s. 545`
+- **#550** [garbled title] title=`My God, the spring of all my joys` | v1=`God, the spring of all my joys, The life of my delight, The `
+- **#558** [garbled title] title=`My Shepherd is the Lord most high` | v1=`.T will fear no evil..." -- Ps.2`
+
+## TH1990 — 20 different-text, 3 garbled-title
+
+- **#292** title=`Who Shall Ascend the Mountain of the Lord` | v1=`Alleluia, alleluia, `
+- **#354** title=`Jesus Christ, Our Sure Foundation` | v1=`Christ is made the sure foundation,`
+- **#452** title=`Macedonia` | v1=`The vision of a dying world is vast before our eyes;`
+- **#514** title=`For God So Loved the World` | v1=`God loved the world so that he gave`
+- **#527** title=`The Beatitudes` | v1=`Blest are the humble souls that see`
+- **#640** title=`My Tribute` | v1=`How can I say thanks for the things you have done for me?`
+- **#719** title=`A Christian Home` | v1=`O give us homes built firm upon the Savior,`
+- **#729** title=`All Things Are Thine` | v1=`All things are Yours; nothing of ours,`
+- **#730** title=`Benediction` | v1=`May the grace of Christ our Savior`
+- **#731** title=`Doxology` | v1=`Praise God from whom all blessings flow;`
+- **#732** title=`Doxology` | v1=`Praise God from whom all blessings flow;`
+- **#733** title=`Doxology` | v1=`Praise God from whom all blessings flow;`
+- **#734** title=`Gloria Patri` | v1=`Glory be to the Father, and to the Son, and to the Holy Ghos`
+- **#735** title=`Gloria Patri` | v1=`Glory be to the Father, and to the Son, and to the Holy Ghos`
+- **#736** title=`Gloria Patri` | v1=`Glory be to God the Father, and to Christ his only Son;`
+- **#738** title=`Twofold Amen` | v1=`A-men, a-men.`
+- **#739** title=`Twofold Amen` | v1=`A-men, a-men.`
+- **#740** title=`Threefold Amen` | v1=`A-men, a-men, a-men.`
+- **#741** title=`The Apostle's Creed` | v1=`In God the Father I believe, Almighty Lord of all,`
+- **#742** title=`The Apostle's Creed` | v1=`I believe in God the Father, `
+- **#286** [garbled title] title=`Worship Christ, the Risen King!` | v1=`Christ the Lord is risen today, Alleluia! `
+- **#724** [garbled title] title=`The Ten Commandments` | v1=`My soul, recall with rev'rent wonder`
+- **#725** [garbled title] title=`The Lord's Prayer` | v1=`Our Father, Lord of heav'n and earth,`
+
+## THB — 13 different-text, 7 garbled-title
+
+- **#29** title=`As the sun doth daily rise` | v1=`Let us, with a gladsome mind,`
+- **#315** title=`God Inimselfi 1S wath Ws estes oresesnaeceanee` | v1=`God himself is with us:`
+- **#438** title=`Jesus, Pliverto tee rssuacrss seat cestecten` | v1=`Jesus, I live to thee,`
+- **#511** title=`Witness, ye men and angels now` | v1=`No longer, Lord despise me,`
+- **#534** title=`SWEELMOUNOL PTAV Cia ante` | v1=`Sweet hour of prayer, sweet hour of prayer,`
+- **#537** title=`Saviour, thy dying love` | v1=`What shall I render to my God`
+- **#628** title=`O)Bathemallicreatin gaeeesceeccesett` | v1=`O Father all creating,`
+- **#715** title=`Jesus. li Come teeeatecs tests saute -ticcsereves` | v1=`Out of my bondage, sorrow and night,`
+- **#729** title=`Home sofithe(S oul eens` | v1=`I will sing you a song of that beautiful land,`
+- **#749** title=`O mighty rulers, can you claim` | v1=`Do ye, O men, speak righteousness`
+- **#763** title=`Unto the Lord lift thankful voices` | v1=`O praise the Lord, His deeds make known,`
+- **#764** title=`O praise the Lord, for He is ARNO rorenactircereore` | v1=`Praise ye the Lord, for He is good;`
+- **#769** title=`I cried in trouble to the Lord` | v1=`I cried to God in my distress,`
+- **#23** [garbled title] title=`O Light that knew no dawn` | v1=`O God, the Rock of Ages,`
+- **#208** [garbled title] title=`esuswleordeRecdeeineleemre-wietecccnsys-centeeses` | v1=`Jesus, Lord, Redeemer,`
+- **#286** [garbled title] title=`eondestDleSSilt Crteerncecrseere steams` | v1=`We gather together to ask the Lord's blessing;`
+- **#427** [garbled title] title=`Jesusy LoverlOf mysSOul Berecectcsecoce` | v1=`Jesus, Lover of my soul,`
+- **#477** [garbled title] title=`StanG ups scand up £OL JeSUStees` | v1=`Stand up, stand up for Jesus,`
+- **#700** [garbled title] title=`Must and ODGY` | v1=`When we walk with the Lord `
+- **#735** [garbled title] title=`Hear, O my Lord, regard my CTY` | v1=`Lord, hear the right, regard my cry,`
+
+## TPH — 6 different-text, 0 garbled-title
+
+- **#567** title=`Doxology` | v1=`Praise God from whom all blessings flow;`
+- **#568** title=`Doxology` | v1=`Praise God from whom all blessings flow;`
+- **#569** title=`Doxology` | v1=`Praise God from whom all blessings flow;`
+- **#570** title=`Doxology` | v1=`Praise God from whom all blessings flow;`
+- **#571** title=`Gloria Patri` | v1=`Glory be to the Father,`
+- **#572** title=`Gloria Patri` | v1=`Glory be to the Father,`

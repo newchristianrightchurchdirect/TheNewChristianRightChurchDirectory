@@ -1,0 +1,820 @@
+HYMNS OF GRACE - entries with no lyrics (fill from your licensed copy)
+Total: 102 entries
+========================================================================
+
+#25    The perfect wisdom of our God, revealed in all the universe
+    author: Stuart Townend
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_25.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#27    After the death of Moses the servant of the Lord
+    author: (none listed)
+    sheet : /hymnal-media/hog-sheet/hog_27.pdf
+    audio : /hymnal-media/hog-audio/hog_27.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#29    Creation sings the Father's song
+    author: Keith Getty
+    sheet : /hymnal-media/hog-sheet/hog_29.pdf
+    audio : /hymnal-media/hog-audio/hog_29.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#30    To you, O Lord, I lift up my soul
+    author: (none listed)
+    sheet : /hymnal-media/hog-sheet/hog_30.pdf
+    audio : /hymnal-media/hog-audio/hog_30.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#32    How can it be this truth divine declared by God above?
+    author: R. C. Sproul
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_32.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#33    Our Sov'reign God by His own word
+    author: Tom Pennington
+    sheet : /hymnal-media/hog-sheet/hog_33.pdf
+    audio : /hymnal-media/hog-audio/hog_33.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#35    O great God of highest heav'n
+    author: Bob Kauflin
+    sheet : /hymnal-media/hog-sheet/hog_35.pdf
+    audio : /hymnal-media/hog-audio/hog_35.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#40    Let the earth resound with songs of praise
+    author: Keith Getty
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_40.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#42    Eternal God, unchanging, mysterious and unknown
+    author: Fernando Ortega
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_42.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#44    Come, praise and glorify our God
+    author: Tim Chester
+    sheet : /hymnal-media/hog-sheet/hog_44.pdf
+    audio : /hymnal-media/hog-audio/hog_44.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#51    Who dwells within His most secret place
+    author: R. C. Sproul
+    sheet : /hymnal-media/hog-sheet/hog_51.pdf
+    audio : /hymnal-media/hog-audio/hog_51.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#67    Still, my soul, be still, and do not fear
+    author: Keith Getty
+    sheet : /hymnal-media/hog-sheet/hog_67.pdf
+    audio : /hymnal-media/hog-audio/hog_67.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#73    O Lord, Thy touch hath stirred my soul
+    author: W. Vernon Higham
+    sheet : /hymnal-media/hog-sheet/hog_73.pdf
+    audio : /hymnal-media/hog-audio/hog_73.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#80    How deep the Father's love for us
+    author: Stuart Townend
+    sheet : /hymnal-media/hog-sheet/hog_80.pdf
+    audio : /hymnal-media/hog-audio/hog_80.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#84    Ev'ry morning that breaks there are mercies anew
+    author: Mark Altrogge
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_84.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#114   Blessed be the God and Fa­ther of our Lord Je­sus Christ
+    author: (none listed)
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_114.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#117   Your ways of love have won my heart
+    author: Stuart Townend
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_117.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#119   There is a higher throne
+    author: Keith Getty
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_119.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#126   Who has held the oceans in His hands?
+    author: Jonathan Baird
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_126.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#133   Should nothing of our efforts stand
+    author: Dustin Kensrue
+    sheet : /hymnal-media/hog-sheet/hog_133.pdf
+    audio : /hymnal-media/hog-audio/hog_133.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#137   Therefore, since we have been justified by faith
+    author: (none listed)
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_137.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#141   Lift high the name of Jesus
+    author: Ed Cash
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_141.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#148   Relentless love embraced my soul in ages past
+    author: Chris Anderson
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_148.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#153   Beloved and Blessed
+    author: Stuart Townend
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_153.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#156   Jesus, friend of sinners
+    author: James G. Small(1866)
+    sheet : /hymnal-media/hog-sheet/hog_156.pdf
+    audio : /hymnal-media/hog-audio/hog_156.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#158   For this reason I bow my knees before the Father
+    author: (none listed)
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_158.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#163   There is an everlasting kindness You lavished on us
+    author: Keith Getty
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_163.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#166   I run to Christ when chased by fear
+    author: Chris Anderson
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_166.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#169   The LORD is my light and my salvation
+    author: (none listed)
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_169.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#181   His robes for mine: O wonderful exchange!
+    author: Chris Anderson
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_181.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#182   Who has believed what he has heard from us?
+    author: (none listed)
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_182.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#184   Come, behold the wondrous myst'ry
+    author: Matt Boswell
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_184.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#193   All my days I will sing this song of gladness
+    author: Stuart Townend
+    sheet : /hymnal-media/hog-sheet/hog_193.pdf
+    audio : /hymnal-media/hog-audio/hog_193.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#196   I will glory in my Redeemer
+    author: Steve Cook
+    sheet : /hymnal-media/hog-sheet/hog_196.pdf
+    audio : /hymnal-media/hog-audio/hog_196.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#200   Let me ponder perfect mercy
+    author: K. Jason French
+    sheet : /hymnal-media/hog-sheet/hog_200.pdf
+    audio : /hymnal-media/hog-audio/hog_200.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#204   Dark the stain I cannot hide
+    author: Don Hall
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_204.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#207   Highest heights of darkest deep
+    author: Josh Caterer
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_207.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#208   What fear can overtake my vision?
+    author: Phil Madeira
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_208.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#213   My hope is in the Lord
+    author: Norman J. Clayton(1945)
+    sheet : /hymnal-media/hog-sheet/hog_213.pdf
+    audio : /hymnal-media/hog-audio/hog_213.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#233   Now the birth of Jesus Christ took place in this way
+    author: (none listed)
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_233.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#237   Joy has dawned upon the world
+    author: Keith Getty
+    sheet : /hymnal-media/hog-sheet/hog_237.pdf
+    audio : /hymnal-media/hog-audio/hog_237.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#255   O hearken ye who would believe
+    author: Wihla Hutson
+    sheet : /hymnal-media/hog-sheet/hog_255.pdf
+    audio : /hymnal-media/hog-audio/hog_255.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#263   Worthy is the Lamb that was slain
+    author: (none listed)
+    sheet : /hymnal-media/hog-sheet/hog_263.pdf
+    audio : /hymnal-media/hog-audio/hog_263.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#264   Hear the story from God's Word
+    author: Phill McHugh
+    sheet : /hymnal-media/hog-sheet/hog_264.pdf
+    audio : /hymnal-media/hog-audio/hog_264.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#268   Behold the Lamb, the spotless Lamb
+    author: Chris Anderson
+    sheet : /hymnal-media/hog-sheet/hog_268.pdf
+    audio : /hymnal-media/hog-audio/hog_268.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#280   O mighty cross, Love lifted high
+    author: David Baroni
+    sheet : /hymnal-media/hog-sheet/hog_280.pdf
+    audio : /hymnal-media/hog-audio/hog_280.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#287   Up to the hill of Calvary
+    author: Ross King
+    sheet : /hymnal-media/hog-sheet/hog_287.pdf
+    audio : /hymnal-media/hog-audio/hog_287.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#289   In the cross alone I glory, recognition laying down
+    author: Brian Petak
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_289.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#292   How rich a treasure we possess in Jesus Christ, our Lord
+    author: Matt Boswell
+    sheet : /hymnal-media/hog-sheet/hog_292.pdf
+    audio : /hymnal-media/hog-audio/hog_292.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#294   O fount of love divine that flows
+    author: Matt Boswell
+    sheet : /hymnal-media/hog-sheet/hog_294.pdf
+    audio : /hymnal-media/hog-audio/hog_294.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#308   How can it be the One who died
+    author: Keith Getty
+    sheet : /hymnal-media/hog-sheet/hog_308.pdf
+    audio : /hymnal-media/hog-audio/hog_308.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#310   See, what a morning, glor'ously bright
+    author: Stuart Townend
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_310.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#313   Hail the day that Christ arose
+    author: Charles Wesley
+    sheet : /hymnal-media/hog-sheet/hog_313.pdf
+    audio : /hymnal-media/hog-audio/hog_313.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#317   Light of God, come dwell within Your people
+    author: Keith Getty
+    sheet : /hymnal-media/hog-sheet/hog_317.pdf
+    audio : /hymnal-media/hog-audio/hog_317.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#324   God, our Father, we adore Thee!
+    author: George W. Frazier
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_324.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#325   O sing, my soul, the ancient song, and lend Your highest praise
+    author: Matt Papa
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_325.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#328   Praise ye the Father for His loving kindness
+    author: Elizabeth R. Charles
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_328.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#329   You are eternal, God of ages past
+    author: Matthew Hoskinson
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_329.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#330   Blessed Father, hear our cry
+    author: Chris Anderson
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_330.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#332   Oh, how good it is
+    author: Stuart Townend
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_332.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#337   We are His, Jehovah's bride!
+    author: Chris Anderson
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_337.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#338   O Church of Christ, invincible
+    author: Stuart Townend
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_338.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#339   Rise up, O men of God!
+    author: William P. Merrill
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_339.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#341   May we run this race, may we keep the faith
+    author: Jeff Bourque
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_341.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#343   Behold the Lamb who bears our sins away
+    author: Stuart Townend
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_343.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#346   O give us homes built firm upon the Savior
+    author: Barbara B. Hart
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_346.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#347   So send I you, by grace made strong to triumph
+    author: E. Margaret Clarkson
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_347.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#348   Facing a task unfinished
+    author: Frank Houghton
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_348.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#349   Loved before the dawn of time
+    author: Stuart Townend
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_349.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#350   How sweet and aweful is the place
+    author: Isaac Watts
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_350.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#353   O church, arise and put your armor on
+    author: Stuart Townend
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_353.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#357   Great is the gospel of our glorious God
+    author: William Vernon Higham
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_357.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#361   By faith we see the hand of God
+    author: Stuart Townend
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_361.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#363   From the breaking of the dawn
+    author: Stuart Townend
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_363.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#365   Holy words long preserved for our walk in this world
+    author: Lynn DeShazo
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_365.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#366   My soul longs for the Lord in a weary land
+    author: Graham Kendrick
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_366.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#374   My heart is filled with thankfulness
+    author: Stuart Townend
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_374.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#376   What grace is mine that He who dwells in endless light
+    author: Kristyn Getty
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_376.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#379   I'd rather have Jesus than silver or gold
+    author: (none listed)
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_379.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#382   Dear Lord and Father of mankind
+    author: John Greenleaf Whittier
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_382.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#383   God Almighty, strong, secure
+    author: John MacArthur Jr.
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_383.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#386   I gave My life for thee
+    author: Frances R. Havergal
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_386.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#388   When I fear my faith will fail
+    author: (none listed)
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_388.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#389   I once was lost in darkest night
+    author: Jordan Kauflin
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_389.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#392   Today Thy mercy calls us
+    author: Oswald Allen, 1816-1861
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_392.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#395   Come, lonely heart, to the outsider's Friend
+    author: Chris Anderson
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_395.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#397   I plead for grace, O God of steadfast love
+    author: (none listed)
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_397.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#399   The Master has come, and He calls us to follow
+    author: Sarah Doudney
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_399.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#405   No list of sins I have not done
+    author: David L. Ward
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_405.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#406   Christ, the sure and steady anchor
+    author: Matt Papa
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_406.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#409   Come, my soul, your plea prepare
+    author: John Newton
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_409.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#411   Is there a heart o'erbound by sorrow?
+    author: Edward Henry Joy
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_411.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#413   Merciful God, Oh abounding in love
+    author: Stuart Townend
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_413.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#415   Weary, burdened wand'rer
+    author: (none listed)
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_415.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#419   Hear the call of the Kingdom
+    author: Stuart Townend
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_419.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#422   See, He comes upon the clouds
+    author: Charles Wesley
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_422.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#423   On Jordan's stormy banks I stand
+    author: Samuel Stennett
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_423.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#424   Creation groans beneath the curse
+    author: Chris Anderson
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_424.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#426   He who wept above the grave
+    author: John MacArthur Jr.
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_426.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#437   Now unto Him who is able to keep you from falling
+    author: (none listed)
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_437.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#438   May the peace of God our Heav'nly Father
+    author: Stuart Townend
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_438.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------
+#442   O Breath of God, come fill this place
+    author: Phil Madeira
+    sheet : -
+    audio : /hymnal-media/hog-audio/hog_442.mp3
+    LYRICS:
+
+
+------------------------------------------------------------------------

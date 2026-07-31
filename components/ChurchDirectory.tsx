@@ -51,12 +51,12 @@ interface Church {
 type Position = 'all' | 'transformationalist' | 'limited_mission' | 'quietist' | 'unknown'
 type SortKey = 'name' | 'state' | 'upvotes'
 
-const POSITION_TABS: Array<{ key: Position; label: string }> = [
-  { key: 'transformationalist', label: 'Transform.' },
-  { key: 'limited_mission', label: 'Limited' },
-  { key: 'quietist', label: 'Quietist' },
-  { key: 'unknown', label: 'Unverified' },
-  { key: 'all', label: 'All' },
+const POSITION_TABS: Array<{ key: Position; label: string; title: string }> = [
+  { key: 'transformationalist', label: 'Qualifying', title: 'Churches that meet the standard: they act corporately on public questions' },
+  { key: 'limited_mission', label: 'Limited', title: 'Examined, does NOT qualify — holds the institutional church should not take up public causes' },
+  { key: 'quietist', label: 'Quietist', title: 'Examined, does NOT qualify — treats political engagement as worldly' },
+  { key: 'unknown', label: 'Unresearched', title: 'Not yet researched closely enough to classify' },
+  { key: 'all', label: 'All', title: 'Every congregation on file, qualifying or not' },
 ]
 
 function extractPastor(notes: string | null): string | null {
@@ -289,6 +289,7 @@ export default function ChurchDirectory() {
                   key={p.key}
                   className={`position-tab${position === p.key ? ' active' : ''}`}
                   onClick={() => setPosition(p.key)}
+                  title={p.title}
                   type="button"
                 >
                   <span>{p.label}</span>
@@ -296,6 +297,13 @@ export default function ChurchDirectory() {
                 </button>
               ))}
             </div>
+            <p className="position-note">
+              Only <strong>Qualifying</strong> churches meet this directory&rsquo;s standard —
+              they act corporately on public questions. <em>Limited</em> and <em>Quietist</em>
+              congregations were examined and do not; they are listed to record that they were
+              looked into, not to commend them. <em>Unresearched</em> means we have not yet
+              done the work. <Link href="/about" className="position-note-link">How we classify &rarr;</Link>
+            </p>
           </div>
 
           <div className="dir-results-bar">

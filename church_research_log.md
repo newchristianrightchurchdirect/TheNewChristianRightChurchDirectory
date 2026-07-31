@@ -1198,3 +1198,75 @@ Grace Thedford).
 **Lesson:** a parser that silently mis-reads a line does not fail loudly — it produces plausible
 rows. "Missions Pastor, Norfolk NE" looked like a church until someone read the list. Extraction
 from a document should be diffed against the source before the rows are trusted.
+
+## 2026-07-31 — Berean Fellowship cluster verified individually (6 churches). The bulk assumption was wrong.
+
+First real discharge of the `signature_only` verification debt. Six Nebraska congregations from the
+equal-protection signatory list all belong to one association, so they were researched as a cluster
+— each read on its own terms, plus the constitution all six are bound by.
+
+### The parser had eaten the most important signature on the list
+
+Row #4286 was named **"President"**. The source line reads
+`Tyce Jensen | President / Berean Fellowship of Churches | Broken Bow` — the import took his
+**office** for a church name.
+
+**Tyce Jensen is President of the Berean Fellowship of Churches** (since July 2024; VP from 2016)
+and lead pastor of **Berean Bible Church, Broken Bow** since 2014. The BFC site closes every page
+with "For more information please contact Tyce Jensen, BFC President." So that signature is not one
+small-town pastor's — it is **the sitting head of a 57-church, 13-state association**, and it was
+nearly lost to a parsing bug.
+
+### What the churches actually believe — and it is not what the import implied
+
+The BFC constitution (2021) binds every member church to a common doctrinal statement. It is
+**complementarian** at association level: marriage is "between one man and one woman as part of his
+design that some roles within the family and the church be distinctly male or female." It contains
+**no article on civil government at all** — the church's public duty is given as "godly living and
+evangelism." On eschatology the national statement is deliberately minimal and explicitly secondary:
+"the imminent, bodily, personal return… Jesus will return for his Church," with **no millennium
+affirmed**.
+
+**Alliance Berean settles it.** Its own local distinctive, which the national document does not
+contain, reads:
+
+> "prior to the 7-year period known as the tribulation, Jesus will **rapture His church** to deliver
+> it from the judgments that God will pour upon the earth. After this terrible period, the Lord
+> Jesus Christ will return in glory to **establish His Millennial Kingdom on the earth**."
+
+That is **pretribulational dispensational premillennialism**, stated by the church itself —
+historically the *least* transformationalist eschatology there is, since it expects the world to
+worsen and the church to be removed before the worst of it. The pastors' training corroborates:
+Jensen at **Moody + Dallas Theological Seminary**, Maxwell at **Calvary Theological Seminary, KC** —
+all dispensational institutions.
+
+### Verdict: 1 marker of 6
+
+| # | Church | City | Pastor |
+|---|---|---|---|
+| 4286 | Berean Bible Church | Broken Bow | Tyce Jensen — **BFC President** |
+| 4230 | Alliance Berean Church | Alliance | Glenn Johnson |
+| 4295 | Columbus Berean Church | Columbus | Justin Bebb (M.Div., SBTS) |
+| 4277 | Imperial Berean Church | Imperial | Matt Maxwell |
+| 4283 | Valentine Berean Bible Church | Valentine | Scott McClellen |
+| 4233 | Alma Berean Church | Alma | Tom Walker |
+
+Abolition is evidenced and formal for all six. **Theonomy, Christian nationalism, anti-Zionism and
+postmillennialism are not in evidence at any of them** — recorded as negative results, not
+omissions. Their public life is ordinary small-town evangelical ministry: Awana, MomCo, youth group,
+food pantry, a Cowboy Church during fair week. Set: denomination, complementarian, traditional
+sexuality, non-theonomic, dispensational where the church says so. `signature_only` cleared on all six.
+
+Alma is worth noting on its own: founded **1885** as First Christian Church, **left the Disciples of
+Christ in 1991**, and joined the BFC in 2017 after merging with a house-church group — a
+mainline-descended congregation that walked away from a liberal denomination.
+
+### The point
+
+**This is the assumption the flag existed to catch.** The import set
+`culturalEngagement = transformationalist` on ~110 rows on the strength of one signature. For this
+cluster that label sits on top of an eschatology that runs directly against the thesis. The
+signature is real; the inference from it was not. Every remaining `signature_only` row needs the
+same treatment.
+
+**119 `signature_only` rows remain.**
