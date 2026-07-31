@@ -176,3 +176,38 @@ owner about whether shared conviction without public action meets the standard.
 
 **That is a definitional question only Dustin can settle**, and it affects far more rows than any
 individual verdict here.
+
+---
+
+## Third-party corroboration source found (2026-07-30)
+
+`postmillennialworldview.com/postmill-churches/` maintains a directory of **196 US congregations
+with postmillennial pastors**, naming church, city and pastor. Captured to
+`data/postmill-directory-2026-07-30.txt`.
+
+This matters because it is **independent, church-level** evidence — the opposite of inferring a
+stance from denominational membership. It confirms by name the churches examined manually:
+King's Way (Dale Partridge), The Shepherd's Church (Kendall Lankford), Dominion Covenant
+(Phil Kayser), Providence Pensacola (Uri Brito), Reformation Covenant (Bo Cogbill), Providence
+Lynchburg (Virgil Hurt), Trinity Kirkland (Dave Hatcher), Holy Trinity Concord (Brian Phillips),
+Apologia (Jeff Durbin), Christ Church Moscow (Doug Wilson).
+
+**Cross-reference result (strict: state + city + name all matching):**
+- 97 of the 196 are already in this directory
+- 19 of those are already transformationalist
+- **78 are corroborated postmillennial but currently marked `unknown`**
+- 99 are not in this directory under that name/location — a discovery list
+
+Worklist in `data/postmill-xref-2026-07-30.json`.
+
+**A near-miss worth recording.** The first cross-reference used a state-only fallback when city
+did not match, and produced 127 "matches" — including our **Yorba Linda** Grace Presbyterian
+matched to the directory's **Redding** entry, Oviedo matched to Belleview, Bradenton to Lakeland.
+Exactly the failure that made the duplicate detector pair "Community Bible, Reno" with
+"Fellowship Bible, Carson City". Requiring city agreement drops it to 97 honest matches.
+
+**Also flagged, do not auto-apply:** several rows record `eschatology = amill` while this
+directory lists the pastor as postmillennial — #31 Phoenix Reformed Baptist, #440 Christ Church
+Presbyterian Irvine, #885 Westminster Presbyterian Martinez, #106 Reformed Baptist Tama,
+#979 Community Presbyterian Louisville. Those amill values were most likely denominational
+defaults too. They are conflicts to resolve individually, not to overwrite in bulk.
