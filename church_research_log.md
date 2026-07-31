@@ -1136,3 +1136,31 @@ presses through legislatures (#3), now with a named organisation on the other si
 
 Sponsors' names give a second search axis for finding pastors' statements state by state: pastors
 backing a bill tend to surface in coverage of its hearings.
+
+## 2026-07-31 — Georgia HB 441 hearing; the pro-life split is narrower than it looked
+
+**Correcting my own earlier framing.** I had recorded Georgia as "pro-life groups oppose abolition".
+That is too broad and would have misled AAM.
+
+- **Georgia Life Alliance** (National Right to Life affiliate) worked against HB 441.
+- **Georgia Right to Life (GRTL PAC) SUPPORTED it**, calling it "a monumental step toward ending
+  legalized abortion in Georgia". GRTL broke with National Right to Life years ago over exceptions.
+- The **Georgia Republican Assembly** published *"Establishment 'Pro-Life' Organization Attempts to
+  Kill Equal Protection Pro-Life Bill"*.
+
+**The dividing line runs through the pro-life movement and tracks National Right to Life
+affiliation** — not pro-life sentiment as such. For Michigan the actionable question is where
+**Right to Life of Michigan** sits and whether it is an NRTL affiliate.
+
+**The hearing, 26 March 2025** (House Judiciary Non-Civil): two hours, hundreds at the Capitol,
+Rep. Emory Dunahoo and FAA president Bradley Pierce taking questions, **Jeff Durbin testifying in
+favour**, supporters singing hymns, opponents distributing "support and compassion – not
+punishment" stickers. **No vote taken and none planned.** Recorded on #3 Apologia.
+
+Sobering detail worth carrying into Michigan: a historic hearing with national testimony and
+hundreds of supporters still did not produce a vote.
+
+**Briefing document written for AAM** at `~/Downloads/AAM_abolition_bills_briefing_2026-07-31.md`
+— Michigan status, the full national bill map with sponsors, the Iowa/Nebraska pastors'-statement
+model and the roster-before-bill sequence, the organisations and FAA leadership, the opposition
+analysis above, verified pastor references, and suggested next steps.
