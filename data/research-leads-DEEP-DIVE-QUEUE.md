@@ -97,3 +97,26 @@ directory inherits someone else's stale data as its own claim.
 - **Jon Speed** — Christ is King Baptist, Syracuse NY. Already flagged in the directory as a
   standout abolitionist/open-air preacher. Confirm and mine his network.
 - **Phil Kayser** — Dominion Covenant, Omaha NE (#19). Prolific theonomy author; another hub.
+
+---
+
+## 7. TWO MORE third-party church directories found (2026-07-30)
+
+Both surfaced while verifying individual pastors. Each is independent, church-level corroboration
+of the kind that justified the postmill upgrade, and each is a discovery list in its own right.
+
+- **Theonomy Resources church directory** — `theonomyresources.blogspot.com/2011/02/church-directory.html`
+  Criterion is churches holding *"Christ's Lordship in all areas of life (family, church, and
+  state)"* — this directory's transformationalist definition almost word for word. Found via
+  Chris Strevel (Covenant Presbyterian, Buford GA, #4144).
+  **Caveat: dated 2011.** Given three stale pastor attributions already found in a
+  more recent source, assume heavy drift and verify every entry.
+
+- **Alliance of Reformed and Theonomic Churches (ARTC)** — `thereformationalliance.org/churches/`
+  A member list, so membership is a formal act by the congregation rather than a third party's
+  opinion — stronger evidence than a blog directory. Found via Paul Michael Raymond (Reformed
+  Bible Church, Appomattox VA, #3309), a founding member.
+
+**To do:** capture both, cross-reference with strict state+city+name matching (never a state-only
+fallback — that produced the Yorba Linda / Redding false match), and treat ARTC membership as
+stronger than a directory listing.

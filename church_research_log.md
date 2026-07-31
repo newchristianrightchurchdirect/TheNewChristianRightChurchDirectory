@@ -759,3 +759,33 @@ work these **after** the current verification queue, but do not lose them.
 5. **All 99 imported rows need pastor attributions checked** — that directory is unmaintained.
 6. Nodes: Ben Zeisloft (The Sentinel), Eric Conn, Dale Partridge (Reformation Seminary graduates),
    Jon Speed, Phil Kayser.
+
+## 2026-07-30 — 35 congregations now verified first-hand
+
+Worked to the research standard: site, church socials, pastor socials and podcast, then the
+pastor's name searched against each marker. **281 transformationalist, 35 `evidenced`.**
+
+Verified this session: Sovereign King (Joseph Spurgeon), Refuge Church (Brian Sauve), Mercy Seat
+(Matthew Trewhella), Heritage Presbyterian (Joe Morecraft III), Grace Covenant Reformed (Ryan
+Denton), Covenant Bible Church (Joel Webbon), Apologia (Jeff Durbin), By the Word Baptist (Jon
+Speed), Immanuel Baptist (Gordan Runyan), Covenant Reformed Presbyterian (John M. Otis), Christ
+Church Moscow (Doug Wilson), Grace Covenant Presbyterian (Randy Booth), Covenant Presbyterian
+Buford (Chris Strevel), Trinity Church CdA (Stuart Bryan), Church of the King (John Stoos),
+Reformed Bible Church (Paul Michael Raymond).
+
+**Two deliberately NOT promoted**, to keep `evidenced` meaning something:
+- **Christ Covenant Reformed, Billings MT** (Joost Nixon) — nothing found beyond the third-party
+  listing. Left `mixed` + `verify_stance`.
+- **Christ the King Reformed, Charlotte MI (#65)** — Bret McAtee is postmillennial and explicitly
+  theonomic and scores well on the markers, **but promotes Kinism**; the congregation was removed
+  from the CRC in December 2018 over it and the SPLC listed it as a white-nationalist hate group
+  in 2021. `culturalEngagement` left **unknown** pending an editorial decision by the owner. This
+  is a question about what the directory is, not about the markers.
+
+**Duplicate created by my own import and cleaned up:** #4166 "Charlotte CRC" was the same
+congregation as #65 under its pre-2018 name; merged then deleted.
+
+**Two further third-party directories discovered** and added to the deep-dive queue: the Theonomy
+Resources church directory (2011, so expect drift) and the **Alliance of Reformed and Theonomic
+Churches** member list — the latter stronger, since membership is a formal act by the church
+rather than an outsider's opinion.
