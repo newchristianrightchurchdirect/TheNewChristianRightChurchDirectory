@@ -211,3 +211,38 @@ directory lists the pastor as postmillennial — #31 Phoenix Reformed Baptist, #
 Presbyterian Irvine, #885 Westminster Presbyterian Martinez, #106 Reformed Baptist Tama,
 #979 Community Presbyterian Louisville. Those amill values were most likely denominational
 defaults too. They are conflicts to resolve individually, not to overwrite in bulk.
+
+---
+
+## Research standard adopted (owner, 2026-07-30)
+
+Site → church socials → **pastor's** socials and podcast → search `"<pastor name>" + marker`.
+**If the pastor is pushing it, the church counts.** Record notable congregants in `notablePeople`.
+Third-party listing = `verify_stance` + `stanceBasis 'mixed'`; only first-hand reading earns
+`evidenced`. Saved to project memory as `project-church-research-standard`.
+
+### #66 Sovereign King Church, Jeffersonville IN — **VERIFIED, evidenced**
+Pastor **Joseph Spurgeon**. The congregation grew *out of* abortion-mill evangelism — the 2016
+plant formed around men working the Louisville abortion facility, and the church describes him
+as "deeply committed to ending abortion, defending the unborn". On Christian nationalism he
+writes that *"Christianity should be twisted in with national constitutions, that the kingdoms of
+the world should become Christ's kingdoms."* Hosts **The Patriarchy Podcast**. Particularised in
+Evangel Presbytery 2021.
+Set: abolition `pro_abolition`, CN `affirm`, gender `patriarchal`, eschatology `postmill`,
+`stanceBasis = evidenced`, verify flag **cleared**. First row fully verified under the standard.
+
+### Colwood Church, Caro MI (#4165) — **THIRD-PARTY SOURCE IS STALE**
+The postmill directory credits **Jason Garwood** as pastor. Garwood **resigned from Colwood
+effective 13 September 2017** — the listing is at least nine years out of date. Colwood is a
+United Brethren in Christ congregation. Garwood is a reconstructionist (Reconstructionist Radio,
+*Setting the Record Straight*) and has moved on, so the postmill attribution probably belongs to
+**him**, not to this church.
+
+**This is a caution about the whole 99-church import.** That directory is a good lead source but
+it is not maintained — pastors leave. Every one of the 99 needs its pastor attribution checked,
+not just its doctrine. Flagged `verify_stance;denom_verify`.
+
+### Interesting connection
+Garwood's trail runs through **Reconstructionist Radio**, and the directory separately lists
+**Providence Church, Caro MI (Jacob Hanby)** in the same small town. Two postmill congregations
+in Caro, population ~4,000, is worth a look — one may be a plant or split from the other.
