@@ -303,3 +303,29 @@ and member list could not be read.
 **Why it matters:** a network is connective tissue between congregations, which is exactly what this
 directory is trying to map, and Nebraska is now the state with the densest signatory coverage.
 Re-check once the site is live; if it stays down, approach via the two known affiliated pastors.
+
+## RCUS and URCNA signatory clusters — found 2026-07-31
+
+Two small confessional Reformed denominations turned up with disproportionate signatory density.
+
+**RCUS (Reformed Church in the United States)** — a denomination of only a few dozen congregations
+nationally, holding the Three Forms of Unity. **Three of them signed**: Emmanuel Reformed (Sutton,
+organised 1877, Volga German), Hope Reformed (Sutton, organised 1908 by 72 families who withdrew
+from Emmanuel), and Omaha Reformed (an RCUS church plant begun 2015). **Both congregations of the
+1908 Sutton split signed the same 2024 statement.** Also worth pulling: St. John's Reformed (RCUS),
+Lincoln, which sent Randall Klynsma to plant Omaha Reformed and is not yet in the directory.
+
+**URCNA** — three congregations in adjacent northwest Iowa towns signed the Iowa statement:
+Redeemer (Orange City), Rock Valley URC, and Cornerstone (Sanborn). That is a regional cluster in
+the Dutch Reformed belt, not three unrelated signatures.
+
+**Why it matters:** in both cases the signatories are a large fraction of a small, tightly
+connected body. Worth checking whether the classis or federation discussed the statement corporately.
+
+## CREC Knox Presbytery — found 2026-07-31
+
+**Christ Church Omaha** (Nathan Joslin, planted 2023) is the first signatory church to qualify on its
+own evidence. It belongs to **Knox Presbytery** of the CREC. The presbytery's other congregations
+have not been checked against this directory — a CREC presbytery is a high-yield place to look for
+churches that meet the standard, since the mission language ("make Omaha a Christian town",
+"Christian leadership in… politics") is characteristic of the communion rather than unique to this plant.

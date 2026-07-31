@@ -1482,3 +1482,56 @@ badges, map markers, admin filters and labels, the submit API's accepted values,
 whose public "qualifying" figure and Q.02 definition now count single-issue churches among the
 examined-and-does-not-qualify group. Church pages carry a specific caveat explaining that the
 signature is real and documented but is not the standard.
+
+## 2026-07-31 — Reformed/Presbyterian cluster verified (13). First qualifier found.
+
+Fifth discharge of the `signature_only` debt, and the first one that promotes a church rather than
+demoting it.
+
+### Christ Church Omaha qualifies — on its own words, not an inference
+
+**CREC**, Knox Presbytery, planted **2023** under Pastor **Nathan Joslin**. Motto: "All of Christ for
+all of life." Its published mission is the evidence:
+
+> "to **make Omaha a Christian town** through faithful and robust covenant renewal worship… through
+> **genuine cultural engagement that provides Christian leadership in the arts, in business, in
+> education, in politics, and in literature**."
+
+That is a church claiming the civil and cultural spheres **as a church**. On Scripture: "we will not
+exclude anything based on the cultural sensitivities of our day." Covenant renewal liturgy, all
+children in the service, bylaws adopting the Westminster Standards *and* the Three Forms, male
+officers only. **Promoted to qualifying; Christian nationalism recorded as sympathetic.**
+
+**Eschatology deliberately left unset even here.** The CREC does *not* doctrinally require
+postmillennialism — its pastors are overwhelmingly postmill, but that is a tendency, not a standard —
+and this congregation has published no millennial position. "Make Omaha a Christian town" is the
+postmillennial hope in substance; substance is not a stated position, and it is recorded as an open
+question. Applying the same restraint here as to the EFCA matters more, not less, when the answer
+would have suited the thesis.
+
+### Polity is not uniform, and the record now reflects that
+
+This cluster spans five bodies, and **gender could not be set the same way across them**:
+
+- **PCA** (Zion Lincoln, Grace Covenant Grand Island), **URCNA** (3 Iowa), **RCUS** (3) — office
+  restricted to men, so complementarian is evidenced.
+- **EPC** (Cornerstone Stapleton) — treats women's ordination as a matter of liberty. **Not set.**
+- **Evangelical Covenant** (Moses Hill, Wausa) — **ordains women. Not set.**
+
+### Two corrections
+
+**"Living Life Reformed Church" is not Reformed** — it is an **EFCA** congregation, confirmed in the
+EFCA's own church finder. It was in this group by name only.
+
+**Zion PCA's signatory is the executive pastor, not the senior minister.** David Chambers is
+executive pastor; the lead pastor is **Stu Kerns**. The row had recorded Chambers alone as "Pastor,"
+overstating his office. Both now recorded.
+
+### Two new leads, both queued
+
+**RCUS** has only a few dozen congregations nationally and **three signed** — including *both*
+churches of a 1908 congregational split in Sutton. **URCNA** produced three signatories in adjacent
+northwest Iowa towns. In both cases the signatories are a large fraction of a small, tightly
+connected body; worth checking whether the classis discussed the statement corporately.
+
+**69 `signature_only` rows remain. Qualifying: 289.**
