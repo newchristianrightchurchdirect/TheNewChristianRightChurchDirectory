@@ -246,3 +246,56 @@ not just its doctrine. Flagged `verify_stance;denom_verify`.
 Garwood's trail runs through **Reconstructionist Radio**, and the directory separately lists
 **Providence Church, Caro MI (Jacob Hanby)** in the same small town. Two postmill congregations
 in Caro, population ~4,000, is worth a look — one may be a plant or split from the other.
+
+---
+
+## Verified batch — 2026-07-30 (research standard applied)
+
+### Mercy Seat Christian Church, Hartland WI (#4220) — Matthew Trewhella — **EVIDENCED**
+Founded the church 1989; founded **Missionaries to the Preborn** 1990, the first US Christian
+mission to name the preborn as its people group. Six of Milwaukee's eight abortion facilities
+have since closed and Wisconsin abortions are down over 60%. Wrote **The Doctrine of the Lesser
+Magistrates** and published the first English translation of the **Magdeburg Confession (1550)**.
+Reporting calls him the *eminence grise of the abortion abolitionist movement*, which "seeks the
+outright criminalization of abortion" and "sneers at incremental measures as regulating murder" —
+the abolitionist position stated precisely. Lectures for the John Birch Society.
+Set: abolition `pro_abolition`, CN `affirm`, theonomy `sympathetic`, postmill.
+
+### Refuge Church, Ogden UT (#16) — Brian Sauvé — **EVIDENCED**
+Self-describes as *"Inerrantist, Calvinist, **Patriarchal, Postmillennial**, Social Conservative,
+**Abortion Abolitionist**"* — four markers in the man's own words. The **church's own doctrine**
+affirms "a Christlike father-rule within the home, often referred to as biblical patriarchy", so
+patriarchy is institutional, not personal. Founder/president of **New Christendom Press**.
+Co-pastor **Eric Conn** is a further public voice. Critics call it "Christ Church Moscow 2.0".
+
+### Heritage Presbyterian Church, Cumming GA (#3275) — Joe Morecraft III — **EVIDENCED**
+Founded **Chalcedon Presbyterian Church** (1974, Rushdoony lineage) and the **RPCUS** (1983) on
+explicitly reconstructionist, theonomic grounds. **Ran for US Congress** in 1986. Chaplain of the
+Cobb County Republican Assembly. Wrote *With Liberty and Justice for All: Christian Politics Made
+Simple*. Theonomy here is the founding purpose of the man and his denomination.
+abolitionStance left unknown — no abortion position located.
+
+### Grace Covenant Reformed Church, Clovis NM (#4176) — Ryan Denton — **EVIDENCED**
+Directs **Christ in the Wild Ministries** since 2016; preaches at **abortion clinics**, campuses
+and jails; preached at Texas Tech holding a sign reading **"Abortion is murder"**.
+**abolitionStance left unknown on purpose** — clinic preaching and that language are
+abolitionist-sounding, but nothing states the equal-protection/criminalisation position that
+separates abolitionism from pro-life street evangelism. Same care as Ekklesia of Grand Blanc.
+
+---
+
+## Interesting connections surfaced
+
+- **Trewhella is a hub, not just a pastor.** Missionaries to the Preborn and *The Doctrine of the
+  Lesser Magistrates* are load-bearing for the abolition movement generally. Churches citing the
+  lesser-magistrate doctrine are likely downstream of him — a useful search axis.
+- **New Christendom Press (Sauvé) and Right Response (Joel Webbon, Covenant Bible Church
+  Georgetown TX, also on the postmill list)** are parallel media operations. Media outfit as
+  church output is itself a transformationalist marker worth checking for.
+- **Morecraft's Chalcedon lineage** ties this directory to Rushdoony directly. RPCUS congregations
+  as a body are worth sweeping — the denomination was *founded* to apply theonomy.
+- **Two postmill congregations in Caro, MI (pop. ~4,000)** — Colwood and Providence. Likely a
+  plant or split; relevant to AAM's Thumb work.
+
+## Running totals
+281 transformationalist · **27 evidenced** (first-hand) · 175 awaiting verification.
