@@ -1059,3 +1059,28 @@ from a single document. The Nebraska paper itself names the movement's organisat
 to Abolish Abortion, End Abortion Now, Abolitionists Rising, Southern Baptists for Abolishing
 Abortion, Liberty Rising Institute — and cites **faa.life/states**, noting **19 states have seen
 abolition bills introduced**. Those states are the next places to look for equivalent statements.
+
+## 2026-07-31 — Equal-protection state map, and a Michigan finding for AAM
+
+**Prenatal Equal Protection Act** bills (Foundation to Abolish Abortion model legislation) were
+filed in **Georgia (HB 441), Idaho, Iowa, Kansas, Kentucky, Missouri, South Carolina and Texas**
+in 2025; **Indiana, North Dakota and Oklahoma** introduced and failed. The Nebraska paper counts
+**19 states** with abolition bills introduced.
+
+**Michigan has HB 4671, the "Justice for Babies in the Womb Act"**, filed by **Rep. Josh
+Schriver** — the first Michigan legislation to establish equal protection of the laws for preborn
+children. FAA president Bradley Pierce called it "righteous legislation".
+
+**But Michigan has no pastors' equal-protection statement.** Iowa and Nebraska each produced a
+signed roster; searching for a Michigan equivalent returns the bill, the Catholic bishops'
+opposition, and Abolish Abortion Michigan — no pastor signatory list.
+
+**That is worth putting in front of Dustin directly.** A Michigan pastors' statement would advance
+HB 4671, identify by name the Michigan pastors willing to sign for criminalisation, and produce
+exactly the data the AAM outreach sheet was trying to infer from denomination and doctrine. The
+Iowa and Nebraska documents are templates that already work.
+
+`faa.life` blocks automated fetching (403) — the articles and states pages need a browser pass.
+
+All signature-sourced rows now carry `recordFlag = 'signature_only'` (110 rows), and the
+obligation to research each individually is recorded in the deep-dive queue and in project memory.

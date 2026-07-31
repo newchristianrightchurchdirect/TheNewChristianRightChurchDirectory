@@ -184,3 +184,39 @@ question — which is exactly the distinction this directory exists to draw.
 **To do:** apply the full research standard to each, then either evidence the remaining markers
 or record the negative result explicitly, and clear the flag. Find them by flag filter in the
 admin Churches screen.
+
+---
+
+## 10. THE EQUAL-PROTECTION STATE MAP (2026-07-31)
+
+**Prenatal Equal Protection Act** bills, from Foundation to Abolish Abortion model legislation:
+
+- **Filed / advanced 2025:** Georgia (HB 441), Idaho, Iowa, Kansas, Kentucky, Missouri, South
+  Carolina, Texas
+- **Introduced but failed in committee or on the floor:** Indiana, North Dakota, Oklahoma
+- **Michigan: HB 4671, the "Justice for Babies in the Womb Act"**, filed by **Rep. Josh Schriver**
+  — the first Michigan legislation ever to establish equal protection of the laws for preborn
+  children. FAA president **Bradley Pierce** called it "righteous legislation".
+- The Nebraska paper cites **19 states** having seen abolition bills introduced.
+
+**Why this is the map to work.** Iowa and Nebraska each produced a verified roster of abolitionist
+pastors from a single document. Those are the two states where pastors organised *around* the
+legislation. Every state above is a candidate for the same kind of statement — search
+`"<state> pastors" equal protection abortion statement` and the *event*, not the church's own
+phrasing (see the method note in §8).
+
+**States to check for a pastors' statement:** GA, ID, IA (done), KS, KY, MO, SC, TX, IN, ND, OK,
+NE (done), MI.
+
+**MICHIGAN — DIRECTLY RELEVANT TO AAM.** No Michigan pastors' equal-protection statement was
+found. Michigan has the bill (HB 4671) and it has **Abolish Abortion Michigan**
+(abolishabortionmichigan.com) — Dustin's own organisation — but not, apparently, the pastor
+roster that Iowa and Nebraska produced.
+
+**That is an opportunity, not just a gap.** A Michigan pastors' equal-protection statement would
+(a) advance the bill, (b) identify by name the Michigan pastors who will actually sign such a
+thing, and (c) generate exactly the data the AAM outreach list was trying to *infer* from
+denominational proxies. The Iowa and Nebraska documents are ready-made templates.
+
+**Also to mine:** faa.life/articles (403s to automated fetch — needs a browser), Abolitionists
+Rising, Southern Baptists for Abolishing Abortion, Liberty Rising Institute, End Abortion Now.
