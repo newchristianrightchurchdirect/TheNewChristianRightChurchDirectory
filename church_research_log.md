@@ -731,3 +731,31 @@ human, not a bulk overwrite.
 
 **Still outstanding:** 99 directory churches not matched to any row here — a discovery list, in
 `data/postmill-xref-2026-07-30.json`.
+
+## 2026-07-30 — Research capture: leads queued, findings moved into Editor's Notes
+
+**Caught a real loss.** Findings for #23, #25, #26, #28 and #29 had been written to
+`data/manual-review-2026-07-30.md` but never reached the database — research living only in a
+markdown file is research that gets lost. All five now carry full **Editor's Notes**
+(`theologicalNotes`, which is what the church page publishes), with pastors, socials, the
+corroborating source, and an explicit statement of what is still missing. Each is flagged
+`verify_stance`.
+
+**Deep-dive queue created** at `data/research-leads-DEEP-DIVE-QUEUE.md`, and mirrored to project
+memory as `project-church-deep-dive-queue` so it survives across sessions. Owner's instruction:
+work these **after** the current verification queue, but do not lose them.
+
+1. **Trewhella is a hub** — lesser-magistrate doctrine and Missionaries to the Preborn are
+   load-bearing for the abolition movement; searching that doctrine is a discovery axis, and the
+   Wisconsin Watch / PBS Wisconsin coverage of his political influence should name allied pastors.
+2. **Sweep the RPCUS** — founded 1983 by Morecraft explicitly to apply theonomy. The one
+   denomination where inference against the evidence-only rule may be defensible; argue it
+   deliberately rather than by accident.
+3. **A church media arm is itself a marker** — New Christendom Press (Sauve), Right Response
+   (Webbon), The Patriarchy Podcast (Spurgeon), The PRODCAST (Lankford), Christ in the Wild
+   (Denton), Reconstructionist Radio (Garwood). More findable than a doctrinal statement.
+4. **Caro MI** — two postmill congregations in a town of ~4,000 (#4165 Colwood, #3245 Providence).
+   Likely a plant or split; AAM's Thumb territory.
+5. **All 99 imported rows need pastor attributions checked** — that directory is unmaintained.
+6. Nodes: Ben Zeisloft (The Sentinel), Eric Conn, Dale Partridge (Reformation Seminary graduates),
+   Jon Speed, Phil Kayser.

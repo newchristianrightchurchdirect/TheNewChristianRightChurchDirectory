@@ -1,0 +1,99 @@
+# Deep-dive queue — DO NOT LOSE
+
+Leads surfaced while verifying the transformationalist classifications on 2026-07-30. The owner
+wants these worked **after** the current verification queue is finished. Nothing here is
+speculative — each is a concrete, checkable thread with a named starting point.
+
+Status: **QUEUED, not started.**
+
+---
+
+## 1. Matthew Trewhella is a hub, not a single entry
+
+Pastor of Mercy Seat Christian Church, Hartland WI (#4220). Founder of **Missionaries to the
+Preborn** (1990) and author of **The Doctrine of the Lesser Magistrates**, plus the first English
+translation of the **Magdeburg Confession (1550)**.
+
+**Why it matters:** the lesser-magistrate doctrine is load-bearing for the whole abolition
+movement. A church that cites it is very likely aligned with this directory whether or not its
+website says anything else.
+
+**To do:**
+- Search `"lesser magistrates" church` / `"Magdeburg Confession" church` and cross-reference hits
+  against the directory.
+- Missionaries to the Preborn will have supporting churches — find the list.
+- `defytyrants.com` is his outlet; check who else writes there.
+- Wisconsin Watch and PBS Wisconsin both covered his influence on state Republican politics —
+  those pieces likely name allied pastors and churches.
+
+---
+
+## 2. Sweep the RPCUS — the one denomination where inference is defensible
+
+Joe Morecraft III (Heritage Presbyterian, Cumming GA, #3275) founded the **Reformed Presbyterian
+Church in the United States** in 1983 **explicitly to apply theonomy**, after founding Chalcedon
+Presbyterian in 1974 (the Chalcedon name marks the Rushdoony lineage).
+
+**Why it matters:** this directory's rule is that stances are never defaulted by denomination,
+because PCA/OPC/SBC each contain every posture. **RPCUS is the exception worth testing** — it was
+founded as a theonomic body, so denominational membership actually carries information here.
+
+**To do:**
+- Get the full RPCUS / Hanover Presbytery congregation list.
+- Check how many are already in the directory and what they are classified as.
+- Decide whether RPCUS membership justifies `theonomy = theonomic` at denominational level — and
+  if so, record that this is a deliberate, argued exception to the evidence-only rule.
+
+---
+
+## 3. A church-run media operation is itself a marker
+
+Observed repeatedly: the churches that most clearly qualify run a publishing or podcast arm.
+
+- **New Christendom Press** — Brian Sauvé, Refuge Church, Ogden UT (#16)
+- **Right Response Ministries** — Joel Webbon, Covenant Bible Church, Georgetown TX (on the
+  postmill list; already in the directory as patriarchal)
+- **The Patriarchy Podcast** — Joseph Spurgeon, Sovereign King Church, IN (#66)
+- **The PRODCAST** — Kendall Lankford, The Shepherd's Church, MA (#24)
+- **Christ in the Wild** — Ryan Denton, Grace Covenant Reformed, NM (#4176)
+- **Reconstructionist Radio** — Jason Garwood (formerly Colwood, Caro MI)
+
+**To do:** treat "does this church run a press/podcast/media arm?" as a research question in its
+own right. It is a strong proxy for a congregation that intends to shape the culture, and it is
+far more findable than a doctrinal statement.
+
+---
+
+## 4. Caro, Michigan — two postmillennial churches in a town of ~4,000
+
+- **Colwood Church** (#4165) — United Brethren in Christ. The postmill directory credits **Jason
+  Garwood**, but he resigned effective 13 Sept 2017, so that listing is nine years stale.
+- **Providence Church, Caro** (#3245) — pastor Jacob Hanby per the directory.
+
+**Why it matters:** two postmill congregations in a town that size suggests a plant or a split,
+and Caro is in Michigan's Thumb — AAM's territory, and near Cal Zastrow's reported area.
+
+**To do:** establish the relationship between the two; find where Garwood went; check whether
+either has abolition ties locally.
+
+---
+
+## 5. Verify pastor attributions across all 99 imported rows
+
+The postmillennialworldview.com directory is a good lead source but **is not maintained** — the
+Garwood/Colwood entry is nine years out of date. Every one of the 99 congregations imported from
+it on 2026-07-30 needs its **pastor attribution** checked, not merely its doctrine, or the
+directory inherits someone else's stale data as its own claim.
+
+---
+
+## 6. Smaller threads
+
+- **Ben Zeisloft** — interviewed on Lankford's PRODCAST; runs The Sentinel. Abolitionist
+  journalist; likely a node connecting several churches.
+- **Eric Conn** — co-pastor at Refuge Church with Sauvé; separate public voice worth its own entry.
+- **Dale Partridge** — King's Way, Prescott AZ. Relearn.org, Reformation Seminary, and a public
+  campaign to repeal the 19th Amendment. His seminary's graduates will pastor churches worth finding.
+- **Jon Speed** — Christ is King Baptist, Syracuse NY. Already flagged in the directory as a
+  standout abolitionist/open-air preacher. Confirm and mine his network.
+- **Phil Kayser** — Dominion Covenant, Omaha NE (#19). Prolific theonomy author; another hub.
