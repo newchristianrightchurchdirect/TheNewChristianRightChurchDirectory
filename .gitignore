@@ -27,3 +27,6 @@ public/hymnal-media/
 
 # Outreach target lists are strategy, not directory data — keep them local.
 data/AAM_*_outreach_*.csv
+
+# scratch query files
+prisma/_q.ts
