@@ -163,3 +163,24 @@ pattern, and each is a ready-made list of verified abolitionist pastors with the
 nothing, and I recorded the claim as unconfirmable. Searching instead for the *event* — "Iowa
 pastors equal protection capitol" — found it immediately. **A failed search is not a disproof;
 try the event, the organisation and the state before concluding a claim is unsupported.**
+
+---
+
+## 9. VERIFICATION DEBT — research every `signature_only` church individually (OWNER INSTRUCTION)
+
+**Dustin, 2026-07-31: "make sure that we come back and directly research each of these churches
+individually to confirm what these statements are saying."**
+
+~110 congregations now carry `recordFlag = 'signature_only'`. For each, the pastor's signature on
+a public equal-protection statement makes `abolitionStance = pro_abolition` genuinely first-hand.
+**Nothing else about them has been read** — denomination, eschatology, theonomy, Christian
+nationalism, gender, the pastor's preaching and socials are all unexamined.
+
+`culturalEngagement = transformationalist` was set for all of them on the strength of that single
+act. **That is the assumption most likely to be wrong at scale.** A pastor can hold the
+abolitionist position on abortion while leading a congregation that takes up no other public
+question — which is exactly the distinction this directory exists to draw.
+
+**To do:** apply the full research standard to each, then either evidence the remaining markers
+or record the negative result explicitly, and clear the flag. Find them by flag filter in the
+admin Churches screen.

@@ -27,6 +27,8 @@ export const RECORD_FLAGS: FlagDef[] = [
     description: 'Affiliation was wrong and has been fixed.' },
   { key: 'verify_stance', label: 'Stance needs verifying', held: false,
     description: 'A recorded stance rests on thin evidence.' },
+  { key: 'signature_only', label: 'Signature only', held: false,
+    description: 'Abolition is evidenced by the pastor signing a public equal-protection statement, but the congregation has not otherwise been researched — denomination, eschatology and the remaining markers are unset and the church has not been read on its own terms.' },
   { key: 'website_removed', label: 'Website gone', held: false,
     description: 'Site no longer resolves; contact details may be stale.' },
   { key: 'pastor_vacant', label: 'Pulpit vacant', held: false, description: 'No settled pastor.' },
