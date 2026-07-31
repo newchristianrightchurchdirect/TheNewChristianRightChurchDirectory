@@ -823,3 +823,33 @@ unidentified. Left `mixed` + `verify_stance`, leadership cleared.
 
 Also noted: the same directory lists Christ Church Spokane (#22) under Kenton Spratt while Nixon
 has pastored there since 2001. Both cannot be simply right; leadership flagged for confirmation.
+
+## 2026-07-31 — Christ Church Spokane leadership settled; my own earlier note retracted
+
+Went to the congregation's own site rather than a third party. **Kenton Spratt is the pastor** of
+Christ Church, Spokane (#22) — the only pastor listed, with a deacon and administrative staff.
+Born in Edmonton, immigrated 2006, moved to Spokane 2013, US citizen 2020; studied under **J.I.
+Packer at Regent College**; previously first pastor of Holy Trinity Church until 2013. CREC.
+
+**Retracting my own claim.** I recorded on this row that Joost Nixon "has pastored here since
+2001". That came from a third-party speaker bio and is not true of the church today — Nixon
+appears nowhere on its staff or leadership pages. His current work is **Training Leaders
+International**, directing formal education, and Christ Covenant Reformed (Billings MT) is a
+**partner church of that training ministry**, not his pastorate. The note has been corrected in
+the record rather than silently deleted.
+
+**Lesson:** a third-party *speaker bio* is no more current than a third-party *church directory*.
+Both are leads. Only the congregation's own site settled it.
+
+**Attribution scoreboard, five checked:**
+
+| Church | Directory says | Reality |
+|---|---|---|
+| Colwood, Caro MI | Jason Garwood | resigned 2017 |
+| Christ is King, Syracuse | Jon Speed | left 2019 |
+| All Saints, PA | Gregg Strawbridge | died 2022 |
+| Christ Covenant, Billings MT | Joost Nixon | pastors elsewhere — never here |
+| **Christ Church, Spokane WA** | **Kenton Spratt** | **CORRECT** |
+
+One of five held up. That is the actual reliability rate of the source behind 99 imported rows,
+and it is the argument for checking every one rather than sampling.
