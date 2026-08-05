@@ -2184,3 +2184,57 @@ the rows with no pastor and no output that collapse.
   archive is complete enough to settle it from his own words, and it should be.
 
 **6 of 92 done.**
+
+## 2026-08-05 — Qualifying batches 3–4. The spine of the movement, confirmed.
+
+This tranche is the directory's core: nationally known figures whose records were already
+substantial but had never been formally verified. Eight confirmed, four corrections.
+
+### A standing deep-dive item closed
+
+**Mercy Seat Christian Church, Hartland WI — Matthew Trewhella.** "Trewhella / lesser-magistrate
+network" has sat in the queue since it was opened. **This is that church.**
+
+He founded **Missionaries to the Preborn** in 1990 — the first Christian mission in America to take
+the preborn child as its people group — and the ministry's claim is concrete: **six of Milwaukee's
+eight abortion clinics have closed since, and abortion in Wisconsin has fallen over 60%.** He wrote
+***The Doctrine of the Lesser Magistrates*** and **published the first English translation of the
+Magdeburg Confession (1550)**, the text that first formalised it. He speaks for the John Birch
+Society on interposition. **In March 2020 he defied a government order to close his church** — the
+doctrine applied to his own congregation rather than argued in the abstract.
+
+**As complete a case as this directory contains.**
+
+### The rest of the spine
+
+- **Covenant Bible Church, Georgetown TX — Joel Webbon**, founder of **Right Response Ministries**,
+  self-described Christian nationalist, convener of "Blueprints for Christendom 2.0," whose speakers
+  included Doug Wilson and **Dusty Deevers** — who pastors #216 here. That conference is a map of the
+  network this directory traces.
+- **Refuge Church, Ogden UT** — five pastors, **The King's Hall** and **Hard Men** podcasts,
+  **Haunted Cosmos**, and **New Christendom Press**. Eric Conn came to the pulpit from editing *Gun
+  Digest* and the NRA's *Shooting Illustrated*; Brian Sauvé is a charting musician.
+- **Liberty Fellowship, Kalispell MT — Chuck Baldwin**, the **Constitution Party's 2008 presidential
+  nominee** and former Florida chairman of the Moral Majority. His congregation is deliberately
+  **"unorganized, unincorporated, nondenominational, non-501c3"** — a refusal of the tax status that
+  conditions most American church speech, and itself a position on church and state.
+- **Church of the King — John Stoos**, pastor since 2005 and a California political consultant for
+  twenty years, **ten of them as Chief Consultant to State Senator Tom McClintock.**
+- **Grace Covenant Presbyterian, Nacogdoches — Randy Booth**, forty years ordained, **Director of the
+  Covenant Media Foundation**, which carries the Bahnsen catalogue.
+- **Heritage Presbyterian, Cumming GA — Joe Morecraft III**, who **led Chalcedon Presbyterian out of
+  the PCA in 1983 to found the RPCUS** after a complaint that theonomic views were required for office.
+
+### Four corrections
+
+- **Heritage Presbyterian is no longer RPCUS.** Morecraft was **removed from Covenant Presbytery,
+  RPCUS in April 2015** and joined the **Reformed Presbyterian Church – Hanover Presbytery**.
+  Denomination corrected.
+- **Church of the King is in Sacramento, not Roseville.** Corrected.
+- **Covenant Reformed Presbyterian (John M. Otis) is placed in Asheville here, but sources put it in
+  Burlington NC** — 200 miles apart. **Flagged rather than changed**, because the postmill audit
+  showed how easily two real congregations get merged by a confident guess. The North Carolina
+  cluster of same-named RPCUS churches needs untangling as one job.
+- **Wesley Russell is not president of Abolish Abortion Kentucky** (earlier batch).
+
+**27 of 92 done.**
