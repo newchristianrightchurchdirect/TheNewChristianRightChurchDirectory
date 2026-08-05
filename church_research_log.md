@@ -2138,3 +2138,49 @@ evidence was found and the label still rests on the third-party AR listing; all 
 
 **5 of ~26 in Group A done. 1 confirmed, 1 demoted, 3 flagged.** That hit rate — 2 of 5 rows changed
 or qualified — is why the rest need doing.
+
+## 2026-08-05 — Researching the 92 unverified qualifying churches. Batch 1: six, all confirmed.
+
+The integrity half of the job first: churches publicly presented as meeting the standard, on evidence
+nobody had checked. Full standard on each.
+
+**All six confirmed — and unlike the AR cohort, these hold up strongly.** The pattern is clear: where
+a qualifying row carries a *named pastor with a public record*, the label survives scrutiny. It is
+the rows with no pastor and no output that collapse.
+
+- **Immanuel Baptist, Pikeville KY** — Wesley Russell speaks at Capitol rallies for Kentucky
+  equal-protection legislation, including **HB 300, which would allow abortion to be prosecuted as
+  homicide** — a bill **opposed by Kentucky Right to Life**. Standing at the Capitol for a bill the
+  state's largest pro-life body is fighting is the abolition/pro-life split in miniature.
+  **Correction: the row called him "president, Abolish Abortion Kentucky." That is overstated** — he
+  is one of several pastors working with them. Office corrected; qualification stands on what he does.
+- **Presbyterian Church of Manchester CT** — **C. R. Wiley**, author of *The Household and the War
+  for the Cosmos* and *Man of the House*, essayist in Touchstone, Modern Reformation, The Imaginative
+  Conservative and Front Porch Republic, **co-host of the Theology Pugcast on the Fight Laugh Feast
+  network**. A PCA pastor writing books on the household as a *political* institution and
+  broadcasting on Doug Wilson's platform.
+- **Harvest Church PCA, Orange City IA** — **Dr. Sacha Walicord** and other local pastors **publicly
+  confronted the town's public library** over books normalising transgenderism and homosexuality.
+  Ministers acting together against a municipal institution: small-scale, and the scale at which most
+  of this actually happens. Christian nationalism set to sympathetic. *(Orange City also holds
+  Redeemer URC, an Iowa equal-protection signatory — a town with more than one contending church.)*
+- **Providence RPC, St. Louis** — **Jeffrey Meyers**, pastor since 1994, one of the **eleven original
+  signers of the 2007 Joint Federal Vision Profession** with Peter Leithart, tried and **acquitted by
+  Missouri Presbytery in April 2012**. Decisively: he sits on the **Board of the Theopolis
+  Institute** — the same body housed at Trinity Presbyterian Birmingham, promoted today, whose stated
+  purpose is that the church is "called to transform the cities of men."
+- **Christ the Word, Sylvania OH** — **David Bayly**, in Toledo since 1988, co-author of **BaylyBlog**
+  (via World magazine, now *Out of Our Minds* at Warhorn Media). Its category list is the evidence:
+  Abortion/euthanasia, Politics, Government, Feminism, Culture — **and R2K**. Two decades of public
+  argument *against* Radical Two Kingdoms theology is argument *for* the church's authority over the
+  civil order: the transformationalist side of this directory's defining debate.
+- **New Hope Baptist, Seneca KS** — **Curtis Knapp**, pastor since 2004, RTS M.Div., Sovereign Grace
+  Baptist Fellowship, **1,000+ sermons public on SermonAudio**. In 2012 he drew national coverage for
+  pulpit remarks on the civil magistrate and homosexuality; Baptist News Global reported it as
+  *"Pastor amends comment about killing gays."* **The primary text has not been read here and this
+  record does not characterise it beyond that reporting.** Because the substance concerns what the
+  magistrate should do about sin — the theonomic question in its sharpest form — recorded as
+  **theonomy: sympathetic** and **flagged `verify_stance`**, resting on secondary reporting. His
+  archive is complete enough to settle it from his own words, and it should be.
+
+**6 of 92 done.**
