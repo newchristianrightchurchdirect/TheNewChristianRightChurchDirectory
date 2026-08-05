@@ -1591,3 +1591,62 @@ in a town of 1,210. **Freedom Baptist Stamford** still keeps the full IFB schedu
 **Gothenburg** now has **four** signatory congregations, among the densest towns on the roster.
 
 **50 `signature_only` rows remain.**
+
+## 2026-08-04 — Bible Church (15) and Assembly of God (3) clusters verified individually
+
+Seventh discharge of the `signature_only` debt.
+
+### The Assemblies of God is the cleanest denominational case in the queue
+
+**Article 14 of the Statement of Fundamental Truths, "The Millennial Reign of Christ,"** binds it
+outright: the second coming "includes the **rapture of the saints, which is our blessed hope**,
+followed by the visible return of Christ with His saints to **reign on earth for one thousand
+years**," a reign that "will bring the **salvation of national Israel**." The AG publishes a position
+paper titled simply *Premillennial Eschatology*. Four of its sixteen articles are eschatological.
+**Set as dispensational on the denomination's own words.**
+
+The abortion signature also sits squarely inside AG teaching, which calls abortion "an **evil**…
+inflicted upon millions of innocent babies" and denies that a legal right confers a **moral** one.
+
+**And Article 14 exposed a bad default.** "The salvation of national Israel" is the theological
+substance under Christian Zionism, yet the bulk import had recorded these churches as *not* Zionist.
+That is an unexamined assertion very likely to be wrong, so `zionistStance` was **reset to unknown**
+pending evidence of an actual political position. Worth remembering that `zionistStance = 'no'` sits
+on **3,967 rows** directory-wide, most of them never examined.
+
+### "Bible Church" is a movement label, not a denomination
+
+Eschatology was therefore set only where a congregation states it — which was **once**:
+
+> **Standing Stone Bible Church** (Gretna, formerly *Gretna Community Church*): "We believe that
+> Jesus is returning to **rule over the earth**, judge all men, and recreate the earth perfect."
+
+Return, then reign on earth, then judgment, then new creation — premillennial in order, recorded as
+premillennial without dispensational specifics the statement does not supply. Its pastor, **Ken
+Wombacher**, arrived in 1998 and has pastored **nearly fifty years** across five churches in three
+states — the longest ministry in this queue.
+
+**Siouxland Community Bible Church** was the most confessionally explicit: it holds the **Five Solas**
+and points to the **Cambridge Declaration**, governs by "spiritually qualified **male** leadership…
+a plurality of elders and deacons," and preaches "systematically and expositionally" through books
+of the Bible. Gender evidenced from the church's own words, not a denomination.
+
+### A pattern in the signatory data worth naming
+
+**Signatory lists record the man who signed, not the man who leads.** Two more corrections here:
+
+- **Grace Bible Church, Bellevue** — Jon McNeel is **Associate Pastor and elder**; **Dan Hauge** is
+  Senior Pastor. The row had recorded McNeel alone as "Pastor."
+- **Faith Bible Church, Lincoln** — the lead pastor is **Tom Rempel**; Brad Myers, the signatory, is
+  **Teaching Pastor** among a plurality of elders. This row had already been repaired once, from
+  having been created named "Teaching Pastor" by the parser and merged with a duplicate named
+  "Youth Pastor." Two of its pastors signed, which is unusual on this roster.
+
+That is now three such cases with Zion PCA. The lesson generalises: **a signature identifies a man,
+and inferring his office from a list is a second inference the list does not support.**
+
+**Open follow-up:** Sandhills Community Bible Church (Mullen) surfaces in connection with the
+**Berean Fellowship** roster. If confirmed, the BFC constitution would settle its markers directly.
+Flagged, not assumed.
+
+**32 `signature_only` rows remain.**
