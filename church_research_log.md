@@ -2295,3 +2295,61 @@ Church of the King is **Sacramento** not Roseville · Heritage Presbyterian is *
 Presbytery** not RPCUS · Bryce Avenue's site is **brycepresbyterian.org** · Wesley Russell is **not
 president** of Abolish Abortion Kentucky · Covenant Reformed Presbyterian's city (Asheville vs
 Burlington) **flagged, not changed.**
+
+## 2026-08-05 — Qualifying batches 8–10. 56 of 92 done; 63 of 108 qualifying rows now carry the full standard.
+
+### Two churches upgraded to `theonomic`, not merely sympathetic
+
+- **Reformed Bible Church, Appomattox VA** — Paul Michael Raymond **founded the Institute for
+  Theonomic Reformation (2001)**, teaches **Political Science** at its Academy, and **presented the
+  Doctrine of the Lesser Magistrate to the Appomattox County Board of Supervisors.** The church's
+  stated emphasis is the **Cultural Mandate of Genesis 1:28**. Chalcedon published on it as
+  "Christian Reconstruction Comes to Appomattox."
+- **Immanuel Baptist, Tucumcari NM** — Gordan Runyan wrote ***Theonomy and Reformed Baptists***,
+  *Resistance to Tyrants*, and *The Biblical Case for Private Gun Ownership*.
+
+**A man who names an institution after the position is not adjacent to it.**
+
+### National institutional reach
+
+**Coral Ridge — Rob Pacienza** holds **D. James Kennedy's own pulpit** and is President/CEO of **D.
+James Kennedy Ministries**, founder of the **Institute for Faith and Culture**, a **Senior Fellow at
+the America First Policy Institute**, and in the leadership of the **Center for Christian
+Statesmanship** — Kennedy's body for discipling members of Congress.
+
+### A keystone that links two rows on this list
+
+**Cross & Crown, Warrenton VA — Jason Garwood** founded and leads the **Virginia Center for Public
+Theology**, "dedicated to defending Christian ethics in the town square," and **Abolish Abortion
+Virginia**. **He pastored in Caro, Michigan until 2017 — that is Providence Church, Caro (#3245)**,
+promoted to qualifying earlier the same day. One man connects a Virginia and a Michigan congregation
+here, and he was already flagged as **the most useful single contact for AAM**.
+
+### Churches that teach the position as curriculum
+
+**St. John's Reformed, Friedensburg PA** runs the **Friedensburg Biblical Institute**, whose
+published lectures include **"Why Abolition and Not Pro Life."** Pastor **Matt Kenitzer** sits on the
+Board of **Abolish Abortion Pennsylvania**. **Brett Baggett** (Ekklesia Muskogee) is **President of
+Rescue Those**. **Sam Jones** (Humboldt IA) is best known for teaching **the four spheres of
+delegated government** — sphere doctrine is the intellectual substructure of this whole directory.
+
+### A new marker, queued: the public library
+
+**Two pastors independently confronted their town library** — Sacha Walicord in Orange City and
+**Paul Thompson** in Twin Falls, who also **ran for the Idaho State Senate on the Constitution Party
+ticket** and led the **"sanctuary city for pre-born children"** effort. Alongside the abortion
+facility and the city council, the library is a characteristic site of local action — and like Stuart
+Bryan's op-ed in the *Coeur d'Alene Press*, it leaves only local-press traces. **Invisible to any
+method that stops at the church website.**
+
+### Networks now visible in the data
+
+**TruthScript** carries three qualifying pastors (Idaho, Indiana, New Mexico). **Church and Family
+Life / NCFIC** has surfaced five times. **Conference rosters have produced results twice** and are
+the highest-yield source found — a man who travels to speak has already committed publicly.
+
+### Corrections this pass
+
+Covenant Presbyterian Buford was blank, is **OPC** · **Christ Church of Radford** is recorded CREC but
+Mathenia's affiliations are consistently **Reformed Baptist / HeartCry** — flagged, not changed ·
+Grace Church PCA Fremont's pastor arrived **August 2024**, so its record predates him.
