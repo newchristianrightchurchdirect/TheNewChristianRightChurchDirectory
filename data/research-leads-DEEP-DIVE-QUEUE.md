@@ -408,3 +408,26 @@ library**:
 council, the public library is emerging as a characteristic site where this movement acts locally —
 and it is the kind of action that leaves only local-press traces, so it is invisible to any research
 method that stops at the church website.
+
+## Abolition NOW! Conference (Free the States) — speaker roster (found 2026-08-05)
+
+`freethestates.org/abolition-now/` — the 2023 conference. Confirmed speakers already in the
+directory: **Brett Baggett** (Ekklesia Muskogee / Rescue Those) and **Matt Kenitzer** (St. John's
+Reformed / Abolish Abortion PA).
+
+**Mine the full roster**, as with the Love Your Pre-born Neighbor Conference. Conference speaker
+lists have now produced results twice; they are the single highest-yield source found so far,
+because a man who travels to speak has already committed publicly.
+
+## The Warrenton Declaration — retrieve the text (found 2026-08-05)
+
+Episode 1 of **Cross & Crown Radio** (Reconstructionist Radio) is "The Warrenton Declaration," issued
+from Jason Garwood's pulpit at Cross & Crown Church, Warrenton VA. A named declaration from a
+qualifying church is worth having in full — get the text and check for signatories, which would make
+it another roster.
+
+## Friedensburg Biblical Institute (found 2026-08-05)
+
+Run by **St. John's Reformed Church** (Matt Kenitzer), Friedensburg PA. Published lectures include
+**"Why Abolition and Not Pro Life"** (29 May 2022). A church-run school teaching the abolitionist
+case against incrementalism as curriculum. Worth reviewing its full lecture list.
