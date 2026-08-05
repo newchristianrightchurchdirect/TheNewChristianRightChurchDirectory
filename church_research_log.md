@@ -1535,3 +1535,59 @@ northwest Iowa towns. In both cases the signatories are a large fraction of a sm
 connected body; worth checking whether the classis discussed the statement corporately.
 
 **69 `signature_only` rows remain. Qualifying: 289.**
+
+## 2026-08-04 — Baptist cluster verified individually (19 churches)
+
+Sixth discharge of the `signature_only` debt.
+
+### "Baptist" was the least useful label in the entire queue
+
+These nineteen belong to **at least seven distinct bodies**, and they do not share a doctrine of last
+things, a polity, or a view of the church's public task:
+
+- **SBC** — First Baptist Valentine (Kansas-Nebraska Convention / Church Forward)
+- **GARBC** — Park Lane, Omaha
+- **North American Baptist Conference** — Shell Creek, Columbus (the German Baptist body; its
+  congregational history sits in the NAB archives)
+- **Converge**, formerly the Baptist General Conference — Stromsburg and Calvary Cambridge
+- **Missionary Baptist** — two historically Black congregations in North Omaha
+- **Independent KJV-only** — Fellowship Lincoln, Freedom Stamford, Lighthouse Loomis
+- **TGC-listed / Reformed-leaning** — Bethel Baptist, Ord
+
+### One eschatology could be established, and only one
+
+**GARBC Article XIX** binds its member churches to the **pretribulational rapture** — the church
+caught up "before the seven years of the Tribulation" — followed by "the **premillennial return** of
+Christ… to sit upon the throne of David and to establish His Kingdom upon this earth." That settles
+**Park Lane** the same way Augsburg XVII settled the Lutherans, and Pastor Shawn Rittmiller's M.Div.
+from **Detroit Baptist Theological Seminary** corroborates it.
+
+**Everywhere else eschatology was left unset.** The independent KJV-only churches are overwhelmingly
+dispensational as a stream, but a stream is not a confession and none of them published a statement
+of their own. Noted as a tendency, not recorded as a finding.
+
+**Gender likewise split:** set for the SBC, GARBC, NAB, independent and Missionary Baptist
+congregations; **not set for the two Converge churches**, since Converge leaves women in pastoral
+ministry to the local church.
+
+### Two North Omaha congregations, and why they are recorded deliberately
+
+**Greater New Hope Missionary Baptist** (1411 N 30th) and **St. Matthew Missionary Baptist** (1001 N
+30th) are historically Black churches ten blocks apart on the same street. The Nebraska roster is
+otherwise dominated by rural white evangelical and confessional congregations, and **that these two
+signed the same document cuts against reading it as the product of a single constituency.**
+
+Pastor **Eugene Rollerson** is publicly active in North Omaha mercy ministry — SNAP recipients,
+unhoused neighbours, through a cooperative effort among area churches. That is real corporate public
+action and it is recorded; it is mercy ministry rather than a civil-sphere programme, so it does not
+by itself promote the record.
+
+### Smaller things worth keeping
+
+**Stromsburg Baptist is a merger** — First Baptist (organised 12 July 1873) and Eden Baptist
+(18 September 1895) combined on 6 October 1933. **Burwell** draws families from up to **40 miles**
+in a town of 1,210. **Freedom Baptist Stamford** still keeps the full IFB schedule — Sunday School
+10, morning 11, **evening 6, Wednesday 7**. **Tekamah** serves a meal after worship every Lord's Day.
+**Gothenburg** now has **four** signatory congregations, among the densest towns on the roster.
+
+**50 `signature_only` rows remain.**
