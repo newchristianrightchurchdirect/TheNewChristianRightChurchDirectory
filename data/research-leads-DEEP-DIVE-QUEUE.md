@@ -346,3 +346,27 @@ Raymond). Only **New Breath Church** (Oleksii Barkalov) is on file.
 
 **Sandhills Community Bible Church (Mullen)** — surfaces in connection with the **Berean Fellowship**
 roster. If confirmed, the BFC constitution settles its markers directly. Flagged, not assumed.
+
+## STILL TO READ — 10 of the 23 demoted-on-default churches (2026-08-05)
+
+Thirteen of the twenty-three were read individually on 2026-08-05. **These ten were not**, because the
+site was unreachable, JS-blank or behind a browser check. They are demoted to unresearched and are
+NOT judged either way.
+
+| id | church | why not read |
+|---|---|---|
+| 27 | Christ the King Church, Greenville SC | site returned a navigation error |
+| 30 | Tri-City Covenant Church, Somersworth NH | navigation aborted |
+| 41 | Christ Church Denver, Englewood CO | page rendered empty |
+| 49 | Christ Reformed Church, Oakland ME | not attempted |
+| 52 | Immanuel Presbyterian Church, Clinton MS | page rendered empty |
+| 4085 | Christ the King Presbyterian, Shelby MI | page rendered empty |
+| 32 | Grace Life Church of Dallas, Plano TX | page rendered empty |
+| 105 | Christendom Reformed Baptist, Sioux City IA | navigation interrupted |
+| 4040 | Woodlawn Baptist Church, Baton Rouge LA | not attempted |
+| 4047 | Broadview Baptist Church, Lubbock TX | not attempted |
+
+Several are Wix/Squarespace or Cloudflare-fronted; retry with a longer wait, or read the Facebook
+page and sermon archive instead. **#38 Trinity Presbyterian Birmingham was behind a browser check too
+and turned out to be one of the strongest churches in the directory** — an unreachable site is not
+evidence of anything.

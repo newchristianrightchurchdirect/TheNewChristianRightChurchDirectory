@@ -1843,3 +1843,68 @@ every unevidenced cohort has been stripped out — **stands at 104 again.**
 Not the same 104, and the coincidence is worth no more than noting. But the shape of the result is
 the finding: **every attempt to grow this list by inference has had to be reversed.** The list grows
 by reading churches, one at a time, and by nothing else.
+
+## 2026-08-05 — Reading the demoted CREC/default churches. The expectation was wrong.
+
+The 23 churches demoted earlier for qualifying on a denominational default were expected to be the
+**likeliest promotions in the directory** — they were demoted for not having been read, not for
+failing, and CREC is the most transformationalist body in America.
+
+**Thirteen were read. Two qualified.**
+
+### The two that did
+
+**#3245 Providence Church, Caro MI** — its About page states the hope "that God would use our
+congregation to **promote reformation in the family, church, and state**." *And state.* That is the
+clearest three-sphere formulation in the cohort, and it comes from the congregation itself.
+
+This also closes a standing deep-dive item. "Caro MI" has been queued because **Jason Garwood** — now
+leading Abolish Abortion Virginia — pastored there until 2017. This is that church. Its pastor is now
+**Jacob Hanby**, and **the civil-sphere language outlived Garwood's departure**, which is the more
+interesting fact: it is the congregation's posture, not one minister's.
+
+**#38 Trinity Presbyterian, Birmingham AL** — among the strongest cases in the whole directory. It
+**houses the Theopolis Institute**, which "operates in conjunction with" the church at the same
+address, with **Peter J. Leithart** as President and **Rich Lusk** as pastor since December 2004.
+Theopolis states the thesis outright: the church is "an outpost of God's future city in the present,
+**called to transform the cities of men**," pursuing "church reformation and **cultural
+transformation**."
+
+Worth keeping the qualification Theopolis itself adds: crises are addressed "**only as the Church
+becomes more fully and faithfully herself**" — a liturgical route to cultural change, not activism.
+Still transformationalism; the record says so precisely.
+
+### The nine that did not — and this is the real finding
+
+**CREC membership does not mean a church contends for the civil order.** Read in their own words:
+
+- **King's Chapel, Brooklyn** — gospel "in our neighborhood and throughout the borough"; "love,
+  service, and mercy." Evangelism and mercy, no reference to law or magistracy.
+- **All Souls, Green Camp OH** — serves "through faithful preaching, meaningful worship, and genuine
+  fellowship." Three means, all ecclesial.
+- **Redeemer Reformed, OKC** — "proclaim and live out the saving grace of God in Christ." Site stale
+  since **2018**.
+- **Christ Church Santa Clarita** — creeds and Westminster Standards; recent preaching on marriage
+  and children.
+- **Christ Covenant, Chicago** — "salt of the earth and the light of the world… serve our local
+  community." Salt-and-light is used across the entire evangelical spectrum.
+- **Reformation Presbyterian, Sheboygan** — exactly two distinctives, both about its own worship:
+  confessional subscription and family-integrated services.
+- **Christ Church Morgantown** and **Christ Church Indy** were the closest calls — "comprehensive
+  application of God's Word **to our lives**" and "maturing in Christlikeness in **every aspect of
+  life**." Kuyperian in flavour, but the object of both is the believer, not the commonwealth.
+  Resolved negative; blurring the two would empty the category of meaning.
+- **All Saints Reformed, Mandeville** — one line of public self-description. Nothing to assess.
+
+**Two recorded as leads, not promotions:** Christ Church Searcy ("All of Christ for all of Searcy" —
+but mid-merger with an Anglican REC plant, so it may soon not be CREC at all) and Christ Reformed
+Evangelical Annapolis ("Disciple the nations" — the transformationalist reading of Matthew 28, or
+simply the Great Commission; a tagline cannot settle which).
+
+### Ten were not read
+
+Sites unreachable, JS-blank or behind browser checks — listed in the deep-dive queue and judged
+neither way. **Trinity Presbyterian Birmingham was behind a browser check too**, and turned out to be
+one of the strongest churches on file. An unreachable site is not evidence of anything.
+
+**Qualifying: 104 → 106.**
