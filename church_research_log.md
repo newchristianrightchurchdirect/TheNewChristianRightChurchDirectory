@@ -2802,3 +2802,99 @@ affiliation. **697 sermons unread — read them and this row will probably quali
   recorded as a description of how the church gathers, explicitly not as a stance.
 
 **100 rows left in the cohort; 58 of them genuinely live.**
+
+## 2026-08-05 — Demoted cohort to 25. Qualifying reaches 100.
+
+**100 → 25 in one push: 75 rows.** 42 were held duplicates verified against their survivors; 33 were
+live rows taken to the full standard. **Qualifying is now exactly 100**, up from 93 this morning.
+
+### The 42 held duplicates, verified rather than assumed
+
+Every held row was checked against its `duplicate_of` target on address, pastor surname and state.
+**30 confirmed, 12 flagged as not fully settled** — those 12 were inherited pairings with weaker
+evidence than an address or pastor match, and they now say so in their own notes instead of passing
+as resolved.
+
+**23 survivor rows gained a pastor lead** they did not have, carried across from the duplicate. Each
+is recorded explicitly as an UNVERIFIED LEAD, because the source that supplied it had 7 of 8 pastor
+attributions stale or wrong. That is 23 rows that now have somewhere to start.
+
+### Grace Life Dallas was hiding in this cohort under a new name
+
+**#4205 "Grace Covenant Baptist Church, McKinney TX"** is **#32 Grace Life Church of Dallas**. The
+proof is the broadcaster: the McKinney congregation publishes on SermonAudio as `gracelifedallas`
+and on Facebook as `GLCDallas`, while #32 holds gracelifedallas.org. Same pastor, **Phil George**,
+same start year, adjacent Dallas suburbs.
+
+**#32 is one of the two false negatives that forced the research standard to be tightened** — wrongly
+dismissed until the pastor was searched. Its record was still carrying a dead domain and an old name
+and city, which is precisely how it got dismissed the first time. It now carries the current name,
+address and second pastor, plus its NCFIC and Founders listings and its own description as *"a solid
+anchor of confessional and postmillennial Reformed Baptist doctrine."*
+
+**#2627 "Grace Life Church, Allen TX" holds the same domain and is very probably a third row for the
+same congregation.** Flagged, not merged.
+
+### Four more promotions
+
+- **#4204 Church of the King, McAllen TX.** Its published vision is to plant *"a distinctly Reformed,
+  **postmillennial**, and **theonomic** church in the heart of the Rio Grande Valley"* and its mission
+  is *"to see **America restored as a Christian nation**."* Three markers professed corporately by the
+  church about itself, plus local TV coverage headlined *"Politics and religion collide in McAllen."*
+- **#4193 Independence Reformed Bible Church, Morgantown PA.** The church says it is *"theonomic –
+  teaching and applying all of Scripture and the Law-Word of God… **to all of life**."* And it **hosts
+  the Future of Christendom Conference**, where Joel Saint publicly invited W. Robert Godfrey to a
+  moderated debate. Doctrine plus a standing public act.
+- **#4183 Covenant Reformed Presbyterian, Burlington NC.** **John M. Otis** has published **eleven
+  books** through his own imprint — *Danger in the Camp* (540pp, against the Federal Vision),
+  *Unveiling Freemasonry's Idolatry* (670pp), *Jesus' Victorious Kingdom* — and has written on
+  **Christian magistracy**. The row also said Graham; the church is in **Burlington**, which resolves
+  a standing Asheville/Burlington flag.
+- **#4161 Silver City Church, Mount Sterling KY.** States its aim as *"change the culture for Christ &
+  see Mt. Sterling be a city on a hill"* — and it is the **first church plant of Michael Foster's East
+  River Church**, already a qualifier here. `genderStance` deliberately NOT set from the parent
+  church's patriarchy; inferring one marker from another is the reasoning withdrawn on 2026-07-31.
+
+Two rows in the same small Kentucky town, **Silver City (#4161) and First Baptist Mt. Sterling
+(#4160)**, landed on opposite sides of the standard.
+
+### The stale-pastor pattern is now overwhelming
+
+- **#4210 Grace OPC Lynchburg** — Peter Stazen II retired **end of 2018**; Rev. Jay Bennett is pastor.
+- **#4180 Christ is King Baptist, Syracuse** — **Jon Speed** planted it in 2011 and left in **2019**.
+  He is a major abolitionist — co-producer of *Babies Are Murdered Here*, closed his bookstore in
+  protest of New York's Reproductive Health Act — **and this project already knew he had moved.** The
+  directory listed the church on the strength of a man it had itself recorded as gone.
+- Plus the dead (Talbot, West), the departed (White, Preciado, Heise, Wedgeworth) and the converted
+  (Gunsaulus, received into the Catholic Church in 2025).
+
+### Leads that came out of this push
+
+1. **171 Ohio clergymen signed a statement opposing Issue 1**, the 2023 abortion amendment — surfaced
+   next to **#4186 Sovereign Christ Church, Mansfield**. If Clint Zeigler is on that list the row has
+   a first-hand public act. **Get the signatory list; it is a cohort source for Ohio in its own
+   right.**
+2. **The Future of Christendom Conference** speaker roster (#4193). Conference rosters remain the
+   best-yielding source this project has.
+3. **A Montana CREC cluster** — Helena (#4174), Missoula (#4175) and Billings (#4173), with
+   overlapping pulpits.
+4. **A fourth Denver-area row** (#4134) joins #3266–#3268, in the metro where Christ Church Denver
+   turned out to be a plain qualifier.
+
+### Judgement calls worth seeing
+
+**#4184 Christ the King Anglican, Dayton** — the rector **co-founded Dominion Academy of Dayton** in
+1998, which under the education ruling is the strongest form of that case. But his other work is
+refugee ministry, hunger relief, liturgics and Benedictine spirituality. **"Dominion" in a school name
+is not evidence of dominion theology**, and the row was not promoted on it.
+
+**#4182 King's Park International, Durham** has helped plant 30+ churches which planted 100+ more in
+16 nations. **That is missionary expansion, not cultural transformation** — and the distinction is
+what this field measures. Left unknown; probably a bad row in the source, the fourth so judged.
+
+### Where the directory stands
+
+`transformationalist` **100** · `single_issue` 134 · `quietist` 28 · `limited_mission` 16 ·
+`unknown` 4,003.
+
+**25 rows of the demoted cohort remain, all live.**

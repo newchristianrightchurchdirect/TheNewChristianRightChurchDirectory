@@ -10,15 +10,15 @@ the state and the next action.
 
 | culturalEngagement | n | meaning |
 |---|---|---|
-| `transformationalist` | **96** | **qualifies** — meets the standard |
+| `transformationalist` | **100** | **qualifies** — meets the standard |
 | `single_issue` | 134 | examined; acts publicly on one question, does not qualify |
 | `limited_mission` | 16 | examined; published mission is ecclesial, does not qualify |
 | `quietist` | 28 | examined; treats political engagement as outside the church's calling |
-| `unknown` | 4,007 | not researched closely enough to classify |
+| `unknown` | 4,003 | not researched closely enough to classify |
 
 Plus ~41 rows held under `duplicate_of` flags.
 
-**The qualifying queue is CLOSED — every one of the 93 now carries individual research.** That is
+**The qualifying queue is CLOSED — every one of the 100 carries individual research.** That is
 new as of this session and had never been true before.
 
 ## The standard — never shortcut it
@@ -39,11 +39,11 @@ set 2026-07-31). One marker, acted on publicly, is `single_issue`.
 
 ## THE NEXT ACTION
 
-**The demoted cohort — 61 DONE, 100 TO GO. But only 58 of those 100 are real.**
+**The demoted cohort — 136 DONE, 25 TO GO. All 25 are live.**
 
-**42 of the remaining 100 are HELD** under `duplicate_of` / `closed` / `review_nonfit` — already off
-the directory, mostly duplicates the postmillennial import made of rows researched independently.
-Filter them out or every count you take will be inflated, as every count so far has been.
+The 42 held duplicates have all been verified against their survivors — 30 confirmed, 12 flagged as
+unsettled — and **23 survivor rows gained a pastor lead** from them, each marked UNVERIFIED because
+the source had 7 of 8 attributions wrong. Nothing held remains unexamined.
 
 ```
 culturalEngagement = 'unknown' AND sourceUrls LIKE '%postmillennialworldview%'
@@ -51,21 +51,14 @@ culturalEngagement = 'unknown' AND sourceUrls LIKE '%postmillennialworldview%'
 minus the researched ones (use the negation-guarded `done()` below). `prisma/_demoted.ts` prints
 them already bucketed by how much there is to work with:
 
-| bucket | n | notes |
-|---|---|---|
-| pastor + website | **0 left** | all cleared |
-| website only | **0 left** | all cleared |
-| pastor only / neither | **58 live** | plus 42 held duplicates — filter those out |
+All that remains are 25 rows with **no website**, most with no pastor either — the hardest tail.
+Several will need the Wayback Machine, Facebook, or Spanish-language search (#4189 Tulsa).
 
 **Start with #3304 Christ Reformed Presbyterian, Paris TN — the best unpromoted row in the cohort.**
 `theonomy` is already raised to `theonomic` on Paul McDade's lecture *"Theonomy In Applied Theology"*
 (WCF 19 general equity, "the use of God's law"), and he has preached *"Voting."* **697 sermons
 unread.** Read them and it will probably qualify. Then #4162 Christ Church of Acadiana, whose pastor
 teaches in the congregation's own classical academy — the strong version of the education ruling.
-
-**They were demoted for lack of evidence, not researched and found wanting**, and the first read
-produced a major promotion: **#3274 Chalcedon Presbyterian, Cumming GA** — the founding congregation
-of the RPCUS, which **required its elders to hold both theonomy and postmillennialism**. Expect more.
 
 **The single most useful thing learned about this cohort:** #31 Phoenix Reformed Baptist was listed
 because **James White** is postmillennial — but his eldership there ended in **2018**. The source
@@ -91,10 +84,16 @@ Heritage, Los Gatos (#3258) — is sitting in this very cohort.
 4. **Whitefield Theological Seminary (Lakeland FL)** — surfaced on four rows in one day. Alumni
    include **Gary DeMar, Kenneth Gentry, George Grant, R.C. Sproul Sr.** Work it as its own axis.
 
-**3 rows promoted so far** — Chalcedon Presbyterian (#3274), Community Presbyterian Louisville
-(#979), Christ the King Norman (#1507). Roughly a 1-in-20 hit rate against the *live* rows, so expect
-**~3–5 more qualifiers** in the 58 that remain. Thinner than the earlier estimate, because the cohort
-turned out to be full of held duplicates.
+**7 rows promoted out of the cohort so far** — Chalcedon Presbyterian (#3274), Community Presbyterian
+Louisville (#979), Christ the King Norman (#1507), Church of the King McAllen (#4204), Independence
+Reformed Bible (#4193), Covenant Reformed Presbyterian Burlington (#4183), Silver City Church
+(#4161). Roughly 1 in 19 of the live rows, so expect **1–2 more** in the 25 that remain — the easy
+signal is gone and what is left is the hardest tail.
+
+**One more lead, urgent:** local media reported **171 Ohio clergymen signed a statement opposing
+Issue 1**, the 2023 abortion amendment, and it surfaced beside #4186 Sovereign Christ Church,
+Mansfield. **Get the signatory list** — it would settle that row and is an Ohio cohort source on its
+own.
 
 **The RPCUS is dissolved** (1983–2020; last two congregations went to **Vanguard Presbytery**). Any
 RPCUS label in this directory is a historical identity, not a current affiliation — that includes
