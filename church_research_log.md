@@ -2033,3 +2033,57 @@ cross-referencing wholesale — family-integrated churches correlate with the pa
 
 **Standing lesson, recorded because it will recur: the church website is the weakest of the four
 sources the standard requires, and it is the one most likely to be read alone.**
+
+## 2026-08-05 — Standard swept across every limited_mission row. A second false negative.
+
+Dustin: *"never drop the standard… I dont want anything ever missed."* Written into memory, then
+applied to every `limited_mission` row created this session.
+
+### Two false negatives in fourteen
+
+**Woodlawn Baptist Church, Baton Rouge — PROMOTED.** Dismissed earlier the same day on a website
+describing Word-Driven, Gospel-Centered, disciple-making ministry with an after-school Bible club.
+Its pastor:
+
+**Dr. Lewis Richerson** — whom this row had recorded as "Dr. Lewis", **mistaking his first name for
+a surname** — is an **advisory board member of the Center for Baptist Leadership**, and **moved a
+motion at the Louisiana Baptist Convention to amend its Articles of Incorporation affirming the
+office of pastor as exclusive to men**. A formal, recorded act of denominational politics taken as a
+pastor.
+
+That is the **same basis** on which Grace Baptist, Cape Coral qualifies for Tom Ascol's Founders
+work. Applying it there and not here would be incoherent. **Gender set to complementarian on
+evidence** — a motion he personally moved, not a denominational default.
+
+With Grace Life Dallas that is **two false negatives out of fourteen site-only dismissals**. Not a
+fluke — **the base rate of what reading only the website loses.**
+
+### Where the standard genuinely could not be completed, the record says so
+
+- **Christ Church Indy** — CREC, Tyndale Presbytery (the same presbytery as Providence Caro,
+  promoted today). **No pastor identifiable anywhere.** The pastor-level half is undone; the
+  classification rests on the exact evidence base that produced both false negatives.
+  **Explicitly marked provisional.**
+- **All Saints Reformed, Mandeville** — a CREC mission church whose entire public self-description
+  is one sentence and which names no pastor. Provisional.
+- **Redeemer Reformed, OKC** — the pastor is "Pastor Mark", an Oklahoman with an RTS Orlando M.Div.;
+  **his surname could not be established**. Stated, not papered over.
+
+### Corrections and leads from the sweep
+
+- **Christ the King, Shelby MI** — Jeff Swanson is separately listed at **New Era, MI**, a
+  neighbouring Oceana County town, and speaks at Tri-City Covenant NH. **Possible duplicate record
+  under two town names.** Flagged.
+- **Christendom Reformed Baptist, Sioux City** — listed in the **Founders Ministries** church search
+  and the Reformed Baptist Network. Founders affiliation elsewhere here has evidenced an anti-woke
+  posture and, for Ascol, supported a transformationalist reading. Here it is a listing only —
+  recorded as a **live lead**.
+- **Christ Reformed, Maine** — Grant Van Brimmer is the *associate*; the senior minister is unnamed
+  on the site. Leadership record marked partial.
+- **Garrett Craw** (Santa Clarita) was converted **in the Marine Corps** and trained at Covenant
+  Theological Seminary. **Rhett Crabtree** (Green Camp) pastored in **Scotland and Michigan** before
+  planting; six children.
+
+Negatives recorded explicitly in every case, with what was checked and what remains unread.
+
+**Qualifying: 109 → 110.**
