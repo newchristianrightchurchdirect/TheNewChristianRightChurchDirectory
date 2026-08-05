@@ -137,9 +137,11 @@ export default function ChurchDetail({ church }: { church: Church }) {
                 <strong>Does not meet the standard.</strong> This congregation was examined and
                 does not act corporately on public questions
                 {church.culturalEngagement === 'quietist'
-                  ? ', treating political engagement as outside the church’s calling'
-                  : ', holding the institutional church should not take up such causes'}
-                . It is listed to record that it was looked into, not to commend it.
+                  ? ', treating political engagement as outside the church’s calling.'
+                  : '. Its published mission is limited to worship, teaching, fellowship and mercy;' +
+                    ' no claim on the civil order was found. That records what the church says about' +
+                    ' itself — it is not a finding that the church positively opposes such engagement.'}
+                {' '}It is listed to record that it was looked into, not to commend it.
               </>
             )}
           </div>

@@ -1908,3 +1908,62 @@ neither way. **Trinity Presbyterian Birmingham was behind a browser check too**,
 one of the strongest churches on file. An unreachable site is not evidence of anything.
 
 **Qualifying: 104 → 106.**
+
+## 2026-08-05 — Two corrections Dustin caught, and a second look at the unreachable sites
+
+### 1. Read-and-negative churches were being left as "unresearched"
+
+The nine churches read on 2026-08-05 and found to publish a purely ecclesial mission were left at
+`culturalEngagement = 'unknown'`. **That was wrong in a way that destroys work.** "Unknown" means
+*not researched closely enough to classify* — precisely what these are not. They were read to the
+standard and the answer was recorded; leaving them unknown throws that away and makes the directory
+look like it never checked.
+
+Moved to **`limited_mission`** — examined, does not qualify — and `verify_stance` cleared, because
+the stance is settled rather than unverified. `limited_mission` went **3 → 18**.
+
+### 2. The public wording for that category over-claimed, so it was softened
+
+It read: *"Examined, does NOT qualify — holds the institutional church should not take up public
+causes."* That asserts a **positive doctrine**. What was actually found is thinner and is now stated
+as such:
+
+> Its published mission is limited to worship, teaching, fellowship and mercy; no claim on the civil
+> order was found. That records what the church says about itself — it is not a finding that the
+> church positively opposes such engagement.
+
+Some churches in this category do hold that view deliberately; others simply have not addressed the
+question anywhere they publish. **The record cannot tell the two apart and should not pretend to.**
+
+### 3. There WAS another way to read the unreachable sites — and it changed the result
+
+Ten churches had been left unread on technical failures. Retried with a more patient fetcher:
+wait for **network idle** rather than DOM-ready, retry **http/https** variants, follow an
+about/mission link when the landing page is thin, and fall back to the **Wayback Machine**.
+
+**Nine of the ten became readable.** Two sites (Immanuel Clinton MS, Grace Life Dallas) are dead and
+were read from archived captures; both are now flagged `website_removed`.
+
+**#30 Tri-City Covenant, Somersworth NH — PROMOTED.** It **operates Tri-City Christian Academy across
+two campuses** and names it among the ministries by which it serves the community; its aim is "the
+whole Good News for the whole person for our whole community." A church running a two-campus academy
+is acting corporately and institutionally beyond the sanctuary — and it is the form of engagement
+already ruled to count here, because **schools train the next generation**. Founded 1972, fifty years
+old.
+
+**#27 Christ the King, Greenville SC — the closest call in the cohort**, held as a lead. "Through
+worship, **God forms His Church for renewing the world**"; children discipled to "**advance the
+Kingdom of Christ**." That is the same liturgical route to cultural change that Theopolis states at
+Trinity Birmingham — **but Trinity has an institute doing the work and this church has the sentence.**
+Read the preaching before deciding.
+
+**Six more recorded limited_mission.** Among them **Christendom Reformed Baptist, Sioux City** — which
+makes no claim on Christendom at all, describing only the 1689 Confession, its order of worship and
+the Great Commission. A worked example of why nominal inference fails: **the word over the door is not
+evidence, any more than CREC membership was.**
+
+**Two remain unread** — Christ Church Denver and Broadview Baptist Lubbock — each returning a single
+line by every route tried. Recorded as unread, **not as failing**. Next: Facebook, sermon archives,
+the CREC directory.
+
+**Qualifying: 106 → 107.**

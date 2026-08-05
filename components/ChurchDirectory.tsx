@@ -54,7 +54,7 @@ type SortKey = 'name' | 'state' | 'upvotes'
 const POSITION_TABS: Array<{ key: Position; label: string; title: string }> = [
   { key: 'transformationalist', label: 'Qualifying', title: 'Churches that meet the standard: they act corporately on public questions' },
   { key: 'single_issue', label: 'Single Issue', title: 'Examined, does NOT qualify — acts publicly on one question (usually abortion), but is not otherwise transformationalist' },
-  { key: 'limited_mission', label: 'Limited', title: 'Examined, does NOT qualify — holds the institutional church should not take up public causes' },
+  { key: 'limited_mission', label: 'Limited', title: 'Examined, does NOT qualify — its published mission is limited to worship, teaching and mercy, with no claim on the civil order' },
   { key: 'quietist', label: 'Quietist', title: 'Examined, does NOT qualify — treats political engagement as worldly' },
   { key: 'unknown', label: 'Unresearched', title: 'Not yet researched closely enough to classify' },
   { key: 'all', label: 'All', title: 'Every congregation on file, qualifying or not' },
