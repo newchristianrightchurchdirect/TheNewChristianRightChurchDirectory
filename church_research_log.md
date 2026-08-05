@@ -2238,3 +2238,60 @@ doctrine applied to his own congregation rather than argued in the abstract.
 - **Wesley Russell is not president of Abolish Abortion Kentucky** (earlier batch).
 
 **27 of 92 done.**
+
+## 2026-08-05 — Qualifying batches 5–6. 37 of 92 done.
+
+### The 2021 SBC abolition resolution has four of its people in this directory
+
+**Derin Stidd** (Harmony Baptist, Frankfort IN) is **Assistant National Director of Operation Save
+America**, introduced a **motion at the 2019 SBC** urging "the immediate abolition of human
+abortion," and was **one of nine co-authors of the 2021 resolution "On Abolishing Abortion."**
+
+With **Russell Threet** (First Baptist Mena), **Dave Van Bebber** (First Baptist Buffalo) and **Bill
+Ascol** (Bethel Baptist, Owasso — who carried it from the floor after the Committee on Resolutions
+refused to bring it), **the directory now holds four churches tied to the American abolition
+movement's decisive denominational act.**
+
+### And Operation Save America's leadership is here twice over
+
+**American Reformation Church, West Melbourne FL** houses both the former and current national
+directors of OSA as its officers: founding pastor **Rusty Thomas** (who succeeded Flip Benham and
+moved OSA's HQ to Dallas in 2014) and elder **Jason Storms** (current National Director). Add
+**Derin Stidd** as Assistant National Director, and three OSA officers pastor or serve churches on
+this list.
+
+### Institution-founders, which is the pattern that keeps recurring
+
+- **Ken Peters** (Patriot Church, Knoxville) founded **The Church at Planned Parenthood** in 2018,
+  the **Patriot Church movement** in 2020, and earlier **Covenant Christian School** in two cities.
+- **George Grant** (Parish Presbyterian, Franklin) founded **King's Meadow Study Center** and
+  **Franklin Classical School**.
+- **Toby Sumpter** (King's Cross, Moscow) co-hosts **CrossPolitic**, **teaches high school civics at
+  Logos School**, and is attached to the **Idaho Family Policy Center** — media, education and policy.
+- **Ryan Denton** (Clovis NM) is organizing pastor of **two church plants simultaneously**.
+
+### Published markers
+
+**Andrew Isker** co-wrote *Christian Nationalism: A Biblical Guide For Taking Dominion and Discipling
+Nations* with Gab founder **Andrew Torba**, and *The Boniface Option*. **Michael Foster** (East River)
+co-wrote *It's Good to Be a Man*. **Joseph Spurgeon** (Sovereign King) hosts the **Patriarchy
+Podcast**. **Zachary Garris** (Bryce Avenue) wrote *Masculine Christianity* and edited *Dabney on
+Fire*, and is a lawyer as well as a minister.
+
+### A duplicate that every earlier dedup pass missed
+
+**Mercy Seat Christian Church is on file twice** — #3240 under **Milwaukee** and #4220 under
+**Hartland** — both Matthew Trewhella's congregation, Hartland being a Milwaukee suburb. Merged into
+#4220 and held.
+
+**It surfaced only because both rows were researched and the research matched.** Name-and-city
+matching could never have caught it; two different towns and two slightly different names. **Research
+is a better deduplicator than string comparison**, which is worth remembering given 40 duplicates were
+found earlier by string alone.
+
+### Corrections this pass
+
+Church of the King is **Sacramento** not Roseville · Heritage Presbyterian is **RPC Hanover
+Presbytery** not RPCUS · Bryce Avenue's site is **brycepresbyterian.org** · Wesley Russell is **not
+president** of Abolish Abortion Kentucky · Covenant Reformed Presbyterian's city (Asheville vs
+Burlington) **flagged, not changed.**
