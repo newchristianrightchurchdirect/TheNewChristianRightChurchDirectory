@@ -11,15 +11,17 @@ the state and the next action.
 | culturalEngagement | n | meaning |
 |---|---|---|
 | `transformationalist` | **100** | **qualifies** — meets the standard |
-| `single_issue` | 134 | examined; acts publicly on one question, does not qualify |
+| `single_issue` | 135 | examined; acts publicly on one question, does not qualify |
 | `limited_mission` | 16 | examined; published mission is ecclesial, does not qualify |
 | `quietist` | 28 | examined; treats political engagement as outside the church's calling |
-| `unknown` | 4,003 | not researched closely enough to classify |
+| `unknown` | 4,002 | not researched closely enough to classify |
 
 Plus ~41 rows held under `duplicate_of` flags.
 
-**The qualifying queue is CLOSED — every one of the 100 carries individual research.** That is
-new as of this session and had never been true before.
+**BOTH QUEUES ARE CLOSED.** Every one of the 100 qualifying rows carries individual research, and so
+does every one of the **187 rows ever sourced to postmillennialworldview.com**, in every
+classification. Neither had ever been true before 2026-08-05, when 184 rows were researched and 364
+audited stance changes were written.
 
 ## The standard — never shortcut it
 
@@ -39,65 +41,40 @@ set 2026-07-31). One marker, acted on publicly, is `single_issue`.
 
 ## THE NEXT ACTION
 
-**The demoted cohort — 136 DONE, 25 TO GO. All 25 are live.**
+**BOTH QUEUES ARE CLOSED.** Every one of the 100 qualifying rows carries individual research, and so
+does **every one of the 187 rows this directory ever took from postmillennialworldview.com**, in every
+classification. Nothing traceable to that source is unexamined anywhere.
 
-The 42 held duplicates have all been verified against their survivors — 30 confirmed, 12 flagged as
-unsettled — and **23 survivor rows gained a pastor lead** from them, each marked UNVERIFIED because
-the source had 7 of 8 attributions wrong. Nothing held remains unexamined.
+**So the next work is the deep-dive queue** (`data/research-leads-DEEP-DIVE-QUEUE.md`) — and the best
+leads in it now came out of the cohort that just closed. In order:
 
-```
-culturalEngagement = 'unknown' AND sourceUrls LIKE '%postmillennialworldview%'
-```
-minus the researched ones (use the negation-guarded `done()` below). `prisma/_demoted.ts` prints
-them already bucketed by how much there is to work with:
+1. **The theonomy church directory** (filed in the queue). Its listing criterion is this project's
+   qualifying definition verbatim — *"Christ's Lordship in all areas of life (family, church, and
+   state)"*. 26 churches, two of which are already qualifiers here. **Every pastor on it is from 2011
+   and must be re-confirmed; use it as a list of congregations, never of pastors.**
+2. **171 Ohio clergymen signed a statement opposing Issue 1**, the 2023 abortion amendment. It
+   surfaced beside #4186 Sovereign Christ Church, Mansfield. **Get the signatory list** — it would
+   settle that row and is an Ohio cohort source on its own.
+3. **The Future of Christendom Conference** speaker roster — hosted by #4193 Independence Reformed
+   Bible Church, now a qualifier. Conference rosters remain the highest-yield source found.
+4. **Whitefield Theological Seminary, Lakeland FL** — surfaced on **six rows in one day**. Alumni
+   include Gary DeMar, Kenneth Gentry, George Grant and R.C. Sproul Sr. Work it as its own axis.
+5. **`"All of Christ, for all of Life, for all of <city>"`** — this exact tagline appears on Trinity
+   Presbyterian Waukesha (CREC) *and* First Presbyterian Battle Ground WA. It does the work "every
+   square inch" does. Search it as a marker.
 
-All that remains are 25 rows with **no website**, most with no pastor either — the hardest tail.
-Several will need the Wayback Machine, Facebook, or Spanish-language search (#4189 Tulsa).
+**Three unfinished rows worth returning to before anything else** — each is a strong candidate left
+short by one unread source:
 
-**Start with #3304 Christ Reformed Presbyterian, Paris TN — the best unpromoted row in the cohort.**
-`theonomy` is already raised to `theonomic` on Paul McDade's lecture *"Theonomy In Applied Theology"*
-(WCF 19 general equity, "the use of God's law"), and he has preached *"Voting."* **697 sermons
-unread.** Read them and it will probably qualify. Then #4162 Christ Church of Acadiana, whose pastor
-teaches in the congregation's own classical academy — the strong version of the education ruling.
+- **#3304 Christ Reformed Presbyterian, Paris TN.** `theonomy` already raised to `theonomic` on Paul
+  McDade's lecture *"Theonomy In Applied Theology"*; he has also preached *"Voting."* **697 sermons
+  unread.**
+- **#4218 Evangelical Reformed Church, Tacoma.** Rich Hamlin **testified before Congress** on
+  religious freedom and publishes weekly at solideogloria.org. **The blog was not read.**
+- **#4162 Christ Church of Acadiana, Lafayette LA.** The pastor teaches Greek, Logic and Humanities
+  at the congregation's **own** classical academy — the strong form of the education ruling.
 
-**The single most useful thing learned about this cohort:** #31 Phoenix Reformed Baptist was listed
-because **James White** is postmillennial — but his eldership there ended in **2018**. The source
-directory **indexed the man, not the congregation, and the man had already left.** Assume that
-failure mode on every remaining row: find out whether the listed pastor is still there *before*
-crediting the church with his doctrine.
-
-**Work the theonomy church directory alongside it** (new, filed in the deep-dive queue). Its listing
-criterion is this project's qualifying definition verbatim, and one of its 26 churches — Reformed
-Heritage, Los Gatos (#3258) — is sitting in this very cohort.
-
-**Two more search targets found in the cohort itself:**
-
-1. **`"All of Christ, for all of Life, for all of <city>"`** — this exact tagline appears on Trinity
-   Presbyterian Waukesha (CREC) *and* on First Presbyterian Battle Ground WA. It is doing the same
-   work "every square inch" does. Search it as a marker in its own right.
-2. **"family-integrated"** — three of eighteen rows in one batch used it, plus a fourth. That is
-   **NCFIC / Church and Family Life** vocabulary, already a lead with six independent appearances.
-   The postmillennial directory and the NCFIC network overlap heavily; work them together.
-
-3. **`unityofchristendom.org` conference roster** — Fr. Jack Shannon (#4135) speaks there. Conference
-   rosters remain the highest-yield source this project has found.
-4. **Whitefield Theological Seminary (Lakeland FL)** — surfaced on four rows in one day. Alumni
-   include **Gary DeMar, Kenneth Gentry, George Grant, R.C. Sproul Sr.** Work it as its own axis.
-
-**7 rows promoted out of the cohort so far** — Chalcedon Presbyterian (#3274), Community Presbyterian
-Louisville (#979), Christ the King Norman (#1507), Church of the King McAllen (#4204), Independence
-Reformed Bible (#4193), Covenant Reformed Presbyterian Burlington (#4183), Silver City Church
-(#4161). Roughly 1 in 19 of the live rows, so expect **1–2 more** in the 25 that remain — the easy
-signal is gone and what is left is the hardest tail.
-
-**One more lead, urgent:** local media reported **171 Ohio clergymen signed a statement opposing
-Issue 1**, the 2023 abortion amendment, and it surfaced beside #4186 Sovereign Christ Church,
-Mansfield. **Get the signatory list** — it would settle that row and is an Ohio cohort source on its
-own.
-
-**The RPCUS is dissolved** (1983–2020; last two congregations went to **Vanguard Presbytery**). Any
-RPCUS label in this directory is a historical identity, not a current affiliation — that includes
-Chalcedon (#3274), Covington GA (#4145) and Wytheville (#3690), all flagged `denom_verify`.
+**Also queued and now overdue: a directory-wide `leadership` sweep.** See the cautions below.
 
 ## Read this before writing any queue query
 
@@ -119,13 +96,18 @@ backwards. **Never trust a queue count you have not sanity-checked against a sec
 
 ## Standing cautions, all learned the hard way
 
-- **A website that was never read is not a source, it is a guess with a URL on it.** Three of twenty
-  rows this session pointed at churches in *other states* — Keota OK → Grand Prairie TX, Shelby OH →
-  Shelby NC, Jacksonville NC → Jacksonville FL (`jax` is the Florida abbreviation). Open every URL
-  and confirm the city before trusting anything downstream of it.
-- **A pastor field is a claim with a date on it.** Four more stale-leadership findings this session,
-  the freshest **six weeks old** (Geyer Springs, June 2026). A directory-wide `leadership` sweep is
-  still queued and is now clearly overdue.
+- **A website that was never read is not a source, it is a guess with a URL on it.** **Eleven wrong
+  websites** were found on 2026-08-05, several pointing at churches in *other states* — Keota OK →
+  Grand Prairie TX, Shelby OH → Shelby NC, Jacksonville NC → Jacksonville FL (`jax` is the Florida
+  abbreviation), Wytheville VA → Carnegie PA. Open every URL and confirm the city before trusting
+  anything downstream of it. And **`website_removed` should be retested, not trusted** — a dead
+  domain is often a changed one (#3259 Mentone).
+- **A pastor field is a claim with a date on it, and the sweep is overdue.** 2026-08-05 alone turned
+  up **three deceased pastors** (Talbot 2022, West 2023, Strawbridge 2022), pastors who had left in
+  2018 and 2019 and were still credited, one who **retired in 2018**, one who **left the pastorate in
+  June 2026**, and one who **was received into the Catholic Church in 2025** — all carried as current.
+  **The postmillennial directory indexes the PASTOR, not the congregation, so its listings outlive the
+  men they rest on.** Assume that failure mode on any pastor-derived source.
 - **An unreachable site is a fact about the fetch, not the church** — retry `www`, http/https, the
   Wayback Machine (blocked from this session; try it), Facebook and sermon archives. But when DNS
   fails repeatedly on every hostname, *that* is a finding too (Christ Church Lakeland).

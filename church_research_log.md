@@ -2898,3 +2898,95 @@ what this field measures. Left unknown; probably a bad row in the source, the fo
 `unknown` 4,003.
 
 **25 rows of the demoted cohort remain, all live.**
+
+## 2026-08-05 — The demoted cohort is CLOSED. 0 remaining.
+
+The last 25 rows are done. **All 187 rows that ever came from postmillennialworldview.com now carry
+individual research, in every classification** — as do all 100 qualifying rows. Nothing traceable to
+that source is unexamined anywhere in the directory.
+
+**184 rows were researched today. 364 audited stance changes.**
+
+### The tail was the hardest, and it produced one real find
+
+**#3302 Foothills Christian Assembly, Edgefield SC — reclassified `single_issue`, abolition now
+evidenced.** Pastor **Dr. Matthew Clark is the EXECUTIVE DIRECTOR of PERSONHOOD SOUTH CAROLINA**,
+which campaigns for legislation recognising the personhood of the preborn so they receive
+*"Constitutional rights as every other person"* — by legislative support, organising activists,
+**collecting legislator pledges** and public events. Personhood is the equal-protection position, the
+line that separates abolitionism from incrementalism, and he runs the state body.
+
+`single_issue` rather than qualifying, because it is one question and nothing surfaced on the other
+five — the same treatment given Calvary Chapel Saint Paul and Grace Fellowship Davenport. **Intensity
+on one question is not breadth.** The church is also the ninth independent NCFIC appearance.
+
+### A congregation voted itself out of the SBC over women pastors
+
+**#3288 Cornerstone Bible Church, Great Falls MT** — in **September 2024** the members decided the
+church must leave the Southern Baptist Convention *because of its leaders' growing support for women
+as pastors*, and are seeking fellowship with Reformed Baptists. `genderStance` set to
+`complementarian` on that act rather than by inference.
+
+It does **not** make the row transformationalist: leaving a denomination is about the church's own
+order, not the civil order, and this field measures the latter. (The congregation was Westside
+Baptist until 2019.)
+
+### The third dead pastor — and it was one this project already knew about
+
+**#3300 All Saints' Church, Brownstown PA is GREGG STRAWBRIDGE'S congregation, and he died in 2022.**
+This project had already recorded that death when untangling the same directory's stale attributions
+elsewhere; it had simply never been connected to this row. He founded WordMp3.com and personally
+trained ministers — Lucas Dorminy of #4219 studied under him from 2017 — so the discipleship trail
+out of that pulpit is worth mapping even though the man is gone.
+
+That makes **three deceased pastors** (Talbot 2022, West 2023, Strawbridge 2022) carried as current
+by one source.
+
+### Five rows that were never plausible
+
+The tail exposed how much of this list was simply wrong at the denominational level:
+
+- **#3287 Sadler Chapel, Dexter MO** is **UNITED METHODIST** — it hosts monthly bluegrass jams.
+- **#3298 Myrtle Creek** is **Church of the Nazarene**: Wesleyan-Holiness, ordains women, historically
+  *pre*millennial. Three separate reasons a postmillennial-Reformed listing cannot fit.
+- **#3250 Jubilee Christian Family, Franklin WI** makes no Reformed or eschatological claim at all.
+- **#3303 Columbia Bible Assembly, TN** and **#3265 Iglesia Bautista Nueva Esperanza, Woodland CA**
+  **could not be located under those names at all.** The Iglesia name is one of the commonest
+  Spanish-language Baptist church names in America — congregations of that exact name exist in
+  Riverside, Madera, San Antonio, Brighton CO and South Carolina. A pastor surfaced with no location
+  attached; **he was deliberately not recorded**, because guessing which of six same-named churches a
+  man belongs to is exactly how this cohort acquired its wrong attributions.
+
+### Whitefield Theological Seminary, six rows in one day
+
+**#3282 Fox Lake Community Church** — Pastor Wayne Christensen is working toward a doctorate there.
+That is the sixth row today running through Whitefield, after Kenneth Talbot (#4137), Randall Talbot
+(#4136), Frank Walker (#3262), Brian Phillips (#26) and Flynn Ayers (#4175). Its alumni include
+**Gary DeMar, Kenneth Gentry, George Grant and R.C. Sproul Sr.** Whitefield is not a marker, but it is
+unmistakably a node in this network.
+
+### Corrections in the tail
+
+**#3271 Sharon OPC is in Hialeah**, not Miami Lakes — and Jeffrey K. Boer has pastored it **since
+1979**, forty-seven years, which after a day of dead and departed pastors is worth recording.
+**#3284 Trinity Evangelical, Larwill IN renamed itself Trinity Reformed and moved to South Whitley in
+January 2023** — not applied, because a name-and-city change must be checked against the directory
+for an existing row first; this cohort has already produced several duplicates created exactly that
+way. **#3259 Covenant Church, Mentone** was flagged `website_removed` but publishes at
+covenantkirk.org — **a dead domain is often a changed one, and the flag should be retested, not
+trusted.**
+
+### Where the directory stands
+
+| culturalEngagement | n |
+|---|---|
+| `transformationalist` | **100** |
+| `single_issue` | 135 |
+| `quietist` | 28 |
+| `limited_mission` | 16 |
+| `unknown` | 4,002 |
+
+**Both queues are now closed.** Every qualifying row, and every row this directory ever took from the
+postmillennial directory, has been read individually. The next work is the deep-dive queue — and the
+best leads in it now came out of this cohort: the theonomy church directory, the Future of Christendom
+conference roster, the 171 Ohio clergymen who signed against Issue 1, and Whitefield.
