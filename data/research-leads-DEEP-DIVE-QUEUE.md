@@ -404,7 +404,9 @@ library**:
 - **Paul Thompson** (Eastside Baptist, Twin Falls ID) — petitioned the library board to remove LGBTQ
   displays at the entrance to the children's section.
 
-**Worth tracking as a marker in its own right.** Alongside the abortion facility and the city
+**Worth tracking as a marker in its own right — now THREE instances.** A third surfaced 2026-08-05: **Kendall Lankford** (The Shepherds Church, Chelmsford MA) ran a **"Pastor Story Hour"** at a public library; the library cancelled, and he took the argument public, covered by Fox News under the line that faith belongs in the public square. That one is the most interesting of the three because it is not a protest against library content but an attempt to OCCUPY the institution on equal terms.
+
+**Original two:** Alongside the abortion facility and the city
 council, the public library is emerging as a characteristic site where this movement acts locally —
 and it is the kind of action that leaves only local-press traces, so it is invisible to any research
 method that stops at the church website.
