@@ -2707,3 +2707,98 @@ directory and the NCFIC network appear to overlap heavily. Work them together.
 `unknown` 4,007.
 
 **125 rows of the demoted cohort remain.**
+
+## 2026-08-05 — Demoted cohort to 100. And 42 of them are duplicates that were never counted.
+
+**125 → 100.** Also: L2 Church Denver held out of scope on the owner's instruction, and the Grace
+Fellowship allegations kept.
+
+### The cohort is smaller than the number says
+
+Of the 100 rows still unresearched, **42 are HELD** under `duplicate_of`, `closed` or `review_nonfit`
+— they are already off the directory and most are duplicates the postmillennial import created of
+rows this project had researched independently. **Only 58 are genuinely live and unresearched.**
+
+Every count of this cohort so far, including my own, has been inflated by them.
+
+### Two duplicates the import made of qualifying rows, found by research not string-matching
+
+- **#4165 "Colwood Church", 1840 Colwood Rd, Caro MI — Jason Garwood** is **#3245 Providence Church,
+  Caro** under its former name and address. Garwood pastored there until 2017; the row is already
+  transformationalist under Jacob Hanby.
+- **#4168 "OneLife Church", 2237 Reid Rd, Grand Blanc MI — Eric Stewart** is **#3247 Ekklesia of
+  Grand Blanc**. #3247's own note already states that "the former 2237 Reid Rd address" is stale.
+  **The surviving row names the duplicate's address as its own discarded one.**
+
+Neither could have been caught by name-and-city matching — different names, different addresses.
+**Research is a better deduplicator than string comparison**, again.
+
+### The RPCUS is dissolved, which corrects a row I promoted this morning
+
+**The RPCUS was founded in 1983 and dissolved in 2020**, its last two congregations joining
+**Vanguard Presbytery**. So the denomination I recorded on **Chalcedon Presbyterian (#3274)** hours
+earlier is already a historical identity, not a current affiliation, and the same applies to
+**Providence RP Covington GA (#4145)** and **Providence RP Wytheville VA (#3690)**.
+
+**The promotion itself is unaffected and is now corroborated from outside the church:** Chalcedon
+left the PCA in 1983 because North Georgia Presbytery complained its requirement that elders hold
+theonomy *and* postmillennialism was too strict and went "beyond the Westminster Confession."
+**The officer requirement is attested by the quarrel that created the denomination.**
+
+### Wytheville: wrong website, wrong denomination, no pastor
+
+**#3690** pointed at `sermonaudio.com/ProvidenceRPC`, which is **Providence Reformed Presbyterian of
+Carnegie, PENNSYLVANIA** (RPCNA, Steve Bradley) — a different church in a different state. The
+Wytheville congregation is at thebiblealone.com, was RPCUS not RPCNA, began as a mission work in 1997
+and was received with its mother church **Trinity Presbyterian, Tazewell VA** into RPCUS Covenant
+Presbytery in February 2002. Pastor **Jeff Black**. That makes **eleven wrong websites**.
+
+### Dead men, departed men, and one who left the faith
+
+- **#4137 Christ Presbyterian, Lakeland FL** rests on **Kenneth Gary Talbot, who died 18 August
+  2022** — the second deceased pastor traced to this source after Jim West.
+- **#4151 Newton CRC, Newton IA** rests on **Aaron Gunsaulus**, who resigned in 2024 and was
+  **received into the Catholic Church at the 2025 Easter Vigil.** A directory that indexes churches
+  by their pastors' theology has attached a postmillennial label to a congregation through a man who
+  is neither its pastor nor Reformed.
+
+### Whitefield Theological Seminary is a discovery axis
+
+It surfaced on **four separate rows today**. Founded 1980 in Lakeland FL by Kenneth Talbot; its
+alumni include **Gary DeMar, Kenneth Gentry, George Grant and R.C. Sproul Sr.** — and George Grant is
+already a qualifier here. **Randall Talbot** (#4136 Belleview FL, a row a listing now marks *closed*)
+is its Academic Dean; **Frank Walker** (#3262) and **Brian Phillips** (#26) both hold Whitefield
+degrees. Work it.
+
+### Leads that came out of the rows themselves
+
+1. **`"All of Christ, for all of Life, for all of <city>"`** — verbatim on Trinity Presbyterian
+   Waukesha (CREC) and First Presbyterian Battle Ground WA. Doing the work "every square inch" does.
+2. **Church and Family Life / NCFIC** — **#4146 Crossroads Church of Dunwoody** is listed in its
+   network directory, the **seventh** independent appearance. Grace Life Dallas came through this
+   lead and was one of the two false negatives that forced the standard to be tightened.
+3. **unityofchristendom.org conference roster** — Fr. Jack Shannon (#4135, Saint Athanasius Reformed
+   Catholic Church, Fort Collins) speaks there. Conference rosters remain the highest-yield source
+   this project has found.
+4. **Doug Enick (#4158, Pratt KS) writes a standing "Pastoral Commentary" column in the Pratt
+   Tribune** — local-press output, exactly the kind of trace invisible to any method that stops at
+   the church website.
+
+### The best unpromoted row in the cohort
+
+**#3304 Christ Reformed Presbyterian, Paris TN.** `theonomy` raised **unknown → theonomic**: Pastor
+Paul McDade's lecture *"Theonomy In Applied Theology"* works through WCF 19, distinguishing "general
+equity from the forms specific to Israel's Old Testament economy," which he says has "great practical
+value in defending the authority of Scripture and the use of God's law." He has also preached
+*"Voting."* The church holds the **original 1647** Westminster Confession and is seeking RPCGA
+affiliation. **697 sermons unread — read them and this row will probably qualify.**
+
+### Housekeeping done on instruction
+
+- **#3266 L2 Church, Denver → `review_nonfit`, held, unapproved.** It is *Life to the Second Power*,
+  a counselling and coaching ministry operating inside the **Denver County Jail** — not a
+  congregation. Retained rather than deleted so the research survives and the call is reversible.
+- **Family-integrated churches now carry it in the Editor's Note** — #2541, #3254, #2675, #3253 —
+  recorded as a description of how the church gathers, explicitly not as a stance.
+
+**100 rows left in the cohort; 58 of them genuinely live.**

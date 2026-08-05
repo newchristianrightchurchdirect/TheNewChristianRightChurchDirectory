@@ -39,7 +39,11 @@ set 2026-07-31). One marker, acted on publicly, is `single_issue`.
 
 ## THE NEXT ACTION
 
-**The demoted cohort — it is 161 rows, not 122. 36 DONE, 125 TO GO.**
+**The demoted cohort — 61 DONE, 100 TO GO. But only 58 of those 100 are real.**
+
+**42 of the remaining 100 are HELD** under `duplicate_of` / `closed` / `review_nonfit` — already off
+the directory, mostly duplicates the postmillennial import made of rows researched independently.
+Filter them out or every count you take will be inflated, as every count so far has been.
 
 ```
 culturalEngagement = 'unknown' AND sourceUrls LIKE '%postmillennialworldview%'
@@ -50,8 +54,14 @@ them already bucketed by how much there is to work with:
 | bucket | n | notes |
 |---|---|---|
 | pastor + website | **0 left** | all cleared |
-| website only | ~13 left | do these next — enough to apply the standard |
-| pastor only / neither | ~112 | many will need the Wayback Machine or Facebook |
+| website only | **0 left** | all cleared |
+| pastor only / neither | **58 live** | plus 42 held duplicates — filter those out |
+
+**Start with #3304 Christ Reformed Presbyterian, Paris TN — the best unpromoted row in the cohort.**
+`theonomy` is already raised to `theonomic` on Paul McDade's lecture *"Theonomy In Applied Theology"*
+(WCF 19 general equity, "the use of God's law"), and he has preached *"Voting."* **697 sermons
+unread.** Read them and it will probably qualify. Then #4162 Christ Church of Acadiana, whose pastor
+teaches in the congregation's own classical academy — the strong version of the education ruling.
 
 **They were demoted for lack of evidence, not researched and found wanting**, and the first read
 produced a major promotion: **#3274 Chalcedon Presbyterian, Cumming GA** — the founding congregation
@@ -76,9 +86,19 @@ Heritage, Los Gatos (#3258) — is sitting in this very cohort.
    **NCFIC / Church and Family Life** vocabulary, already a lead with six independent appearances.
    The postmillennial directory and the NCFIC network overlap heavily; work them together.
 
+3. **`unityofchristendom.org` conference roster** — Fr. Jack Shannon (#4135) speaks there. Conference
+   rosters remain the highest-yield source this project has found.
+4. **Whitefield Theological Seminary (Lakeland FL)** — surfaced on four rows in one day. Alumni
+   include **Gary DeMar, Kenneth Gentry, George Grant, R.C. Sproul Sr.** Work it as its own axis.
+
 **3 rows promoted so far** — Chalcedon Presbyterian (#3274), Community Presbyterian Louisville
-(#979), Christ the King Norman (#1507). Roughly a 1-in-12 hit rate, so expect **~10 more qualifiers**
-in the remaining 125. That is worth the work.
+(#979), Christ the King Norman (#1507). Roughly a 1-in-20 hit rate against the *live* rows, so expect
+**~3–5 more qualifiers** in the 58 that remain. Thinner than the earlier estimate, because the cohort
+turned out to be full of held duplicates.
+
+**The RPCUS is dissolved** (1983–2020; last two congregations went to **Vanguard Presbytery**). Any
+RPCUS label in this directory is a historical identity, not a current affiliation — that includes
+Chalcedon (#3274), Covington GA (#4145) and Wytheville (#3690), all flagged `denom_verify`.
 
 ## Read this before writing any queue query
 
