@@ -1763,3 +1763,83 @@ since a mark nobody can see is not a mark; where the congregation's own practice
 denomination, the page says so in the same block. Verified rendering against both cases.
 
 Qualifying is unchanged at **289** — none of the twenty-five had qualified.
+
+## 2026-08-05 — Audit of all qualifying churches. 289 → 104.
+
+Dustin asked for an audit of every transformationalist church. The question: does each one actually
+meet the standard set on 2026-07-31 — **evidenced corporate civil-sphere engagement**?
+
+**Four bulk-inference cohorts were found, all predating that standard.** None had been re-examined
+against it. Together they were 185 of the 289.
+
+### 1. The postmill bulk import — 91 rows, and 43 were duplicates
+
+Every one of these carried its own confession in its notes: *"Added 2026-07-30 from the
+postmillennialworldview.com directory… **NOT INDEPENDENTLY VERIFIED** — third-party listing only;
+the church's own site, socials and preaching have not yet been read."* All 91 were nonetheless
+marked qualifying.
+
+**Worse: 43 of the 91 duplicated churches already in the directory** — and the existing records were
+almost always better. #4140 Providence Church (Pensacola) duplicated **#25** (1,304 chars of
+research). #4133 Branch of Hope duplicated **#2355** (1,015 chars). #4211 duplicated **#28**
+Providence Lynchburg (1,085 chars). #4164 duplicated **#24** The Shepherd's Church (1,119 chars).
+The import never checked whether a church was already on file.
+
+Duplicates merged into the survivor and held under `duplicate_of`; the rest demoted. **Three were
+deliberately NOT merged** — Christ Presbyterian (Lakeland vs Bradenton, where #3967 is a better
+survivor anyway), Covenant RPC (Graham vs Asheville), Grace Covenant Baptist (McKinney vs Willis) —
+because the cities are far apart and wrongly merging two real congregations destroys one, whereas
+demotion is reversible.
+
+### 2. The postmill cross-reference cohort — 70 rows
+
+Existing churches cross-referenced against the same directory on 2026-07-30, each noting *"Owner
+ruled corroborated conviction qualifies."* **That ruling was made under the superseded 1-marker
+rule.** All 70 had exactly one marker, postmillennialism, and not one had a second.
+
+It fails the current standard twice over: one marker is no longer enough, and **postmillennialism is
+an eschatology, not an action** — even fully verified it says what a church expects God to do in
+history, not that the congregation acts. And a third-party listing is *weaker* evidence than the
+first-hand equal-protection signatures that were already ruled insufficient. Keeping these while
+demoting those would have been incoherent.
+
+### 3. Denominational defaults — 23 rows, 17 of them CREC
+
+Rows reading *"Defaults (CREC); pastor not listed"* or *"Stance(s) set by denominational default (no
+individual position stated on church site)"* — still qualifying. **This is circular**: the
+denomination set the marker fields, and the marker fields were then read back as evidence about the
+church.
+
+It also contradicts a standing ruling. **"CREC does not necessarily mean good"** was the point that
+started the whole ranking discussion. Demoted to unresearched and flagged — **not ruled out**. CREC
+congregations remain the likeliest promotions in the directory: Christ Church Omaha qualified on
+2026-07-31 the moment someone actually read its mission statement.
+
+### 4. One row whose label contradicted its own research
+
+**#22 Christ Church Spokane.** Its note from the 2026-07-31 review reads: *"no qualifying evidence
+found for Kenton Spratt or the church… Left flagged, **not promoted**."* It was still carrying the
+qualifying label. Corrected.
+
+### What survived
+
+**104 churches.** 57 `evidenced`, 47 `mixed`, **zero denominational defaults**. Median research note
+800 characters (min 257). Only 8 still flagged `verify_stance`.
+
+| | |
+|---|---|
+| **6 of 6 markers** | Covenant Bible Church (Georgetown TX) · Refuge Church (Ogden UT) |
+| **5 of 6** | 10 churches — Christ Church Moscow, Apologia, Dominion Covenant, The Shepherd's Church, Cross & Crown, King's Way, Christ the Redeemer Pella, Christ Church Radford, Sovereign King, Whitleyville |
+| **4 of 6** | 13 |
+
+Denominations: Reformed Baptist 18 · SBC 17 · Non-denominational 15 · CREC 14 · PCA 8.
+
+### The number
+
+**The directory began this project claiming 104 churches actually met the standard.** It grew to 412
+through bulk inference, was cut to 289 when signature-only churches were demoted, and now — after
+every unevidenced cohort has been stripped out — **stands at 104 again.**
+
+Not the same 104, and the coincidence is worth no more than noting. But the shape of the result is
+the finding: **every attempt to grow this list by inference has had to be reversed.** The list grows
+by reading churches, one at a time, and by nothing else.
