@@ -431,3 +431,29 @@ it another roster.
 Run by **St. John's Reformed Church** (Matt Kenitzer), Friedensburg PA. Published lectures include
 **"Why Abolition and Not Pro Life"** (29 May 2022). A church-run school teaching the abolitionist
 case against incrementalism as curriculum. Worth reviewing its full lecture list.
+
+## Church and Family Life / NCFIC — now SIX appearances (updated 2026-08-05)
+
+The NCFIC network has surfaced six separate times in this research: **Grace Life Dallas** (whose
+pastor speaks at abolitionist conferences), **Hope Fellowship Gatesville**, **Zachary Garris** (Bryce
+Avenue), **Anthony Mathenia** (Christ Church Radford), **Christ Church of Livingston County**, and on
+the sponsor board of a New Christendom Press conference.
+
+**This is no longer a coincidence — it is a structural feature of the movement.** Mine
+churchandfamilylife.com's church directory wholesale: family-integrated churches correlate with the
+patriarchy marker, with homeschooling and classical education, and — on this evidence — with
+abolitionist connections.
+
+## Stale-leadership audit needed (2026-08-05)
+
+Two qualifying rows were found this session naming men who are no longer there, one of them deceased:
+
+- **Los Angeles RPC** named **Nathan Eshelman**, who left for Orlando in **2021**.
+- **Crossroad Church, Earlham IA** named elder **David Koch**, who **died 17 September 2025**.
+
+Plus the earlier finding that **seven of eight** pastor attributions from the postmillennial directory
+were stale or wrong, and **All Saints New Holland** had carried a pastor who died in 2022 (Gregg
+Strawbridge — now resolved to Kasey Horvath).
+
+**A pastor field is a claim with a date on it.** Worth a systematic sweep of `leadership` across the
+whole directory, prioritising rows whose `lastResearchedAt` predates 2026.
