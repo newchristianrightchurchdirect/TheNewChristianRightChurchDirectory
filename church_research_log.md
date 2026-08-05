@@ -1967,3 +1967,69 @@ line by every route tried. Recorded as unread, **not as failing**. Next: Faceboo
 the CREC directory.
 
 **Qualifying: 106 → 107.**
+
+## 2026-08-05 — "Are you keeping the standard?" No. Completing it overturned a verdict.
+
+Dustin asked whether the research standard was being kept. **It was not.** The CREC pass read
+mission pages and largely stopped there, skipping the church socials, the pastor's own output, and
+the pastor-name-against-each-marker searches. The standard exists precisely because **a bland church
+website says nothing about the man in the pulpit** — the rule has always been *if the pastor pushes
+it, the church counts.*
+
+Site-only reading produces **false negatives, and false negatives are invisible**: nothing in the
+record flags a church that was wrongly dismissed.
+
+### The false negative
+
+**Grace Life Church of Dallas** was classified `limited_mission` on its website, which says only
+that the church exists "to glorify God by the **faithful proclamation of the Gospel**" and describes
+a Sunday service. Nothing there touches the civil order.
+
+**Its pastor, Phil George, is a listed speaker at the Love Your Pre-born Neighbor Conference** —
+which convenes "pastors, ministry leaders, and **legislators**" on abortion. He shares that platform
+with **Bradley Pierce**, president of the **Foundation to Abolish Abortion**, who "has drafted
+legislation in more than 30 states… including **dozens of equal protection bills filed to abolish
+abortion**" and filed a *Dobbs* brief for 21 organisations and 20 state legislators; and with **State
+Rep. Brent Money** (TX HD-2).
+
+**Promoted to qualifying; abolition set to pro_abolition (evidenced).** Also recorded: the church is
+on Scott Brown's **Church and Family Life** network, George home-educates ten children, and the
+leadership page is headed by **Colossians 1:15-18** — "whether thrones or dominions or rulers or
+authorities" — chosen deliberately.
+
+### A second correction from the same cause
+
+**Christ Church Denver** had been recorded *unreadable*. **The URL needed a `www`.** Once fetched, it
+is one of the plainest statements of the thesis on file: "**Jesus is winning and the world is being
+renewed with Christ as King**… **we are called to build it. We do not sit idly but instead actively
+work towards the growth of God's kingdom here and now.** Our work on this earth matters." Promoted.
+
+**An unreachable site is a fact about the fetch, not about the church.**
+
+### Standard completed on the rest, with two data corrections
+
+- **Reformation Presbyterian, Sheboygan** — the leadership may be wrong. **Rev. Todd Ruddell pastors
+  Christ Covenant RPC**, a different congregation; he appears here as a **conference speaker** (April
+  2024). Flagged `denom_ambiguous`. His April 2020 piece **"A Testimony to our Times"** is dated to
+  the first weeks of the COVID closures and may bear on the civil magistrate — logged as an open lead.
+- **Christ the King, Shelby MI** — Jeff Swanson is listed elsewhere as pastor at **New Era, MI**, and
+  separately as a speaker at Tri-City Covenant. Worth confirming which pulpit he holds.
+- **King's Chapel Brooklyn**, **Christ Covenant Chicago** (Jon Herr, trained under Gregg Strawbridge,
+  RTS), **Christ Church Morgantown** (Jared McNabb, M.Div. Westminster Philadelphia, has taught at a
+  classical school) — searched against every marker, nothing found. Classifications stand, now on a
+  completed search rather than a site read.
+
+McNabb's classical-school teaching is noted but **not** treated as qualifying: teaching at one is a
+personal vocation, where Tri-City Covenant was promoted because **the church runs** a two-campus
+academy. That distinction is the whole difference between corporate and individual action.
+
+### Two new leads queued
+
+The **Love Your Pre-born Neighbor Conference speaker list** is a high-yield roster of abolitionist
+pastors tied to the Texas legislative network. **Church and Family Life (NCFIC)** is worth
+cross-referencing wholesale — family-integrated churches correlate with the patriarchy marker.
+
+**Qualifying: 107 → 109.**
+
+**Standing lesson, recorded because it will recur: the church website is the weakest of the four
+sources the standard requires, and it is the one most likely to be read alone.**

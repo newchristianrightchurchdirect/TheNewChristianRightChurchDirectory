@@ -370,3 +370,25 @@ Several are Wix/Squarespace or Cloudflare-fronted; retry with a longer wait, or 
 page and sermon archive instead. **#38 Trinity Presbyterian Birmingham was behind a browser check too
 and turned out to be one of the strongest churches in the directory** — an unreachable site is not
 evidence of anything.
+
+## Love Your Pre-born Neighbor Conference — speaker list (found 2026-08-05)
+
+`loveyourprebornneighborconference.com/speakers/` convenes "pastors, ministry leaders, and
+**legislators**" on abortion. Its speaker list is a **high-yield roster of abolitionist pastors** and
+is how Grace Life Church of Dallas was found to have been misclassified.
+
+Confirmed on the platform: **Bradley Pierce** (president, Foundation to Abolish Abortion + Abolish
+Abortion Texas — drafted dozens of equal-protection bills, filed a *Dobbs* brief for 21 orgs and 20
+legislators), **State Rep. Brent Money** (TX HD-2), **Phil George** (Grace Life Dallas), **Rick
+Prettyman** (Christ Community Church, since 2008 — also works against sex-trafficking), and
+**Threesa** of Caddo Mills, TX (clinic ministry).
+
+**Mine the full list**: every pastor on it is a candidate, and the ones not yet in the directory are
+the most valuable additions available. Note also that the conference is a **Texas legislative**
+network — pair it with the FAA state pages already in this queue.
+
+## Church and Family Life / NCFIC network (found 2026-08-05)
+
+Grace Life Dallas is listed on `churchandfamilylife.com` — Scott Brown's family-integrated church
+network. That network's directory is worth cross-referencing wholesale: family-integrated churches
+correlate with the patriarchy marker and often with homeschool/classical education.
