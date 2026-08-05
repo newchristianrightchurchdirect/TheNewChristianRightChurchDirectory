@@ -1712,3 +1712,54 @@ and in literature." One in 128.
 **That number is the real result of this campaign.** A signature on an equal-protection statement is
 a genuine, formal, attributable act — and it predicts almost nothing about whether a congregation is
 transformationalist in the sense this directory exists to map.
+
+## 2026-08-04 — Churches in denominations that ordain women marked as not qualifying (25)
+
+Dustin's call: churches that allow women in the pastoral office should not qualify. **Marked, not
+deleted** — the research survives and the directory keeps recording what was examined.
+
+### The request could not be run as stated, and the reason is worth recording
+
+**The directory has never had an "egalitarian" value.** `genderStance` holds only `unknown` (2,250),
+`complementarian` (1,988) and `patriarchal` (43). So "churches that allow women leadership" was not a
+queryable category, and had to be reconstructed. Two reconstructions were available and they differ
+by 25×:
+
+- **Evidenced practice — 1 church.** Only West Point Family Worship Center, co-pastored by Aaron and
+  Sara Trimble, has any evidence of a woman actually holding office. (A second regex hit, Salem
+  Presbyterian NC, was a **false positive** — its "Co-Pastors" are two men.)
+- **Denominational permission — 25 churches.** Chosen.
+
+An error in my own first query is worth logging too: matching `'RCA'` as a substring caught **PRCA**
+— the Protestant Reformed Churches in America, which restrict office to men and are the *opposite*
+of permissive — inflating the count from 25 to 50. Fixed by matching denominations exactly. **Same
+class of bug as the "Missions Pastor" import and the Yorba Linda/Redding state-only match.**
+
+### The flag records the denomination, and five churches contradict it
+
+Bodies covered: **Converge** (8), **disaffiliated Methodist** (8), **Global Methodist** (2),
+**Evangelical Covenant** (2), **EPC** (1), **C&MA** (1), **Wesleyan** (1), **SBC/Converge** (1).
+
+**Five of the twenty-five are recorded complementarian on their own evidence** — the flag marks the
+affiliation, not the practice, and each of those records says so in terms rather than letting the
+mark imply otherwise.
+
+**The starkest is #15 Bethlehem Baptist, Minneapolis.** It is Converge-affiliated, and it is one of
+the most emphatically complementarian congregations in America: its own position is that "God raises
+up a few qualified **men** to lead in local churches, with **only males serving as elders**," and
+**John Piper** — senior pastor there for 33 years — **co-founded the Council on Biblical Manhood and
+Womanhood** with Wayne Grudem, the body that produced the Danvers Statement. It had been sitting at
+`genderStance = unknown`, which combined with the new flag was the most misleading pair of values in
+the batch; it is now recorded complementarian with the contradiction stated explicitly.
+
+The others: The Well Hastings (**SBC**-aligned, and the BF&M restricts the office to men), Berkley
+Community, Faith Baptist Kentwood, Calvary Webberville.
+
+### Shipped
+
+New non-held flag **`womens_ordination`** — non-held deliberately, so these churches stay listed
+rather than being hidden. Rendered **on the public church page**, not just in the admin dashboard,
+since a mark nobody can see is not a mark; where the congregation's own practice contradicts its
+denomination, the page says so in the same block. Verified rendering against both cases.
+
+Qualifying is unchanged at **289** — none of the twenty-five had qualified.

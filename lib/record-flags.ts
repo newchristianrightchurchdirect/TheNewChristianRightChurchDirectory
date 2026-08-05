@@ -29,6 +29,8 @@ export const RECORD_FLAGS: FlagDef[] = [
     description: 'A recorded stance rests on thin evidence.' },
   { key: 'signature_only', label: 'Signature only', held: false,
     description: 'Abolition is evidenced by the pastor signing a public equal-protection statement, but the congregation has not otherwise been researched — denomination, eschatology and the remaining markers are unset and the church has not been read on its own terms.' },
+  { key: 'womens_ordination', label: 'Denomination ordains women', held: false,
+    description: 'The congregation belongs to a body that ordains women or leaves the question to the local church. This records the DENOMINATION’S position, not necessarily this congregation’s — several churches carrying this flag are themselves complementarian, and their records say so.' },
   { key: 'website_removed', label: 'Website gone', held: false,
     description: 'Site no longer resolves; contact details may be stale.' },
   { key: 'pastor_vacant', label: 'Pulpit vacant', held: false, description: 'No settled pastor.' },

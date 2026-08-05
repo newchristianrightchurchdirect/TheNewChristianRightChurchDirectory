@@ -25,6 +25,8 @@ interface Church {
   notablePeople: string | null
   theologicalNotes: string | null
   description: string | null
+  recordFlag: string | null
+  genderStance: string | null
   upvotes: number
 }
 
@@ -92,6 +94,27 @@ export default function ChurchDetail({ church }: { church: Church }) {
 
       <article className="page-wrap" style={{ maxWidth: 820 }}>
         <Link href="/" className="back-link" style={{ marginBottom: 24, marginTop: 0 }}>&larr; Back to Directory</Link>
+
+        {/* The specific disqualifying reason, where one has been recorded. Shown above the general
+            caveat because it is more informative than "does not meet the standard" alone. */}
+        {church.recordFlag?.includes('womens_ordination') && (
+          <div className="listing-caveat">
+            <strong>Does not meet the standard: denomination ordains women.</strong> This
+            congregation belongs to a body that ordains women to the pastoral office, or leaves
+            the question to the local church. This directory holds that the office is restricted
+            to men.
+            {(church.genderStance === 'complementarian' || church.genderStance === 'patriarchal') && (
+              <>
+                {' '}
+                <em>
+                  Note that this congregation&rsquo;s own practice is {church.genderStance} — it
+                  restricts the pastoral office to men. The mark records its denomination&rsquo;s
+                  position, not its own.
+                </em>
+              </>
+            )}
+          </div>
+        )}
 
         {church.culturalEngagement !== 'transformationalist' && (
           <div className="listing-caveat">
