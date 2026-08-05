@@ -459,3 +459,69 @@ Strawbridge — now resolved to Kasey Horvath).
 
 **A pastor field is a claim with a date on it.** Worth a systematic sweep of `leadership` across the
 whole directory, prioritising rows whose `lastResearchedAt` predates 2026.
+
+---
+
+## THE THEONOMY CHURCH DIRECTORY — added 2026-08-05, highest-yield source found to date
+
+`https://theonomyresources.blogspot.com/2011/02/church-directory.html`
+
+**Its listing criterion is this directory's qualifying definition, almost word for word.** Churches
+are listed if they "hold to the biblical gospel, as well as **Christ's Lordship in all areas of life
+(family, church, and state)**." Every other source worked so far indexes a *pastor's eschatology* or
+a *single signature*; this one indexes the thing actually being measured.
+
+**Caveat that must be applied every time: the list is from 2011.** Its leadership attributions are
+fifteen years old and this session watched a 2011-era attribution be wrong or stale more often than
+right — Joe Morecraft, listed here at Chalcedon, left that church in 2015. **Use it as a list of
+congregations, never as a list of pastors.**
+
+### The 26 churches it names
+
+| Church | Denom | City | Listed pastor (2011 — verify) |
+|---|---|---|---|
+| Branch of Hope | OPC | Torrance CA | Paul Viggiano |
+| **Reformed Heritage Church** | — | Los Gatos CA | Gary Wagner |
+| Christ Presbyterian | RPCGA | Lakeland FL | **Kenneth G. Talbot** |
+| **Chalcedon Presbyterian** | RPCUS | Cumming GA | Joe Morecraft |
+| Covenant Presbyterian | RPCUS | Buford GA | Chris Strevel |
+| Providence Reformed Presbyterian | RPCUS | Covington GA | Wayne Rogers |
+| Zion Presbyterian | RPCUS | Macon GA | Jess Stanfield |
+| Dominion Covenant Church | CPC | Omaha NE | **Phillip G. Kayser** |
+| Word and Spirit Covenant Church | Congregational | Omaha NE | Robert Fugate |
+| Covenant Reformed Presbyterian Mission | RPCUS | McLeansville NC | **John M. Otis** |
+| Hopewell Church | dual-confessional | Ashland OH | Matt Timmons |
+| Knox Orthodox Presbyterian | OPC | Mount Vernon OH | — |
+| Immanuel Free Reformed | Reformed Baptist | Stevens PA | **William O. Einwechter** |
+| Independence Reformed Bible Church | Reformed Baptist | Denver PA | Joel Saint |
+| Living Hope Fellowship | RPCGA | Greer SC | **Kenneth L. Gentry Jr.**, Steven R. Hill |
+| Providence Presbyterian | OPC | Aiken SC | Kevin L. Medcalf |
+| Christ Reformed Presbyterian Mission | RPCUS | Paris TN | Paul McDade |
+| Christ the King Church | Reformed Baptist | Centreville TN | Jonathan Tucker, **Geoffrey Botkin** |
+| Crown and Covenant | CPC | Conroe TX | Peter Allison |
+| Westminster Presbyterian Mission | RPCUS | Corpus Christi TX | Christopher C. Marks |
+| **Reformed Bible Church** | Independent Presb. | Appomattox VA | Paul Michael Raymond |
+| Providence Reformed Presbyterian | RPCUS | Wytheville VA | Jeff Black |
+| Trinity Presbyterian | RPCUS | Tazewell VA | Henry Johnson |
+| Westminster Presbyterian of Waupaca Cty | WPCUS | Manawa WI | **Brian Schwertley** |
+| Iglesia del Calcedon | RPCUS | Quevedo, Ecuador | William Far |
+
+### Why this is worth working first
+
+- **Two are already qualifiers in this directory** — Chalcedon Presbyterian (promoted 2026-08-05 off
+  this cohort) and Reformed Bible Church, Appomattox (Paul Michael Raymond, upgraded to `theonomic`
+  earlier the same day). The list has a proven hit rate on rows this project reached independently.
+- **One is sitting unresearched in the demoted cohort right now** — Reformed Heritage Church, Los
+  Gatos (#3258), which had no pastor at all until this list supplied one.
+- **The named men are the movement's theological spine**: Kenneth Gentry wrote *He Shall Have
+  Dominion*; Kenneth Talbot heads Whitefield Theological Seminary (whose graduates keep surfacing on
+  these rows); Einwechter, Kayser, Otis, Schwertley and Botkin are each independently significant.
+- **It surfaces bodies this directory barely covers** — RPCUS, WPCUS, CPC and the Congregational
+  theonomists. The RPCUS sweep already queued below should start from this table.
+
+**To do:**
+- Cross-reference all 26 against the directory; add what is missing, promote what is already there
+  and verifiable.
+- Confirm every pastor against the church itself before recording — 2011.
+- Chase the denominational tails: RPCUS, RPCGA (founded 1991 out of the RPCUS), WPCUS, CPC.
+- Look for a maintained successor to this list; a 2011 blog directory implies a living network.

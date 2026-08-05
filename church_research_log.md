@@ -2353,3 +2353,357 @@ the highest-yield source found — a man who travels to speak has already commit
 Covenant Presbyterian Buford was blank, is **OPC** · **Christ Church of Radford** is recorded CREC but
 Mathenia's affiliations are consistently **Reformed Baptist / HeartCry** — flagged, not changed ·
 Grace Church PCA Fremont's pastor arrived **August 2024**, so its record predates him.
+
+## 2026-08-05 — The qualifying queue is CLOSED. 23 rows, and the pattern reversed.
+
+The last 20 unverified qualifying rows were taken to the full standard, and 3 more were found hiding
+behind a bug in the query that defines the queue. **Qualifying falls 108 → 93.**
+
+| | |
+|---|---|
+| confirmed, still qualifying | **9** |
+| reclassified `single_issue` | **10** |
+| demoted to `unknown` | **4** |
+
+### The prediction in the handoff was wrong, and it is worth saying so plainly
+
+The note left for this session read: *"The pattern so far, without exception: a named pastor with
+public output confirms — usually on something stronger than the record showed. Not one row has been
+demoted on contrary evidence; the failures are all absence."*
+
+**That held for the big rows and broke completely on the small ones.** 14 of 23 moved. The reason is
+that the remaining queue was sorted thinnest-first, so this session got the entire Abolitionists
+Rising cohort at once — rows whose notes concede the classification was *"derived… no new research"* —
+while the earlier batches got the documented ones. **The order of the queue was producing the
+pattern.** A sample drawn from the easy end of a list is not evidence about the list.
+
+### The query that defines the queue had been hiding rows
+
+`prisma/_q.ts` marks a row researched if its note matches
+`/FULL standard applied|individually verified|read individually|full review to standard/i`.
+
+Three rows carried the sentence **"Israel stance *not* individually verified"** — and the regex
+matched *"individually verified"* inside it. **The phrase admitting the row was unresearched is what
+marked it researched.** All three sat on the qualifying list, invisible, through this session and the
+last; the "92 rows" figure everyone has been working from should have been 95.
+
+Fixed by stripping negated forms before testing. **Any future queue query needs the same guard** —
+this directory's notes are written in prose that says what was *not* done, and a naive substring test
+will read those admissions backwards.
+
+### Two websites belonged to churches in other states
+
+- **#4049 Morning Star Missionary Baptist (Keota OK)** pointed at `morningstarbaptist.org` — Morning
+  Star Missionary Baptist of **Grand Prairie, Texas**.
+- **#4061 Shelby Maranatha Bible Baptist (Shelby OH)** pointed at `mbcshelby.org` — Maranatha Baptist
+  of **Shelby, NORTH CAROLINA**. The AR list carries *no URL at all* for the Ohio church, so the
+  website was never sourced; it was inferred from the name.
+- **#4062 Redemption Church (Jacksonville NC)** pointed at `redemptionjax.church` — Redemption Church
+  of **Jacksonville, FLORIDA**. `jax` is the standard abbreviation for Jacksonville FL. Its pastor
+  field named a man who has never served there. The row's own note said *"VERIFY: multiple Redemption
+  Church congregations"* — it was right, and both guesses were wrong.
+
+**A website that was never read is not a source, it is a guess with a URL on it.** Three of twenty.
+
+### Four more stale-leadership findings, one of them six weeks old
+
+- **Geyer Springs First Baptist, Little Rock** — David Hughey **stepped down as lead pastor in late
+  June 2026** citing his divorce (decree filed 19 June). He remains as director of pastoral care. The
+  abolition record on that row belongs to a man no longer in the pulpit.
+- **Pole Creek Baptist, Candler NC** — Ben Heise is gone and the church is **advertising the
+  vacancy**. His blog was the entire political case for the row.
+- **Covenant Reformed Church of Sacramento** — **pulpit vacant since December 2024**; Frank Walker
+  retired and is Pastor Emeritus.
+- **Christ Church Lakeland** — Wedgeworth left for South Bend in **January 2022** and every directory
+  still lists him here.
+
+### Two rows the 7-31 pass left open are now closed
+
+- **#4173 Christ Covenant Reformed, Billings MT** had no denomination, no website, no pastor and no
+  zip. It is **CREC, Kuyper Presbytery**, at ccrchurch.org, pastored by **Tedd Sutton** since June
+  2022, with four elders named. Its founding elder says the church was formed out of a desire for an
+  **"optimistic eschatology"** — so postmill now stands on the congregation's own words instead of on
+  the discredited directory. Demoted to `unknown` anyway: CREC membership plus an eschatology is not
+  corporate action, and Sutton's **Westminster Seminary California** M.Div. is a two-kingdoms
+  counter-indicator sitting oddly against both.
+- **#3262 Covenant Reformed Church of Sacramento** was listed under the wrong name, the wrong
+  denomination (RPCGA; it is **RCUS**) and a Texas phone number. Postmill withdrawn: the **RCUS Synod
+  has on record that the denomination does not teach "Reconstructionism" or "Theonomy"**. Asserting
+  postmillennialism against a congregation's own confessional body, on a source disproved twice on
+  that very row, is the unearned assertion this directory exists to purge.
+
+### The single_issue line held, including where it hurt
+
+**Grace Fellowship Church, Davenport IA** has an **"Abortion Ministry" series of 54 sermons spanning
+2012–2020**, preached at the clinic — *"A Morning Outside Planned Parenthood"*, *"Conversation with
+Planned Parenthood Student Group"* — plus **138 open-air preaching sermons**. **Tony Miano**, the
+full-time street evangelist behind all of them, moved his family to Davenport in 2016 to join this
+congregation, and his ministry states that *"the abolition of abortion is the only logical and
+biblical path to putting an end to the murder of unborn children."*
+
+**And it is still `single_issue`,** because the full series index was read and there is no series on
+civil government, politics, law, Israel, patriarchy or eschatology. This is the strongest
+single-issue case in the directory and it is the one that proves the category is doing real work: the
+test is breadth, not intensity. **Calvary Chapel Saint Paul** went the same way — it carries the
+Abolitionist Society of St. Paul as one of its own ministries, which is genuine corporate action, and
+is dispensational and Zionist besides.
+
+*(Recorded, not acted on: multiple public sources allege cult-like exit-control at Grace Fellowship
+Davenport. The main site is anonymous and undated. Not verified, not the basis of any stance, and
+noted only so the next pass does not rediscover it cold.)*
+
+### A stance was corrected against its own record
+
+**#4031 First Baptist Edmond** carried `pro_abolition` because **Blake Gideon** co-authored the 2021
+SBC resolution *On Abolishing Abortion*. He also **signed an open letter opposing Oklahoma SB 13, the
+Abolition of Abortion Act** — as Senior Pastor of this church and President of the BGCO — arguing it
+would be struck down and that it *"unnecessarily and purposely repeals hard-earned pro-life laws,"*
+preferring *"proven and plausible life-saving policies."*
+
+**Opposing an abolition bill to preserve incremental law is the incrementalist position by this
+directory's own definition.** Corrected to `incrementalist`. He is not simply an opponent — he
+reportedly moved to amendment-strengthening later — but the signed letter is the harder evidence.
+
+**Seven of the nine co-authors of the 2021 SBC resolution are now in this directory**, and the three
+added here all resolve to `single_issue`.
+
+### Christ Church Moscow contradicted itself, and the field was right
+
+The notes claimed *"No abortion-abolition position located — abolitionStance left unknown"* and scored
+the church 5/6 on that basis. The field read `incrementalist`. **Wilson has published the answer at
+length:** *"While I share the goal of abolishing human abortion, I do not like calling myself an
+abolitionist. I like to call it something more like smashmouth incrementalism"* — there is a book by
+that title. Free The States has asked in print *"How Is Doug Wilson Not an Abolitionist?"*
+
+So the marker was never missing. **It was answered in the negative, which is a more useful fact than
+an absence**, and the note had been reporting a gap that the data had already filled.
+
+### Confirmations, and one that arrived this year
+
+**Grace Reformed Baptist, Elgin OK** is now the clearest proof of *breadth* on file, not just of
+abolition: Deevers's **eight-bill slate of January 2025** covers abortion, child pornography, drag
+performances before children, covenant marriage, no-fault divorce, adoption, child tax credits and
+health-share ministries. Eight bills across seven areas of law, from the man in the pulpit.
+
+**Apologia Church** gained a 2026 development: Illinois Republican senator **Neil Anderson**
+introduced a fetal-personhood bill promoted by End Abortion Now, appeared at a press conference with
+Durbin — and **lost his leadership positions in the Illinois Senate Republican caucus over it.** The
+thesis running in a blue state, at a real political cost, borne by the legislator rather than the
+pastor.
+
+Also confirmed: **Christ the King, Charlotte MI** (christianNationalism raised to `affirm` — McAtee
+"has unapologetically argued that nationalism is natural, taught in scripture, and affirmed
+historically by the church"; his **Iron Rhetoric** podcast is commentary on the public square);
+**St. David's Reformed, Tomball TX** — renamed, re-placed and re-denominated, and its own mission
+statement is postmillennial in the church's words: *"we look forward to the day when the knowledge of
+the Lord will cover the earth… every thought will be brought captive to Christ as we live faithfully
+in our families, communities, and nation"*; **Ekklesia of Grand Blanc**; **Reformation Covenant** and
+**Holy Trinity Concord**, whose named gaps were finally read.
+
+### The two education rows: gaps closed, answers negative
+
+**Reformation Covenant's** SermonAudio archive had been unreadable (503) and was flagged as *"the
+likeliest place further evidence sits."* It has now been read: 257 sermons, and **not one series**
+touches civil government, politics, abortion, nationalism, theonomy or eschatology. **Holy Trinity's**
+podcast is 113 episodes of exhortation and Bible study. Both keep `transformationalist` **solely on
+the owner's 7-31 ruling that education is movement-building** — Cogbill's Reformation Bible Institute,
+Phillips's work at CIRCE (he is its **Director of Training**, more than the record said).
+
+**These are the two thinnest qualifying rows left.** They rest on an institution and a ruling, with no
+deed in the civil sphere and nothing on any marker. `verify_stance` retained on both. If that ruling
+is ever revisited, start here.
+
+### Where the directory stands
+
+| culturalEngagement | n |
+|---|---|
+| `transformationalist` | **93** |
+| `single_issue` | 134 |
+| `quietist` | 28 |
+| `limited_mission` | 16 |
+| `unknown` | 4,010 |
+
+**Every qualifying row in the directory now carries individual research.** That has never been true
+before.
+
+## 2026-08-05 — Allegations re-examined and KEPT. Then the demoted cohort opened, and it opened well.
+
+### The Grace Fellowship allegations are not unfounded, and my note about them was wrong
+
+Dustin's instruction was to drop the abuse allegations recorded on **#4057 Grace Fellowship,
+Davenport IA** *if they were unfounded*. Tested, the condition does not hold — and the note that
+prompted the instruction was **my own mischaracterisation**.
+
+The note had called the allegations anonymous, with "no dates, named accusers or documented
+incidents." **That is true of exactly one of the four sources** — `exposegracefellowshipqc.com` — and
+I generalised it to all of them. What is actually there:
+
+- **Kevin Jandt**, a named former member of nine years, excommunicated in 2018, writing under his own
+  name at uncommonfaith.org, with sermon audio, direct quotations from meetings, and corroborating
+  testimony from other named former members across roughly a decade.
+- **Striving For Eternity** (Andrew Rappaport) published on it and hosted Jandt on *Apologetics Live*.
+- **Biblical Church Evangelism Conference** issued a dated, signed *"Withdrawal of Support & Warning
+  of Dangerous Practice & Doctrine"* in August 2016, with follow-ups in September 2016 and February
+  2020.
+
+The substance: that Mike Reid structured his "shepherding" around **regularly scheduled private
+meetings alone with the married women, single women and teenage girls** of the congregation; that he
+teaches a "boast in Christ" doctrine under which genuine believers cannot fall into adultery; that he
+told a congregant rape within marriage is not possible.
+
+**Status: attributed and corroborated ALLEGATIONS, not adjudicated.** No lawsuit, criminal charge or
+denominational proceeding was found — and this is an independent church with no presbytery to have
+ruled on it. The note now says exactly that.
+
+**The lesson is the one this project keeps relearning in the other direction.** A wrong dismissal
+leaves no trace in the record. I had written a summary dismissal of four sources on the strength of
+the weakest one, and it very nearly removed the whole thing.
+
+### The demoted cohort is 161, not 122 — and the first read produced a major promotion
+
+Re-counted properly: **161 rows sit at `unknown` sourced to postmillennialworldview.com and have
+never been individually researched.** 12 have both a pastor and a website, 33 have a site only, and
+101 have a name attached to a pastor who may or may not still be there.
+
+**#3274 Chalcedon Presbyterian Church, Cumming GA — PROMOTED.** It sat at `unknown` with denomination
+"Presbyterian", no pastor and no address. It is:
+
+- **the founding congregation of the RPCUS.** In 1983 this church voted to leave the PCA, and the
+  Reformed Presbyterian Church in the United States — a Christian Reconstructionist body — came into
+  being out of that vote, because the existing denominations "had not yet settled on how to handle
+  theonomy."
+- **a church that required its elders to hold both theonomy AND postmillennialism.**
+
+**That is the transformationalist thesis adopted as church law.** Nothing else in this directory is
+bound that tightly — every other qualifier rests on what its pastor does, not on what its officers
+must subscribe. Founded 1980 by **Joe Morecraft III**, who pastored until 2015, left under judicial
+process to RPC-Hanover Presbytery, and founded **Heritage Presbyterian** *also in Cumming* — which
+finally explains the standing note that Heritage is Hanover rather than RPCUS. Current pastor **Jess
+Stanfield**, RPCUS teaching elder since 2005, who preaches *"John Knox: A Theonomist."*
+
+`theonomy` → `theonomic`, `culturalEngagement` → `transformationalist`, denomination → RPCUS.
+
+### The best source this project has found
+
+Chalcedon turned up in a **theonomy church directory** whose listing criterion is *"Christ's Lordship
+in all areas of life (**family, church, and state**)"* — this directory's own qualifying definition,
+almost word for word. Every other source worked so far indexes a pastor's eschatology or a single
+signature. **This one indexes the thing actually being measured.**
+
+26 churches, with pastors: Kenneth **Gentry** (*He Shall Have Dominion*), Kenneth **Talbot**
+(Whitefield Theological Seminary), **Einwechter**, **Kayser**, **Otis**, **Schwertley**, **Botkin**.
+Two are already qualifiers here — Chalcedon, and Paul Michael Raymond's Reformed Bible Church in
+Appomattox, upgraded to `theonomic` earlier the same day. **One is sitting in the demoted cohort
+right now**: Reformed Heritage Church, Los Gatos (#3258), which had no pastor until this list gave it
+one. Full table filed in the deep-dive queue.
+
+**It is from 2011, so its pastors are fifteen years stale** — Morecraft is listed at a church he left
+in 2015. Use it as a list of congregations, never of pastors.
+
+### Four more rows read; four more stale or missing attributions
+
+- **#31 Phoenix Reformed Baptist** — **James White's eldership here ran 1998–2018.** The row was
+  resting on a nationally known name eight years out of date. He is also reported to have moved to
+  postmillennialism around 2021, which is very likely *why* the postmill directory listed this
+  church: **it indexed the man, not the congregation, and the man had already left.** That single
+  observation probably explains a good share of the remaining 160.
+- **#34 Brainerd Hills** — pastor found where the row had none: **Vaughn R. Hamilton**, RPCGA
+  Westminster Presbytery.
+- **#3273 Atlanta Presbyterian Fellowship** — pastor found: **Dr. Frank J. Smith**, RPCNA. His
+  public work is *ecclesiastical* journalism, inside the church world rather than aimed at the civil
+  order. Left `unknown`.
+- **#33 Christ Covenant RPC, Wylie TX** — history established first-hand (RPCGA, New Geneva
+  Presbytery, planted 2006). Denominational lineage runs back to the RPCUS, but **lineage is not a
+  stance**; nothing on any marker. Left `unknown`.
+
+**1 promoted, 5 enriched, 160 to go.**
+
+## 2026-08-05 — Demoted cohort worked to 125 remaining. 36 rows read, 3 promoted.
+
+Continued straight through the postmillennial-directory cohort. **161 → 125.**
+
+| | |
+|---|---|
+| rows read to the full standard | **36** |
+| promoted to `transformationalist` | **3** |
+| left `unknown` with negatives recorded | 33 |
+| websites found to be wrong or dead | **7** |
+| pastors identified where the row had none | **11** |
+
+### The two promotions after Chalcedon
+
+**#979 Community Presbyterian, Louisville KY.** The church states on its own about page that its
+purpose includes addressing **"public and political issues"** through God's Word, expressly refusing
+to limit faith to personal matters; that **"Christ's Lordship is comprehensive and He rules over
+every square inch of creation"**; and that it looks for the gospel to transform **"our lives as well
+as society and culture."** Its mission is *"Rooted in Christ to Be and Build the City of God"*, framed
+as discipling nations. That is the qualifier stated corporately, in the congregation's own words —
+the same footing on which St. David's Reformed was confirmed. No deed is attached yet, so
+`verify_stance` is retained.
+
+**#1507 Christ the King Presbyterian, Norman OK.** Of 42 series in its archive, **"Models of
+Dominion" runs to 59 sermons** — the largest the church has preached — alongside "Spiritual
+Deceptions of Our Age" (21). And a ruling elder states on the church's own leadership page that the
+goal is for the body to work as a body **"to see the culture at large changed."** A congregation that
+gives fifty-nine sermons to dominion is running a doctrinal programme, not touching a topic. Norman
+is also home to Abolitionists Rising and Areopagus (#4112) — worth checking for contact.
+
+### The failure mode that explains this cohort
+
+**#31 Phoenix Reformed Baptist** was listed because **James White** is postmillennial. **His eldership
+there ran 1998–2018.** **#440 Christ Church Presbyterian, Irvine** was listed for Michael Preciado,
+whose tenure ran **2005–2019**; he has pastored an OPC congregation in Dallas since 2024.
+
+**The source indexes the pastor, not the congregation — so its listings outlive the men they are
+based on.** Assume it on every remaining row: establish whether the listed pastor is still there
+*before* crediting the church with his doctrine. Where the man is still in post (Hope Baptist
+Springfield, Joshua Jenkins) the attribution is at least current, though still third-party.
+
+### Seven wrong or dead websites in thirty-six rows
+
+- **#2068 Westminster Presbyterian, Vancouver WA** — `solochristo.org` now **301s to First
+  Presbyterian Church of Battle Ground**. Both are in Clark County and Battle Ground's tagline is
+  *"All of Christ. For All of Life. For Clark County"* — almost certainly the same body renamed and
+  relocated. **Not merged here**, because "almost certainly" is not evidence.
+- **#2675 Hope Baptist Springfield** 404s · **#2451 Covenant RBC Tullahoma** returns an empty body
+  (it is at crbctullahoma.org) · **#3253 Valley Fellowship Wasilla** 403s (it is at
+  valleyfellowshipak.com, and is named Valley *Reformed* Fellowship) · **#3255 Heber Springs** and
+  **#3295 Mint Hill** no longer resolve at all.
+- **#3255 Covenant Reformed, Heber Springs AR** is the murkiest: what stands on the ground now is
+  **Covenant *Anglican* Church** (Reformed Episcopal, Rev. Bradley Sneed). Dissolved, converted, or
+  simply offline — no way to choose from here, so flagged, not decided.
+
+Add these to the three found earlier today and it is **ten wrong websites in fifty-six rows read.**
+
+### Two rows where the record was simply wrong about what the church is
+
+- **#3252 Covenant Bible Church, Palmer AK** — recorded non-denominational with no pastor. It is
+  **CREC**, with two: Jack E. Phelps and John McNeely.
+- **#2081 Trinity Presbyterian, Waukesha WI** — recorded PCA. It is **CREC**. Its mission is *"All of
+  Christ, for all of Life, for all of Waukesha"* — **the same formula as Battle Ground above.** That
+  phrase is doing the work "every square inch" does and should be searched as a marker in its own
+  right.
+
+### One row that may not be a church at all
+
+**#3266 L2 Church, Denver** — "L2" is *Life to the Second Power*, and its published work is
+counselling, coaching and services **inside the Denver County Jail** to reduce recidivism. That is a
+prison ministry, not evidently a congregation with members, officers and sacraments. Its women's
+service is led by **Jennifer Adams**, which is separately a genderStance question under this
+directory's rules. **Both are the owner's calls and neither was acted on** — flagged
+`denom_ambiguous` + `verify_stance`.
+
+### A pattern worth naming: family-integrated churches
+
+**Three of eighteen** rows in the last batch describe themselves as *family-integrated* — The Family
+of Grace (West Blocton AL), Grace Reformed Family Church (Queen Creek AZ), Hope Baptist (Springfield
+MO) — and a fourth, Valley Reformed Fellowship, uses the term too. That is **NCFIC / Church and
+Family Life vocabulary**, already an open lead with six independent appearances. The postmillennial
+directory and the NCFIC network appear to overlap heavily. Work them together.
+
+### Where the directory stands
+
+`transformationalist` **96** · `single_issue` 134 · `quietist` 28 · `limited_mission` 16 ·
+`unknown` 4,007.
+
+**125 rows of the demoted cohort remain.**
