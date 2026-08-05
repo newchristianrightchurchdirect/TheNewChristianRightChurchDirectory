@@ -392,3 +392,19 @@ network — pair it with the FAA state pages already in this queue.
 Grace Life Dallas is listed on `churchandfamilylife.com` — Scott Brown's family-integrated church
 network. That network's directory is worth cross-referencing wholesale: family-integrated churches
 correlate with the patriarchy marker and often with homeschool/classical education.
+
+## The public library as a site of local action (noticed 2026-08-05)
+
+Two pastors independently surfaced during the qualifying-list research for confronting their **town
+library**:
+
+- **Dr. Sacha Walicord** (Harvest Church PCA, Orange City IA) — with other local pastors, publicly
+  challenged the Orange City public library over books promoting or normalising transgenderism and
+  homosexuality. Reported as "Orange City Pastors take a Public Biblical Stand."
+- **Paul Thompson** (Eastside Baptist, Twin Falls ID) — petitioned the library board to remove LGBTQ
+  displays at the entrance to the children's section.
+
+**Worth tracking as a marker in its own right.** Alongside the abortion facility and the city
+council, the public library is emerging as a characteristic site where this movement acts locally —
+and it is the kind of action that leaves only local-press traces, so it is invisible to any research
+method that stops at the church website.
