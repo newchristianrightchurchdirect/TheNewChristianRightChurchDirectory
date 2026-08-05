@@ -2087,3 +2087,54 @@ fluke — **the base rate of what reading only the website loses.**
 Negatives recorded explicitly in every case, with what was checked and what remains unread.
 
 **Qualifying: 109 → 110.**
+
+## 2026-08-05 — "Have all the old transformationalist churches been researched?" No. 95 of 110.
+
+Honest audit of the qualifying list itself:
+
+| | of 110 |
+|---|---|
+| Explicitly "FULL standard applied" | **5** |
+| Individually read/verified, earlier form | 8 |
+| "Pastor-dug" — partial standard | 2 |
+| **No evidence of individual research** | **95** |
+
+**62 were last touched on 24–25 June** — the old bulk work, not research. **They survived the audit
+because they were not in one of the four bulk-inference cohorts, which is a different thing from
+having been read.**
+
+### The 95 are not uniform
+
+**Group A — ~26 rows at 285–450 characters.** The Abolitionists Rising cohort, whose notes concede in
+terms that the classification was "derived… **no new research**". The thinnest qualifying rows in the
+directory and the likeliest to be wrong **in either direction**.
+
+**Group B — ~69 rows at 600–2,400 characters.** Christ Church Moscow, Apologia Mesa, Holy Trinity
+Concord, Reformation Covenant, Grace Reformed Elgin (Deevers, SB 456), Bethel Baptist Owasso (Bill
+Ascol), By the Word (Jon Speed), Ekklesia Muskogee. Substantial documented evidence already; they
+simply never got the standard's label.
+
+### First batch of Group A, and it ran both ways
+
+**#4051 Vision Community Church, Marsing ID — CONFIRMED, and now on first-hand evidence.** Pastor
+**Benje Graves testified before an Idaho legislative committee** during hearings on abortion-funding
+legislation (HB 220), telling it that **"God is offended by compromise."** A pastor in the statehouse
+rejecting compromise on abortion — the abolitionist position in the abolitionist idiom. He has also
+publicly endorsed candidates. Basis upgraded derived → evidenced.
+
+**#4044 Missio Dei Church, Glassboro NJ — DEMOTED.** Substantial public output — podcast on two
+platforms, Instagram, Facebook — and its three stated core focuses are all ecclesial: "growing closer
+to Jesus together as a church, preaching the Bible faithfully as often as we gather, and loving and
+serving our local community." **Nothing across any of it touches abortion or any of the six markers.**
+Reclassified as unresearched rather than limited_mission, because the pastor is named only as
+"Justin" and could not be searched — and **both of today's false negatives turned on the pastor, not
+the church.**
+
+**Three left qualifying with the gap stated** — Dillingham Bible Fellowship (Founders + TGC listed),
+First Baptist North Pole (SBC + Founders), Hope Fellowship Gatesville (**listed on Church and Family
+Life, the same NCFIC network that surfaced on Grace Life Dallas**). In each case no first-hand
+evidence was found and the label still rests on the third-party AR listing; all three flagged
+`verify_stance` rather than quietly left looking researched.
+
+**5 of ~26 in Group A done. 1 confirmed, 1 demoted, 3 flagged.** That hit rate — 2 of 5 rows changed
+or qualified — is why the rest need doing.
