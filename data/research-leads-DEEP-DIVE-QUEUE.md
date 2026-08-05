@@ -329,3 +329,20 @@ own evidence. It belongs to **Knox Presbytery** of the CREC. The presbytery's ot
 have not been checked against this directory — a CREC presbytery is a high-yield place to look for
 churches that meet the standard, since the mission language ("make Omaha a Christian town",
 "Christian leadership in… politics") is characteristic of the communion rather than unique to this plant.
+
+## Networks surfaced during the signature_only campaign (2026-08-04)
+
+**Citylight Family** (citylightfamily.org) — an Omaha-area church-planting network: Citylight Omaha,
+Omaha West, Bennington, Greenwood, Kearney, Providence Church, Harbor Church, plus a planting
+residency. Only **Citylight Mosaic** (bilingual, planted 2021, Jacob Richardson) is on file.
+
+**NorthRidge Network** (northridgenetwork.org) — multi-site. The signatory row is the **Peru campus**
+(Daniel Hutchison), not a standalone congregation; the other campuses are not on file. A multi-site
+signature reflects a network's posture as much as one congregation's.
+
+**Midwest Association of Slavic Churches** (midwestslavic.com) + Slavic Midwest Youth — Lincoln
+sustains a substantial Slavic evangelical community (First Slavic Baptist, Slavic Christian Church in
+Raymond). Only **New Breath Church** (Oleksii Barkalov) is on file.
+
+**Sandhills Community Bible Church (Mullen)** — surfaces in connection with the **Berean Fellowship**
+roster. If confirmed, the BFC constitution settles its markers directly. Flagged, not assumed.

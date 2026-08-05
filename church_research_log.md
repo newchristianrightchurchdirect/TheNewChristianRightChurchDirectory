@@ -1650,3 +1650,65 @@ and inferring his office from a list is a second inference the list does not sup
 Flagged, not assumed.
 
 **32 `signature_only` rows remain.**
+
+## 2026-08-04 — signature_only queue CLOSED. 128 churches individually verified.
+
+Final pass: the community/fellowship churches and the non-denominational remainder — the hardest
+group precisely because **most of them belong to no body that binds anything.**
+
+### The restraint is the finding
+
+For roughly half of this last group, gender, sexuality and eschatology were **left unset**. No
+confession, no denominational standard, no published statement — so nothing to record. A church that
+cannot be classified from a signature is recorded as unclassified, and that is the honest answer
+rather than a gap to be filled by pattern-matching from the earlier clusters.
+
+**One case shows why that matters.** **West Point Family Worship Center** is pastored by **Aaron
+Trimble together with his wife Sara**. Every previous cluster in this campaign had defaulted to
+complementarian where a denomination bound it; applying that pattern here would have been plainly
+wrong. Co-pastoring husband-and-wife ministry is not the same thing.
+
+### The roster is not what its stereotype suggests
+
+The Nebraska equal-protection document reads at first glance as a rural white Plains artefact. The
+verification says otherwise. It carries:
+
+- **two historically Black Missionary Baptist congregations** in North Omaha, ten blocks apart
+- a **bilingual church plant** — Citylight Mosaic, 2021
+- a self-described **multi-ethnic** congregation — Sower Church, TGC-listed
+- a church holding **Sunday services in English and Spanish** — Calvary Community, Lincoln
+- a **Slavic, Ukrainian- and Russian-speaking immigrant congregation** — New Breath Church, the last
+  row in the queue
+
+**A directory that classified this roster by its stereotype would have got it wrong.**
+
+### A pattern worth carrying forward: signatures name men, not offices
+
+Four congregations had their leadership overstated by the import, because a signatory list records
+**who signed**, not **who leads**:
+
+| Church | Recorded as | Actually |
+|---|---|---|
+| Zion PCA, Lincoln | "Pastor: David Chambers" | Chambers is **Executive Pastor**; Stu Kerns leads |
+| Grace Bible, Bellevue | "Pastor: Jon McNeel" | McNeel is **Associate Pastor**; Dan Hauge is Senior |
+| Faith Bible, Lincoln | "Pastor: Brad Myers" | Myers is **Teaching Pastor**; Tom Rempel leads |
+| Calvary Community, Lincoln | "Pastors: Sundermann & Davenport" | Sundermann is **Family Life Pastor** |
+
+Plus three rows the parser had named after job titles outright — "Missions Pastor", "Teaching
+Pastor", "Youth Pastor" — and one named after an office, **"President"**, which turned out to be the
+head of a 57-church denomination.
+
+### Campaign totals
+
+**128 churches individually verified. `signature_only` queue: 0.**
+
+Qualifying **289** · single issue **123** · quietist **28** · limited mission **3**.
+
+Of 128 verified, **exactly one** was promoted to qualifying on its own evidence: **Christ Church
+Omaha** (CREC), whose published mission is to "make Omaha a Christian town… through genuine cultural
+engagement that provides Christian leadership in the arts, in business, in education, in politics,
+and in literature." One in 128.
+
+**That number is the real result of this campaign.** A signature on an equal-protection statement is
+a genuine, formal, attributable act — and it predicts almost nothing about whether a congregation is
+transformationalist in the sense this directory exists to map.
