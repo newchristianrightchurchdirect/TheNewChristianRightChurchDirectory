@@ -3941,3 +3941,102 @@ already carry and which does not qualify anything; the qualifying marker is *pat
 concerns sexuality; Dallas is an intra-evangelical fight over critical race theory. **They enrich a
 row; they do not rank it.** All 704 additions are `not_researched` with no stance set, and 90 carry
 `name_collision` with the colliding row IDs written into the note.
+
+## 2026-08-06 (night) — Fit over volume. High-fit sources only, and a shared-domain duplicate sweep.
+
+Dustin's correction: **stop broadening, find sources whose churches actually carry the markers.** Two
+promotions, 36 duplicates held, and a rule for telling a useful source from a wasteful one.
+
+### The rule this session produced
+
+> **Denominations enumerate churches. Networks that require a CHURCH to sign up enumerate churches.
+> Everything else — publishers, campaigns, conferences, statements — lists PEOPLE or IDEAS.**
+
+Checked and confirmed empty, recorded so nobody spends the hour again: **Chalcedon Foundation**
+(Rushdoony's own organisation — no public church directory; note it is `chalcedon.edu`, while
+`chalcedon.ORG` is the Cumming GA congregation #3274); **American Vision** (a publisher, not a
+network); **Abolish Human Abortion** (societies are decentralised, no registry); **the Statement on
+Christian Nationalism** (signatures accepted, never published).
+
+And one that is gated rather than absent: **the End Abortion Now Coalition dashboard is a Mighty
+Networks community behind login** — 403 to anonymous requests, affiliate map visible only to signed-in
+members who belong to a church with qualified elders. It is the most on-thesis abolition source there
+is. **It was not circumvented.** The way in is participation.
+
+### Kuyperian Commentary — what a high-fit source looks like
+
+Eighteen contributors. Of those who pastor US congregations, **nearly all were already here and
+several are already qualifiers** — Brito (#25), Lusk (#38), Garwood (#4043), McIntosh (#3307), Wiley
+(#566). That hit rate is the point: it is what a source aimed at this directory's actual subject looks
+like, as against a large denominational list where most rows carry no marker at all.
+
+Still a list of writers, not churches: Koyzis is a Canadian academic, Remy Wilkins teaches at Geneva
+Academy, Joshua Luper is a **deacon**, Jesse Sumpter is Logos School faculty, Luke Welch preaches at an
+unnamed Anglican church. **None produces a row.**
+
+Two did: **#3371 Reformation OPC** gained its pastor (**Joel Ellis**) plus two recorded conflicts — its
+own site says it left the OPC for the **CREC in 2024**, but the CREC roster captured the same day does
+not list it; and it says **Apache Junction** where the row says Mesa. Neither was resolved. And
+**Saint Paul's Anglican Church, Los Altos CA** was added for **Steve Macias** — Students for Life's
+first West Coast regional coordinator, California State Capitol staffer, campaign consultant, and
+headmaster of a classical school. **No stance set**: three sources about the man, none about the
+congregation, is not the four-source standard.
+
+### Reading a BILL instead of searching for churches
+
+The Foundation to Abolish Abortion keeps a page per equal-protection bill. The Louisiana page named
+the pastor behind HB 813 — and he **was not in the directory at all**.
+
+**First Baptist Church of Pollock, LA — Brian Gunter — added as `pro_abolition` +
+`transformationalist`.** He **co-wrote the Abolition of Abortion in Louisiana Act** with Rep. Danny
+McCormick and Bradley Pierce, mobilised statewide church support, campaigned for the Love Life
+Amendment — and **resigned as Grant Parish Justice of the Peace** over the same-sex marriage ruling. A
+second public question, acted on at cost.
+
+**A tension recorded rather than smoothed:** Gunter is outreach director for **Louisiana Right to
+Life**, and the established pro-life groups publicly **opposed** HB 813. He championed an abolition
+bill the incrementalist movement he works for came out against. How those sat together is not
+established — and this project has already been wrong once (#4031) by reading one moment as a settled
+position.
+
+**But the method mostly does not generalise:** the other eleven FAA bill pages (MI HB 4671, GA HB 441,
+TX HB 2197, OK, TN, MO, IA, KY, AL) name **legislators, not pastors**. Louisiana was the exception
+because news coverage named Gunter.
+
+FAA's own **leadership page** did pay: it names board members' churches — Grace Family Baptist
+(Houston), Oak Shade Baptist, Redemption Hill — and its advisory board is **Dusty Deevers (#216)** and
+**Brett Baggett of Ekklesia Muskogee (#2470)**, both already qualifiers.
+
+### The shared-domain sweep — the strongest duplicate signal in this directory
+
+Chasing one Founders row turned up **three rows for one Conroe church**, all on `gfbcconroe.com`. So I
+swept all 4,321 rows carrying a non-platform website.
+
+**50 shared-host clusters. 23 held as duplicates, 30 cross-state conflicts flagged, 11 left for
+review.**
+
+**Name-and-city matching cannot see any of these.** "Zion Church" and "Zion PCA" in Lincoln. "Covenant"
+and "Covenant Presbyterian Church" in Buford. "Bryce Avenue Presbyterian Church" in White Rock and in
+Los Alamos — **that one paired an unresearched row with a qualifier.** Every one is a single
+congregation.
+
+**Cross-state clusters are NOT duplicates — they are wrong websites**, and were flagged
+`website_conflict`, never merged: Calvary PCA in Raleigh *and* Greenville, Living Hope in Pasadena
+*and* Ohio, Redeemer in Alpharetta *and* Mason. Denominational church names repeat in every state and a
+URL copied from a search result lands on the wrong one silently.
+
+**Platform hosts must be excluded first or the whole method inverts** — 48 rows list `facebook.com`,
+20 list `sermonaudio.com`, and three list `gmail.com` as their website.
+
+**One cluster was deliberately left unmerged:** `gracelifedallas.org` carries #32, #2627 *and* a third
+name from the NCFIC listing (Grace Covenant Baptist, McKinney). Three names on one domain looks more
+like a plant or a rename than a duplicate row — and Grace Life Dallas is a church this project once
+wrongly dismissed. It gets read, not inferred.
+
+### And I cleaned up after myself
+
+The Founders import created **13 duplicates within its own run**: the source lists some churches twice
+("First Baptist Church of Goodpine" / "First Baptist Goodpine"), and my import loaded each state's
+existing rows **once before the loop**, so a row added during the run was invisible to every later
+record. **Dedupe the source against itself before inserting.** The NCFIC and CREC imports were checked
+for the same fault and were clean.
