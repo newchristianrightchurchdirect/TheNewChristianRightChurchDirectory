@@ -6,7 +6,7 @@ the state and the next action.
 
 ## Where the directory stands
 
-**4,586 churches.** Of those:
+**4,596 churches.** Of those:
 
 | culturalEngagement | n | meaning |
 |---|---|---|
@@ -63,6 +63,16 @@ only place a roster has ever lived.
 lawmakers on 7 Feb 2026 on behalf of **45 churches** and recommended individual Sessions petition
 their own districts. The presbytery act names nobody and was NOT treated as 45 signatures — but if
 any Session did petition, those would be per-church acts worth finding.
+
+**1b. THEONOMIC DENOMINATION ROSTERS — Hanover and RPCGA DONE; three bodies left.**
+RP Hanover (18 churches) and RPCGA (8) were taken whole: **10 US congregations added, 9 denominations
+corrected** — including #3944, which I had recorded RPCNA when it is RP-Hanover. **Still to take
+whole: WPCUS, CPC (Covenant Presbyterian Church), and RCUS.** All are small enough to enumerate, and
+all sit on the directory's subject. Membership never qualifies a church — these are candidate lists.
+
+**Open conflict:** Hanover lists a "Birmingham Reformed Presbyterian Church" in Hoover AL; #4123 is
+recorded RPCNA/Presbytery of the Alleghenies from the RPCNA's own records. Two churches, or one stale
+roster. Flagged `denom_ambiguous`, deliberately unresolved.
 
 **2. THE COUNTY-VS-CITY SWEEP IS DONE.** 161 rows carried a county in the `city` field across 26
 states. **77 repaired** from their own zip (applied only where the zip's state matched the row's).

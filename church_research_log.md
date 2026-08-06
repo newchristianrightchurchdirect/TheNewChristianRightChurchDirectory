@@ -3480,3 +3480,68 @@ Brandon Scalf question**: he signs from **Cruciform Church, Indianapolis** — h
 which makes Heritage Tulsa past and casts doubt on #4154's claim on him. Five pastors of **Immanuel
 Baptist, Louisville** (Ryan Fullerton's church) signed together; four from **Reformation Church,
 Shelbyville**; three from **Trinity Reformed, Bloomington** (Tim Bayly's).
+
+## 2026-08-06 — The theonomic denomination rosters. Ten churches added, nine denominations corrected.
+
+Next source down the survey: the small theonomic bodies, which are small enough to enumerate
+completely. Two were taken whole — **RP Hanover Presbytery (18) and the RPCGA (8)** — and between
+them they corrected more of the existing directory than they added to it.
+
+### Why these two bodies
+
+**Hanover is Morecraft's presbytery** — the body he transferred into in 2015 after leaving the RPCUS
+he had founded, and the home of his Heritage Presbyterian Church (#3275), already a qualifier. **The
+RPCGA was founded in 1991 by members of the RPCUS**, the Reconstructionist body that dissolved in
+2020. Both are small covenanter denominations sitting directly on this directory's subject.
+
+**Membership still does not qualify a church.** All ten additions went in `not_researched` with no
+stance and no marker claimed. They are candidates, and their notes say so.
+
+### Nine denominations were wrong in the directory — including one of mine
+
+| Row | Was | Is |
+|---|---|---|
+| #3947 Dillingham · #3946 Presbyterian Reformed Fellowship · #1967 Dickenson First | **PCA** | Hanover |
+| #3686 Big Ridge | **URC** | Hanover |
+| #3950 Southbridge · #3948 Manasquan | Reformed | Hanover |
+| **#3944 RP Church of Manassas** | **RPCNA** | **Hanover** |
+| #4139 RP Ocala | *(blank)* | RPCGA |
+| #3304 Christ Reformed Presbyterian, Paris | Reformed Presbyterian | RPCGA |
+
+**#3944 was my own error, made the previous day.** I researched that row on 2026-08-05 and recorded
+RPCNA. It is RP-Hanover. **RPCNA and RP-Hanover have near-identical names and I took the better-known
+one** — the exact shape of mistake this project keeps punishing, made by me, on a row I had just
+worked.
+
+**#3304 gained a real answer rather than a correction:** on 2026-08-05 I recorded that it was
+"currently seeking affiliation in the RPCGA." The roster now lists it as a member of Westminster
+Presbytery. The affiliation completed.
+
+### Ten congregations added
+
+Calaveras (Vallecito CA) · Christ Church of Story City (IA) · Faith Presbyterian Church Reformed
+(Kemp TX, **Dr. Richard Bacon**) · Lebanon and Little River (both Goshen VA, **one pastor, Linwood
+Wilkes, serving both**) · Tabb Street (Petersburg VA) · Bible Reformed Presbyterian of Wyoming Valley
+(Forty Fort PA, *affiliated*, led by an elder rather than a minister) · Christ Reformed Presbyterian
+(Lakeland FL) · Shenandoah Valley (Mt. Crawford VA) · Puritan Reformed Presbyterian (San Diego CA,
+*affiliated*).
+
+**One of these settles an ambiguity I flagged the day before.** Researching #4137 I found two
+similarly named RPCGA congregations in Lakeland — "Christ Presbyterian Church" and "Christ Reformed
+Presbyterian Church" — and could not tell whether they were one church or two. **The roster lists
+them separately. They are two.**
+
+**Refuge Reformed Presbyterian, Edmonton, ALBERTA was NOT added** — Hanover has a Canadian
+congregation, and this directory is US-only.
+
+### And a conflict I refused to resolve
+
+Hanover's roster lists a **"Birmingham Reformed Presbyterian Church" in Hoover, AL**. This directory
+already holds #4123, researched the day before from the **RPCNA's own records** — a mission
+congregation under the Presbytery of the Alleghenies, begun as a Bible study in 2016, pulpit vacant,
+at 100 Chase Park S.
+
+Either there are two Reformed Presbyterian congregations in one Alabama suburb belonging to different
+bodies, or one roster is stale. **Flagged `denom_ambiguous`, nothing changed** — because this is
+precisely the trap I fell into on Manassas the same day, and having made that error once I am not
+going to resolve this one by picking the more familiar name again.
