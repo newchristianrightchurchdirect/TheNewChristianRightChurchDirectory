@@ -4332,3 +4332,67 @@ anticipated and whether it held — rather than quietly confirming a guess that 
 | **total** | **632** |
 
 Every one is `not_researched`, `stanceBasis` null, no stance, no marker.
+
+## 2026-08-06 (last) — Reformed camp only. RBN and BPC in; ARBCA has renamed and publishes nothing.
+
+Dustin narrowed the scope again: **stay in the Reformed camp**; IFCA, the Reformed Episcopal Church and
+Sovereign Grace are OUT, and he will pick Bible churches and Anglicans **individually**. Directory
+**6,359 → 6,388**; coverage rows **661**.
+
+### Reformed Baptist Network — 62 churches, and almost all were already here
+
+`reformedbaptistnetwork.com` runs **WP Store Locator**, the same plugin as ARP — but with a difference
+worth recording: its AJAX endpoint returned **all 67 records in a single call**, no 50-cap. The cap is a
+per-site setting, not a property of the plugin, so **check it rather than assume it** — assuming the cap
+is what cost 432 calls on ARP, and assuming there ISN'T one is what would have silently truncated it.
+
+**56 matched, 6 added.** The network was already well covered, largely through the Founders import,
+which lists RBN as a denomination value.
+
+Small data quirks handled: cities arrive with a trailing comma (`"Dewey,"`) and names carry a trailing
+state tag (`"Grace Baptist Church (OK)"`).
+
+### ARBCA is now the Confessional Baptist Association — and publishes no roster
+
+`arbca.com` redirects to **`cba1689.com`**. That is a rename this directory did not know about, and it
+explains the "Confessional Baptist Association" value that turned up on 11 rows in the Founders data.
+
+Its `/churches` page is a Squarespace **folder that renders empty** — `?format=json-pretty` confirms it:
+`"empty": true`, `mainContent` one character long. The sitemap has 26 URLs and contains **two church
+*articles*** (Grace Family Baptist, Faith Community Baptist), not a member list.
+
+**So the ~70 ARBCA congregations cannot be enumerated from the association's own site.** Recorded as a
+dead end rather than left as an open lead.
+
+### Bible Presbyterian Church — 29 US congregations, listed by presbytery
+
+`bpc.org/our-churches` is client-rendered, but the **four presbytery pages** each render their own list:
+Eastern (8), Great Lakes (7), Florida (5), Great Western (10). One is Canadian (Edmonton, AB) and is
+excluded. **6 matched, 23 added, 5 denominations corrected.**
+
+### The BPC import forced a field question, and the answer is on every row
+
+The BPC comes out of **Carl McIntire's separatist tradition and is broadly dispensational and
+premillennial** — the opposite of most of this directory, where the qualifying churches are
+overwhelmingly postmillennial or amillennial covenant theologians.
+
+That matters for one field. This project carries `zionistStance = "no"` on **3,966 of 6,388 rows** as an
+unexamined bulk default, and that default is **demonstrably wrong for premillennial bodies** — a
+dispensational church is far likelier to be Zionist than not.
+
+I checked the schema before importing rather than after: **every stance field defaults to `"unknown"`**,
+so the 3,966 are a legacy bulk write, not something new rows inherit. The BPC rows are clean. Each one
+now says so explicitly, with the instruction not to let a later bulk operation sweep them into the
+covenantal default.
+
+### Still open
+
+- **OPC audit.** The directory holds **334 rows against ~290 actual congregations** — the same
+  over-count shape that, on the PCA, exposed 448 rows absent from the denomination's own roster. But
+  opc.org's locator resists: its form POSTs to `/locator.html` and returns the form page with no
+  results, and `/directory.html`, `/presbyteries.html` and a GET with query parameters all return the
+  chrome without a list. The antiforgery-token trick that opened the PCA portal does not apply — there
+  is no token; the results simply are not in the response.
+- **RPCNA** (~7 short) — `reformedpresbyterian.org/congregations` returns **403** to curl and to
+  WebFetch alike.
+- **Presbyterian Reformed Church** (~9) — no roster located.

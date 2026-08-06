@@ -1,0 +1,346 @@
+[
+ {
+  "name": "Reedy River Presbyterian Church",
+  "city": "Conestee",
+  "state": "SC",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Dr. Charles Roberts"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Living Hope Presbyterian Church",
+  "city": "Greer",
+  "state": "SC",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Steve Hill"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Young-Kwang Bible Presbyterian Church",
+  "city": "Poquoson",
+  "state": "VA",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Young Sun Hwang"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Wheat Seed Presbyterian Church",
+  "city": "Hope Mills",
+  "state": "NC",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Hak San Oh"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Ryder Memorial Presbyterian Church",
+  "city": "Bluff City",
+  "state": "TN",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Garry Z. Cole"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Peace Presbyterian Church of NY",
+  "city": "Bayside",
+  "state": "NY",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Byung Nam Rhim"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "White Oak Presbyterian Church",
+  "city": "Fremont",
+  "state": "NC",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Gene Thompson"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Harvest Community Church",
+  "city": "Wichita",
+  "state": "KS",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Rev. Dr. David Henion"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Bible Presbyterian Church on Grand Island",
+  "city": "Grand Island",
+  "state": "NY",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Kevin M. Backus"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Grace Bible Presbyterian Church",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Jason Hutchinson"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "First Presbyterian Church at Unionville",
+  "city": "Unionville",
+  "state": "NY",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Douglas J. Douma"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Wilson Presbyterian Church",
+  "city": "Clairton",
+  "state": "PA",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "E. Bennett Robinson"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Grace Reformed Presbyterian Church",
+  "city": "Greeneville",
+  "state": "TN",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Carl V. Van Der Merwe"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Providence Bible Presbyterian Church",
+  "city": "Limestone",
+  "state": "TN",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Foothills Reformed Church",
+  "city": "Winchester",
+  "state": "OH",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Jason Waeber"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Bible Presbyterian Church of Lakeland",
+  "city": "Lakeland",
+  "state": "FL",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "George Oliveira"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Grace Bible Presbyterian Church",
+  "city": "Cape Canaveral",
+  "state": "FL",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Suncoast Bible Presbyterian Church",
+  "city": "Palm Harbor",
+  "state": "FL",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Phil Futoran"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Esperanca Bible Presbyterian Church",
+  "city": "Orlando",
+  "state": "FL",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Samuel Vitalino"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Tampa Bible Presbyterian Church",
+  "city": "Tampa",
+  "state": "FL",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Sammy Silva"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Bible Presbyterian Church of Olympia",
+  "city": "Olympia",
+  "state": "WA",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Tito Lyro"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Providence Bible Presbyterian Church",
+  "city": "Bonners Ferry",
+  "state": "ID",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Len Pine"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Tacoma Bible Presbyterian Church",
+  "city": "Tacoma",
+  "state": "WA",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "G. W. Fisher"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Columbia Bible Presbyterian Church",
+  "city": "St. Helens",
+  "state": "OR",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Steven Brinegar"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "First Bible Presbyterian Church of Kalispell",
+  "city": "Kalispell",
+  "state": "MT",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "James Huff"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Reformed Bible Presbyterian Church",
+  "city": "Weed",
+  "state": "CA",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Mark Baldwin"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Covenant Bible Presbyterian Mission Church",
+  "city": "Tacoma",
+  "state": "WA",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Andy Yong"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Providence Bible Presbyterian Church",
+  "city": "Albuquerque",
+  "state": "NM",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Dr. Randy Steele"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Grace Fellow Bible Presbyterian Church",
+  "city": "Windsor",
+  "state": "CO",
+  "zip": "",
+  "street": "",
+  "website": "",
+  "ministers": [
+   "Bryan Prouty"
+  ],
+  "vacant": false
+ }
+]

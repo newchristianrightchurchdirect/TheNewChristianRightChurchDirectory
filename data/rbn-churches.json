@@ -1,0 +1,622 @@
+[
+ {
+  "name": "Grace Baptist Church",
+  "city": "Dewey",
+  "state": "OK",
+  "zip": "74029",
+  "street": "802 N Cherokee Ave.",
+  "website": "http://www.gracebaptistdewey.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Reformed Baptist Church of Northern Colorado",
+  "city": "Boulder",
+  "state": "CO",
+  "zip": "80301",
+  "street": "7493 Old Mill Trail",
+  "website": "http://www.rbcnc.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "First Baptist Puxico",
+  "city": "Puxico",
+  "state": "MO",
+  "zip": "63960",
+  "street": "125 N. Turnbaugh Street",
+  "website": "http://www.fbcpuxico.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Providence Reformed Baptist Church",
+  "city": "Cleburne",
+  "state": "TX",
+  "zip": "76033",
+  "street": "1421 County Road 903",
+  "website": "https://www.provreformedbc.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Faithful and True Baptist Church",
+  "city": "Clifton",
+  "state": "CO",
+  "zip": "81520",
+  "street": "435 32 Road Clifton 81520",
+  "website": "https://faithfulandtruebaptist.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Mountain View Baptist Church",
+  "city": "Roswell",
+  "state": "NM",
+  "zip": "88203",
+  "street": "206 E. Charleston Rd.",
+  "website": "https://mtviewbaptistchurch.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Mount Vernon Baptist Church",
+  "city": "Mount Vernon",
+  "state": "IN",
+  "zip": "47620",
+  "street": "1717 Main Street",
+  "website": "https://www.mvbaptist.church",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Sovereign Grace Bible Church",
+  "city": "Worland",
+  "state": "WY",
+  "zip": "82401",
+  "street": "1115 Obie Sue Avenue",
+  "website": "http://www.sgbcwy.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Northside Reformed Baptist Church",
+  "city": "Evansville",
+  "state": "IN",
+  "zip": "47711",
+  "street": "820 W Mt. Pleasant Rd,",
+  "website": "http://N/A",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Heritage Baptist Church",
+  "city": "Owensboro",
+  "state": "KY",
+  "zip": "42303",
+  "street": "3585 Thruston Dermont Rd.",
+  "website": "http://www.hbcowensboro.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Trinity Bible Church",
+  "city": "Powell",
+  "state": "WY",
+  "zip": "82435",
+  "street": "535 S Evarts St",
+  "website": "http://www.tbcwyoming.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Grace Community Christian Church",
+  "city": "Plymouth",
+  "state": "IN",
+  "zip": "46563",
+  "street": "7551 N Michigan Road",
+  "website": "https://www.gc3live.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Redeeming Grace Church of Cody",
+  "city": "Cody",
+  "state": "WY",
+  "zip": "82414",
+  "street": "1608 19th Street",
+  "website": "http://gccody.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Grace Fellowship Church",
+  "city": "Bremen",
+  "state": "IN",
+  "zip": "46506",
+  "street": "535 S Birkey Street",
+  "website": "http://www.gfcbremen.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Sovereign Grace Church of Middle TN",
+  "city": "Greenbrier",
+  "state": "TN",
+  "zip": "37073",
+  "street": "2848 New Hall Road",
+  "website": "http://www.sovereigngracechurch.net",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Grace Baptist Church",
+  "city": "Warsaw",
+  "state": "IN",
+  "zip": "46580",
+  "street": "2626 East Jefferson Street",
+  "website": "http://www.gbcwarsaw.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Harbor Reformed Baptist Church",
+  "city": "Holland",
+  "state": "MI",
+  "zip": "49424",
+  "street": "269 Douglas Ave.,",
+  "website": "http://www.harborchurchholland.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Grace Family Baptist Church of North Houston",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77090",
+  "street": "106 Bammel Westfield",
+  "website": "https://www.gracefamilybaptist.net",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Grace Baptist Church",
+  "city": "Brandon",
+  "state": "MS",
+  "zip": "39047",
+  "street": "175 Stonecastle Drive",
+  "website": "http://www.gbcjackson.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Iglesia Biblica de la Gracia, Grand Rapids",
+  "city": "Kentwood",
+  "state": "MI",
+  "zip": "49548",
+  "street": "4500 Division Ave S,",
+  "website": "http://www.facebook.com/ibggr",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Santa Teresa Baptist Church",
+  "city": "Santa Teresa",
+  "state": "NM",
+  "zip": "88008",
+  "street": "5750 McNutt Rd",
+  "website": "http://www.stbcweb.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Grace Immanuel Reformed Baptist Church",
+  "city": "Grand Rapids",
+  "state": "MI",
+  "zip": "49505",
+  "street": "860 Peachcrest Court NE",
+  "website": "http://www.girbc.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Reformed Baptist Church of Auburn",
+  "city": "Auburn",
+  "state": "IN",
+  "zip": "46706",
+  "street": "1020 W Ensley",
+  "website": "http://rbcauburn.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Mercy Baptist Church",
+  "city": "West Chester",
+  "state": "OH",
+  "zip": "45069",
+  "street": "6840 Fountains Blvd.",
+  "website": "http://www.mercybaptist.net",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Arbor Church",
+  "city": "Dayton",
+  "state": "OH",
+  "zip": "45403",
+  "street": "720 Burkhardt Ave Dayton",
+  "website": "http://www.arbor-church.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Covenant Reformed Baptist Church",
+  "city": "Portsmouth",
+  "state": "OH",
+  "zip": "45662",
+  "street": "1501 Grandview Avenue",
+  "website": "https://crbc-portsmouth.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Jersey Reformed Baptist Church",
+  "city": "Pataskala",
+  "state": "OH",
+  "zip": "43062",
+  "street": "12239 Morse Road",
+  "website": "http://faithbibleohio.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Miller Valley Baptist Church",
+  "city": "Prescott",
+  "state": "AZ",
+  "zip": "86301",
+  "street": "815 Whipple St.",
+  "website": "http://www.millervalleybaptist.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Cornerstone Church",
+  "city": "Mesa",
+  "state": "AZ",
+  "zip": "85206",
+  "street": "4248 E Broadway Road",
+  "website": "http://www.cstonemesa.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Heritage Reformed Baptist Church",
+  "city": "Fayetteville",
+  "state": "GA",
+  "zip": "30215",
+  "street": "150 Lester Road,",
+  "website": "http://www.heritagerbc.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Christ Bible Church",
+  "city": "Kingsport",
+  "state": "TN",
+  "zip": "37663",
+  "street": "4020 Fort Henry Drive",
+  "website": "https://www.christbiblechurchkingsport.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Grace Baptist Church of Commerce",
+  "city": "Commerce",
+  "state": "GA",
+  "zip": "30530",
+  "street": "15 Cody Fowler Road",
+  "website": "http://www.gracerbc.net",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Grace Church Montana",
+  "city": "Stevensville",
+  "state": "MT",
+  "zip": "59870",
+  "street": "4241 Illinois Bench Rd",
+  "website": "https://gracechurchmissoula.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Grace Baptist Church of Taylors",
+  "city": "Taylors",
+  "state": "SC",
+  "zip": "29687",
+  "street": "5020 Old Spartanburg Road",
+  "website": "http://www.gbctaylors.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "The Gathering Church",
+  "city": "West Jefferson",
+  "state": "NC",
+  "zip": "28694",
+  "street": "370 Mt Jefferson St Park Rd",
+  "website": "http://www.thegatheringashe.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Emmanuel Baptist Church",
+  "city": "Verona",
+  "state": "VA",
+  "zip": "24482",
+  "street": "60 Middle River Dr",
+  "website": "https://ebcverona.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Redeemer Baptist Church",
+  "city": "Rincon",
+  "state": "GA",
+  "zip": "31326",
+  "street": "226 Goshen Rd",
+  "website": "http://www.redeemerbaptistchurch.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Cornerstone Bible Church",
+  "city": "Ridgecrest",
+  "state": "CA",
+  "zip": "92111",
+  "street": "443 W. Inyokern Road",
+  "website": "https://www.cbcridgecrest.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "God’s Grace Reformed Church",
+  "city": "Victorville",
+  "state": "CA",
+  "zip": "92395",
+  "street": "16686 Victor Street",
+  "website": "http://www.godsgracereformedchurch.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Covenant Baptist Church",
+  "city": "Angier",
+  "state": "NC",
+  "zip": "27501",
+  "street": "29 E. Wray Street",
+  "website": "http://www.crbcangier.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Reformed Baptist Church of Riverside",
+  "city": "Riverside",
+  "state": "CA",
+  "zip": "92509",
+  "street": "7250 Mission Boulevard",
+  "website": "http://www.rbcr.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Rivertown Grace Fellowship",
+  "city": "Conway",
+  "state": "SC",
+  "zip": "29526",
+  "street": "4441 SC Highway 319",
+  "website": "https://Rivertowngrace.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Grace Reformed Baptist Church (Camp Hill)",
+  "city": "Camp Hill",
+  "state": "PA",
+  "zip": "17011",
+  "street": "200 Corporate Center Drive",
+  "website": "http://www.grbcwestshore.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Grace Bible Church – San Diego",
+  "city": "San Diego",
+  "state": "CA",
+  "zip": "92111",
+  "street": "7250 Eckstrom Ave.",
+  "website": "http://www.gbc-sd.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Providence Baptist Church",
+  "city": "Lecanto",
+  "state": "FL",
+  "zip": "34461",
+  "street": "4471 W Sanction Rd",
+  "website": "http://www.pbcfl.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Grace Fellowship Church",
+  "city": "Hazle Township",
+  "state": "PA",
+  "zip": "18202",
+  "street": "27 Pecora Blvd.",
+  "website": "http://www.gfchazleton.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Redeeming Grace Baptist Church",
+  "city": "Gloucester",
+  "state": "VA",
+  "zip": "23061",
+  "street": "10874 Indian Road",
+  "website": "http://redeeming-grace.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Bible Fellowship Church",
+  "city": "Greentown",
+  "state": "PA",
+  "zip": "18426",
+  "street": "103 Blue Heron Drive",
+  "website": "http://www.bfcgreentown.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Faith Reformed Baptist Church",
+  "city": "Media",
+  "state": "PA",
+  "zip": "19063",
+  "street": "110-114 State Road",
+  "website": "http://www.faithchurchpa.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Grace Chapel of Sanford",
+  "city": "Longwood",
+  "state": "FL",
+  "zip": "32750",
+  "street": "919 Lincolnwood Lane",
+  "website": "http://gracechapelonline.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Reformation Church",
+  "city": "Plant City",
+  "state": "FL",
+  "zip": "33566",
+  "street": "2207 Mud Lake Rd.",
+  "website": "https://reformationchurch.online",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Covenant Baptist Church",
+  "city": "Lumberton",
+  "state": "NJ",
+  "zip": "08048",
+  "street": "528 Main Street",
+  "website": "http://cbclumberton.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Reformed Baptist Church of Lafayette",
+  "city": "Lafayette Township",
+  "state": "NJ",
+  "zip": "07848",
+  "street": "28 Meadows Rd",
+  "website": "http://www.rbcl.church",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Grace Community Church",
+  "city": "St Cloud",
+  "state": "FL",
+  "zip": "34771",
+  "street": "5501 E Irlo Bronson Memorial Hwy.",
+  "website": "http://www.gracestcloud.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Bible Baptist Church",
+  "city": "Galway",
+  "state": "NY",
+  "zip": "12074",
+  "street": "2095 East Street",
+  "website": "https://reformedbaptistnetwork.com/churches/#",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Englewood Baptist Church",
+  "city": "Englewood",
+  "state": "NJ",
+  "zip": "07631",
+  "street": "320 Tenafly Road",
+  "website": "http://www.ebcnj.com",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Grace Reformed Baptist Church (Merrick)",
+  "city": "Merrick",
+  "state": "NY",
+  "zip": "11566",
+  "street": "36 Smith St.,",
+  "website": "http://www.gracereformedbaptistchurch.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Grace Bible Community Church",
+  "city": "Halsey",
+  "state": "OR",
+  "zip": "97348",
+  "street": "411 West 2nd Street",
+  "website": "https://graceinhalsey.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "King’s Cross Church",
+  "city": "Kirkland",
+  "state": "WA",
+  "zip": "98034",
+  "street": "10007 NE 132nd Street",
+  "website": "https://www.kingscrosskirk.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Pioneer Valley Baptist Chapel",
+  "city": "Chicopee",
+  "state": "MA",
+  "zip": "01013",
+  "street": "56 Perkins St.",
+  "website": "http://www.pioneervalleybaptistchapel.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Redeeming Grace Church",
+  "city": "Jupiter",
+  "state": "FL",
+  "zip": "33458",
+  "street": "1022 S Community Drive",
+  "website": "http://www.redeeminggc.org",
+  "ministers": [],
+  "vacant": false
+ },
+ {
+  "name": "Emmanuel Baptist Church",
+  "city": "Coconut Creek",
+  "state": "FL",
+  "zip": "33073",
+  "street": "5391 Johnson Road",
+  "website": "http://www.ebcfl.org",
+  "ministers": [],
+  "vacant": false
+ }
+]
