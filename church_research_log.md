@@ -4399,7 +4399,7 @@ covenantal default.
 
 ## 2026-08-06 (very late) — All three blocked rosters opened. Every block was a different kind of lie.
 
-Directory **6,388 → 6,558**. Coverage rows **713 → 852**. The OPC, RPCNA and Presbyterian Reformed are
+Directory **6,388 → 6,558**. Coverage rows **713 → 798**. The OPC, RPCNA and Presbyterian Reformed are
 now all in, and the OPC audit — the one I most wanted — is done.
 
 ### RPCNA: the 403 was about HEADERS, not identity
@@ -4479,5 +4479,5 @@ looking like an error.**
 ### Coverage now
 
 PCA 487 · ARP 96 · OPC 85 · RPCNA 50 · URCNA 34 · BPC 23 · PRC 11 · RBN 6 · HRC 3 · Presbyterian
-Reformed 2 · FRCNA 1 — **852 rows**, every one `not_researched`, `stanceBasis` null, no stance, no
+Reformed 2 · FRCNA 1 — **798 rows**, every one `not_researched`, `stanceBasis` null, no stance, no
 marker.
