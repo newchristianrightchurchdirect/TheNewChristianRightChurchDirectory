@@ -3113,3 +3113,92 @@ roster), the **Oklahoma Watch / KGOU investigation** *"From Norman to the State 
 two unresolved names — **Nathaniel Morrison's Grace Reformed Baptist Church of Norman OK**, which
 cannot be confirmed to exist, and **Rick Prettyman's Christ Community Church**, where the wrong man is
 easy to grab.
+
+## 2026-08-05 — The Ohio H.B. 370 pastoral petition. 143 congregations, 133 of them new.
+
+Working the Norman Statement's organisations led to **End Abortion Ohio**, and through it to the
+single largest evidenced addition this directory has ever taken in one pass.
+
+**170 named pastors, with churches and cities**, signing:
+
+> *"I, the undersigned, wholeheartedly and unequivocally support H.B. 370, the Ohio Prenatal Equal
+> Protection Act, and urge our esteemed and honorable legislature to give passage to it out of
+> obedience to King Jesus."*
+
+H.B. 370 was introduced in the Ohio House in **June 2025**. It defines personhood as commencing at
+fertilisation and would give preborn persons the same legal protections as born persons — **abolition,
+not regulation**. It is backed by End Abortion Ohio, whose director **Austin Beigel is a drafter of
+the Norman Statement**, which is how the thread was found.
+
+**170 signatories → 143 distinct congregations → 10 already here, 133 added.** `single_issue` 137 →
+270. Directory 4,288 → 4,421. Full roster kept at `data/ohio-hb370-pastoral-petition.txt`.
+
+### Why this counts, and exactly how far
+
+A named pastor formally backing a named equal-protection bill is **first-hand, formal and
+attributable** — the same class of evidence as the Iowa and Nebraska equal-protection statements, and
+far stronger than any directory listing. So `abolitionStance = pro_abolition`, `evidenced`.
+
+**And no further.** Every added row carries `signature_only` and `researchStatus = not_researched`:
+denomination, eschatology and the other five markers are unset, and `culturalEngagement` is
+`single_issue` because a signature evidences **one** public question and says nothing about breadth.
+These rows have not been read on their own terms and their notes say so.
+
+### It caught a false negative from earlier the same day
+
+**#2684 Hopewell Church, Ashland OH.** I researched it this session off the theonomy directory,
+recorded "nothing on the site or from Timmons touches theonomy, postmillennialism, dominion, civil
+government, abortion..." and left it `unknown`. **Matt Timmons had signed the H.B. 370 petition.**
+
+The site-only read was accurate about the site and wrong about the church. This is the fourth time
+this project has watched that happen, and it is why the fourth leg of the standard exists.
+
+### A data-quality problem in the Ohio rows
+
+While matching I found that **23 of the 85 Ohio rows carry a COUNTY in the `city` field** —
+"Coshocton County", "Clermont County", "Franklin County", "Hamilton County". It is a bulk-import
+artefact and it silently breaks any city-based matching.
+
+**It nearly cost me both ways.** A naive city match missed real duplicates (Pleasant Hill Baptist,
+Milford = the row filed under Clermont County; Oikos, Galloway = Franklin County; Reconciliation,
+Batavia = Clermont County; Grace Covenant, Parma = Cuyahoga County). A loose match went the other way
+and paired **Calvary Baptist of Marysville (Union County) with the existing Coshocton County row**,
+and matched two different men named Williams to one church.
+
+Every collision was finally resolved by **Ohio county geography**, recorded per row: 12 judged the
+same congregation, 18 judged distinct with the reason stated. **A county-vs-city sweep of the whole
+directory is now queued** — Ohio will not be the only state.
+
+### Two more near-duplicates avoided
+
+The signatures themselves carried name variants that would have produced junk rows: *The Village
+Church* / *The Village Church Columbus* (four signers), *Piqua Baptist* / *Piqua Baptist Church*
+(three), *Grace and Truth Church of Cincinnati* / *Grace and Truth Church Cincinnati* (three).
+Grouping on a normalised name folded them into one congregation each. **170 signatures were only 143
+churches**, and the difference is entirely multi-pastor congregations and spelling variants.
+
+Flagged, not merged: **Steve Bush "Covenant Church, Millersport"** and **Mark Thogmartin "Millersport
+Covenant Church, Millersport"** are very likely one congregation under two renderings; and
+**Redemption Bible Church** signs from both Bellefontaine and West Liberty, eight miles apart in Logan
+County — possibly a second campus.
+
+### A consistency error of my own, caught and fixed
+
+The 133 added rows were set to `single_issue`; the 10 pre-existing rows I updated were left at
+`unknown` because I had written "culturalEngagement is NOT changed" into the update path. **Same
+evidence, two classifications.** Nine rows corrected in a follow-up pass; East River (#4039) was left
+alone because it already reads `transformationalist` on independent evidence.
+
+### Names in the list worth noting
+
+**Michael Foster, East River Church, Batavia** (#4039) — already a qualifier, and the parent of Silver
+City Church KY (#4161), promoted earlier today. **Michael Clary, Christ the King Church, Cincinnati**
+(#210). **Matt Timmons, Hopewell, Ashland** (#2684). And the list reaches well past the Reformed
+world: Bible Methodists, Nazarenes, Grace Brethren, an Alliance church, a rescue mission and a
+hospice chaplain all signed.
+
+**Clint Zeigler of Sovereign Christ Church, Mansfield (#4186) did NOT sign.** That was the row the
+Ohio lead was supposed to settle, and the honest answer is that it settles it in the negative: he is
+not on this petition. The separate 171-clergy Issue 1 letter is a different and much weaker document —
+a broad pro-life coalition across 23 counties framed on parental rights, delivered by three named
+pastors in October 2023 — and its full signatory list is still not published anywhere reachable.

@@ -6,12 +6,12 @@ the state and the next action.
 
 ## Where the directory stands
 
-**4,288 churches.** Of those:
+**4,421 churches.** Of those:
 
 | culturalEngagement | n | meaning |
 |---|---|---|
 | `transformationalist` | **103** | **qualifies** — meets the standard |
-| `single_issue` | 137 | examined; acts publicly on one question, does not qualify |
+| `single_issue` | 279 | examined; acts publicly on one question, does not qualify |
 | `limited_mission` | 16 | examined; published mission is ecclesial, does not qualify |
 | `quietist` | 28 | examined; treats political engagement as outside the church's calling |
 | `unknown` | 4,004 | not researched closely enough to classify |
@@ -41,38 +41,51 @@ set 2026-07-31). One marker, acted on publicly, is `single_issue`.
 
 ## THE NEXT ACTION
 
-**Three queues are now closed:** the qualifying list (103 rows, all individually researched), the
-postmillennial-directory cohort (186 rows, all researched), and **the theonomy church directory
-(26 of 26, worked 2026-08-05)**.
+**Closed queues:** the qualifying list (103, all researched), the postmillennial-directory cohort
+(186, all researched), the theonomy church directory (26 of 26), and the Norman Statement roster.
 
-Work the deep-dive queue. In order:
+**1. FINISH THE NORMAN STATEMENT'S ORGANISATIONS — the Ohio one alone yielded 133 churches.**
+End Abortion Ohio's H.B. 370 pastoral petition produced **170 named pastors → 143 congregations**.
+The remaining orgs are the same shape and are almost certainly sitting on comparable lists:
 
-1. **The NORMAN STATEMENT'S TWELVE ORGANISATIONS.** The statement itself is now fully mined — but
-   each org it names is its own roster: End Abortion Ohio, End Abortion Alabama, Abolish Abortion
-   NC / Missouri / Oklahoma, End Abortion Nebraska, Abortion is Murder Kansas, Liberty Rising
-   Institute, Rescue Those, **Forge Theological Seminary** (a seminary — an education node),
-   Cruciform Ministries. Full table in the queue file. **End Abortion Ohio pairs directly with #2.**
-2. **171 Ohio clergymen signed against Issue 1** (2023 abortion amendment). Surfaced beside #4186
-   Sovereign Christ Church, Mansfield. **Get the signatory list** — it settles that row and is an
-   Ohio cohort source on its own.
-3. **"From Norman to the State GOP"** — Oklahoma Watch / KGOU investigation, 8 May 2026, on the
-   abolitionist movement capturing Oklahoma's Republican Party. Investigative journalism names people
-   and churches that no church website will.
-4. **The Future of Christendom Conference** roster (hosted by #4193, now a qualifier), and
-   **Whitefield Theological Seminary** — now **eight** rows deep.
+| Organisation | Person | Status |
+|---|---|---|
+| **End Abortion Ohio** | Austin Beigel | **DONE — 133 churches added** |
+| End Abortion Alabama | Paul Abbott II | not started |
+| Abolish Abortion NC | Wayne Groover, David Buboltz | not started |
+| Abolish Abortion Missouri | Wes Scroggins, Kevan Myers | not started |
+| Abortion is Murder Kansas | Kevan Myers | not started |
+| Abolish Abortion Oklahoma | Tim Gillespie | not started |
+| End Abortion Nebraska | Jarrod Ridge | partially covered by the 2026-07-31 Nebraska work |
+| Liberty Rising Institute | Chris Gore, Joseph Silk | not started |
+| Forge Theological Seminary | Russell Threet | a seminary — an education node |
+| Rescue Those · Cruciform Ministries | Baggett/Deevers, Scalf | not started |
 
-**Two unresolved names, both traps:** the Norman Statement lists **Nathaniel Morrison — Grace
-Reformed Baptist Church, NORMAN OK**, which cannot be confirmed to exist (searches return only
-Deevers's ELGIN church, and the abolitionist-orgs list carries the same mislabel). And **Rick
-Prettyman — Christ Community Church** from the Love Your Pre-born Neighbor roster: the only man
-located pastors in Lake Charles, LOUISIANA. Do not record either until the right church is identified.
+**Look for each state's equal-protection BILL petition, not just the org's homepage** — that is where
+the pastor rosters live (FAA keeps state pages at `faa.life/<state>`, though it 403s to fetchers).
 
-**Three unfinished rows still worth returning to first** — each a strong candidate left short by one
-unread source: **#3304 Christ Reformed Presbyterian, Paris TN** (697 sermons unread), **#4218
-Evangelical Reformed Church, Tacoma** (solideogloria.org unread), **#4162 Christ Church of Acadiana**
-(the congregation's own classical academy).
+**2. A COUNTY-VS-CITY SWEEP, now overdue.** **23 of 85 Ohio rows carry a COUNTY in the `city` field**
+("Clermont County", "Franklin County"). It is a bulk-import artefact that silently breaks city
+matching — it hid four real duplicates and nearly created several. **Ohio will not be the only state.
+Check this before any further city-based matching anywhere.**
 
-**Also queued and overdue: a directory-wide `leadership` sweep.** See the cautions below.
+**3. The 171-clergy Issue 1 letter is a dead end so far** and is worth less than it looked: a broad
+pro-life coalition across 23 Ohio counties, framed on parental rights, delivered 18 Oct 2023 by
+Dave Rentzel (Shelby Life Church), Kevin Evans (Ganges Liberty Lifesong) and Bobby Edwards (Jesus is
+Alive Holiness). **The full signatory list is not published anywhere reachable.** Note it did NOT
+settle #4186 Sovereign Christ Church — Clint Zeigler is not on the H.B. 370 petition either.
+
+**4. Then:** the Oklahoma Watch / KGOU investigation *"From Norman to the State GOP"* (8 May 2026);
+the Future of Christendom Conference roster (#4193); and **Whitefield Theological Seminary**, now
+eight rows deep.
+
+**Three unfinished rows still worth an hour each:** #3304 Christ Reformed Presbyterian, Paris TN (697
+sermons unread) · #4218 Evangelical Reformed, Tacoma (solideogloria.org unread) · #4162 Christ Church
+of Acadiana (its own classical academy).
+
+**Two traps recorded:** Nathaniel Morrison's "Grace Reformed Baptist Church, NORMAN OK" cannot be
+confirmed to exist, and Rick Prettyman's "Christ Community Church" resolves to Lake Charles,
+LOUISIANA. Do not record either until the right church is identified.
 
 ## Read this before writing any queue query
 
