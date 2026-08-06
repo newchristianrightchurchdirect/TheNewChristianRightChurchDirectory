@@ -75,9 +75,14 @@ states. **77 repaired** from their own zip (applied only where the zip's state m
 more rows held outright garbage in the city field (pastor names, service times, a confession name);
 five fixed, six flagged `location_conflict`. Two new flags added to the vocabulary.
 
-**Still open from it:** the 84 `city_is_county` rows need cities from outside the record, and
-**#3325 (Landstuhl, GERMANY) and #3656 (Grande Prairie, ALBERTA) are scope questions** — this
-directory holds no non-US rows, so those two either belong somewhere else or should be withdrawn.
+**Still open from it:** the 84 `city_is_county` rows need cities from outside the record. **The
+scope question is SETTLED — Dustin's ruling is US-only**, and the two foreign rows (#3325 Landstuhl,
+GERMANY, a genuine PCA congregation serving the Kaiserslautern military community; #3656, which had
+nothing behind it but a Grande Prairie, ALBERTA address) are held `review_nonfit`. A directory-wide
+foreign-indicator scan found **no others** — but note 27 of its 29 hits were FALSE POSITIVES:
+"Netherlands Reformed" is a US denomination, Ontario CA and Peru NE are American towns, and "Mexico
+Rd" / "Canada Cross Road" / "Alberta Drive" are streets. **A place name inside a church's name or
+address means nothing.** Do not re-run that scan and start deleting.
 
 **2b. RE-TEST DEAD WEBSITES — a church domain had been sold to a gambling operator.**
 `sovereigngracebaptistchurchsa.com` (#3708) now serves an online gambling site from Vietnam; the URL

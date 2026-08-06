@@ -3359,3 +3359,47 @@ scope questions for the owner rather than city repairs.
 
 **Nothing was moved.** With three fields disagreeing, any repair picks a winner arbitrarily, and this
 project has been burned by confident guesses about location before.
+
+## 2026-08-05 — US-only confirmed. Two rows held out of scope; a name field holding a street address.
+
+Dustin's ruling on the two scope questions left by the county-vs-city sweep: **no non-US churches.**
+Both were verified before acting, and both are held under `review_nonfit` with `approved=false` —
+retained, not deleted, so the research survives and the call is reversible.
+
+**#3325 Trinity Reformed Presbyterian Mission — GERMANY.** Confirmed from the church itself:
+**Kirchenstraße 2a, 66849 Landstuhl**. It is a real congregation and **a member of the Presbyterian
+Church in America**, serving "the military and English-speaking community in the greater
+Kaiserslautern area" — which is exactly why an American denomination has a church on German soil and
+why the row was filed under a US state to begin with. Nothing is wrong with the church; it simply is
+not in the United States. The German postal code sitting in the city field is what surfaced it.
+
+**#3656 Covenant Reformed Church, "NE" — nothing behind it but a Canadian address.** Every field is
+empty or corrupt: the city held the church's own name, no zip, no website, no pastor, no source URL,
+and a denomination ("URC") from the 203-row bulk import already established as a wholesale guess. Its
+one concrete datum, "10803 94th St", resolves to **Covenant Reformed Church of Grande Prairie,
+Alberta**. No Covenant Reformed Church could be found in Nebraska at all. Either it is the Canadian
+congregation or it is a phantom; on both readings it does not belong.
+
+### The wider sweep found no others
+
+A directory-wide scan for foreign indicators across name, city, address and zip returned 29 hits and
+**27 were false positives** — and instructively so. "**Netherlands** Reformed" is a US denomination
+with congregations in Michigan, Iowa and the Dakotas. **Ontario, CA** and **Peru, NE** are real
+American towns. "Mexico Rd", "Canada Cross Road" and "Alberta Drive" are streets. "India Rd" and
+"India Hook Rd" are streets. **A place name inside a church's name or address means nothing** — which
+is worth recording before someone runs this scan again and starts deleting Dutch-heritage churches in
+Sioux Center.
+
+### Four more repairs the scan turned up
+
+- **#986** — the `zip` field held **"10409"**, which is the street number of 10409 Taylorsville Rd.
+  Louisville zips begin 40xxx. Cleared rather than guessed.
+- **#3579** — address held "16 N 3rd St" then a newline and the stray word "Street".
+- **#3872** — address held the single word **"Netherlands"**, a fragment of the denomination's name.
+- **#3938** — address held only "Ontario"; made explicit as "Ontario, CA" so a future scan does not
+  mistake it for the Canadian province.
+
+**#3613 — THE CHURCH NAME FIELD HOLDS A STREET ADDRESS.** The row is *named* "1053 E 6th St", which
+is also its address. The congregation's actual name is recorded nowhere on the row. Ontario CA is a
+real US city so it is in scope; it simply has no identity, and it is flagged until someone
+establishes the church from the address.
