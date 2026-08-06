@@ -3861,3 +3861,83 @@ The pastor sweep paired **Mercy Seat Christian Church** (Milwaukee/Hartland, Mat
 **St. John's Reformed** (Friedensburg, apostrophe variant). Both were **already flagged `duplicate_of`
 in earlier sessions** and the guards skipped them correctly. Noted here because the surfacing method
 was new — a conference roster, not name matching — and it would have caught both had they been open.
+
+## 2026-08-06 (evening) — The Sauvé and Webbon conference circuit, and the Founders directory.
+
+Directory **4,936 → 5,640**. One promotion, and the largest single source yet.
+
+### The conference circuit, checked year by year
+
+**New Christendom Press** (founded by **Brian Sauvé** and **Eric Conn**, both pastors of Refuge Church,
+Ogden — #16) and **Right Response Ministries** (**Joel Webbon**, Covenant Bible Church, Georgetown TX
+— #17), every year traceable:
+
+| Year | Event | Pastors on the roster |
+|---|---|---|
+| 2023 | RRM Fall Conference | Webbon |
+| 2024 | RRM *Blueprints for Christendom 2.0* | **Douglas Wilson** (#18) on Postmillennialism and Kuyperianism, Joseph Boot, Sauvé, Conn |
+| 2024 | NCP, Ogden | Sauvé, Webbon, **J. Chase Davis**, Joe Rigney, Stephen Wolfe |
+| 2025 | NCP *Safety Third* | Sauvé, Conn, **Andrew Isker** (#64), Webbon |
+| 2025 | RRM | Wolfe, **David Reece**, Conn, **Calvin Robinson** — who replaced **Jeff Durbin** (#3) after Durbin withdrew |
+| 2026 | NCP *The War for Normal* | Wolfe, Sauvé, Conn, **Adam Madden**, Isker, **Zachary Garris** (#1429) |
+| 2026 | NXR *Christ Is King \| America After Trump* | Sauvé, Conn, Webbon (CEO of NXR) |
+
+**Nobody was missing except one — and he was already here, misfiled.**
+
+### #67 The Well Church, Boulder — PROMOTED, and the leadership field was why it was hidden
+
+The row named only *"Lead Pastor Matt (Vision & Teaching)"* and an associate. It never named **J. CHASE
+DAVIS**, Lead Pastor of Ministry — the reason the congregation is of interest at all.
+
+He **presented at the National Conservatism Conference (NatCon 5, 2025)** — an explicitly political
+conference, not a church one — spoke at NCP 2024, publishes through **Founders Press** and writes for
+**American Reformer**, wrote *Offensive Christianity: Restoring the Strength of Men in a Feminized
+Age*, and **led the church out of the Acts 29 Network** with Matt Patrick over women preaching and
+transgenderism. Action across political theology, gender and sexual ethics.
+
+**What I deliberately did not claim:** Davis **explicitly rejects the Christian nationalist label** —
+*"I have never thought of myself as a Christian Nationalist."* **The CN marker is not set.** He speaks
+at conferences organised by self-described Christian nationalists; he does not accept the description,
+and sharing a platform is not holding a position. `genderStance` is **complementarian**, not
+patriarchal: the stronger word appears in critics' characterisations, not in his own.
+
+> **A partial leadership field hides a church exactly as an empty one does.** That is now three
+> promotions in one day found this way.
+
+### A network I looked at and deliberately did not import
+
+**Adam Madden** directs the **Golden Spike Baptist Network** — and it turns out to be a *geographic*
+Southern Baptist association (Utah–Idaho SBC), fourteen churches. **Nine of its ten named churches are
+absent from this directory and were not added.** Membership in a regional SBC association carries none
+of the six markers and gives no reason to examine a congregation. Its director's conference appearance
+is a fact about the man, not about the association.
+
+Madden's own church, **#247 Christ Fellowship**, had its leadership corrected — it named only "Pastor
+Timothy"; the pastors are **Javan Payne and Adam Madden**. Flagged `location_conflict`: Golden Spike
+and NCFIC both give a **Brigham City** address, this row says **Harrisville**, twenty miles apart. A
+P.O. box is not a meeting place, so both may be right. Neither was chosen.
+
+### Founders Ministries — 1,449 churches behind a job-board plugin
+
+`church.founders.org` is WordPress. The churches are a custom post type named **`employer`** — the
+directory is built on a jobs plugin. `/wp-json/wp/v2/employer` returns everything, and
+`x-wp-total: 1449`.
+
+**Only 224 records parsed at first** because the city/state field is free text. The fix was the
+**geocoded map address** each record also carries (`"…, Stanardsville, VA, USA"`), which recovered
+**1,319 US churches — every one with a named pastor, 1,279 with websites.**
+
+**615 were already in the directory (47%)** — a good sign about Reformed Baptist coverage. **704 were
+added.**
+
+**What the listing actually evidences**, and this is why it was worth reading: each church records the
+public statements it affirms. Across the US set — **660 the Danvers Statement**, **783 the Nashville
+Statement**, **566 the 2018 Dallas Statement on Social Justice and the Gospel**, 1,054 the Chicago
+Statement. **A church's own recorded affirmation of a named document is first-hand evidence, the same
+class as a petition signature.**
+
+**But none of those is one of the six markers.** Danvers is *complementarian*, which ~2,000 rows
+already carry and which does not qualify anything; the qualifying marker is *patriarchal*. Nashville
+concerns sexuality; Dallas is an intra-evangelical fight over critical race theory. **They enrich a
+row; they do not rank it.** All 704 additions are `not_researched` with no stance set, and 90 carry
+`name_collision` with the colliding row IDs written into the note.
