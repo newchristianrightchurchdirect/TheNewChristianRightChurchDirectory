@@ -3711,3 +3711,78 @@ too blunt — "First Baptist Church" in Lomita and in Ripon are obviously differ
 were added with `name_collision` and the colliding row IDs written into the note, **so that nobody
 merges them later on the name alone, and so that if they do turn out to be one church, the collision is
 already written down.**
+
+## 2026-08-06 (later) — The CREC, taken whole. 82 congregations added, and the roster caught two stale pastors.
+
+Directory **4,854 → 4,936**.
+
+The CREC is the body most often mistaken, in coverage of this movement, **for a qualification in
+itself**. It is not one, and this project has demoted CREC rows for exactly that reasoning. But it had
+never been enumerated: the directory held **66 CREC rows against a federation of 220+**.
+
+`crechurches.org` sits behind Cloudflare and refuses curl outright. WebFetch gets through, so the
+roster was pulled in four alphabetical passes: **~146 US congregations**, plus missions and candidate
+churches. The international congregations — Canada, Brazil, Philippines, UK, Ukraine, Poland, Russia,
+Japan, Australia, Bulgaria, Czechia, Hungary — are out of scope under the US-only rule.
+
+**59 matched, 82 added, 8 denominations corrected.** Every added row is `not_researched` with no
+stance set.
+
+### The matcher was wrong twice in opposite directions, and the pastor column settled both
+
+Name+city matching alone reported **86 additions**. Sweeping every proposed addition against **pastor
+surnames statewide** showed that **twelve of them already existed**:
+
+| Roster says | Directory had | Why it was missed |
+|---|---|---|
+| Christ Church Santa Clarita | #40 at **Newhall** | Newhall is *inside* Santa Clarita |
+| Christ Church Denver | #41 at **Englewood** | metro Denver |
+| Christ Covenant Church of Chicago | #44 at **Rolling Meadows** | metro Chicago |
+| St. David's Reformed, Houston | #3307 at **Tomball** | metro Houston |
+| Christ the King Presbyterian, **Ferry** | #4085 at **Shelby** | both Oceana County MI |
+| Trinity Church, **Woodinville** | #4216 at **Kirkland** | Dave Hatcher, adjacent suburbs |
+| **St.** Mark Reformed | #4835 **Saint** Mark Reformed | my `st`→`saint` rule ran on the city field but **not on the name** |
+
+And two were **false** positives: **Peter Leithart** is listed as a *teacher* at #38 Trinity
+Presbyterian, Birmingham, while the roster has him pastoring **Immanuel Reformed** in the same city.
+Same town, same man, two different churches. The suppression is deliberate and scoped — it blocks the
+*pastor* route only, not the name route.
+
+All twelve went in as an explicit `OVERRIDE` map keyed on roster name+city, each recorded on the row
+as **"matched by PASTOR, not by name and city"** so the reasoning is visible and reversible.
+
+### Held duplicates were poisoning the ambiguity check
+
+Five records matched two rows each. **Four were already flagged `duplicate_of`** — the detector was
+pairing each survivor with its own held duplicate. Held rows are now excluded from the pool. The
+detector was right; the pool was wrong.
+
+### The fifth ambiguity was real, and it was a stale pastor
+
+**King's Cross Church, Moscow ID** matched both #4038 (its own row) *and* **#18 Christ Church**,
+because **#18 still lists TOBY SUMPTER** — who has pastored King's Cross since **2022**. He was an
+associate at Christ Church before planting it, so the attribution was once true and is now four years
+stale.
+
+The same sweep caught a second: **#40 Christ Church Santa Clarita records GARRETT CRAW as senior
+pastor.** The roster puts Andrew Richardson there and **Craw at King's Cross Reformed Church, Austin,
+TEXAS**. He left the state.
+
+**Neither leadership field was edited.** Both are flagged `stale_leadership`. Removing a name because
+a second church's entry implies it would be the same inference this project refuses — and Christ
+Church Moscow has a large staff whose current list has not been read against its own site in this pass.
+
+### One conflict left deliberately open
+
+**#3264 Trinity Covenant Church** sits at **Terra Bella** in this directory and at **Santa Cruz** on
+the roster — 200 miles apart, same pastor, one congregation. The existing note says the city came
+*"per the CREC roster"* in an earlier pass. **So the roster has now been read twice and understood
+differently**, which is precisely the case where choosing on the balance of impressions manufactures a
+fact. Flagged `location_conflict`, unresolved, pending the church's own address.
+
+### Dead end recorded
+
+**Abolish Human Abortion's societies page publishes no list.** The local societies are decentralised
+and self-governed with no central registry — the page describes how to *start* one. The abolitionist
+network does not enumerate itself the way a denomination does; that is a structural feature of it, not
+a gap in the search.
