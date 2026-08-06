@@ -4558,3 +4558,68 @@ Findings worth keeping from the first batch:
 - **#4372 Berean Baptist, Pickerington** — GARBC and KJV-listed, i.e. the fundamentalist Baptist stream,
   which is typically dispensational. That bears directly on the zionistStance problem, but nothing on
   Israel was located either way, so the field was left untouched.
+
+## 2026-08-06 — single_issue queue, batch 2. Queue 310 → 300, and one stance withdrawn.
+
+Ten more researched to the four-source standard. Nine confirmed single_issue; **one demoted, because the
+evidence it rested on belonged to a different congregation.**
+
+### #210 Christ The King Eastern Hills — the borrowed stance
+
+On 2026-08-06 this row was flagged with a worry: Michael Clary signed the Ohio H.B. 370 petition, his
+church had moved from Cincinnati to Fort Thomas, Kentucky, and *"neither Corryville nor Fort Thomas is
+Eastern Hills, so that row may be a different Cincinnati congregation sharing the name."*
+
+**The worry was right.** Christ the King, Cincinnati **planted a sister church in 2014** called Christ
+the King Church, Eastern Hills, in the Madisonville/Fairfax area. That plant is this row. It has its
+own website, its own leadership page — pastors given only as Patrick, Eric and Matt — its own Southern
+Baptist Convention directory entry, and affiliations with **Acts 29**, the Cincinnati Area Baptist
+Association and NAMB. The mother church keeps a separate site in Kentucky.
+
+**So the signature is not this church's.** Demoted `single_issue → unknown` and `pro_abolition →
+unknown`.
+
+> **A stance may not outlive its evidence.** Nothing here says Eastern Hills disagrees with the
+> petition — it may sign one tomorrow. What is no longer true is that this directory has grounds to say
+> it has. The row is not held or deleted: the congregation is real, distinct and correctly recorded.
+> Only the borrowed stance is withdrawn.
+
+### The most substantial abortion record in the batch — and still one question
+
+**#2719 Redemption Bible Church (Dana Kidder)** does not merely sign: he is **chairman of the board of
+the New Path Pregnancy Resource Centers**. But a crisis-pregnancy ministry and an equal-protection
+petition are the same public question approached twice, not two questions. Stays single_issue.
+
+A tension recorded rather than smoothed: **pregnancy resource centres are the institutional form of the
+mainstream pro-life movement, while H.B. 370 is exactly the kind of equal-protection bill that movement
+has repeatedly opposed** — Louisiana Right to Life and the Georgia and Tennessee affiliates all worked
+against their states' versions. A pastor doing both is holding together two approaches their own
+institutions treat as rivals. That bears on any later attempt to sort abolitionist from incrementalist.
+
+### A name collision written down before it catches anyone
+
+**#2768 Oikos Community Church** — searching "Eric Crawford, pastor" surfaces a **different man**: Eric
+Crawford of Heritage Baptist Church, Haslet, **Texas**, suspended amid an outcry over a sex offender
+working at the church school and subject of a petition demanding he step down as IBFI president. **That
+is not the Oikos elder.** Two pastors, same name, different states, nothing connecting them. This
+project has already mis-attributed people on a surname; the note exists so it cannot happen quietly
+here.
+
+The row also claimed a "Senior Pastor" the church does not have — Oikos is **elder-led with four
+elders**, Nathan Schwind, Eric Crawford, Daniel Funke (full-time) and Nicholas, and the fourth was
+missing entirely. Corrected. **One elder, Nicholas, is active in abolition ministry** — congregational
+evidence beyond the signature, and on the same single question.
+
+### Smaller corrections
+
+- **#3131** renamed to **Pleasant Hill Reformed Baptist Church** — its own site and its SBC directory
+  entry both carry "Reformed". No pastor is published on reachable pages, so that leg of the standard
+  could not be walked; a gap in the sources, not in the search.
+- **#4483 Church of the Word, Fenton MO** — describes itself as a **family-integrated church** on its
+  own site. Recorded in the Editor's Note; `genderStance` untouched, because correlation is not
+  evidence.
+- **#2603 Grace Covenant, Olmsted Falls** — pastor **Rev. Fred Pugh** added; listed elsewhere as Grace
+  Covenant *Reformed* Baptist Church and placed in Olmsted *Township*. Adjacent and address-consistent,
+  so noted rather than changed.
+
+**Queue: 300 remaining.** Of the 458 live single_issue rows, 158 now carry individual research.
