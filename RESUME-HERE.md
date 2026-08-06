@@ -6,12 +6,12 @@ the state and the next action.
 
 ## Where the directory stands
 
-**4,426 churches.** Of those:
+**4,586 churches.** Of those:
 
 | culturalEngagement | n | meaning |
 |---|---|---|
 | `transformationalist` | **104** | **qualifies** — meets the standard |
-| `single_issue` | 285 | examined; acts publicly on one question, does not qualify |
+| `single_issue` | 459 | examined; acts publicly on one question, does not qualify |
 | `limited_mission` | 16 | examined; published mission is ecclesial, does not qualify |
 | `quietist` | 28 | examined; treats political engagement as outside the church's calling |
 | `unknown` | 4,004 | not researched closely enough to classify |
@@ -44,30 +44,25 @@ set 2026-07-31). One marker, acted on publicly, is `single_issue`.
 **Closed queues:** the qualifying list (103, all researched), the postmillennial-directory cohort
 (186, all researched), the theonomy church directory (26 of 26), and the Norman Statement roster.
 
-**1. THE NORMAN STATEMENT ORGANISATIONS ARE DONE — and the answer is mostly "no roster".**
+**1. THE EQUAL-PROTECTION STATE PETITIONS ARE DONE — 4 of 10 states published a roster.**
 
-| Organisation | Roster? | Result |
+| State | Roster | Result |
 |---|---|---|
-| End Abortion Ohio | **YES, 170 pastors** | **133 churches added** |
-| Abolish Abortion Missouri | **YES, 6** | 2 matched, 4 added |
-| Abolish Abortion Oklahoma | no | 100+ signed for SB 13; **list unpublished** |
-| End Abortion Alabama | no | HB 518; no signatories named |
-| Abolish Abortion NC | no | "Coalition of Abolitionist Churches", names none |
-| Abortion is Murder Kansas | no | "Affiliate Church Network", names none |
-| Liberty Rising Institute | no | no roster |
-| End Abortion Nebraska | — | covered by the 7-31 Nebraska work |
-| Rescue Those · Cruciform · Forge | — | principals already here |
+| Ohio (HB 370) | **170 pastors** | **133 churches** |
+| Kentucky (HB 523) | **128 pastors** | **100 churches** |
+| Indiana | **80 pastors** | **60 churches** |
+| Missouri | 6 | 4 churches |
+| Texas · Georgia · South Carolina · Idaho · North Dakota · Oklahoma · Alabama · NC · Kansas | none published | see the log |
 
-**These orgs publish petitions to be signed, not lists of signers.** Do not re-work them looking for
-rosters. **When a state org names a BILL, look for a page dedicated to that bill** — that is the only
-reason Ohio's roster was reachable (`/pastoral-petition-hb370`).
+**The rule that emerged: these groups publish petitions to be SIGNED, not lists of who signed.** Four
+in ten publish a roster; when one does it is worth a hundred churches, and when it does not, digging
+on the org's homepage never helps. **Look for a page dedicated to the specific BILL** — that is the
+only place a roster has ever lived.
 
-**Two routes that DID work and should be reused:**
-- **Reporting on a bill names the ORGANISATIONS that backed it**, and some of those are churches.
-  That is how Fairview Baptist, Edmond (#4485, Paul Blair) was found — it had never been in this
-  directory.
-- **Rally and conference coverage names pastors.** Kansas's January 2026 Capitol rally named two, both
-  already here and both already qualifying.
+**Worth one more try later:** South Carolina's **Calvary Presbytery (PCA)** unanimously petitioned
+lawmakers on 7 Feb 2026 on behalf of **45 churches** and recommended individual Sessions petition
+their own districts. The presbytery act names nobody and was NOT treated as 45 signatures — but if
+any Session did petition, those would be per-church acts worth finding.
 
 **2. THE COUNTY-VS-CITY SWEEP IS DONE.** 161 rows carried a county in the `city` field across 26
 states. **77 repaired** from their own zip (applied only where the zip's state matched the row's).

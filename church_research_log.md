@@ -3403,3 +3403,80 @@ Sioux Center.
 is also its address. The congregation's actual name is recorded nowhere on the row. Ontario CA is a
 real US city so it is in scope; it simply has no identity, and it is flagged until someone
 establishes the church from the address.
+
+## 2026-08-06 — The remaining equal-protection states. Indiana and Kentucky pay out; five do not.
+
+Eight states left after Ohio and Missouri. **Two published rosters, six did not.** Directory
+**4,426 → 4,586**; `single_issue` 285 → 459.
+
+### Indiana — 80 pastors, 60 churches added
+
+**Indiana Pastors United Against Abortion** (equalprotectionindiana.com/pastoral-petition): *"we
+hereby beseech our elected officials, as though God did beseech you by us to end the slaughter of the
+preborn in Indiana"* — calling on officials to grant **equal rights to the preborn**. 80 named
+pastors, 76 with churches. **10 matched, 60 added.**
+
+### Kentucky — 128 pastors, 100 churches added
+
+**HB 523, the Abolition of Abortion in Kentucky Act** (Reps. Richard White and Josh Calloway), which
+holds that life begins at fertilisation and **equal protection begins then**. 128 pastors signed:
+*"Whether a baby is inside the womb or outside the womb, the place that it resides does not change
+the fact that it is a life."* **10 matched, 100 added, 2 skipped** — the Rockcastle Baptist
+Association and Forgiven Ministries are not congregations.
+
+Context worth keeping: **more than 300 Kentucky pastors** met at the Creation Museum for an End
+Abortion Now presentation on the bill, and the **Kentucky Baptist Convention** adopted a 2024
+resolution exhorting officials to "take all necessary steps to legally abolish abortion."
+
+### A third false negative of mine, caught the same way as the first two
+
+**#3284 Trinity Evangelical Church, Larwill IN.** I researched it off the theonomy directory on
+2026-08-05, recorded *"nothing on any of the six markers"*, and left it `unknown`. **Its pastor, Nate
+Harlan, had signed Indiana's equal-protection petition.**
+
+That is **three in two days** — Hopewell Ashland (Ohio), Sadler Chapel (Missouri), Trinity Larwill
+(Indiana) — and **all three were caught by a signature list, never by re-reading the church.** The
+site-only read was accurate about each site and wrong about each church.
+
+### The five states that published nothing
+
+| State | Bill | Result |
+|---|---|---|
+| **Texas** | HB 896 / HB 3326 | Petition *text* published, **roster is not**. HB 896's is from the 2019 session. |
+| **Georgia** | HB 441 | A "Georgians Ending Abortion" coalition letter exists and pastors signed it; **no list published**. Partners: GRTL, G3 Ministries, End Abortion Now, Operation Save America, FAA. |
+| **South Carolina** | — | **Calvary Presbytery (PCA) unanimously adopted an anti-abortion petition on 7 Feb 2026**, commissioners representing **45 churches**, 12.5 Upstate counties. **It names no church or pastor.** A presbytery act is not 45 individual signatures and was NOT treated as such. It did recommend individual Sessions petition their own districts — if any did, those *would* be per-church acts. |
+| **Idaho** | — | No abolitionist pastor petition found. The Idaho abortion news is a **pro-choice ballot initiative** that qualified for November 2026. |
+| **North Dakota** | — | Nothing located. |
+
+**The pattern holds from the Norman-organisation sweep: most of these groups publish petitions to be
+signed, not lists of who signed.** Four states out of ten have published a roster. When one does, it
+is worth a hundred churches; when it does not, no amount of digging on the org's homepage helps.
+
+### Two duplicates — one of which I created
+
+**I created one.** The Kentucky roster lists Joseph Spurgeon at *"Sovereign King Church, Clarksville,
+IN"*; the directory already held his congregation under **Jeffersonville**. Adjacent towns in Clark
+County, across the river from Louisville — which is also why an Indiana pastor is on a Kentucky
+petition. My matcher required the city to agree, so it added instead of matching. Now
+`duplicate_of:66`. **A city mismatch is not evidence of a different church, and metros that straddle
+a state line break city matching worst of all.**
+
+**And one that corrects an earlier match of mine.** Michael Clary signed *both* the Ohio and Kentucky
+petitions — because **Christ the King Church moved from Cincinnati to Fort Thomas, Kentucky in
+January 2025**, fifteen years to the day after its first service at the Corryville Rec Center. On
+2026-08-05 I matched his Ohio signature to **#210 "Christ The King Church Eastern Hills"**. Neither
+Corryville nor Fort Thomas is Eastern Hills, so that row may be a different Cincinnati congregation
+sharing the name. **The signature is real; only the row it was attached to is uncertain.** Flagged on
+both rows rather than unwound, because withdrawing the stance would be as much a guess as asserting
+it.
+
+### Names in the lists worth noting
+
+Kentucky corroborates **#4161 Silver City Church, Mt Sterling** (Zach Hill) — promoted to qualifying
+on 2026-08-05 — and **#4063 Immanuel Baptist, Pikeville** (Wesley Russell, a Norman Statement signer).
+Indiana corroborates **#66 Sovereign King** (Joseph Spurgeon, of the Patriarchy Podcast) and **#4036
+Harmony Baptist, Frankfort** (Derin Stidd, OSA and 2021 SBC resolution). Indiana also **resolves the
+Brandon Scalf question**: he signs from **Cruciform Church, Indianapolis** — his own ministry's name —
+which makes Heritage Tulsa past and casts doubt on #4154's claim on him. Five pastors of **Immanuel
+Baptist, Louisville** (Ryan Fullerton's church) signed together; four from **Reformation Church,
+Shelbyville**; three from **Trinity Reformed, Bloomington** (Tim Bayly's).
