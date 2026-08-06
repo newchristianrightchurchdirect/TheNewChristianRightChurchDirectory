@@ -3276,3 +3276,86 @@ already read `transformationalist`. Nothing to add, which is its own kind of con
 
 `transformationalist` **104** · `single_issue` 285 · `quietist` 28 · `limited_mission` 16 ·
 `unknown` 3,993. Directory **4,426**.
+
+## 2026-08-05 — The county-vs-city sweep. 88 rows repaired, and a church website that now sells gambling.
+
+The Ohio import turned up a data problem worth chasing directory-wide. It was worse than Ohio, and it
+was not only counties.
+
+### The scale
+
+**161 rows carried a COUNTY in the `city` field** — not an Ohio quirk but a bulk-import artefact
+across **26 states**: OH 23, CA 15, IL 15, IN 12, NC 11, VA 10, MO 10, SC 10, and on down.
+
+**77 were repaired deterministically.** Where a row had its own five-digit zip, the real city was
+recovered by lookup and applied **only when the zip's state matched the state already on the row** —
+so the repair is arithmetic, not a guess. The former value is preserved in every note.
+
+**84 remain and now carry a new flag, `city_is_county`**, because they have no zip and no street
+address to recover from. The flag's description says what the risk actually is: *any code that
+matches on city will silently miss this row.* That is not hypothetical — during the Ohio import a
+city match missed four genuine duplicates hiding behind county values, and a looser match paired two
+different congregations.
+
+Two flags were added to the vocabulary: **`city_is_county`** and **`location_conflict`**.
+
+### The city field held worse things than counties
+
+Eleven rows were individually corrupt, and the pattern is a scraper that grabbed whatever line
+happened to sit where a city should be:
+
+- **#3702 Christ Church NYC** — city held **"Keith Paulus Senior MInister"**, a person's name and
+  title. Address held a service time and then the street. Both recovered: 111 East 87th Street, New
+  York. *The corruption preserved one useful fact — the senior minister's name — now recorded as
+  unverified.*
+- **#3951 Zion Presbyterian** — city held **"Jess Stanfield"**, a pastor's name. Recovered to
+  Juliette GA from the row's own held duplicate. Stanfield now pastors Chalcedon (#3274).
+- **#3994 Grace Baptist Church-Taylors** — city held "SUNDAY SCHOOL -  AM" and the **address held
+  "1689 London Baptist"**, which is the confession this church subscribes.
+- **#3708** city held "Sunday Service -  AM" · **#3722** held "10:30AM and 6PM Sundays" ·
+  **#3709** held "Meets at the building" · **#3549** held "PO Box 1066".
+- **#3637 Northland Reformed Church** — city and address both held the church's own name. Resolved
+  to 2901 NW Cookingham Dr, Kansas City — **and the STATE was wrong too**: filed under KS, it is in
+  MO. The city was in the church's own name all along ("of Kansas Ciry" [sic], now also fixed).
+
+Five rows were fixed outright, six flagged where any repair would have been a guess.
+
+### A church website is now an online gambling site
+
+**#3708 Sovereign Grace Baptist Church.** Its recorded website, `sovereigngracebaptistchurchsa.com`,
+**no longer belongs to the church**: it now serves an online gambling platform operating out of Ho
+Chi Minh City, Vietnam. A lapsed registration, bought by someone else.
+
+**The URL has been deleted from the row, not flagged.** A public directory sending readers to a
+gambling site under a church's name is a live harm, and a flag would have left the link clickable.
+
+**The general lesson: "dead" and "sold to someone else" look identical from a link.** Ten rows were
+flagged `website_removed` while still carrying a URL; all ten were checked for takeover and the other
+nine are clean.
+
+### Three `website_removed` flags were simply wrong
+
+The same check found the flag failing in the other direction:
+
+- **#59 redeemerokc.org** and **#2146 all-of-grace.org** both return HTTP 200 and serve live church
+  sites. The flags were stale fetch failures.
+- **#3690 thebiblealone.com** returns 200 but only ~2KB, because it is a **Nuxt JavaScript app that
+  renders client-side**. To a fetcher it looks empty — which is exactly what I recorded about it
+  earlier today. It is not dead; it cannot be read without executing JavaScript.
+
+**An unreachable site is a fact about the fetch, not the church — and that cuts both ways.** A
+`website_removed` flag is also a claim, and it has to be retested. **Any row whose note says "empty
+body" should be re-tested in a browser**; it is probably a JS-rendered site, not a dead one.
+
+### Three location conflicts, flagged and not guessed
+
+Rows whose state, zip and city contradict each other. **#1556** Darlington Reformed Presbyterian: AL
+state, PA zip — the state is the likelier error. **#353** Lillian Fellowship: AL state, NY zip — here
+the *zip* is the likelier error, the reverse. **#1976** Gainesville Presbyterian: VA state, PA zip,
+and Gainesville exists in both. Plus **#3325**, filed under Alabama with a city of "66849 Landstuhl"
+— a German postal town with a large US military community — and **#3656**, filed under Nebraska with
+an address in Grande Prairie, **Alberta**. This directory holds no non-US rows, so those last two are
+scope questions for the owner rather than city repairs.
+
+**Nothing was moved.** With three fields disagreeing, any repair picks a winner arbitrarily, and this
+project has been burned by confident guesses about location before.

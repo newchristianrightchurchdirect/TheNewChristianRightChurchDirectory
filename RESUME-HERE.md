@@ -69,10 +69,23 @@ reason Ohio's roster was reachable (`/pastoral-petition-hb370`).
 - **Rally and conference coverage names pastors.** Kansas's January 2026 Capitol rally named two, both
   already here and both already qualifying.
 
-**2. A COUNTY-VS-CITY SWEEP, now overdue.** **23 of 85 Ohio rows carry a COUNTY in the `city` field**
-("Clermont County", "Franklin County"). It is a bulk-import artefact that silently breaks city
-matching — it hid four real duplicates and nearly created several. **Ohio will not be the only state.
-Check this before any further city-based matching anywhere.**
+**2. THE COUNTY-VS-CITY SWEEP IS DONE.** 161 rows carried a county in the `city` field across 26
+states. **77 repaired** from their own zip (applied only where the zip's state matched the row's).
+**84 remain flagged `city_is_county`** — no zip, no street address, nothing to recover from. Eleven
+more rows held outright garbage in the city field (pastor names, service times, a confession name);
+five fixed, six flagged `location_conflict`. Two new flags added to the vocabulary.
+
+**Still open from it:** the 84 `city_is_county` rows need cities from outside the record, and
+**#3325 (Landstuhl, GERMANY) and #3656 (Grande Prairie, ALBERTA) are scope questions** — this
+directory holds no non-US rows, so those two either belong somewhere else or should be withdrawn.
+
+**2b. RE-TEST DEAD WEBSITES — a church domain had been sold to a gambling operator.**
+`sovereigngracebaptistchurchsa.com` (#3708) now serves an online gambling site from Vietnam; the URL
+was deleted from the row. All ten rows flagged `website_removed` that still carried a URL were
+checked; the other nine are clean. **But three `website_removed` flags were simply WRONG** — two
+domains are live, and a third (#3690) is a Nuxt app that renders client-side and only *looks* empty
+to a fetcher. **Any row whose note says "empty body" should be re-tested in a browser.** A
+`website_removed` flag is a claim like any other and has to be retested.
 
 **3. The 171-clergy Issue 1 letter is a dead end so far** and is worth less than it looked: a broad
 pro-life coalition across 23 Ohio counties, framed on parental rights, delivered 18 Oct 2023 by
