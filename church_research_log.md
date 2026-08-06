@@ -3786,3 +3786,78 @@ fact. Flagged `location_conflict`, unresolved, pending the church's own address.
 and self-governed with no central registry — the page describes how to *start* one. The abolitionist
 network does not enumerate itself the way a denomination does; that is a structural feature of it, not
 a gap in the search.
+
+## 2026-08-06 (later still) — Conference rosters and signature statements. Mostly negative results, and the negatives are the finding.
+
+No churches added. **The two biggest conferences in this movement are already fully covered here**, and
+three promising signature lists turned out not to exist.
+
+### Fight Laugh Feast — every pastor on the roster was already in the directory
+
+The 2026 conference ("Holy Wars", 1–3 October) lists **Toby Sumpter (#4038), Doug Wilson (#18), Joe
+Rigney, Ben Merkle, Jared Longshore (#18), George Grant (#279), Joe Boot, Michael Foster (#4039),
+Chocolate Knox and Gabe Rench.**
+
+**Every pastor on it was already here, and already classified `transformationalist`.** Zero new
+churches. That is worth recording rather than shrugging at: the flagship conference of this movement
+is now completely covered, which is a coverage *measurement*, not a wasted search.
+
+The remaining names are not pastors of congregations — **Rigney, Merkle and Longshore all sit inside
+the Moscow, Idaho institutions** (Christ Church, New Saint Andrews) rather than pastoring separate
+churches, so they generate no rows.
+
+### Future of Christendom — a named regional theonomy, and its speakers are mostly not pastors
+
+A southeastern Pennsylvania Reconstructionist institution grown out of a 2009 Bible study, formerly
+the **Mid-Atlantic Reformation Society**. It promotes a school it calls **LANCASTRIAN THEONOMY** — a
+non-legislative approach to applying biblical law, argued in public against Stephen Wolfe and Tom
+Hicks. Its 2024 speakers included **Matt Trewhella (#4220)**, Paul Michael Raymond (#3309), Matt
+Kenitzer (#3301), Joel Saint (#4193); 2025 was headlined by **Jeff Durbin (#3)**.
+
+Of the speakers *not* already here:
+
+| Name | What he actually is |
+|---|---|
+| **Luke Saint** | **President** of Future of Christendom; author of *The Sound Doctrine of Theocracy* |
+| **Chris Hume** | Host of The Lancaster Patriot podcast; executive committee |
+| **John Bingaman** | Radio host; general manager of an architectural millwork manufacturer |
+
+**None of the three pastors a congregation, so none produces a row.**
+
+> **A conference roster is not a list of churches.** Speaker lists mix pastors with writers,
+> broadcasters and businessmen, and only the pastors map to congregations. This is the counterweight to
+> the lesson that *rosters beat searches* — a **denominational** roster is a list of churches by
+> construction; a **conference** roster is a list of people, and most of them are not pastors.
+
+### The Statement on Christian Nationalism publishes no signatories
+
+This looked like the best remaining lead: a document co-drafted by **James Silberman and Oklahoma
+state senator Dusty Deevers (#216)**, with contributing editors including **Joel Webbon (#17)**, that
+demands the United States acknowledge the Lordship of Christ in its laws and **"abolish abortion"** —
+**two of the six markers in a single text**.
+
+It says *"We do not accept anonymous signatures."* So named signatures exist. **They are not
+published.** The sitemap resolves to a single page; `/signatories`, `/signers`, `/signatures` and five
+other paths all 404.
+
+**Abolish Human Abortion's societies page is the same** — it explains how to *start* a local society;
+the societies are decentralised and self-governed with no central registry.
+
+This is now the **third** independent confirmation of the rule the state petitions established:
+**these groups publish statements to be signed, not lists of who signed.** The exceptions are worth a
+hundred churches each, which is why they're worth checking — but the base rate is low, and the way to
+tell quickly is to look for a page dedicated to the specific *bill* or *document*, not the
+organisation.
+
+### Household of Faith Fellowship — seven churches, no names
+
+Lists only cities: Canton GA, Centreville MD, Grants Pass OR, Hillsboro OR, King County WA, Sumter SC,
+and Ashaiman, Ghana (out of scope). **No church names and no pastors, so no rows can be created** — a
+city alone cannot be matched against or added.
+
+### Two duplicate pairs, both already held
+
+The pastor sweep paired **Mercy Seat Christian Church** (Milwaukee/Hartland, Matt Trewhella) and
+**St. John's Reformed** (Friedensburg, apostrophe variant). Both were **already flagged `duplicate_of`
+in earlier sessions** and the guards skipped them correctly. Noted here because the surfacing method
+was new — a conference roster, not name matching — and it would have caught both had they been open.
