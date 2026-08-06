@@ -3545,3 +3545,93 @@ Either there are two Reformed Presbyterian congregations in one Alabama suburb b
 bodies, or one roster is stale. **Flagged `denom_ambiguous`, nothing changed** — because this is
 precisely the trap I fell into on Manassas the same day, and having made that error once I am not
 going to resolve this one by picking the more familiar name again.
+
+## 2026-08-06 — Taking the small theonomic denominations whole. Two qualifiers were already in the directory, anonymous.
+
+Directory **4,596 → 4,617**; transformationalist **104 → 106**.
+
+The method this session was not searching for churches but **taking a denomination's own roster and
+laying it against the directory**. It found two qualifying congregations that no amount of searching
+had surfaced — because both were *already here*, sitting unresearched with **no pastor recorded**.
+
+### Covenant Presbyterian Church (CPC) — 12 congregations
+
+Founded 2006 when four churches and nine elders left the RPCGA over paedocommunion, discipline and
+educational requirements for ordination. It already held **Phillip Kayser's Dominion Covenant (#19)**.
+
+**#4021 Reformation Church of Elizabeth, CO — PROMOTED to transformationalist + patriarchal.** The
+row existed, unresearched, with the pastor field empty. The roster named him: **KEVIN SWANSON** —
+founder and director of **Generations**, host of **Generations Radio** daily for over a decade, who
+advocates "male-led families and churches that will **direct society** away from feminism and
+homosexuality," and who **ran for Governor of Colorado in 1994** on the Taxpayers (now Constitution)
+Party ticket. A pastor who contests a statewide election is not commenting on the civil sphere from
+outside it. Patriarchy is *his own stated aim*, not an inference from his network.
+
+Four denominations corrected (#4016, #4019, #4014, #4015 — three were recorded PCA). Four
+congregations added. **#3302 Foothills Christian Assembly, Edgefield SC** clarified: the roster puts
+Dr. Matthew Clark at *Cornerstone Presbyterian* in the same town, and the SermonAudio broadcaster ID
+is `foothillschristia` while the channel is **titled** "Cornerstone Presbyterian Church." One work,
+two names. The name was **left alone and flagged**, not rewritten — renaming on inference is how a
+directory acquires phantom churches.
+
+### The RPCUS is gone, and I had eleven rows that did not know it
+
+This is the correction that matters most, because it was invisible.
+
+> **RPCUS dissolved in 2020** — its last congregations joined **Vanguard Presbytery**. In **May 2022**
+> the former RPCUS churches *left Vanguard* to form the **Christ Reformed Presbyterian Church (CRPC)**,
+> keeping the RPCUS distinctive of three offices: elder, deacon, evangelist.
+
+So **an RPCUS label is at best six years stale**, and the succession forks. I had been carrying it as
+a live denomination on Morecraft's old body all session.
+
+**It also caught a guess of my own.** #3312 Trinity Tazewell read *"RPCUS (dissolved 2020) — very
+likely now Vanguard Presbytery."* Half right, and **the wrong half was the half I guessed**: Trinity
+joined Vanguard and then left it in 2022. "Very likely" was doing work a roster should have done.
+
+### CRPC — 4 congregations
+
+**#1768 Bridwell Heights Presbyterian, Kingsport TN — PROMOTED to transformationalist +
+postmillennial.** Recorded **PCA**; it is CRPC. Its SermonAudio handle is *still*
+`bridwellheightspca` — a fossil that would mislead anyone checking. Pastor **Patrick Hines** published
+an episode titled **"Why I am Postmillennial"** — self-declared, not inferred from his denomination —
+preaches on abortion ("God's Song to Abortion Providers," Psalm 10), runs "The American Church's
+Battles," and authored *Redrawing the Battle Lines: 23 Sermons on Critical Issues Facing the Church*,
+atop 2,000+ sermons on SermonAudio.
+
+**What I deliberately did not claim:** no theonomy statement was found *despite the RPCUS descent* —
+and descent is exactly the inference this project refuses. **Abolition is not established either**:
+preaching against abortion providers evidences engagement on abortion, not the abolitionist position,
+so `abolitionStance` was left unset rather than assumed from a sermon title.
+
+### Vanguard Presbyterian Church — 21 churches, 15 added
+
+Three rows (#830, #1292, #4086) claim Vanguard but are **absent from Vanguard's own current roster**.
+The denomination was **left as recorded and flagged**, not blanked: absence from a roster is weaker
+evidence than presence on one, and this project has already been burned treating a silent source as a
+negative finding. Same treatment for #3690, #4145 and #1296, which claim a dissolved RPCUS and appear
+on *neither* successor roster.
+
+### Smaller things worth keeping
+
+- **`chalcedon.org` is NOT a wrong website.** I flagged it as one — it looks exactly like the error
+  pattern I've been hunting. It is #3274's own site. **Rushdoony's Chalcedon Foundation is
+  `chalcedon.edu`.** Two institutions, similar names, shared lineage.
+- **#4341 WPCUS:** a claim that the denomination "disbanded ~10 years ago" was **not acted on**,
+  because the congregation's own current material still self-describes as WPCUS. The church's own
+  word outweighs an undated secondary claim. Conflict recorded, not resolved. Schwertley's Michigan
+  congregation (Chalcedon Christian, Haslett) is **not** in the directory — no stale row.
+- **Burlington NC**: #4183 was already held as `duplicate_of:1296` from an earlier pass, so the guard
+  skipped it correctly. Its **fuller pastor description was merged into the survivor** — holding a
+  duplicate should cost no information. Salem Presbyterian (Vanguard) is a *different* Burlington
+  church; two rows there are right, a third would not be.
+- **Ryan Denton** pastors two Vanguard congregations (Roswell NM, Lubbock TX) — unsearched.
+- **Grace Presbyterian, Hanover PA** has nothing to do with **RP–Hanover Presbytery**. Coincidence,
+  noted on the row before it becomes someone's false match.
+
+### The lesson of the session
+
+Both promotions came from **rows already in the directory that had no pastor recorded**. Nothing about
+either church's own website would have surfaced them; the pastor's name was the key, and the name came
+from a *denominational roster*, not from the church. **A row with an empty leadership field is not a
+researched negative — it is an unopened door.**
