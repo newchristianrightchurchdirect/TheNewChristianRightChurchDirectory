@@ -1,0 +1,6019 @@
+[
+ {
+  "name": "Immanuel Faith Community Church - Wells Creek",
+  "city": "Belvue",
+  "state": "KS",
+  "zip": "66407",
+  "street": "25043 Wells Creek Road",
+  "denom": "Non-Denominational",
+  "confession": "The New Hampshire Baptist Confession (1833)",
+  "website": "https://wellscreekchurch.org/",
+  "pastors": [
+   "Pastor Caleb Herbel"
+  ],
+  "slug": "immanuel-faith-community-church--wells-creek"
+ },
+ {
+  "name": "Thrive Church",
+  "city": "Lake Alfred",
+  "state": "FL",
+  "zip": "33850",
+  "street": "140 Mallard Road",
+  "denom": "Baptist",
+  "confession": "Undetermined",
+  "website": "thrivechurchfl.com",
+  "pastors": [
+   "Elder Bobby Maynard",
+   "Elder Joshua Maynard",
+   "Elder Joseph Klein",
+   "Elder Richard Harper"
+  ],
+  "slug": "thrive-church"
+ },
+ {
+  "name": "Covenant Reformed Church",
+  "city": "Miami",
+  "state": "FL",
+  "zip": "33186",
+  "street": "9225 Southwest 137th Avenue",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.covenantkirk.org",
+  "pastors": [
+   "Jesse Saez (Pastoral Intern)"
+  ],
+  "slug": "covenant-reformed-church"
+ },
+ {
+  "name": "Old Lebanon Presbyterian Church",
+  "city": "Ackerman",
+  "state": "MS",
+  "zip": "39735",
+  "street": "2442 Lebannon Road",
+  "denom": "Presbyterian Church in America (PCA)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "",
+  "pastors": [
+   "Elder Lawayne Robinson",
+   "Elder Bruce Dobbs"
+  ],
+  "slug": "old-lebanon-presbyterian-church"
+ },
+ {
+  "name": "Crossroads Church of Dunwoody",
+  "city": "Dunwoody",
+  "state": "GA",
+  "zip": "30360",
+  "street": "4805 Tilly Mill Road",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Abstract of Principles (Baptist)",
+  "website": "https://www.crossroadsdunwoody.org/",
+  "pastors": [
+   "Senior Pastor Brian St. James"
+  ],
+  "slug": "crossroads-church-of-dunwoody"
+ },
+ {
+  "name": "Ramah Baptist Church",
+  "city": "Palmetto",
+  "state": "GA",
+  "zip": "30268",
+  "street": "502 Ramah Drive",
+  "denom": "Baptist",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "https://ramahfbc.com/",
+  "pastors": [
+   "Pastor Charles Huckaby",
+   "Pastor Laramie Minga"
+  ],
+  "slug": "ramah-baptist-church"
+ },
+ {
+  "name": "Flack Memorial Church",
+  "city": "Excelsior Springs",
+  "state": "MO",
+  "zip": "64024",
+  "street": "1300 Tracy Avenue",
+  "denom": "Independent",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://flack.church",
+  "pastors": [
+   "Senior Pastor Joe Davis",
+   "Pastor Charles Coakley",
+   "Elder Ed Knutter",
+   "Elder Allen Bruntmyer",
+   "Elder Stephen Ratliff"
+  ],
+  "slug": "flack-memorial-church"
+ },
+ {
+  "name": "Maple Grove Baptist Church",
+  "city": "Haya",
+  "state": "NC",
+  "zip": "28635",
+  "street": "1988 Traphill Rd",
+  "denom": "Baptist",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "",
+  "pastors": [
+   "Pastor Kyle Wheeler"
+  ],
+  "slug": "maple-grove-baptist-church"
+ },
+ {
+  "name": "Redeemer Baptist Church",
+  "city": "Front Royal",
+  "state": "VA",
+  "zip": "22630",
+  "street": "253 Orchard Tree Drive",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "",
+  "pastors": [
+   "Pastor Justin Hays"
+  ],
+  "slug": "redeemer-baptist-church"
+ },
+ {
+  "name": "Heritage Bible Fellowship",
+  "city": "Eastover",
+  "state": "NC",
+  "zip": "28312",
+  "street": "4184 Dunn Road",
+  "denom": "Reformed",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "",
+  "pastors": [
+   "Pastor Boyd Dellinger",
+   "Elder David Canady",
+   "Elder John Helbling"
+  ],
+  "slug": "heritage-bible-fellowship"
+ },
+ {
+  "name": "CrossPointe Family Church",
+  "city": "WInfield",
+  "state": "WV",
+  "zip": "25213",
+  "street": "12128 WInfield Rd.",
+  "denom": "Baptist",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "https://crosspointefamily.church",
+  "pastors": [
+   "Senior Pastor Jonathan White",
+   "Pastor Adam Hill"
+  ],
+  "slug": "crosspointe-family-church"
+ },
+ {
+  "name": "Friendship Baptist Church",
+  "city": "Weatherford",
+  "state": "TX",
+  "zip": "76085",
+  "street": "801 Friendship Rd.",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "https://www.friendshipweatherford.com/",
+  "pastors": [
+   "Senior Pastor Matthew Tarpley"
+  ],
+  "slug": "friendship-baptist-church"
+ },
+ {
+  "name": "Countryside Bible Church",
+  "city": "Jonesville",
+  "state": "MI",
+  "zip": "49250",
+  "street": "1651 E Litchfield Rd",
+  "denom": "Non-Denominational",
+  "confession": "",
+  "website": "cbcjonesville.org",
+  "pastors": [
+   "Senior Pastor Rob Stewart"
+  ],
+  "slug": "countryside-bible-church"
+ },
+ {
+  "name": "THE HOUSE OF PRAYER * AKA THE HILLTOP FELLOWSHIP",
+  "city": "Primm Springs",
+  "state": "TN",
+  "zip": "38476",
+  "street": "8875 Primm Springs Road",
+  "denom": "Pentecostal / Charismatic",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "",
+  "pastors": [
+   "Pastor COLIN CAMPBELL"
+  ],
+  "slug": "the-house-of-prayer--aka-the-hilltop-fellowship"
+ },
+ {
+  "name": "Sovereign Grace Fellowship",
+  "city": "Buhl",
+  "state": "ID",
+  "zip": "83316-1215",
+  "street": "130 9th Ave N",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "sgfbuhl@outlook.com",
+  "pastors": [
+   "Pastor Rick Stoltenburg"
+  ],
+  "slug": "sovereign-grace-fellowship"
+ },
+ {
+  "name": "Bethany Baptist Church",
+  "city": "Bowling Green",
+  "state": "KY",
+  "zip": "42103",
+  "street": "659 Alvaton- Greenhill Road",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "http://www.bethanybaptistchurchbg.org",
+  "pastors": [
+   "Senior Pastor Lucas Page"
+  ],
+  "slug": "bethany-baptist-church"
+ },
+ {
+  "name": "Trinity Bible Church",
+  "city": "Cottonwood Shores",
+  "state": "TX",
+  "zip": "78657",
+  "street": "621 Magnolia Lane",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://texastrinitybiblechurch.com/",
+  "pastors": [
+   "Senior Pastor Jared Dodd",
+   "Elder Trey Poage"
+  ],
+  "slug": "trinity-bible-church"
+ },
+ {
+  "name": "King's Reformed Baptist Church",
+  "city": "Blacksburg",
+  "state": "VA",
+  "zip": "24060",
+  "street": "104 Faculty Street",
+  "denom": "",
+  "confession": "",
+  "website": "https://KingsRBC.com",
+  "pastors": [
+   "Pastor Corey Huddleston"
+  ],
+  "slug": "kings-reformed-baptist-church"
+ },
+ {
+  "name": "Grace Bible Church",
+  "city": "St Clair",
+  "state": "MI",
+  "zip": "48079",
+  "street": "1600 Vine St",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.graceofstclair.com",
+  "pastors": [
+   "Senior Pastor Ken Allen"
+  ],
+  "slug": "grace-bible-church"
+ },
+ {
+  "name": "South Baptist Church",
+  "city": "Laconia",
+  "state": "NH",
+  "zip": "03246",
+  "street": "85 Court Street",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "sbcreformed.org",
+  "pastors": [
+   "Elder Steve Folsom"
+  ],
+  "slug": "south-baptist-church"
+ },
+ {
+  "name": "Reformed Covenant Church C.R.E.C.",
+  "city": "Ruther Glen",
+  "state": "VA",
+  "zip": "22546",
+  "street": "25131 Ruther Glen Road",
+  "denom": "Presbyterian",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://reformedcovenantchurch.com",
+  "pastors": [
+   "Pastor Lee Becton"
+  ],
+  "slug": "reformed-covenant-church-crec"
+ },
+ {
+  "name": "Jessup Baptist Church",
+  "city": "Jessup",
+  "state": "MD",
+  "zip": "20794",
+  "street": "2862 Jessup Road",
+  "denom": "Baptist",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "jessupbaptistchurch.com",
+  "pastors": [
+   "Senior Pastor Jamie Martin"
+  ],
+  "slug": "jessup-baptist-church"
+ },
+ {
+  "name": "Maple Grove Church",
+  "city": "Topeka",
+  "state": "IN",
+  "zip": "46571",
+  "street": "806 South Main Street",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "mgctopeka.org",
+  "pastors": [
+   "Pastor Jason Gingerich"
+  ],
+  "slug": "maple-grove-church"
+ },
+ {
+  "name": "Christ Alone Reformed Baptist Church",
+  "city": "North Wilkesboro",
+  "state": "NC",
+  "zip": "28659",
+  "street": "464 Suncrest Orchard Rd",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://christalonenc.com/",
+  "pastors": [
+   "Pastor Wendell Shrock"
+  ],
+  "slug": "christ-alone-reformed-baptist-church"
+ },
+ {
+  "name": "Goshen First Brethren Church",
+  "city": "Goshen",
+  "state": "IN",
+  "zip": "46526",
+  "street": "215 West Clinton Street",
+  "denom": "Protestant",
+  "confession": "Undetermined",
+  "website": "",
+  "pastors": [
+   "Elder Austin Kaufman",
+   "Elder Ken Metzler",
+   "Elder Asa Brow"
+  ],
+  "slug": "goshen-first-brethren-church"
+ },
+ {
+  "name": "Anchor Baptist Church",
+  "city": "Sacramento",
+  "state": "CA",
+  "zip": "95823",
+  "street": "7320 Florin Mall Drive",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "",
+  "pastors": [],
+  "slug": "anchor-baptist-church"
+ },
+ {
+  "name": "Voice of Faith Bible Church",
+  "city": "Green Bay",
+  "state": "WI",
+  "zip": "54304",
+  "street": "529 4th Street",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "https://www.voiceoffaithchurch.com/",
+  "pastors": [
+   "Elder Richard Lentz",
+   "Elder Jerry Zepnick",
+   "Deacon Gary Hames"
+  ],
+  "slug": "voice-of-faith-bible-church"
+ },
+ {
+  "name": "Christ the King Reformed Church",
+  "city": "Littleton",
+  "state": "MA",
+  "zip": "01460",
+  "street": "461 King Street",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "ctkreformed.com",
+  "pastors": [
+   "Elder Derrick Taylor"
+  ],
+  "slug": "christ-the-king-reformed-church"
+ },
+ {
+  "name": "Covenant Fellowship",
+  "city": "Bedford",
+  "state": "VA",
+  "zip": "24523",
+  "street": "8130 Moneta Road",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "covfellowship.org",
+  "pastors": [
+   "Pastor Rick Vis",
+   "Pastor Adam Triplett",
+   "Elder Charlie Anderson"
+  ],
+  "slug": "covenant-fellowship"
+ },
+ {
+  "name": "Grace Baptist Church",
+  "city": "Cape Coral",
+  "state": "FL",
+  "zip": "33991",
+  "street": "1300 Ceitus Terrace",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://truegraceofgod.org/",
+  "pastors": [
+   "Senior Pastor Tom Ascol",
+   "Pastor David Mitzenmacher",
+   "Pastor Graham Gunden",
+   "Elder Jorge Alvarez",
+   "Elder Brett Miller",
+   "Elder Matt Anderson",
+   "Elder Jon Thomason"
+  ],
+  "slug": "grace-baptist-church"
+ },
+ {
+  "name": "Christ the King Reformed Baptist Church",
+  "city": "Clinton",
+  "state": "TN",
+  "zip": "37716",
+  "street": "3330 West Wolf Valley Road",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "christtheking.church",
+  "pastors": [
+   "Senior Pastor Chris Jones",
+   "Elder David Garner",
+   "Elder Dustin Haddock"
+  ],
+  "slug": "christ-the-king-reformed-baptist-church"
+ },
+ {
+  "name": "Pleasant Gardens Baptist Church",
+  "city": "Marion",
+  "state": "NC",
+  "zip": "28752",
+  "street": "214 PG Baptist Church Road",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "PGBCmarion.com",
+  "pastors": [
+   "Senior Pastor Ethan Hester"
+  ],
+  "slug": "pleasant-gardens-baptist-church"
+ },
+ {
+  "name": "Heritage Covenant Church",
+  "city": "Deer Park",
+  "state": "WA",
+  "zip": "99006",
+  "street": "undefined",
+  "denom": "Reformed",
+  "confession": "The Three Forms of Unity",
+  "website": "http://www.heritagecovenantchurch.org",
+  "pastors": [
+   "Pastor Jeremy Lyerla"
+  ],
+  "slug": "heritage-covenant-church"
+ },
+ {
+  "name": "True Words Baptist Church",
+  "city": "Louisville",
+  "state": "KY",
+  "zip": "40210",
+  "street": "1377 S 20th St",
+  "denom": "Baptist",
+  "confession": "Undetermined",
+  "website": "https://truewordsbaptist.org/",
+  "pastors": [
+   "Pastor Joshua Tapp",
+   "Pastor Nathan Holmes",
+   "Deacon Gary Tapp"
+  ],
+  "slug": "true-words-baptist-church"
+ },
+ {
+  "name": "Cannelton Baptist Church",
+  "city": "Darlington",
+  "state": "PA",
+  "zip": "16115",
+  "street": "313 Ridge Road",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "canneltonbaptistchurch.org",
+  "pastors": [
+   "Pastor Jesse Bonney"
+  ],
+  "slug": "cannelton-baptist-church"
+ },
+ {
+  "name": "First Baptist Church of Fortuna, CA",
+  "city": "Fortuna",
+  "state": "CA",
+  "zip": "95540",
+  "street": "1976 Scenic Drive",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.fbcfortuna.com",
+  "pastors": [
+   "Elder John Carter"
+  ],
+  "slug": "first-baptist-church-of-fortuna-ca"
+ },
+ {
+  "name": "Strasburg Baptist Church",
+  "city": "Strasburg",
+  "state": "MO",
+  "zip": "64090",
+  "street": "503 West Mill Street",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.StrasburgBC.com",
+  "pastors": [
+   "Pastor Stephan Albin",
+   "Elder Bob Hausmann",
+   "Elder Kevin Bricker"
+  ],
+  "slug": "strasburg-baptist-church"
+ },
+ {
+  "name": "Grace Baptist Church of Minot",
+  "city": "Minot",
+  "state": "ND",
+  "zip": "58703",
+  "street": "710 46th Avenue Northeast",
+  "denom": "",
+  "confession": "",
+  "website": "https://www.gbcminot.com/",
+  "pastors": [
+   "Pastor Greg Demme"
+  ],
+  "slug": "grace-baptist-church-of-minot"
+ },
+ {
+  "name": "Reformation Church of Washington, Iowa",
+  "city": "Washington",
+  "state": "IA",
+  "zip": "52353",
+  "street": "322 South Avenue D",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://refchurchwashington.org/",
+  "pastors": [
+   "Elder Mike Yates",
+   "Elder John Nielsen"
+  ],
+  "slug": "reformation-church-of-washington-iowa"
+ },
+ {
+  "name": "Harbor Reformed Baptist Church",
+  "city": "Holland",
+  "state": "MI",
+  "zip": "49424",
+  "street": "269 Douglas Avenue",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.harborchurchholland.org/",
+  "pastors": [
+   "Pastor Matthew Morgan",
+   "Pastor Rick Kirsten"
+  ],
+  "slug": "harbor-reformed-baptist-church"
+ },
+ {
+  "name": "Redeeming Grace Reformed Baptist Church",
+  "city": "Wheeling",
+  "state": "WV",
+  "zip": "26003",
+  "street": "21 Sycamore Avenue",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.gracewhg.org",
+  "pastors": [
+   "Pastor Brady West"
+  ],
+  "slug": "redeeming-grace-reformed-baptist-church"
+ },
+ {
+  "name": "New Song Bible Church",
+  "city": "sagle",
+  "state": "ID",
+  "zip": "83860",
+  "street": "470250 U.S. 95",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "newsongbiblechurch.com",
+  "pastors": [
+   "Pastor Kevin Carlson"
+  ],
+  "slug": "new-song-bible-church"
+ },
+ {
+  "name": "Ascension Reformed Church",
+  "city": "Red Oak",
+  "state": "IA",
+  "zip": "51566",
+  "street": "300 East Oak St",
+  "denom": "Reformed",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.ascensionkirk.com",
+  "pastors": [
+   "Elder Raymond Simmons",
+   "Elder Garry Mayes"
+  ],
+  "slug": "ascension-reformed-church"
+ },
+ {
+  "name": "Eldora Baptist Church",
+  "city": "Ellabell",
+  "state": "GA",
+  "zip": "31308",
+  "street": "303 Eldora Cemetery Road",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "",
+  "pastors": [
+   "Pastor Jeramy Anderson"
+  ],
+  "slug": "eldora-baptist-church"
+ },
+ {
+  "name": "Reformation Baptist Church",
+  "city": "Kokomo",
+  "state": "IN",
+  "zip": "",
+  "street": "",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.rbckokomo.org/home",
+  "pastors": [
+   "Ron Napier (Church Planter)",
+   "Jonathan Napier (Church Planter)"
+  ],
+  "slug": "reformation-baptist-church"
+ },
+ {
+  "name": "Twelve 5 Church",
+  "city": "Jonesboro",
+  "state": "AR",
+  "zip": "72401",
+  "street": "411 West Washington Avenue",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "Twelve5church.com",
+  "pastors": [
+   "Elder Nathan Hargrave",
+   "Elder Jeremiah Nortier",
+   "Elder Keith Henick"
+  ],
+  "slug": "twelve-5-church"
+ },
+ {
+  "name": "Redemption Bible Church - Coolidge, Arizona",
+  "city": "Coolidge",
+  "state": "AZ",
+  "zip": "85128",
+  "street": "1530 South Arizona Boulevard",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.RedemptionCoolidge.org",
+  "pastors": [
+   "Pastor Greg Thornberg",
+   "Pastor Josh Franklin"
+  ],
+  "slug": "redemption-bible-church--coolidge-arizona"
+ },
+ {
+  "name": "Trinity Church Southside",
+  "city": "Brodnax",
+  "state": "VA",
+  "zip": "23920",
+  "street": "1561 Canaan Church Road",
+  "denom": "Non-Denominational",
+  "confession": "",
+  "website": "https://www.trinitychurchsouthside.com/",
+  "pastors": [
+   "Elder Hunter Coy",
+   "Elder Korey Henry",
+   "Elder Spencer Johnson"
+  ],
+  "slug": "trinity-church-southside"
+ },
+ {
+  "name": "Redeemer's Love Houston",
+  "city": "Houston",
+  "state": "TX",
+  "zip": "77074",
+  "street": "7805 Nairn Street",
+  "denom": "Baptist",
+  "confession": "The New Hampshire Baptist Confession (1833)",
+  "website": "redeemerslovehouston.org",
+  "pastors": [
+   "Senior Pastor Spencer Simpson",
+   "Elder David Mathew"
+  ],
+  "slug": "redeemers-love-houston"
+ },
+ {
+  "name": "Faith Baptist Church",
+  "city": "Kirksville",
+  "state": "MO",
+  "zip": "63501",
+  "street": "502 North Florence Street",
+  "denom": "Reformed Baptist",
+  "confession": "The New Hampshire Baptist Confession (1833)",
+  "website": "http://www.faithbaptistkirksville.org/",
+  "pastors": [
+   "Elder Brandon Rhea"
+  ],
+  "slug": "faith-baptist-church"
+ },
+ {
+  "name": "Christ Reformed Baptist Church",
+  "city": "Edmond",
+  "state": "OK",
+  "zip": "73013",
+  "street": "1300 East 33rd Street",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "ReformedOKC.com",
+  "pastors": [
+   "Elder David Bane"
+  ],
+  "slug": "christ-reformed-baptist-church"
+ },
+ {
+  "name": "Pray's Mill Baptist Church",
+  "city": "Douglasville",
+  "state": "GA",
+  "zip": "30135",
+  "street": "4979 Georgia 5",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://praysmill.com/",
+  "pastors": [
+   "Elder Matt Sikes",
+   "Elder Dylan Joyner",
+   "Elder Jon Norton",
+   "Elder Scott Aniol"
+  ],
+  "slug": "prays-mill-baptist-church"
+ },
+ {
+  "name": "Immanuel Baptist Church",
+  "city": "Springdale",
+  "state": "AR",
+  "zip": "72764",
+  "street": "800 South Pleasant Street",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "http://www.ibcspringdale.com",
+  "pastors": [
+   "Elder Ben Seewald",
+   "Elder Joe Evans"
+  ],
+  "slug": "immanuel-baptist-church"
+ },
+ {
+  "name": "First Baptist Church of Beggs, OK",
+  "city": "Beggs",
+  "state": "OK",
+  "zip": "74421",
+  "street": "110 W 5th St",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.fbcbeggs.com",
+  "pastors": [
+   "Elder Chris Gore"
+  ],
+  "slug": "first-baptist-church-of-beggs-ok"
+ },
+ {
+  "name": "Bayview Bible Church",
+  "city": "Bayview",
+  "state": "ID",
+  "zip": "83803",
+  "street": "20298 East Perimeter Road",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.bayviewbiblechurch.org",
+  "pastors": [
+   "Senior Pastor Joel Carlson"
+  ],
+  "slug": "bayview-bible-church"
+ },
+ {
+  "name": "Badin Baptist Church",
+  "city": "Badin",
+  "state": "NC",
+  "zip": "28009",
+  "street": "28 Falls Road",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "badinbaptist.org",
+  "pastors": [
+   "Pastor Christian Herring"
+  ],
+  "slug": "badin-baptist-church"
+ },
+ {
+  "name": "Dandridge Community Church",
+  "city": "Dandridge",
+  "state": "TN",
+  "zip": "37725",
+  "street": "207 West Main Street",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://dandridgecommunitychurch.com/",
+  "pastors": [
+   "Pastor Jake Torgeson",
+   "Elder Blane Tarr"
+  ],
+  "slug": "dandridge-community-church"
+ },
+ {
+  "name": "Temple Baptist Church",
+  "city": "Jacksonville",
+  "state": "NC",
+  "zip": "28540",
+  "street": "121 Chaney Ave.",
+  "denom": "Independent Baptist",
+  "confession": "Anti-Confessional",
+  "website": "http://www.templebaptistjacksonville.com",
+  "pastors": [
+   "Pastor Michael Johnson"
+  ],
+  "slug": "temple-baptist-church"
+ },
+ {
+  "name": "Covenant Reformed Baptist Church",
+  "city": "Angier",
+  "state": "NC",
+  "zip": "27501",
+  "street": "29 East Wray Street",
+  "denom": "",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "crbcangier.com",
+  "pastors": [
+   "Pastor Doug Short"
+  ],
+  "slug": "covenant-reformed-baptist-church"
+ },
+ {
+  "name": "Heritage Reformed Presbyterian Church",
+  "city": "Sanford",
+  "state": "NC",
+  "zip": "27332",
+  "street": "7592 North Carolina 87",
+  "denom": "Reformed",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://www.heritagereformedchurch.com/home",
+  "pastors": [
+   "Pastor Thomas Booher",
+   "Elder Tom Booher",
+   "Elder Timothy McKenzie"
+  ],
+  "slug": "heritage-reformed-presbyterian-church"
+ },
+ {
+  "name": "Light By The Bay Church",
+  "city": "San Lorenzo",
+  "state": "CA",
+  "zip": "94580",
+  "street": "1000 Paseo Grande",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "",
+  "pastors": [
+   "Pastor Glenn Nicolas"
+  ],
+  "slug": "light-by-the-bay-church"
+ },
+ {
+  "name": "Hope Fellowship Church",
+  "city": "Oakwood",
+  "state": "GA",
+  "zip": "30566",
+  "street": "4315 Allen Street",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.hope4hall.org/",
+  "pastors": [
+   "Pastor Stacey Cox"
+  ],
+  "slug": "hope-fellowship-church"
+ },
+ {
+  "name": "Covenant Bible Church",
+  "city": "Plant City",
+  "state": "FL",
+  "zip": "33565",
+  "street": "3116 North Frontage Road",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.covenantbible.net/",
+  "pastors": [
+   "Elder Lloyd Hamm"
+  ],
+  "slug": "covenant-bible-church"
+ },
+ {
+  "name": "The Valley Remnant Church",
+  "city": "Belle Vernon",
+  "state": "PA",
+  "zip": "15012",
+  "street": "130 Greenwood Avenue",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "valleyremnant.com",
+  "pastors": [
+   "Pastor Phil Pagliari",
+   "Deacon Pat Cummings"
+  ],
+  "slug": "the-valley-remnant-church"
+ },
+ {
+  "name": "Reformed Baptist Church of Douglas County",
+  "city": "Roseburg",
+  "state": "OR",
+  "zip": "97470",
+  "street": "1130 Northeast Malheur Avenue",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://rbcdc.church/",
+  "pastors": [
+   "Pastor Ryan Clark",
+   "Pastor Rob Johnson",
+   "Mason Goodknight (Evangelist)"
+  ],
+  "slug": "reformed-baptist-church-of-douglas-county"
+ },
+ {
+  "name": "Legacy Church",
+  "city": "Mandeville",
+  "state": "LA",
+  "zip": "70471",
+  "street": "1809 North Causeway Boulevard",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "http://www.legacychurchla.com",
+  "pastors": [
+   "Senior Pastor Wayne Rogers"
+  ],
+  "slug": "legacy-church"
+ },
+ {
+  "name": "Haven Reformed Baptist Church",
+  "city": "St. Peters",
+  "state": "MO",
+  "zip": "63376",
+  "street": "5100 Mexico Road",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "havenrbc.com",
+  "pastors": [
+   "Pastor Greg Feulner"
+  ],
+  "slug": "haven-reformed-baptist-church"
+ },
+ {
+  "name": "Faith Community Church",
+  "city": "Bainbridge",
+  "state": "GA",
+  "zip": "39819",
+  "street": "1998 Tallahassee Highway",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.fccbainbridge.com",
+  "pastors": [
+   "Elder Ryan Wade"
+  ],
+  "slug": "faith-community-church"
+ },
+ {
+  "name": "George County Baptist Church",
+  "city": "Lucedale",
+  "state": "MS",
+  "zip": "39452",
+  "street": "2126 Hopper Rd",
+  "denom": "Independent Baptist",
+  "confession": "",
+  "website": "https://georgecountybaptistchurch.com/",
+  "pastors": [
+   "Pastor Thomas Irvin"
+  ],
+  "slug": "george-county-baptist-church"
+ },
+ {
+  "name": "Christ Reformed Fellowship",
+  "city": "Garner",
+  "state": "NC",
+  "zip": "27529",
+  "street": "1250 Aversboro Road",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "Christreformedfellowship.com",
+  "pastors": [
+   "Pastor Ken Cheeseman",
+   "Elder Michael Seethaler (Elder in Training)"
+  ],
+  "slug": "christ-reformed-fellowship"
+ },
+ {
+  "name": "Pillar Reformed Church",
+  "city": "Hahira",
+  "state": "GA",
+  "zip": "31632",
+  "street": "402 Frances Street",
+  "denom": "Reformed",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.pillarreformed.com",
+  "pastors": [
+   "Pastor Clint Wilson"
+  ],
+  "slug": "pillar-reformed-church"
+ },
+ {
+  "name": "Denali Center Assembly",
+  "city": "Fairbanks",
+  "state": "AK",
+  "zip": "99701",
+  "street": "1510 19th Avenue",
+  "denom": "Non-Denominational",
+  "confession": "",
+  "website": "",
+  "pastors": [
+   "Elder Luke Szklarz"
+  ],
+  "slug": "denali-center-assembly"
+ },
+ {
+  "name": "Crown & Covenant Reformed Presbyterian Church",
+  "city": "Conroe",
+  "state": "TX",
+  "zip": "77301",
+  "street": "1115 Houston Street",
+  "denom": "Presbyterian",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://crowncovenantchurch.org",
+  "pastors": [
+   "Pastor Peter Allison",
+   "Pastor Gary Duff"
+  ],
+  "slug": "crown--covenant-reformed-presbyterian-church"
+ },
+ {
+  "name": "Remembrance Church",
+  "city": "Madison",
+  "state": "GA",
+  "zip": "30650",
+  "street": "4201 Eatonton Rd",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://remembrancecc.org/",
+  "pastors": [
+   "Senior Pastor Brian St James"
+  ],
+  "slug": "remembrance-church"
+ },
+ {
+  "name": "Household of Faith Reformed Church",
+  "city": "Moyie Springs",
+  "state": "ID",
+  "zip": "83845",
+  "street": "3331 Roosevelt Road",
+  "denom": "Reformed",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "",
+  "pastors": [
+   "Pastor Bobby Read Jr"
+  ],
+  "slug": "household-of-faith-reformed-church"
+ },
+ {
+  "name": "Salem Primitive Baptist Church",
+  "city": "Damascus",
+  "state": "AR",
+  "zip": "72039",
+  "street": "4215 Gravesville Cutoff Road",
+  "denom": "Primitive Baptist",
+  "confession": "",
+  "website": "http://www.salempbchurch.com",
+  "pastors": [
+   "Pastor John Staten"
+  ],
+  "slug": "salem-primitive-baptist-church"
+ },
+ {
+  "name": "Hope Family Fellowship",
+  "city": "KC",
+  "state": "KS",
+  "zip": "66106",
+  "street": "2420 S 53rd Lane",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "http://www.hopefamilyfellowship.org",
+  "pastors": [
+   "Senior Pastor Jeff Klick",
+   "Pastor Arnie Pizzutelli",
+   "Elder Curt Roggow"
+  ],
+  "slug": "hope-family-fellowship"
+ },
+ {
+  "name": "King's Cross Reformed Church",
+  "city": "Boone",
+  "state": "NC",
+  "zip": "28607",
+  "street": "1636 U.S. Highway 421 South",
+  "denom": "Independent",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "kingscrossboone.com",
+  "pastors": [
+   "Pastor James Lynch"
+  ],
+  "slug": "kings-cross-reformed-church"
+ },
+ {
+  "name": "King's Church",
+  "city": "Peoria",
+  "state": "AZ",
+  "zip": "85381",
+  "street": "13450 North Plaza Del Rio Boulevard",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://kingschurchaz.com/",
+  "pastors": [
+   "Elder John Samson",
+   "Elder John James"
+  ],
+  "slug": "kings-church"
+ },
+ {
+  "name": "Providence Bible Church",
+  "city": "Harrah",
+  "state": "OK",
+  "zip": "73045",
+  "street": "undefined",
+  "denom": "Reformed",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.pbcharrah.com",
+  "pastors": [
+   "Senior Pastor Nathaniel Jolly",
+   "Elder James Edwards"
+  ],
+  "slug": "providence-bible-church"
+ },
+ {
+  "name": "Gospel Life Baptist Church",
+  "city": "Keyser",
+  "state": "WV",
+  "zip": "26726",
+  "street": "651 West Piedmont Street",
+  "denom": "Independent",
+  "confession": "The New Hampshire Baptist Confession (1833)",
+  "website": "https://www.gospellife.us/",
+  "pastors": [
+   "Senior Pastor Daniel Sisler"
+  ],
+  "slug": "gospel-life-baptist-church"
+ },
+ {
+  "name": "The Gathering",
+  "city": "Monett",
+  "state": "MO",
+  "zip": "65708",
+  "street": "815 3rd Street",
+  "denom": "Non-Denominational",
+  "confession": "Abstract of Principles (Baptist)",
+  "website": "https://thegatheringmonett.com",
+  "pastors": [
+   "Elder Brandon Tucker",
+   "Elder Justin Guffey"
+  ],
+  "slug": "the-gathering"
+ },
+ {
+  "name": "Heritage Church",
+  "city": "Tulsa",
+  "state": "OK",
+  "zip": "74112",
+  "street": "920 South New Haven Avenue",
+  "denom": "Particular Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.heritagechurchtulsa.com",
+  "pastors": [
+   "Elder Brandon Scalf"
+  ],
+  "slug": "heritage-church"
+ },
+ {
+  "name": "Logos Church",
+  "city": "Dillon",
+  "state": "MT",
+  "zip": "59725",
+  "street": "East Poindexter Street",
+  "denom": "",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "logosdillon.com",
+  "pastors": [
+   "Elder Jacob Calhoun",
+   "Elder Mike Dunn",
+   "Elder Phil Saville"
+  ],
+  "slug": "logos-church"
+ },
+ {
+  "name": "Lexington Primitive Baptist Church",
+  "city": "Lexington",
+  "state": "KY",
+  "zip": "40513",
+  "street": "4574 Old Schoolhouse Lane",
+  "denom": "Primitive Baptist",
+  "confession": "",
+  "website": "lexpbc.org",
+  "pastors": [
+   "Pastor Ben Cordes"
+  ],
+  "slug": "lexington-primitive-baptist-church"
+ },
+ {
+  "name": "Still Waters Reformed Baptist Church",
+  "city": "Pinebluff",
+  "state": "NC",
+  "zip": "28373",
+  "street": "110 North Pecan Street",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "stillwatersrbc.org",
+  "pastors": [
+   "Elder Mike Cross"
+  ],
+  "slug": "still-waters-reformed-baptist-church"
+ },
+ {
+  "name": "Trinity Baptist Church",
+  "city": "Fayetteville",
+  "state": "NC",
+  "zip": "28311",
+  "street": "433 Southland Drive",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://trinityfay.org/",
+  "pastors": [
+   "Elder John Pabon"
+  ],
+  "slug": "trinity-baptist-church"
+ },
+ {
+  "name": "Palmer Christian Fellowship",
+  "city": "Palmer",
+  "state": "AK",
+  "zip": "99645",
+  "street": "12001 East Helen Drive",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "",
+  "pastors": [
+   "Pastor James Buckingham",
+   "Elder Mark Bauer",
+   "Elder Al Beiler",
+   "Elder Jim Buckingham"
+  ],
+  "slug": "palmer-christian-fellowship"
+ },
+ {
+  "name": "Justified Reformed Baptist Church",
+  "city": "Hillsville",
+  "state": "VA",
+  "zip": "24343",
+  "street": "690 Training Center Road",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "",
+  "pastors": [
+   "Elder Sam Pierce",
+   "Elder Bryan Phillips"
+  ],
+  "slug": "justified-reformed-baptist-church"
+ },
+ {
+  "name": "Redeemer Church",
+  "city": "Demotte",
+  "state": "IN",
+  "zip": "46310",
+  "street": "5417 E State Road 10",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.redeemer-church-roselawn.org",
+  "pastors": [
+   "Pastor Joel Gilbert",
+   "Elder Bob Wheeler"
+  ],
+  "slug": "redeemer-church"
+ },
+ {
+  "name": "Calvary Baptist Church",
+  "city": "Yucca Valley",
+  "state": "CA",
+  "zip": "92284",
+  "street": "57175 Crestview Drive",
+  "denom": "Baptist",
+  "confession": "Undetermined",
+  "website": "http://www.calvarybaptistyv.com",
+  "pastors": [
+   "Pastor Casey Kuhlman"
+  ],
+  "slug": "calvary-baptist-church"
+ },
+ {
+  "name": "Faith Baptist Church",
+  "city": "Longview",
+  "state": "TX",
+  "zip": "75602",
+  "street": "4640 Southeast Loop 281",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://faithlongview.org/",
+  "pastors": [
+   "Elder David Webber"
+  ],
+  "slug": "faith-baptist-church"
+ },
+ {
+  "name": "Redemption City Church",
+  "city": "Rochester",
+  "state": "MN",
+  "zip": "55901",
+  "street": "1835 19th Avenue Northwest",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "https://www.redemptionrochester.com/",
+  "pastors": [
+   "Elder Adam Pohlman",
+   "Elder Jacob Tonak",
+   "Elder Justin Opperman",
+   "Elder Kurtis Amundson",
+   "Elder Matt Fisher",
+   "Elder Kevin Amundson"
+  ],
+  "slug": "redemption-city-church"
+ },
+ {
+  "name": "Trinity Presbyterian Church",
+  "city": "Waukesha",
+  "state": "WI",
+  "zip": "53188",
+  "street": "224 North Hine Avenue",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "trinitypresbyterianwi.org",
+  "pastors": [
+   "Pastor Jeffrey Pennington",
+   "Elder Shane Peterson (Teaching)",
+   "Elder Kelly Dykema (Ruling)",
+   "Elder Adam Lombardo (Ruling)",
+   "Elder Samuel Pennington (Ruling)",
+   "Deacon Jim Hummel",
+   "Deacon Paul Leskinen",
+   "Deacon Steve Reich"
+  ],
+  "slug": "trinity-presbyterian-church"
+ },
+ {
+  "name": "Horicon Baptist Chuch",
+  "city": "Brant Lake",
+  "state": "NY",
+  "zip": "12815",
+  "street": "6676 New York 8",
+  "denom": "Non-Denominational",
+  "confession": "The New Hampshire Baptist Confession (1833)",
+  "website": "HoriconBaptist.com",
+  "pastors": [
+   "Pastor Taylor Callen"
+  ],
+  "slug": "horicon-baptist-chuch"
+ },
+ {
+  "name": "Oakland Baptist Church",
+  "city": "Canton",
+  "state": "TX",
+  "zip": "75103",
+  "street": "12468 Farm to Market Road 1255",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "Obcanton.org",
+  "pastors": [
+   "Pastor David Christine"
+  ],
+  "slug": "oakland-baptist-church"
+ },
+ {
+  "name": "Heritage Reformed Christian Fellowship",
+  "city": "Waterville",
+  "state": "ME",
+  "zip": "04901",
+  "street": "325 Main Street (Currently Meeting 21 Hussey Rd Albion Me)",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "The Heidelberg Catechism (1563)",
+  "website": "https://www.hrcfmaine.com/",
+  "pastors": [
+   "Elder Chad Nickless"
+  ],
+  "slug": "heritage-reformed-christian-fellowship"
+ },
+ {
+  "name": "Hague Baptist Church",
+  "city": "Gainesville",
+  "state": "FL",
+  "zip": "32653",
+  "street": "6725 NW 126th Ave",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://haguebaptist.church/",
+  "pastors": [
+   "Pastor Alex Lanou"
+  ],
+  "slug": "hague-baptist-church"
+ },
+ {
+  "name": "Lexington Baptist Church",
+  "city": "Corpus Christi",
+  "state": "TX",
+  "zip": "78415",
+  "street": "3525 South Padre Island Drive",
+  "denom": "Baptist",
+  "confession": "",
+  "website": "https://www.lbc-cc.org/",
+  "pastors": [
+   "Senior Pastor Adam Copeland"
+  ],
+  "slug": "lexington-baptist-church"
+ },
+ {
+  "name": "Church At Opelika",
+  "city": "Opelika",
+  "state": "AL",
+  "zip": "36801",
+  "street": "1901 B Waverly Pkwy,, AL 36801",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "",
+  "pastors": [
+   "Pastor Dr. Tom Tippett"
+  ],
+  "slug": "church-at-opelika"
+ },
+ {
+  "name": "Englewood Baptist Church",
+  "city": "Englewood",
+  "state": "NJ",
+  "zip": "07631",
+  "street": "320 Tenafly Road",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.ebcnj.com",
+  "pastors": [
+   "Elder Amos Gibello",
+   "Ron Abrahamsen"
+  ],
+  "slug": "englewood-baptist-church"
+ },
+ {
+  "name": "Redemption Bible Church",
+  "city": "Bellefontaine",
+  "state": "OH",
+  "zip": "43311",
+  "street": "169 County Road 32 N",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://rbcbellefontaine.com/",
+  "pastors": [
+   "Senior Pastor Dana Kidder",
+   "Pastor Ben Beaghan",
+   "Elder Steve Krumm",
+   "Elder Chad Lump",
+   "Elder Lee Jones"
+  ],
+  "slug": "redemption-bible-church"
+ },
+ {
+  "name": "Mendota Bible Church",
+  "city": "Mendota",
+  "state": "IL",
+  "zip": "61342",
+  "street": "4131 Illinois 251",
+  "denom": "Independent",
+  "confession": "Undetermined",
+  "website": "http://www.mendotabiblechurch.org",
+  "pastors": [
+   "Pastor Brian Kelly"
+  ],
+  "slug": "mendota-bible-church"
+ },
+ {
+  "name": "Dominion Church",
+  "city": "Anderson",
+  "state": "SC",
+  "zip": "29625",
+  "street": "902 Glenn Street",
+  "denom": "Presbyterian",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "",
+  "pastors": [
+   "Elder Kiley Waldrop",
+   "Elder John Huckabee"
+  ],
+  "slug": "dominion-church"
+ },
+ {
+  "name": "Christ Chapel of the Sangres",
+  "city": "Howard",
+  "state": "CO",
+  "zip": "81233",
+  "street": "8754 US Hwy 50",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "",
+  "pastors": [
+   "Pastor Kevin Minnett"
+  ],
+  "slug": "christ-chapel-of-the-sangres"
+ },
+ {
+  "name": "Scholls Community Church",
+  "city": "Hillsboro",
+  "state": "OR",
+  "zip": "97123",
+  "street": "24050 Southwest Scholls Ferry Road",
+  "denom": "Non-Denominational",
+  "confession": "1st London Baptist Confession (1644/46)",
+  "website": "https://www.schollschurch.com/",
+  "pastors": [
+   "Pastor Ezra Dunn",
+   "Pastor Jeff Henderson"
+  ],
+  "slug": "scholls-community-church"
+ },
+ {
+  "name": "Aletheia Church",
+  "city": "Indianapolis",
+  "state": "IN",
+  "zip": "46227",
+  "street": "7816 Madison Avenue",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.aletheiachurchindy.com",
+  "pastors": [
+   "Pastor James Farrar",
+   "Pastor Jared Ebert",
+   "Pastor David Hewitt"
+  ],
+  "slug": "aletheia-church"
+ },
+ {
+  "name": "Reformation Baptist Church",
+  "city": "Cedar City",
+  "state": "UT",
+  "zip": "84720",
+  "street": "1246 S 4575 W",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://rbcedarcity.com",
+  "pastors": [
+   "Interim Minister Miguel Alfaro",
+   "Interim Minister Klay Klemic"
+  ],
+  "slug": "reformation-baptist-church"
+ },
+ {
+  "name": "Faith Reformed Baptist Church",
+  "city": "Lovingston",
+  "state": "VA",
+  "zip": "22949",
+  "street": "86 Tanbark Plaza",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.faithreformedbaptistchurch.com/",
+  "pastors": [
+   "Elder Larry White",
+   "Elder Tom Girotti"
+  ],
+  "slug": "faith-reformed-baptist-church"
+ },
+ {
+  "name": "Frontline Community Church",
+  "city": "Powder Springs",
+  "state": "GA",
+  "zip": "30127",
+  "street": "",
+  "denom": "Reformed Baptist",
+  "confession": "1st London Baptist Confession (1644/46)",
+  "website": "",
+  "pastors": [
+   "Elder Jim Chipman"
+  ],
+  "slug": "frontline-community-church"
+ },
+ {
+  "name": "Trinity Church",
+  "city": "Bolivar",
+  "state": "MO",
+  "zip": "65613",
+  "street": "2578 Andersen Drive",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "The Three Forms of Unity",
+  "website": "https://www.trinitychurchswmo.com/",
+  "pastors": [
+   "Elder Ewing Sharp"
+  ],
+  "slug": "trinity-church"
+ },
+ {
+  "name": "Grace River City Church",
+  "city": "Sacramento",
+  "state": "CA",
+  "zip": "95834",
+  "street": "3854 Roseparke Way",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.gracerivercity.org",
+  "pastors": [
+   "Pastor Zong Moua"
+  ],
+  "slug": "grace-river-city-church"
+ },
+ {
+  "name": "Reformation Baptist Church",
+  "city": "Wetumpka",
+  "state": "AL",
+  "zip": "36092",
+  "street": "500 Alabama 170",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.rbcwetumpka.com/",
+  "pastors": [
+   "Pastor Dr. Brandon Scroggins"
+  ],
+  "slug": "reformation-baptist-church"
+ },
+ {
+  "name": "FBC Lake Waccamaw",
+  "city": "Lake Waccamaw",
+  "state": "NC",
+  "zip": "28450",
+  "street": "300 East Old Highway 74 76",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.fbclw.church",
+  "pastors": [
+   "Senior Pastor Matthew Tarpley"
+  ],
+  "slug": "fbc-lake-waccamaw"
+ },
+ {
+  "name": "Crossroad Church",
+  "city": "Earlham",
+  "state": "IA",
+  "zip": "50072",
+  "street": "18293 365th Street",
+  "denom": "Baptist",
+  "confession": "",
+  "website": "https://www.crossroad-church.com",
+  "pastors": [
+   "Elder Grant Brown (Vocational Elder)",
+   "Elder Matthew Wiese"
+  ],
+  "slug": "crossroad-church"
+ },
+ {
+  "name": "Lafayette Christian Church",
+  "city": "Alburnett",
+  "state": "IA",
+  "zip": "52202",
+  "street": "3196 Lafayette Road",
+  "denom": "Non-Denominational",
+  "confession": "",
+  "website": "https://lafayettechristianchurch.com/",
+  "pastors": [
+   "Pastor Jamie Smid"
+  ],
+  "slug": "lafayette-christian-church"
+ },
+ {
+  "name": "Downtown Mission Church",
+  "city": "Wausau",
+  "state": "WI",
+  "zip": "54403",
+  "street": "310 North 4th Street",
+  "denom": "Non-Denominational",
+  "confession": "",
+  "website": "Downtownmissionchurch.com",
+  "pastors": [
+   "Pastor Josh Holland",
+   "Pastor Chris Tillman"
+  ],
+  "slug": "downtown-mission-church"
+ },
+ {
+  "name": "Jacks Mountain Community Church",
+  "city": "Penns Creek",
+  "state": "PA",
+  "zip": "17862",
+  "street": "600 Walnut St",
+  "denom": "Baptist",
+  "confession": "The New Hampshire Baptist Confession (1833)",
+  "website": "http://www.jacksmountainchurch.com",
+  "pastors": [
+   "Pastor Jason Mitchell"
+  ],
+  "slug": "jacks-mountain-community-church"
+ },
+ {
+  "name": "Fellowship Reformed Church (PCA)",
+  "city": "Mount Pleasant",
+  "state": "MI",
+  "zip": "48858",
+  "street": "1730 East Pickard Street",
+  "denom": "Presbyterian Church in America (PCA)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://www.fellowshipreformedchurch.org",
+  "pastors": [
+   "Pastor Devon Rossman"
+  ],
+  "slug": "fellowship-reformed-church-pca"
+ },
+ {
+  "name": "Bee Ridge Baptist Church",
+  "city": "Sarasota",
+  "state": "FL",
+  "zip": "34233",
+  "street": "4210 Proctor Road",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "https://sites.google.com/view/beeridgesrq/home?authuser=0",
+  "pastors": [
+   "Elder David Hasbrouck"
+  ],
+  "slug": "bee-ridge-baptist-church"
+ },
+ {
+  "name": "Christ Canyon Fellowship",
+  "city": "Martin City",
+  "state": "MT",
+  "zip": "59926",
+  "street": "112 3rd Avenue South",
+  "denom": "Reformed",
+  "confession": "Reformed Evangelical Confession",
+  "website": "christcanyon.com",
+  "pastors": [
+   "Elder Elder Council"
+  ],
+  "slug": "christ-canyon-fellowship"
+ },
+ {
+  "name": "Antioch Reformed Baptist Church",
+  "city": "Attica",
+  "state": "MI",
+  "zip": "48412",
+  "street": "4594 Imlay City Rd",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://antiochreformed.org",
+  "pastors": [
+   "Pastor Brance Gillihan",
+   "Elder Paul Sauvé"
+  ],
+  "slug": "antioch-reformed-baptist-church"
+ },
+ {
+  "name": "Agape Fellowship",
+  "city": "Wasilla",
+  "state": "AK",
+  "zip": "99654",
+  "street": "600 Bear Cub Court",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "http://agapefellowshipak.com/",
+  "pastors": [
+   "Pastor Nathaniel Buck"
+  ],
+  "slug": "agape-fellowship"
+ },
+ {
+  "name": "First Baptist Church",
+  "city": "Coleman",
+  "state": "FL",
+  "zip": "33521",
+  "street": "2112 Central Avenue",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "",
+  "pastors": [
+   "Elder Travis Van Meter",
+   "Elder Cliff Sunday"
+  ],
+  "slug": "first-baptist-church"
+ },
+ {
+  "name": "First Baptist Church Puxico, MO",
+  "city": "Puxico",
+  "state": "MO",
+  "zip": "63960",
+  "street": "125 S. Turnbaugh",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "www.fbcpuxico.com",
+  "pastors": [
+   "Senior Pastor Justin Miller",
+   "Pastor Buddy Clinton",
+   "Elder Dustin Hodges",
+   "Elder Matthew Oliver",
+   "Elder Scotty Smothers",
+   "Elder Dusty Stroud",
+   "Elder Brandon Woolard"
+  ],
+  "slug": "first-baptist-church-puxico-mo"
+ },
+ {
+  "name": "Mayflower Hills Baptist Church",
+  "city": "Roanoke",
+  "state": "VA",
+  "zip": "24014",
+  "street": "3852 Rutrough Road SE",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "1st London Baptist Confession (1644/46)",
+  "website": "https://mayflowerbaptist.com/",
+  "pastors": [
+   "Pastor Steve Hall"
+  ],
+  "slug": "mayflower-hills-baptist-church"
+ },
+ {
+  "name": "Grace United Family Church",
+  "city": "Mechanicsville",
+  "state": "VA",
+  "zip": "23111",
+  "street": "7252 Beulah Church Road",
+  "denom": "Independent",
+  "confession": "The New Hampshire Baptist Confession (1833)",
+  "website": "http://www.graceunitedfamilychurch.org",
+  "pastors": [
+   "Pastor Glenn Hawkins"
+  ],
+  "slug": "grace-united-family-church"
+ },
+ {
+  "name": "Grace Bible Church",
+  "city": "San Diego",
+  "state": "CA",
+  "zip": "92111",
+  "street": "3520 Mt. Acadia Blvd",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.gbc-sd.org",
+  "pastors": [
+   "Pastor Steven Robinson",
+   "Pastor Aaron Ruis",
+   "Pastor Joshua Gonzalez"
+  ],
+  "slug": "grace-bible-church"
+ },
+ {
+  "name": "Clarkesville Reformed Baptist Church",
+  "city": "Clarkesville",
+  "state": "GA",
+  "zip": "30523",
+  "street": "1423 Washington Street",
+  "denom": "Independent Baptist",
+  "confession": "Undetermined",
+  "website": "https://www.clarkesvillereformedbaptist.com",
+  "pastors": [
+   "Elder Justin Freeman"
+  ],
+  "slug": "clarkesville-reformed-baptist-church"
+ },
+ {
+  "name": "Salem Reformed Baptist",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97301",
+  "street": "2321 25th Street Southeast",
+  "denom": "Reformed Baptist",
+  "confession": "",
+  "website": "https://www.salemreformedbaptist.org/",
+  "pastors": [
+   "Pastor Gustavo Barros"
+  ],
+  "slug": "salem-reformed-baptist"
+ },
+ {
+  "name": "Christ Covenant Fellowship",
+  "city": "Lynchburg",
+  "state": "VA",
+  "zip": "24502",
+  "street": "118 Davis Cup Road",
+  "denom": "Reformed Baptist",
+  "confession": "The New Hampshire Baptist Confession (1833)",
+  "website": "https://www.ccfva.org/",
+  "pastors": [
+   "Senior Pastor Tyler Cash",
+   "Elder Brandon Read",
+   "Elder Gabe Etzel",
+   "Elder John Tallman"
+  ],
+  "slug": "christ-covenant-fellowship"
+ },
+ {
+  "name": "Good News Bible Church",
+  "city": "Bellevue",
+  "state": "WI",
+  "zip": "54311",
+  "street": "1996 Commercial Way",
+  "denom": "Non-Denominational",
+  "confession": "",
+  "website": "https://www.GoodNewsBC.com",
+  "pastors": [
+   "Pastor John Fallahee"
+  ],
+  "slug": "good-news-bible-church"
+ },
+ {
+  "name": "Reformed Fellowship Knoxville",
+  "city": "Knoxville",
+  "state": "TN",
+  "zip": "37931",
+  "street": "1640 George Whittaker Ln.",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://reformedfellowshipknoxville.org/",
+  "pastors": [
+   "Elder Nick Blevins"
+  ],
+  "slug": "reformed-fellowship-knoxville"
+ },
+ {
+  "name": "Grace Chapel Reformed Baptist Church",
+  "city": "Argo",
+  "state": "AL",
+  "zip": "35173",
+  "street": "500 Commerce St.",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.gracechapelrbc.com/",
+  "pastors": [
+   "Pastor Traever Guingrich",
+   "Steve Seeley"
+  ],
+  "slug": "grace-chapel-reformed-baptist-church"
+ },
+ {
+  "name": "Lighthouse Church",
+  "city": "Louisburg",
+  "state": "NC",
+  "zip": "27549",
+  "street": "289 Franklin Plaza",
+  "denom": "Non-Denominational",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://www.facebook.com/LHC.Louisburg/",
+  "pastors": [
+   "Elder Jon Dorsey"
+  ],
+  "slug": "lighthouse-church"
+ },
+ {
+  "name": "Coram Deo Reformed Baptist Church",
+  "city": "Springfield",
+  "state": "MO",
+  "zip": "65807",
+  "street": "2333 W Dearborn St.",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://coramdeosgf.church/",
+  "pastors": [
+   "Elder Brandon Lansdown"
+  ],
+  "slug": "coram-deo-reformed-baptist-church"
+ },
+ {
+  "name": "Good Shepherd Bible Church",
+  "city": "Arvada",
+  "state": "CO",
+  "zip": "80003",
+  "street": "7090 W. 64th Avenue",
+  "denom": "Non-Denominational",
+  "confession": "",
+  "website": "https://www.goodshepherdbible.church",
+  "pastors": [
+   "Elder Jay Earl Krebs"
+  ],
+  "slug": "good-shepherd-bible-church"
+ },
+ {
+  "name": "Regency Baptist Church",
+  "city": "Arlington",
+  "state": "TX",
+  "zip": "76010",
+  "street": "311 E. Third St.",
+  "denom": "Independent Baptist",
+  "confession": "Undetermined",
+  "website": "www.regencybaptist.org",
+  "pastors": [
+   "Pastor Kevin Hymer"
+  ],
+  "slug": "regency-baptist-church"
+ },
+ {
+  "name": "Gospel Church Durango",
+  "city": "Durango",
+  "state": "CO",
+  "zip": "81301",
+  "street": "639 E. 2nd Ave.",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "The Gospel Coalition",
+  "website": "www.gospelchurchdurango.com",
+  "pastors": [
+   "Elder Tom Thiessen",
+   "Elder Tommy Meadows"
+  ],
+  "slug": "gospel-church-durango"
+ },
+ {
+  "name": "Pilgrim Baptist Church",
+  "city": "Cookeville",
+  "state": "TN",
+  "zip": "38506",
+  "street": "170 4th Avenue",
+  "denom": "Independent Baptist",
+  "confession": "Undetermined",
+  "website": "https://pilgrimbaptist.church/",
+  "pastors": [
+   "Pastor Jimmy Fortunato"
+  ],
+  "slug": "pilgrim-baptist-church"
+ },
+ {
+  "name": "Southside Baptist Church",
+  "city": "Winter Haven",
+  "state": "FL",
+  "zip": "33880",
+  "street": "1301 7th St SW",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "southsidewinterhaven.com",
+  "pastors": [
+   "Senior Pastor Johnathon Bush",
+   "Elder Jared Bennett"
+  ],
+  "slug": "southside-baptist-church"
+ },
+ {
+  "name": "Grace Baptist Church",
+  "city": "Whitewater",
+  "state": "KS",
+  "zip": "67154",
+  "street": "10907 K-196 Highway",
+  "denom": "Independent Baptist",
+  "confession": "",
+  "website": "http://gbcwhitewater.org",
+  "pastors": [
+   "Elder Ken Cook"
+  ],
+  "slug": "grace-baptist-church"
+ },
+ {
+  "name": "ACTS CHURCH of MARICOPA",
+  "city": "Maricopa",
+  "state": "AZ",
+  "zip": "85138",
+  "street": "43634 W McClelland Ct",
+  "denom": "Non-Denominational",
+  "confession": "Reformed Evangelical Confession",
+  "website": "https://www.actschurchmaricopa.com/",
+  "pastors": [
+   "Pastor Jonas Croissant"
+  ],
+  "slug": "acts-church-of-maricopa"
+ },
+ {
+  "name": "Home Fellowship of Baton Rouge",
+  "city": "Baton Rouge",
+  "state": "LA",
+  "zip": "70808",
+  "street": "Highland Road",
+  "denom": "Christian",
+  "confession": "",
+  "website": "https://www.homefellowship.net/",
+  "pastors": [
+   "Elder Zoe White"
+  ],
+  "slug": "home-fellowship-of-baton-rouge"
+ },
+ {
+  "name": "Church of the Triumphant King",
+  "city": "Weatherford",
+  "state": "TX",
+  "zip": "76086",
+  "street": "1225 Holland Lake Drive",
+  "denom": "Presbyterian",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://triumphantking.com",
+  "pastors": [
+   "Pastor Dane Jóhannsson"
+  ],
+  "slug": "church-of-the-triumphant-king"
+ },
+ {
+  "name": "Berean Reformed Baptist Church",
+  "city": "Osceola",
+  "state": "IN",
+  "zip": "46561",
+  "street": "58362 Beech Rd (Meeting at Shepherd's Heart Fellowship building)",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://brbcmichiana.com",
+  "pastors": [
+   "Pastor Kevin James"
+  ],
+  "slug": "berean-reformed-baptist-church"
+ },
+ {
+  "name": "Christ the King Church",
+  "city": "Greenville",
+  "state": "SC",
+  "zip": "29605",
+  "street": "1223 Grove Rd",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://www.christkingchurch.com/",
+  "pastors": [
+   "Pastor Michael Hansen",
+   "Elder John Crawford"
+  ],
+  "slug": "christ-the-king-church"
+ },
+ {
+  "name": "Grace Baptist Church",
+  "city": "Marshall",
+  "state": "MI",
+  "zip": "49068",
+  "street": "500 Cosmopolitan Ave",
+  "denom": "Independent Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "www.gracebaptistmarshall.com",
+  "pastors": [
+   "Senior Pastor Brandon Crawford"
+  ],
+  "slug": "grace-baptist-church"
+ },
+ {
+  "name": "First Baptist Church",
+  "city": "Bakersfield",
+  "state": "CA",
+  "zip": "90717",
+  "street": "26330 Hillcrest Ave",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://fbclomita.org/",
+  "pastors": [
+   "Pastor Rick Garland"
+  ],
+  "slug": "first-baptist-church"
+ },
+ {
+  "name": "Snoqualmie Valley Bible Church",
+  "city": "Carnation",
+  "state": "WA",
+  "zip": "98014",
+  "street": "32615 NE 45th St",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "http://www.svbible.church",
+  "pastors": [
+   "Pastor Aaron Stogner"
+  ],
+  "slug": "snoqualmie-valley-bible-church"
+ },
+ {
+  "name": "Mitchellville First Congregational Church",
+  "city": "Mitchellville",
+  "state": "IA",
+  "zip": "50169",
+  "street": "211 Park Ave NE",
+  "denom": "Protestant",
+  "confession": "",
+  "website": "",
+  "pastors": [
+   "Pastor Jeremiah Cooper"
+  ],
+  "slug": "mitchellville-first-congregational-church"
+ },
+ {
+  "name": "Covenant Baptist Church",
+  "city": "Maryville",
+  "state": "TN",
+  "zip": "37804",
+  "street": "2921 Sevierville Road",
+  "denom": "Reformed Baptist",
+  "confession": "1st London Baptist Confession (1644/46)",
+  "website": "https://www.covenantbaptistchurchbc.org/",
+  "pastors": [
+   "Pastor Cory Finton"
+  ],
+  "slug": "covenant-baptist-church"
+ },
+ {
+  "name": "FBC Bagdad",
+  "city": "Milton",
+  "state": "FL",
+  "zip": "32583",
+  "street": "4529 Forsyth Street",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://fbcbagdad.org/",
+  "pastors": [
+   "Pastor Stephen Ringl",
+   "Pastor Austin Huggins"
+  ],
+  "slug": "fbc-bagdad"
+ },
+ {
+  "name": "The Outpost Bible Church",
+  "city": "McHenry",
+  "state": "IL",
+  "zip": "60050",
+  "street": "3813 W. John Street",
+  "denom": "Evangelical Free",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "www.outpostbiblechurch.org",
+  "pastors": [
+   "Senior Pastor Alex Rodriguez"
+  ],
+  "slug": "the-outpost-bible-church"
+ },
+ {
+  "name": "Covenant Baptist Church",
+  "city": "Clarksville",
+  "state": "TN",
+  "zip": "37042",
+  "street": "150 Wallace Blvd",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://cbcclarksville.org/",
+  "pastors": [
+   "Pastor Ron Miller",
+   "Pastor Austin McCormick"
+  ],
+  "slug": "covenant-baptist-church"
+ },
+ {
+  "name": "Syracuse Baptist Church",
+  "city": "Syracuse",
+  "state": "IN",
+  "zip": "46567",
+  "street": "10013 North Syr-Webb Road",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.syracusebaptistchurch.com",
+  "pastors": [
+   "Pastor Tim Bushong",
+   "Pastor Kevin Minnett"
+  ],
+  "slug": "syracuse-baptist-church"
+ },
+ {
+  "name": "Lakeview Community Church",
+  "city": "Hamilton",
+  "state": "IN",
+  "zip": "46742",
+  "street": "3130 E. Bellefontaine Rd.",
+  "denom": "Evangelical Free",
+  "confession": "",
+  "website": "https://www.lakeviewhamilton.com/index.php",
+  "pastors": [
+   "Pastor Jess Jessup"
+  ],
+  "slug": "lakeview-community-church"
+ },
+ {
+  "name": "Covenant Orthodox Presbyterian Church",
+  "city": "Barre",
+  "state": "VT",
+  "zip": "05641",
+  "street": "249 Airport Rd",
+  "denom": "Orthodox Presbyterian Church (OPC)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://copcvt.org/",
+  "pastors": [
+   "Pastor Carl Durham"
+  ],
+  "slug": "covenant-orthodox-presbyterian-church"
+ },
+ {
+  "name": "Sovereign Grace Baptist Church",
+  "city": "Brunswick",
+  "state": "GA",
+  "zip": "31523",
+  "street": "50 Galloway Grove",
+  "denom": "Baptist",
+  "confession": "The New Hampshire Baptist Confession (1833)",
+  "website": "http://www.sgbcbrunswick.com",
+  "pastors": [
+   "Pastor David Green"
+  ],
+  "slug": "sovereign-grace-baptist-church"
+ },
+ {
+  "name": "Sojourn Church",
+  "city": "West Haven",
+  "state": "UT",
+  "zip": "84401",
+  "street": "4862 W 4000 S",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.sojournutah.net/",
+  "pastors": [
+   "Pastor Jeff Winters"
+  ],
+  "slug": "sojourn-church"
+ },
+ {
+  "name": "Woodland Family Church",
+  "city": "Sarona",
+  "state": "WI",
+  "zip": "54870",
+  "street": "N990 State Hwy 53",
+  "denom": "",
+  "confession": "",
+  "website": "https://woodlandfamilychurch.wordpress.com/",
+  "pastors": [
+   "Elder Rick Hargrave",
+   "Elder Scott Oberneder",
+   "Elder Matthew Johnson"
+  ],
+  "slug": "woodland-family-church"
+ },
+ {
+  "name": "Legacy Reformed Baptist Church",
+  "city": "East Grand Forks",
+  "state": "MN",
+  "zip": "56721",
+  "street": "See Website",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://legacyrbc.org/",
+  "pastors": [
+   "Elder Caleb Stomberg"
+  ],
+  "slug": "legacy-reformed-baptist-church"
+ },
+ {
+  "name": "First Family Church",
+  "city": "Antioch",
+  "state": "CA",
+  "zip": "94509",
+  "street": "3195 Contra Loma Blvd",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.firstfamily.us/",
+  "pastors": [
+   "Elder Paul Abeyta",
+   "Elder Nick Neves",
+   "Elder Ross Buchanan"
+  ],
+  "slug": "first-family-church"
+ },
+ {
+  "name": "Christ Fellowship Particular Baptist Chapel",
+  "city": "Paris",
+  "state": "TN",
+  "zip": "38242",
+  "street": "204 N Poplar St",
+  "denom": "Particular Baptist",
+  "confession": "The New Hampshire Baptist Confession (1833)",
+  "website": "https://www.christfellowshippbc.com",
+  "pastors": [
+   "Pastor Kenneth Glisch"
+  ],
+  "slug": "christ-fellowship-particular-baptist-chapel"
+ },
+ {
+  "name": "Redeemer Covenant Church",
+  "city": "Port Angeles",
+  "state": "WA",
+  "zip": "98362",
+  "street": "124 W. 9th St",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.redeemerportangeles.org/",
+  "pastors": [
+   "Elder Jeff Gonzales"
+  ],
+  "slug": "redeemer-covenant-church"
+ },
+ {
+  "name": "Christ Church Of New Albany, MS",
+  "city": "New Albany",
+  "state": "MS",
+  "zip": "38652",
+  "street": "600 Hamilton Drive",
+  "denom": "Baptist",
+  "confession": "null",
+  "website": "http://christchurchnewalbany.org/",
+  "pastors": [
+   "Pastor Chuck Baggett",
+   "Pastor John Snyder"
+  ],
+  "slug": "christ-church-of-new-albany-ms"
+ },
+ {
+  "name": "The Shepherd’s Church",
+  "city": "Chelmsford",
+  "state": "MA",
+  "zip": "01824",
+  "street": "10 Jean Ave",
+  "denom": "Non-Denominational",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://www.theshepherds.church/",
+  "pastors": [
+   "Elder Kendall Lankford",
+   "Elder Derrick Taylor"
+  ],
+  "slug": "the-shepherds-church"
+ },
+ {
+  "name": "Grace Community Church",
+  "city": "Las Cruces",
+  "state": "NM",
+  "zip": "88007",
+  "street": "2825 N. Main St.",
+  "denom": "Non-Denominational",
+  "confession": "The New Hampshire Baptist Confession (1833)",
+  "website": "https://www.gcclascruces.com/",
+  "pastors": [
+   "Pastor Justin Trevino"
+  ],
+  "slug": "grace-community-church"
+ },
+ {
+  "name": "Resurrection Presbyterian Church",
+  "city": "Peoria",
+  "state": "IL",
+  "zip": "61607",
+  "street": "905 South Maxwell Road",
+  "denom": "Presbyterian",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://respres.org/",
+  "pastors": [
+   "Interim Minister Roger Erber",
+   "Interim Minister Michael Elliott",
+   "Deacon Ashton Bandy"
+  ],
+  "slug": "resurrection-presbyterian-church"
+ },
+ {
+  "name": "Park Avenue Missionary Baptist Church",
+  "city": "Stuttgart",
+  "state": "AR",
+  "zip": "72160",
+  "street": "1901 S. Park Avenue",
+  "denom": "Baptist",
+  "confession": "Undetermined",
+  "website": "Www.parkavebc.com",
+  "pastors": [
+   "Pastor Heath Loftis"
+  ],
+  "slug": "park-avenue-missionary-baptist-church"
+ },
+ {
+  "name": "Grace Bible Church",
+  "city": "Cheyenne",
+  "state": "WY",
+  "zip": "82009",
+  "street": "9204 Yellowstone Rd",
+  "denom": "Independent",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.gracewy.org",
+  "pastors": [
+   "Pastor Mark Escalera Sr"
+  ],
+  "slug": "grace-bible-church"
+ },
+ {
+  "name": "Scandia Bible Church",
+  "city": "Poulsbo",
+  "state": "WA",
+  "zip": "98370",
+  "street": "16748 Scandia Road NW",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://scandiabiblechurch.org/",
+  "pastors": [
+   "Pastor Monty Simao",
+   "Pastor Josh Peglow",
+   "Pastor Keith Barker"
+  ],
+  "slug": "scandia-bible-church"
+ },
+ {
+  "name": "Hilltop Bible Church",
+  "city": "Arrington",
+  "state": "TN",
+  "zip": "37014",
+  "street": "10981 Spanntown Rd",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "https://www.hilltopbiblechurch.org",
+  "pastors": [
+   "Pastor JOHN FAST"
+  ],
+  "slug": "hilltop-bible-church"
+ },
+ {
+  "name": "Fellowship Baptist Church of Coney Island",
+  "city": "Brooklyn",
+  "state": "NY",
+  "zip": "11224",
+  "street": "2929 W 20th St, Brooklyn, NY",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.coneyfbc.com/",
+  "pastors": [
+   "Elder Angel Vega",
+   "Elder Robert Rubino"
+  ],
+  "slug": "fellowship-baptist-church-of-coney-island"
+ },
+ {
+  "name": "Christ Fellowship Bible Church",
+  "city": "Brentwood",
+  "state": "MO",
+  "zip": "63144",
+  "street": "9321 Litzsinger Road",
+  "denom": "Independent",
+  "confession": "Undetermined",
+  "website": "https://cfbcstl.org/",
+  "pastors": [
+   "Elder Geoffrey R. Kirkland",
+   "Elder Jarett Olivastro",
+   "Elder Randy Kirkland"
+  ],
+  "slug": "christ-fellowship-bible-church"
+ },
+ {
+  "name": "Central Baptist Church",
+  "city": "Honolulu",
+  "state": "HI",
+  "zip": "96822",
+  "street": "1217 Nehoa St",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.cbchi.org/",
+  "pastors": [
+   "Pastor Dalton Slavens"
+  ],
+  "slug": "central-baptist-church"
+ },
+ {
+  "name": "Iglesia Biblica de La Gracia",
+  "city": "Alexandria",
+  "state": "VA",
+  "zip": "22310",
+  "street": "5912 Franconia Rd",
+  "denom": "Baptist",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "https://ibdg.org/",
+  "pastors": [
+   "Pastor Josue Raimundo"
+  ],
+  "slug": "iglesia-biblica-de-la-gracia"
+ },
+ {
+  "name": "Grace Baptist Church",
+  "city": "Jackson",
+  "state": "MO",
+  "zip": "63755",
+  "street": "125 W. Main Street",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.gracebaptist-church.net/",
+  "pastors": [
+   "Elder David Brummel"
+  ],
+  "slug": "grace-baptist-church"
+ },
+ {
+  "name": "Family Of Faith Church",
+  "city": "Monee",
+  "state": "IL",
+  "zip": "60449",
+  "street": "6645 Steger Road",
+  "denom": "Reformed",
+  "confession": "The Three Forms of Unity",
+  "website": "http://fofc.org",
+  "pastors": [
+   "Senior Pastor David Feddes"
+  ],
+  "slug": "family-of-faith-church"
+ },
+ {
+  "name": "Trinity Church",
+  "city": "Coeur d'Alene",
+  "state": "ID",
+  "zip": "83814",
+  "street": "720 E Poplar Ave.",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.trinitycda.org",
+  "pastors": [
+   "Pastor Stuart Bryan",
+   "Elder Bob Dowers",
+   "Elder Ed MacBurnie"
+  ],
+  "slug": "trinity-church"
+ },
+ {
+  "name": "Four Winds Reformed Church",
+  "city": "Bono",
+  "state": "AR",
+  "zip": "72416",
+  "street": "5725 Hwy 168 W",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://fourwindsreformed.org",
+  "pastors": [
+   "Pastor Michael Kidd",
+   "Elder Collin Houseal"
+  ],
+  "slug": "four-winds-reformed-church"
+ },
+ {
+  "name": "Cincinnati Primitive Baptist Church",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45216",
+  "street": "128 Parkway Avenue",
+  "denom": "Primitive Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.cincinnatipbc.org",
+  "pastors": [
+   "Senior Pastor Lassarre BradleyJr.",
+   "Elder Tim Harris",
+   "Elder DavidM. Freeman",
+   "Associate Pastor Justin Huffman"
+  ],
+  "slug": "cincinnati-primitive-baptist-church"
+ },
+ {
+  "name": "Belle Center Reformed Presbyterian Church",
+  "city": "Belle Center",
+  "state": "OH",
+  "zip": "43310",
+  "street": "102 East Main Street",
+  "denom": "Baptist",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://bellecenterrpcna.com/",
+  "pastors": [
+   "Pastor Phil Pokras"
+  ],
+  "slug": "belle-center-reformed-presbyterian-church"
+ },
+ {
+  "name": "Grace Bible Presbyterian Church",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45241",
+  "street": "12060 Lebanon Road",
+  "denom": "Presbyterian",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://www.gracebpc.org",
+  "pastors": [
+   "Senior Pastor Jason Hutchinson",
+   "Elder Ken Waeber",
+   "Elder Jason Waeber",
+   "Elder Mike Sharpshair",
+   "Elder Jim Roughan",
+   "Elder Aaron Roberts",
+   "Elder Phil Resnick",
+   "Elder Christian Mastilak",
+   "Elder Pete Gross",
+   "Associate Pastor Casey Southerland"
+  ],
+  "slug": "grace-bible-presbyterian-church"
+ },
+ {
+  "name": "Providence Bible Church",
+  "city": "Beckley",
+  "state": "WV",
+  "zip": "25801",
+  "street": "655 Dry Hill Road",
+  "denom": "Reformed",
+  "confession": "Undetermined",
+  "website": "http://www.providencebible.com/",
+  "pastors": [
+   "Elder Jason Moore",
+   "Elder Will Smith",
+   "Elder Andrew Mackay"
+  ],
+  "slug": "providence-bible-church"
+ },
+ {
+  "name": "Landmark Church of Clermont County, Ohio",
+  "city": "Batavia",
+  "state": "OH",
+  "zip": "45103",
+  "street": "1450 Clough Pike",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.landmarkcares.org",
+  "pastors": [
+   "Elder Gary Farmer",
+   "Elder Brandon Little"
+  ],
+  "slug": "landmark-church-of-clermont-county-ohio"
+ },
+ {
+  "name": "Covenant Heritage Reformed Church",
+  "city": "Chesapeake",
+  "state": "VA",
+  "zip": "23321",
+  "street": "4420 East Road",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.covenantheritage.com",
+  "pastors": [
+   "Pastor Conrad Doskey"
+  ],
+  "slug": "covenant-heritage-reformed-church"
+ },
+ {
+  "name": "New Hope Baptist Church",
+  "city": "Goode",
+  "state": "VA",
+  "zip": "24556",
+  "street": "8270 East Lynchburg Salem Turnpike",
+  "denom": "Independent Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.newhopegoode.org/",
+  "pastors": [
+   "Senior Pastor Don Rice",
+   "Pastor Diego Freitas"
+  ],
+  "slug": "new-hope-baptist-church"
+ },
+ {
+  "name": "Stratford Presbyterian Church",
+  "city": "Stratford",
+  "state": "NJ",
+  "zip": "",
+  "street": "41 Warwick Road",
+  "denom": "Orthodox Presbyterian Church (OPC)",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://www.stratfordpres.org",
+  "pastors": [
+   "Senior Pastor MartinL. DawsonSr.",
+   "Pastor Richard Anderson",
+   "Elder James Luchs",
+   "Elder Ernest Zenone",
+   "Elder Joseph AbrahamIII"
+  ],
+  "slug": "stratford-presbyterian-church"
+ },
+ {
+  "name": "Lakeville Christian Fellowship",
+  "city": "Lakeville",
+  "state": "MA",
+  "zip": "",
+  "street": "1 Wind Rush Hollow Rd.",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.lakevillechristianfellowship.org",
+  "pastors": [
+   "Pastor Daniel Casieri",
+   "Elder William Kujanpaa"
+  ],
+  "slug": "lakeville-christian-fellowship"
+ },
+ {
+  "name": "The Reformed Bible Church In Central Virginia",
+  "city": "Appomattox",
+  "state": "VA",
+  "zip": "24522",
+  "street": "222 Harrell St.",
+  "denom": "Independent",
+  "confession": "The Canons of Dort (1619)",
+  "website": "https://reformedbiblechurch.net/",
+  "pastors": [
+   "Pastor Dr.PaulMichael Reymond"
+  ],
+  "slug": "the-reformed-bible-church-in-central-virginia"
+ },
+ {
+  "name": "Grace & Truth Reformed Presbyterian Church",
+  "city": "Harrisonburg",
+  "state": "VA",
+  "zip": "22801",
+  "street": "352 Neff Ave",
+  "denom": "Reformed Presbyterian Churches of North America (RPCNA)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.GraceAndTruthRPC.org",
+  "pastors": [
+   "Elder Paul Martin",
+   "Elder Jonathan Bucher",
+   "Elder David Merkel",
+   "Pastor Ryan Bever"
+  ],
+  "slug": "grace--truth-reformed-presbyterian-church"
+ },
+ {
+  "name": "Calvary Baptist Church",
+  "city": "Preston",
+  "state": "CT",
+  "zip": "06365",
+  "street": "97 Route 165",
+  "denom": "Baptist",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://calvarybaptistchurchct.com/",
+  "pastors": [
+   "Pastor Frank Lamont"
+  ],
+  "slug": "calvary-baptist-church"
+ },
+ {
+  "name": "Heritage Church",
+  "city": "Centerville",
+  "state": "TN",
+  "zip": "37033",
+  "street": "617 Lowe Branch Road",
+  "denom": "Baptist",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.heritagecenterville.org",
+  "pastors": [
+   "Pastor Marion Lovett"
+  ],
+  "slug": "heritage-church"
+ },
+ {
+  "name": "White Stone Family Bible Church",
+  "city": "Round Rock",
+  "state": "TX",
+  "zip": "78681",
+  "street": "16318 Great Oaks Drive",
+  "denom": "Reformed",
+  "confession": "",
+  "website": "http://www.whitestonefbc.org",
+  "pastors": [
+   "Senior Pastor Brett Adams",
+   "Interim Minister Mark McIlheran"
+  ],
+  "slug": "white-stone-family-bible-church"
+ },
+ {
+  "name": "Grace Chapel Primitive Baptist Church",
+  "city": "Memphis",
+  "state": "TN",
+  "zip": "38122",
+  "street": "828 Berclair",
+  "denom": "Primitive Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "",
+  "pastors": [
+   "Pastor Zach Guess"
+  ],
+  "slug": "grace-chapel-primitive-baptist-church"
+ },
+ {
+  "name": "Arbor Heights Bible Church",
+  "city": "Douglasville",
+  "state": "GA",
+  "zip": "30135",
+  "street": "3506 Reynolds Rd.",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.arborheightsbc.com",
+  "pastors": [
+   "Pastor Matt Rayburn"
+  ],
+  "slug": "arbor-heights-bible-church"
+ },
+ {
+  "name": "North Gabriel Christian Assembly",
+  "city": "Cedar Park",
+  "state": "TX",
+  "zip": "78613",
+  "street": "",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://northgabriel.org",
+  "pastors": [
+   "Elder Don Hart",
+   "Clayton Walden",
+   "Bob Sarratt"
+  ],
+  "slug": "north-gabriel-christian-assembly"
+ },
+ {
+  "name": "Oak Hill Primitive Baptist Church",
+  "city": "Austin",
+  "state": "TX",
+  "zip": "78737",
+  "street": "11408 FM 1826",
+  "denom": "Primitive Baptist",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://www.oakhillpbc.org",
+  "pastors": [
+   "Pastor Richard Halbgewachs",
+   "Assistant Pastor Mark Huffman"
+  ],
+  "slug": "oak-hill-primitive-baptist-church"
+ },
+ {
+  "name": "Covenant Primitive Baptist Church",
+  "city": "Oak Ridge",
+  "state": "TN",
+  "zip": "37830",
+  "street": "161 Robertsville Rd, Ste D",
+  "denom": "Primitive Baptist",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://covenantpbc.wordpress.com/",
+  "pastors": [
+   "Elder Jimmy Barber"
+  ],
+  "slug": "covenant-primitive-baptist-church"
+ },
+ {
+  "name": "Ridgewood Church",
+  "city": "Port Arthur",
+  "state": "TX",
+  "zip": "77642",
+  "street": "2920 Lake Arthur Drive",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.ridgewoodchurch.us",
+  "pastors": [
+   "Elder Dustin Guidry",
+   "Elder Jamie Roberts",
+   "Elder Paul Gerstenberg",
+   "Elder David Gillespie"
+  ],
+  "slug": "ridgewood-church"
+ },
+ {
+  "name": "Lighthouse",
+  "city": "Antioch",
+  "state": "TN",
+  "zip": "37013",
+  "street": "5100 Blue Hole Rd",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "https://lighthousenoon.wordpress.com/",
+  "pastors": [
+   "Pastor Jeremy Mack"
+  ],
+  "slug": "lighthouse"
+ },
+ {
+  "name": "Mt. Zion Bible Church",
+  "city": "Pensacola",
+  "state": "FL",
+  "zip": "32505",
+  "street": "2603 W. Wright St.",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.chapellibrary.org/about/mt-zion-bible-church/",
+  "pastors": [
+   "Elder Austin Huggins",
+   "Elder Jeff Pollard"
+  ],
+  "slug": "mt-zion-bible-church"
+ },
+ {
+  "name": "Christ Covenant Reformed Presbyterian Church",
+  "city": "Wylie",
+  "state": "TX",
+  "zip": "75098",
+  "street": "702 Business Way",
+  "denom": "Presbyterian",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.christcovenantrpc.org/",
+  "pastors": [
+   "Pastor Rev. Dr. Todd Ruddell",
+   "Elder Carl R. Betsch",
+   "Elder L. Thomas Dillard"
+  ],
+  "slug": "christ-covenant-reformed-presbyterian-church"
+ },
+ {
+  "name": "Grace Family Bible Church",
+  "city": "Sand Springs",
+  "state": "OK",
+  "zip": "74063",
+  "street": "4432 S. 248th W. Avenue",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://gfbchurch.com/",
+  "pastors": [
+   "Elder Don VanBlaricom",
+   "Elder Michael Miller",
+   "Jimmy McAdams"
+  ],
+  "slug": "grace-family-bible-church"
+ },
+ {
+  "name": "Harmony Primitive Baptist Church",
+  "city": "Donaldson",
+  "state": "AR",
+  "zip": "71941",
+  "street": "413 N. Front Street",
+  "denom": "Primitive Baptist",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://www.harmonypbchurch.org",
+  "pastors": [
+   "Pastor Neil PhelanJr."
+  ],
+  "slug": "harmony-primitive-baptist-church"
+ },
+ {
+  "name": "Dominion Baptist",
+  "city": "Birmingham",
+  "state": "AL",
+  "zip": "35244",
+  "street": "2333 Valleydale Road",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.dominionbaptist.org",
+  "pastors": [
+   "Pastor Mark Liddle",
+   "Elder Shane Wolfe"
+  ],
+  "slug": "dominion-baptist"
+ },
+ {
+  "name": "Emmanuel Baptist Church",
+  "city": "Florence",
+  "state": "AL",
+  "zip": "35630",
+  "street": "4445 Chisholm Road",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.emmanuel-florence.org",
+  "pastors": [
+   "Pastor Dr.Daniel Michael"
+  ],
+  "slug": "emmanuel-baptist-church"
+ },
+ {
+  "name": "Heritage Family Church",
+  "city": "Pell City",
+  "state": "AL",
+  "zip": "35125",
+  "street": "Wolf Creek Rd.",
+  "denom": "Non-Denominational",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "",
+  "pastors": [
+   "Elder Alan Hudson",
+   "Elder Craig Rice",
+   "Elder Steve Davis"
+  ],
+  "slug": "heritage-family-church"
+ },
+ {
+  "name": "Christ Church at Branch Cove",
+  "city": "Branchville",
+  "state": "AL",
+  "zip": "35120",
+  "street": "575 Branch Cove",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.christchurchbranchcove.org",
+  "pastors": [
+   "Elder Ted Phillips",
+   "Elder Keith Diamond",
+   "Elder Justin Wallick"
+  ],
+  "slug": "christ-church-at-branch-cove"
+ },
+ {
+  "name": "Grace Baptist Church",
+  "city": "West Blocton",
+  "state": "AL",
+  "zip": "35184",
+  "street": "4411 Grey Hill Road",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.thefamilyofgrace.org",
+  "pastors": [
+   "Elder Dr.Ben Character"
+  ],
+  "slug": "grace-baptist-church"
+ },
+ {
+  "name": "Alto Christian Reformed Church",
+  "city": "Waupun",
+  "state": "WI",
+  "zip": "53963",
+  "street": "N3631 County Hwy EE",
+  "denom": "Baptist",
+  "confession": "The Heidelberg Catechism (1563)",
+  "website": "http://www.altocrc.com",
+  "pastors": [
+   "Pastor Forsell Gappa"
+  ],
+  "slug": "alto-christian-reformed-church"
+ },
+ {
+  "name": "Crossroads Community Church",
+  "city": "New Berlin",
+  "state": "WI",
+  "zip": "53151",
+  "street": "4315 S. Moorland Rd.",
+  "denom": "Non-Denominational",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "https://crossroadswi.com/",
+  "pastors": [
+   "Pastor DavidC. York"
+  ],
+  "slug": "crossroads-community-church"
+ },
+ {
+  "name": "Grace Family Fellowship",
+  "city": "Chillicothe",
+  "state": "MO",
+  "zip": "64601",
+  "street": "1505 3rd Street",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.gracefamilyfellowship.info/",
+  "pastors": [
+   "Elder Nathan Zabka",
+   "Elder Ean Leppin"
+  ],
+  "slug": "grace-family-fellowship"
+ },
+ {
+  "name": "Crosspoint Fellowship",
+  "city": "Diamond",
+  "state": "MO",
+  "zip": "64840",
+  "street": "2051 Panda Road",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://cpfellowship.org/",
+  "pastors": [
+   "Elder Rick Harris",
+   "Elder Kent Egger",
+   "Pastor Greg Snow"
+  ],
+  "slug": "crosspoint-fellowship"
+ },
+ {
+  "name": "Maynardville Fellowship",
+  "city": "Maynardville",
+  "state": "TN",
+  "zip": "37807",
+  "street": "556 Hickory Star Road",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.maynardvillefellowship.com/",
+  "pastors": [
+   "Elder Matthew Cooke",
+   "Elder David Province",
+   "Elder Josh Woody"
+  ],
+  "slug": "maynardville-fellowship"
+ },
+ {
+  "name": "Briarwood Baptist Church",
+  "city": "Dixon",
+  "state": "MO",
+  "zip": "65459",
+  "street": "20355 Hobart Road",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.briarwoodbaptistdixon.com/",
+  "pastors": [
+   "Elder Jerry Green",
+   "Elder Joel Hunt"
+  ],
+  "slug": "briarwood-baptist-church"
+ },
+ {
+  "name": "Grace Presbyterian",
+  "city": "Troy",
+  "state": "TN",
+  "zip": "38260",
+  "street": "123 North Main",
+  "denom": "Presbyterian Church in America (PCA)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://www.facebook.com/GPCTroy/",
+  "pastors": [
+   "Pastor Billy McGarity",
+   "Elder Deon Barnes",
+   "Elder JK Jones",
+   "Elder Frank Dalton"
+  ],
+  "slug": "grace-presbyterian"
+ },
+ {
+  "name": "Church Of Christian Liberty",
+  "city": "Arlington Heights",
+  "state": "IL",
+  "zip": "60004",
+  "street": "502 W. Euclid Avenue",
+  "denom": "Independent",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://www.christianliberty.com",
+  "pastors": [
+   "Pastor Calvin Lindstrom",
+   "Elder Dr.Philip Bennett",
+   "Elder Philip Roos",
+   "Elder Andy Bennett"
+  ],
+  "slug": "church-of-christian-liberty"
+ },
+ {
+  "name": "Community Bible Church",
+  "city": "Swansea",
+  "state": "IL",
+  "zip": "62269",
+  "street": "4940 Benchmark Centre Drive",
+  "denom": "Baptist",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://www.cbcontheweb.org",
+  "pastors": [
+   "Pastor Steve Rogier"
+  ],
+  "slug": "community-bible-church"
+ },
+ {
+  "name": "Heritage Bible Fellowship - Fayetteville area",
+  "city": "Eastover",
+  "state": "NC",
+  "zip": "28312",
+  "street": "4184 Dunn Road",
+  "denom": "Non-Denominational",
+  "confession": "1st London Baptist Confession (1644/46)",
+  "website": "http://www.ourheritagefamily.org",
+  "pastors": [
+   "Elder Boyd Dellinger",
+   "Elder David Canady",
+   "Elder Steven Smith"
+  ],
+  "slug": "heritage-bible-fellowship--fayetteville-area"
+ },
+ {
+  "name": "New Geneva Community Church",
+  "city": "Paducah",
+  "state": "KY",
+  "zip": "42003",
+  "street": "433 Monroe St.",
+  "denom": "Presbyterian (ARP)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://newgenevapaducah.org/",
+  "pastors": [
+   "Pastor Don Watkins",
+   "Elder Kevin Myers",
+   "Elder Chris Myskowski"
+  ],
+  "slug": "new-geneva-community-church"
+ },
+ {
+  "name": "Grace Reformed Baptist Church",
+  "city": "Owensboro",
+  "state": "KY",
+  "zip": "42303",
+  "street": "800 Chuck Gray Court",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.grbco.org/",
+  "pastors": [
+   "Pastor Sam Waldron",
+   "Pastor Joe Wilson",
+   "Pastor Ben Carlson"
+  ],
+  "slug": "grace-reformed-baptist-church"
+ },
+ {
+  "name": "Community Baptist Church",
+  "city": "Fargo",
+  "state": "ND",
+  "zip": "58103",
+  "street": "3535 25th Street SW",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.cbcfargo.com",
+  "pastors": [
+   "Pastor Douglas VanderMeulen"
+  ],
+  "slug": "community-baptist-church"
+ },
+ {
+  "name": "First Baptist Church",
+  "city": "Granite Falls",
+  "state": "MN",
+  "zip": "56241",
+  "street": "1620 10th Ave.",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.firstbaptistgranitefalls.org",
+  "pastors": [
+   "Pastor Ryan Martin"
+  ],
+  "slug": "first-baptist-church"
+ },
+ {
+  "name": "Riverbend Bible Church",
+  "city": "Atchison",
+  "state": "KS",
+  "zip": "50452",
+  "street": "1145 Commercial St.",
+  "denom": "Non-Denominational",
+  "confession": "The Gospel of Jesus Christ - Evangelical Celebration (1999)",
+  "website": "",
+  "pastors": [
+   "Pastor Bob Flack"
+  ],
+  "slug": "riverbend-bible-church"
+ },
+ {
+  "name": "South Heights Baptist Church",
+  "city": "Sapulpa",
+  "state": "OK",
+  "zip": "74066",
+  "street": "23 East Wells Boulevard",
+  "denom": "Baptist",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://www.southheightsbaptist.com/",
+  "pastors": [
+   "Pastor Todd White"
+  ],
+  "slug": "south-heights-baptist-church"
+ },
+ {
+  "name": "Bible Presbyterian Church",
+  "city": "Lakeland",
+  "state": "FL",
+  "zip": "33809",
+  "street": "5635 N. Daughtery Rd.",
+  "denom": "Baptist",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://flbpc.org/our-churches-of-the-florida-presbytery/lakeland-bpc/",
+  "pastors": [
+   "Pastor Jim Blizzard"
+  ],
+  "slug": "bible-presbyterian-church"
+ },
+ {
+  "name": "Redeemer Presbyterian Church (PCA)",
+  "city": "Huntsville",
+  "state": "AL",
+  "zip": "35801",
+  "street": "605 Clinton Ave. E",
+  "denom": "Baptist",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://www.redeemerpca.org/",
+  "pastors": [],
+  "slug": "redeemer-presbyterian-church-pca"
+ },
+ {
+  "name": "Grace Gospel Fellowship",
+  "city": "Hamilton",
+  "state": "MT",
+  "zip": "59840",
+  "street": "2nd St and Desmet",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.gracegospelmontana.com",
+  "pastors": [],
+  "slug": "grace-gospel-fellowship"
+ },
+ {
+  "name": "Word Of Truth Church",
+  "city": "Rainbow",
+  "state": "TX",
+  "zip": "76077",
+  "street": "5320 U.S. 67",
+  "denom": "Association of Free Lutheran Congregations (AFLC)",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://www.wordoftruthchurch.org/",
+  "pastors": [
+   "Pastor Dr.Ray Ballmann"
+  ],
+  "slug": "word-of-truth-church"
+ },
+ {
+  "name": "Heritage Baptist Church",
+  "city": "Blaine",
+  "state": "MN",
+  "zip": "55434",
+  "street": "8966 Pierce St. NE",
+  "denom": "Independent Baptist",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "http://www.heritagebaptistminnesota.org/",
+  "pastors": [
+   "Pastor David Watkins",
+   "Elder Karl Metzler"
+  ],
+  "slug": "heritage-baptist-church"
+ },
+ {
+  "name": "Sovereign Grace Church",
+  "city": "Casper",
+  "state": "WY",
+  "zip": "82601",
+  "street": "Comfort Inn Conference Room",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.sovereigngracechurch.com",
+  "pastors": [
+   "Elder Dr.Bob Griffin",
+   "Elder Jim Garbutt"
+  ],
+  "slug": "sovereign-grace-church"
+ },
+ {
+  "name": "Coram Deo Fellowship",
+  "city": "Lindsborg",
+  "state": "KS",
+  "zip": "67456",
+  "street": "1639 Smoky Valley Road",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://coramdeofellowship.org/",
+  "pastors": [
+   "Elder John Esping",
+   "Elder Wayne Kingsley"
+  ],
+  "slug": "coram-deo-fellowship"
+ },
+ {
+  "name": "Cornerstone Church",
+  "city": "Alexandria",
+  "state": "MN",
+  "zip": "",
+  "street": "202 7th Ave. East",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://cornerstoneofalexandria.com",
+  "pastors": [
+   "Pastor Darryl Knappen"
+  ],
+  "slug": "cornerstone-church"
+ },
+ {
+  "name": "Bethany Bible Church",
+  "city": "Big Lake",
+  "state": "MN",
+  "zip": "55309",
+  "street": "511 Eagle Lake Rd.",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.bethanybiblemn.org",
+  "pastors": [
+   "Pastor Mark Snider",
+   "Elder Erran Smith"
+  ],
+  "slug": "bethany-bible-church"
+ },
+ {
+  "name": "Holy Trinity Reformed Church",
+  "city": "Concord",
+  "state": "NC",
+  "zip": "28027",
+  "street": "3437 Trinity Church Road",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://htrchurch.com",
+  "pastors": [
+   "Pastor Brian BrianPhillips",
+   "Elder Marshall Joiner"
+  ],
+  "slug": "holy-trinity-reformed-church"
+ },
+ {
+  "name": "Rochester Reformed Presbyterian Church",
+  "city": "East Rochester",
+  "state": "NY",
+  "zip": "14445",
+  "street": "115 East Avenue",
+  "denom": "Reformed Presbyterian Churches of North America (RPCNA)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.rochesterrpc.com/",
+  "pastors": [
+   "Pastor Patrick Stefan",
+   "Elder Bill Pihl",
+   "Elder Greg Moberg",
+   "Elder Peter Robinson",
+   "Elder Geoff Shaw"
+  ],
+  "slug": "rochester-reformed-presbyterian-church"
+ },
+ {
+  "name": "Christ Covenant Church",
+  "city": "Copiague",
+  "state": "NY",
+  "zip": "11726",
+  "street": "67 Scudder Ave.",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "The Three Forms of Unity",
+  "website": "http://christcovenantchurch.weebly.com/",
+  "pastors": [
+   "Pastor Brian L. Penney"
+  ],
+  "slug": "christ-covenant-church"
+ },
+ {
+  "name": "Christ Reformed Evangelical Church",
+  "city": "Annapolis",
+  "state": "MD",
+  "zip": "21401",
+  "street": "1841 Generals Hwy",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.crecannapolis.com/",
+  "pastors": [
+   "Elder CJ Bowen",
+   "Elder Ken Trovato",
+   "Elder Terry Brennan"
+  ],
+  "slug": "christ-reformed-evangelical-church"
+ },
+ {
+  "name": "Grace Reformation Bible Church",
+  "city": "Princeton",
+  "state": "MA",
+  "zip": "01541",
+  "street": "18 Boylston Avenue Princeton, MA 01541",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.gracereformation.net",
+  "pastors": [
+   "Elder Marty Anderson",
+   "Elder Tony Lepore",
+   "Elder Ross MacDonald"
+  ],
+  "slug": "grace-reformation-bible-church"
+ },
+ {
+  "name": "Cornerstone Bible Church",
+  "city": "Lake Stevens",
+  "state": "WA",
+  "zip": "98258",
+  "street": "15533 75th St. NE",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "http://www.christourcornerstone.com",
+  "pastors": [
+   "Pastor Cary Green",
+   "Elder Chris Green",
+   "Elder David Cardenas"
+  ],
+  "slug": "cornerstone-bible-church"
+ },
+ {
+  "name": "Grace Bible Fellowship",
+  "city": "Anderson",
+  "state": "IN",
+  "zip": "46011",
+  "street": "1978 W. 375 North",
+  "denom": "Independent",
+  "confession": "Undetermined",
+  "website": "http://www.gbfanderson.com",
+  "pastors": [
+   "Pastor Patrick Eaks",
+   "Elder Tom Moran"
+  ],
+  "slug": "grace-bible-fellowship"
+ },
+ {
+  "name": "High County Baptist Church",
+  "city": "Colorado Springs",
+  "state": "CO",
+  "zip": "80916",
+  "street": "5525 Astrozon Blvd",
+  "denom": "Baptist",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://www.highcountrybaptist.org",
+  "pastors": [
+   "Pastor Jason Parker",
+   "Elder Justin Schluessler"
+  ],
+  "slug": "high-country-baptist-church"
+ },
+ {
+  "name": "Christ The King Church",
+  "city": "Springfield",
+  "state": "MO",
+  "zip": "65803",
+  "street": "2537 N. Broadway Ave.",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "The Three Forms of Unity",
+  "website": "http://www.christthekingkirk.com",
+  "pastors": [
+   "Pastor Jeremy Sexton"
+  ],
+  "slug": "christ-the-king-church"
+ },
+ {
+  "name": "Family Of Faith Fellowship",
+  "city": "Lena",
+  "state": "IL",
+  "zip": "61048",
+  "street": "",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "",
+  "pastors": [
+   "Elder Dan Caswell",
+   "Elder Dave Schexnayder"
+  ],
+  "slug": "family-of-faith-fellowship"
+ },
+ {
+  "name": "Dominion Covenant Church",
+  "city": "Omaha",
+  "state": "NE",
+  "zip": "68134",
+  "street": "6104 Irvington Road",
+  "denom": "Presbyterian",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.dominioncovenantchurch.com",
+  "pastors": [
+   "Elder Dr.Phillip Kayser",
+   "Elder Rodney Swab",
+   "Elder Gary Duff"
+  ],
+  "slug": "dominion-covenant-church"
+ },
+ {
+  "name": "Christ Church Of Morgantown",
+  "city": "Morgantown",
+  "state": "WV",
+  "zip": "26505",
+  "street": "437 Drummond Street",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "The Three Forms of Unity",
+  "website": "http://www.christchurchofmorgantown.org/",
+  "pastors": [
+   "Pastor Peter Jones",
+   "Elder Bill Oldland"
+  ],
+  "slug": "christ-church-of-morgantown"
+ },
+ {
+  "name": "Christ Reformed Baptist Church",
+  "city": "New Castle",
+  "state": "IN",
+  "zip": "47362",
+  "street": "2630 Woodward Ave.",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.crbc.faith",
+  "pastors": [
+   "Pastor Doug Barger"
+  ],
+  "slug": "christ-reformed-baptist-church"
+ },
+ {
+  "name": "Fresh Faith Church",
+  "city": "Knox",
+  "state": "IN",
+  "zip": "46534",
+  "street": "0880 E State Road 10",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "https://keehnfam.wixsite.com/freshfaithchurch",
+  "pastors": [
+   "Elder Deven Gurski",
+   "Elder Brad Nelson",
+   "Elder Jesse Keehn",
+   "Elder Robert Keehn"
+  ],
+  "slug": "fresh-faith-church"
+ },
+ {
+  "name": "Main Street Baptist Church",
+  "city": "Spindale",
+  "state": "NC",
+  "zip": "28160",
+  "street": "327 E Main St",
+  "denom": "Baptist",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "http://www.mainstreetspindale.com",
+  "pastors": [
+   "Pastor Dale DuBose",
+   "Elder Jay Poole",
+   "Elder Dr. Jack Green"
+  ],
+  "slug": "main-street-baptist-church"
+ },
+ {
+  "name": "Heritage Reformed Baptist Church",
+  "city": "Canton",
+  "state": "OH",
+  "zip": "44721",
+  "street": "5715 Market Ave N.",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://heritagerbc.com",
+  "pastors": [
+   "Elder Dan Detwiler",
+   "Elder Mike Waters"
+  ],
+  "slug": "heritage-reformed-baptist-church"
+ },
+ {
+  "name": "Grace Covenant Baptist Church",
+  "city": "McKinney",
+  "state": "TX",
+  "zip": "75070",
+  "street": "6633 Virginia Pkwy #102",
+  "denom": "Independent",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.gracelifedallas.org",
+  "pastors": [
+   "Pastor Phil George",
+   "Pastor Cory Shahan"
+  ],
+  "slug": "grace-covenant-baptist-church"
+ },
+ {
+  "name": "Kindred Bible Church",
+  "city": "Nampa",
+  "state": "ID",
+  "zip": "83687",
+  "street": "1604 Garrity Boulevard",
+  "denom": "Non-Denominational",
+  "confession": "The Gospel Coalition",
+  "website": "http://www.kindredbible.org",
+  "pastors": [
+   "Pastor Randy Reams",
+   "Elder Timothy Davidson",
+   "Elder Mike Ewrin",
+   "Elder Kristopher Wilson",
+   "Elder Glen Shelden"
+  ],
+  "slug": "kindred-bible-church"
+ },
+ {
+  "name": "Hillsboro Household Of Faith C.C.",
+  "city": "Hillsboro",
+  "state": "OR",
+  "zip": "97124",
+  "street": "5529 NW Five Oaks Dr.",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "http://www.hillsboro-hofcc.org/",
+  "pastors": [
+   "Elder David Poling",
+   "Elder John Pontier"
+  ],
+  "slug": "hillsboro-household-of-faith-cc"
+ },
+ {
+  "name": "Covenant Presbyterian Church",
+  "city": "Walla Walla",
+  "state": "WA",
+  "zip": "99362",
+  "street": "66 S Palouse St",
+  "denom": "Presbyterian Church in America (PCA)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://covenantwallawalla.org",
+  "pastors": [
+   "Pastor Ron Gonzales",
+   "Elder Chad Leinweber",
+   "Elder Jacob Schroeder"
+  ],
+  "slug": "covenant-presbyterian-church"
+ },
+ {
+  "name": "Ascension Presbyterian Church",
+  "city": "Longwood",
+  "state": "FL",
+  "zip": "32750",
+  "street": "151 West Church Ave.",
+  "denom": "Presbyterian",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.ascensionpresbyterian.com",
+  "pastors": [
+   "Pastor Christopher Brenyo",
+   "Pastor Mark Carley"
+  ],
+  "slug": "ascension-presbyterian-church"
+ },
+ {
+  "name": "Christ Church",
+  "city": "Spokane",
+  "state": "WA",
+  "zip": "99207",
+  "street": "228 E Gordon Ave.",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://ccspokane.com/",
+  "pastors": [
+   "Elder Kenton Spratt"
+  ],
+  "slug": "christ-church"
+ },
+ {
+  "name": "Grace Baptist Church Montgomery",
+  "city": "Montgomery",
+  "state": "AL",
+  "zip": "36117",
+  "street": "1825 Halcyon Blvd.",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "",
+  "pastors": [
+   "Elder Tom Ford",
+   "Elder Mike Tate"
+  ],
+  "slug": "grace-baptist-church-montgomery"
+ },
+ {
+  "name": "Sonlight Baptist Church",
+  "city": "Loganville",
+  "state": "GA",
+  "zip": "30052",
+  "street": "170 Line Street",
+  "denom": "Baptist",
+  "confession": "Undetermined",
+  "website": "http://www.sonlightbaptistchurch.org",
+  "pastors": [
+   "Senior Pastor Aaron Hawkins"
+  ],
+  "slug": "sonlight-baptist-church"
+ },
+ {
+  "name": "Westview Christian",
+  "city": "Amarillo",
+  "state": "TX",
+  "zip": "79109",
+  "street": "6810 Hillside Dr.",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.westviewcc.net",
+  "pastors": [
+   "Senior Pastor Russ Baker"
+  ],
+  "slug": "westview-christian"
+ },
+ {
+  "name": "Peace Baptist Church",
+  "city": "Germanton",
+  "state": "NC",
+  "zip": "27019",
+  "street": "1060 Advent Drive",
+  "denom": "Reformed Baptist",
+  "confession": "1st London Baptist Confession (1644/46)",
+  "website": "http://www.peacebaptistnc.com/",
+  "pastors": [
+   "Pastor Michael John Beasley"
+  ],
+  "slug": "peace-baptist-church"
+ },
+ {
+  "name": "Grace Bible Fellowship",
+  "city": "Mount Juliet",
+  "state": "TN",
+  "zip": "37122",
+  "street": "755 North Greenhill Road",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://gracemountjuliet.com/",
+  "pastors": [
+   "Pastor Mark Mann"
+  ],
+  "slug": "grace-bible-fellowship"
+ },
+ {
+  "name": "Evergreen Baptist Church",
+  "city": "Cashmere",
+  "state": "WA",
+  "zip": "98815",
+  "street": "5837 Evergreen Drive",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "www.christforcashmere.org",
+  "pastors": [
+   "Senior Pastor John Smith"
+  ],
+  "slug": "evergreen-baptist-church"
+ },
+ {
+  "name": "Living Water Bible Church",
+  "city": "Muskegon",
+  "state": "MI",
+  "zip": "49442",
+  "street": "460 Wood Street",
+  "denom": "Non-Denominational",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://livingwater-bc.com",
+  "pastors": [
+   "Elder Brad Olson",
+   "Pastor John Davidson",
+   "Elder Jason Van Andel"
+  ],
+  "slug": "living-water-bible-church"
+ },
+ {
+  "name": "Christ Community Church",
+  "city": "Monroe",
+  "state": "GA",
+  "zip": "30655",
+  "street": "2350 Highway 138",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "https://cccmonroe.org/",
+  "pastors": [
+   "Elder Carl Smith",
+   "Elder Scott Mosley"
+  ],
+  "slug": "christ-community-church"
+ },
+ {
+  "name": "Koinonia Church",
+  "city": "Magnolia",
+  "state": "TX",
+  "zip": "77354",
+  "street": "11510 FM 1488  Suite 500",
+  "denom": "Reformed Baptist",
+  "confession": "The Philadelphia Confession (1742)",
+  "website": "http://www.koinoniachurch.info",
+  "pastors": [
+   "Senior Pastor Dan Woody",
+   "Pastor Mark Brenon"
+  ],
+  "slug": "koinonia-church"
+ },
+ {
+  "name": "Gospel Fellowship Community Church",
+  "city": "Gladstone",
+  "state": "OR",
+  "zip": "97027",
+  "street": "1505 Rivergate School Road",
+  "denom": "Non-Denominational",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://www.gfcc.org",
+  "pastors": [
+   "Elder Steve Linden",
+   "Elder Duncan McClish",
+   "Elder Steve Rouse"
+  ],
+  "slug": "gospel-fellowship-community-church"
+ },
+ {
+  "name": "Manchester Community Church",
+  "city": "Port Orchard",
+  "state": "WA",
+  "zip": "98366",
+  "street": "7545 E. Madrone Ave",
+  "denom": "",
+  "confession": "",
+  "website": "http://manchesterministries.org/",
+  "pastors": [
+   "Senior Pastor David Eddy"
+  ],
+  "slug": "manchester-community-church"
+ },
+ {
+  "name": "Providence Baptist Church",
+  "city": "Lecanto",
+  "state": "FL",
+  "zip": "34461",
+  "street": "4471 W Sanction Rd.",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://pbcfl.org",
+  "pastors": [
+   "Elder Martin Hoffman",
+   "Elder Steve Watson"
+  ],
+  "slug": "providence-baptist-church"
+ },
+ {
+  "name": "Cliffwood Presbyterian",
+  "city": "Augusta",
+  "state": "GA",
+  "zip": "30906",
+  "street": "2525 Lumpkin Road",
+  "denom": "Presbyterian Church in America (PCA)",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://www.cliffwoodpca.com",
+  "pastors": [
+   "Pastor Geoff Gleason",
+   "Elder Jackson E Cox"
+  ],
+  "slug": "cliffwood-presbyterian"
+ },
+ {
+  "name": "Christ Church",
+  "city": "Radford",
+  "state": "VA",
+  "zip": "24141",
+  "street": "6226 University Park Drive",
+  "denom": "Baptist",
+  "confession": "The New Hampshire Baptist Confession (1833)",
+  "website": "http://www.christchurchradford.org/",
+  "pastors": [
+   "Elder Jamey Tucker",
+   "Pastor Anthony Mathenia",
+   "Elder Luke Nash"
+  ],
+  "slug": "christ-church"
+ },
+ {
+  "name": "Rain Bible Church",
+  "city": "Highland",
+  "state": "MI",
+  "zip": "48357",
+  "street": "2380 S Milford Rd",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "https://www.rainbiblechurch.com",
+  "pastors": [
+   "Pastor Mark Pyenta"
+  ],
+  "slug": "rain-bible-church"
+ },
+ {
+  "name": "Park Bible Baptist Church",
+  "city": "Pennsville",
+  "state": "NJ",
+  "zip": "08070",
+  "street": "95 Sparks Avenue",
+  "denom": "Baptist",
+  "confession": "Abstract of Principles (Baptist)",
+  "website": "http://www.parkbible.org",
+  "pastors": [
+   "Pastor Brian Henson"
+  ],
+  "slug": "park-bible-baptist-church"
+ },
+ {
+  "name": "Berean Family Church",
+  "city": "Tulsa",
+  "state": "OK",
+  "zip": "74116",
+  "street": "10513 East Admiral Place",
+  "denom": "Independent",
+  "confession": "Undetermined",
+  "website": "https://www.bereanfamily.org",
+  "pastors": [
+   "Pastor Guy Harrell"
+  ],
+  "slug": "berean-family-church"
+ },
+ {
+  "name": "Grace Reformed Baptist Church Simpsonville",
+  "city": "Fountain Inn",
+  "state": "SC",
+  "zip": "29644",
+  "street": "612 N Woods Drive",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://grace-reformed.com/",
+  "pastors": [
+   "Elder Ben Gardner"
+  ],
+  "slug": "grace-reformed-baptist-church"
+ },
+ {
+  "name": "Lincoln Community Bible Church",
+  "city": "Lincolnton",
+  "state": "NC",
+  "zip": "28092",
+  "street": "403 East Main Street",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://lincolncommunity.org/",
+  "pastors": [
+   "Elder Bruce King",
+   "Elder Alex Reese"
+  ],
+  "slug": "lincoln-community-bible-church"
+ },
+ {
+  "name": "Cornerstone Baptist Church",
+  "city": "Lowell",
+  "state": "AR",
+  "zip": "72745",
+  "street": "411 South Goad Springs Street",
+  "denom": "Baptist",
+  "confession": "The New Hampshire Baptist Confession (1833)",
+  "website": "https://www.cbcnwa.com",
+  "pastors": [
+   "Senior Pastor Dana Williams",
+   "Elder Eric Brace"
+  ],
+  "slug": "cornerstone-baptist-church"
+ },
+ {
+  "name": "The King's Chapel",
+  "city": "Brooklyn",
+  "state": "NY",
+  "zip": "11229",
+  "street": "2702 Quentin Rd",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "The Heidelberg Catechism (1563)",
+  "website": "http://kingschapelnyc.org",
+  "pastors": [
+   "Pastor Troy Greene"
+  ],
+  "slug": "the-kings-chapel"
+ },
+ {
+  "name": "New Hope Baptist Church",
+  "city": "Paris",
+  "state": "TX",
+  "zip": "75460",
+  "street": "3925 Loop 286 SE",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.newhopeparis.com/",
+  "pastors": [
+   "Pastor R. Kevin Moore"
+  ],
+  "slug": "new-hope-baptist-church"
+ },
+ {
+  "name": "Grace Bible Church",
+  "city": "Fairburn",
+  "state": "GA",
+  "zip": "30213",
+  "street": "6625 Campbellton Fairborn Rd.",
+  "denom": "Non-Denominational",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "https://www.gracebible.faith",
+  "pastors": [
+   "Elder David Crowe",
+   "Elder Frank Pass",
+   "Elder Matt Neal"
+  ],
+  "slug": "grace-bible-church"
+ },
+ {
+  "name": "Living Water Community Church",
+  "city": "Tracy",
+  "state": "CA",
+  "zip": "95304",
+  "street": "11176 West Larch Road, Tracy, CA 95376",
+  "denom": "Non-Denominational",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "",
+  "pastors": [
+   "Senior Pastor Argyl Dickson"
+  ],
+  "slug": "living-water-community-church"
+ },
+ {
+  "name": "Saint Mark Reformed Church",
+  "city": "Nashville",
+  "state": "TN",
+  "zip": "37220",
+  "street": "5200 Franklin Road",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "https://stmarkreformed.com/",
+  "pastors": [
+   "Elder David Hallman",
+   "Elder Marc Hays",
+   "Pastor Joe Thacker"
+  ],
+  "slug": "saint-mark-reformed-church"
+ },
+ {
+  "name": "Reformation Baptist Church",
+  "city": "Greeley",
+  "state": "CO",
+  "zip": "80631",
+  "street": "1300 9 Street",
+  "denom": "Independent Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://reformationbaptist.org/",
+  "pastors": [
+   "Pastor Steve Ong"
+  ],
+  "slug": "reformation-baptist-church"
+ },
+ {
+  "name": "Eastside Baptist Church",
+  "city": "Twin Falls",
+  "state": "ID",
+  "zip": "83301",
+  "street": "204 Eastland Drive North",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://EastsideBaptist.faith/",
+  "pastors": [
+   "Elder John Martinez",
+   "Senior Pastor Paul Thompson"
+  ],
+  "slug": "eastside-baptist-church"
+ },
+ {
+  "name": "Hope Fellowship",
+  "city": "Gatesville",
+  "state": "NC",
+  "zip": "27938",
+  "street": "76 Lewis Mill Rd.",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://hopegatesville.com/",
+  "pastors": [
+   "Pastor Kyle Truman"
+  ],
+  "slug": "hope-fellowship"
+ },
+ {
+  "name": "Covenant Baptist Church",
+  "city": "Gainesville",
+  "state": "GA",
+  "zip": "30501",
+  "street": "800 Georgia Ave.",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "http://www.covbc.org",
+  "pastors": [
+   "Pastor Todd Coble",
+   "Elder Shane Caylor"
+  ],
+  "slug": "covenant-baptist-church"
+ },
+ {
+  "name": "Burnet Bible Church",
+  "city": "Burnet",
+  "state": "TX",
+  "zip": "78611",
+  "street": "301 E Graves St.",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://burnetbiblechurch.com/",
+  "pastors": [
+   "Elder Steve Hopkins",
+   "Elder Eric Bechler"
+  ],
+  "slug": "burnet-bible-church"
+ },
+ {
+  "name": "Coastal Family Bible Church",
+  "city": "Bay City",
+  "state": "TX",
+  "zip": "77414",
+  "street": "3001 Golden Ave.",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://coastalfamily.tithelysetup.com/",
+  "pastors": [
+   "Elder Scott Mackebon",
+   "Elder Michael Chandler",
+   "Pastor Cody Burris",
+   "Elder Ray Ruley"
+  ],
+  "slug": "coastal-family-bible-church"
+ },
+ {
+  "name": "The Old Paths Christian Church",
+  "city": "El Paso",
+  "state": "TX",
+  "zip": "79936",
+  "street": "985 Loma Verde Dr.",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "",
+  "pastors": [],
+  "slug": "the-old-paths-christian-church"
+ },
+ {
+  "name": "Covenant Family Church",
+  "city": "Wentzville",
+  "state": "MO",
+  "zip": "63385",
+  "street": "968 Meyer Rd",
+  "denom": "Orthodox Presbyterian Church (OPC)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.covenantfamilychurch.net",
+  "pastors": [
+   "Pastor Peter Bringe",
+   "Elder Bruce Stahl"
+  ],
+  "slug": "covenant-family-church"
+ },
+ {
+  "name": "Rim of the World Community Church",
+  "city": "Running Springs",
+  "state": "CA",
+  "zip": "92382",
+  "street": "31116 Hilltop Blvd",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "https://rimcommunitychurch.com/",
+  "pastors": [
+   "Elder John Clemens",
+   "Pastor Michael Wieszchowski"
+  ],
+  "slug": "rim-of-the-world-community-church"
+ },
+ {
+  "name": "Dogwood Community Church",
+  "city": "Paoli",
+  "state": "IN",
+  "zip": "47454",
+  "street": "110 Doan Road",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "https://www.dogwoodcommunitychurch.com/",
+  "pastors": [
+   "Pastor Anthony Moore"
+  ],
+  "slug": "dogwood-community-church"
+ },
+ {
+  "name": "Saint Peter Presbyterian Church",
+  "city": "Bristol",
+  "state": "VA",
+  "zip": "24209",
+  "street": "571 Hwy 126",
+  "denom": "Non-Denominational",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://saintpeterpresbyterian.org/",
+  "pastors": [
+   "Elder Charles Humphrey",
+   "Pastor Steve Murphy",
+   "Pastor Wayne Hays",
+   "Senior Pastor Laurence Windham"
+  ],
+  "slug": "saint-peter-presbyterian-church"
+ },
+ {
+  "name": "New Beginnings Church",
+  "city": "Lynnwood",
+  "state": "WA",
+  "zip": "98037",
+  "street": "5300 168th st sw",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://nbc4me.org/",
+  "pastors": [
+   "Pastor Toby Logsdon"
+  ],
+  "slug": "new-beginnings-church"
+ },
+ {
+  "name": "Cornerstone Christian Fellowship",
+  "city": "SIENNA PLANT",
+  "state": "TX",
+  "zip": "77459",
+  "street": "9119 Sienna Ranch Road",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://cornerstonerbc.org/",
+  "pastors": [
+   "Elder Kris Lee",
+   "Elder Scott Head"
+  ],
+  "slug": "cornerstone-christian-fellowship"
+ },
+ {
+  "name": "Faith Chapel of Chillicothe",
+  "city": "Chillicothe",
+  "state": "OH",
+  "zip": "45601",
+  "street": "12913 Pleasant Valley Rd.",
+  "denom": "Non-Denominational",
+  "confession": "Reformed Evangelical Confession",
+  "website": "",
+  "pastors": [
+   "Pastor Thomas Kramer"
+  ],
+  "slug": "faith-chapel-of-chillicothe"
+ },
+ {
+  "name": "Covenant Reformed Baptist",
+  "city": "Easley",
+  "state": "SC",
+  "zip": "29640",
+  "street": "1709 Arial street",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.crbceasley.org/",
+  "pastors": [
+   "Elder Mark Powell"
+  ],
+  "slug": "covenant-reformed-baptist"
+ },
+ {
+  "name": "Five Solas Church",
+  "city": "Reedsburg",
+  "state": "WI",
+  "zip": "53959",
+  "street": "850 Clark Street",
+  "denom": "Orthodox Presbyterian Church (OPC)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://www.fivesolas.church/",
+  "pastors": [
+   "Pastor Christian McShaffrey"
+  ],
+  "slug": "five-solas-church"
+ },
+ {
+  "name": "Covenant Baptist Church",
+  "city": "West Columbia",
+  "state": "SC",
+  "zip": "29170",
+  "street": "3535 Delree St.",
+  "denom": "Reformed",
+  "confession": "1st London Baptist Confession (1644/46)",
+  "website": "http://www.covenantbaptistsc.org",
+  "pastors": [
+   "Elder Charles Swann"
+  ],
+  "slug": "covenant-baptist-church"
+ },
+ {
+  "name": "Grace Fellowship Baptist Church",
+  "city": "Lavonia",
+  "state": "GA",
+  "zip": "30553",
+  "street": "4547 Vickery Street",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "",
+  "pastors": [
+   "Elder Dr. Cham Dallas",
+   "Chris Vaughn"
+  ],
+  "slug": "grace-fellowship-baptist-church"
+ },
+ {
+  "name": "Power Of Grace",
+  "city": "Lilburn",
+  "state": "GA",
+  "zip": "30047",
+  "street": "3719 Wentworth Ln.",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "http://www.powerofgrace.org",
+  "pastors": [
+   "Elder George Clark",
+   "Elder Daniel Wexell"
+  ],
+  "slug": "power-of-grace"
+ },
+ {
+  "name": "Holy Trinity Reformed Evangelical Church",
+  "city": "Greenville",
+  "state": "SC",
+  "zip": "29607",
+  "street": "1800 E North Street",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "39 Articles",
+  "website": "https://www.holytrinityreformed.com",
+  "pastors": [
+   "Elder Bill McIlwain",
+   "Elder Jason Lollar",
+   "Elder Eddy Fiel"
+  ],
+  "slug": "holy-trinity-reformed-evangelical-church"
+ },
+ {
+  "name": "Atlanta Reformation Fellowship",
+  "city": "Tucker",
+  "state": "GA",
+  "zip": "30084",
+  "street": "",
+  "denom": "Baptist",
+  "confession": "1st London Baptist Confession (1644/46)",
+  "website": "http://www.atlantareformationfellowship.com",
+  "pastors": [
+   "Elder Steve Atkerson",
+   "Elder Chris Brown"
+  ],
+  "slug": "atlanta-reformation-fellowship"
+ },
+ {
+  "name": "Christ Bible Church",
+  "city": "Kingsport",
+  "state": "TN",
+  "zip": "37664",
+  "street": "4020 Fort Henry Dr.",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.christbiblechurchkingsport.com/",
+  "pastors": [
+   "Elder Damon Joseph"
+  ],
+  "slug": "christ-bible-church"
+ },
+ {
+  "name": "Cornerstone Bible Church (formerly Westside Baptist Church)",
+  "city": "Great Falls",
+  "state": "MT",
+  "zip": "59401",
+  "street": "3400 Central Avenue",
+  "denom": "Independent Baptist",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "http://www.cornerstonegf.org",
+  "pastors": [
+   "Elder David Odom",
+   "Elder Joseph Moyer"
+  ],
+  "slug": "cornerstone-bible-church-formerly-westside-baptist-church"
+ },
+ {
+  "name": "Christ Church of Livingston County",
+  "city": "Howell",
+  "state": "MI",
+  "zip": "48843",
+  "street": "114 South Walnut St.",
+  "denom": "Non-Denominational",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.christkirkmi.com",
+  "pastors": [
+   "Elder Cameron Mouro",
+   "Elder Greg Harmon",
+   "Pastor Steve Hemmeke"
+  ],
+  "slug": "christ-church-of-livingston-county"
+ },
+ {
+  "name": "Christ Community Church",
+  "city": "Pembroke Pines",
+  "state": "FL",
+  "zip": "33026",
+  "street": "12350 Sheridan St.",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Undetermined",
+  "website": "http://www.christcomchurch.org",
+  "pastors": [],
+  "slug": "christ-community-church"
+ },
+ {
+  "name": "Heritage",
+  "city": "Huntsville",
+  "state": "AL",
+  "zip": "35806",
+  "street": "390 Johns Rd.",
+  "denom": "Primitive Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.heritagepbc.org",
+  "pastors": [
+   "Senior Pastor Mike Stewart"
+  ],
+  "slug": "heritage"
+ },
+ {
+  "name": "Covenant Grace",
+  "city": "Perkins",
+  "state": "OK",
+  "zip": "74079",
+  "street": "House to House - Contact for current Wk.",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.cgchurchok.com/home",
+  "pastors": [
+   "Elder Phillip Cochran",
+   "Elder Dennis Ford"
+  ],
+  "slug": "covenant-grace"
+ },
+ {
+  "name": "Capital Heights Baptist Church",
+  "city": "Bismarck",
+  "state": "ND",
+  "zip": "58503",
+  "street": "4307 43rd Ave NE",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://chbaptist.org/",
+  "pastors": [
+   "Elder Mike Fix"
+  ],
+  "slug": "capital-heights-baptist-church"
+ },
+ {
+  "name": "Revolution 12 Church",
+  "city": "La Plata",
+  "state": "MD",
+  "zip": "20646",
+  "street": "7238 Glen Albin Rd",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "www.revolution12church.org",
+  "pastors": [
+   "Elder John Foster, Jr.",
+   "Elder Dennis Williamson"
+  ],
+  "slug": "revolution-12-church"
+ },
+ {
+  "name": "Christ House EC Church",
+  "city": "Ephrata",
+  "state": "PA",
+  "zip": "17522",
+  "street": "131 Terrave Ave.",
+  "denom": "Protestant",
+  "confession": "The Gospel of Jesus Christ - Evangelical Celebration (1999)",
+  "website": "http://christhouse.church/",
+  "pastors": [
+   "Pastor Timothy King"
+  ],
+  "slug": "christ-house-ec-church"
+ },
+ {
+  "name": "Reformation Church of Elizabeth",
+  "city": "Elizabeth",
+  "state": "CO",
+  "zip": "80107",
+  "street": "489 Rocky Cliff Circle",
+  "denom": "Presbyterian",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://www.reformationchurch.com/",
+  "pastors": [
+   "Pastor Joshua Schwisow",
+   "Pastor Todd Strawser",
+   "Pastor Kevin Swanson"
+  ],
+  "slug": "reformation-church-of-elizabeth"
+ },
+ {
+  "name": "Law of Liberty Baptist Church",
+  "city": "Jacksonville",
+  "state": "FL",
+  "zip": "32220",
+  "street": "485 Halsema Road North",
+  "denom": "Independent Baptist",
+  "confession": "Anti-Confessional",
+  "website": "http://lawoflibertybaptist.com",
+  "pastors": [
+   "Pastor Adam Fannin"
+  ],
+  "slug": "law-of-liberty-baptist-church"
+ },
+ {
+  "name": "Grace Bible Church of North Georgia",
+  "city": "Gainesville",
+  "state": "GA",
+  "zip": "30510",
+  "street": "2455 YMCA Drive",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.gbcng.org",
+  "pastors": [
+   "Elder John Redman",
+   "Elder Andrew Redman"
+  ],
+  "slug": "grace-bible-church-of-north-georgia"
+ },
+ {
+  "name": "Christ the Redeemer Church of Manhattan KS",
+  "city": "Manhattan",
+  "state": "KS",
+  "zip": "66502",
+  "street": "9050 Hwy. 24 E",
+  "denom": "Interdenominational",
+  "confession": "",
+  "website": "http://www.ctrchurch-mhk.org",
+  "pastors": [
+   "Elder Mark Linville",
+   "Elder Chip Zachary",
+   "Elder Nate Wilson"
+  ],
+  "slug": "christ-the-redeemer-church-of-manhattan-ks"
+ },
+ {
+  "name": "Basswood Church",
+  "city": "Knoxville",
+  "state": "TN",
+  "zip": "37919",
+  "street": "3611 Kingston Pike",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.basswoodchurch.net",
+  "pastors": [
+   "Elder Chris Jones",
+   "Elder Matt Hudson",
+   "Elder Rick Liles",
+   "Elder Ronnie Batchelor",
+   "Elder Monty Middlebrook"
+  ],
+  "slug": "basswood-church"
+ },
+ {
+  "name": "Beulah Primitive Baptist Church",
+  "city": "Leeds",
+  "state": "AL",
+  "zip": "35004",
+  "street": "1424 Ashville Rd.",
+  "denom": "Primitive Baptist",
+  "confession": "Undetermined",
+  "website": "http://leedschurch.com/",
+  "pastors": [
+   "Pastor Joshua Winslett"
+  ],
+  "slug": "beulah-primitive-baptist-church"
+ },
+ {
+  "name": "West Oaks Baptist Church",
+  "city": "Bryan",
+  "state": "TX",
+  "zip": "77807",
+  "street": "1901 West Villa Maria Rd.",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.westoaksbaptist.org/",
+  "pastors": [
+   "Pastor Joshua Loyd",
+   "Pastor Shawn Hobson"
+  ],
+  "slug": "west-oaks-baptist-church"
+ },
+ {
+  "name": "Grace Family Church",
+  "city": "Pearland",
+  "state": "TX",
+  "zip": "77581",
+  "street": "Meeting address: 3801 Liberty Drive",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.gfcpearland.com",
+  "pastors": [
+   "Elder Brian Jensen"
+  ],
+  "slug": "grace-family-church"
+ },
+ {
+  "name": "Grace Covenant Presbyterian Church",
+  "city": "Nacogdoches",
+  "state": "TX",
+  "zip": "75965",
+  "street": "3420 Piccadilly Circle",
+  "denom": "Presbyterian",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.gcov.org",
+  "pastors": [
+   "Elder David Alders",
+   "Elder Lee Hill",
+   "Pastor Randy Booth"
+  ],
+  "slug": "grace-covenant-presbyterian-church"
+ },
+ {
+  "name": "Woodland Christian Church",
+  "city": "Woodland",
+  "state": "WA",
+  "zip": "98674",
+  "street": "430 Buckeye Street",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://woodlandchristian.net/",
+  "pastors": [
+   "Senior Pastor Scott LaPierre",
+   "Pastor Nathan Richardson",
+   "Elder Andrew Criss",
+   "Elder Jake Motzkus"
+  ],
+  "slug": "woodland-christian-church"
+ },
+ {
+  "name": "Rocky Fork Primitive Baptist",
+  "city": "Columbia",
+  "state": "MO",
+  "zip": "65202",
+  "street": "8801 N Hwy Vv",
+  "denom": "Primitive Baptist",
+  "confession": "Undetermined",
+  "website": "http://www.rockyforkpb.org/",
+  "pastors": [
+   "Elder Jeff Cochran"
+  ],
+  "slug": "rocky-fork-primitive-baptist"
+ },
+ {
+  "name": "Hopewell Associate Reformed Presbyterian Church",
+  "city": "Culleoka",
+  "state": "TN",
+  "zip": "38451",
+  "street": "3886 Hopewell Rd",
+  "denom": "Presbyterian",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://hopewellarp.org",
+  "pastors": [
+   "Pastor James Hakim",
+   "Elder Charlie Mangum",
+   "Elder Jim Patterson",
+   "Elder David Rentschler"
+  ],
+  "slug": "hopewell-associate-reformed-presbyterian-church"
+ },
+ {
+  "name": "Fairpark Baptist Church",
+  "city": "Ft. Worth",
+  "state": "TX",
+  "zip": "76134",
+  "street": "6000 Crowley Rd.",
+  "denom": "Independent Baptist",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://www.fairparkbaptist.org/",
+  "pastors": [
+   "Pastor Jeff Rhoades",
+   "Associate Pastor Jeff Rhoades",
+   "Pastor Kevin Hymer"
+  ],
+  "slug": "fairpark-baptist-church"
+ },
+ {
+  "name": "LIBERTY BAPTIST CHURCH",
+  "city": "NORWALK",
+  "state": "CA",
+  "zip": "90650",
+  "street": "12029 PINE ST",
+  "denom": "Reformed Baptist",
+  "confession": "The New Hampshire Baptist Confession (1833)",
+  "website": "http://www.lbcfamily.church",
+  "pastors": [
+   "Pastor Jason Jasper",
+   "Pastor Kevin Cook",
+   "Pastor Max Graves"
+  ],
+  "slug": "liberty-baptist-church"
+ },
+ {
+  "name": "Canyon Bible Church",
+  "city": "Tijeras",
+  "state": "NM",
+  "zip": "87059-7351",
+  "street": "1342 NM 333, Suite D",
+  "denom": "Non-Denominational",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.CanyonBible.org",
+  "pastors": [
+   "Elder William Butler"
+  ],
+  "slug": "canyon-bible-church"
+ },
+ {
+  "name": "Hope Baptist Church",
+  "city": "Wake Forest",
+  "state": "NC",
+  "zip": "27587",
+  "street": "825 Averette Road",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://hopebaptistchurch.info/",
+  "pastors": [
+   "Elder Scott Brown",
+   "Elder Trent Moody"
+  ],
+  "slug": "hope-baptist-church"
+ },
+ {
+  "name": "Living Water Fellowship, Denver CO",
+  "city": "Wheat Ridge",
+  "state": "CO",
+  "zip": "80033",
+  "street": "11455 W. I-70 Frontage Road North",
+  "denom": "Non-Denominational",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://www.lwfdenver.org/",
+  "pastors": [
+   "Elder Joseph Graber"
+  ],
+  "slug": "living-water-fellowship-denver-co"
+ },
+ {
+  "name": "Antioch Baptist Church",
+  "city": "Gainesville",
+  "state": "FL",
+  "zip": "32609",
+  "street": "3612 NW 177th Ave.",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "https://www.churchatantioch.com/",
+  "pastors": [
+   "Pastor Daniel Kendall"
+  ],
+  "slug": "antioch-baptist-church"
+ },
+ {
+  "name": "Gracious Cross Reformed Church",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97305",
+  "street": "4132 Devonshire Court Northeast",
+  "denom": "Non-Denominational",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://graciouscross.org/",
+  "pastors": [
+   "Elder Brian Ray",
+   "Elder Terry Ferrando",
+   "Elder Gregg Harris"
+  ],
+  "slug": "gracious-cross-reformed-church"
+ },
+ {
+  "name": "Christ Presbyterian Church (Meeting at St. Stephen’s Episcopal Church)",
+  "city": "Lakeland",
+  "state": "FL",
+  "zip": "33813",
+  "street": "1820 East County Road 540A",
+  "denom": "Reformed Presbyterian Church US (RPCUS)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://thereignofchrist.com/",
+  "pastors": [
+   "Pastor Rev. Richard Glau (Presiding)"
+  ],
+  "slug": "christ-presbyterian-church-meeting-at-st-stephens-episcopal-church"
+ },
+ {
+  "name": "Cornerstone Bible Church",
+  "city": "Tucson",
+  "state": "AZ",
+  "zip": "85748",
+  "street": "10111 East Old Spanish Trail",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "http://www.cornerstonetucson.com",
+  "pastors": [
+   "Elder Joe Goodale",
+   "Pastor Al Addelman"
+  ],
+  "slug": "cornerstone-bible-church"
+ },
+ {
+  "name": "Corydon Baptist Church",
+  "city": "Corydon",
+  "state": "IN",
+  "zip": "47112",
+  "street": "2454 Hwy 337 NW",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "http://www.corydonbaptist.org/",
+  "pastors": [
+   "Pastor Keith McWhorter",
+   "Pastor Rick Griffin",
+   "Pastor Michael Wood"
+  ],
+  "slug": "corydon-baptist-church"
+ },
+ {
+  "name": "First Baptist Church",
+  "city": "Lomita",
+  "state": "CA",
+  "zip": "90717",
+  "street": "26366 Hillcrest Avenue",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://firstbaptistoflomita.com",
+  "pastors": [
+   "Pastor Jim Miller"
+  ],
+  "slug": "first-baptist-church"
+ },
+ {
+  "name": "Grace Reformed Family Church",
+  "city": "Queen Creek",
+  "state": "AZ",
+  "zip": "85242",
+  "street": "18911 East San Tan Blvd., Suite 121",
+  "denom": "Independent",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.grace4families.org",
+  "pastors": [
+   "Elder Michael Schlauder"
+  ],
+  "slug": "grace-reformed-family-church"
+ },
+ {
+  "name": "Legacy Baptist",
+  "city": "Coolidge",
+  "state": "AZ",
+  "zip": "85128",
+  "street": "615 W. Vah Ki Inn Rd.",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.legacybaptist.com",
+  "pastors": [
+   "Pastor Rob Hudelson"
+  ],
+  "slug": "legacy-baptist"
+ },
+ {
+  "name": "Oceanside United Reformed Church",
+  "city": "Carlsbad",
+  "state": "CA",
+  "zip": "92008",
+  "street": "2549 Ocean Street",
+  "denom": "Reformed",
+  "confession": "The Three Forms of Unity",
+  "website": "http://www.oceansideurc.org",
+  "pastors": [
+   "Pastor Rev. Dr. Danny Hyde"
+  ],
+  "slug": "oceanside-united-reformed-church"
+ },
+ {
+  "name": "Orange County Bible Church",
+  "city": "Irvine",
+  "state": "CA",
+  "zip": "92620",
+  "street": "2 Liberty (Sierra Vista Middle School)",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "http://www.ocbible.org",
+  "pastors": [
+   "Pastor Amos Lee"
+  ],
+  "slug": "orange-county-bible-church"
+ },
+ {
+  "name": "Parkside Church",
+  "city": "Carmichael",
+  "state": "CA",
+  "zip": "95608",
+  "street": "5748 North Avenue",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "http://www.parksidechurch.us",
+  "pastors": [
+   "Pastor Michael Fraga"
+  ],
+  "slug": "parkside-church"
+ },
+ {
+  "name": "Puritan Reformed Church",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85020",
+  "street": "1825 E Northern Ave, Suite 225",
+  "denom": "Reformed",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://www.puritanchurchphoenix.com/",
+  "pastors": [
+   "Elder David Reece"
+  ],
+  "slug": "puritan-reformed-church"
+ },
+ {
+  "name": "Redeemer Presbyterian Church",
+  "city": "Elk Grove",
+  "state": "CA",
+  "zip": "95758",
+  "street": "Laguna Town Hall, 3020 Renwick Ave.",
+  "denom": "Presbyterian",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://visitredeemer.org/",
+  "pastors": [
+   "Pastor George VanderDussen"
+  ],
+  "slug": "redeemer-presbyterian-church"
+ },
+ {
+  "name": "Reformed Heritage Church",
+  "city": "San Jose",
+  "state": "CA",
+  "zip": "95124",
+  "street": "5055 Lone Hill Rd.",
+  "denom": "Presbyterian",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://reformedheritage.org",
+  "pastors": [
+   "Elder Steven Loomis",
+   "Pastor Gary Wagner"
+  ],
+  "slug": "reformed-heritage-church"
+ },
+ {
+  "name": "Winnsboro Reformed Church",
+  "city": "Winnsboro",
+  "state": "TX",
+  "zip": "75494",
+  "street": "720 E. Coke Road",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://winnsboro-reformed.org/",
+  "pastors": [
+   "Elder Bill Simonds",
+   "Elder Jim Hollowell",
+   "Elder James Spurgeon"
+  ],
+  "slug": "winnsboro-reformed-church"
+ },
+ {
+  "name": "Calvary Reformation Church",
+  "city": "Chesapeake",
+  "state": "VA",
+  "zip": "23320",
+  "street": "740 Great Bridge Blvd.",
+  "denom": "Non-Denominational",
+  "confession": "The Augsburg Confession (1530)",
+  "website": "http://www.crcchesapeake.org/",
+  "pastors": [
+   "Elder Sam Moore",
+   "Elder Rod Vonner",
+   "Pastor Harry Profit",
+   "Pastor Jamal Hill",
+   "Senior Pastor Carlton McLeod"
+  ],
+  "slug": "calvary-reformation-church"
+ },
+ {
+  "name": "El Bethel Primitive Baptist Church",
+  "city": "TAMPA",
+  "state": "FL",
+  "zip": "33617",
+  "street": "11605 51st Street North",
+  "denom": "Primitive Baptist",
+  "confession": "Undetermined",
+  "website": "https://elbethelpbc.com/index.html",
+  "pastors": [
+   "Elder Jerry Williams"
+  ],
+  "slug": "el-bethel-primitive-baptist-church"
+ },
+ {
+  "name": "King Of Kings Christian Church (Suite 407)",
+  "city": "Jacksonville",
+  "state": "FL",
+  "zip": "32257",
+  "street": "5570 Florida Mining Boulevard South",
+  "denom": "Non-Denominational",
+  "confession": "The Gospel of Jesus Christ - Evangelical Celebration (1999)",
+  "website": "https://kingofkingschurch.us",
+  "pastors": [
+   "Pastor David Johnston"
+  ],
+  "slug": "king-of-kings-christian-church-suite-407"
+ },
+ {
+  "name": "Berea Baptist Church",
+  "city": "Knoxville",
+  "state": "TN",
+  "zip": "37912",
+  "street": "124 E. Inskip Drive",
+  "denom": "Baptist",
+  "confession": "Undetermined",
+  "website": "http://www.bereabc.org",
+  "pastors": [
+   "Pastor Michael Napier"
+  ],
+  "slug": "berea-baptist-church"
+ },
+ {
+  "name": "Chattanooga Primitive Baptist Church",
+  "city": "Chattanooga",
+  "state": "TN",
+  "zip": "37405",
+  "street": "811 Runyan Drive",
+  "denom": "Primitive Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.chattanoogapbc.org/",
+  "pastors": [
+   "Elder Andrew Huffman",
+   "Elder James Hindman"
+  ],
+  "slug": "chattanooga-primitive-baptist-church"
+ },
+ {
+  "name": "Mt Yonah Baptist Church",
+  "city": "Cleveland",
+  "state": "GA",
+  "zip": "30528",
+  "street": "882 Asbestos Rd",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "https://www.mtyonahbc.org/",
+  "pastors": [
+   "Senior Pastor Dan Crumley"
+  ],
+  "slug": "mt-yonah-baptist-church"
+ },
+ {
+  "name": "Christ Fellowship",
+  "city": "Louisville",
+  "state": "KY",
+  "zip": "40245",
+  "street": "16300 Eastwood Cut Off Rd",
+  "denom": "Non-Denominational",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "https://christfellowshiplouisville.wordpress.com",
+  "pastors": [
+   "Elder Curtis Durbin",
+   "Elder Brian O'Rear"
+  ],
+  "slug": "christ-fellowship"
+ },
+ {
+  "name": "Christ the King Church",
+  "city": "Centerville",
+  "state": "TN",
+  "zip": "37033",
+  "street": "111 N. Central Ave, Centerville",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "",
+  "pastors": [
+   "Elder Jonathan Tucker"
+  ],
+  "slug": "christ-the-king-church"
+ },
+ {
+  "name": "Liberty Bible Church",
+  "city": "Crittenden",
+  "state": "KY",
+  "zip": "41030",
+  "street": "115 South Main Street Suite 7",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "https://www.libertybiblechurchky.org/",
+  "pastors": [
+   "Pastor Scot Chadwick"
+  ],
+  "slug": "liberty-bible-church"
+ },
+ {
+  "name": "Generations of Faith Family Church",
+  "city": "Springtown",
+  "state": "TX",
+  "zip": "76082",
+  "street": "1711 N Hwy 51",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "",
+  "pastors": [
+   "Elder Glen Sutton",
+   "Elder Jay Sorah"
+  ],
+  "slug": "generations-of-faith-family-church"
+ },
+ {
+  "name": "Wellsprings Church (Nampa Christian Schools-Elementary Gym)",
+  "city": "Nampa",
+  "state": "ID",
+  "zip": "83605",
+  "street": "505 W Orchard Ave",
+  "denom": "",
+  "confession": "",
+  "website": "https://www.wellspringschurch.org",
+  "pastors": [],
+  "slug": "wellsprings-church-nampa-christian-schoolselementary-gym"
+ },
+ {
+  "name": "Covenant Bible Church",
+  "city": "Hiddenite",
+  "state": "NC",
+  "zip": "28636",
+  "street": "4679 Rocky Face Church Road",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.cbctaylorsville.com/",
+  "pastors": [
+   "Elder Tracy White",
+   "Elder Paul White"
+  ],
+  "slug": "covenant-bible-church"
+ },
+ {
+  "name": "Valley Reformed Fellowship",
+  "city": "Wasilla",
+  "state": "AK",
+  "zip": "99654",
+  "street": "1887 East Fairview Loop",
+  "denom": "Reformed",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://valleyfellowshipak.com",
+  "pastors": [
+   "Pastor Tait Zimmerman",
+   "Pastor Sean Barber"
+  ],
+  "slug": "valley-reformed-fellowship"
+ },
+ {
+  "name": "Shawnee Bible",
+  "city": "Shawnee",
+  "state": "OK",
+  "zip": "74804",
+  "street": "2100 E 45th",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "http://www.ShawneeBible.org",
+  "pastors": [
+   "Pastor Mike Massey"
+  ],
+  "slug": "shawnee-bible"
+ },
+ {
+  "name": "Grace Covenant Church",
+  "city": "Rock Hill",
+  "state": "SC",
+  "zip": "29730",
+  "street": "201 E. White Street",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://gracecovenantrh.org/",
+  "pastors": [
+   "Elder Mark Corral",
+   "Elder Charles Swann"
+  ],
+  "slug": "grace-covenant-church"
+ },
+ {
+  "name": "Church of the Word",
+  "city": "Fenton",
+  "state": "MO",
+  "zip": "63026",
+  "street": "1037 New Sugar Creek Road",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.cotwstl.org/",
+  "pastors": [
+   "Elder Matthew Sheffer",
+   "Elder Steven Benner",
+   "Elder Jerry Suermann"
+  ],
+  "slug": "church-of-the-word"
+ },
+ {
+  "name": "Church That Meets at Imran's House",
+  "city": "Thurmont",
+  "state": "MD",
+  "zip": "21788",
+  "street": "14821, Mud College Rd",
+  "denom": "Non-Denominational",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "",
+  "pastors": [
+   "Elder Imran Razvi"
+  ],
+  "slug": "church-that-meets-at-imrans-house"
+ },
+ {
+  "name": "Reformed Baptist Church of Auburn",
+  "city": "Auburn",
+  "state": "IN",
+  "zip": "46706",
+  "street": "1020 W Ensley Ave",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://rbcauburn.org/",
+  "pastors": [
+   "Elder Nathan Hyde (Preaching Elder)",
+   "Elder Rick Spear (Elder over Deacons)",
+   "Elder Stephen Hyde (Elder over Finances)",
+   "Elder Mike Gerhardt (Teaching Elder)",
+   "Elder Dane Rehil (Teaching Elder)"
+  ],
+  "slug": "reformed-baptist-church-of-auburn"
+ },
+ {
+  "name": "Westside Baptist Church",
+  "city": "Bremerton",
+  "state": "WA",
+  "zip": "98312",
+  "street": "5501 Werner Rd",
+  "denom": "Baptist",
+  "confession": "The New Hampshire Baptist Confession (1833)",
+  "website": "http://bibledirectionforlife.com",
+  "pastors": [
+   "Pastor Scott Hamilton",
+   "Pastor Peter Montoro",
+   "Pastor John Moss",
+   "Pastor Josh Bartels"
+  ],
+  "slug": "westside-baptist-church"
+ },
+ {
+  "name": "New Covenant Fellowship",
+  "city": "Bowling Green",
+  "state": "KY",
+  "zip": "42101",
+  "street": "2884 Louisville Road",
+  "denom": "Independent",
+  "confession": "",
+  "website": "https://ncfbg.faith/",
+  "pastors": [
+   "Pastor Gary Reckart",
+   "Elder Arthur Villaneuva"
+  ],
+  "slug": "new-covenant-fellowship"
+ },
+ {
+  "name": "Anchor Church",
+  "city": "Boothbay",
+  "state": "ME",
+  "zip": "04537",
+  "street": "102 Ocean Point Road",
+  "denom": "Non-Denominational",
+  "confession": "The Gospel Coalition",
+  "website": "https://www.anchorboothbay.com/",
+  "pastors": [
+   "Elder Roger Ferrell",
+   "Elder Daniel Bates"
+  ],
+  "slug": "anchor-church"
+ },
+ {
+  "name": "Wellspring Christian Fellowship",
+  "city": "Sabillasville",
+  "state": "MD",
+  "zip": "21780",
+  "street": "16827 Sabillasville Road",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "https://www.wcfs.edu/wellspring-christian-fellowship",
+  "pastors": [
+   "Elder Gary Cox"
+  ],
+  "slug": "wellspring-christian-fellowship"
+ },
+ {
+  "name": "Central Valley Presbyterian Church",
+  "city": "Ceres",
+  "state": "CA",
+  "zip": "95307",
+  "street": "2020 Academy Place",
+  "denom": "Presbyterian",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.centralvalleypresbyterian.org",
+  "pastors": [
+   "Elder Dave Langley",
+   "Elder Steve Walker",
+   "Elder David Gregg",
+   "Evangelist Bill Heyne",
+   "Evangelist Todd Adams"
+  ],
+  "slug": "central-valley-presbyterian-church"
+ },
+ {
+  "name": "Church Of The King",
+  "city": "Citrus Heights",
+  "state": "CA",
+  "zip": "95610",
+  "street": "7405 Mariposa Avenue",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "The Heidelberg Catechism (1563)",
+  "website": "http://cotks.org/",
+  "pastors": [
+   "Pastor Paul Liberati (Senior)",
+   "Pastor John Stoos (Associate)"
+  ],
+  "slug": "church-of-the-king"
+ },
+ {
+  "name": "Church of Cotati",
+  "city": "Cotati",
+  "state": "CA",
+  "zip": "94931",
+  "street": "8505 Park Ave.",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "http://www.churchofcotati.com",
+  "pastors": [
+   "Pastor Matt Luedecke"
+  ],
+  "slug": "church-of-cotati"
+ },
+ {
+  "name": "Grace Church of Temecula Valley",
+  "city": "Wildomar",
+  "state": "CA",
+  "zip": "92595",
+  "street": "Dunn Street",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.gracechurchoftemeculavalley.com/",
+  "pastors": [
+   "Elder Nicholas Ortega",
+   "Elder John Ellett"
+  ],
+  "slug": "grace-church-of-temecula-valley"
+ },
+ {
+  "name": "Shepherd’s Field Family Church",
+  "city": "Moundridge",
+  "state": "KS",
+  "zip": "67107",
+  "street": "515 W. Cole Street, P.O. Box 751,  Moundridge, KS",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.shepherdsfieldfc.com/",
+  "pastors": [
+   "Pastor John Wallace"
+  ],
+  "slug": "shepherds-field-family-church"
+ },
+ {
+  "name": "Providence Church",
+  "city": "Mansfield",
+  "state": "OH",
+  "zip": "44905",
+  "street": "1122 Grace Street",
+  "denom": "Reformed",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.free-reformed.net/",
+  "pastors": [
+   "Pastor Jamie Terry (Preaching Pastor)",
+   "Pastor Jim DeWeese",
+   "Pastor Joe Conkle",
+   "Pastor Derrill Wakefield"
+  ],
+  "slug": "providence-church"
+ },
+ {
+  "name": "Hopewell Church",
+  "city": "Ashland",
+  "state": "OH",
+  "zip": "44805",
+  "street": "1023 Elm Street",
+  "denom": "Independent",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://hopewellashland.com",
+  "pastors": [
+   "Pastor Matt Timmons"
+  ],
+  "slug": "hopewell-church"
+ },
+ {
+  "name": "Grace Life Church of Pryor",
+  "city": "Pryor",
+  "state": "OK",
+  "zip": "74361",
+  "street": "18 South Rowe Street",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "",
+  "pastors": [
+   "Senior Pastor Derek Melton",
+   "Pastor Jason Cummings (Associate Pastor)",
+   "Pastor Tommy Parker (Associate Pastor)"
+  ],
+  "slug": "grace-life-church-of-pryor"
+ },
+ {
+  "name": "Redeemer Baptist Church",
+  "city": "Jonesboro",
+  "state": "AR",
+  "zip": "72401",
+  "street": "528 West Monroe Avenue",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.redeemerbaptistjonesboro.org/",
+  "pastors": [
+   "Pastor Steven Dew",
+   "Pastor Craig Nichols",
+   "Pastor Adam Farmer"
+  ],
+  "slug": "redeemer-baptist-church"
+ },
+ {
+  "name": "Providence Baptist Church",
+  "city": "Bixby",
+  "state": "OK",
+  "zip": "74008",
+  "street": "8017 East 131st Street South",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.pbcbixby.org/",
+  "pastors": [
+   "Pastor Jarrod James"
+  ],
+  "slug": "providence-baptist-church"
+ },
+ {
+  "name": "Heritage Baptist Church",
+  "city": "Buckeye",
+  "state": "AZ",
+  "zip": "85326",
+  "street": "302 North 4th Street",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.heritagebaptistaz.org/#/welcome",
+  "pastors": [
+   "Elder Jason Young",
+   "Elder Mark Hubler"
+  ],
+  "slug": "heritage-baptist-church"
+ },
+ {
+  "name": "Providence Reformed Baptist Church",
+  "city": "Tallahassee",
+  "state": "FL",
+  "zip": "32308",
+  "street": "501 East Tennessee St",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.providencetallahassee.org/",
+  "pastors": [
+   "Elder Karlus Henry",
+   "Elder Adam Burrell"
+  ],
+  "slug": "providence-reformed-baptist-church"
+ },
+ {
+  "name": "Solid Rock Baptist Church",
+  "city": "Benton",
+  "state": "KY",
+  "zip": "42025",
+  "street": "3223 US-641",
+  "denom": "Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.sermonaudio.com/source_about.asp?sourceid=srbcaudio",
+  "pastors": [
+   "Pastor Kyle Reeder"
+  ],
+  "slug": "solid-rock-baptist-church"
+ },
+ {
+  "name": "Sovereign Redeemer Community Church",
+  "city": "Youngsville",
+  "state": "NC",
+  "zip": "27596",
+  "street": "703 Tarboro Road",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://sovereignredeemerchurch.com/",
+  "pastors": [
+   "Elder Jason Dohm",
+   "Elder James Lundquist"
+  ],
+  "slug": "sovereign-redeemer-community-church"
+ },
+ {
+  "name": "New Hope Bible Church",
+  "city": "Wichita",
+  "state": "KS",
+  "zip": "67204",
+  "street": "11215 W 13th St N",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.newhopebiblewichita.org",
+  "pastors": [
+   "Elder Kent Hobbs",
+   "Elder Brad Smisor",
+   "Elder Rusty Dunn",
+   "Elder Tom Lingg"
+  ],
+  "slug": "new-hope-bible-church"
+ },
+ {
+  "name": "Christ the King Church",
+  "city": "Louisville",
+  "state": "TN",
+  "zip": "37777",
+  "street": "1802 Airbase Road",
+  "denom": "Presbyterian Church in America (PCA)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "https://ctktn.org/",
+  "pastors": [
+   "Elder Nate Xanders",
+   "Elder Matt McCurdy",
+   "Elder Casey Coykendall",
+   "Elder Jeff White"
+  ],
+  "slug": "christ-the-king-church"
+ },
+ {
+  "name": "Christ Fellowship",
+  "city": "Brigham City",
+  "state": "UT",
+  "zip": "84302",
+  "street": "190 Kirk Place",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.christfellowshipslc.com",
+  "pastors": [
+   "Elder Javan Payne",
+   "Elder Adam Madden"
+  ],
+  "slug": "christ-fellowship"
+ },
+ {
+  "name": "Valley Baptist Church",
+  "city": "McMinnville",
+  "state": "OR",
+  "zip": "97128",
+  "street": "2631 NE McDonald Lane",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "www.macvalleybaptist.com",
+  "pastors": [
+   "Pastor Micah Cooksey"
+  ],
+  "slug": "valley-baptist-church"
+ },
+ {
+  "name": "Providence Church",
+  "city": "Marshall",
+  "state": "TX",
+  "zip": "75672",
+  "street": "101 Albemarle Road",
+  "denom": "Non-Denominational",
+  "confession": "1st London Baptist Confession (1644/46)",
+  "website": "www.ProvidenceMarshall.com",
+  "pastors": [
+   "Elder Jason",
+   "Elder Doug"
+  ],
+  "slug": "providence-church"
+ },
+ {
+  "name": "Hope Reformed Baptist Church",
+  "city": "Aloha",
+  "state": "OR",
+  "zip": "97078",
+  "street": "4455 Southwest 175th Avenue",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.hopereformedbaptist.org/",
+  "pastors": [
+   "Pastor Ben Habegger"
+  ],
+  "slug": "hope-reformed-baptist-church"
+ },
+ {
+  "name": "Redeeming Grace Church",
+  "city": "Soap Lake",
+  "state": "WA",
+  "zip": "98851",
+  "street": "22 Highway 28 W",
+  "denom": "Southern Baptist (SBC)",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "https://www.redeeming-grace-church.org/",
+  "pastors": [
+   "Pastor Jacob St Mary"
+  ],
+  "slug": "redeeming-grace-church"
+ },
+ {
+  "name": "Providence Christian Church",
+  "city": "Albuquerque",
+  "state": "NM",
+  "zip": "87124",
+  "street": "4135 Jackie Road",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://providencechristiannm.com",
+  "pastors": [
+   "Elder Dennis Haroldson"
+  ],
+  "slug": "providence-christian-church"
+ },
+ {
+  "name": "Cornerstone Reformed Baptist Church",
+  "city": "Harlem",
+  "state": "GA",
+  "zip": "30814",
+  "street": "345 N. Louisville St",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://cornerstonerbc.church/",
+  "pastors": [
+   "Pastor Paul Morris"
+  ],
+  "slug": "cornerstone-reformed-baptist-church"
+ },
+ {
+  "name": "Bread of Life Fellowship",
+  "city": "Wayne",
+  "state": "NJ",
+  "zip": "07470",
+  "street": "1559 Hamburg Turnpike",
+  "denom": "Independent",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://bolfellowship.org/",
+  "pastors": [
+   "Elder Joseph LoSardo",
+   "Elder Elias Adamo",
+   "Elder Ibrahim Haro"
+  ],
+  "slug": "bread-of-life-fellowship"
+ },
+ {
+  "name": "Grace and Truth Community Church",
+  "city": "Felton",
+  "state": "DE",
+  "zip": "19943",
+  "street": "12661 S Dupont Hwy",
+  "denom": "Non-Denominational",
+  "confession": "The New Hampshire Baptist Confession (1833)",
+  "website": "http://www.gtccde.org",
+  "pastors": [
+   "Elder Rick Hensley",
+   "Elder Chuck Pusey",
+   "Elder Leroy Demarest",
+   "Elder Sheldon Rennie"
+  ],
+  "slug": "grace-and-truth-community-church"
+ },
+ {
+  "name": "Christ Church Missoula",
+  "city": "Missoula",
+  "state": "MT",
+  "zip": "59804",
+  "street": "3020 South Avenue West",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://christchurchmissoula.org",
+  "pastors": [
+   "Elder Francis Foucachon",
+   "Elder Andrew Voelkel"
+  ],
+  "slug": "christ-church-missoula"
+ },
+ {
+  "name": "Gloria Deo Baptist Church",
+  "city": "Manhattan",
+  "state": "KS",
+  "zip": "",
+  "street": "3690 Kitten Creek Rd.",
+  "denom": "Independent",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "",
+  "pastors": [
+   "Elder Dan Swihart",
+   "Elder Matt Basel"
+  ],
+  "slug": "gloria-deo-baptist-church"
+ },
+ {
+  "name": "Oakridge Community Church",
+  "city": "Stillwater",
+  "state": "MN",
+  "zip": "55082",
+  "street": "610 County Road 5",
+  "denom": "Baptist",
+  "confession": "Undetermined",
+  "website": "https://www.oakridgecommunity.org/",
+  "pastors": [
+   "Elder Loren Hubin",
+   "Senior Pastor Seth Beyersdorf",
+   "Grant Bostrom",
+   "Chris Jones"
+  ],
+  "slug": "oakridge-community-church"
+ },
+ {
+  "name": "Harvest Bible Fellowship",
+  "city": "Pendleton",
+  "state": "IN",
+  "zip": "46064",
+  "street": "10010 S 50 W",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://hbfpendleton.org/",
+  "pastors": [
+   "Elder Shaun DuFault"
+  ],
+  "slug": "harvest-bible-fellowship"
+ },
+ {
+  "name": "Lindsey Chapel Baptist Church",
+  "city": "Eufaula",
+  "state": "OK",
+  "zip": "74432",
+  "street": "116389 S 4240 Rd",
+  "denom": "Baptist",
+  "confession": "Baptist Faith and Message (2000)",
+  "website": "https://www.facebook.com/LindseyChapelBaptist/",
+  "pastors": [
+   "Senior Pastor Tim Turner",
+   "Pastor Clay Turner"
+  ],
+  "slug": "lindsey-chapel-baptist-church"
+ },
+ {
+  "name": "Redeemer Church Lynnwood",
+  "city": "Lynnwood",
+  "state": "WA",
+  "zip": "98036",
+  "street": "19505 52nd Ave W",
+  "denom": "Communion of Reformed Evangelical Churches (CREC)",
+  "confession": "Reformed Evangelical Confession",
+  "website": "http://redeemerlynnwood.com/",
+  "pastors": [
+   "Elder Michael Kloss",
+   "Elder Joel Eby",
+   "Elder Jared Leslie"
+  ],
+  "slug": "redeemer-church-lynnwood"
+ },
+ {
+  "name": "Church Point Assembly",
+  "city": "Raceland",
+  "state": "LA",
+  "zip": "70394",
+  "street": "2022 Louisiana Highway 1",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "",
+  "pastors": [
+   "Elder Bill Hickman"
+  ],
+  "slug": "church-point-assembly"
+ },
+ {
+  "name": "Christ the King Presbyterian Church (PCA)",
+  "city": "Port St. Lucie",
+  "state": "FL",
+  "zip": "34953",
+  "street": "1204 SW Del Rio Blvd.",
+  "denom": "Presbyterian Church in America (PCA)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "www.christthekingpsl.com",
+  "pastors": [
+   "Pastor Andrew Cheatham"
+  ],
+  "slug": "christ-the-king-presbyterian-church-pca"
+ },
+ {
+  "name": "Providence Baptist Church",
+  "city": "Junction City",
+  "state": "KS",
+  "zip": "66441",
+  "street": "1220 W. 8th St",
+  "denom": "Reformed Baptist",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "https://www.providencebaptistjc.org",
+  "pastors": [
+   "Elder Ryan Sickenger",
+   "Elder Dwight Keptot",
+   "Elder Tom Befort"
+  ],
+  "slug": "providence-baptist-church"
+ },
+ {
+  "name": "View Crest Presbyterian Church (PCA)",
+  "city": "Eighty Four",
+  "state": "PA",
+  "zip": "15330",
+  "street": "883 Linden Road",
+  "denom": "Presbyterian Church in America (PCA)",
+  "confession": "Westminster Confession of Faith (1646)",
+  "website": "http://www.viewcrestchurch.org",
+  "pastors": [
+   "Pastor Shaun Nolan"
+  ],
+  "slug": "view-crest-presbyterian-church-pca"
+ },
+ {
+  "name": "Christ Fellowship Church – Naperville (CFC)",
+  "city": "Naperville",
+  "state": "IL",
+  "zip": "60540",
+  "street": "908 Jackson Avenue",
+  "denom": "Non-Denominational",
+  "confession": "Undetermined",
+  "website": "http://cfcaurora.org",
+  "pastors": [
+   "Bill Thrasher",
+   "Tom Davidsmeier",
+   "Kirk Smith"
+  ],
+  "slug": "christ-fellowship-church--naperville"
+ },
+ {
+  "name": "Elvaston Community Church",
+  "city": "Elvaston",
+  "state": "IL",
+  "zip": "62334",
+  "street": "109 E Ohio St.",
+  "denom": "Non-Denominational",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.elvastonchurch.org",
+  "pastors": [
+   "Elder Jacob Kramer",
+   "Elder Greg Dowdall",
+   "Elder Ethan Wollbrink",
+   "Pastor Doug Campbell"
+  ],
+  "slug": "elvaston-community-church"
+ },
+ {
+  "name": "Geneva Lakes Church",
+  "city": "Lake Geneva",
+  "state": "WI",
+  "zip": "53147",
+  "street": "610 Harmony Dr. (PO Box 307)",
+  "denom": "Independent",
+  "confession": "2nd London Baptist Confession (1689)",
+  "website": "http://www.genevalakes.org/",
+  "pastors": [
+   "Pastor Chris Law",
+   "Elder Jerry Hartlaub",
+   "Elder Gary Powers",
+   "Elder Joel Fell"
+  ],
+  "slug": "geneva-lakes-church"
+ }
+]

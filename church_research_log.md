@@ -3635,3 +3635,79 @@ Both promotions came from **rows already in the directory that had no pastor rec
 either church's own website would have surfaced them; the pastor's name was the key, and the name came
 from a *denominational roster*, not from the church. **A row with an empty leadership field is not a
 researched negative — it is an unopened door.**
+
+## 2026-08-06 — The NCFIC network, pulled whole. 405 family-integrated churches, and three matching bugs found by the pull.
+
+Directory **4,617 → 4,854**. The largest single source this project has taken.
+
+### Getting the list
+
+The **National Center for Family-Integrated Churches** (now Church & Family Life) had appeared
+**twelve times independently** across this session's research, and Kevin Swanson — promoted hours ago
+— is a contributor. Its church finder renders client-side, so the page yields nothing to a fetcher.
+The bundle did: `https://api.churchandfamilylife.com`, public and unauthenticated.
+
+`/churches?limit=2000` returns **1,608 records — and 1,148 of them are junk**: abandoned signups,
+including rows literally named "My Church" with no address and no leadership. The published directory
+is the **448 with `status: "open"`**, of which **405 are US** (44 are UK, New Zealand, Canada,
+Australia, Gambia — excluded under the US-only rule). 399 carry structured pastor names; 408 carry
+websites.
+
+**168 matched existing rows, 220 added, 17 added separately as name collisions.** Every row is
+`not_researched` with no stance — **membership is not a qualification**, and NCFIC is explicitly a
+network, not a denomination. What the listing *does* evidence is family integration: no age-segregated
+children's church or youth group, whole households in worship, formal affirmation of the Church &
+Family Life Declaration. That went in **`theologicalNotes` — the Editor's Note** — as asked.
+
+Family integration **correlates** with household patriarchy, one of the six markers. It is not
+evidence of it, and no `genderStance` was set from it.
+
+### Three matching bugs, all found by running the same data twice
+
+**1. Platform hosts.** I matched on website host. **48 rows in this directory record `facebook.com` as
+their website**; 20 record `sermonaudio.com`. A dry run duly matched Lindsey Chapel Baptist (Eufaula)
+to Redeemer Bible Church (Owasso) — *and* to Areopagus Norman, Morning Star Keota and Trinity Oktaha —
+because all five have a Facebook page. Platform hosts are now excluded. Host matching is *kept*,
+because it is the only thing that finds renames.
+
+**2. The county escape hatch.** My matcher treated any city containing "County" as a wildcard, so
+**Grace Bible Fellowship (Kern County) matched Grace Bible Church (San Diego)** — 200 miles apart.
+County rows now require a corroborating zip or host.
+
+**3. And then the tightened rule cost me a duplicate, in the same run.** #4019 Heritage Church carried
+"Hickman County"; the NCFIC record said "Centerville" — the **county seat** — with no zip or website
+on my side to corroborate. So the strict rule split them and I created **#4905**. Merged back into
+#4019, city repaired.
+
+> The lesson is not about the matcher. **A county in a city field breaks matching in both directions**
+> — loose rules produce false merges, strict rules produce false splits. The only real fix is to
+> repair the city. 83 such rows remain.
+
+I checked whether this had happened anywhere else in the import: **it had not** — Heritage was the only
+one.
+
+### A pastor's name was sitting in a city field
+
+**#3672 Oceanside United Reformed Church** had **`city = "Danny Hyde"`**. That is the pastor. It
+surfaced only because the NCFIC listing matched the congregation *by website host* and reported the
+real city: **Carlsbad**. Fixed, with the name preserved in leadership.
+
+Like the county rows, a bad city value **does not look like an error in any query** — it just silently
+drops the row out of every city-based match. That is the same failure mode, from a different cause.
+
+### Three names, one domain
+
+**#32 Grace Life Church of Dallas (McKinney)** and **#2627 Grace Life Church (Allen)** both record
+`gracelifedallas.org`, and NCFIC lists a **third** name on that host — Grace Covenant Baptist Church,
+McKinney. One is likely a rename or plant of another. **Nothing was merged or renamed**: both rows are
+flagged `possible_duplicate` for a pass that reads the site's own history. Grace Life Dallas is the
+congregation this project *already* wrongly dismissed once, before its pastor was searched, so it gets
+no inference.
+
+### The 17 name collisions
+
+An automated guard skipped any NCFIC church whose name already existed in that state. That guard is
+too blunt — "First Baptist Church" in Lomita and in Ripon are obviously different congregations. All 17
+were added with `name_collision` and the colliding row IDs written into the note, **so that nobody
+merges them later on the name alone, and so that if they do turn out to be one church, the collision is
+already written down.**
