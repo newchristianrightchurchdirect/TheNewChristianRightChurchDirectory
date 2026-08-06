@@ -612,3 +612,108 @@ worked**:
   service is civic rather than culture-war (Red Cross, NAMI, the city Human Relations Commission).
   A Louisiana pastor at a Texas abolition conference is possible but unconfirmed, and there is also a
   Christ Community Church in Frisco TX. **Do not record either until the right man is identified.**
+
+---
+
+# WHERE ELSE TO LOOK — source survey, 2026-08-05
+
+Ranked by the only thing that has actually predicted yield in this project: **does the source name
+PASTORS together with their CHURCHES?** Church websites have produced false negatives four times.
+Signature lists, speaker rosters and member directories have produced hundreds of rows.
+
+## TIER 1 — proven pattern, largely unworked
+
+### 1. The other equal-protection bill states. This is the biggest single opportunity left.
+
+Ohio's H.B. 370 pastoral petition alone produced **133 churches**. And Ohio is one of many:
+
+- **2025 session: at least 15 abolition bills in 13 states.**
+- **2026 session: 30+ prenatal-equal-protection / abolish-abortion bills across ~15 states.**
+- **Bradley Pierce of the Foundation to Abolish Abortion is the likely author of all of them** — one
+  man, one model bill, one network, replicated state by state.
+
+States named in reporting: **Georgia · Idaho · Iowa · Kansas · Kentucky · Missouri · South Carolina ·
+Texas · Indiana · North Dakota · Oklahoma · Ohio.** Iowa, Nebraska, Ohio and Missouri are done. **That
+leaves roughly eight states unworked.**
+
+**How to work each one:** find the state's abolition org, then find the page dedicated to *that state's
+bill* — that is where the pastor roster lives (`endabortionohio.com/pastoral-petition-hb370`,
+`abolishabortionmo.org/pastors-petition`). The org homepage never carries it. If no petition exists,
+try the bill's committee-hearing witness list, which is public and names churches.
+
+**Also mine the legislators.** Georgia reporting says **one in four Georgia lawmakers** backed the EP
+bill. Sponsors and co-sponsors have home churches, and several — Deevers, Silk, Hamilton, Anderson —
+are already in this directory.
+
+### 2. Sanctuary Cities for the Unborn — 95 cities and 22 counties
+
+Mark Lee Dickson's ordinance campaign, launched 2019. **He works explicitly through "pastors and
+elders and deacons,"** and every ordinance has a local church behind it and local press coverage
+naming the men who pushed it — exactly the local-press trace this project has learned to hunt (the
+Twin Falls library, Stuart Bryan's op-ed). Texas ~50 cities, Nebraska 8, New Mexico 3 cities + 2
+counties, Ohio 2, Iowa 1, Louisiana 1.
+
+Note **Mason, Ohio** passed one — and this directory already holds two Mason churches.
+
+## TIER 2 — network directories that name member churches
+
+3. **NCFIC / Church and Family Life church network.** **Twelve independent appearances** across this
+   directory now, more than any other network. Individual churches sit at
+   `churchandfamilylife.com/church-network/<id>` — the roster is browsable and has never been pulled
+   systematically.
+4. **The full CREC roster** (`crechurches.org/churches`) and its presbyteries — Kuyper, Knox, Anselm,
+   Athanasius. This directory holds dozens of CREC rows found one at a time; the list has never been
+   taken whole. *CREC membership does not qualify a church* — but it is a candidate list.
+5. **Founders Ministries church search** — recurs constantly and has never been mined as a list.
+6. **The small theonomic denominations' own rosters**: RPCGA, Reformed Presbyterian Church–Hanover
+   Presbytery, WPCUS, CPC, RCUS. These bodies are small enough to enumerate completely, and the
+   RPCUS work showed the lineage runs through them.
+
+## TIER 3 — institutional and media nodes
+
+7. **Fight Laugh Feast / CrossPolitic** conference and network rosters.
+8. **American Reformer** author list — Deevers and others already here write for it.
+9. **ACCS (Association of Classical Christian Schools) member schools** → their sponsoring churches.
+   Under the owner's education ruling this is movement-building, and Wilson's Logos School is the
+   template.
+10. **Whitefield Theological Seminary alumni** — surfaced on **eight** rows in a single day. Alumni
+    include Gary DeMar, Kenneth Gentry, George Grant, R.C. Sproul Sr.
+11. **Chalcedon Foundation** and **Center for Cultural Leadership** (P. Andrew Sandlin) contributor
+    lists.
+12. **The Future of Christendom Conference** roster (hosted by #4193) and
+    **unityofchristendom.org** (#4135).
+
+## TIER 4 — the category this project has never used: NEGATIVE evidence
+
+**Every source worked so far looks for reasons to say YES.** That is why 3,993 rows sit at `unknown`:
+absence of positive evidence is not evidence of absence, so nothing ever closes.
+
+There are large, formal, signed lists of pastors declaring the OPPOSITE position:
+
+- **Christians Against Christian Nationalism** — **40,000+ signers**, with signers in every state and
+  congressional district.
+- **"Say No to Christian Nationalism"** (saynotochristiannationalism.org) — **400+ pastors and faith
+  leaders**.
+- **Iowa faith leaders' letter, 2026** — 100+ signers including four bishops across 11 denominations.
+- Assorted clergy letters *supporting* abortion access (e.g. the 13 Missouri clergy plaintiffs).
+
+**A pastor who signed one of these is first-hand, attributable evidence that his church does not
+qualify** — the same class of evidence as an equal-protection signature, pointed the other way. It
+would let `unknown` rows resolve honestly into `limited_mission` or `quietist` **with a citation**,
+instead of being left unexamined forever.
+
+**Two cautions if this is taken up.** First, these lists are mostly mainline and would mainly confirm
+what the directory already assumes — the value is in the *overlap cases*, a church this project has
+flagged as a candidate whose pastor turns up on an anti-CN list. Second, and more important: **a
+signature against "Christian nationalism" is not a signature against every marker.** Many signers are
+pro-life. It evidences the CN marker specifically and must not be over-read into abolition,
+eschatology or patriarchy — the mirror image of the mistake made on Blake Gideon, where one document
+was read as a settled position.
+
+## What is NOT worth re-working
+
+- **The state abolition orgs' homepages.** Oklahoma, Alabama, North Carolina, Kansas and Liberty
+  Rising all publish petitions to be *signed*, not lists of who signed. Already checked.
+- **The 171-clergy Ohio Issue 1 letter.** Broad pro-life parental-rights coalition, list unpublished,
+  and it did not settle the row it was supposed to.
+- **Church websites as a starting point.** They are the fourth leg of the standard, not the first.
