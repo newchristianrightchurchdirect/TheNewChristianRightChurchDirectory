@@ -4267,3 +4267,68 @@ Korean-language site, **650 congregations**. It meets the conservative floor —
 — but it sits in a different cultural and political sphere from the movement this directory tracks. Its
 find-a-church page is an **Ultimate Member** directory (`um_directory`) that carries no addresses in the
 HTML and exposes nothing on a public REST route. Left for Dustin to call.
+
+## 2026-08-06 (night, last) — HRC and PRC. Both small, both misestimated, one only reachable through a 2013 archive.
+
+Directory **6,345 → 6,359**. Coverage rows now **632**. KAPC dropped at Dustin's instruction.
+
+### HRC — 7 US congregations, not the ~25 I estimated
+
+`heritagereformed.com` runs **Church Theme Content**, whose `ctc_location` post type is REST-exposed:
+`/wp-json/wp/v2/ctc_location` returns **12 locations**, each titled with a flag emoji — `🇺🇸 Conway,
+Arkansas`, `🇨🇦 Tillsonburg, Ontario`. **Five are Canadian.** Fetching the seven US location pages gave
+names, zips and pastors.
+
+**4 matched, 3 added.**
+
+That is the **third** time today a Dutch Reformed denomination's headline size turned out to be mostly
+Canadian — FRCNA was 23 of which 20 are Canadian, HRC is 12 of which 5 are. **A denomination's total
+size is worthless as an estimate of its US footprint for these bodies**, and my NAPARC gap table was
+wrong about all three for exactly that reason.
+
+### PRC — the live site is sealed, so the source is a 2013 snapshot
+
+`prca.org` sits behind a **Vercel security challenge** that returns **HTTP 429 to every anonymous
+fetcher on every path** — curl and WebFetch alike, including `/sitemap.xml`. The Wayback Machine's
+newest captures of the current site are **the challenge script itself** (`challenge.v2.wasm`) and a run
+of *"403 — the resource you are trying to access is private"* pages.
+
+The CDX index is what got past it. Querying `web.archive.org/cdx/search/cdx?url=prca.org*` returned
+4,000 archived URLs, among them `/about/listings/churches/usa-canada` — whose most recent usable
+capture is **28 September 2013**. That page carries the full congregation list with addresses:
+**28 congregations**, 14 of them in Michigan.
+
+**Every row built from it is flagged `denom_verify` and carries the caveat in its note.** Thirteen
+years is long enough for a congregation to close, move, merge or be renamed.
+
+**Two known post-snapshot congregations were added separately** — found because the archive's *own news
+index* carried items announcing them: **Zion PRC, Jenison MI (organised 2016)** and **Pittsburgh PRC,
+716 Atlantic Avenue**. There may be others; that is stated on the rows rather than assumed away.
+
+**19 matched, 11 added, 3 denominations corrected.**
+
+### Why the PRC is in the directory at all, written on every row
+
+It meets the conservative floor — it does not ordain women — but it is **doctrinally the opposite pole
+from most of this directory**. The PRC was founded in 1924 in a split from the Christian Reformed
+Church over **common grace, which it denies**. A denial of common grace points *away* from cultural
+transformation, so these congregations would be expected to classify `quietist` or `limited_mission`
+rather than `transformationalist`.
+
+**That is a prediction, not a finding.** No stance was set on any of them. Recording the expectation on
+the row is the point: when someone researches these later, they should be able to see what was
+anticipated and whether it held — rather than quietly confirming a guess that was never written down.
+
+### Coverage as it now stands
+
+| body | coverage rows added |
+|---|---:|
+| PCA | 487 |
+| ARP | 96 |
+| URCNA | 34 |
+| PRC | 11 |
+| HRC | 3 |
+| FRCNA | 1 |
+| **total** | **632** |
+
+Every one is `not_researched`, `stanceBasis` null, no stance, no marker.

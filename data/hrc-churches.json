@@ -1,0 +1,82 @@
+[
+ {
+  "name": "Heritage Reformed Congregation of Conway",
+  "city": "Conway",
+  "state": "AR",
+  "zip": "72032",
+  "street": "701 Garland St,",
+  "website": "https://gmpg.org/xfn/11",
+  "ministers": [
+   "Rev. David Lipsy"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Heritage Reformed Church of Plymouth",
+  "city": "Plymouth",
+  "state": "WI",
+  "zip": "53073",
+  "street": "1419 Roberts Place,",
+  "website": "https://gmpg.org/xfn/11",
+  "ministers": [
+   "Rev. Michael Fintelman"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Heritage Reformed Congregation of Hull",
+  "city": "Hull",
+  "state": "IA",
+  "zip": "51239",
+  "street": "1204 3rd St,",
+  "website": "https://gmpg.org/xfn/11",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Grace Reformed Christian Church of Harrison",
+  "city": "Harrison",
+  "state": "AR",
+  "zip": "72601",
+  "street": "6911 Highway 62 East,",
+  "website": "https://gmpg.org/xfn/11",
+  "ministers": [
+   "Rev. Terreth Klaver"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Heritage Reformed Congregation of Grand Rapids",
+  "city": "Grand Rapids",
+  "state": "MI",
+  "zip": "49503",
+  "street": "540 Crescent St NE,",
+  "website": "https://gmpg.org/xfn/11",
+  "ministers": [
+   "Rev. John Byl"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Heritage Reformed Congregation of New Jersey",
+  "city": "Kinnelon",
+  "state": "NJ",
+  "zip": "07405",
+  "street": "129 Boonton Avenue",
+  "website": "https://gmpg.org/xfn/11",
+  "ministers": [
+   "Rev. Reuel Xavier"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Florida Reformed Fellowship",
+  "city": "Bradenton",
+  "state": "FL",
+  "zip": "",
+  "street": "",
+  "website": "https://gmpg.org/xfn/11",
+  "ministers": [],
+  "vacant": true
+ }
+]
