@@ -4481,3 +4481,80 @@ looking like an error.**
 PCA 487 · ARP 96 · OPC 85 · RPCNA 50 · URCNA 34 · BPC 23 · PRC 11 · RBN 6 · HRC 3 · Presbyterian
 Reformed 2 · FRCNA 1 — **798 rows**, every one `not_researched`, `stanceBasis` null, no stance, no
 marker.
+
+## 2026-08-06 (closing) — The transformationalist history closed out, and the single_issue queue opened.
+
+### Every row that was ever a qualifier has now been examined
+
+**353 rows have at some point been marked transformationalist. 108 remain.** The audit trail accounts
+for all of them:
+
+| | |
+|---|---:|
+| now `single_issue` | 137 |
+| now `limited_mission` | 13 |
+| held as duplicates | 46 |
+| now `unknown` | 115 |
+| still transformationalist | 108 |
+
+**114 of the 115 sitting in `unknown` carry full individual research**, and their `unknown` is
+deliberate rather than a gap. The demotion note on that cohort read *"Qualified on an unverified
+third-party directory listing only; demoted pending individual research"* — and that research then ran
+and found, repeatedly, that **the sources do not exist**: #3276 Bethany Baptist, Tennille GA — *"NO
+PASTOR IS PUBLISHED anywhere reachable… a gap in the available sources, not in the search"*; #4189
+Ebenezer Christian Center, Tulsa — *"NOT LOCATED, WHICH IS ITSELF THE RESULT"*; #3270 Christ Church
+Lakeland — pastor departed January 2022, domain dead. **You cannot classify a congregation you were
+never able to read.**
+
+**The one genuine outstanding row, #4047 Broadview Church, Lubbock TX, is now closed.** Its pastor
+field read *"Pastor not confirmed online."* He is **Dr. David H. Rhoades**, and he is on the public
+record: he **addressed the Lubbock City Council** in support of the Sanctuary City for the Unborn
+ordinance, called the council's legal advice *"poor, and fundamentally incorrect"*, and argued Texas
+Penal Code section 1.07 and Government Code Title 10 ch. 22:72 to them directly. Lubbock passed it
+**62–38 in May 2021**, defining abortion as *"an act of murder"* — the abolitionist framing, not the
+incrementalist one. That confirms pro_abolition on evidence rather than on the AR-list import that
+first set it.
+
+But it is one question, so **single_issue**. And the row's own note admitted *"SBC defaults"*:
+eschatology amill and zionistStance "no", neither evidenced. **Both reset to unknown.** genderStance
+was left complementarian — not a guess, since the Baptist Faith and Message 2000 explicitly limits the
+pastoral office to men — but recorded as resting on the denomination's confession, not on anything
+this congregation has said.
+
+### And a count I refused to tidy
+
+**#5701 First Baptist Pollock** kept failing the "individually researched" test. Four words would have
+made it pass. **The honest answer is that it should fail**: its stance rests on Brian Gunter's public
+record — the bill, the mobilising, the resignation from civil office — read through FAA, the Baptist
+Message, Louisiana Right to Life and the legislature. **The church's own site and socials have never
+been read.** Two of four legs unwalked. Flagged as such rather than relabelled.
+
+### The single_issue queue
+
+**459 live single_issue rows; 141 already carried individual research; 318 did not** — every one of
+them signature_only, from the Ohio H.B. 370 (141), Kentucky H.B. 523 (105), Indiana (67) and Missouri
+(5) petitions. These are churches evidenced on one public question by a pastor's signature and never
+read on their own terms.
+
+**First eight done — all confirmed single_issue.** Confirmation is a result: the stance is unchanged
+but now rests on research, and signature_only is retired on each.
+
+Findings worth keeping from the first batch:
+
+- **#2922 Syracuse Baptist (Tim Bushong)** — he spent **eleven years as a founder and pastor of Trinity
+  Evangelical, Larwill (#3284)**, one of the three false negatives this project created and then caught
+  by a signature list. Two rows connected through one man, and neither knew it. His **TruthScript**
+  writing was checked and is church-facing — debate fallacies, COVID-era discipline, biblical language
+  — not civil-sphere, so it does not move the row.
+- **#4361 Light of the Nations (Tyler Detrick)** — teaches apologetics at a **classical Christian
+  academy**. Recorded, but deliberately NOT counted as a second marker: teaching one class is not
+  founding or running a school, and the 2026-07-31 education ruling was made for institutions, not
+  faculty.
+- **#4351 Sovereign Grace Chapel** — its website field held **an email address wearing a URL's
+  clothes**: an https:// prefix stuck onto a gmail address. Corrected.
+- **#4407 Faith Baptist, Cincinnati** — name/URL mismatch (goffc.org). Flagged website_conflict; the
+  URL was NOT deleted, since it may be an older domain, but ten wrong websites have already been found
+  in this directory and one had lapsed to a gambling operator.
+- **#4372 Berean Baptist, Pickerington** — GARBC and KJV-listed, i.e. the fundamentalist Baptist stream,
+  which is typically dispensational. That bears directly on the zionistStance problem, but nothing on
+  Israel was located either way, so the field was left untouched.
