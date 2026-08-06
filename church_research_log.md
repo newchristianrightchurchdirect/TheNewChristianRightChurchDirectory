@@ -2990,3 +2990,126 @@ trusted.**
 postmillennial directory, has been read individually. The next work is the deep-dive queue — and the
 best leads in it now came out of this cohort: the theonomy church directory, the Future of Christendom
 conference roster, the 171 Ohio clergymen who signed against Issue 1, and Whitefield.
+
+## 2026-08-05 — Theonomy directory worked to completion. Norman Statement mined. One self-correction.
+
+Qualifying **100 → 103**. Two duplicates resolved, seven churches added, twelve rows given first-hand
+corroboration, and **one call I made earlier the same day reversed on better evidence.**
+
+### The theonomy church directory is fully worked — 26 of 26
+
+All 26 congregations cross-referenced against the DB. **Nine were already qualifiers**, not the two
+the queue file recorded — Branch of Hope, Chalcedon, Covenant Presbyterian Buford, Dominion Covenant
+(Kayser), Covenant Reformed Presbyterian (Otis), Independence Reformed Bible, Reformed Bible Church
+Appomattox, Heritage Presbyterian Cumming, and now Immanuel Free Reformed.
+
+**#2698 IMMANUEL FREE REFORMED CHURCH, Stevens PA — PROMOTED.** The church's own vision is to
+**"rebuild the broken foundations of the Family, Church, and STATE"** — the congregation naming the
+civil order as part of its mission. Teaching elder **William O. Einwechter** is **Vice President of
+the National Reform Association** and **editor of The Christian Statesman**, wrote *Ethics and God's
+Law* and *Walking in the Law of the Lord*, and **edited *Explicitly Christian Politics***. 1,094 of
+his sermons are published from that pulpit. `theonomy → theonomic`, `christianNationalism → affirm`.
+
+Also worth recording: each sermon broadcast includes a period of **discussion and dialogue**, on the
+principle that the covenanting men of the church are responsible to interact with the preacher.
+
+### Seven churches added
+
+**Two qualify:**
+
+- **Covenanted Reformed Presbyterian Church, Prosper TX** — **Brian Schwertley**, who publishes
+  Reformed Online with standing sections on **Civil Government** and **The Law of God**, and wrote
+  ***National Covenanting: Christ's Victory over the Nations***. `christianNationalism` set to affirm
+  **with precision**: national covenanting is the *covenanter* form of the claim — that nations as
+  nations owe corporate allegiance to Christ — and is the Reformed ancestor of the contemporary
+  movement rather than a synonym for it. The note says so, so the marker is not read as more than it
+  is.
+- **Word and Spirit Covenant Church, Omaha NE** — **Dr. Robert E. Fugate**, author of **more than
+  twenty** books on biblical law used in **over sixty countries**, including *Key Principles of
+  Biblical Civil Government* and ***Tyrants Are Not Ministers of God: What the Bible Teaches about
+  Civil Disobedience, Romans 13, and Quarantine*** — resistance theory applied to a live controversy,
+  which ties straight into the Trewhella lesser-magistrate lead. His Ph.D. and M.Div. are both from
+  **Whitefield** (the eighth appearance). The church itself is thinly documented and its site is dead;
+  the qualification rests on the man's output and says so.
+
+**Three added and left `unknown`:** Crown & Covenant (Conroe TX), Christ the King (Centerville TN),
+Providence Presbyterian (Aiken SC). **Two added from the Norman Statement, both `single_issue`:**
+Grace Christian Bible Fellowship (Kansas City KS) and Hilltop Free Will Baptist (Wewoka OK).
+
+**Three deliberately NOT added, with reasons:** Westminster Presbyterian of Waupaca County (Manawa WI)
+— Schwertley has moved to Texas and whether the congregation survives could not be established;
+Westminster Presbyterian, Corpus Christi — **closed 8 April 2012**; Iglesia del Calcedon, Quevedo,
+**Ecuador** — the directory holds no non-US rows (51 states, zero foreign).
+
+### The 2011 list is stale exactly as predicted — with one exception
+
+Schwertley is in **Prosper TX**, not Manawa WI. **Kenneth Gentry retired in 2016** and his church has
+both renamed itself (Living Hope *Presbyterian*) and changed denomination (**RPCGA → Bible
+Presbyterian Church**, whose historic premillennialism is the opposite of his eschatology); bios
+still calling him its pastor are a decade out of date. **Kenneth Talbot died in 2022.**
+
+**The one attribution that held: Gary Wagner at Reformed Heritage, Los Gatos** — confirmed against
+the church and Hanover Presbytery, the first 2011-era pastor attribution in this whole exercise to
+survive checking.
+
+### Two duplicates, neither catchable by string matching
+
+- **#4183 Burlington NC → #1296** — the same congregation held twice, once under **Asheville** and
+  once under **Burlington**, two hundred miles apart. #1296's own note had flagged the discrepancy
+  and declined to guess; the cross-reference settled it. **Asheville was the error**; city corrected.
+- **#3311 → #3690** (Providence RP, Wytheville) — and between them the two rows carried a
+  contradiction, one saying **postmillennial** and the other **amillennial**, both from the same bulk
+  import. Neither is evidenced.
+- Later, from the Norman Statement: **#2987 "Heritage Tulsa" → #4042 Heritage Church, Tulsa.**
+
+### The RPCUS is now fully traced
+
+Sources place Trinity Presbyterian, **Tazewell VA** — and by extension its Wytheville mission — as
+**the last two RPCUS congregations, the ones that joined Vanguard Presbytery in 2020** and ended the
+denomination. Recorded as very likely and flagged `denom_verify`, not asserted.
+
+### The Norman Statement is the best signatory source yet found
+
+It names its drafters and initial signers **with their churches**. That is first-hand and
+attributable — the class of evidence the equal-protection signatures are, and far stronger than the
+abolitionist-orgs listing several rows rested on.
+
+**Twelve rows annotated; four upgraded from third-party listing to `evidenced`** — First Baptist
+Beggs, Heritage Tulsa, Immanuel Baptist Pikeville, North Athens Baptist. `culturalEngagement` was
+**not** touched on any of them: a signature evidences the marker, not breadth.
+
+### And it caught an error of mine, the same day
+
+**#4031 First Baptist Edmond — I had it wrong.** This morning I set Blake Gideon to `incrementalist`
+because he signed an open letter opposing Oklahoma SB 13. Working the conference rosters surfaced the
+rest of the sequence, and it runs the other way:
+
+- **19 Feb 2020** — "As pastor of EFBC It is my conviction that **all bills with the intent of ending
+  abortion should at least receive a hearing** from Oklahoma Legislators **this includes SB13**."
+- **Nov 2021** — proposed an amendment *strengthening* the abolition language of an Oklahoma Baptist
+  resolution; co-authored the 2021 SBC resolution *On Abolishing Abortion*.
+- **5–8 Feb 2022** — **his church HOSTED the Abolition Now Conference**, and he wrote the Baptist
+  Messenger column promoting it: *"the evil of abortion will only be overcome by the people of God
+  conquering the deeds of darkness."*
+- **Jan 2023** — a video documenting his change, titled *"Pastor Goes from Being 'Pro-Life' to
+  Abolitionist"*; 2023, spoke at Abolition NOW!; and he is an **initial signer of the Norman
+  Statement.**
+
+Corrected to `pro_abolition`. **I read one letter as a settled position instead of a moment in a
+trajectory.** The letter stays on the record — but a man who hosts an abolition conference in his own
+building and narrates his own conversion is not an incrementalist. `culturalEngagement` stays
+`single_issue`: hosting a conference is intensity on one question, not breadth across others.
+
+### Where it stands
+
+`transformationalist` **103** · `single_issue` 137 · `quietist` 28 · `limited_mission` 16 ·
+`unknown` 4,004. Directory total 4,288.
+
+**Priority 3 in the brief — the demoted `unknown` cohort — was already closed** earlier the same day:
+0 of 186 unresearched. Nothing was left to do there.
+
+New leads filed in the deep-dive queue: the Norman Statement's twelve **organisations** (each its own
+roster), the **Oklahoma Watch / KGOU investigation** *"From Norman to the State GOP"* (May 2026), and
+two unresolved names — **Nathaniel Morrison's Grace Reformed Baptist Church of Norman OK**, which
+cannot be confirmed to exist, and **Rick Prettyman's Christ Community Church**, where the wrong man is
+easy to grab.

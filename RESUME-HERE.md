@@ -6,15 +6,15 @@ the state and the next action.
 
 ## Where the directory stands
 
-**4,281 churches.** Of those:
+**4,288 churches.** Of those:
 
 | culturalEngagement | n | meaning |
 |---|---|---|
-| `transformationalist` | **100** | **qualifies** — meets the standard |
-| `single_issue` | 135 | examined; acts publicly on one question, does not qualify |
+| `transformationalist` | **103** | **qualifies** — meets the standard |
+| `single_issue` | 137 | examined; acts publicly on one question, does not qualify |
 | `limited_mission` | 16 | examined; published mission is ecclesial, does not qualify |
 | `quietist` | 28 | examined; treats political engagement as outside the church's calling |
-| `unknown` | 4,002 | not researched closely enough to classify |
+| `unknown` | 4,004 | not researched closely enough to classify |
 
 Plus ~41 rows held under `duplicate_of` flags.
 
@@ -41,40 +41,38 @@ set 2026-07-31). One marker, acted on publicly, is `single_issue`.
 
 ## THE NEXT ACTION
 
-**BOTH QUEUES ARE CLOSED.** Every one of the 100 qualifying rows carries individual research, and so
-does **every one of the 187 rows this directory ever took from postmillennialworldview.com**, in every
-classification. Nothing traceable to that source is unexamined anywhere.
+**Three queues are now closed:** the qualifying list (103 rows, all individually researched), the
+postmillennial-directory cohort (186 rows, all researched), and **the theonomy church directory
+(26 of 26, worked 2026-08-05)**.
 
-**So the next work is the deep-dive queue** (`data/research-leads-DEEP-DIVE-QUEUE.md`) — and the best
-leads in it now came out of the cohort that just closed. In order:
+Work the deep-dive queue. In order:
 
-1. **The theonomy church directory** (filed in the queue). Its listing criterion is this project's
-   qualifying definition verbatim — *"Christ's Lordship in all areas of life (family, church, and
-   state)"*. 26 churches, two of which are already qualifiers here. **Every pastor on it is from 2011
-   and must be re-confirmed; use it as a list of congregations, never of pastors.**
-2. **171 Ohio clergymen signed a statement opposing Issue 1**, the 2023 abortion amendment. It
-   surfaced beside #4186 Sovereign Christ Church, Mansfield. **Get the signatory list** — it would
-   settle that row and is an Ohio cohort source on its own.
-3. **The Future of Christendom Conference** speaker roster — hosted by #4193 Independence Reformed
-   Bible Church, now a qualifier. Conference rosters remain the highest-yield source found.
-4. **Whitefield Theological Seminary, Lakeland FL** — surfaced on **six rows in one day**. Alumni
-   include Gary DeMar, Kenneth Gentry, George Grant and R.C. Sproul Sr. Work it as its own axis.
-5. **`"All of Christ, for all of Life, for all of <city>"`** — this exact tagline appears on Trinity
-   Presbyterian Waukesha (CREC) *and* First Presbyterian Battle Ground WA. It does the work "every
-   square inch" does. Search it as a marker.
+1. **The NORMAN STATEMENT'S TWELVE ORGANISATIONS.** The statement itself is now fully mined — but
+   each org it names is its own roster: End Abortion Ohio, End Abortion Alabama, Abolish Abortion
+   NC / Missouri / Oklahoma, End Abortion Nebraska, Abortion is Murder Kansas, Liberty Rising
+   Institute, Rescue Those, **Forge Theological Seminary** (a seminary — an education node),
+   Cruciform Ministries. Full table in the queue file. **End Abortion Ohio pairs directly with #2.**
+2. **171 Ohio clergymen signed against Issue 1** (2023 abortion amendment). Surfaced beside #4186
+   Sovereign Christ Church, Mansfield. **Get the signatory list** — it settles that row and is an
+   Ohio cohort source on its own.
+3. **"From Norman to the State GOP"** — Oklahoma Watch / KGOU investigation, 8 May 2026, on the
+   abolitionist movement capturing Oklahoma's Republican Party. Investigative journalism names people
+   and churches that no church website will.
+4. **The Future of Christendom Conference** roster (hosted by #4193, now a qualifier), and
+   **Whitefield Theological Seminary** — now **eight** rows deep.
 
-**Three unfinished rows worth returning to before anything else** — each is a strong candidate left
-short by one unread source:
+**Two unresolved names, both traps:** the Norman Statement lists **Nathaniel Morrison — Grace
+Reformed Baptist Church, NORMAN OK**, which cannot be confirmed to exist (searches return only
+Deevers's ELGIN church, and the abolitionist-orgs list carries the same mislabel). And **Rick
+Prettyman — Christ Community Church** from the Love Your Pre-born Neighbor roster: the only man
+located pastors in Lake Charles, LOUISIANA. Do not record either until the right church is identified.
 
-- **#3304 Christ Reformed Presbyterian, Paris TN.** `theonomy` already raised to `theonomic` on Paul
-  McDade's lecture *"Theonomy In Applied Theology"*; he has also preached *"Voting."* **697 sermons
-  unread.**
-- **#4218 Evangelical Reformed Church, Tacoma.** Rich Hamlin **testified before Congress** on
-  religious freedom and publishes weekly at solideogloria.org. **The blog was not read.**
-- **#4162 Christ Church of Acadiana, Lafayette LA.** The pastor teaches Greek, Logic and Humanities
-  at the congregation's **own** classical academy — the strong form of the education ruling.
+**Three unfinished rows still worth returning to first** — each a strong candidate left short by one
+unread source: **#3304 Christ Reformed Presbyterian, Paris TN** (697 sermons unread), **#4218
+Evangelical Reformed Church, Tacoma** (solideogloria.org unread), **#4162 Christ Church of Acadiana**
+(the congregation's own classical academy).
 
-**Also queued and now overdue: a directory-wide `leadership` sweep.** See the cautions below.
+**Also queued and overdue: a directory-wide `leadership` sweep.** See the cautions below.
 
 ## Read this before writing any queue query
 

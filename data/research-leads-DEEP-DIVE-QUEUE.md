@@ -525,3 +525,90 @@ congregations, never as a list of pastors.**
 - Confirm every pastor against the church itself before recording — 2011.
 - Chase the denominational tails: RPCUS, RPCGA (founded 1991 out of the RPCUS), WPCUS, CPC.
 - Look for a maintained successor to this list; a 2011 blog directory implies a living network.
+
+---
+
+## THE NORMAN STATEMENT — added 2026-08-05. Best signatory source found.
+
+`https://abolitionistsrising.com/norman-statement/`
+
+The Norman Statement on the Abolition of Abortion (Abolitionists Rising): eleven articles holding
+that abortion is child sacrifice requiring criminalisation as homicide, that **incremental pro-life
+legislation is compromise rather than abolition**, that abolition must be gospel-centred and
+church-led, and that Christians must prioritise God's law over civil authority where they conflict.
+
+**Why it beats every listing worked so far:** it names its drafters and initial signers **with their
+churches**. That is a first-hand, formal, attributable act by a named man at a named congregation —
+the same class of evidence as the equal-protection signatures, and categorically stronger than the
+abolitionist-orgs directory that several rows previously rested on.
+
+**Worked 2026-08-05.** Of the 22 drafters and 14 initial signers, every church-affiliated name was
+cross-referenced. 12 rows were annotated, **4 of them upgraded from third-party listing to
+`evidenced`** (Beggs, Heritage Tulsa, Immanuel Pikeville, North Athens), 2 churches were added
+(Grace Christian Bible Fellowship KC; Hilltop Free Will Baptist, Wewoka), and **it caught an error in
+this project's own work** — see the Gideon correction in the log.
+
+**Still to do from this roster — the non-church organisations, which are themselves rosters:**
+
+| Organisation | Person | Why |
+|---|---|---|
+| End Abortion Alabama | Paul Abbott II | state org, will have allied churches |
+| End Abortion Ohio | Austin Beigel | **pairs with the 171-clergy Issue 1 lead below** |
+| Abolish Abortion NC | Wayne Groover, David Buboltz | |
+| Abolish Abortion Missouri | Wes Scroggins, Kevan Myers | |
+| Abortion is Murder Kansas | Kevan Myers | |
+| Abolish Abortion Oklahoma | Tim Gillespie | |
+| End Abortion Nebraska | Jarrod Ridge | ties to the Nebraska signatory work already done |
+| Liberty Rising Institute | Chris Gore, **Joseph Silk (former State Senator)** | |
+| Rescue Those | Brett Baggett, Dusty Deevers | both already qualifiers |
+| Forge Theological Seminary | Russell Threet | a seminary — an education/movement-building node |
+| Cruciform Ministries | Brandon Scalf | |
+| Imago Dei Ministries · Life Bristol · Steadfast Women · CORE Ministries · Things Above Us · So You Want the Truth About | various | smaller, lower priority |
+
+**One unresolved name, worth chasing:** the statement lists **Nathaniel Morrison — Grace Reformed
+Baptist Church, NORMAN, OK**. No such congregation could be confirmed; searches return only Deevers's
+Grace Reformed Baptist Church of **Elgin**. Note the abolitionist-orgs list also carries a mislabelled
+"Grace Reformed Baptist Church of Norman" pointing at the Elgin URL. **Either there is a real Norman
+congregation this directory is missing, or the movement's own paperwork has propagated one error.**
+Not added, because adding a church whose existence is unconfirmed is the error this project keeps
+undoing.
+
+---
+
+## "FROM NORMAN TO THE STATE GOP" — Oklahoma Watch / KGOU, May 2026
+
+`https://oklahomawatch.org/2026/05/08/from-norman-to-the-state-gop-how-the-abolitionist-movement-is-capturing-oklahomas-republican-party/`
+
+Long-form investigative journalism on **how the abolitionist movement is capturing Oklahoma's
+Republican Party**, published 8 May 2026 and co-run by KGOU. Surfaced while chasing the Norman
+Statement.
+
+**Why it matters:** this directory's thesis is that these churches intend to shape the civil order.
+A statewide newspaper investigation into that exact process, in the state where the movement is
+densest and where this directory already holds Deevers, Ekklesia Muskogee, Bethel Owasso, Beggs,
+Heritage Tulsa, Areopagus and Hilltop Wewoka, is the single best secondary source yet identified —
+and investigative pieces name people and congregations that no church website ever will.
+
+**To do:** read it in full and mine every name; cross-reference against the Oklahoma rows; check
+whether it identifies the Norman congregation above.
+
+---
+
+## LOVE YOUR PRE-BORN NEIGHBOR CONFERENCE — worked 2026-08-05, small roster
+
+`https://loveyourprebornneighborconference.com/speakers/`
+
+Purpose: to gather "pastors, ministry leaders, and legislators who will bring biblical clarity and
+gospel-driven urgency to the issue of unborn children." Only five speakers, and it is **fully
+worked**:
+
+- **Bradley Pierce** — Foundation to Abolish Abortion / Abolish Abortion Texas (already known here)
+- **Phil George** — Grace Life Church of Dallas = **#32**, confirming the connection flagged when
+  #4205 was merged into it
+- **Threesa Sadler** — Raffa Clinic, Greenville TX (a pregnancy centre, not a church)
+- **Brent Money** — Texas House District 2 (a legislator, not a church)
+- **Rick Prettyman** — Christ Community Church. **UNRESOLVED**: the only Rick Prettyman located is
+  senior pastor of Christ Community Church in **Lake Charles, Louisiana** since 1992, whose public
+  service is civic rather than culture-war (Red Cross, NAMI, the city Human Relations Commission).
+  A Louisiana pastor at a Texas abolition conference is possible but unconfirmed, and there is also a
+  Christ Community Church in Frisco TX. **Do not record either until the right man is identified.**
