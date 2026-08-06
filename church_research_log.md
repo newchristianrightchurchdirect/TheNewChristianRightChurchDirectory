@@ -4040,3 +4040,84 @@ The Founders import created **13 duplicates within its own run**: the source lis
 existing rows **once before the loop**, so a row added during the run was invisible to every later
 record. **Dedupe the source against itself before inserting.** The NCFIC and CREC imports were checked
 for the same fault and were clean.
+
+## 2026-08-06 (late) — The three remaining sources, each looked into. Two paid, one should not be pulled.
+
+Directory **5,642 → 5,678**. Thirty-six rows, not seven hundred.
+
+### 1. RCUS — 47 congregations, taken whole
+
+`rcus.org`'s find-a-church renders nothing to a fetcher. It runs on **WP Google Maps**, whose markers
+are public at `/wp-json/wpgmza/v1/markers` — 47 congregations with addresses, phones, emails and
+websites, all 47 parsing cleanly.
+
+**26 matched, 21 added, and 22 denominations corrected** — the largest denominational correction of
+the day, because most of these rows were carrying something else entirely.
+
+**It is recorded with a warning attached, not as a lead.** The **RCUS Synod formally disclaims
+Christian Reconstructionism and theonomy**, which this project established earlier and which already
+killed a postmillennial claim on one row. Membership here is not merely "not a qualification" — it is
+mild evidence *the other way* on two of the six markers. The roster was taken to complete the
+denominational record, not because these congregations are expected to qualify.
+
+### 2. The 130 Founders records with no location — 29 recovered, 100 genuinely foreign
+
+The first import read each record's free-text city/state field and, failing that, the **second-to-last
+segment** of the geocoded address. That works for `"636 Madison Road, Stanardsville, VA, USA"` and
+fails silently for the long form:
+
+> `"Scuffling Hill Road, Rocky Mount, Franklin County, Virginia, 24151, United States"`
+
+— where the second-to-last segment is the **ZIP**. Scanning the whole address for a state token, and
+taking the segment before any "County" as the city, recovered **29 more US congregations** (14 already
+here, 15 added).
+
+The other **100 are genuinely foreign** — 27 Canada, 4 UK, 4 Philippines, 3 Kenya, 3 Australia, 2
+France, 2 Costa Rica, 2 Honduras, 2 Germany, and one each in Taiwan, Chile and Thailand — correctly
+excluded under the US-only rule. Exactly one record has no geocode at all.
+
+**A note on the shape of that error:** a parser that takes a fixed position in a delimited address is
+guessing about the format. Both address forms came from the same field of the same API.
+
+### 3. NAPARC — looked into, and it SHOULD NOT be pulled
+
+**NAPARC is not a database.** Its "Local Congregation Finder" is a page of links to thirteen member
+denominations' own directories. Pulling it means pulling thirteen separate rosters.
+
+So the question is per-denomination coverage. Measured properly — and the first measurement was
+**wrong**, because matching the substring `urc` finds it inside the word **"Church"**, which inflated
+URCNA from 42 to 528:
+
+| Body | rows held | approx US size | gap | fit |
+|---|---:|---:|---:|---|
+| KAPC | 0 | 300 | **300** | low |
+| ARP | 139 | 250 | **111** | low |
+| URCNA | 42 | 130 | **88** | moderate — Dutch neo-Calvinist, genuine Kuyperian heritage |
+| PCA | 1,813 | 1,900 | 87 | low, and see below |
+| PRC (Protestant Reformed) | 0 | 32 | 32 | low |
+| FRCNA | 1 | 25 | 24 | low |
+| HRC | 3 | 25 | 22 | low |
+| RPCNA | 95 | 100 | 5 | already complete |
+| RCUS | 48 | 47 | ~0 | done today |
+| CREC | 156 | 146 | ~0 | done today |
+| OPC | 336 | 290 | ~0 | already complete |
+
+**The finding is clean: every NAPARC body with a real gap is low-fit, and every on-thesis NAPARC body
+is already complete.** CREC, RCUS and RPCNA — the three whose churches actually carry these markers —
+are all done.
+
+Three specific reasons not to pull the rest:
+
+- **KAPC (300) and ARP (111)** are large conservative bodies whose identity has nothing to do with the
+  six markers. That is 411 rows of pure dilution.
+- **PCA (87) would make an existing problem worse.** This project already carries a known data gap of
+  roughly 400 PCA-belt rows populated by *denominational default* rather than research. Adding more PCA
+  rows deepens the exact defect the project has flagged against itself.
+- **PRC, HRC and FRCNA (78 between them)** are doctrinally the *opposite* pole — the Protestant
+  Reformed denial of common grace points away from cultural transformation, and the Dutch experiential
+  bodies are pietist. They would classify `quietist` almost to a row. Analytically interesting; not
+  "our group".
+
+**The one arguable case is URCNA**, whose Dutch neo-Calvinism is the actual source of the Kuyperian
+thinking several qualifiers here run on. 88 missing. That one is a judgement call and was left for
+Dustin.

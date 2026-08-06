@@ -1,0 +1,521 @@
+[
+ {
+  "name": "Furnace Creek Baptist Church",
+  "city": "Rocky Mount",
+  "state": "VA",
+  "zip": "24151",
+  "street": "995 Scuffling Hill Road",
+  "pastor": "Philip Bramblet",
+  "pastorTitle": "Other Pastor/Elder",
+  "website": "https://furnacecreekbaptist.org",
+  "denom": "Southern Baptist Convention",
+  "confession": "Baptist Faith and Message 2000",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy",
+   "The Danvers Statement",
+   "The Nashville Statement",
+   "The Statement on Social Justice and the Gospel (Dallas)"
+  ],
+  "link": "https://church.founders.org/church/furnace-creek-baptist-church-2/",
+  "recoveredFrom": "Scuffling Hill Road, Rocky Mount, Franklin County, Virginia, 24151, United States"
+ },
+ {
+  "name": "Central Chapel",
+  "city": "Shanghai",
+  "state": "WV",
+  "zip": "25427",
+  "street": "2546 Back Creek Valley Rd",
+  "pastor": "Keith Walsworth",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://centralchapel.com",
+  "denom": "Independent",
+  "confession": "Baptist Faith and Message 2000",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy",
+   "The Danvers Statement",
+   "The Nashville Statement"
+  ],
+  "link": "https://church.founders.org/church/central-chapel-2/",
+  "recoveredFrom": "Back Creek Valley Road, Shanghai, Berkeley County, West Virginia, 25421, United States"
+ },
+ {
+  "name": "Christ Reformed Church of Albany",
+  "city": "Albany",
+  "state": "OR",
+  "zip": "",
+  "street": "",
+  "pastor": "Tom Smith",
+  "pastorTitle": "Other Pastor/Elder",
+  "website": "https://crcalbany.com",
+  "denom": "Independent Reformed Baptist",
+  "confession": "2nd London Baptist Confession of Faith (1689)",
+  "statements": [],
+  "link": "https://church.founders.org/church/christ-reformed-church-of-albany/",
+  "recoveredFrom": "250 Broadalbin St SW, Suite #109, Albany, OR, USA, "
+ },
+ {
+  "name": "Brookville First Baptist Church",
+  "city": "Brookville",
+  "state": "PA",
+  "zip": "",
+  "street": "",
+  "pastor": "David Blair",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://brookvillebaptist.com",
+  "denom": "Abstract of Principles; Independent Reformed Baptist",
+  "confession": "",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy"
+  ],
+  "link": "https://church.founders.org/church/brookville-first-baptist-church/",
+  "recoveredFrom": "101 Main Street, Brookville, Jefferson County, Pennsylvania, 15825, United States"
+ },
+ {
+  "name": "New Hope Baptist Church – Edmundson Road",
+  "city": "St. Louis",
+  "state": "MO",
+  "zip": "",
+  "street": "",
+  "pastor": "Peter McCreary Jr",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://nhbc-edm.org",
+  "denom": "Other",
+  "confession": "2nd London Baptist Confession of Faith (1689)",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy"
+  ],
+  "link": "https://church.founders.org/church/new-hope-baptist-church-edmundson-road/",
+  "recoveredFrom": "4450 Edmundson Road, St. Louis, MO, 63134, USA"
+ },
+ {
+  "name": "Bristol Bible Church",
+  "city": "Norton",
+  "state": "MA",
+  "zip": "",
+  "street": "",
+  "pastor": "Ken Christianson",
+  "pastorTitle": "Other Pastor/Elder",
+  "website": "https://bristolbiblechurch.com",
+  "denom": "Other",
+  "confession": "2nd London Baptist Confession of Faith (1689); New Hampshire Confession of Faith",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy",
+   "The Danvers Statement",
+   "The Nashville Statement",
+   "The Statement on Social Justice and the Gospel (Dallas)"
+  ],
+  "link": "https://church.founders.org/church/bristol-bible-church/",
+  "recoveredFrom": "Norton, Bristol County, Massachusetts, 02766, United States"
+ },
+ {
+  "name": "Providence Christian Church",
+  "city": "Rio Rancho",
+  "state": "NM",
+  "zip": "",
+  "street": "",
+  "pastor": "Josh Peterson",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://providencechristiannm.com",
+  "denom": "Independent Reformed Baptist; Other",
+  "confession": "2nd London Baptist Confession of Faith (1689)",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy",
+   "The Danvers Statement",
+   "The Statement on Social Justice and the Gospel (Dallas)"
+  ],
+  "link": "https://church.founders.org/church/providence-christian-church/",
+  "recoveredFrom": "Jackie Road Southeast, Vista Grande, Rio Rancho, Sandoval County, New Mexico, 87124, United States"
+ },
+ {
+  "name": "Island Pond Baptist Church",
+  "city": "Hampstead",
+  "state": "NH",
+  "zip": "",
+  "street": "",
+  "pastor": "Kyle Lewis",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://IslandPondBC.com",
+  "denom": "Southern Baptist Convention",
+  "confession": "Baptist Faith and Message 2000",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy",
+   "The Danvers Statement"
+  ],
+  "link": "https://church.founders.org/church/island-pond-baptist-church/",
+  "recoveredFrom": "North Salem Road, Hampstead, Rockingham County, New Hampshire, 03841, United States"
+ },
+ {
+  "name": "King’s Church",
+  "city": "Peoria",
+  "state": "AZ",
+  "zip": "85312",
+  "street": "P. O. Box 5576",
+  "pastor": "John Samson",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://www.kingschurchaz.com",
+  "denom": "Other",
+  "confession": "2nd London Baptist Confession of Faith (1689)",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy",
+   "The Danvers Statement",
+   "The Nashville Statement",
+   "The Statement on Social Justice and the Gospel (Dallas)"
+  ],
+  "link": "https://church.founders.org/church/kings-church/",
+  "recoveredFrom": "13450 N Plaza Del Rio Blvd, Peoria, AZ, 85381, USA"
+ },
+ {
+  "name": "Providence Baptist Church",
+  "city": "Junction City",
+  "state": "KS",
+  "zip": "",
+  "street": "Providence Baptist Church, 1220 W. 8th St, 66441",
+  "pastor": "Ryan Sickenger",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://providencebaptistjc.org",
+  "denom": "Independent",
+  "confession": "2nd London Baptist Confession of Faith (1689)",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy",
+   "The Nashville Statement",
+   "The Statement on Social Justice and the Gospel (Dallas)"
+  ],
+  "link": "https://church.founders.org/church/first-southern-baptist-church/",
+  "recoveredFrom": "Providence Baptist Church, West 8th Street, Junction City, Geary County, Kansas, 66441, United States"
+ },
+ {
+  "name": "Osceola First Baptist Church",
+  "city": "Osceola",
+  "state": "MO",
+  "zip": "",
+  "street": "",
+  "pastor": "Ryan Pendergraft",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://osceolafirstbc.com",
+  "denom": "Southern Baptist Convention",
+  "confession": "2nd London Baptist Confession of Faith (1689)",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy"
+  ],
+  "link": "https://church.founders.org/church/osceola-first-baptist-church/",
+  "recoveredFrom": "Osceola, St. Clair County, Missouri, 64776, United States"
+ },
+ {
+  "name": "Altamont First Baptist",
+  "city": "Altamont",
+  "state": "IL",
+  "zip": "",
+  "street": "",
+  "pastor": "Bill Weaver",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://FBCAltamont.org",
+  "denom": "Southern Baptist Convention",
+  "confession": "Baptist Faith and Message 2000",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy",
+   "The Nashville Statement"
+  ],
+  "link": "https://church.founders.org/church/altamont-first-baptist/",
+  "recoveredFrom": "Southmore Heights, Altamont, Effingham County, Illinois, 62411, United States"
+ },
+ {
+  "name": "Grace Covenant Church",
+  "city": "Litchfield",
+  "state": "NH",
+  "zip": "",
+  "street": "",
+  "pastor": "Wesley Tyler",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://www.graceccnh.org",
+  "denom": "Independent Reformed Baptist",
+  "confession": "2nd London Baptist Confession of Faith (1689)",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy"
+  ],
+  "link": "https://church.founders.org/church/grace-covenant-church/",
+  "recoveredFrom": "Colby Road, Litchfield, Hillsborough County, New Hampshire, 03052, United States"
+ },
+ {
+  "name": "Living Stones",
+  "city": "Rockford Township",
+  "state": "IL",
+  "zip": "",
+  "street": "",
+  "pastor": "Jeremiah Griffin",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://Https://Livingstones.church",
+  "denom": "Southern Baptist Convention",
+  "confession": "2nd London Baptist Confession of Faith (1689)",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy"
+  ],
+  "link": "https://church.founders.org/church/living-stones/",
+  "recoveredFrom": "Halsted Road, Rockford, Rockford Township, Winnebago County, Illinois, 61101, United States"
+ },
+ {
+  "name": "Sunnyside Baptist Church",
+  "city": "Oklahoma City",
+  "state": "OK",
+  "zip": "",
+  "street": "",
+  "pastor": "Michael Dirrim",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://www.ssbcokc.org",
+  "denom": "Independent Reformed Baptist; Other",
+  "confession": "1st London Baptist Confession of Faith (1644/1646)",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy",
+   "The Nashville Statement"
+  ],
+  "link": "https://church.founders.org/church/sunnyside-baptist-church/",
+  "recoveredFrom": "Southwest 47th Street, Oklahoma City, Oklahoma County, Oklahoma, 73109, United States"
+ },
+ {
+  "name": "Elvaston Community Church",
+  "city": "Elvaston",
+  "state": "IL",
+  "zip": "",
+  "street": "",
+  "pastor": "Doug Campbell",
+  "pastorTitle": "Senior Pastor",
+  "website": "http://www.elvastonchurch.org",
+  "denom": "Independent Reformed Baptist; Other",
+  "confession": "2nd London Baptist Confession of Faith (1689)",
+  "statements": [],
+  "link": "https://church.founders.org/church/elvaston-community-church/",
+  "recoveredFrom": "Elvaston, Hancock County, Illinois, 62334, United States"
+ },
+ {
+  "name": "First Baptist Church Shepherdsville",
+  "city": "Shepherdsville",
+  "state": "KY",
+  "zip": "40165",
+  "street": "254 S Buckman St",
+  "pastor": "Sam Killman",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://www.fbcshep.org",
+  "denom": "Southern Baptist Convention",
+  "confession": "2nd London Baptist Confession of Faith (1689); Baptist Faith and Message 2000",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy",
+   "The Danvers Statement",
+   "The Nashville Statement",
+   "The Statement on Social Justice and the Gospel (Dallas)"
+  ],
+  "link": "https://church.founders.org/church/first-baptist-church-shepherdsville/",
+  "recoveredFrom": "First Baptist Church of Shepherdsville, 254, South Buckman Street, Shepherdsville, Bullitt County, Kentucky, 40165, United States"
+ },
+ {
+  "name": "First Baptist Waterford",
+  "city": "Waterford",
+  "state": "CA",
+  "zip": "95386",
+  "street": "116 E Street Waterford, Ca 95386",
+  "pastor": "Interim Gary Martin",
+  "pastorTitle": "",
+  "website": "https://www.fsbcwaterford.net/",
+  "denom": "Southern Baptist Convention",
+  "confession": "Baptist Faith and Message 2000",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy"
+  ],
+  "link": "https://church.founders.org/church/first-baptist-waterford/",
+  "recoveredFrom": "E Street, Waterford, Stanislaus County, California, 95323, United States"
+ },
+ {
+  "name": "Redeemer Bible Church",
+  "city": "Byron Township",
+  "state": "MI",
+  "zip": "49315",
+  "street": "PO Box 312",
+  "pastor": "Aaron Meares",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://redeemerwestmichigan.org",
+  "denom": "Independent",
+  "confession": "2nd London Baptist Confession of Faith (1689)",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy",
+   "The Danvers Statement",
+   "The Nashville Statement",
+   "The Statement on Social Justice and the Gospel (Dallas)"
+  ],
+  "link": "https://church.founders.org/church/redeemer-bible-church-4/",
+  "recoveredFrom": "Byron Center Christian School, Byron Center Avenue Southwest, Byron Center, Byron Township, Kent County, Michigan, 49315, United States"
+ },
+ {
+  "name": "Calvary Baptist Church",
+  "city": "Cherry Valley Township",
+  "state": "IL",
+  "zip": "61109",
+  "street": "6286 Linden Rd.",
+  "pastor": "Michael Labate",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://calvarybaptistrockford.com",
+  "denom": "Abstract of Principles; Southern Baptist Convention",
+  "confession": "Baptist Faith and Message 2000",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy",
+   "The Danvers Statement",
+   "The Nashville Statement",
+   "The Statement on Social Justice and the Gospel (Dallas)"
+  ],
+  "link": "https://church.founders.org/church/calvary-baptist-church-12/",
+  "recoveredFrom": "Linden Road, Mulford Highlands, Cherry Valley Township, Winnebago County, Illinois, 61109, United States"
+ },
+ {
+  "name": "Peak Bible Church",
+  "city": "Colorado Springs",
+  "state": "CO",
+  "zip": "80970",
+  "street": "PO Box 76682",
+  "pastor": "Ryan King",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://peakbible.org",
+  "denom": "Independent",
+  "confession": "New Hampshire Confession of Faith",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy",
+   "The Danvers Statement",
+   "The Nashville Statement",
+   "The Statement on Social Justice and the Gospel (Dallas)"
+  ],
+  "link": "https://church.founders.org/church/peak-bible-church/",
+  "recoveredFrom": "4720, Galley Road, Colorado Springs, El Paso County, Colorado, 80915, United States"
+ },
+ {
+  "name": "First Baptist Church Opelousas",
+  "city": "Opelousas",
+  "state": "LA",
+  "zip": "",
+  "street": "",
+  "pastor": "Chad Norman",
+  "pastorTitle": "Other Pastor/Elder",
+  "website": "https://FBCOpelousas.org",
+  "denom": "Other",
+  "confession": "Baptist Faith and Message 2000",
+  "statements": [
+   "The Nashville Statement",
+   "The Statement on Social Justice and the Gospel (Dallas)"
+  ],
+  "link": "https://church.founders.org/church/first-baptist-church-opelousas/",
+  "recoveredFrom": "Opelousas, St. Landry Parish, Louisiana, 70570, United States"
+ },
+ {
+  "name": "Furnace Creek Baptist Church",
+  "city": "Rocky Mount",
+  "state": "VA",
+  "zip": "",
+  "street": "",
+  "pastor": "Philip Bramblet",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://furnacecreekbaptist.org",
+  "denom": "Southern Baptist Convention",
+  "confession": "Baptist Faith and Message 2000",
+  "statements": [],
+  "link": "https://church.founders.org/church/furnace-creek-baptist-church/",
+  "recoveredFrom": "Scuffling Hill Road, Rocky Mount, Franklin County, Virginia, 24151, United States"
+ },
+ {
+  "name": "Webster Memorial Baptist Church",
+  "city": "Lakeland",
+  "state": "FL",
+  "zip": "",
+  "street": "1135 North Chestnut Road, Lakeland, FL, USA",
+  "pastor": "Gavin Croft",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://www.hopetolakeland.com",
+  "denom": "Southern Baptist Convention",
+  "confession": "Baptist Faith and Message 2000; New Hampshire Confession of Faith",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy",
+   "The Danvers Statement",
+   "The Nashville Statement",
+   "The Statement on Social Justice and the Gospel (Dallas)"
+  ],
+  "link": "https://church.founders.org/church/webster-memorial-baptist-church-2/",
+  "recoveredFrom": "Crutchfield Road, Lakeland, Polk County, Florida, 33815, United States"
+ },
+ {
+  "name": "Pendleton Baptist Church",
+  "city": "Pendleton",
+  "state": "IN",
+  "zip": "",
+  "street": "",
+  "pastor": "Dennis Clark",
+  "pastorTitle": "",
+  "website": "https://www.pendletonbaptistchurch.org",
+  "denom": "Independent",
+  "confession": "2nd London Baptist Confession of Faith (1689)",
+  "statements": [],
+  "link": "https://church.founders.org/church/pendleton-baptist-church/",
+  "recoveredFrom": "215, Lapel Road, Pendleton, Madison County, Indiana, 46064, United States"
+ },
+ {
+  "name": "First Baptist Church Lyons",
+  "city": "Lyons",
+  "state": "TX",
+  "zip": "",
+  "street": "",
+  "pastor": "John Dowling",
+  "pastorTitle": "Senior Pastor",
+  "website": "http://www.firstbaptistlyons.com/s/",
+  "denom": "Southern Baptist Convention",
+  "confession": "2nd London Baptist Confession of Faith (1689); Baptist Faith and Message 2000",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy"
+  ],
+  "link": "https://church.founders.org/church/first-baptist-church-lyons/",
+  "recoveredFrom": "160, County Road 415, Lyons, Burleson County, Texas, 77879, United States"
+ },
+ {
+  "name": "Providence Church",
+  "city": "Lehigh Acres",
+  "state": "FL",
+  "zip": "",
+  "street": "",
+  "pastor": "Rex Durham",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://providenceswfl.com",
+  "denom": "Abstract of Principles; Southern Baptist Convention",
+  "confession": "Baptist Faith and Message 2000",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy",
+   "The Danvers Statement",
+   "The Nashville Statement"
+  ],
+  "link": "https://church.founders.org/church/providence-church-3/",
+  "recoveredFrom": "Lee Street, Lehigh Acres, Lee County, Florida, 33973, United States"
+ },
+ {
+  "name": "Calvary Baptist Phillipsburg",
+  "city": "Phillipsburg",
+  "state": "KS",
+  "zip": "",
+  "street": "637 9th Street, Phillipsburg, KS 67661",
+  "pastor": "Alex S. Parks",
+  "pastorTitle": "Senior Pastor",
+  "website": "https://calvaryphillipsburg.com/",
+  "denom": "Independent Reformed Baptist; Other",
+  "confession": "2nd London Baptist Confession of Faith (1689)",
+  "statements": [],
+  "link": "https://church.founders.org/church/calvary-baptist-phillipsburg/",
+  "recoveredFrom": "9th Street, Phillipsburg, Phillips County, Kansas, 67661, United States"
+ },
+ {
+  "name": "Orovada Community Church",
+  "city": "Orovada",
+  "state": "NV",
+  "zip": "89425",
+  "street": "PO Box 56",
+  "pastor": "Shelley Alan Gale",
+  "pastorTitle": "Senior Pastor",
+  "website": "",
+  "denom": "Independent; Reformed Baptist Network",
+  "confession": "2nd London Baptist Confession of Faith (1689)",
+  "statements": [
+   "The Chicago Statement on Biblical Inerrancy"
+  ],
+  "link": "https://church.founders.org/church/orovada-community-church/",
+  "recoveredFrom": "Orovada, Humboldt County, Nevada, 89425, United States"
+ }
+]
