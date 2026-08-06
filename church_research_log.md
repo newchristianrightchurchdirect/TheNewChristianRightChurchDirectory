@@ -4396,3 +4396,88 @@ covenantal default.
 - **RPCNA** (~7 short) — `reformedpresbyterian.org/congregations` returns **403** to curl and to
   WebFetch alike.
 - **Presbyterian Reformed Church** (~9) — no roster located.
+
+## 2026-08-06 (very late) — All three blocked rosters opened. Every block was a different kind of lie.
+
+Directory **6,388 → 6,558**. Coverage rows **713 → 852**. The OPC, RPCNA and Presbyterian Reformed are
+now all in, and the OPC audit — the one I most wanted — is done.
+
+### RPCNA: the 403 was about HEADERS, not identity
+
+`reformedpresbyterian.org` returned **403 to curl and to WebFetch alike**, which reads like a block on
+the client. It is not. A full browser header set — `Accept`, `Accept-Language`, `Sec-Fetch-Dest`,
+`Sec-Fetch-Mode`, `Sec-Fetch-Site`, `Upgrade-Insecure-Requests` — returns **200 immediately**.
+
+Then the sitemap gives `/congregations/state/{xx}`, server-rendered as a real table. **86 US
+congregations.**
+
+Two further traps on the way:
+
+- **urllib got 403 where curl got 200**, even with the same headers, and only after the first few
+  requests — rate limiting, not header rejection. Switching to curl with pacing: 51 of 51.
+- **My row regex found zero.** The table renders as `name| |city`, with an EMPTY CELL between, and my
+  pattern required them adjacent. I had eyeballed the extracted text earlier and called it correct
+  without ever running the regex against it.
+
+### The RPCNA exposed a matching failure that had been silently costing duplicates
+
+The RPCNA writes its congregations as **"First RP Church of Phoenix"**. This directory spelled them
+out. My normaliser stripped *"Reformed"*, *"Presbyterian"* and *"Church"* — **but not the abbreviation
+"RP"** — so the two forms never met. Result: **3 matched, 83 added, of which 33 were duplicates.**
+
+All 33 held. Then the same fix, generalised: the normaliser now strips **abbreviations and spelled-out
+forms together** (`opc|pca|rpc|rp|arp|crec|urc|prc` alongside the words) — with a **guard** so that a
+name consumed entirely by stripping falls back instead of becoming an empty key, which is precisely
+how the PCA import created 49 duplicates earlier tonight.
+
+**That fix immediately paid for itself on the OPC: matched went 118 → 257, and the duplicate check
+afterwards found ZERO.**
+
+### OPC: the results were never in the HTML
+
+`opc.org/locator.html` POSTs `state=XX` and returns a **real result page** — 127 KB for Pennsylvania.
+Every attempt to read it found only site chrome, because **the congregations are arguments to
+JavaScript calls**:
+
+> `AddPointQ('lat','lng','address','<h5>Grace</h5>…','X','blue','Sewickley, PA','GRACE');`
+
+Parsing the call arguments rather than the rendered text yields **342 US congregations, 328 with
+websites**. Earlier state tests looked like failures partly for a duller reason too — Kansas and
+Montana genuinely have very few OPC congregations, so a small response was mistaken for an empty one.
+
+**257 matched, 85 added, 20 denominations corrected.**
+
+### The OPC audit — the third denomination to show the same shape
+
+| | PCA | RPCNA | OPC |
+|---|---:|---:|---:|
+| live rows recorded as that body | 2,314 | 146 | 436 |
+| on the denomination's own roster | 1,866 | 53 | 342 |
+| **NOT on it** | **448** | **93** | **94** |
+| …of those, ever researched | 2 | 2 | **1** |
+
+**635 rows across three denominations claim a membership their own denomination's roster does not
+show, and four of them have ever been examined.** Nothing was changed or held — absence from a roster
+is weaker evidence than presence on one — but the pattern is now measured rather than suspected.
+
+The RPCNA rows carry an extra caveat: because the RP-abbreviation fault was found *after* that import,
+a row in its off-roster list may be a naming mismatch rather than a real absence.
+
+### Presbyterian Reformed — four congregations, and a row whose city was the word "Location"
+
+The site enumerates the denomination completely: **Corbin City NJ** (Michael Ives), **Trinity, Des
+Moines IA** (Mike Ericson), **King NC** (Tim Worrell), **East Greenwich RI** (vacant) — plus Chesley,
+Ontario and Stockton, UK, both out of scope. **2 matched, 2 added.**
+
+And it settled what to do with **#3692**, whose city field read the literal word **"Location"** and
+whose state read IN. **The denomination has no Indiana congregation.** So that row is either one of the
+four recorded with a broken city and a wrong state, or not a Presbyterian Reformed church at all.
+Flagged, not deleted — it is the same failure mode as the county-in-city rows and the pastor-name-in-
+city row (#3672 Oceanside): **a bad city value hides a row from every city-based query without ever
+looking like an error.**
+
+### Coverage now
+
+PCA 487 · ARP 96 · OPC 85 · RPCNA 50 · URCNA 34 · BPC 23 · PRC 11 · RBN 6 · HRC 3 · Presbyterian
+Reformed 2 · FRCNA 1 — **852 rows**, every one `not_researched`, `stanceBasis` null, no stance, no
+marker.

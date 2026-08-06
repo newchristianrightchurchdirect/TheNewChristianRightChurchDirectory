@@ -1,0 +1,48 @@
+[
+ {
+  "name": "Presbyterian Reformed Church of Corbin City",
+  "city": "Corbin City",
+  "state": "NJ",
+  "zip": "",
+  "street": "",
+  "website": "https://www.presbyterianreformed.org/corbin-city-nj",
+  "ministers": [
+   "Pastor Michael Ives"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Trinity Presbyterian Reformed Church",
+  "city": "Des Moines",
+  "state": "IA",
+  "zip": "",
+  "street": "",
+  "website": "https://www.presbyterianreformed.org/desmoines-ia",
+  "ministers": [
+   "Pastor Mike Ericson"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Presbyterian Reformed Church of North Carolina",
+  "city": "King",
+  "state": "NC",
+  "zip": "",
+  "street": "",
+  "website": "https://www.presbyterianreformed.org/elkin-nc",
+  "ministers": [
+   "Pastor Tim Worrell"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Presbyterian Reformed Church of Rhode Island",
+  "city": "East Greenwich",
+  "state": "RI",
+  "zip": "",
+  "street": "",
+  "website": "https://www.presbyterianreformed.org/ri",
+  "ministers": [],
+  "vacant": true
+ }
+]
