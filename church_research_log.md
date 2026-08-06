@@ -3202,3 +3202,77 @@ Ohio lead was supposed to settle, and the honest answer is that it settles it in
 not on this petition. The separate 171-clergy Issue 1 letter is a different and much weaker document —
 a broad pro-life coalition across 23 counties framed on parental rights, delivered by three named
 pastors in October 2023 — and its full signatory list is still not published anywhere reachable.
+
+## 2026-08-05 — The rest of the Norman Statement organisations. Diminishing returns, and a second false negative.
+
+Ohio was the outlier. The other nine organisations were worked and **most publish no roster at all** —
+which is a finding worth recording so nobody spends another session looking.
+
+### What each one actually yielded
+
+| Organisation | Roster published? | Result |
+|---|---|---|
+| **End Abortion Ohio** | **YES — 170 pastors** | 143 congregations, 133 added *(previous entry)* |
+| **Abolish Abortion Missouri** | **YES — 6 pastors** | 2 matched, 4 added |
+| **Abolish Abortion Oklahoma** | no | "over 100 pastors" signed for SB 13, **but no list is published** |
+| **End Abortion Alabama** | no | HB 518 backed; pastors' meetings held; no signatories named |
+| **Abolish Abortion North Carolina** | no | references a "Coalition of Abolitionist Churches", **names none** |
+| **Abortion is Murder Kansas** | no | has an "Affiliate Church Network", **names no churches** |
+| **Liberty Rising Institute** | no | "equipping the saints to engage their legislators"; no roster |
+| End Abortion Nebraska | — | already covered by the 2026-07-31 Nebraska work |
+| Rescue Those · Cruciform · Forge | — | principals already in the directory |
+
+**The pattern: these organisations publish petitions to be signed, not lists of who signed.** Ohio and
+Missouri are the exceptions, and Ohio's was only reachable because the petition had its own URL. When
+a state org names a *bill*, look for a page dedicated to that bill.
+
+### Missouri: six churches, and the second false negative of the day
+
+The Missouri Pastor's Petition — *"Since the overturning of Roe v. Wade unborn babies are still not
+equally protected under Missouri law, as born persons are"* — carries six men. Two were already here,
+four added.
+
+**#3287 SADLER CHAPEL, DEXTER MO — I dismissed this row this morning.** Researching the
+postmillennial cohort I wrote it off as *"a bad row in the source"*: United Methodist, a denomination
+that ordains women, whose only visible public activity was **hosting monthly bluegrass jam sessions**.
+I recorded "nothing on abortion, postmillennialism, theonomy, Christian nationalism, Zionism or
+patriarchy."
+
+**A pastor of that church had signed Missouri's equal-protection petition.**
+
+I dismissed it on **denominational** grounds. That is "denominational inference is not research"
+broken in the negative direction — and the negative direction is the dangerous one, because a wrong
+dismissal leaves no trace in the record. **Second time today**, after Hopewell Church, Ashland.
+
+*(Leadership note: the petition lists **Joe Myers**; local press gave **Dave Fowler**. Both recorded,
+neither discarded, which is current unresolved.)*
+
+### Oklahoma gave up a church by a different route
+
+Oklahoma publishes no signatory list, but the reporting on SB 13 names the **organisations** that
+backed it — and one of them is a church this directory did not have.
+
+**#4485 FAIRVIEW BAPTIST CHURCH, EDMOND OK — ADDED AND QUALIFYING.** Senior Pastor **Paul K. Blair**
+since 2001, a former NFL offensive lineman, is **President of Reclaiming America for Christ** and
+**founder of the Liberty Pastors Network** and its training camps — institutions built to move pastors
+into the civil sphere, and his own rather than ones he merely serves. He broadcasts weekly on Bott
+Radio, sits on the Covenant Journey Academy board, and is tied to Truth & Liberty and Public School
+Exit. A former mayor of Edmond has publicly called his preaching "white Christian nationalist" — a
+critic's label, recorded as such, but the underlying position is Blair's own and is not in dispute.
+His church's pulpit politics has drawn press scrutiny over the IRS restrictions, which is itself
+evidence the politics is happening. `christianNationalism → affirm`.
+
+**A church appearing among the backing ORGANISATIONS of an abolition bill is the congregation acting
+corporately** — a form of evidence this project had not used before, and worth remembering.
+`abolitionStance` left unknown all the same: an organisational listing is not a signed statement.
+
+### Kansas checked out clean
+
+The AIM KS Capitol rally of January 2026 named two pastors — **Josh Eaton, Cross Point Baptist,
+Caney** and **Curtis Knapp, New Hope Baptist, Seneca**. Both are already in this directory and both
+already read `transformationalist`. Nothing to add, which is its own kind of confirmation.
+
+### Where it stands
+
+`transformationalist` **104** · `single_issue` 285 · `quietist` 28 · `limited_mission` 16 ·
+`unknown` 3,993. Directory **4,426**.

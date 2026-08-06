@@ -6,12 +6,12 @@ the state and the next action.
 
 ## Where the directory stands
 
-**4,421 churches.** Of those:
+**4,426 churches.** Of those:
 
 | culturalEngagement | n | meaning |
 |---|---|---|
-| `transformationalist` | **103** | **qualifies** — meets the standard |
-| `single_issue` | 279 | examined; acts publicly on one question, does not qualify |
+| `transformationalist` | **104** | **qualifies** — meets the standard |
+| `single_issue` | 285 | examined; acts publicly on one question, does not qualify |
 | `limited_mission` | 16 | examined; published mission is ecclesial, does not qualify |
 | `quietist` | 28 | examined; treats political engagement as outside the church's calling |
 | `unknown` | 4,004 | not researched closely enough to classify |
@@ -44,25 +44,30 @@ set 2026-07-31). One marker, acted on publicly, is `single_issue`.
 **Closed queues:** the qualifying list (103, all researched), the postmillennial-directory cohort
 (186, all researched), the theonomy church directory (26 of 26), and the Norman Statement roster.
 
-**1. FINISH THE NORMAN STATEMENT'S ORGANISATIONS — the Ohio one alone yielded 133 churches.**
-End Abortion Ohio's H.B. 370 pastoral petition produced **170 named pastors → 143 congregations**.
-The remaining orgs are the same shape and are almost certainly sitting on comparable lists:
+**1. THE NORMAN STATEMENT ORGANISATIONS ARE DONE — and the answer is mostly "no roster".**
 
-| Organisation | Person | Status |
+| Organisation | Roster? | Result |
 |---|---|---|
-| **End Abortion Ohio** | Austin Beigel | **DONE — 133 churches added** |
-| End Abortion Alabama | Paul Abbott II | not started |
-| Abolish Abortion NC | Wayne Groover, David Buboltz | not started |
-| Abolish Abortion Missouri | Wes Scroggins, Kevan Myers | not started |
-| Abortion is Murder Kansas | Kevan Myers | not started |
-| Abolish Abortion Oklahoma | Tim Gillespie | not started |
-| End Abortion Nebraska | Jarrod Ridge | partially covered by the 2026-07-31 Nebraska work |
-| Liberty Rising Institute | Chris Gore, Joseph Silk | not started |
-| Forge Theological Seminary | Russell Threet | a seminary — an education node |
-| Rescue Those · Cruciform Ministries | Baggett/Deevers, Scalf | not started |
+| End Abortion Ohio | **YES, 170 pastors** | **133 churches added** |
+| Abolish Abortion Missouri | **YES, 6** | 2 matched, 4 added |
+| Abolish Abortion Oklahoma | no | 100+ signed for SB 13; **list unpublished** |
+| End Abortion Alabama | no | HB 518; no signatories named |
+| Abolish Abortion NC | no | "Coalition of Abolitionist Churches", names none |
+| Abortion is Murder Kansas | no | "Affiliate Church Network", names none |
+| Liberty Rising Institute | no | no roster |
+| End Abortion Nebraska | — | covered by the 7-31 Nebraska work |
+| Rescue Those · Cruciform · Forge | — | principals already here |
 
-**Look for each state's equal-protection BILL petition, not just the org's homepage** — that is where
-the pastor rosters live (FAA keeps state pages at `faa.life/<state>`, though it 403s to fetchers).
+**These orgs publish petitions to be signed, not lists of signers.** Do not re-work them looking for
+rosters. **When a state org names a BILL, look for a page dedicated to that bill** — that is the only
+reason Ohio's roster was reachable (`/pastoral-petition-hb370`).
+
+**Two routes that DID work and should be reused:**
+- **Reporting on a bill names the ORGANISATIONS that backed it**, and some of those are churches.
+  That is how Fairview Baptist, Edmond (#4485, Paul Blair) was found — it had never been in this
+  directory.
+- **Rally and conference coverage names pastors.** Kansas's January 2026 Capitol rally named two, both
+  already here and both already qualifying.
 
 **2. A COUNTY-VS-CITY SWEEP, now overdue.** **23 of 85 Ohio rows carry a COUNTY in the `city` field**
 ("Clermont County", "Franklin County"). It is a bulk-import artefact that silently breaks city
