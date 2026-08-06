@@ -1,0 +1,38 @@
+[
+ {
+  "name": "Free Reformed Church of Pompton Plains",
+  "city": "Pompton Plains",
+  "state": "NJ",
+  "zip": "07444",
+  "street": "160 West Pkwy.",
+  "website": "https://www.frcpp.org",
+  "ministers": [
+   "Jerrold Lewis"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Free Reformed Church of Grand Rapids",
+  "city": "Grand Rapids",
+  "state": "MI",
+  "zip": "49503",
+  "street": "950 Ball Ave. NE",
+  "website": "https://www.frcgrandrapids.org/",
+  "ministers": [
+   "Ian Macleod"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Free Reformed Church of Wyoming",
+  "city": "Wyoming",
+  "state": "MI",
+  "zip": "49519",
+  "street": "1620 52nd St. SW",
+  "website": "https://redeemerfrc.org/",
+  "ministers": [
+   "Vacant"
+  ],
+  "vacant": false
+ }
+]

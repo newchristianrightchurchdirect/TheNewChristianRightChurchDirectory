@@ -55,6 +55,24 @@ does every one of the **187 rows ever sourced to postmillennialworldview.com**, 
 classification. Neither had ever been true before 2026-08-05, when 184 rows were researched and 364
 audited stance changes were written.
 
+## SCOPE — what belongs in this directory at all (Dustin's ruling, 2026-08-06)
+
+The directory covers **CONSERVATIVE** churches. That test is a floor, not the six markers:
+
+> **Conservative = at minimum COMPLEMENTARIAN and NOT LGBT-AFFIRMING.**
+> **Liberal = ordains women, or is gay-affirming, or the like. Out of scope. So is Roman Catholic.**
+
+**Non-Reformed Baptist and Bible churches are in scope too**, on the same floor.
+
+**This directory also documents its own COVERAGE.** Part of its claim is that it has looked across the
+conservative Reformed landscape in America — not only at the churches that turned out to be
+interesting. A denomination's full roster is what makes that claim checkable, so whole rosters of
+qualifying-on-the-floor bodies are imported **unverified**, flagged `denominational_coverage`:
+`researchStatus` stays `not_researched`, `stanceBasis` is null, no stance is set, no marker is claimed.
+
+**A count of coverage rows is not evidence of anything.** A regional concentration of them is a fact
+about which denominations publish rosters, not about a region.
+
 ## The standard — never shortcut it
 
 Four sources, **all of them, every time**, and load it *before* searching:

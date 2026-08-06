@@ -41,6 +41,15 @@ export const RECORD_FLAGS: FlagDef[] = [
   { key: 'corrected', label: 'Corrected', held: false, description: 'Record has been through a correction pass.' },
   { key: 'added_via_ar_list', label: 'From AR list', held: false, description: 'Sourced from the abolitionist-orgs list.' },
   { key: 'added_via_crosscheck', label: 'From cross-check', held: false, description: 'Found while cross-referencing another source.' },
+  { key: 'denominational_coverage', label: 'Coverage import — unverified', held: false,
+    description:
+      'Added from a conservative denomination\'s own roster so that the directory can show it has ' +
+      'covered that body, NOT because anything about this congregation has been established. It is ' +
+      'UNVERIFIED: no stance is set, no marker is claimed, and the four-source standard has not been ' +
+      'applied. The only thing its presence asserts is that the church exists and belongs to a body ' +
+      'that meets the directory\'s minimum conservative test — complementarian and not LGBT-affirming. ' +
+      'Never read one of these rows as a finding, and never cite a count of them as evidence of a ' +
+      'regional pattern.' },
 ]
 
 const BY_KEY = new Map(RECORD_FLAGS.map(f => [f.key, f]))

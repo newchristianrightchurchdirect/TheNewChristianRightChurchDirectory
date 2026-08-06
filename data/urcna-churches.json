@@ -1,0 +1,1329 @@
+[
+ {
+  "name": "Anchor of Hope Reformed Church",
+  "city": "Silverdale",
+  "state": "WA",
+  "zip": "98383",
+  "street": "10625 Ridgetop Blvd",
+  "classis": "Pacific Northwest",
+  "website": "https://www.anchorofhopechurch.org",
+  "ministers": [
+   "Rev. Jacob Meadows"
+  ],
+  "vacant": false,
+  "updated": "01/07/2025"
+ },
+ {
+  "name": "Ascension Reformed Church",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45219",
+  "street": "2147 Auburn Ave.",
+  "classis": "Eastern U.S.",
+  "website": "http://ascensionreformed.org/",
+  "ministers": [
+   "Rev. Zachary Wyse"
+  ],
+  "vacant": false,
+  "updated": "03/17/2026"
+ },
+ {
+  "name": "Belgrade United Reformed Church",
+  "city": "Belgrade",
+  "state": "MT",
+  "zip": "59714",
+  "street": "17333 Frontage Rd. West",
+  "classis": "Pacific Northwest",
+  "website": "https://www.urcbelgrade.com",
+  "ministers": [
+   "Rev. Paul Lindemulder"
+  ],
+  "vacant": false,
+  "updated": "01/18/2025"
+ },
+ {
+  "name": "Bellingham United Reformed Church",
+  "city": "Bellingham",
+  "state": "WA",
+  "zip": "98226",
+  "street": "4454 Pacific Highway",
+  "classis": "Pacific Northwest",
+  "website": "https://www.bellinghamurc.com",
+  "ministers": [
+   "Rev. Jason Vander Horst"
+  ],
+  "vacant": false,
+  "updated": "02/23/2026"
+ },
+ {
+  "name": "Bethany United Reformed Church",
+  "city": "Wyoming",
+  "state": "MI",
+  "zip": "49519",
+  "street": "5401 Byron Center Ave., SW",
+  "classis": "Michigan",
+  "website": "http://www.bethanyurc.com",
+  "ministers": [
+   "Rev. Eric Van Der Molen"
+  ],
+  "vacant": false,
+  "updated": "12/20/2024"
+ },
+ {
+  "name": "Bethel United Reformed Church of Jenison",
+  "city": "Jenison",
+  "state": "MI",
+  "zip": "49428-9319",
+  "street": "8360 Cottonwood Dr.",
+  "classis": "Michigan",
+  "website": "https://www.BethelJenison.com",
+  "ministers": [
+   "Rev. Wm. Jason Tuinstra",
+   "Rev. Steve Postma"
+  ],
+  "vacant": false,
+  "updated": "03/25/2026"
+ },
+ {
+  "name": "Big Springs United Reformed Church",
+  "city": "Montague",
+  "state": "CA",
+  "zip": "96064",
+  "street": "7220 County Highway A12",
+  "classis": "Pacific Northwest",
+  "website": "https://www.bigspringsurc.com",
+  "ministers": [
+   "Rev. Nollie Malabuyo"
+  ],
+  "vacant": false,
+  "updated": "01/12/2026"
+ },
+ {
+  "name": "Burlington United Reformed Church",
+  "city": "Burlington",
+  "state": "WA",
+  "zip": "98233",
+  "street": "778 N. Burlington Blvd.",
+  "classis": "Pacific Northwest",
+  "website": "https://www.burlingtonurc.org",
+  "ministers": [
+   "Rev. James A Ogle"
+  ],
+  "vacant": false,
+  "updated": "06/28/2025"
+ },
+ {
+  "name": "Calvary United Reformed Church",
+  "city": "Loveland",
+  "state": "CO",
+  "zip": "80537",
+  "street": "3901 14th St. S.W.",
+  "classis": "Southwest U.S.",
+  "website": "https://calvaryurc.org",
+  "ministers": [
+   "Rev. Brian Vos"
+  ],
+  "vacant": false,
+  "updated": "05/02/2026"
+ },
+ {
+  "name": "Central Oregon United Reformed Church, Redmond OR",
+  "city": "Redmond",
+  "state": "OR",
+  "zip": "97756",
+  "street": "150 SW 25th Street",
+  "classis": "Pacific Northwest",
+  "website": "https://courc.org",
+  "ministers": [],
+  "vacant": true,
+  "updated": "08/05/2026"
+ },
+ {
+  "name": "Christ Reformed Church of Anaheim, California",
+  "city": "Anaheim",
+  "state": "CA",
+  "zip": "92806",
+  "street": "900 S. Sunkist St.",
+  "classis": "Southwest U.S.",
+  "website": "https://www.christreformed.org",
+  "ministers": [
+   "Rev. Dr. Daniel Borvan",
+   "Rev. Brad Lenzner"
+  ],
+  "vacant": false,
+  "updated": "03/17/2026"
+ },
+ {
+  "name": "Christ Reformed Church of Bellevue",
+  "city": "Bellevue",
+  "state": "KY",
+  "zip": "41073",
+  "street": "306 Center Street",
+  "classis": "Eastern U.S.",
+  "website": "https://christreformednky.org",
+  "ministers": [
+   "Rev. Dr. J. Brandon Burks"
+  ],
+  "vacant": false,
+  "updated": "06/11/2026"
+ },
+ {
+  "name": "Christ Reformed Church of Nampa",
+  "city": "Nampa",
+  "state": "ID",
+  "zip": "83651",
+  "street": "12693 Orchard Ave.",
+  "classis": "Pacific Northwest",
+  "website": "https://www.christreformednampa.org",
+  "ministers": [
+   "Rev. Nick Smith"
+  ],
+  "vacant": false,
+  "updated": "07/25/2026"
+ },
+ {
+  "name": "Christ Reformed Church of Sioux Falls",
+  "city": "Sioux Falls",
+  "state": "SD",
+  "zip": "57105",
+  "street": "400 E. 41st St",
+  "classis": "Central U.S.",
+  "website": "https://www.ChristReformedSF.org",
+  "ministers": [
+   "Rev. Joseph Hamm"
+  ],
+  "vacant": false,
+  "updated": "06/17/2026"
+ },
+ {
+  "name": "Christ Reformed Church of Washington D.C.",
+  "city": "Washington",
+  "state": "DC",
+  "zip": "20002",
+  "street": "914 Massachusetts Avenue NE",
+  "classis": "Eastern U.S.",
+  "website": "https://www.ChristReformedDC.org",
+  "ministers": [
+   "Rev. Dr. Brian J. Lee"
+  ],
+  "vacant": false,
+  "updated": "12/27/2025"
+ },
+ {
+  "name": "Christ the Redeemer Reformed Church",
+  "city": "Fields Landing",
+  "state": "CA",
+  "zip": "95537",
+  "street": "510 Depot Rd.",
+  "classis": "Pacific Northwest",
+  "website": "https://www.101church.com",
+  "ministers": [
+   "Pastor John M. Kistler"
+  ],
+  "vacant": false,
+  "updated": "01/05/2026"
+ },
+ {
+  "name": "Christ United Reformed Church of Santee",
+  "city": "Santee",
+  "state": "CA",
+  "zip": "92071",
+  "street": "10333 Mast Blvd.",
+  "classis": "Southwest U.S.",
+  "website": "https://www.christurc.org",
+  "ministers": [
+   "Rev. William C. Godfrey"
+  ],
+  "vacant": false,
+  "updated": "04/13/2026"
+ },
+ {
+  "name": "Cloverdale United Reformed Church",
+  "city": "Boise",
+  "state": "ID",
+  "zip": "83713",
+  "street": "3580 N. Cloverdale Rd.",
+  "classis": "Pacific Northwest",
+  "website": "https://www.cloverdaleurc.org",
+  "ministers": [
+   "Rev. Russell Herman"
+  ],
+  "vacant": false,
+  "updated": "07/08/2025"
+ },
+ {
+  "name": "Community United Reformed Church",
+  "city": "Schererville",
+  "state": "IN",
+  "zip": "46375",
+  "street": "8405 Alexander St.",
+  "classis": "Central U.S.",
+  "website": "https://www.communityurc.org",
+  "ministers": [
+   "Rev. David Klompien"
+  ],
+  "vacant": false,
+  "updated": "10/01/2025"
+ },
+ {
+  "name": "Coram Deo United Reformed Church",
+  "city": "Centennial",
+  "state": "CO",
+  "zip": "80112",
+  "street": "7076 S. Alton Way, Bldg. B",
+  "classis": "Southwest U.S.",
+  "website": "https://www.coramdeourc.org",
+  "ministers": [
+   "Rev. Derrick Vander Meulen"
+  ],
+  "vacant": false,
+  "updated": "02/05/2026"
+ },
+ {
+  "name": "Cornerstone Christian Church of Medford",
+  "city": "Medford",
+  "state": "OR",
+  "zip": "97501",
+  "street": "608 N. Bartlett Street",
+  "classis": "Pacific Northwest",
+  "website": "https://cccm.org",
+  "ministers": [
+   "Rev. Brad Lenzner",
+   "Rev. Mark Delladio"
+  ],
+  "vacant": false,
+  "updated": "02/24/2026"
+ },
+ {
+  "name": "Cornerstone United Reformed Church of Hudsonville",
+  "city": "Hudsonville",
+  "state": "MI",
+  "zip": "49426",
+  "street": "6442 36th Ave.",
+  "classis": "Michigan",
+  "website": "https://www.cornerstoneurc.com",
+  "ministers": [
+   "Vacant: Call accepted by Rev. Greg Lubbers",
+   "Dr. Jared Poulton"
+  ],
+  "vacant": false,
+  "updated": "05/18/2026"
+ },
+ {
+  "name": "Cornerstone United Reformed Church of Sanborn",
+  "city": "Sanborn",
+  "state": "IA",
+  "zip": "51248",
+  "street": "805 Sunrise Ave.",
+  "classis": "Central U.S.",
+  "website": "https://www.cornerstone-urc.org",
+  "ministers": [
+   "Rev. Dan Donovan",
+   "Rev. Elijah Anderson"
+  ],
+  "vacant": false,
+  "updated": "01/09/2026"
+ },
+ {
+  "name": "Covenant Chinese Reformed Church",
+  "city": "Anaheim",
+  "state": "CA",
+  "zip": "92806",
+  "street": "900 South Sunkist Street",
+  "classis": "Southwest U.S.",
+  "website": "https://www.ccreformed.org",
+  "ministers": [
+   "Rev. Yi Wang"
+  ],
+  "vacant": false,
+  "updated": "03/14/2026"
+ },
+ {
+  "name": "Covenant Grace Reformed Church",
+  "city": "Lynden",
+  "state": "WA",
+  "zip": "98264",
+  "street": "1227 Loomis Trail Road",
+  "classis": "Pacific Northwest",
+  "website": "https://www.covenantgracereformedchurch.org",
+  "ministers": [
+   "Rev. Dale J. Van Dyke"
+  ],
+  "vacant": false,
+  "updated": "01/10/2025"
+ },
+ {
+  "name": "Covenant Reformed Church of Carbondale",
+  "city": "Carbondale",
+  "state": "PA",
+  "zip": "18407",
+  "street": "47 S. Church St",
+  "classis": "Eastern U.S.",
+  "website": "http://www.covenantrc.org/",
+  "ministers": [
+   "Rev. Steve Arrick"
+  ],
+  "vacant": false,
+  "updated": "01/05/2026"
+ },
+ {
+  "name": "Covenant Reformed Church of Kansas City",
+  "city": "Kansas City",
+  "state": "MO",
+  "zip": "64134",
+  "street": "9511 Lane Ave",
+  "classis": "Central U.S.",
+  "website": "https://www.covenantreformed.org",
+  "ministers": [
+   "Rev. Matthew Nuiver"
+  ],
+  "vacant": false,
+  "updated": "02/23/2026"
+ },
+ {
+  "name": "Covenant Reformed Church of Missoula",
+  "city": "Missoula",
+  "state": "MT",
+  "zip": "59804",
+  "street": "2512 Sunset Lane",
+  "classis": "Pacific Northwest",
+  "website": "https://www.missoulaurc.com",
+  "ministers": [
+   "Rev. Jared Beaird"
+  ],
+  "vacant": false,
+  "updated": "12/21/2024"
+ },
+ {
+  "name": "Covenant Reformed Church of Pella",
+  "city": "Pella",
+  "state": "IA",
+  "zip": "50219",
+  "street": "2805 Fifield Road",
+  "classis": "Central U.S.",
+  "website": "https://www.covenantpella.org",
+  "ministers": [
+   "Rev. Greg Lubbers"
+  ],
+  "vacant": false,
+  "updated": "02/23/2026"
+ },
+ {
+  "name": "Covenant United Reformed Church of Byron Center",
+  "city": "Byron Center",
+  "state": "MI",
+  "zip": "49315",
+  "street": "58 100th St.",
+  "classis": "Michigan",
+  "website": "https://www.covenanturc.com",
+  "ministers": [
+   "Rev. Rodney Kleyn"
+  ],
+  "vacant": false,
+  "updated": "02/23/2026"
+ },
+ {
+  "name": "Covenant United Reformed Church of Colorado Springs",
+  "city": "Colorado Springs",
+  "state": "CO",
+  "zip": "80907",
+  "street": "4825 Mallow Rd.",
+  "classis": "Southwest U.S.",
+  "website": "https://www.urccovenant.org",
+  "ministers": [],
+  "vacant": true,
+  "updated": "01/07/2026"
+ },
+ {
+  "name": "Covenant United Reformed Church of Fresno",
+  "city": "Fresno",
+  "state": "CA",
+  "zip": "93710",
+  "street": "2775 E. Shaw Ave.",
+  "classis": "Pacific Northwest",
+  "website": "https://www.fresnourc.com",
+  "ministers": [
+   "Rev. David Inks"
+  ],
+  "vacant": false,
+  "updated": "05/08/2026"
+ },
+ {
+  "name": "Covenant United Reformed Church of Kalamazoo",
+  "city": "Kalamazoo",
+  "state": "MI",
+  "zip": "49001",
+  "street": "3724 Lovers Lane",
+  "classis": "Michigan",
+  "website": "https://www.covenant-urc.org",
+  "ministers": [
+   "Chris Engelsma"
+  ],
+  "vacant": false,
+  "updated": "03/18/2026"
+ },
+ {
+  "name": "Covenant United Reformed Church of Pantego",
+  "city": "Pantego",
+  "state": "NC",
+  "zip": "27860",
+  "street": "24599 Highway 264 East",
+  "classis": "Eastern U.S.",
+  "website": "https://www.covenanturc.org",
+  "ministers": [],
+  "vacant": true,
+  "updated": "02/23/2026"
+ },
+ {
+  "name": "Dayspring Reformed Church",
+  "city": "Boise",
+  "state": "ID",
+  "zip": "83705",
+  "street": "2323 S Vista Ave.",
+  "classis": "Pacific Northwest",
+  "website": "https://www.dayspringboise.com",
+  "ministers": [
+   "Rev. Jonathan S. Van Hoogen"
+  ],
+  "vacant": false,
+  "updated": "02/23/2026"
+ },
+ {
+  "name": "Doon United Reformed Church",
+  "city": "Doon",
+  "state": "IA",
+  "zip": "51235",
+  "street": "608 Rice Ave.",
+  "classis": "Central U.S.",
+  "website": "https://www.doonurc.org",
+  "ministers": [
+   "Rev. Daniel Hofland"
+  ],
+  "vacant": false,
+  "updated": "08/01/2026"
+ },
+ {
+  "name": "Dutton United Reformed Church",
+  "city": "Dutton",
+  "state": "MI",
+  "zip": "49316",
+  "street": "6950 Hanna Lake Ave. SE",
+  "classis": "Michigan",
+  "website": "https://www.duttonurc.org",
+  "ministers": [
+   "Rev. Talman Wagenmaker"
+  ],
+  "vacant": false,
+  "updated": "02/23/2026"
+ },
+ {
+  "name": "Eastmanville United Reformed Church",
+  "city": "Coopersville",
+  "state": "MI",
+  "zip": "49404",
+  "street": "6845 Leonard St.",
+  "classis": "Michigan",
+  "website": "https://www.eastmanvilleurc.org",
+  "ministers": [
+   "Rev. Jephthah Nobel"
+  ],
+  "vacant": false,
+  "updated": "08/14/2025"
+ },
+ {
+  "name": "Escondido United Reformed Church",
+  "city": "Escondido",
+  "state": "CA",
+  "zip": "92026",
+  "street": "1864 N. Broadway",
+  "classis": "Southwest U.S.",
+  "website": "https://www.escondidourc.org",
+  "ministers": [
+   "Rev. Christopher J. Gordon",
+   "Rev. Angelo Contreras"
+  ],
+  "vacant": false,
+  "updated": "04/01/2026"
+ },
+ {
+  "name": "Faith United Reformed Church of Beecher",
+  "city": "Beecher",
+  "state": "IL",
+  "zip": "60401",
+  "street": "130 West Corning Rd.",
+  "classis": "Central U.S.",
+  "website": "https://www.faithurc.org",
+  "ministers": [
+   "Rev. Nathan Voss"
+  ],
+  "vacant": false,
+  "updated": "07/02/2026"
+ },
+ {
+  "name": "Faith United Reformed Church of Holland",
+  "city": "Holland",
+  "state": "MI",
+  "zip": "49460",
+  "street": "8270 120th Ave.",
+  "classis": "Michigan",
+  "website": "https://www.faithurc.net",
+  "ministers": [],
+  "vacant": true,
+  "updated": "02/23/2026"
+ },
+ {
+  "name": "First United Reformed Church of Chino",
+  "city": "Chino",
+  "state": "CA",
+  "zip": "91710",
+  "street": "6159 Riverside Drive",
+  "classis": "Southwest U.S.",
+  "website": "https://www.chinourc.org",
+  "ministers": [
+   "Rev. Bradd L. Nymeyer",
+   "Dr. Timothy R. Scheuers"
+  ],
+  "vacant": false,
+  "updated": "03/17/2026"
+ },
+ {
+  "name": "First United Reformed Church of Oak Lawn",
+  "city": "Oak Lawn",
+  "state": "IL",
+  "zip": "60453",
+  "street": "9350 S 54th Ave.",
+  "classis": "Central U.S.",
+  "website": "https://www.oaklawnurc.org",
+  "ministers": [
+   "Rev. Harold Miller"
+  ],
+  "vacant": false,
+  "updated": "01/09/2026"
+ },
+ {
+  "name": "Gig Harbor United Reformed Church",
+  "city": "Gig Harbor",
+  "state": "WA",
+  "zip": "98335",
+  "street": "3008 36th St NW",
+  "classis": "Pacific Northwest",
+  "website": "https://www.gigharborurc.org",
+  "ministers": [],
+  "vacant": true,
+  "updated": "02/23/2026"
+ },
+ {
+  "name": "Grace Reformed Bible Church",
+  "city": "Newton",
+  "state": "NJ",
+  "zip": "07860",
+  "street": "23 Thompson Street",
+  "classis": "Eastern U.S.",
+  "website": "https://www.newtoncov.org",
+  "ministers": [
+   "Rev. Aaron Verhoef"
+  ],
+  "vacant": false,
+  "updated": "02/18/2026"
+ },
+ {
+  "name": "Grace Reformed Church of Jersey City",
+  "city": "Jersey City",
+  "state": "NJ",
+  "zip": "07306",
+  "street": "240 Fairmount Ave.",
+  "classis": "Eastern U.S.",
+  "website": "https://www.jerseycitygrace.org",
+  "ministers": [
+   "Rev. Samuel Perez"
+  ],
+  "vacant": false,
+  "updated": "12/30/2023"
+ },
+ {
+  "name": "Grace United Reformed Church of Alto",
+  "city": "Alto",
+  "state": "MI",
+  "zip": "49302",
+  "street": "9255 84th St. SE",
+  "classis": "Michigan",
+  "website": "https://graceurcmi.com/",
+  "ministers": [
+   "Rev. Doug Barnes"
+  ],
+  "vacant": false,
+  "updated": "01/21/2026"
+ },
+ {
+  "name": "Grace United Reformed Church of Kennewick",
+  "city": "Kennewick",
+  "state": "WA",
+  "zip": "99336-3179",
+  "street": "2500 W. 4th Ave",
+  "classis": "Pacific Northwest",
+  "website": "https://www.graceurc.org",
+  "ministers": [
+   "Rev. Craig Davis"
+  ],
+  "vacant": false,
+  "updated": "01/04/2026"
+ },
+ {
+  "name": "Grace United Reformed Church of Portland",
+  "city": "Milwaukie",
+  "state": "OR",
+  "zip": "97267",
+  "street": "2800 Concord Rd",
+  "classis": "Pacific Northwest",
+  "website": "https://www.graceunitedreformedchurch.org",
+  "ministers": [
+   "Rev. Josh Feil"
+  ],
+  "vacant": false,
+  "updated": "02/23/2026"
+ },
+ {
+  "name": "Grace United Reformed Church of Torrance",
+  "city": "Torrance",
+  "state": "CA",
+  "zip": "90501",
+  "street": "2400 W. Carson St. Suite 120",
+  "classis": "Southwest U.S.",
+  "website": "https://www.graceurctorrance.org",
+  "ministers": [
+   "Rev. Brian Cochran",
+   "Rev. Drew Admiraal"
+  ],
+  "vacant": false,
+  "updated": "01/04/2026"
+ },
+ {
+  "name": "Grace United Reformed Church of Waupun",
+  "city": "Waupun",
+  "state": "WI",
+  "zip": "53963",
+  "street": "601 Buwalda Drive",
+  "classis": "Central U.S.",
+  "website": "https://www.WaupunGraceURC.org",
+  "ministers": [
+   "Rev. Paul Freswick"
+  ],
+  "vacant": false,
+  "updated": "10/28/2025"
+ },
+ {
+  "name": "High Desert United Reformed Church",
+  "city": "Victorville",
+  "state": "CA",
+  "zip": "92395",
+  "street": "Community Building, 12975 Rolling Ridge Dr.",
+  "classis": "Southwest U.S.",
+  "website": "https://www.highdeserturc.org",
+  "ministers": [
+   "Rev. Tom Morrison"
+  ],
+  "vacant": false,
+  "updated": "01/08/2026"
+ },
+ {
+  "name": "Hills United Reformed Church",
+  "city": "Hills",
+  "state": "MN",
+  "zip": "56138",
+  "street": "410 S. Central Ave.",
+  "classis": "Central U.S.",
+  "website": "https://www.hillsurc.com",
+  "ministers": [
+   "Rev. Praveen Muthusamy"
+  ],
+  "vacant": false,
+  "updated": "01/13/2025"
+ },
+ {
+  "name": "Hudson Valley United Reformed Church",
+  "city": "New Hampton",
+  "state": "NY",
+  "zip": "10958",
+  "street": "1043 County Route 12",
+  "classis": "Eastern U.S.",
+  "website": "https://www.hvurc.org",
+  "ministers": [
+   "Rev. Kevin Hossink"
+  ],
+  "vacant": false,
+  "updated": "01/08/2026"
+ },
+ {
+  "name": "Immanuel Fellowship Church of Kalamazoo",
+  "city": "Kalamazoo",
+  "state": "MI",
+  "zip": "49009",
+  "street": "6015 West H Avenue",
+  "classis": "Michigan",
+  "website": "https://www.reformedIFC.com",
+  "ministers": [
+   "Rev. William Boekestein"
+  ],
+  "vacant": false,
+  "updated": "10/25/2024"
+ },
+ {
+  "name": "Immanuel United Reformed Church of DeMotte",
+  "city": "DeMotte",
+  "state": "IN",
+  "zip": "46310",
+  "street": "9991 W. 1200 N.",
+  "classis": "Central U.S.",
+  "website": "https://www.immanuelurcdemotte.org",
+  "ministers": [
+   "Rev. Joel Wories"
+  ],
+  "vacant": false,
+  "updated": "03/03/2026"
+ },
+ {
+  "name": "Immanuel\\'s Reformed Church of Salem",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97305",
+  "street": "4653 Sunnyview Road NE",
+  "classis": "Pacific Northwest",
+  "website": "https://www.immanuelsreformed.org",
+  "ministers": [
+   "Rev. Todd Joling"
+  ],
+  "vacant": false,
+  "updated": "07/23/2025"
+ },
+ {
+  "name": "Indy Reformed Church",
+  "city": "Westfield",
+  "state": "IN",
+  "zip": "46074",
+  "street": "16231 Carey Rd.",
+  "classis": "Eastern U.S.",
+  "website": "https://indyurc.org",
+  "ministers": [
+   "Rev. Austin Reifel"
+  ],
+  "vacant": false,
+  "updated": "02/14/2023"
+ },
+ {
+  "name": "Inheritance URC",
+  "city": "Goodyear",
+  "state": "AZ",
+  "zip": "85338",
+  "street": "418 S Citrus Rd",
+  "classis": "Southwest U.S.",
+  "website": "https://www.inheritanceurc.org",
+  "ministers": [
+   "Gavin Poe"
+  ],
+  "vacant": false,
+  "updated": "01/13/2026"
+ },
+ {
+  "name": "Lynden United Reformed Church",
+  "city": "Lynden",
+  "state": "WA",
+  "zip": "98264",
+  "street": "8650 Benson Rd.",
+  "classis": "Pacific Northwest",
+  "website": "https://www.lyndenurc.org",
+  "ministers": [
+   "Rev. Mark Vander Pol"
+  ],
+  "vacant": false,
+  "updated": "02/23/2026"
+ },
+ {
+  "name": "Lynwood United Reformed Church",
+  "city": "Lynwood",
+  "state": "IL",
+  "zip": "60411",
+  "street": "1990 East Glenwood-Dyer Rd.",
+  "classis": "Central U.S.",
+  "website": "https://www.lynwoodurc.org",
+  "ministers": [
+   "Rev. Nick Alons"
+  ],
+  "vacant": false,
+  "updated": "01/06/2026"
+ },
+ {
+  "name": "Madison Reformed Church",
+  "city": "Madison",
+  "state": "IN",
+  "zip": "47250",
+  "street": "309 E. 5th St",
+  "classis": "Eastern U.S.",
+  "website": "https://www.madisonreformed.com",
+  "ministers": [
+   "Rev. Collin Welch"
+  ],
+  "vacant": false,
+  "updated": "12/31/2025"
+ },
+ {
+  "name": "Messiah\\'s Reformed Fellowship",
+  "city": "New York",
+  "state": "NY",
+  "zip": "10010",
+  "street": "61 Gramercy Park North",
+  "classis": "Eastern U.S.",
+  "website": "https://www.merfnyc.org",
+  "ministers": [
+   "Rev. Dr. Daniel Ragusa"
+  ],
+  "vacant": false,
+  "updated": "06/11/2025"
+ },
+ {
+  "name": "New Covenant United Reformed Church",
+  "city": "Twin Falls",
+  "state": "ID",
+  "zip": "83301",
+  "street": "1306 Filer Ave. E.",
+  "classis": "Pacific Northwest",
+  "website": "https://www.newcovenanturc.org",
+  "ministers": [
+   "Rev. Christopher Folkerts"
+  ],
+  "vacant": false,
+  "updated": "12/20/2025"
+ },
+ {
+  "name": "New Haven United Reformed Church",
+  "city": "New Haven",
+  "state": "VT",
+  "zip": "05472",
+  "street": "1660 Ethan Allen Highway - Route 7",
+  "classis": "Eastern U.S.",
+  "website": "https://www.nhurc.org",
+  "ministers": [
+   "Rev. Andrew S. Knott"
+  ],
+  "vacant": false,
+  "updated": "02/06/2026"
+ },
+ {
+  "name": "Oak Glen United Reformed Church",
+  "city": "Lansing",
+  "state": "IL",
+  "zip": "60438",
+  "street": "2244 Indiana Ave.",
+  "classis": "Central U.S.",
+  "website": "https://www.oakglenurc.org",
+  "ministers": [
+   "Rev. Steve Oeverman"
+  ],
+  "vacant": false,
+  "updated": "06/29/2026"
+ },
+ {
+  "name": "Oceanside United Reformed Church",
+  "city": "Carlsbad",
+  "state": "CA",
+  "zip": "92008",
+  "street": "2605 Carlsbad Blvd.",
+  "classis": "Southwest U.S.",
+  "website": "https://www.oceansideurc.org",
+  "ministers": [
+   "Rev. Daniel R. Hyde"
+  ],
+  "vacant": false,
+  "updated": "02/04/2025"
+ },
+ {
+  "name": "Ontario United Reformed Church",
+  "city": "Ontario",
+  "state": "CA",
+  "zip": "91761",
+  "street": "205 East Philadelphia St.",
+  "classis": "Southwest U.S.",
+  "website": "https://www.ontariourc.org",
+  "ministers": [
+   "Rev. Taylor Kern",
+   "Rev. Daniel Ventura"
+  ],
+  "vacant": false,
+  "updated": "02/23/2026"
+ },
+ {
+  "name": "Pasadena United Reformed Church",
+  "city": "South Pasadena",
+  "state": "CA",
+  "zip": "91030",
+  "street": "1515 Garfield Ave",
+  "classis": "Southwest U.S.",
+  "website": "https://www.pasadenaurc.org",
+  "ministers": [
+   "Rev. Movses S. Janbazian",
+   "Rev. Adam Kaloostian"
+  ],
+  "vacant": false,
+  "updated": "05/08/2026"
+ },
+ {
+  "name": "Peace United Reformed Church",
+  "city": "Vancouver",
+  "state": "WA",
+  "zip": "98661",
+  "street": "5602 E. Mill Plain Blvd.",
+  "classis": "Pacific Northwest",
+  "website": "https://www.peaceurc.com",
+  "ministers": [
+   "Rev. Chris Coleman"
+  ],
+  "vacant": false,
+  "updated": "01/20/2026"
+ },
+ {
+  "name": "Phoenix United Reformed Church",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85016",
+  "street": "2002 E. Missouri Ave.",
+  "classis": "Southwest U.S.",
+  "website": "https://www.phoenixurc.org",
+  "ministers": [
+   "Rev. Michael Spotts",
+   "Rev. Chris Smith"
+  ],
+  "vacant": false,
+  "updated": "01/06/2026"
+ },
+ {
+  "name": "Pocono Reformed Bible Church",
+  "city": "Stroudsburg",
+  "state": "PA",
+  "zip": "18360",
+  "street": "7164 Business Route 209",
+  "classis": "Eastern U.S.",
+  "website": "https://www.poconoreformedbiblechurch.com",
+  "ministers": [
+   "Rev. Nicholas L. Costanzo"
+  ],
+  "vacant": false,
+  "updated": "04/08/2026"
+ },
+ {
+  "name": "Pompton Plains Reformed Bible Church",
+  "city": "Pompton Plains",
+  "state": "NJ",
+  "zip": "07444",
+  "street": "415 Boulevard",
+  "classis": "Eastern U.S.",
+  "website": "https://www.pprbc.org",
+  "ministers": [
+   "Rev. Justin D. Nobel",
+   "Rev. Israel Quaresma"
+  ],
+  "vacant": false,
+  "updated": "06/24/2026"
+ },
+ {
+  "name": "Preakness Valley United Reformed Church",
+  "city": "Wayne",
+  "state": "NJ",
+  "zip": "07470",
+  "street": "480 Valley Rd",
+  "classis": "Eastern U.S.",
+  "website": "https://www.pvurc.org",
+  "ministers": [],
+  "vacant": true,
+  "updated": "01/09/2026"
+ },
+ {
+  "name": "Providence Reformed Church of Des Moines",
+  "city": "Des Moines",
+  "state": "IA",
+  "zip": "50317",
+  "street": "3400 E. Euclid Avenue, Unit C",
+  "classis": "Central U.S.",
+  "website": "https://www.providenceRC.org",
+  "ministers": [
+   "Rev. Jody James Lucero"
+  ],
+  "vacant": false,
+  "updated": "01/08/2026"
+ },
+ {
+  "name": "Providence Reformed Church of Meridian",
+  "city": "Meridian",
+  "state": "ID",
+  "zip": "83642",
+  "street": "1150 E Pienza St",
+  "classis": "Pacific Northwest",
+  "website": "https://www.providenceurc.org/",
+  "ministers": [
+   "Rev. Kris Wassam"
+  ],
+  "vacant": false,
+  "updated": "11/19/2025"
+ },
+ {
+  "name": "Providence Reformed Church of Sioux Falls",
+  "city": "Sioux Falls",
+  "state": "SD",
+  "zip": "57107",
+  "street": "47135 260th St",
+  "classis": "Central U.S.",
+  "website": "https://www.providencesiouxfalls.com",
+  "ministers": [
+   "Rev. Benjamin Davenport"
+  ],
+  "vacant": false,
+  "updated": "01/15/2025"
+ },
+ {
+  "name": "Redeemer Reformed Church, Golden Valley, MN",
+  "city": "Golden Valley",
+  "state": "MN",
+  "zip": "55422",
+  "street": "1300 Lilac Dr N",
+  "classis": "Central U.S.",
+  "website": "https://redeemerreformed.org/",
+  "ministers": [
+   "Rev. Caleb Janson"
+  ],
+  "vacant": false,
+  "updated": "06/23/2026"
+ },
+ {
+  "name": "Redeemer United Reformed Church of Anchorage",
+  "city": "Anchorage",
+  "state": "AK",
+  "zip": "99515",
+  "street": "1612 Ocean View Dr",
+  "classis": "Pacific Northwest",
+  "website": "http://www.akredeemer.org/",
+  "ministers": [
+   "Rev. Joseph Váradi"
+  ],
+  "vacant": false,
+  "updated": "04/28/2026"
+ },
+ {
+  "name": "Redeemer United Reformed Church of Orange City",
+  "city": "Orange City",
+  "state": "IA",
+  "zip": "51041",
+  "street": "302 St. Paul Ave. SE",
+  "classis": "Central U.S.",
+  "website": "https://www.redeemerurc.org",
+  "ministers": [
+   "Rev. Todd De Rooy"
+  ],
+  "vacant": false,
+  "updated": "01/03/2026"
+ },
+ {
+  "name": "Redeemer United Reformed Church of Saint John",
+  "city": "Saint John",
+  "state": "IN",
+  "zip": "46373",
+  "street": "10681 Park Place",
+  "classis": "Central U.S.",
+  "website": "https://www.redeemerurc.com",
+  "ministers": [
+   "Rev. Steve Swets"
+  ],
+  "vacant": false,
+  "updated": "04/23/2026"
+ },
+ {
+  "name": "Rock Valley United Reformed Church",
+  "city": "Rock Valley",
+  "state": "IA",
+  "zip": "51247",
+  "street": "2485 300th St.",
+  "classis": "Central U.S.",
+  "website": "https://www.rockvalleyurc.com",
+  "ministers": [],
+  "vacant": true,
+  "updated": "03/17/2026"
+ },
+ {
+  "name": "Santa Clarita United Reformed Church",
+  "city": "Santa Clarita",
+  "state": "CA",
+  "zip": "91350",
+  "street": "26860 Seco Canyon Road",
+  "classis": "Southwest U.S.",
+  "website": "https://www.SantaClaritaURC.org",
+  "ministers": [
+   "Rev. Dr. Lee Irons"
+  ],
+  "vacant": false,
+  "updated": "01/09/2025"
+ },
+ {
+  "name": "Sioux Center United Reformed Church",
+  "city": "Sioux Center",
+  "state": "IA",
+  "zip": "51250",
+  "street": "744 N. Main Ave.",
+  "classis": "Central U.S.",
+  "website": "https://www.siouxcenterurc.org",
+  "ministers": [
+   "Rev. Jon Bushnell"
+  ],
+  "vacant": false,
+  "updated": "02/07/2026"
+ },
+ {
+  "name": "Sovereign Grace United Reformed Church",
+  "city": "Comstock Park",
+  "state": "MI",
+  "zip": "49321",
+  "street": "62 Lamoreux Dr. NE",
+  "classis": "Michigan",
+  "website": "https://www.sovereigngraceurc.org/",
+  "ministers": [
+   "Rev. Mitchell Dick"
+  ],
+  "vacant": false,
+  "updated": "01/03/2026"
+ },
+ {
+  "name": "Trinity Reformed Church of Cape Coral",
+  "city": "Cape Coral",
+  "state": "FL",
+  "zip": "33990",
+  "street": "2220 Hancock Bridge Pkwy.",
+  "classis": "Eastern U.S.",
+  "website": "https://www.trinityurc.com",
+  "ministers": [
+   "Rev. Stephen Wetmore"
+  ],
+  "vacant": false,
+  "updated": "02/23/2026"
+ },
+ {
+  "name": "Trinity United Reformed Church of Caledonia",
+  "city": "Caledonia",
+  "state": "MI",
+  "zip": "49316",
+  "street": "7350 Kalamazoo Ave. S.E.",
+  "classis": "Michigan",
+  "website": "https://www.trinityurc.net",
+  "ministers": [
+   "Rev. Jacob London"
+  ],
+  "vacant": false,
+  "updated": "02/23/2026"
+ },
+ {
+  "name": "Trinity United Reformed Church of Visalia",
+  "city": "Visalia",
+  "state": "CA",
+  "zip": "93277",
+  "street": "6400 W Walnut Ave",
+  "classis": "Pacific Northwest",
+  "website": "https://www.trinityurcvisalia.com",
+  "ministers": [
+   "Rev. Jacques Roets",
+   "Rev. John Kirby"
+  ],
+  "vacant": false,
+  "updated": "06/25/2026"
+ },
+ {
+  "name": "Trinity United Reformed Church of Walnut Creek",
+  "city": "Concord",
+  "state": "CA",
+  "zip": "94521",
+  "street": "1092 Alberta Way",
+  "classis": "Pacific Northwest",
+  "website": "https://www.trinityurcwc.org",
+  "ministers": [
+   "Rev. Joghinda S. Gangar"
+  ],
+  "vacant": false,
+  "updated": "11/06/2024"
+ },
+ {
+  "name": "United Reformed Church of Sunnyside",
+  "city": "Sunnyside",
+  "state": "WA",
+  "zip": "98944",
+  "street": "1750 Sheller Road",
+  "classis": "Pacific Northwest",
+  "website": "https://www.sunnysideurc.com",
+  "ministers": [
+   "Rev. Jeffrey S. Karel"
+  ],
+  "vacant": false,
+  "updated": "01/31/2024"
+ },
+ {
+  "name": "United Reformed Church of Wellsburg",
+  "city": "Wellsburg",
+  "state": "IA",
+  "zip": "50680",
+  "street": "608 S. Adams",
+  "classis": "Central U.S.",
+  "website": "",
+  "ministers": [],
+  "vacant": true,
+  "updated": "08/03/2025"
+ },
+ {
+  "name": "Ventura Reformed",
+  "city": "Ventura",
+  "state": "CA",
+  "zip": "93001",
+  "street": "78 Chrisman Ave.",
+  "classis": "Southwest U.S.",
+  "website": "https://www.venturareformed.org",
+  "ministers": [
+   "Rev. Adam Kaloostian"
+  ],
+  "vacant": false,
+  "updated": "01/07/2026"
+ },
+ {
+  "name": "Walker United Reformed Church",
+  "city": "Grand Rapids",
+  "state": "MI",
+  "zip": "49534",
+  "street": "1941 Randall Avenue N.W.",
+  "classis": "Michigan",
+  "website": "https://www.walkerurc.org",
+  "ministers": [
+   "Rev. Quentin Falkena"
+  ],
+  "vacant": false,
+  "updated": "01/03/2026"
+ },
+ {
+  "name": "West Sayville Reformed Bible Church",
+  "city": "West Sayville",
+  "state": "NY",
+  "zip": "11796",
+  "street": "31 Rollstone Ave.",
+  "classis": "Eastern U.S.",
+  "website": "https://www.wsrbc.org",
+  "ministers": [
+   "Rev. Andrew D. Eenigenburg"
+  ],
+  "vacant": false,
+  "updated": "01/13/2025"
+ },
+ {
+  "name": "Zeltenreich Reformed Church of New Holland",
+  "city": "New Holland",
+  "state": "PA",
+  "zip": "17557",
+  "street": "752 Hollander Road",
+  "classis": "Eastern U.S.",
+  "website": "https://www.zeltenreich.org",
+  "ministers": [
+   "Rev. Robert M. Godfrey"
+  ],
+  "vacant": false,
+  "updated": "01/02/2026"
+ }
+]

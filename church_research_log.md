@@ -4121,3 +4121,80 @@ Three specific reasons not to pull the rest:
 **The one arguable case is URCNA**, whose Dutch neo-Calvinism is the actual source of the Kuyperian
 thinking several qualifiers here run on. 88 missing. That one is a judgement call and was left for
 Dustin.
+
+## 2026-08-06 (night) — Coverage imports. A scope rule, three denominations taken whole, and two that resist.
+
+Directory **5,678 → 5,809**. **131 rows imported as UNVERIFIED coverage.**
+
+### The scope rule, now written down
+
+Dustin's ruling, which had been implicit and is now doctrine in RESUME-HERE and in the flag vocabulary:
+
+> **Conservative = at minimum COMPLEMENTARIAN and NOT LGBT-AFFIRMING.**
+> **Liberal = ordains women, or is gay-affirming. Out of scope, as is Roman Catholic.**
+> Non-Reformed **Baptist and Bible churches are in scope** on the same floor.
+
+And the reason for importing whole rosters: **the directory documents its own COVERAGE.** Part of what
+it claims is that it has looked across the conservative Reformed landscape in America, not only at the
+churches that turned out to be interesting. A body's full roster is what makes that claim checkable.
+
+**NAPARC membership is itself a conservative filter** — none of its member bodies ordain women — so a
+NAPARC roster needs no separate liberal screen.
+
+New flag **`denominational_coverage`**, documented in `lib/record-flags.ts`: `researchStatus` stays
+`not_researched`, **`stanceBasis` is null**, no stance, no marker. The note on every such row says so,
+and adds: **a count of these rows is not evidence of anything** — a regional concentration of them is a
+fact about which denominations publish rosters, not about a region.
+
+### ARP — 253 congregations, and the endpoint fought back
+
+`arpchurch.org` runs **WP Store Locator**. Three attempts:
+
+1. One national query → **50 records.** The endpoint caps every query at 50 regardless of `max_results`.
+2. A 60-point grid at 600 miles → **111 of 269.** The Carolinas alone exceed the cap, so a coarse grid
+   silently loses dense regions. **A capped endpoint does not tell you it truncated.**
+3. A 432-call grid at 60 miles over the Southeast → **191.**
+
+Then the precise move: REST (`/wp-json/wp/v2/wpsl_stores`) reports the authoritative **269** with ids
+and permalinks but **no addresses**. Diffing that against the 191 gave exactly 78 to fetch
+individually — **and the first parser recovered only 1 of them**, because the store page is
+pipe-delimited:
+
+> `|Name|Street|Address2|City |ST |ZIP |United States|Phone: |…|Fax: |Pastor|Email: |…|`
+
+City, state and zip are **separate cells**, so a `City, ST 12345` regex matches nothing. Fixing that
+recovered **70 of 78** → **262 of 269**, 253 after deduping the source against itself.
+
+**157 matched, 96 added, and 63 denominations corrected** — one row was carrying "URC" for an ARP
+congregation.
+
+### URCNA — 95 US congregations, hiding in plain sight
+
+`urcna.org/find-a-church` looks empty to a fetcher. It is not: **every church's entire record is
+url-encoded inside its own `javascript:loadDialog(...)` link** — name, classis, mailing *and* meeting
+address, phone, email, website, service times, both ministers, coordinates, last-updated date. 142
+records, of which 47 are Canadian and excluded.
+
+**61 matched, 34 added, 22 denominations corrected.** The parser prefers the MEETING address over the
+mailing address, because the mailing address is frequently a P.O. box.
+
+### FRCNA — my gap estimate was wrong
+
+Strapi, at `/api/churches/` (the trailing slash matters — without it the API 308-redirects and curl
+saves the redirect notice as if it were JSON). **23 congregations, and 20 of them are Canadian.**
+
+So the Free Reformed gap was never ~24; **it was 1**. Two of the three US congregations were already
+here. An estimate of a denomination's US size taken from its total size is worthless for the Dutch
+Reformed bodies, which are mostly Canadian.
+
+### Two that resist, recorded so the next attempt starts further along
+
+- **PCA (gap ~87)** — the directory is an embedded **BatchGeo** map (`batchgeo.com/map/fed353c…`),
+  which returns a stub to a direct fetch. Worth noting this is also the **lowest-value** item on the
+  list: this project already carries a known defect of roughly 400 PCA-belt rows populated by
+  denominational default, and 87 more would deepen exactly that.
+- **KAPC (650 congregations, not the 300 I estimated)** — `kapc.org` is a Korean-language WordPress
+  site whose find-a-church page is an **Ultimate Member** directory (`um_directory`). The page carries
+  no addresses at all; the data loads through the plugin and is not exposed on any public REST route.
+
+Still untried: **HRC** and **PRC**, both small and both client-rendered.

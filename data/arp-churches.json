@@ -1,0 +1,2652 @@
+[
+ {
+  "name": "Joyfull Presbyterian Church",
+  "city": "Los Angeles",
+  "state": "CA",
+  "zip": "90019",
+  "street": "1215 S Bronson Ave APt 8",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Bethel ARP Church",
+  "city": "Los Angeles",
+  "state": "CA",
+  "zip": "90005-5605",
+  "street": "3421 W 8th St. Ste 3",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "In Christ Korean",
+  "city": "Los Angeles",
+  "state": "CA",
+  "zip": "90006",
+  "street": "976 S Arapahoe St. Apt 104",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Covenant Mission Church",
+  "city": "Burbank",
+  "state": "CA",
+  "zip": "91502",
+  "street": "160 S. Victory Blvd",
+  "website": "http://covenantburbank.com",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Bethany ARP Church",
+  "city": "Everson",
+  "state": "WA",
+  "zip": "98247",
+  "street": "3744 Mount Baker Hwy",
+  "website": "http://bethanyarpdeming.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Trinity Presbyterian Church",
+  "city": "Norman",
+  "state": "OK",
+  "zip": "73072",
+  "street": "428 W. Lindsey St.",
+  "website": "http://trinitynorman.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Faith Fellowship ARP Church",
+  "city": "Cypress",
+  "state": "TX",
+  "zip": "77429",
+  "street": "11738 Grant Rd.",
+  "website": "http://www.ffarpc.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Good Shepherd Presbyterian Church",
+  "city": "East League City",
+  "state": "TX",
+  "zip": "77573",
+  "street": "3151 FM 518 Rd E",
+  "website": "http://www.goodshepherdarp.org",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "King’s Cross Presbyterian Church",
+  "city": "Sapulpa",
+  "state": "OK",
+  "zip": "74066",
+  "street": "9999 S 49th W Ave. 74066",
+  "website": "http://www.kingscrosspc.org",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Pottsville ARP Church",
+  "city": "Pottsville",
+  "state": "AR",
+  "zip": "72858",
+  "street": "11 E Ash St",
+  "website": "https://pottsvillearp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Calhoun Presbyterian Church",
+  "city": "Calhoun",
+  "state": "LA",
+  "zip": "71225-9120",
+  "street": "1567 Highway 80 E",
+  "website": "http://www.calhounpres.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Hope Presbyterian Church",
+  "city": "Opelousas",
+  "state": "LA",
+  "zip": "70570",
+  "street": "434 South Main St",
+  "website": "http://www.hpcopelousas.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Hickory Spring ARP Church",
+  "city": "Warren",
+  "state": "AR",
+  "zip": "71671",
+  "street": "1815 Highway 63 S",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "River City Reformed Presbyterian Church",
+  "city": "Little Rock",
+  "state": "AR",
+  "zip": "72205",
+  "street": "9820 W. Markham St.",
+  "website": "https://rivercityarp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Wood Avenue Presbyterian Church",
+  "city": "Monticello",
+  "state": "AR",
+  "zip": "71655",
+  "street": "207 W Wood Ave",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Hernando Presbyterian Church",
+  "city": "Hernando",
+  "state": "MS",
+  "zip": "38632-1605",
+  "street": "2070 Mt Pleasant Rd",
+  "website": "http://www.hernarpchurch.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Graceview Presbyterian Church",
+  "city": "Southaven",
+  "state": "MS",
+  "zip": "38671",
+  "street": "7660 Swinnea Rd",
+  "website": "http://graceviewchurch.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "French Camp Presbyterian Church",
+  "city": "French Camp",
+  "state": "MS",
+  "zip": "39745",
+  "street": "323 School St",
+  "website": "http://www.fcarp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "The Ellisville Presbyterian Church, ARP",
+  "city": "Ellisville",
+  "state": "MS",
+  "zip": "39437",
+  "street": "201 East Ivy Street",
+  "website": "http://www.ellisvillepres.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Richland ARP Church",
+  "city": "Millington",
+  "state": "TN",
+  "zip": "28053",
+  "street": "8658 Rosemark Rd",
+  "website": "http://www.richlandarp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Mount Zion ARP Church",
+  "city": "Troy",
+  "state": "MO",
+  "zip": "63379",
+  "street": "861 Hwy V",
+  "website": "http://www.mtzionarp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Salem Presbyterian Church",
+  "city": "Atoka",
+  "state": "TN",
+  "zip": "38004",
+  "street": "3400 Atoka-Idaville Rd",
+  "website": "http://www.salempres.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Brighton Presbyterian Church",
+  "city": "Brighton",
+  "state": "TN",
+  "zip": "38011",
+  "street": "81 Church Ave",
+  "website": "http://www.brightonarp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Sharon ARP Church",
+  "city": "Brighton",
+  "state": "TN",
+  "zip": "38011",
+  "street": "1490 Dunlap Orphanage Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Elsberry ARP Church",
+  "city": "Elsberry",
+  "state": "MO",
+  "zip": "63343",
+  "street": "302 N Fifth St",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "New Albany Presbyterian Church",
+  "city": "New Albany",
+  "state": "MS",
+  "zip": "38652",
+  "street": "605 Highway 15 S",
+  "website": "http://newalbanypresbyterian.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Ebenezer ARP Church",
+  "city": "Blue Mountain",
+  "state": "MS",
+  "zip": "38610",
+  "street": "601 Tippah Co Rd 713",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Faith Presbyterian Church",
+  "city": "Leakesville",
+  "state": "MS",
+  "zip": "39451-0514",
+  "street": "1300 Mississippi St",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Hopewell ARP Church",
+  "city": "New Albany",
+  "state": "MS",
+  "zip": "38652-9164",
+  "street": "1622 County Road 121",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Helena Presbyterian Curch",
+  "city": "Moss Point",
+  "state": "MS",
+  "zip": "39562",
+  "street": "10401 Saracennia Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Faithful City Presbyterian Church",
+  "city": "St. Cloud",
+  "state": "MN",
+  "zip": "56302",
+  "street": "PO Box 655",
+  "website": "http://www.faithfulcity.church",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Gum Tree Presbyterian Church",
+  "city": "Tupelo",
+  "state": "MS",
+  "zip": "38801-2762",
+  "street": "1011 S Thomas St",
+  "website": "http://www.gumtreepres.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Bethany ARP Church",
+  "city": "Guntown",
+  "state": "MS",
+  "zip": "38849",
+  "street": "488 County Road 833",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "New Geneva Community Church ARP",
+  "city": "Paducah",
+  "state": "KY",
+  "zip": "42001-0741",
+  "street": "433 Monroe St",
+  "website": "http://ngccarp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Redeemer Community Church",
+  "city": "Murray",
+  "state": "KY",
+  "zip": "42071",
+  "street": "1604 Sycamore Street",
+  "website": "http://redeemermurray.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Camden ARP Church",
+  "city": "Camden",
+  "state": "AL",
+  "zip": "36726",
+  "street": "209 Broad St.",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Prosperity ARP Church",
+  "city": "Marion Junction",
+  "state": "AL",
+  "zip": "36759",
+  "street": "260 Church St.",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Bethel ARP Church",
+  "city": "Oak Hill",
+  "state": "AL",
+  "zip": "36766",
+  "street": "PO Box 170",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Redeemer Presbyterian Church",
+  "city": "Decatur",
+  "state": "AL",
+  "zip": "35601",
+  "street": "240 Grant St",
+  "website": "http://www.rpcdecatur.org",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Hopewell ARP Church",
+  "city": "Culleoka",
+  "state": "TN",
+  "zip": "38451-2040",
+  "street": "3886 Hopewell Rd",
+  "website": "http://www.hopewellarp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Madison-Monrovia ARP Church",
+  "city": "Harvest",
+  "state": "AL",
+  "zip": "35749",
+  "street": "234 Bob G Hughes Blvd",
+  "website": "http://www.mmarpc.com",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Hanmaum ARP Church",
+  "city": "Madison",
+  "state": "AL",
+  "zip": "35757",
+  "street": "770 Nance Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Riverside ARP Church",
+  "city": "Prattville",
+  "state": "AL",
+  "zip": "36066",
+  "street": "242 Interstate Commercial Park Loop",
+  "website": "http://www.riversidearp.org",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Prosperity ARP Church",
+  "city": "Taft",
+  "state": "TN",
+  "zip": "38488",
+  "street": "19 Prosperity Church Rd",
+  "website": "http://www.prosperityarp.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Nashville Korean Reformed",
+  "city": "Brentwood",
+  "state": "TN",
+  "zip": "37027",
+  "street": "5109 Albert Dr.",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Fayetteville ARP Church",
+  "city": "Fayetteville",
+  "state": "TN",
+  "zip": "37334",
+  "street": "1720 Huntsville Hwy",
+  "website": "https://fayettevillearp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Lincoln Memorial ARP Church",
+  "city": "Fayetteville",
+  "state": "TN",
+  "zip": "37344",
+  "street": "378 Corders Crossroad Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Rogers Memorial ARP Church",
+  "city": "Rock Hill",
+  "state": "SC",
+  "zip": "29730-2631",
+  "street": "1820 Eden Terrace",
+  "website": "http://www.rmcministries.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Ebenezer Presbyterian Church",
+  "city": "Rock Hill",
+  "state": "SC",
+  "zip": "29732",
+  "street": "2132 Ebenezer Rd",
+  "website": "http://www.ebenezerarp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Rock Hill First ARP Church",
+  "city": "Rock Hill",
+  "state": "SC",
+  "zip": "29730",
+  "street": "201 E White St",
+  "website": "http://www.firstarp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Hill City Church",
+  "city": "Rock Hill",
+  "state": "SC",
+  "zip": "29730-4888",
+  "street": "201 E Main St",
+  "website": "http://hillcitysc.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Tirzah ARP Church",
+  "city": "York",
+  "state": "SC",
+  "zip": "29745-9418",
+  "street": "6161 Mount Gallant Rd",
+  "website": "http://www.tirzaharp.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Neely’s Creek ARP Church",
+  "city": "Rock Hill",
+  "state": "SC",
+  "zip": "29730",
+  "street": "974 Neely's Creek Rd",
+  "website": "http://neelyscreek.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Living Waters Church",
+  "city": "Lake Wylie",
+  "state": "SC",
+  "zip": "29710-9127",
+  "street": "612 Bethel School Rd",
+  "website": "http://www.livingwatersweb.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Ballantyne Presbyterian Church",
+  "city": "Charlotte",
+  "state": "NC",
+  "zip": "28277-2486",
+  "street": "9925 Providence Road West",
+  "website": "https://www.ballantynepres.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Starmount ARP Church",
+  "city": "Charlotte",
+  "state": "NC",
+  "zip": "28210",
+  "street": "1501 Starbrook Dr",
+  "website": "https://starmountchurch.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Peace Korean ARP Church",
+  "city": "Charlotte",
+  "state": "NC",
+  "zip": "",
+  "street": "5201 Sharon Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Edgemoor ARP Church",
+  "city": "Edgemoor",
+  "state": "SC",
+  "zip": "29712",
+  "street": "2135 Starnes Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "York ARP Church",
+  "city": "York",
+  "state": "SC",
+  "zip": "29745-1529",
+  "street": "70 Congress St",
+  "website": "https://www.yorkarpchurch.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Bethany Presbyterian Church",
+  "city": "Charlotte",
+  "state": "NC",
+  "zip": "28277",
+  "street": "3901 McKee Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Clover ARP Church",
+  "city": "Clover",
+  "state": "SC",
+  "zip": "29710",
+  "street": "127 Kings Mountain St",
+  "website": "http://www.cloverarp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Southern Korean Presbyterian Church",
+  "city": "Charlotte",
+  "state": "NC",
+  "zip": "28270",
+  "street": "3619 McKee Rd",
+  "website": "http://thekoreanchurch.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Rehobeth Presbyterian Church",
+  "city": "Waxhaw",
+  "state": "NC",
+  "zip": "28173",
+  "street": "5919 Rehobeth Rd",
+  "website": "http://rehobetharp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Gaston Community Church",
+  "city": "Gastonia",
+  "state": "NC",
+  "zip": "28056",
+  "street": "400 Airport Road",
+  "website": "http://www.gastoncommunitychurch.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Living Hope Church of Belmont",
+  "city": "Belmont",
+  "state": "NC",
+  "zip": "28012",
+  "street": "901 E. Catawba Street",
+  "website": "http://www.lhcbelmont.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Peace Korean ARP Church",
+  "city": "Matthews",
+  "state": "NC",
+  "zip": "28105",
+  "street": "7409 Lamplighter Close Dr",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Trinity Chapel",
+  "city": "Monroe",
+  "state": "NC",
+  "zip": "28110",
+  "street": "120 potter rd",
+  "website": "http://www.trinitychapelclt.org",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "King’s Cross Church",
+  "city": "Charlotte",
+  "state": "NC",
+  "zip": "28211",
+  "street": "3936 Craig Ave",
+  "website": "http://www.kingscrosscharlotte.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Providence ARP Church",
+  "city": "Gastonia",
+  "state": "NC",
+  "zip": "28054",
+  "street": "2850 Union Rd",
+  "website": "http://www.providencegastonia.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Crowders Creek ARP Church",
+  "city": "Gastonia",
+  "state": "NC",
+  "zip": "28052",
+  "street": "207 Crowders Creek Church Rd",
+  "website": "http://crowderscreekarpchurch.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "First Korean Presbyterian Church  (샬롯제일장로교회)",
+  "city": "Charlotte",
+  "state": "NC",
+  "zip": "28212",
+  "street": "6930 Wallace Rd",
+  "website": "http://www.ckfpc.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Bethany ARP Church",
+  "city": "Clover",
+  "state": "SC",
+  "zip": "29710",
+  "street": "1400 Highway 161 N",
+  "website": "http://www.bethanyarp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Union ARP Church",
+  "city": "Richburg",
+  "state": "SC",
+  "zip": "29729",
+  "street": "3549 Lancaster Hwy",
+  "website": "http://www.unionarpchurch.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Matthews Korean ARP Church",
+  "city": "Matthews",
+  "state": "NC",
+  "zip": "28105",
+  "street": "2701 Rice Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Sharon ARP Church",
+  "city": "Sharon",
+  "state": "SC",
+  "zip": "29742-0095",
+  "street": "3915 S York St",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Shiloh ARP Church",
+  "city": "Lancaster",
+  "state": "SC",
+  "zip": "29720",
+  "street": "346 Shiloh Unity Rd",
+  "website": "http://shiloharpchurch.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Westview Presbyterian Church",
+  "city": "Mount Holly",
+  "state": "NC",
+  "zip": "28120-1107",
+  "street": "1020 W Catawba Ave",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Gastonia First ARP Church",
+  "city": "Gastonia",
+  "state": "NC",
+  "zip": "28052",
+  "street": "317 S Chester St",
+  "website": "http://www.firstarpchurch.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Pisgah ARP Church",
+  "city": "Gastonia",
+  "state": "NC",
+  "zip": "28052-5030",
+  "street": "3600 Linwood Rd",
+  "website": "http://www.pisgaharpchurch.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Unity ARP Church",
+  "city": "Lancaster",
+  "state": "SC",
+  "zip": "29720",
+  "street": "3495 Unity Church Rd",
+  "website": "http://unityarpchurch.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Linden ARP Church",
+  "city": "Gastonia",
+  "state": "NC",
+  "zip": "28052",
+  "street": "205 S Myrtle School Rd",
+  "website": "http://www.lindenarpchurch.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Lancaster First ARP Church",
+  "city": "Lancaster",
+  "state": "SC",
+  "zip": "29720-0864",
+  "street": "701 N Main St",
+  "website": "http://www.firstarplancaster.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Bethel Korean ARP Church",
+  "city": "Charlotte",
+  "state": "NC",
+  "zip": "28215",
+  "street": "7121 Delta Lake Dr",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Hickory Grove ARP Church",
+  "city": "York",
+  "state": "SC",
+  "zip": "29745",
+  "street": "2016 Creekwood Drive",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Smyrna ARP Church",
+  "city": "Smyrna",
+  "state": "SC",
+  "zip": "29743",
+  "street": "3141 Legion Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Chester ARP Church",
+  "city": "Chester",
+  "state": "SC",
+  "zip": "29706",
+  "street": "109 Wylie St",
+  "website": "http://www.chesterarp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Mint Hill Presbyterian Church",
+  "city": "Mint Hill",
+  "state": "NC",
+  "zip": "28227-8449",
+  "street": "8528 Brief Rd",
+  "website": "http://minthillpresbyterian.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Garrison Memorial ARP Church",
+  "city": "Bessemer City",
+  "state": "NC",
+  "zip": "28016",
+  "street": "102 W Washington Ave.",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Boyce Memorial ARP Church",
+  "city": "Kings Mountain",
+  "state": "NC",
+  "zip": "28086",
+  "street": "111 Edgemont Dr",
+  "website": "http://www.boycememorial.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Back Creek ARP Church",
+  "city": "Charlotte",
+  "state": "NC",
+  "zip": "28213",
+  "street": "1821 Back Creek Church Rd",
+  "website": "http://www.backcreekchurch.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Hopewell ARP Church",
+  "city": "Blackstock",
+  "state": "SC",
+  "zip": "29014",
+  "street": "672 Banks Weir Rd.",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Gilead ARP Church",
+  "city": "Huntersville",
+  "state": "NC",
+  "zip": "28078",
+  "street": "15303 Beatties Ford Rd",
+  "website": "http://gileadarp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Oak Ridge ARP Church",
+  "city": "Heath Springs",
+  "state": "SC",
+  "zip": "29058",
+  "street": "2774 McIlwain Rd",
+  "website": "http://oakridgearpchurch.webs.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Huntersville ARP Church",
+  "city": "Huntersville",
+  "state": "NC",
+  "zip": "28070-0316",
+  "street": "14830 N Old Statesville Rd",
+  "website": "http://harp.church",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Hephzibah ARP Church",
+  "city": "Bessemer City",
+  "state": "NC",
+  "zip": "28016",
+  "street": "1911 Hephzibah Church Rd",
+  "website": "http://www.hephzibaharp.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Blacksburg ARP Church",
+  "city": "Blacksburg",
+  "state": "SC",
+  "zip": "29702",
+  "street": "108 S Chester St",
+  "website": "https://www.facebook.com/Blacksburg-Associate-Reformed-Presbyterian-Church-1686171058322650/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Trinity Reformed Presbyterian Church",
+  "city": "Monroe",
+  "state": "NC",
+  "zip": "28110",
+  "street": "4914 Sikes Mill Rd",
+  "website": "http://www.trinityreformedpres.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Midlane Park ARP Church",
+  "city": "Louisville",
+  "state": "KY",
+  "zip": "40218",
+  "street": "6209 Six Mile Ln",
+  "website": "https://www.facebook.com/p/Midlane-Park-Associate-Reformed-Presbyterian-Church-100064823259212/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Tri-State Community Church",
+  "city": "East Liverpool",
+  "state": "OH",
+  "zip": "43920",
+  "street": "300 West 6th St.",
+  "website": "https://www.tristatearp.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Christ Presbyterian Church",
+  "city": "Grove City",
+  "state": "PA",
+  "zip": "16127",
+  "street": "543 E. Main Street",
+  "website": "http://christgrovecity.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Fairmount Presbyterian Church",
+  "city": "Sewickley",
+  "state": "PA",
+  "zip": "15143",
+  "street": "2535 Fairmount Church Rd",
+  "website": "http://www.fairmountarpchurch.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Lifeline Community Church",
+  "city": "Wexford",
+  "state": "PA",
+  "zip": "15090",
+  "street": "700 Blazier Dr",
+  "website": "http://www.lifelinecommunity.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Ballston Center ARP Church",
+  "city": "Ballston Spa",
+  "state": "NY",
+  "zip": "12020",
+  "street": "58 Charlton Rd",
+  "website": "http://www.ballstoncenterchurch.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "White Oak ARP Church",
+  "city": "Senoia",
+  "state": "GA",
+  "zip": "30276-2634",
+  "street": "2796 Gordon Rd",
+  "website": "http://www.whiteoakarp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Faith ARP Church",
+  "city": "Austell",
+  "state": "GA",
+  "zip": "30106",
+  "street": "4850 Sweetwater Valley Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Hopewell ARP Church",
+  "city": "Covington",
+  "state": "GA",
+  "zip": "30016-5077",
+  "street": "155 Hopewell Church Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Peachtree Corners Presbyterian Church",
+  "city": "Peachtree Corners",
+  "state": "GA",
+  "zip": "30092-1906",
+  "street": "5918 Spalding Dr",
+  "website": "https://pcarp.churchcenter.com/home",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Pressly Memorial",
+  "city": "Lilburn",
+  "state": "GA",
+  "zip": "30047",
+  "street": "723 Rebecca St.",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Hope Presbyterian Church",
+  "city": "Lutz",
+  "state": "FL",
+  "zip": "33558-4970",
+  "street": "5107 W Lutz Lake Fern Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Risen City Presbyterian Church",
+  "city": "Saint Petersburg",
+  "state": "FL",
+  "zip": "33710",
+  "street": "6315 Central Ave",
+  "website": "http://www.risencity.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Tampa Chinese",
+  "city": "Lutz",
+  "state": "FL",
+  "zip": "33558",
+  "street": "2144 Karen Dr.",
+  "website": "http://www.tampabaychinesechurch.org",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "New Days Mission",
+  "city": "Duluth",
+  "state": "GA",
+  "zip": "30096",
+  "street": "3468 Duluth Hwy",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Highlands Presbyterian Church",
+  "city": "Grayson",
+  "state": "GA",
+  "zip": "30017-0847",
+  "street": "830 Grayson Parkway",
+  "website": "http://www.highlandsarp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Trinity ARP Church",
+  "city": "Tampa",
+  "state": "FL",
+  "zip": "33613-1503",
+  "street": "14925 N Boulevard",
+  "website": "http://trinitytampa.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Tampa Chinese Presbyterian Church",
+  "city": "Tampa",
+  "state": "FL",
+  "zip": "33613-1503",
+  "street": "14925 North Blvd",
+  "website": "http://www.tampabaychinesechurch.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Faith Presbyterian Church",
+  "city": "Oxford",
+  "state": "FL",
+  "zip": "34484-0098",
+  "street": "3984 County Road 214",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Christ Presbyterian Church",
+  "city": "Bradenton",
+  "state": "FL",
+  "zip": "34212",
+  "street": "515 Upper Manatee River Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Louisville ARP Church",
+  "city": "Louisville",
+  "state": "GA",
+  "zip": "30434-0009",
+  "street": "824 Walnut St",
+  "website": "http://louisvillearpchurch.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Shepherd Road Presbyterian Church",
+  "city": "Lakeland",
+  "state": "FL",
+  "zip": "33811",
+  "street": "1217 Shepherd Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Christ Presbyterian",
+  "city": "Fernandina Beach",
+  "state": "FL",
+  "zip": "32034",
+  "street": "2887 Tidewater St",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Bartow ARP Church",
+  "city": "Bartow",
+  "state": "FL",
+  "zip": "33831-4640",
+  "street": "205 E Stanford St",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Thomson Presbyterian Church",
+  "city": "Thomson",
+  "state": "GA",
+  "zip": "30824",
+  "street": "607 Jackson Rd",
+  "website": "http://www.thomsonpresbyterian.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Iva ARP Church",
+  "city": "Iva",
+  "state": "SC",
+  "zip": "29655",
+  "street": "201 Betsy St",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Christ Reformed Church",
+  "city": "Anderson",
+  "state": "SC",
+  "zip": "29621",
+  "street": "1621 North Main St",
+  "website": "http://www.crcofc.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Abbeville-Mt. Carmel ARP Church",
+  "city": "Abbeville",
+  "state": "SC",
+  "zip": "29620",
+  "street": "103 Vienna St",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Cedar Springs ARP Church",
+  "city": "Bradley",
+  "state": "SC",
+  "zip": "29819",
+  "street": "Cedar Springs Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Due West ARP Church",
+  "city": "Due West",
+  "state": "SC",
+  "zip": "29639",
+  "street": "112 Main St",
+  "website": "http://www.duewestarp.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Greenwood First ARP Church",
+  "city": "Greenwood",
+  "state": "SC",
+  "zip": "29649",
+  "street": "1635 Cokesbury Rd",
+  "website": "https://arpchurchofgreenwood.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Greenville ARP Church",
+  "city": "Greenville",
+  "state": "SC",
+  "zip": "29601",
+  "street": "741 Cleveland St",
+  "website": "http://www.greenvillearp.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "City Church of Asheville",
+  "city": "Asheville",
+  "state": "NC",
+  "zip": "28803",
+  "street": "375 Hendersonville Rd.",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Reformation Presbyterian Church",
+  "city": "Hendersonville",
+  "state": "NC",
+  "zip": "28792-3606",
+  "street": "120 7th Ave W",
+  "website": "http://www.refpres.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Pinecrest ARP Church",
+  "city": "Hendersonville",
+  "state": "NC",
+  "zip": "28792",
+  "street": "1790 Greenville Hwy",
+  "website": "https://pinecrestarpchurch.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Village Presbyterian Church",
+  "city": "Greenville",
+  "state": "SC",
+  "zip": "29607",
+  "street": "501 Verdae Blvd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Bethesda ARP Church",
+  "city": "Erwin",
+  "state": "TN",
+  "zip": "37601-1843",
+  "street": "1525 Zane Whitson Dr",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Devenger Road Presbyterian Church",
+  "city": "Greer",
+  "state": "SC",
+  "zip": "29650-4110",
+  "street": "1200 Devenger Rd",
+  "website": "http://devengerroad.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Sandy Plains ARP Church",
+  "city": "Tryon",
+  "state": "NC",
+  "zip": "28782-8742",
+  "street": "350 Sandy Plains Rd",
+  "website": "http://www.sandyplainsarp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Brookside Presbyterian Church",
+  "city": "Boone",
+  "state": "NC",
+  "zip": "28607-6286",
+  "street": "1122 Old Highway 421 S",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Covenant Reformed Church",
+  "city": "West Jefferson",
+  "state": "NC",
+  "zip": "28694",
+  "street": "207 Backstreet",
+  "website": "http://crcgrace.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Wilkes Covenant ARP Church",
+  "city": "North Wilkesboro",
+  "state": "NC",
+  "zip": "28659",
+  "street": "37 Boone Trail",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "New Lebanon ARP Church",
+  "city": "Sinks Grove",
+  "state": "WV",
+  "zip": "24976-9721",
+  "street": "5361 Seneca Trail N",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Fairlea ARP Church",
+  "city": "Ronceverte",
+  "state": "WV",
+  "zip": "24970",
+  "street": "9364 Seneca Trail",
+  "website": "http://arpchurchfairlea.wordpress.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "JuAhn Community Church",
+  "city": "Wallingford",
+  "state": "PA",
+  "zip": "19086",
+  "street": "723 South Providence Rd",
+  "website": "https://www.juahnchurch.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Christ Presbyterian Church",
+  "city": "Glenside",
+  "state": "PA",
+  "zip": "16127",
+  "street": "608 Twickenham Rd",
+  "website": "http://www.christarp.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Jesuwon Community Church",
+  "city": "Horsham",
+  "state": "PA",
+  "zip": "19044",
+  "street": "220 Upland Ave",
+  "website": "http://www.jesuwon.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Holy Covenant Korean Presbyterian Church",
+  "city": "Lancaster",
+  "state": "PA",
+  "zip": "17601",
+  "street": "70 Waverly Ave.",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "World Glorious Presbyterian Church",
+  "city": "Staten Island",
+  "state": "NY",
+  "zip": "10314-2337",
+  "street": "233 Westcott Blvd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Global Vision ARP Church",
+  "city": "Flushing",
+  "state": "NY",
+  "zip": "11355",
+  "street": "41-13 149th Pl.",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Kirkridge ARP Church",
+  "city": "Manchester",
+  "state": "MD",
+  "zip": "21102-0773",
+  "street": "2236 Old Fort Schoolhouse Rd",
+  "website": "http://www.kirkridgearp.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "The Joyful Church of New York",
+  "city": "Fresh Meadows",
+  "state": "NY",
+  "zip": "11365-2018",
+  "street": "6151 Fresh Meadow Ln",
+  "website": "http://www.joyfulchurchny.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "New Vision Church (ARPC)",
+  "city": "Flushing",
+  "state": "NY",
+  "zip": "11358",
+  "street": "40-22 158th St",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Hyo Shin Bible Presbyterian Church",
+  "city": "Flushing",
+  "state": "NY",
+  "zip": "11358-2664",
+  "street": "42-15 166th St",
+  "website": "http://www.hyoshin.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Flock Presbyterian Church (ARPC)",
+  "city": "Whitestone",
+  "state": "NY",
+  "zip": "11357-1061",
+  "street": "1415 Clintonville St.",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "All Nations Mission Church of NY",
+  "city": "Little Neck",
+  "state": "NY",
+  "zip": "11363-1509",
+  "street": "40-41 235th St",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Great Commission Church",
+  "city": "Douglaston",
+  "state": "NY",
+  "zip": "11363",
+  "street": "243-01 Northern Blvd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Beautiful Disciples Church of NY",
+  "city": "Little Neck",
+  "state": "NY",
+  "zip": "11362",
+  "street": "246-12 Van Zandt Ave",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "South Carroll Reformed",
+  "city": "Eldersburg",
+  "state": "MD",
+  "zip": "21784",
+  "street": "1305 Liberty Road",
+  "website": "http://southcarrollpres.org",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "New Windsor ARP Church",
+  "city": "New Windsor",
+  "state": "MD",
+  "zip": "21776",
+  "street": "200 Church St",
+  "website": "http://newwindsorchurch.com/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Piney Creek Presbyterian Church",
+  "city": "Taneytown",
+  "state": "MD",
+  "zip": "21787",
+  "street": "4472 Harney Rd",
+  "website": "http://pineycreekchurch.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Faith ARP Church of Scranton",
+  "city": "Dickson City",
+  "state": "PA",
+  "zip": "18519",
+  "street": "106 Lincoln",
+  "website": "http://www.faithreformation.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Somang Presbyterian Church",
+  "city": "Syosset",
+  "state": "NY",
+  "zip": "11791",
+  "street": "220 Berry Hill Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Faith Presbyterian Church",
+  "city": "Olney",
+  "state": "MD",
+  "zip": "20832",
+  "street": "17309 Old Baltimore Rd",
+  "website": "http://www.faith-olney.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Iranian Christian Church",
+  "city": "Silver Spring",
+  "state": "MD",
+  "zip": "20902",
+  "street": "10613 Georgia Ave",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Church of the Atonement",
+  "city": "Silver Spring",
+  "state": "MD",
+  "zip": "20902",
+  "street": "10613 Georgia Ave",
+  "website": "http://www.atonementlife.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Good News ARP Church",
+  "city": "Frederick",
+  "state": "MD",
+  "zip": "21703",
+  "street": "6321 Lambert Dr",
+  "website": "http://www.goodnewspres.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Calvary Reformed Church",
+  "city": "Alexandria",
+  "state": "VA",
+  "zip": "22309",
+  "street": "3921 Old Mill Rd.",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Christian Center Ministries",
+  "city": "Alexandria",
+  "state": "VA",
+  "zip": "22310",
+  "street": "5411 Franconia Rd",
+  "website": "http://www.ccmfamily.org/church/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "New Covenant Presbyterian Church",
+  "city": "Burke",
+  "state": "VA",
+  "zip": "22015-3909",
+  "street": "10018 Burke Lake Road",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Church of the Harvest ARP",
+  "city": "Lanexa",
+  "state": "VA",
+  "zip": "23089",
+  "street": "4480 N Waterside Dr.",
+  "website": "https://churchoftheharvestarp.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Hope Reformed Church",
+  "city": "Millbury",
+  "state": "MA",
+  "zip": "01527",
+  "street": "12 Main Street",
+  "website": "http://www.hopereformed.net/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Old Providence ARP Church",
+  "city": "Spottswood",
+  "state": "VA",
+  "zip": "24476-2020",
+  "street": "1005 Spottswood Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Timber Ridge ARP Church",
+  "city": "Fairfield",
+  "state": "VA",
+  "zip": "24435",
+  "street": "160 Timber Ridge Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Ebenezer ARP Church",
+  "city": "Lexington",
+  "state": "VA",
+  "zip": "24450",
+  "street": "US 60 W 788 Ebenezer Cir",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Lauderdale ARP Church",
+  "city": "Lexington",
+  "state": "VA",
+  "zip": "24450",
+  "street": "300 S Main St",
+  "website": "http://lauderdalearpc.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Broad Creek ARP Church",
+  "city": "Natural Bridge",
+  "state": "VA",
+  "zip": "24578",
+  "street": "1510 Broad Creek Church Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Edgemont Presbyterian Church",
+  "city": "Covington",
+  "state": "VA",
+  "zip": "24426-2703",
+  "street": "2306 S Church Ave",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Johnson Creek ARP Church",
+  "city": "Covington",
+  "state": "VA",
+  "zip": "24426",
+  "street": "4805 Johnson Creek Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Wellspring Presbyterian Church",
+  "city": "Daleville",
+  "state": "VA",
+  "zip": "24083-3142",
+  "street": "4080 Roanoke Rd",
+  "website": "http://www.wellspringpres.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Wildhurst Presbyterian Church",
+  "city": "Roanoke",
+  "state": "VA",
+  "zip": "24019-1030",
+  "street": "134 Wildhurst Ave NE",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Grace Community ARP Church",
+  "city": "Black Creek",
+  "state": "NC",
+  "zip": "27813",
+  "street": "5547 Woodbridge Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Redeemer Church",
+  "city": "Christiansburg",
+  "state": "VA",
+  "zip": "24073",
+  "street": "560 Cinnabar Rd",
+  "website": "http://www.redeemerblacksburg.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Grace Hill ARP Church",
+  "city": "Hillsborough",
+  "state": "NC",
+  "zip": "27278-8581",
+  "street": "515 Meadowlands Dr Ste 500",
+  "website": "http://www.gracehillnc.org",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "New Beginnings Presbyterian Church",
+  "city": "Pine Level",
+  "state": "NC",
+  "zip": "27568",
+  "street": "232 Davis Mill Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Christ the King",
+  "city": "Lexington",
+  "state": "SC",
+  "zip": "29072",
+  "street": "",
+  "website": "https://ctklex.org/",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Christ’s Community Church",
+  "city": "Chuluota",
+  "state": "FL",
+  "zip": "32766",
+  "street": "3101 Snowhill Rd.",
+  "website": "https://christscommunityarp.com",
+  "ministers": [
+   "Rev. Mark Nelsen"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Antioch",
+  "city": "Goldsboro",
+  "state": "NC",
+  "zip": "27530",
+  "street": "2306 Old Smithfield Rd.",
+  "website": "",
+  "ministers": [
+   "Rev. Kelley Buffaloe"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Redbud Church",
+  "city": "Claremore",
+  "state": "OK",
+  "zip": "74017",
+  "street": "322 E Patti Page Blvd",
+  "website": "http://www.redbud.church",
+  "ministers": [
+   "Rev. Scott Mitchell"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Iglesia en Movimiento",
+  "city": "Lake Placid",
+  "state": "FL",
+  "zip": "33852",
+  "street": "204 S. Main Ave",
+  "website": "",
+  "ministers": [
+   "Rev. Timothy Sewell"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Faith Presbyterian Church",
+  "city": "Merritt Island",
+  "state": "FL",
+  "zip": "32952",
+  "street": "1900 S. Tropical Trl",
+  "website": "",
+  "ministers": [
+   "Rev. Robert Adams"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "King’s ARP Church",
+  "city": "Columbia",
+  "state": "SC",
+  "zip": "29212",
+  "street": "1686 Lake Murray Blvd",
+  "website": "",
+  "ministers": [
+   "Rev. Joshua D. Smith"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Providence Presbyterian Church",
+  "city": "Fayetteville",
+  "state": "NC",
+  "zip": "28301",
+  "street": "400 Eastwood Ave",
+  "website": "http://www.providencearp.com",
+  "ministers": [
+   "Rev. Andy Webb"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "The Lord’s Korean Church",
+  "city": "Summerfield",
+  "state": "NC",
+  "zip": "27358",
+  "street": "4960 US Highway 220",
+  "website": "http://www.gsolordchurch.org",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Covenant of Grace ARP Church",
+  "city": "Winston-Salem",
+  "state": "NC",
+  "zip": "27103",
+  "street": "508 Harvey St",
+  "website": "http://www.covenantofgracews.org",
+  "ministers": [
+   "Rev. James Norris"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "New Perth ARP Church",
+  "city": "Troutman",
+  "state": "NC",
+  "zip": "28166",
+  "street": "204 West Ave",
+  "website": "http://www.newperth.org",
+  "ministers": [
+   "Rev. Dan Hazen"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Stony Point ARP Church",
+  "city": "Stony Point",
+  "state": "NC",
+  "zip": "28678",
+  "street": "447 E Lackey Farm Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "New Sterling ARP Church",
+  "city": "Stony Point",
+  "state": "NC",
+  "zip": "28678",
+  "street": "580 New Sterling Rd",
+  "website": "http://www.newsterlingarp.org",
+  "ministers": [
+   "Rev. Tim Watson, DMn"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Elk Shoals ARP Church",
+  "city": "Statesville",
+  "state": "NC",
+  "zip": "28677",
+  "street": "121 Lands End Drive",
+  "website": "",
+  "ministers": [
+   "Rev. Dan Hazen"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Statesville Korean ARP Church",
+  "city": "Statesville",
+  "state": "NC",
+  "zip": "28625",
+  "street": "221 Ivyrun Ct",
+  "website": "",
+  "ministers": [
+   "Rev. Song Choi"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Statesville First ARP Church",
+  "city": "Statesville",
+  "state": "NC",
+  "zip": "28687",
+  "street": "123 E Broad St",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Pressly Memorial ARP Church",
+  "city": "Statesville",
+  "state": "NC",
+  "zip": "28625",
+  "street": "1914 Wilkesboro Hwy",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "New Amity ARP Church",
+  "city": "Statesville",
+  "state": "NC",
+  "zip": "28625",
+  "street": "150 Logan New Amity Rd",
+  "website": "https://www.facebook.com/New-Amity-Church-252621276131",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Covenant ARP Church",
+  "city": "Statesville",
+  "state": "NC",
+  "zip": "28625",
+  "street": "120 N Greenbriar Rd",
+  "website": "https://www.covenantchurchstatesville.com",
+  "ministers": [
+   "Rev. Jeff Richards, PhD"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Bethel ARP Church",
+  "city": "Winnsboro",
+  "state": "SC",
+  "zip": "29180",
+  "street": "101 N Zion St",
+  "website": "http://www.bethelarp.org",
+  "ministers": [
+   "Rev. James McManus"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "White Oak ARP Church",
+  "city": "Winnsboro",
+  "state": "SC",
+  "zip": "29176",
+  "street": "284 Patrick Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Lemira Presbyterian Church",
+  "city": "Sumter",
+  "state": "SC",
+  "zip": "29151",
+  "street": "514 Boulevard Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Faith ARP Church",
+  "city": "Sumter",
+  "state": "SC",
+  "zip": "29154",
+  "street": "65 Lynam Rd",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Scots Kirk Presbyterian Church",
+  "city": "Summerville",
+  "state": "SC",
+  "zip": "29485",
+  "street": "1435 Old Trolley Rd",
+  "website": "http://www.scotskirkarp.org",
+  "ministers": [
+   "Rev. James Mitchell"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Skylyn Drive Presbyterian Church",
+  "city": "Spartanburg",
+  "state": "SC",
+  "zip": "29307",
+  "street": "1801 Skylyn Dr",
+  "website": "http://skylynpres.org",
+  "ministers": [
+   "Rev. Peter Waid"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Cannon’s Creek-Prosperity ARP Church",
+  "city": "Newberry",
+  "state": "SC",
+  "zip": "29108",
+  "street": "14395 CR Koon Hwy",
+  "website": "",
+  "ministers": [
+   "Rev. Brett Blackman"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Shem Creek Presbyterian",
+  "city": "Mount Pleasant",
+  "state": "SC",
+  "zip": "29464",
+  "street": "302 Pitt St",
+  "website": "http://www.facebook.com/shemcreekpres",
+  "ministers": [
+   "Rev. Benjamin Carver (Ben)"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Redeemer Presbyterian Church",
+  "city": "Greer",
+  "state": "SC",
+  "zip": "29351",
+  "street": "2461 Abner Creek Road",
+  "website": "http://www.redeemerarp.org",
+  "ministers": [
+   "Rev. William Slattery"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Mayesville Presbyterian Church",
+  "city": "Mayesville",
+  "state": "SC",
+  "zip": "29104",
+  "street": "109 W Sumter St",
+  "website": "http://www.mayesvillearpc.org",
+  "ministers": [
+   "Rev. Brian Peake"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Johnston Presbyterian Church",
+  "city": "Johnston",
+  "state": "SC",
+  "zip": "29832",
+  "street": "700 Mims St",
+  "website": "http://johnstonpresbyterianchurch.org",
+  "ministers": [
+   "Rev. Paul Volpitto"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Ora ARP Church",
+  "city": "Gray Court",
+  "state": "SC",
+  "zip": "29645",
+  "street": "23420 Highway 221 N",
+  "website": "http://www.oraarp.org",
+  "ministers": [
+   "Rev. Watson Gunderson"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Grace Presbyterian church",
+  "city": "Elgin",
+  "state": "SC",
+  "zip": "29045",
+  "street": "445 Spears Creek Church Rd",
+  "website": "http://www.gracepresarp.org",
+  "ministers": [
+   "Rev. Ransom Kent"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Effingham Presbyterian Church",
+  "city": "Effingham",
+  "state": "SC",
+  "zip": "29541",
+  "street": "526 E Effingham Hwy",
+  "website": "http://www.effinghamarp.org",
+  "ministers": [
+   "Rev. Joseph Crump"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Westminster Presbyterian Church",
+  "city": "Conway",
+  "state": "SC",
+  "zip": "29526",
+  "street": "1619 Parkview Rd",
+  "website": "https://westminsterconway.com",
+  "ministers": [
+   "Rev. Watson Gunderson, pastor"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Sherwood Forest ARP Church",
+  "city": "Columbia",
+  "state": "SC",
+  "zip": "29205",
+  "street": "4325 Wilmot Ave",
+  "website": "http://www.sherwoodforestchurch.com",
+  "ministers": [
+   "Rev. Russ Harless"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Iglesia Biblica Latinoamerican",
+  "city": "Columbia",
+  "state": "SC",
+  "zip": "29223",
+  "street": "1601 Fairlamb Ave.",
+  "website": "",
+  "ministers": [
+   "Rev. Justin Brickey"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "First Presbyterian Church Columbia",
+  "city": "Columbia",
+  "state": "SC",
+  "zip": "29201",
+  "street": "1324 Marion St",
+  "website": "http://www.firstprescolumbia.org",
+  "ministers": [
+   "Dr. Neil C. Stewart, Senior Minister"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Crossings Community Church",
+  "city": "Columbia",
+  "state": "SC",
+  "zip": "29229",
+  "street": "2831 Clemson Rd",
+  "website": "http://www.crossingscommunity.org",
+  "ministers": [
+   "Rev. Evan English"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Centennial ARP Church",
+  "city": "Columbia",
+  "state": "SC",
+  "zip": "29201",
+  "street": "1413 Laurel St",
+  "website": "http://www.centennialarp.org",
+  "ministers": [
+   "Rev. Jeremiah Thomas"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Arsenal Hill Presbyterian Church",
+  "city": "Columbia",
+  "state": "SC",
+  "zip": "29201",
+  "street": "1103 Laurel St",
+  "website": "http://www.arsenalhill.org",
+  "ministers": [
+   "Rev. Robert Turner"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Providence ARP Church",
+  "city": "Clinton",
+  "state": "SC",
+  "zip": "29325",
+  "street": "701 S Broad St",
+  "website": "http://www.providencearp.net",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "Cayce Presbyterian Church",
+  "city": "Cayce",
+  "state": "SC",
+  "zip": "29033",
+  "street": "1600 Summerland Dr",
+  "website": "https://caycepres.org",
+  "ministers": [
+   "Rev. Brad Anderson"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "New Hope ARP Church",
+  "city": "Ridgeway",
+  "state": "SC",
+  "zip": "29130",
+  "street": "1469 E. Peach Rd.",
+  "website": "",
+  "ministers": [
+   "Rev. Mark Hering"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Maupin Avenue Presbyterian Church",
+  "city": "Salisbury",
+  "state": "NC",
+  "zip": "28144",
+  "street": "100 Maupin Ave",
+  "website": "https://maupin.church",
+  "ministers": [
+   "Rev. Randall Foster (Randy)"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Cornerstone (Merged Mooresville & Lakeside)",
+  "city": "Mooresville",
+  "state": "NC",
+  "zip": "28117",
+  "street": "381 Williamson Rd",
+  "website": "http://www.cornerstonearp.org",
+  "ministers": [
+   "Rev. Joseph Alghrary"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Coddle Creek ARP Church",
+  "city": "Mooresville",
+  "state": "NC",
+  "zip": "28115",
+  "street": "2297 Coddle Creek Hwy",
+  "website": "http://www.coddlecreekarp.org",
+  "ministers": [
+   "Rev. Andrew Shoger"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Grace Presbyterian Church",
+  "city": "Winter Springs",
+  "state": "FL",
+  "zip": "32708",
+  "street": "5840 Red Bug Lake Road",
+  "website": "http://www.gracearp.org",
+  "ministers": [
+   "Rev. Matthew Marino"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Morning Star Reformed Presbyterian Church",
+  "city": "Vero Beach",
+  "state": "FL",
+  "zip": "32962",
+  "street": "698 Timber Ridge Trl SW",
+  "website": "http://www.morningstarvero.org",
+  "ministers": [
+   "Rev. Trevor Raborn"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "First Presbyterian Church Sebring",
+  "city": "Sebring",
+  "state": "FL",
+  "zip": "33870",
+  "street": "319 Poinsettia Ave",
+  "website": "",
+  "ministers": [
+   "Rev. Karl Davis"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Community Chapel-By-The-Sea",
+  "city": "Melbourne Beach",
+  "state": "FL",
+  "zip": "32951",
+  "street": "8240 S A1A Hwy",
+  "website": "http://www.chapelbytheseaarp.com",
+  "ministers": [
+   "Dr. Daivd Walkup"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Lake Wales First Presbyterian church",
+  "city": "Lake Wales",
+  "state": "FL",
+  "zip": "33853",
+  "street": "16 N 3rd St",
+  "website": "http://www.fpclw.org",
+  "ministers": [
+   "Rev. D. Mackay Smith"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Lake Placid First Presbyterian Church",
+  "city": "Lake Placid",
+  "state": "FL",
+  "zip": "33862",
+  "street": "118 N Oak Ave",
+  "website": "",
+  "ministers": [
+   "Rev. Raymond Cameron, Jr. (Ray)"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "First Presbyterian Church Frostproof",
+  "city": "Frostproof",
+  "state": "FL",
+  "zip": "33843",
+  "street": "318 West A St.",
+  "website": "",
+  "ministers": [
+   "Rev. Garison Taylor"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Renew Church",
+  "city": "Fort Myers",
+  "state": "FL",
+  "zip": "33919",
+  "street": "5076 Northampton Dr.",
+  "website": "http://www.renew-life.org",
+  "ministers": [
+   "Rev. Donald Bowker"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "North Creek Presbyterian Church",
+  "city": "Coconut Creek",
+  "state": "FL",
+  "zip": "33073",
+  "street": "4601 NW 71st Pl",
+  "website": "",
+  "ministers": [
+   "Rev. Merk Bolhofner, DMn"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "First Presbyterian Church Avon Park",
+  "city": "Avon Park",
+  "state": "FL",
+  "zip": "33825",
+  "street": "206 E Lagrande St",
+  "website": "",
+  "ministers": [],
+  "vacant": true
+ },
+ {
+  "name": "The Lord’s Korean Church",
+  "city": "Jamestown",
+  "state": "NC",
+  "zip": "27282",
+  "street": "4900 W Wendover Ave",
+  "website": "",
+  "ministers": [
+   "Rev. Subyoung Lim"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Adams Farm Community Church",
+  "city": "Jamestown",
+  "state": "NC",
+  "zip": "27282",
+  "street": "5113 Mackay Rd",
+  "website": "http://www.adamsfarmchurch.com",
+  "ministers": [
+   "Rev. Brian Howard, DMn"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Covenant ARP Church, Jacksonville",
+  "city": "Jacksonville",
+  "state": "NC",
+  "zip": "28540",
+  "street": "106 Plantation Blvd",
+  "website": "",
+  "ministers": [
+   "Rev. Eric Tracy"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Northside Presbyterian Church",
+  "city": "Greensboro",
+  "state": "NC",
+  "zip": "27455",
+  "street": "3801 NC Hwy 150 E",
+  "website": "",
+  "ministers": [
+   "Rev. Paul Traub"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Hope Chapel ARP Church",
+  "city": "Greensboro",
+  "state": "NC",
+  "zip": "27408",
+  "street": "908 N. Josephine Boyd St.",
+  "website": "http://www.hopechapelgreensboro.org",
+  "ministers": [
+   "Rev. Harrison Holbrook"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Covenant Fellowship ARP Church",
+  "city": "Kernersville",
+  "state": "NC",
+  "zip": "27284",
+  "street": "405 Salisbury Street",
+  "website": "",
+  "ministers": [
+   "Rev. Dr. David Smith"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "City Church of Greensboro",
+  "city": "Greensboro",
+  "state": "NC",
+  "zip": "27410",
+  "street": "310 S Greene St",
+  "website": "",
+  "ministers": [
+   "Rev. Jim White"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Christ Covenant Church",
+  "city": "Greensboro",
+  "state": "NC",
+  "zip": "27410",
+  "street": "811 Jefferson Rd",
+  "website": "",
+  "ministers": [
+   "Dr. Neil Stewart"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Korean Bethel Presbyterian Church",
+  "city": "Fayetteville",
+  "state": "NC",
+  "zip": "28314",
+  "street": "901 Bunce Rd",
+  "website": "http://bethelkrchurch.org",
+  "ministers": [
+   "Rev. Duckeun (David) Park"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Christ Church ARP",
+  "city": "Denver",
+  "state": "NC",
+  "zip": "28037",
+  "street": "409 N Little Egypt Rd",
+  "website": "http://www.christchurcharp.org",
+  "ministers": [
+   "Ken Zappone"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Concord ARP Church",
+  "city": "Concord",
+  "state": "NC",
+  "zip": "28025",
+  "street": "177 Union St., North",
+  "website": "http://www.concordarp.org",
+  "ministers": [
+   "Rev. Mark McClamrock"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Grace Reformed Church",
+  "city": "Smithfield",
+  "state": "NC",
+  "zip": "27577",
+  "street": "300 Wilson's Mills Road",
+  "website": "https://www.gracereformed.church",
+  "ministers": [
+   "Rev. Darin Stone"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Covenant Presbyterian Church",
+  "city": "Burlington",
+  "state": "NC",
+  "zip": "27215",
+  "street": "2250 Saddle Club Rd",
+  "website": "http://www.covpres.church",
+  "ministers": [
+   "Rev. Bryan Crotts"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Ambassador Presbyterian Church",
+  "city": "Apex",
+  "state": "NC",
+  "zip": "27502",
+  "street": "1010 Schieffelin Rd",
+  "website": "http://ambassadorpres.org",
+  "ministers": [
+   "Rev. Warren Harvey"
+  ],
+  "vacant": false
+ },
+ {
+  "name": "Westminster Presbyterian Church",
+  "city": "Albemarle",
+  "state": "NC",
+  "zip": "28002",
+  "street": "1804 Badin Rd",
+  "website": "",
+  "ministers": [
+   "Rev. Douglas Petersen, DD"
+  ],
+  "vacant": false
+ }
+]
