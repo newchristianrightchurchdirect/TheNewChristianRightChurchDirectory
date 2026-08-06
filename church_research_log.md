@@ -4198,3 +4198,72 @@ Reformed bodies, which are mostly Canadian.
   no addresses at all; the data loads through the plugin and is not exposed on any public REST route.
 
 Still untried: **HRC** and **PRC**, both small and both client-rendered.
+
+## 2026-08-06 (night, later) — The PCA, taken whole. And it turned a vague warning into a list of 448.
+
+Directory **5,809 → 6,345**. **618 coverage rows** now (487 PCA, 96 ARP, 34 URCNA, 1 FRCNA).
+
+### Getting past BatchGeo
+
+The PCA's public directory is a **BatchGeo embed behind Cloudflare** — it answers every fetcher, WebFetch
+included, with a "Just a moment…" challenge. Dead end at the front door.
+
+The data lives at the **PCA presbytery portal** (`presbyteryportal.pcanet.org/ac/directory`), an ASP.NET
+Core form. A plain POST returns **400**: it needs the `__RequestVerificationToken` from the page *and*
+the matching antiforgery cookie, carried in the same session. Fetch the token, POST per state, and the
+whole roster comes back as an HTML table — **1,917 congregations** (the PCA reports 1,959), each with
+**church name, city, state, phone, email, website, presbytery and pastor**.
+
+**205 of them sit in Korean-language presbyteries** — Korean Capital, Korean Central, Korean Eastern,
+Korean Northwest, Korean Southeastern, Korean Southern, Korean Southwest.
+
+### The matcher fix that broke something else
+
+Auditing the 502 proposed additions showed real name variants being missed: the roster's *"First
+Presbyterian Church of Jasper"* against this directory's *"First Presbyterian Church"*, both in Jasper.
+So the normaliser was changed to **strip the city's own words out of the church name**.
+
+That fixed Jasper — **and collapsed `"Presbyterian Church of X"` in X to an EMPTY key**, which matches
+nothing. Additions went *up*, 502 → 536, and **49 of them were duplicates of the "Cityname Presbyterian
+Church" form**: Boligee, Brent, Catherine, Faunsdale, Hayneville, Linden, Lowndesboro, Marion, Newbern,
+Penfield…
+
+All 49 held, caught by re-running a **plain** name+city comparison across the rows the import had just
+created. Net additions **487**.
+
+> **Tightening a matcher in one direction loosens it in another.** Every normalisation rule that
+> removes tokens can remove *all* of them. Re-check new rows with the rule you did NOT use.
+
+### The finding that matters more than the additions
+
+Laying the PCA's own roster against the directory says something about the rows that were **already
+here**:
+
+| | count |
+|---|---:|
+| live rows recorded PCA | 2,314 |
+| on the PCA's own current roster | 1,866 |
+| **NOT on it** | **448** |
+| …of those, carrying a researched stance | **2** |
+
+**This project has warned about the "PCA belt" for months** — roughly 400 rows populated by
+denominational default rather than research, flagged in CLAUDE.md as a known data gap that "may be
+masking genuinely abolitionist or Zionist outliers". That warning was vague and unactionable.
+
+**It is now a concrete list of 448 flagged rows.** The estimate of ~400 was close.
+
+Four things could be true of any of them and **none has been established**: the congregation closed or
+left the PCA; it was renamed; its name or city here does not match the denomination's spelling closely
+enough for a name or website match; or the denomination was recorded wrongly in the first place.
+
+**Nothing was changed and nothing was held.** Absence from a roster is much weaker evidence than
+presence on one — the same reasoning already applied to the Vanguard and RPCUS rows. Only **2 of the
+448** carry a researched stance, which is itself the answer to whether this block was ever examined.
+
+### KAPC — answered, not imported
+
+KAPC is a **Korean-immigrant denomination**: founded 1978 by Korean immigrants at Westminster Seminary,
+Korean-language site, **650 congregations**. It meets the conservative floor — it does not ordain women
+— but it sits in a different cultural and political sphere from the movement this directory tracks. Its
+find-a-church page is an **Ultimate Member** directory (`um_directory`) that carries no addresses in the
+HTML and exposes nothing on a public REST route. Left for Dustin to call.
