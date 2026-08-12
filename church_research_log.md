@@ -4623,3 +4623,71 @@ evidence beyond the signature, and on the same single question.
   so noted rather than changed.
 
 **Queue: 300 remaining.** Of the 458 live single_issue rows, 158 now carry individual research.
+
+---
+
+## 2026-08-12 — New Jersey sweep (for the Garden State Abolitionists city pages)
+
+Every New Jersey row read, because the GSA client site needs a church section per city and the
+state's slice of this directory had never been worked as a set. **106 NJ rows**, not the 79 in the
+July export — 27 PCA/OPC coverage imports landed since. Step 1 of the standard (read the church's
+own site, following its nav rather than guessed paths) is complete on **81**; 20 carry no website,
+4 domains are dead, 1 held prose instead of a URL.
+
+Reading was done through a browser. Several of these sites are unreadable any other way — SiteGround
+captcha walls answer 202 with a meta-refresh, and four load only with TLS errors ignored. Nothing
+here is scored against a church on the strength of a failed fetch.
+
+### The result
+
+**Of 81 sites read, seven contained any marker, and four of those are false positives** — "dominion"
+quoting Colossians 1, the Westminster and 1689 confessions, and Genesis 4. Not Reconstruction.
+
+The state has **one** `pro_abolition` congregation, Missio Dei in Glassboro, and reading 81 more
+sites produced no second one. That is a finding about New Jersey, not a gap in the sweep.
+
+### #190 Bread of Life Fellowship — the row described a church that had moved
+
+The most substantial abortion engagement found in the state, and the row pointing at it was wrong in
+six fields. It recorded **153 Ridge Road, North Arlington 07031**, an **865 (Knoxville, Tennessee)**
+phone number, and **"Pastor Damien Garofalo"**. The church's own site gives **1559 Hamburg Turnpike,
+Wayne NJ 07470** in the footer of every page, names **Elias Adamo and Ibrahim Haro** as its elders,
+and contains **zero** occurrences of Ridge Road, North Arlington, 07031 or Garofalo. The congregation
+meets in the Calvary Gospel Church building. All six fields corrected; coordinates re-geocoded
+through the Census geocoder (Wayne township, LD 40).
+
+`stanceBasis` raised **denominational_default → evidenced with the stance unchanged**. What was
+actually read: the full site, the SermonAudio archive of **1,636 sermons**, the YouTube channel of
+**451 videos**, and the site's own search.
+
+- **For:** the church lists **"Abortion clinic"** among its standing local outreaches, beside street
+  evangelism and an inner-city mission. A recurring deed, not a statement.
+- **Against `pro_abolition`:** across all of that, no abolition language whatsoever — no "abolish",
+  no "equal protection", no "personhood", no call to criminalise. A channel search for "abortion"
+  returns nothing.
+
+Clinic presence does not by itself separate an abolitionist congregation from a pro-life one. Stays
+`incrementalist`, now on evidence rather than on its denomination.
+
+### Two other leads, both read and both ordinary
+
+- **Immanuel OPC, Bellmawr** — sermon archive carries a "Sanctity of Life" topic with 4 sermons.
+- **First Baptist, Newton** — a published *Stances* page on gender, marriage and sanctity of life.
+  The life section is the standard conception-to-natural-death evangelical formulation. No abolition,
+  no equal protection, no criminalisation.
+
+### Field repairs
+
+- **#3701 The Body of Christ** — the `website` column held confession prose with the real URL
+  appended (`https://Confessions: The Belgic Confession…http://www.bodyofchristsj.org`). URL
+  extracted; the prose preserved into `theologicalNotes` rather than dropped. Still unresearched.
+- **#5650 Iglesia Bautista El Redentor** — flagged `duplicate_of:5618` since 2026-08-06 but still
+  rendering. Hidden with `approved=false`, the mechanism the duplicates dashboard already uses. **Not
+  deleted**; the row and its provenance survive.
+- **Four dead domains** recorded, not scored: Covenant Presbyterian (Cape May), Faith Presbyterian
+  (Northfield), New Life Presbyterian (Middletown), Maranatha Community (Fair Lawn). A domain lapsing
+  does not establish that a congregation has.
+
+**Still owed on this set:** steps 2–5 for all 106 — the church's socials, then the *pastor's own*
+socials and podcast, the pastor's name against each marker, and notable congregants. That is the step
+that has produced this project's finds before, so the tally above is provisional.
