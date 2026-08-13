@@ -20,6 +20,21 @@ rec = json.load(sys.stdin)
 missing = [k for k in REQUIRED if k not in rec]
 if missing:
     sys.exit(f"REFUSED: missing steps {missing}")
+
+# The id must be a REAL directory row whose city matches what is being filed.
+# Eight of the first ten records were filed against guessed ids that belonged to
+# other churches entirely. Nothing reached the database, but research attached to
+# the wrong row is worse than no research, so the id is now checked, not trusted.
+CHURCHES = "nj-churches.json"
+if os.path.exists(CHURCHES):
+    rows = {c["id"]: c for c in json.load(open(CHURCHES, encoding="utf-8"))}
+    row = rows.get(rec["id"])
+    if not row:
+        sys.exit(f"REFUSED: id {rec['id']} is not a New Jersey row in the directory")
+    filed_city = (rec.get("city") or "").split()[0].lower()
+    if filed_city and filed_city not in (row.get("city") or "").lower():
+        sys.exit(f"REFUSED: id {rec['id']} is {row['name']!r} in {row['city']!r}, "
+                 f"but this record says {rec.get('name')!r} in {rec.get('city')!r}")
 m = rec["step4_markers"]
 missing_m = [k for k in MARKERS if k not in m]
 if missing_m:

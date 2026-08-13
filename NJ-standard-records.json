@@ -61,7 +61,7 @@
   "date": "2026-08-12"
  },
  {
-  "id": 6558,
+  "id": 5323,
   "name": "First Baptist Church of Asbury Park",
   "city": "Asbury Park",
   "denomination_recorded": "Independent Reformed Baptist",
@@ -126,10 +126,11 @@
    "found": "None surfaced."
   },
   "verdict": "No abolition evidence. abolitionStance stays unknown. TWO CORRECTIONS FOR THE DIRECTORY: (1) denomination recorded as Independent Reformed Baptist but the doctrinal statement is dispensational premillennial, which is not Reformed; (2) eschatology can be set to premillennial on first-hand evidence.",
-  "date": "2026-08-12"
+  "date": "2026-08-12",
+  "idCorrectedFrom": 6558
  },
  {
-  "id": 6202,
+  "id": 6207,
   "name": "New City Fellowship of Atlantic City",
   "city": "Atlantic City",
   "denomination": "PCA",
@@ -186,10 +187,11 @@
    "found": "None surfaced."
   },
   "verdict": "No marker evidence. abolitionStance stays unknown.",
-  "date": "2026-08-12"
+  "date": "2026-08-12",
+  "idCorrectedFrom": 6202
  },
  {
-  "id": 6203,
+  "id": 6210,
   "name": "The Spring of Life Church",
   "city": "Barrington",
   "denomination": "PCA",
@@ -243,10 +245,11 @@
    "found": "None. CAUTION: a 'Pastor Bryan Lee' obituary (Boyd Funeral Services, Camden NJ) and a 'Bryan Lee Ministries' radio broadcast both surface on this name and are NOT established as this man. Common name — do not merge."
   },
   "verdict": "No marker evidence. abolitionStance stays unknown. Language coverage is a genuine limitation here.",
-  "date": "2026-08-12"
+  "date": "2026-08-12",
+  "idCorrectedFrom": 6203
  },
  {
-  "id": 5527,
+  "id": 5008,
   "name": "Somerset Hills Baptist Church",
   "city": "Basking Ridge",
   "denomination": "Southern Baptist Convention",
@@ -303,10 +306,11 @@
    "found": "None surfaced."
   },
   "verdict": "No marker evidence. abolitionStance stays unknown.",
-  "date": "2026-08-12"
+  "date": "2026-08-12",
+  "idCorrectedFrom": 5527
  },
  {
-  "id": 2483,
+  "id": 2699,
   "name": "Island Baptist Church (trades as Island Bible Church / The Hope of LBI)",
   "city": "Beach Haven",
   "denomination_recorded": "Reformed Baptist",
@@ -374,10 +378,11 @@
    "found": "Leadership recorded. No notable congregants or public figures surfaced."
   },
   "verdict": "No abolition evidence. abolitionStance stays unknown. THREE DIRECTORY CORRECTIONS: name (now Island Bible Church / Hope of LBI), denomination (dispensational, not Reformed Baptist), and leadership (was an unusable crawl artifact, now Luke Fraser).",
-  "date": "2026-08-12"
+  "date": "2026-08-12",
+  "idCorrectedFrom": 2483
  },
  {
-  "id": 2199,
+  "id": 2195,
   "name": "Immanuel Orthodox Presbyterian Church",
   "city": "Bellmawr",
   "denomination": "OPC",
@@ -436,10 +441,11 @@
    "found": "Speaker index also lists William Shishko, Henry Krabbendam, Mike Myers and others as guests — visiting preachers, not congregants; recorded but not attributed to this church."
   },
   "verdict": "Strongest EVIDENCED abortion engagement found in New Jersey so far alongside Bread of Life, Wayne — annual Roe-anniversary preaching from texts about defying a killing decree. But no abolitionist language and a denomination that holds a life-of-the-mother exception. abolitionStance: incrementalist is defensible here on EVIDENCE rather than denominational default; recommend stanceBasis evidenced with this note.",
-  "date": "2026-08-12"
+  "date": "2026-08-12",
+  "idCorrectedFrom": 2199
  },
  {
-  "id": 6201,
+  "id": 1410,
   "name": "Grace Community Church",
   "city": "Bridgewater",
   "denomination": "PCA",
@@ -494,10 +500,11 @@
    "found": "None surfaced."
   },
   "verdict": "No marker evidence. abolitionStance stays unknown. Step 1 partial — interior pages not read.",
-  "date": "2026-08-12"
+  "date": "2026-08-12",
+  "idCorrectedFrom": 6201
  },
  {
-  "id": 2200,
+  "id": 2196,
   "name": "Faith Bible Church (Orthodox Presbyterian)",
   "city": "Brick Township",
   "denomination": "OPC",
@@ -556,7 +563,8 @@
    "found": "Session recorded. No notable congregants surfaced."
   },
   "verdict": "No marker evidence. abolitionStance stays unknown. DIRECTORY CORRECTION: leadership was the crawl artifact 'Kim Dang Mr. Charles'; the pastor is Rev. Kim Dang and the session is named above.",
-  "date": "2026-08-12"
+  "date": "2026-08-12",
+  "idCorrectedFrom": 2200
  },
  {
   "id": 6200,
