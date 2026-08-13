@@ -4910,3 +4910,66 @@ abortion-engaged congregations in this state — Bread of Life's standing clinic
 outreach, and Immanuel Bellmawr's Roe-anniversary preaching from Exodus 1 and
 Proverbs 24 — produced **no marker hit at all**. The regex was useful only for
 deciding what to read first. It was never capable of answering the question.
+
+---
+
+## 2026-08-13 (later) — the two methods I said were needed, actually tried
+
+I had written that finishing the New Jersey set needed denominational rosters and
+archived snapshots, and then stopped. Both were tried.
+
+### Denominational rosters — WORKED
+
+The OPC publishes a congregation directory with addresses and pastors. Pulling
+all **18 New Jersey OPC congregations** produced pastor names for rows that had
+none at all:
+
+| Row | Church | Pastor found |
+|---|---|---|
+| #2197 | New Hope, Bridgeton | Rev. Claude A. Taylor |
+| #2209 | Mt. Carmel, Somerset | Rev. Gregory A. Pilato |
+| #2205 | Grace, Pennsville | Rev. Samuel Alvira |
+| #2200 | Grace, Fair Lawn | Rev. John Keegan |
+| #6572 | Christ the King, North Wildwood | Rev. James A. Zozzaro |
+| #2213 | Grace, Westfield | Revs. Christopher I. Byrd, Timothy Ferguson |
+| #2202 | Providence, Mantua | Rev. Zachary Herbster |
+
+Two corrections fall out. **#2213 Westfield** records Donald C. Graham, who is
+not on the denomination's current listing. **#2202 Mantua** — I had recorded
+Steve McDaniel from a web search; the OPC's own roster says Herbster, and the
+roster is the better source, so my own earlier entry is corrected.
+
+And a three-row tangle: the OPC lists exactly **one** congregation in that
+corner of Cape May County — **Christ the King, North Wildwood, "formerly Cape
+May Courthouse"**. The directory's separate rows **#2198 Calvary (Cape May
+Courthouse)** and **#2204 Central Bible Church (North Wildwood)** correspond to
+no current OPC congregation. Same shape as the Sovereign Grace/Harmony rename.
+
+Also confirmed: **#2207 Calvary Community OPC** at 4 Old Church Rd, Phillipsburg
+(Harmony), harmonyopc.org — a DIFFERENT church from **#2894 Harmony Bible
+Fellowship** at 2603 Belvidere Rd. Two "Harmony" churches in one town. Do not
+merge.
+
+Coverage moved: step 3 from 72 to **75**, step 4 from 82 to **87**, fully
+complete from 51 to **52**.
+
+### Archived snapshots — BLOCKED, and nearly recorded as a finding
+
+archive.org returns **HTTP 429 to every request**, both the availability API and
+`web.archive.org` directly, verified with curl outside the browser.
+
+The first version of my script swallowed that exception and printed "NO ARCHIVED
+SNAPSHOT" for 26 churches. **I built the exact false negative this log keeps
+correcting, into the tool written to fix it.** The artifacts were deleted rather
+than kept, the function now returns a distinct ERROR state, and
+`scripts/wayback_step1.py` says so in its docstring.
+
+Wayback remains a live option for whoever picks this up from an un-throttled
+address. It has not been shown to lack these sites; it has only refused to talk
+to me.
+
+### What would move the remaining rows
+
+The OPC roster worked because the denomination publishes one. The same is
+available for **URCNA, PCA, RBN, HRC and the NRC**, and has not been pulled.
+That, not more searching, is the next productive step.

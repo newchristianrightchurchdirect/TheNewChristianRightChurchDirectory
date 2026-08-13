@@ -1212,66 +1212,6 @@
   "step4_complete": true
  },
  {
-  "id": 2213,
-  "name": "Grace Orthodox Presbyterian Church",
-  "city": "Westfield",
-  "denomination": "OPC",
-  "pastor": "Donald C. Graham. Timothy Ferguson also named in site leadership.",
-  "step1_site": {
-   "url": "https://graceopcwestfieldnj.org/",
-   "pages_read": [
-    "24,621 chars incl. leadership and sermon archive"
-   ],
-   "found": "Confessional OPC congregation. NO abortion, abolition, sanctity-of-life or civil-order content.",
-   "complete": true
-  },
-  "step2_church_socials": {
-   "facebook": "facebook.com/graceopcwestfieldnj/",
-   "instagram": "instagram.com/graceopcwestfieldnj/",
-   "youtube": "youtube.com/channel/UCiBJdxKB-AtpyTOgpjXduLw",
-   "found": "5 links captured. Nothing on any marker."
-  },
-  "step3_pastor_own": {
-   "found": "No personal blog or podcast located for Donald C. Graham. Nothing on any marker.",
-   "complete": true
-  },
-  "step4_markers": {
-   "abolition": {
-    "query": "\"Donald C. Graham\" Grace Orthodox Presbyterian Westfield NJ abortion abolition theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
-    "hit": false
-   },
-   "christian_nationalism": {
-    "query": "same",
-    "hit": false
-   },
-   "postmillennial": {
-    "query": "same",
-    "hit": false
-   },
-   "theonomy": {
-    "query": "same",
-    "hit": false
-   },
-   "patriarchy": {
-    "query": "same",
-    "hit": false
-   },
-   "zionism": {
-    "query": "same",
-    "hit": false
-   }
-  },
-  "step5_notable": {
-   "notablePeople": [
-    "Timothy Ferguson"
-   ],
-   "found": "Recorded from site leadership."
-  },
-  "verdict": "No marker evidence. abolitionStance stays unknown. NOTE: Westfield is one of the twelve municipalities added to the GSA site to close district gaps (LD 21), so this church sits on a live city page.",
-  "date": "2026-08-12",
-  "step4_complete": true
- },
- {
   "id": 2208,
   "name": "Calvary Orthodox Presbyterian Church",
   "city": "Ringoes",
@@ -2672,66 +2612,6 @@
    "found": "Recorded with the caveat."
   },
   "verdict": "No marker evidence. abolitionStance stays unknown. DIRECTORY CORRECTION: leadership recorded as 'Senior pastor unconfirmed' — it is DANIEL YING, senior pastor since July 2012. Montclair hosts two abortion facilities, so this row sits in a town that matters for the GSA site even though Montclair is not one of the 62 covered municipalities.",
-  "date": "2026-08-12",
-  "step4_complete": true
- },
- {
-  "id": 2202,
-  "name": "Providence",
-  "city": "Mantua",
-  "denomination": "OPC",
-  "pastor": "Carl S. 'Steve' McDaniel, Jr.",
-  "step1_site": {
-   "url": "https://providenceopc.org/",
-   "pages_read": [
-    "10,746 chars — RECOVERED on a second pass; the first crawl captured only a Cloudflare challenge page"
-   ],
-   "found": "Confessional OPC congregation in Mantua. NO abortion, abolition or civil-order content.",
-   "complete": true
-  },
-  "step2_church_socials": {
-   "facebook": "facebook.com/POPCMantuaNJ/",
-   "instagram": "instagram location page",
-   "found": "Nothing on any marker."
-  },
-  "step3_pastor_own": {
-   "found": "No personal blog or podcast located for Steve McDaniel. He also appears with 55 sermons in the Immanuel OPC Bellmawr archive — one man across two rows.",
-   "complete": true
-  },
-  "step4_markers": {
-   "abolition": {
-    "query": "\"Providence\" Orthodox Presbyterian Mantua NJ \"Al Tricarico\" pastor abortion abolition theonomy postmillennial patriarchy Zionism",
-    "hit": false
-   },
-   "christian_nationalism": {
-    "query": "same",
-    "hit": false
-   },
-   "postmillennial": {
-    "query": "same",
-    "hit": false
-   },
-   "theonomy": {
-    "query": "same",
-    "hit": false
-   },
-   "patriarchy": {
-    "query": "same",
-    "hit": false
-   },
-   "zionism": {
-    "query": "same",
-    "hit": false
-   }
-  },
-  "step5_notable": {
-   "notablePeople": [
-    "Carl S. 'Steve' McDaniel, Jr. (pastor)",
-    "Rev. Al Tricarico (OPC associate general secretary for home missions — VISITOR, not this church's pastor)"
-   ],
-   "found": "Tricarico served as pastor of evangelism at Church of the Covenant, Hackettstown (#2201) for five years, then Grace OPC Vienna VA for thirteen, and was a missionary evangelist in Uganda 2005–2015. He connects two rows in this set as a visitor, not as staff of either."
-  },
-  "verdict": "No marker evidence. abolitionStance stays unknown. NOTE this row was one of the EIGHT scored on a Cloudflare challenge page in the first pass; re-fetching recovered 10,746 characters of real content, which is why it can now be read as a genuine negative rather than a blocked fetch.",
   "date": "2026-08-12",
   "step4_complete": true
  },
@@ -4528,74 +4408,6 @@
   "step4_complete": true
  },
  {
-  "id": 2200,
-  "name": "Grace",
-  "city": "Fair Lawn",
-  "denomination": "OPC (Orthodox Presbyterian Church)",
-  "pastor": "Bruce Coie / David Kiester (from site text)",
-  "step1_site": {
-   "url": "http://www.graceopcfairlawn.org",
-   "pages_read": [
-    "18808 chars"
-   ],
-   "found": "Grace OPC, Fair Lawn. Captured site text read; NO abortion, abolition or civil-order content.",
-   "complete": true
-  },
-  "step2_church_socials": {
-   "found": "https://twitter.com/share, https://www.facebook.com/sharer.php, https://www.facebook.com/sharer/sharer.php — nothing on any marker."
-  },
-  "step3_pastor_own": {
-   "found": "Searched; no personal blog, podcast or socials located.",
-   "complete": true,
-   "gap": null
-  },
-  "step4_markers": {
-   "abolition": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "christian_nationalism": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "postmillennial": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "theonomy": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "patriarchy": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "zionism": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   }
-  },
-  "step5_notable": {
-   "notablePeople": [],
-   "found": "None surfaced."
-  },
-  "verdict": "STEP 4 NOT PERFORMED — see marker notes. No marker evidence. abolitionStance stays unknown.",
-  "date": "2026-08-13",
-  "step4_complete": false
- },
- {
   "id": 4829,
   "name": "Park Bible Baptist Church",
   "city": "Pennsville",
@@ -4656,74 +4468,6 @@
   "verdict": "No marker evidence. abolitionStance stays unknown.",
   "date": "2026-08-13",
   "step4_complete": true
- },
- {
-  "id": 2207,
-  "name": "Calvary Community",
-  "city": "Phillipsburg (Harmony)",
-  "denomination": "OPC (Orthodox Presbyterian Church)",
-  "pastor": "Not established.",
-  "step1_site": {
-   "url": "http://harmonyopc.org",
-   "pages_read": [
-    "5876 chars"
-   ],
-   "found": "Calvary Community OPC, Phillipsburg (Harmony). Captured site text read; NO abortion, abolition or civil-order content.",
-   "complete": true
-  },
-  "step2_church_socials": {
-   "found": "No socials or sermon archive located. — nothing on any marker."
-  },
-  "step3_pastor_own": {
-   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
-   "complete": false,
-   "gap": "No pastor name; the pastor half of the standard is impossible here."
-  },
-  "step4_markers": {
-   "abolition": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "christian_nationalism": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "postmillennial": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "theonomy": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "patriarchy": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "zionism": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   }
-  },
-  "step5_notable": {
-   "notablePeople": [],
-   "found": "None surfaced."
-  },
-  "verdict": "STEP 4 NOT PERFORMED — see marker notes. NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
-  "date": "2026-08-13",
-  "step4_complete": false
  },
  {
   "id": 1399,
@@ -4993,75 +4737,6 @@
   "step4_complete": false
  },
  {
-  "id": 2197,
-  "name": "New Hope",
-  "city": "Bridgeton",
-  "denomination": "OPC (Orthodox Presbyterian Church)",
-  "pastor": "Not established.",
-  "step1_site": {
-   "url": "http://www.newhopebridgeton.org",
-   "pages_read": [
-    "1194 chars"
-   ],
-   "found": "New Hope, Bridgeton. No readable site content — the congregation's own words were NOT read.",
-   "complete": false,
-   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
-  },
-  "step2_church_socials": {
-   "found": "No socials or sermon archive located. — nothing on any marker."
-  },
-  "step3_pastor_own": {
-   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
-   "complete": false,
-   "gap": "No pastor name; the pastor half of the standard is impossible here."
-  },
-  "step4_markers": {
-   "abolition": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "christian_nationalism": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "postmillennial": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "theonomy": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "patriarchy": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "zionism": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   }
-  },
-  "step5_notable": {
-   "notablePeople": [],
-   "found": "None surfaced."
-  },
-  "verdict": "STEP 4 NOT PERFORMED — see marker notes. NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
-  "date": "2026-08-13",
-  "step4_complete": false
- },
- {
   "id": 1427,
   "name": "Redentor Presbyterian Church",
   "city": "South River",
@@ -5123,144 +4798,6 @@
   "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
   "date": "2026-08-13",
   "step4_complete": true
- },
- {
-  "id": 2209,
-  "name": "Mt. Carmel",
-  "city": "Somerset",
-  "denomination": "OPC (Orthodox Presbyterian Church)",
-  "pastor": "Not established.",
-  "step1_site": {
-   "url": "http://mtcarmelopc.com",
-   "pages_read": [
-    "471 chars"
-   ],
-   "found": "Mt. Carmel OPC, Somerset. No readable site content — the congregation's own words were NOT read.",
-   "complete": false,
-   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
-  },
-  "step2_church_socials": {
-   "found": "No socials or sermon archive located. — nothing on any marker."
-  },
-  "step3_pastor_own": {
-   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
-   "complete": false,
-   "gap": "No pastor name; the pastor half of the standard is impossible here."
-  },
-  "step4_markers": {
-   "abolition": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "christian_nationalism": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "postmillennial": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "theonomy": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "patriarchy": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "zionism": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   }
-  },
-  "step5_notable": {
-   "notablePeople": [],
-   "found": "None surfaced."
-  },
-  "verdict": "STEP 4 NOT PERFORMED — see marker notes. NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
-  "date": "2026-08-13",
-  "step4_complete": false
- },
- {
-  "id": 6572,
-  "name": "Christ The King Orthodox Presbyterian Church",
-  "city": "North Wildwood",
-  "denomination": "OPC (Orthodox Presbyterian Church)",
-  "pastor": "Not established.",
-  "step1_site": {
-   "url": "https://www.christthekingwildwood.org",
-   "pages_read": [
-    "276 chars"
-   ],
-   "found": "Christ the King OPC, North Wildwood. Site still Cloudflare-blocked after a second attempt. No readable site content — the congregation's own words were NOT read.",
-   "complete": false,
-   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
-  },
-  "step2_church_socials": {
-   "found": "No socials or sermon archive located. — nothing on any marker."
-  },
-  "step3_pastor_own": {
-   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
-   "complete": false,
-   "gap": "No pastor name; the pastor half of the standard is impossible here."
-  },
-  "step4_markers": {
-   "abolition": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "christian_nationalism": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "postmillennial": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "theonomy": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "patriarchy": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "zionism": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   }
-  },
-  "step5_notable": {
-   "notablePeople": [],
-   "found": "None surfaced."
-  },
-  "verdict": "STEP 4 NOT PERFORMED — see marker notes. NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
-  "date": "2026-08-13",
-  "step4_complete": false
  },
  {
   "id": 1400,
@@ -6079,75 +5616,6 @@
   "step4_complete": false
  },
  {
-  "id": 2206,
-  "name": "River Of Life",
-  "city": "Phillipsburg",
-  "denomination": "OPC (Orthodox Presbyterian Church)",
-  "pastor": "Not established.",
-  "step1_site": {
-   "url": "no website on record",
-   "pages_read": [
-    "0 chars"
-   ],
-   "found": "River Of Life OPC, Phillipsburg. No website on record. No readable site content — the congregation's own words were NOT read.",
-   "complete": false,
-   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
-  },
-  "step2_church_socials": {
-   "found": "No socials or sermon archive located. — nothing on any marker."
-  },
-  "step3_pastor_own": {
-   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
-   "complete": false,
-   "gap": "No pastor name; the pastor half of the standard is impossible here."
-  },
-  "step4_markers": {
-   "abolition": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "christian_nationalism": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "postmillennial": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "theonomy": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "patriarchy": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "zionism": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   }
-  },
-  "step5_notable": {
-   "notablePeople": [],
-   "found": "None surfaced."
-  },
-  "verdict": "STEP 4 NOT PERFORMED — see marker notes. NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
-  "date": "2026-08-13",
-  "step4_complete": false
- },
- {
   "id": 5650,
   "name": "Iglesia Bautista El Redentor",
   "city": "Rahway",
@@ -6349,144 +5817,6 @@
   "step4_complete": false
  },
  {
-  "id": 2212,
-  "name": "Immanuel",
-  "city": "West Collingswood",
-  "denomination": "OPC (Orthodox Presbyterian Church)",
-  "pastor": "Not established.",
-  "step1_site": {
-   "url": "http://www.iopc.org",
-   "pages_read": [
-    "0 chars"
-   ],
-   "found": "Immanuel OPC, West Collingswood. Site returned 24 chars. No readable site content — the congregation's own words were NOT read.",
-   "complete": false,
-   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
-  },
-  "step2_church_socials": {
-   "found": "No socials or sermon archive located. — nothing on any marker."
-  },
-  "step3_pastor_own": {
-   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
-   "complete": false,
-   "gap": "No pastor name; the pastor half of the standard is impossible here."
-  },
-  "step4_markers": {
-   "abolition": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "christian_nationalism": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "postmillennial": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "theonomy": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "patriarchy": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "zionism": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   }
-  },
-  "step5_notable": {
-   "notablePeople": [],
-   "found": "None surfaced."
-  },
-  "verdict": "STEP 4 NOT PERFORMED — see marker notes. NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
-  "date": "2026-08-13",
-  "step4_complete": false
- },
- {
-  "id": 2205,
-  "name": "Grace",
-  "city": "Pennsville",
-  "denomination": "OPC (Orthodox Presbyterian Church)",
-  "pastor": "Not established.",
-  "step1_site": {
-   "url": "http://www.graceopchurch.com",
-   "pages_read": [
-    "268 chars"
-   ],
-   "found": "Grace OPC, Pennsville. Site still Cloudflare-blocked after a second attempt. No readable site content — the congregation's own words were NOT read.",
-   "complete": false,
-   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
-  },
-  "step2_church_socials": {
-   "found": "No socials or sermon archive located. — nothing on any marker."
-  },
-  "step3_pastor_own": {
-   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
-   "complete": false,
-   "gap": "No pastor name; the pastor half of the standard is impossible here."
-  },
-  "step4_markers": {
-   "abolition": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "christian_nationalism": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "postmillennial": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "theonomy": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "patriarchy": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   },
-   "zionism": {
-    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
-    "hit": null,
-    "note": "STEP 4 NOT PERFORMED for this church. The query recorded here was run for other congregations in a batch and does not name this church or its pastor. Corrected 2026-08-13 — do NOT read as a negative.",
-    "performed": false
-   }
-  },
-  "step5_notable": {
-   "notablePeople": [],
-   "found": "None surfaced."
-  },
-  "verdict": "STEP 4 NOT PERFORMED — see marker notes. NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
-  "date": "2026-08-13",
-  "step4_complete": false
- },
- {
   "id": 192,
   "name": "Englewood Baptist Church",
   "city": "Englewood",
@@ -6616,5 +5946,653 @@
   "verdict": "STEP 4 NOT PERFORMED — see marker notes. NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
   "date": "2026-08-13",
   "step4_complete": false
+ },
+ {
+  "id": 2197,
+  "name": "New Hope",
+  "city": "Bridgeton",
+  "denomination": "OPC",
+  "pastor": "Rev. Claude A. Taylor",
+  "step1_site": {
+   "url": "http://www.newhopebridgeton.org",
+   "pages_read": [
+    "1194 chars from the church; congregation confirmed via the OPC's own directory of congregations"
+   ],
+   "found": "NEW HOPE OPC, Bridgeton — pastor identified from the OPC's own congregation directory, which the row lacked entirely. NO abortion, abolition or civil-order content found at church level.",
+   "complete": false,
+   "gap": "The congregation's own website was not readable; identity, address and pastor come from the OPC directory."
+  },
+  "step2_church_socials": {
+   "found": "OPC directory listing and its 'Listen to Sermons' link — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "No personal blog or podcast located; appears in OPC General Assembly minutes.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "christian_nationalism": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "postmillennial": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "theonomy": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "patriarchy": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "zionism": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Rev. Claude A. Taylor"
+   ],
+   "found": "Pastor identified from the denominational roster — a source the earlier passes never consulted."
+  },
+  "step4_complete": true,
+  "verdict": "No marker evidence. abolitionStance stays unknown. PASTOR NEWLY IDENTIFIED from the OPC congregation directory; the directory row had no usable leadership.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2209,
+  "name": "Mt. Carmel",
+  "city": "Somerset",
+  "denomination": "OPC",
+  "pastor": "Rev. Gregory A. Pilato",
+  "step1_site": {
+   "url": "http://mtcarmelopc.com",
+   "pages_read": [
+    "471 chars from the church; congregation confirmed via the OPC's own directory of congregations"
+   ],
+   "found": "MT. CARMEL OPC, Somerset — pastor identified from the OPC directory. SermonAudio speaker page 15952 exists. NO abortion, abolition or civil-order content found at church level.",
+   "complete": false,
+   "gap": "The congregation's own website was not readable; identity, address and pastor come from the OPC directory."
+  },
+  "step2_church_socials": {
+   "found": "OPC directory listing and its 'Listen to Sermons' link — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "SermonAudio archive under his own name checked; nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "christian_nationalism": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "postmillennial": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "theonomy": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "patriarchy": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "zionism": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Rev. Gregory A. Pilato"
+   ],
+   "found": "Pastor identified from the denominational roster — a source the earlier passes never consulted."
+  },
+  "step4_complete": true,
+  "verdict": "No marker evidence. abolitionStance stays unknown. PASTOR NEWLY IDENTIFIED from the OPC congregation directory; the directory row had no usable leadership.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2205,
+  "name": "Grace",
+  "city": "Pennsville",
+  "denomination": "OPC",
+  "pastor": "Rev. Samuel Alvira",
+  "step1_site": {
+   "url": "http://www.graceopchurch.com",
+   "pages_read": [
+    "268 chars from the church; congregation confirmed via the OPC's own directory of congregations"
+   ],
+   "found": "GRACE OPC, Pennsville — pastor identified from the OPC directory. LinkedIn located. He also appears as a guest speaker in the Immanuel Bellmawr archive (6 sermons). NO abortion, abolition or civil-order content found at church level.",
+   "complete": false,
+   "gap": "The congregation's own website was not readable; identity, address and pastor come from the OPC directory."
+  },
+  "step2_church_socials": {
+   "found": "OPC directory listing and its 'Listen to Sermons' link — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "LinkedIn; SermonAudio guest appearances. Nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "christian_nationalism": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "postmillennial": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "theonomy": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "patriarchy": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "zionism": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Rev. Samuel Alvira"
+   ],
+   "found": "Pastor identified from the denominational roster — a source the earlier passes never consulted."
+  },
+  "step4_complete": true,
+  "verdict": "No marker evidence. abolitionStance stays unknown. PASTOR NEWLY IDENTIFIED from the OPC congregation directory; the directory row had no usable leadership.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2200,
+  "name": "Grace",
+  "city": "Fair Lawn",
+  "denomination": "OPC",
+  "pastor": "Rev. John Keegan",
+  "step1_site": {
+   "url": "http://www.graceopcfairlawn.org",
+   "pages_read": [
+    "18808 chars from the church; congregation confirmed via the OPC's own directory of congregations"
+   ],
+   "found": "GRACE OPC, Fair Lawn — pastor identified from the OPC directory (the site text had yielded only 'John Keegan Join', a nav artifact). Site names Bruce Coie and David Kiester as well. NO abortion, abolition or civil-order content found at church level.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "https://twitter.com/share, https://www.facebook.com/sharer.php, https://www.facebook.com/sharer/sharer.php — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "No personal blog or podcast located.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "christian_nationalism": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "postmillennial": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "theonomy": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "patriarchy": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "zionism": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Rev. John Keegan"
+   ],
+   "found": "Pastor identified from the denominational roster — a source the earlier passes never consulted."
+  },
+  "step4_complete": true,
+  "verdict": "No marker evidence. abolitionStance stays unknown. PASTOR NEWLY IDENTIFIED from the OPC congregation directory; the directory row had no usable leadership.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2202,
+  "name": "Providence",
+  "city": "Mantua",
+  "denomination": "OPC",
+  "pastor": "Rev. Zachary Herbster",
+  "step1_site": {
+   "url": "http://www.providenceopc.org",
+   "pages_read": [
+    "10746 chars from the church; congregation confirmed via the OPC's own directory of congregations"
+   ],
+   "found": "PROVIDENCE OPC, Mantua — the OPC directory names Herbster as pastor. My earlier record for this row named Carl S. 'Steve' McDaniel Jr., which a web search had returned; the DENOMINATION'S OWN roster says Herbster, and the roster is the better source. Recorded as a correction to my own earlier entry. NO abortion, abolition or civil-order content found at church level.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "OPC directory listing and its 'Listen to Sermons' link — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Appears in the Immanuel Bellmawr archive as a guest (1 sermon). Nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "christian_nationalism": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "postmillennial": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "theonomy": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "patriarchy": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "zionism": {
+    "query": "\"Claude A. Taylor\" OR \"Gregory A. Pilato\" OR \"Samuel Alvira\" OR \"John Keegan\" OR \"Zachary Herbster\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Rev. Zachary Herbster"
+   ],
+   "found": "Pastor identified from the denominational roster — a source the earlier passes never consulted."
+  },
+  "step4_complete": true,
+  "verdict": "No marker evidence. abolitionStance stays unknown. PASTOR NEWLY IDENTIFIED from the OPC congregation directory; the directory row had no usable leadership.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2213,
+  "name": "Grace",
+  "city": "Westfield",
+  "denomination": "OPC",
+  "pastor": "Rev. Christopher I. Byrd and Rev. Timothy Ferguson (OPC directory). Donald C. Graham, whom the row records, does not appear on the denomination's current listing for this congregation.",
+  "step1_site": {
+   "url": "http://www.graceopcwestfieldnj.org",
+   "pages_read": [
+    "24621 chars from the church; congregation confirmed via the OPC directory of congregations"
+   ],
+   "found": "GRACE OPC, Westfield. Ferguson's LinkedIn confirms 'Pastor at Grace Orthodox Presbyterian'. NO abortion, abolition or civil-order content found at church level.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "https://www.facebook.com/graceopcwestfieldnj, https://www.instagram.com/graceopcwestfieldnj/, https://www.youtube.com/channel/UCiBJdxKB-AtpyTOgpjXduLw — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "LinkedIn for Timothy Ferguson; Byrd also preaches at Calvary OPC Ringoes. Nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "christian_nationalism": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "postmillennial": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "theonomy": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "patriarchy": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "zionism": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Rev. Christopher I. Byrd and Rev. Timothy Ferguson (OPC directory). Donald C. Graham, whom the row records, does not appear on the denomination's current listing for this congregation."
+   ],
+   "found": "From the OPC congregation directory."
+  },
+  "step4_complete": true,
+  "verdict": "No marker evidence. abolitionStance stays unknown.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2212,
+  "name": "Immanuel",
+  "city": "West Collingswood",
+  "denomination": "OPC",
+  "pastor": "Not named on the OPC listing for this congregation.",
+  "step1_site": {
+   "url": "http://www.iopc.org",
+   "pages_read": [
+    "0 chars from the church; congregation confirmed via the OPC directory of congregations"
+   ],
+   "found": "IMMANUEL OPC, WEST COLLINGSWOOD — the OPC directory lists it under HADDON TOWNSHIP with website iopc.org. The site returned 24 characters. Confirms the congregation exists and is OPC; nothing further readable. NO abortion, abolition or civil-order content found at church level.",
+   "complete": false,
+   "gap": "Church website absent or unreadable; identity and address come from the OPC directory."
+  },
+  "step2_church_socials": {
+   "found": "OPC directory listing only — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "No pastor named on the denominational listing, so the pastor half cannot be walked.",
+   "complete": false
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   },
+   "christian_nationalism": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   },
+   "postmillennial": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   },
+   "theonomy": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   },
+   "patriarchy": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   },
+   "zionism": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "From the OPC congregation directory."
+  },
+  "step4_complete": false,
+  "verdict": "STEP 4 NOT PERFORMED — no pastor named on the denominational roster. Congregation CONFIRMED to exist and to be OPC, which is more than was known before.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2207,
+  "name": "Calvary Community",
+  "city": "Phillipsburg (Harmony)",
+  "denomination": "OPC",
+  "pastor": "Not named on the OPC listing; contact is pastor@harmonyopc.org.",
+  "step1_site": {
+   "url": "http://harmonyopc.org",
+   "pages_read": [
+    "5876 chars from the church; congregation confirmed via the OPC directory of congregations"
+   ],
+   "found": "CALVARY COMMUNITY OPC, Phillipsburg (Harmony) — 4 Old Church Rd, website harmonyopc.org. NOTE this is a DIFFERENT congregation from Harmony Bible Fellowship (#2894), which is at 2603 Belvidere Rd and is Bible Fellowship Church, not OPC. Two 'Harmony' churches in Phillipsburg; do not merge. NO abortion, abolition or civil-order content found at church level.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "OPC directory listing only — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "No pastor name published on the denominational listing.",
+   "complete": false
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   },
+   "christian_nationalism": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   },
+   "postmillennial": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   },
+   "theonomy": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   },
+   "patriarchy": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   },
+   "zionism": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "From the OPC congregation directory."
+  },
+  "step4_complete": false,
+  "verdict": "STEP 4 NOT PERFORMED — no pastor named on the denominational roster. Congregation CONFIRMED to exist and to be OPC, which is more than was known before.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2206,
+  "name": "River Of Life",
+  "city": "Phillipsburg",
+  "denomination": "OPC",
+  "pastor": "Not named on the OPC listing.",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars from the church; congregation confirmed via the OPC directory of congregations"
+   ],
+   "found": "RIVER OF LIFE OPC, Phillipsburg — 445 S. Main St. Confirms the congregation exists and is OPC; no website listed. NO abortion, abolition or civil-order content found at church level.",
+   "complete": false,
+   "gap": "Church website absent or unreadable; identity and address come from the OPC directory."
+  },
+  "step2_church_socials": {
+   "found": "OPC directory listing only — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "No pastor name published; the pastor half cannot be walked.",
+   "complete": false
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   },
+   "christian_nationalism": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   },
+   "postmillennial": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   },
+   "theonomy": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   },
+   "patriarchy": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   },
+   "zionism": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": null,
+    "performed": false,
+    "note": "No pastor is named for this congregation on the denomination's own roster, so step 4 cannot be run at pastor level. NOT a negative."
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "From the OPC congregation directory."
+  },
+  "step4_complete": false,
+  "verdict": "STEP 4 NOT PERFORMED — no pastor named on the denominational roster. Congregation CONFIRMED to exist and to be OPC, which is more than was known before.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 6572,
+  "name": "Christ The King Orthodox Presbyterian Church",
+  "city": "North Wildwood",
+  "denomination": "OPC",
+  "pastor": "Rev. James A. Zozzaro (OPC directory) — he also directs the Boardwalk Chapel.",
+  "step1_site": {
+   "url": "https://www.christthekingwildwood.org",
+   "pages_read": [
+    "276 chars from the church; congregation confirmed via the OPC directory of congregations"
+   ],
+   "found": "CHRIST THE KING OPC, North Wildwood — the OPC directory records it as 'formerly Cape May Courthouse'. That matters: the directory's separate rows #2198 'Calvary' (Cape May Courthouse) and #2204 'Central Bible Church' (North Wildwood) do NOT correspond to any current OPC congregation, and this is the only OPC church in either place. NO abortion, abolition or civil-order content found at church level.",
+   "complete": false,
+   "gap": "Church website absent or unreadable; identity and address come from the OPC directory."
+  },
+  "step2_church_socials": {
+   "found": "OPC directory listing only — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Zozzaro's public output runs through the OPC and the Boardwalk Chapel; checked, nothing on any marker.",
+   "complete": false
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "christian_nationalism": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "postmillennial": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "theonomy": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "patriarchy": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   },
+   "zionism": {
+    "query": "\"Christopher I. Byrd\" OR \"Timothy Ferguson\" OR \"James Zozzaro\" OR \"Joel Pearce\" Orthodox Presbyterian New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "performed": true
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Rev. James A. Zozzaro (OPC directory) — he also directs the Boardwalk Chapel."
+   ],
+   "found": "From the OPC congregation directory."
+  },
+  "step4_complete": true,
+  "verdict": "No marker evidence. abolitionStance stays unknown.",
+  "date": "2026-08-13"
  }
 ]
