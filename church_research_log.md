@@ -4764,3 +4764,76 @@ An unreachable URL is a fact about the fetch. Two 404s are not evidence that a l
 a blocked search engine is not evidence that a pastor has said nothing, and neither belongs in a
 research note as though it were a finding. Where a source cannot be reached, say that — do not
 promote it to an absence.
+
+---
+
+## 2026-08-12 — New Jersey, 25 churches to the full five-step standard
+
+Twenty-five of 106 now carry all five steps with the queries recorded, or an
+explicit named gap where a source could not be reached. **No marker hit on any of
+them.** What the standard produced instead was a long list of things the
+directory has wrong — and one church it is missing entirely.
+
+### The church that should be in this directory and is not
+
+**Rev. Dr. Clenard H. Childress Jr., New Calvary Baptist Church, Montclair NJ**,
+senior pastor since 1989. Founder of **BlackGenocide.org**, president of **Life
+Education And Resource Network (LEARN) Northeast** — described as the largest
+African-American pro-life organisation in the United States — partner of the
+Center for Bioethical Reform on the Genocide Awareness Project, repeat candidate
+for the New Jersey General Assembly in District 34, and the man behind the line
+that the womb is "the most dangerous place for an African-American".
+
+**His church is not among the 106 New Jersey rows.** On any reasonable reading he
+is the most abortion-engaged pastor in the state, and the directory does not know
+he exists. He surfaced only because a search for an unrelated Montclair row
+happened to return a news story about him. That is luck, not method, and it says
+the NJ coverage has a hole shaped like the historically Black church.
+
+### Directory errors found by doing the standard
+
+- **#1422 New Hope Community Church, Cherry Hill** — the recorded website
+  `newhopepres.org` is a **PCUSA congregation in the Denver Presbytery,
+  Colorado**, with an "open and affirming" FAQ and a woman senior pastor. 34,000
+  characters of "site content" for this row describe a different church in a
+  different state. All of it discarded; the row is unread, not negative.
+- **#2894 Sovereign Grace Baptist, Phillipsburg** — is **Harmony Bible Fellowship
+  Church**, renamed, relocated to Harmony Township in 2022, now in the Bible
+  Fellowship Church denomination, pastored by Rick Paquette. Recorded pastor Jon
+  Zwingel comes from a stale Founders listing. Its notes claim it "rejects
+  dispensationalism" while its own statement teaches a pretribulational rapture.
+- **#5267 First Baptist, Newton** — pastor is **Daniel Lisa**, not "Harry
+  Fletcher". Published life stance affirms life from conception through natural
+  death and never once uses the word *abortion*.
+- **#6206 Hope Community PCA** — meets at 391 **Zion Road, Egg Harbor
+  Township**, not Northfield. The "zion" marker was the street address.
+- **#2214 Boardwalk Chapel** — not a congregation at all but a **summer
+  evangelistic ministry of the Presbytery of New Jersey**; "Leslie Dunn" is its
+  1940s founder.
+- **#2699 Island Baptist** — now **Island Bible Church / The Hope of LBI**,
+  pastor Luke Fraser.
+- **#2196 Faith Bible, Brick** — pastor **Rev. Kim Dang**; elders Terry Boyle and
+  Ben Szuba.
+- **#5323 First Baptist Asbury Park** and **#2699 Island Baptist** are both filed
+  as *Reformed Baptist* and both publish the same verbatim MacArthur "We teach"
+  statement: **dispensational premillennial**, pretribulational rapture, church
+  distinct from Israel. Not Reformed.
+- **#6204 First Presbyterian, Ocean City** joined the PCA only in **October
+  2024**, out of the PCUSA — so nothing about its longer history can be inferred
+  from the PCA label.
+
+### One clean non-abolitionist position, evidenced
+
+**Hanover Presbytery**, to which Manasquan Reformed Bible Church belongs, keeps
+no tertiary standards because "even issues as important as Creation and Abortion
+do not need position papers — they are stated in Scriptures and affirmed in the
+confessional standards", and cites Pat Mahoney on needing "men on their knees in
+prayer at the Supreme Court". Abortion settled by the sixth commandment and
+pursued by prayer and presence rather than by law. Coherent, and not abolition.
+
+### Method note
+
+Every "interesting" marker from the automated pass has turned out to be an
+artifact — a street name, a country dropdown, a confession quoting *dominion*,
+the word *clinically*. Every real finding has come from reading. The regex was
+useful only for deciding what to read first.

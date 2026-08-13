@@ -833,5 +833,719 @@
   },
   "verdict": "No marker evidence. abolitionStance stays unknown. FOUR DIRECTORY CORRECTIONS: (1) name — now Harmony Bible Fellowship Church; (2) denomination — Bible Fellowship Church, not Reformed Baptist; (3) leadership — Rick Paquette and three named elders, not Jon Zwingel from a stale Founders listing; (4) theologicalNotes assert 'covenantal theology rejects dispensationalism' while the church's own What We Believe teaches a pretribulational rapture — that note was inferred from the 1689 label and is contradicted by the church's own words.",
   "date": "2026-08-12"
+ },
+ {
+  "id": 3126,
+  "name": "The Rock Church of South Jersey",
+  "city": "Mount Laurel Township",
+  "denomination_recorded": "Reformed Baptist",
+  "denomination_note": "Pastor trained at Calvary Chapel Bible Institute; church listed in the Theocast church finder. Worth verifying the Reformed Baptist label.",
+  "pastor": "Benjamin (Ben) Honeyford, Lead Pastor. Keith Allen also listed in leadership.",
+  "step1_site": {
+   "url": "https://therocksj.org",
+   "pages_read": [
+    "82,920 characters across the site including /who-we-are/ and the sermon archive"
+   ],
+   "found": "The largest readable body of text of any New Jersey church in this set, and it contains NO abortion, abolition, sanctity-of-life, personhood, equal-protection or civil-order language at all. The only earlier 'dominion' hit was Colossians 1 quoted in a sermon.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "podcast": "rockchurchsj.podbean.com ; Apple Podcasts id1819579111",
+   "other": "8 social/media links captured from the site",
+   "listed_by": "Theocast church finder",
+   "found": "Nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "linkedin": "linkedin.com/in/bhoneyford",
+   "found": "Grew up in Riverton NJ, Palmyra High School, business degree from Temple, certificate in biblical studies from Calvary Chapel Bible Institute, Fort Lauderdale. No personal blog or podcast separate from the church's. Nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Ben Honeyford\" Rock Church South Jersey abortion abolition theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "same",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Keith Allen (leadership)"
+   ],
+   "found": "No notable congregants surfaced."
+  },
+  "verdict": "No marker evidence, on the largest sample of any church here. abolitionStance stays unknown.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 1412,
+  "name": "Grace Redeemer Church",
+  "city": "Teaneck",
+  "denomination": "PCA",
+  "pastor": "Peter Wang, Senior Pastor since 2004",
+  "step1_site": {
+   "url": "https://graceredeemer.com",
+   "pages_read": [
+    "35,844 chars incl. /about-us/, /about-us/our-team/, sermon archive"
+   ],
+   "found": "Gospel-centred, missional, multi-ethnic PCA congregation. NO abortion, abolition or civil-order content. Tim Keller is named in the site text as an influence, not as a member.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "3 social links captured; sermon archive on the church's own site. Nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "profile": "graceredeemer.com/preacher/peter-wang/",
+   "found": "Preaching archive under his own name checked. No separate personal blog or podcast. Nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Peter Wang\" Grace Redeemer Church Teaneck PCA abortion abolition theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "same",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false,
+    "note": "'Peter Wang' is a very common name; no result was attributed without the church tie."
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None. Tim Keller appears as a cited influence in site text, NOT as a congregant — recorded so a later reader does not mis-attribute him."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. NOTE: the church is described as being in GLEN ROCK, meeting in rented space in Teaneck. The directory's city may need review.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 1415,
+  "name": "Hope Presbyterian Church",
+  "city": "Lawrenceville",
+  "denomination": "PCA",
+  "pastor": "Rev. David Rowe, Senior Minister. Site also names Chris Sallade, Christopher Heslep and David Keddie in teaching/leadership roles.",
+  "step1_site": {
+   "url": "https://hopechurch-nj.org",
+   "pages_read": [
+    "35,618 chars incl. sermon archive and leadership"
+   ],
+   "found": "PCA congregation. NO abortion, abolition, sanctity-of-life or civil-order content anywhere in the captured text.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "facebook": "facebook.com/HopePresbyChurch140/",
+   "sermons": "hopechurch-nj.org/sermons/",
+   "found": "Nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "linkedin": "linkedin.com/in/david-rowe-7b41848/",
+   "found": "No personal blog or podcast located. Nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"David Rowe\" Hope Presbyterian Church Lawrenceville NJ abortion abolition theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "same",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Chris Sallade",
+    "Christopher Heslep",
+    "David Keddie"
+   ],
+   "found": "Additional teaching/leadership names recorded from the site."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 6204,
+  "name": "First Presbyterian Church of Ocean City",
+  "city": "Ocean City",
+  "denomination": "PCA — transitioned from PCUSA in October 2024; Luke Bert installed as senior pastor July 2025",
+  "pastor": "Rev. Luke Barnabas Bert (ordained October 2017). Staff also names Kim Murphy, Robert Woolery, Gary Griffith.",
+  "step1_site": {
+   "url": "https://www.firstpresocnj.net",
+   "pages_read": [
+    "34,537 chars incl. /meet-our-pastor-and-staff"
+   ],
+   "found": "NO abortion, abolition or civil-order content. The notable fact is denominational: this congregation completed a transition OUT of the PCUSA and INTO the PCA in October 2024 — a mainline-to-conservative move, which is why it now appears in a conservative directory at all.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "youtube": "youtube.com/channel/UCPmybjCu9eQnUJOVi-FddPw",
+   "facebook": "facebook.com/firstpresocnj.net/",
+   "found": "8 links captured. Nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Coverage in the Ocean City Sentinel and byFaith (PCA) on the denominational transition. No personal blog or podcast. Nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Luke Bert\" First Presbyterian Church Ocean City NJ abortion abolition theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "same",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Kim Murphy",
+    "Robert Woolery",
+    "Gary Griffith"
+   ],
+   "found": "Staff recorded."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. Worth flagging in the directory that the PCA membership is recent (Oct 2024), so any inference from 'PCA' about this congregation's longer history would be wrong.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 1420,
+  "name": "Mercy Hill Presbyterian Church",
+  "city": "Sewell",
+  "denomination": "PCA",
+  "pastor": "Phil Henry, lead pastor (ordained Presbyterian minister, moved to Sewell 2009). Site also names Henry Jansma, Aron Geissinger and Adam Moore.",
+  "step1_site": {
+   "url": "https://www.mercyhillnj.org",
+   "pages_read": [
+    "23,247 chars incl. /our-leadership, /directory, sermon archive"
+   ],
+   "found": "NO abortion, abolition, sanctity-of-life or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "4 links captured. Nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "No personal blog or podcast located for Phil Henry. Henry Jansma also appears in the Immanuel OPC Bellmawr speaker index as a guest preacher — the same man moving between local pulpits, recorded but not treated as evidence about either church.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Mercy Hill Presbyterian\" Sewell NJ \"Phil Henry\" OR \"Henry Jansma\" abortion abolition theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "same",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Henry Jansma",
+    "Aron Geissinger",
+    "Adam Moore"
+   ],
+   "found": "Leadership recorded."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 3674,
+  "name": "Grace Reformed Church",
+  "city": "Jersey City",
+  "denomination": "URCNA",
+  "pastor": "Rev. Samuel (Sam) Perez. The church is a MISSION WORK under the oversight of Messiah's Reformed Fellowship, NYC. Daniel Ragusa and Cornelis Venema appear in the site text as visiting/guest preachers.",
+  "step1_site": {
+   "url": "https://jerseycitygrace.org/",
+   "pages_read": [
+    "22,511 chars incl. /about-us/the-church-leadership and sermon archive"
+   ],
+   "found": "Three Forms of Unity — Belgic Confession, Heidelberg Catechism, Canons of Dort. Covenant theology, infant baptism, AMILLENNIAL. NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "facebook": "facebook.com/JerseyCityGrace/",
+   "sermonaudio": "sermonaudio.com/broadcasters/jerseycitygrace/",
+   "urcna_missions": "urcnamissions.org/jersey-city-nj.html",
+   "found": "Nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "No personal blog or podcast located for Sam Perez. Nothing on any marker. He appears in URCNA synod records, which carry no marker content.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Grace Reformed Church\" Jersey City URCNA \"Daniel Ragusa\" OR \"Samuel Perez\" abortion abolition theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "same",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false,
+    "note": "Positively excluded — the church's stated eschatology is amillennial."
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Daniel Ragusa (guest preacher)",
+    "Cornelis Venema (guest preacher)",
+    "Bill Boekestein (guest preacher)"
+   ],
+   "found": "Guest preachers recorded as guests, NOT as this church's officers — the crawl's leader-extraction had mixed them into the leadership list."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. Worth noting for the directory that this is a MISSION WORK under Messiah's Reformed Fellowship NYC, not an independent congregation.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 2213,
+  "name": "Grace Orthodox Presbyterian Church",
+  "city": "Westfield",
+  "denomination": "OPC",
+  "pastor": "Donald C. Graham. Timothy Ferguson also named in site leadership.",
+  "step1_site": {
+   "url": "https://graceopcwestfieldnj.org/",
+   "pages_read": [
+    "24,621 chars incl. leadership and sermon archive"
+   ],
+   "found": "Confessional OPC congregation. NO abortion, abolition, sanctity-of-life or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "facebook": "facebook.com/graceopcwestfieldnj/",
+   "instagram": "instagram.com/graceopcwestfieldnj/",
+   "youtube": "youtube.com/channel/UCiBJdxKB-AtpyTOgpjXduLw",
+   "found": "5 links captured. Nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "No personal blog or podcast located for Donald C. Graham. Nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Donald C. Graham\" Grace Orthodox Presbyterian Westfield NJ abortion abolition theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "same",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Timothy Ferguson"
+   ],
+   "found": "Recorded from site leadership."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. NOTE: Westfield is one of the twelve municipalities added to the GSA site to close district gaps (LD 21), so this church sits on a live city page.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 2208,
+  "name": "Calvary Orthodox Presbyterian Church",
+  "city": "Ringoes",
+  "denomination": "OPC",
+  "pastor": "Chris (Christopher) Bush, pastor. Brian Groot, Chris Byrd, Dan Bobick and Darryl Updike appear in the preaching archive.",
+  "step1_site": {
+   "url": "https://www.calvarychurchopc.org/",
+   "pages_read": [
+    "24,237 chars incl. /about-us/, /leadership/, /what-to-expect/, sermon archive"
+   ],
+   "found": "Confessional OPC congregation. NO abortion, abolition, sanctity-of-life or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "2 links captured; sermon archive on the church's own site. Nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Preaching archives exist per-preacher on the church site (e.g. /preacher/brian-groot/). Checked; nothing on any marker. No personal blogs or podcasts located.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Christopher Bush\" Calvary Orthodox Presbyterian Ringoes New Jersey abortion abolition ; and combined-marker query",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Christopher Bush\" OR \"Brian Groot\" Calvary Orthodox Presbyterian Ringoes NJ theonomy postmillennial \"Christian nationalism\" patriarchy Zionism abortion",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Brian Groot",
+    "Chris Byrd",
+    "Dan Bobick",
+    "Darryl Updike"
+   ],
+   "found": "Preachers recorded. NOTE Brian Groot is ALSO the recorded pastor of Faith OPC, Elmer — the same man appears in two directory rows, once as pastor and once as a visiting preacher. Not a duplicate church; do not merge."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 2214,
+  "name": "Boardwalk Chapel",
+  "city": "Wildwood",
+  "denomination": "OPC",
+  "pastor": "Rev. James Zozzaro, DIRECTOR of the Boardwalk Chapel — and pastor of Christ the King OPC, Cape May. Leslie Dunn is the 1940s FOUNDER, not current.",
+  "step1_site": {
+   "url": "https://boardwalkchapel.org/about/",
+   "pages_read": [
+    "28,430 chars incl. /about/"
+   ],
+   "found": "NOT AN ORDINARY CONGREGATION. It is a summer evangelistic ministry of the Presbytery of New Jersey (OPC), running nightly programmes of music, skits and preaching on the Wildwood boardwalk from Memorial Day to Labor Day, staffed by rotating visiting church groups trained in evangelism. Founded in the 1940s out of Rev. Leslie Dunn's open-air preaching. NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "2 links captured; also covered by the OPC's own features and a Reformed Forum podcast episode on 'Evangelism and Apologetics on the Boardwalk'. Nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "James Zozzaro appears via OPC features and the Reformed Forum episode. Checked; nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Boardwalk Chapel\" Wildwood NJ \"James Zozzaro\" director OPC abortion abolition evangelism boardwalk preaching",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "same",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Rev. Leslie Dunn (founder, 1940s)",
+    "Rev. James Zozzaro (director; pastor of Christ the King OPC, Cape May)"
+   ],
+   "found": "Recorded."
+  },
+  "verdict": "No marker evidence. TWO DIRECTORY CORRECTIONS: (1) leadership was 'Leslie Dunn', who founded the chapel in the 1940s and is not its current leader — the director is James Zozzaro; (2) this row is a PRESBYTERY EVANGELISTIC MINISTRY, not a congregation, and treating it as a church in counts or on a city page would be a category error.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 3948,
+  "name": "Manasquan Reformed Bible Church",
+  "city": "Manasquan",
+  "denomination": "Reformed Presbyterian Church — Hanover Presbytery",
+  "pastor": "Rev. David F. Elmer",
+  "step1_site": {
+   "url": "https://reformedbible.com",
+   "pages_read": [
+    "26,253 chars incl. /a-brief-statement-of-beliefs/, /weekly-sermons/, /time-and-directions/"
+   ],
+   "found": "Westminster Confession and Catechisms; Scripture infallible and inerrant. The site's brief statement of beliefs (1,623 chars) contains NO abortion, abolition or civil-order language. The earlier 'dominion' regex hit was the Westminster Confession's text on God's sovereign dominion, not Reconstruction.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "youtube": "youtube.com/channel/UCpOkHJ6lmAIrdRd4mN2caqA",
+   "found": "Nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Listed among 'Pastors in the Hanover Presbytery'. No personal blog or podcast located. Nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Manasquan Reformed Bible Church\" NJ \"Hanover Presbytery\" pastor abortion abolition theonomy postmillennial \"Christian nationalism\" patriarchy",
+    "hit": false,
+    "note": "DENOMINATIONAL CONTEXT WORTH RECORDING: Hanover Presbytery states it keeps NO tertiary standards because 'even issues as important as Creation and Abortion do not need position papers — they are stated in Scriptures and affirmed in the confessional standards.' It approvingly cites Pat Mahoney on needing 'men on their knees in prayer at the Supreme Court'. So abortion is treated as settled by the sixth commandment and as a matter for prayer and presence — NOT framed as abolition, equal protection or criminalisation."
+   },
+   "christian_nationalism": {
+    "query": "same",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false,
+    "note": "Hanover is a '1706 Presbytery' Covenanter-lineage body; conservative and confessional, but no theonomic claim found."
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None at congregation level. Pat Mahoney is cited by the PRESBYTERY as an exemplar, not as a member here — recorded so nobody attributes him to this church."
+  },
+  "verdict": "No abolitionist evidence, but the clearest denominational statement on abortion found in New Jersey so far: settled by the sixth commandment, pursued by prayer and presence rather than by law. That is a coherent non-abolitionist position, evidenced. DIRECTORY CORRECTION: leadership was blank; the pastor is Rev. David F. Elmer.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 1422,
+  "name": "New Hope Community Church",
+  "city": "Cherry Hill",
+  "denomination_recorded": "PCA — but already flagged 2026-08-06 as NOT on the PCA's own roster",
+  "pastor": "Recorded as 'Pastor James (per church email)'. NOT established independently.",
+  "step1_site": {
+   "url": "https://www.newhopepres.org — RECORDED IN THE ROW AND WRONG",
+   "pages_read": [
+    "34,382 chars were captured from that URL and they belong to a DIFFERENT CHURCH"
+   ],
+   "found": "THE WEBSITE ON THIS ROW IS NOT THIS CHURCH. newhopepres.org states in its own FAQ: 'New Hope is a member of the Presbyterian Church (USA), Rocky Mountain Synod, and the Denver Presbytery' — a PCUSA congregation in COLORADO, whose senior pastor is Rev. Dr. Caressa and which carries an 'Are you an open and affirming church?' FAQ. None of that describes a PCA church in Cherry Hill, New Jersey. Every earlier signal I had for this row — the leadership name 'Dr. Caressa', the 34k of site text — came from the wrong congregation and is DISCARDED.",
+   "complete": false,
+   "gap": "The New Jersey congregation's own website has not been located. Everything about it is still unread."
+  },
+  "step2_church_socials": {
+   "found": "The socials captured (facebook.com/NewHopePresbyterianChurch, instagram/newhopepres, vimeo, youtube) all belong to the Colorado PCUSA church and are DISCARDED. No socials located for the Cherry Hill congregation.",
+   "complete": false
+  },
+  "step3_pastor_own": {
+   "found": "Cannot be done: the pastor of the New Jersey church is recorded only as 'Pastor James' with no surname, from a church email. 'Dr. Caressa' belongs to the Colorado church.",
+   "complete": false
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"New Hope Community Church\" Cherry Hill NJ PCA \"Caressa\" senior pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false,
+    "note": "Searched, but the only leader name available was the WRONG church's. This marker is NOT reliably searched for the New Jersey congregation."
+   },
+   "christian_nationalism": {
+    "query": "same",
+    "hit": false,
+    "note": "same limitation"
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false,
+    "note": "same limitation"
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false,
+    "note": "same limitation"
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false,
+    "note": "same limitation"
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false,
+    "note": "same limitation"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None — and none can be established until the right church is identified."
+  },
+  "verdict": "NOT RESEARCHED. This row must be treated as unread, not as a searched negative. TWO DIRECTORY ERRORS: (1) the website field points at New Hope Presbyterian, a PCUSA church in the Denver Presbytery, Colorado — it must be cleared; (2) the row already carried a flag that it is NOT on the PCA's own roster, and a PCA congregation whose recorded website is an open-and-affirming PCUSA church is a strong signal the denomination label is wrong too. There IS a real 'New Hope Community Church of South Jersey Inc' registered in Cherry Hill 08003, so the congregation exists; its site simply has not been found. Its current abolitionStance of 'incrementalist' rests on a covenantal default from a denomination that may not apply.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 3205,
+  "name": "Philadelphia Ministry",
+  "city": "Montclair",
+  "denomination": "Reformed Baptist",
+  "pastor": "Not established. The directory holds no leadership for this row and none was found.",
+  "step1_site": {
+   "url": "https://linktr.ee/philadelphiaministry",
+   "pages_read": [
+    "37,074 chars captured from the linktree and linked pages"
+   ],
+   "found": "The recorded 'website' is a LINKTREE, not a church site. A Facebook event exists for 'Philadelphia Ministry - new church campus' at 28 George St, Montclair. NO abortion, abolition or civil-order content in anything captured. The congregation's own doctrinal material was never located.",
+   "complete": false,
+   "gap": "No church website exists to read; a linktree is not a statement of faith. Step 1 is not satisfied."
+  },
+  "step2_church_socials": {
+   "found": "6 links via the linktree; Facebook event page. Nothing on any marker.",
+   "complete": true
+  },
+  "step3_pastor_own": {
+   "found": "Cannot be done — no pastor name is recorded or discoverable for this row.",
+   "complete": false
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Philadelphia Ministry\" Montclair New Jersey church pastor abortion abolition theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false,
+    "note": "Searched at CHURCH level only; no pastor name exists to search."
+   },
+   "christian_nationalism": {
+    "query": "same",
+    "hit": false,
+    "note": "church-level only"
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false,
+    "note": "church-level only"
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false,
+    "note": "church-level only"
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false,
+    "note": "church-level only"
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false,
+    "note": "church-level only"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None for this church. BUT THIS SEARCH SURFACED A MAJOR GAP IN THE DIRECTORY — see verdict."
+  },
+  "verdict": "Not established; steps 1, 3 incomplete for want of a website and a pastor name. THE IMPORTANT RESULT IS INCIDENTAL: searching Montclair surfaced Rev. Dr. Clenard H. Childress Jr., senior pastor of New Calvary Baptist Church, Montclair NJ since 1989 — founder of BlackGenocide.org, president of Life Education And Resource Network (LEARN) Northeast, described as the largest African-American pro-life group in the US, partner of the Center for Bioethical Reform on the Genocide Awareness Project, and a repeat candidate for the New Jersey General Assembly in District 34. He calls the womb 'the most dangerous place for an African-American'. HIS CHURCH IS NOT IN THIS DIRECTORY AT ALL. That is very likely the most abortion-engaged pastor in New Jersey and the NJ set of 106 does not contain him.",
+  "date": "2026-08-12"
  }
 ]
