@@ -4691,3 +4691,76 @@ Clinic presence does not by itself separate an abolitionist congregation from a 
 **Still owed on this set:** steps 2–5 for all 106 — the church's socials, then the *pastor's own*
 socials and podcast, the pastor's name against each marker, and notable congregants. That is the step
 that has produced this project's finds before, so the tally above is provisional.
+
+---
+
+## 2026-08-12 (later) — New Jersey, continued: a stance corrected twice in one day
+
+### The correction that matters
+
+**#4044 Missio Dei Church, Glassboro** — the only `pro_abolition` row in New Jersey.
+I demoted it to `unknown`, then **restored it**, and the round trip is worth recording because
+both moves taught something.
+
+**Why I demoted it.** The row's own note, written 2026-08-05, said the standard had been applied
+and the label was "NOT supported; demoted" — but only `culturalEngagement` had been changed.
+`abolitionStance` still read `pro_abolition`. The prose said one thing and the field said another,
+and **the field is what renders**. It had already propagated onto a live client page.
+
+That note also recorded why it stopped short: the pastor was known only as "Justin", so the
+pastor half could not be walked, and it asked for the row to be revisited if a surname surfaced.
+It has: the church's own We Believe page is signed **Jesse Gruber, Elder**, and the podcast credits
+**Justin Gruber**. Neither surfaces against any marker.
+
+**Why I was wrong to demote it.** I also wrote that Abolitionists Rising "no longer publishes a
+church list", having tried `/churches/` and `/church-map/` and received two 404s. **AR publishes
+its list per state, at `/state-facts/<state>/`.** The New Jersey page is live and current, headed
+"Find Abolitionists in New Jersey", and names Missio Dei as the state's one Abolitionist Church.
+Dustin supplied the URL. I had turned a failed fetch into a claim about the world — the exact error
+this log warns about elsewhere.
+
+Also missed by both passes until now: the church's YouTube channel carries **"Back To Basics — A
+Gospel Look at Race and Abortion", scheduled 22 January 2017**, the Roe anniversary. First-hand
+evidence of public teaching on abortion.
+
+**Where it landed:** `pro_abolition`, `stanceBasis = mixed`, `verify_stance` retained. The movement's
+own organisation attests the position; the church's current output does not evidence it — 96,000
+characters of its article archive use "abolish" only about Lincoln. Both changes carry StanceChange
+rows.
+
+**AR's New Jersey page is now a cross-reference for this state**: one abolitionist church, zero
+abolitionist organisations, zero abolitionist businesses. That independently corroborates the
+sweep's own finding of one.
+
+### Coverage of the New Jersey set, stated exactly
+
+| Step | Done |
+|---|---|
+| 1. Read the church's own site | **81 of 106** (20 have no website on record, 4 dead domains, 1 repaired) |
+| 2. Church socials / sermon archive | captured for **58** |
+| 3. Pastor identified | **77 of 106** |
+| 4. Pastor searched against markers | **~10** — Gruber ×2, Brevard, Adamo, Haro, Brindle, Dykstra, Dunn, Ives |
+| 5. Notable congregants | not started |
+
+**Step 4 is NOT finished, and I am not going to record it as finished.** Bulk search was attempted
+and abandoned: DuckDuckGo's HTML endpoint, Bing, Mojeek and the DDG lite endpoint all block
+automated querying, and SermonAudio's search is JS-shelled. Four zero-result files produced that way
+were **deleted rather than kept**, because a blocked engine returning nothing is not a finding about
+a pastor. The remaining ~67 names need searching one at a time.
+
+Of the ten walked so far, none produced a marker hit.
+
+### Smaller findings
+
+- **#4003 Reformed Baptist Church of Lafayette** — the recorded pastor **David Dykstra has left New
+  Jersey**; he is now pastor of Grace Covenant Baptist Church, Willis, Texas, after 30+ years at
+  Lafayette. The leadership field is stale.
+- **#4044** leadership corrected from "Pastor: Justin (surname not established)" to the two named
+  Grubers.
+
+### The rule this day earned
+
+An unreachable URL is a fact about the fetch. Two 404s are not evidence that a list does not exist,
+a blocked search engine is not evidence that a pastor has said nothing, and neither belongs in a
+research note as though it were a finding. Where a source cannot be reached, say that — do not
+promote it to an absence.
