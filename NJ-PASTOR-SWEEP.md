@@ -9,7 +9,7 @@ deleted rather than kept.
 Markers searched: abolition / abolish abortion / equal protection / preborn /
 theonomy / postmillennial / Christian nationalism, per name.
 
-**Result so far: 31 of 77 named leaders searched. No marker hits on any of them.**
+**Result so far: 32 of 77 named leaders searched. No marker hits on any of them.**
 
 ## Searched — no hits
 
@@ -36,12 +36,13 @@ theonomy / postmillennial / Christian nationalism, per name.
 | Christopher Bush | Calvary OPC | Ringoes |
 | Leslie Dunn | Boardwalk Chapel | Wildwood |
 | Justin Nobel | Pompton Plains Reformed Bible | Pompton Plains |
-| | Stratford Presbyterian | Stratford |
+| Richard Anderson | Stratford Presbyterian | Stratford |
 | Donny Friederichsen | Covenant Presbyterian | Short Hills |
 | Ted Trefsgar | Grace Presbyterian | Mount Laurel |
 | Harry Fletcher | First Baptist | Newton |
 | Matthew Cole | Immanuel OPC | Bellmawr |
 | Travis Yonkman | Grace OPC | Hamilton |
+| Tony Hinchliff | Redeemer Hoboken | Hoboken |
 
 ## Leadership corrections found while searching
 
@@ -58,7 +59,7 @@ The `leadership` field is unreliable across this set. Confirmed wrong so far:
 - **Missio Dei, Glassboro** — was "Pastor: Justin (surname not established)";
   corrected to elders Jesse Gruber and Justin Gruber.
 
-## Still to search — 46 named leaders
+## Still to search — 45 named leaders
 
 Tom Harr (Calvary Presbyterian, Allenwood) · Felix Flavien (First Baptist, Asbury
 Park) · Peter James Eck (New City Fellowship, Atlantic City) · Bryan Lee (Spring
@@ -67,8 +68,7 @@ Basile (Grace Community, Bridgewater) · Richard W. Sterling (Covenant
 Presbyterian, Cape May) · Diogo Inawashiro (Christ the King, Cherry Hill) · Bob
 Orner (Covenant Presbyterian, Cherry Hill) · Stephen Lewis (Knowlton
 Presbyterian, Columbia) · Brian Groot (Faith OPC, Elmer) · Zach Meys (Maranatha
-Community, Fair Lawn) · Harry Skeele (Crossroads Community, Hillsborough) · Tony
-Hinchliff (Redeemer Hoboken) · Samuel Perez (Grace Reformed, Jersey City) · Mark
+Community, Fair Lawn) · Harry Skeele (Crossroads Community, Hillsborough) · Samuel Perez (Grace Reformed, Jersey City) · Mark
 R. Wellman (Redeemer Jersey City) · Reuel Xavier (Heritage Reformed, Kinnelon) ·
 David Rowe (Hope Presbyterian, Lawrenceville) · Ida Faye Levering (First Baptist,
 Matawan) · David Harr (Immanuel OPC, Medford) · Matthew Fisher (New Life
