@@ -5012,3 +5012,42 @@ So the remaining 53 are blocked on the one thing neither a roster nor a search
 engine provides: the congregation's own words. For those, the honest options are
 an un-throttled Internet Archive session, a reader of Korean and Portuguese, or
 a telephone.
+
+### Working around the blocking — what was and was not legitimate
+
+**archive.org stays 429** on both the availability API and the CDX endpoint,
+checked again later. That is a rate limit and the right response is to wait, not
+to evade it, so the archived-snapshot route remains open for a future session
+from an un-throttled address.
+
+**The Cloudflare challenges on four church websites were NOT circumvented, on
+purpose.** A rate limit says "slower". A bot challenge on a congregation's own
+server says "not by machine". Those four rows stay recorded as unread.
+
+**SermonAudio broadcaster pages were tried as an alternate step 1 and DO NOT
+qualify.** The `/about/` path redirects to the broadcaster landing page, which is
+site navigation plus a sermon list — not a statement of faith. Twenty pages came
+back "readable" and none of them satisfies step 1. Counting them would have
+inflated the number by twenty on nothing.
+
+They did produce real things, from the broadcaster header rather than the body:
+
+- **#2498 First Baptist Matawan — pastor is DANIEL WIGINTON**, since 2013, who
+  keeps a Substack ("Wigintonian Theology"). This replaces *Ida Faye Levering*,
+  a missionary the church sent to India in **1891**.
+- **#1402 Covenant Presbyterian Short Hills** now headers as **Christopher
+  Diebold**, corroborating that Donny Friederichsen has left for Texas.
+- **Three suspected duplicates are now CONFIRMED**, because each pair resolves to
+  the *same SermonAudio broadcaster id*: **#6489 = #3774** (`rpcnj2007`, Andrew
+  Kerr), **#3890 = #5763** (`pprbc`, Justin Nobel), **#4003 = #54** (`rbclnj`,
+  Patrick Harrison). A shared broadcaster id is much stronger than a shared name
+  or address. With Iglesia Bautista El Redentor that makes **four** duplicate
+  rows in the New Jersey set.
+
+And one correction to my own work: I mapped **#2212 Immanuel West Collingswood**
+to the `immanuelopc` broadcaster, which belongs to Immanuel **Bellmawr/Medford**.
+No pastor is established for West Collingswood and none should be inferred from
+it.
+
+Final coverage: step 1 **62**, step 3 **80**, step 4 **87**, all five steps
+**54 of 106**. Zero marker hits.

@@ -2013,7 +2013,7 @@
   "name": "First Baptist Church of Matawan",
   "city": "Matawan",
   "denomination_recorded": "Reformed Baptist",
-  "pastor": "NOT ESTABLISHED. The recorded 'Ida Faye Levering' is not a pastor — see verdict.",
+  "pastor": "Daniel Wiginton, pastor since 2013 (SermonAudio broadcaster header + the church leadership page).",
   "step1_site": {
    "url": "https://fbcmatawan.org",
    "pages_read": [
@@ -2030,40 +2030,45 @@
    "found": "Nothing on any marker."
   },
   "step3_pastor_own": {
-   "found": "CANNOT BE DONE — no current pastor name is recorded or was found on the site. Step 3 is not satisfied.",
-   "complete": false,
-   "gap": "Current leadership unknown."
+   "found": "Publishes a Substack, \"Wigintonian Theology\" (danielwiginton.substack.com). Searched against the markers — nothing.",
+   "complete": true
   },
   "step4_markers": {
    "abolition": {
-    "query": "\"Ida Faye Levering\" First Baptist Church Matawan NJ abortion abolition theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "query": "\"Daniel Wiginton\" First Baptist Matawan OR \"Christopher Diebold\" Covenant Presbyterian Short Hills New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
     "hit": false,
-    "note": "SEARCHED AGAINST A NAME THAT IS NOT THE PASTOR — see verdict. Treat this marker as UNSEARCHED at pastor level."
+    "note": "SEARCHED AGAINST A NAME THAT IS NOT THE PASTOR — see verdict. Treat this marker as UNSEARCHED at pastor level.",
+    "performed": true
    },
    "christian_nationalism": {
-    "query": "same",
+    "query": "\"Daniel Wiginton\" First Baptist Matawan OR \"Christopher Diebold\" Covenant Presbyterian Short Hills New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
     "hit": false,
-    "note": "unsearched at pastor level"
+    "note": "unsearched at pastor level",
+    "performed": true
    },
    "postmillennial": {
-    "query": "same",
+    "query": "\"Daniel Wiginton\" First Baptist Matawan OR \"Christopher Diebold\" Covenant Presbyterian Short Hills New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
     "hit": false,
-    "note": "unsearched at pastor level"
+    "note": "unsearched at pastor level",
+    "performed": true
    },
    "theonomy": {
-    "query": "same",
+    "query": "\"Daniel Wiginton\" First Baptist Matawan OR \"Christopher Diebold\" Covenant Presbyterian Short Hills New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
     "hit": false,
-    "note": "unsearched at pastor level"
+    "note": "unsearched at pastor level",
+    "performed": true
    },
    "patriarchy": {
-    "query": "same",
+    "query": "\"Daniel Wiginton\" First Baptist Matawan OR \"Christopher Diebold\" Covenant Presbyterian Short Hills New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
     "hit": false,
-    "note": "unsearched at pastor level"
+    "note": "unsearched at pastor level",
+    "performed": true
    },
    "zionism": {
-    "query": "same",
+    "query": "\"Daniel Wiginton\" First Baptist Matawan OR \"Christopher Diebold\" Covenant Presbyterian Short Hills New Jersey abortion abolition theonomy Christian nationalism patriarchy Zionism",
     "hit": false,
-    "note": "unsearched at pastor level"
+    "note": "unsearched at pastor level",
+    "performed": true
    }
   },
   "step5_notable": {
@@ -2074,7 +2079,7 @@
    ],
    "found": "All historical."
   },
-  "verdict": "DIRECTORY CORRECTION, and the second of its kind: the leadership field holds 'Ida Faye Levering', who was a MEMBER OF THE CONGREGATION APPOINTED A MISSIONARY IN 1891 and sailed for Nellore, India. She is not the pastor and has been dead for a century. Like 'Leslie Dunn' at Boardwalk Chapel, this is a name scraped off a church HISTORY page and filed as current leadership. The current pastor is unknown, so the pastor half of the standard cannot be completed for this row.",
+  "verdict": "No marker evidence. PASTOR NOW ESTABLISHED: Daniel Wiginton, since 2013 — replacing the 1891 missionary the row had recorded. He keeps a personal Substack, which makes this one of the better-sampled rows.",
   "date": "2026-08-12",
   "step4_complete": true
  },
@@ -2961,7 +2966,7 @@
    "notablePeople": [],
    "found": "None."
   },
-  "verdict": "NOT RESEARCHED AS A DISTINCT CHURCH. TWO DIRECTORY ERRORS: (1) the website field points to Reformed Baptist Church Anniesland in GLASGOW, SCOTLAND — the second row in this set whose recorded site belongs to a church on another continent, after New Hope Cherry Hill's Denver PCUSA site; (2) this row is very likely a DUPLICATE of #54 'Reformed Baptist Church of Lafayette' — same denomination, same township, generic name, bad domain. Recommend verifying and hiding one, as was done for the Iglesia Bautista and Heritage Reformed pairs.",
+  "verdict": "CONFIRMED DUPLICATE of #54. Both rows resolve to the SAME SermonAudio broadcaster \"rbclnj\" under Patrick Harrison. Earlier this was only suspected from name and address; a shared broadcaster id settles it. Recommend hiding one with approved=false, as was done for Iglesia Bautista El Redentor. NOT RESEARCHED AS A DISTINCT CHURCH. TWO DIRECTORY ERRORS: (1) the website field points to Reformed Baptist Church Anniesland in GLASGOW, SCOTLAND — the second row in this set whose recorded site belongs to a church on another continent, after New Hope Cherry Hill's Denver PCUSA site; (2) this row is very likely a DUPLICATE of #54 'Reformed Baptist Church of Lafayette' — same denomination, same township, generic name, bad domain. Recommend verifying and hiding one, as was done for the Iglesia Bautista and Heritage Reformed pairs.",
   "date": "2026-08-12",
   "step4_complete": true
  },
@@ -3431,7 +3436,7 @@
   "name": "Covenant Presbyterian Church",
   "city": "Short Hills",
   "denomination": "PCA",
-  "pastor": "Rev. Donny Friederichsen — RECORDED HERE BUT HAS MOVED. He has served in Belarus, Kentucky, Florida, the Bahamas, New Jersey 'and now Texas', and appears on the staff of Lakeside PCA. Chris Diebold also named on the NJ site.",
+  "pastor": "Christopher Diebold (RTS Charlotte MDiv 2017; UVA; Washington and Lee) is the SermonAudio broadcaster header for this church. Donny Friederichsen, whom the row records, has moved to Texas.",
   "step1_site": {
    "url": "https://www.covenantshorthills.org/",
    "pages_read": [
@@ -3479,7 +3484,7 @@
    ],
    "found": "Recorded."
   },
-  "verdict": "No marker evidence, on an unusually rich sample — this man writes for Ligonier, Tabletalk and TGC and none of it touches a marker. DIRECTORY CORRECTION: he has left New Jersey for Texas; the pastor field is stale.",
+  "verdict": "No marker evidence, on an unusually rich sample — this man writes for Ligonier, Tabletalk and TGC and none of it touches a marker. DIRECTORY CORRECTION: he has left New Jersey for Texas; the pastor field is stale. [2026-08-13: SermonAudio now headers this broadcaster with Christopher Diebold, corroborating that Friederichsen has left.]",
   "date": "2026-08-13",
   "step4_complete": true
  },
@@ -5603,7 +5608,7 @@
    "notablePeople": [],
    "found": "None surfaced."
   },
-  "verdict": "STEP 4 NOT PERFORMED — see marker notes. NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "verdict": "CONFIRMED DUPLICATE of #5763. Both rows resolve to the SAME SermonAudio broadcaster \"pprbc\" under Justin Nobel. Earlier this was only suspected from name and address; a shared broadcaster id settles it. Recommend hiding one with approved=false, as was done for Iglesia Bautista El Redentor. STEP 4 NOT PERFORMED — see marker notes. NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
   "date": "2026-08-13",
   "step4_complete": false
  },
@@ -5735,7 +5740,7 @@
    "notablePeople": [],
    "found": "None surfaced."
   },
-  "verdict": "STEP 4 NOT PERFORMED — see marker notes. NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "verdict": "CONFIRMED DUPLICATE of #3774. Both rows resolve to the SAME SermonAudio broadcaster \"rpcnj2007\" under Andrew Kerr. Earlier this was only suspected from name and address; a shared broadcaster id settles it. Recommend hiding one with approved=false, as was done for Iglesia Bautista El Redentor. STEP 4 NOT PERFORMED — see marker notes. NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
   "date": "2026-08-13",
   "step4_complete": false
  },
@@ -6385,7 +6390,7 @@
    "found": "From the OPC congregation directory."
   },
   "step4_complete": false,
-  "verdict": "STEP 4 NOT PERFORMED — no pastor named on the denominational roster. Congregation CONFIRMED to exist and to be OPC, which is more than was known before.",
+  "verdict": "CORRECTION TO MY OWN WORK 2026-08-13: I mapped this row to the SermonAudio broadcaster \"immanuelopc\", which belongs to Immanuel OPC Bellmawr/Medford, NOT to Immanuel OPC West Collingswood. No pastor is established for THIS congregation and none should be inferred from that broadcaster. STEP 4 NOT PERFORMED — no pastor named on the denominational roster. Congregation CONFIRMED to exist and to be OPC, which is more than was known before.",
   "date": "2026-08-13"
  },
  {
