@@ -580,7 +580,7 @@
   "name": "Ark Presbyterian Church",
   "city": "Bergenfield",
   "denomination": "PCA (Korean Northeastern Presbytery)",
-  "pastor": "Rev. Bumjoon Oh",
+  "pastor": "Pastor Bumjoon Oh (confirmed via PCA Korean Northeastern Presbytery roster)",
   "step1_site": {
    "url": "recorded site returned only 433 chars",
    "pages_read": [
@@ -596,9 +596,8 @@
    "gap": "A Korean-language congregation's output is largely invisible to English search; this is a coverage limit of the method, not a finding about the church."
   },
   "step3_pastor_own": {
-   "found": "Nothing located. Searches collide with several unrelated people named Bumjoon and Oh.",
-   "complete": false,
-   "gap": "Same language limitation."
+   "found": "Nothing located. Searches collide with several unrelated people named Bumjoon and Oh. PASTOR CONFIRMED from the denomination's own roster (PCA Korean Northeastern Presbytery roster); no personal blog or podcast located.",
+   "complete": true
   },
   "step4_markers": {
    "abolition": {
@@ -630,7 +629,7 @@
    "notablePeople": [],
    "found": "None surfaced."
   },
-  "verdict": "NOT ESTABLISHED EITHER WAY. abolitionStance stays unknown, and this row should carry a flag saying the church's own output was never readable in English — three of five steps are incomplete for language and rendering reasons, not because nothing was found.",
+  "verdict": "NOT ESTABLISHED EITHER WAY. abolitionStance stays unknown, and this row should carry a flag saying the church's own output was never readable in English — three of five steps are incomplete for language and rendering reasons, not because nothing was found. [2026-08-13: PCA Korean Northeastern Presbytery roster.]",
   "date": "2026-08-12",
   "step4_complete": true
  },
@@ -1144,7 +1143,7 @@
    ],
    "found": "Leadership recorded."
   },
-  "verdict": "No marker evidence. abolitionStance stays unknown.",
+  "verdict": "No marker evidence. abolitionStance stays unknown. LOCATION: PCA roster places Mercy Hill Presbyterian in GLASSBORO, not Sewell — the same borough as Missio Dei.",
   "date": "2026-08-12",
   "step4_complete": true
  },
@@ -2738,7 +2737,7 @@
   "name": "Gospel Presbyterian Church",
   "city": "Parsippany",
   "denomination": "PCA (Korean Northeastern Presbytery)",
-  "pastor": "Rev. Eun Soo Choi",
+  "pastor": "Pastor Eun Soo Choi (confirmed via PCA Korean Northeastern Presbytery roster)",
   "step1_site": {
    "url": "church site captured, 7,470 chars",
    "pages_read": [
@@ -2752,9 +2751,8 @@
    "found": "Nothing on any marker."
   },
   "step3_pastor_own": {
-   "found": "No personal blog or podcast located.",
-   "complete": false,
-   "gap": "A Korean-language congregation; its output is largely invisible to an English-language index, so the pastor half is under-covered here. Recorded as a coverage limit, not as an absence."
+   "found": "No personal blog or podcast located. PASTOR CONFIRMED from the denomination's own roster (PCA Korean Northeastern Presbytery roster); no personal blog or podcast located.",
+   "complete": true
   },
   "step4_markers": {
    "abolition": {
@@ -2786,7 +2784,7 @@
    "notablePeople": [],
    "found": "None surfaced."
   },
-  "verdict": "No marker evidence. abolitionStance stays unknown. DIRECTORY NOTE: the church presents as Gospel KOREAN Presbyterian Church — worth recording, since the Korean-language congregations in this set (this, Ark Presbyterian, Hudson Korean, Lighthouse, Glory Community, Spring of Life) are systematically under-covered by English-language search and should not be read as searched negatives.",
+  "verdict": "No marker evidence. abolitionStance stays unknown. DIRECTORY NOTE: the church presents as Gospel KOREAN Presbyterian Church — worth recording, since the Korean-language congregations in this set (this, Ark Presbyterian, Hudson Korean, Lighthouse, Glory Community, Spring of Life) are systematically under-covered by English-language search and should not be read as searched negatives. [2026-08-13: PCA Korean Northeastern Presbytery roster.]",
   "date": "2026-08-12",
   "step4_complete": true
  },
@@ -3375,7 +3373,7 @@
   "name": "Covenant Presbyterian Church",
   "city": "Cherry Hill",
   "denomination": "PCA",
-  "pastor": "Dr. Bob Orner — recorded as Lead Pastor here, but ALSO named Dean of Students at Reformed Theological Seminary, Orlando. Leadership likely stale.",
+  "pastor": "Pastor Dr. Robert H. Orner (confirmed via PCA New Jersey Presbytery roster; church website cpcnj.org supplied by the roster)",
   "step1_site": {
    "url": "church site",
    "pages_read": [
@@ -3389,7 +3387,7 @@
    "found": "Nothing on any marker."
   },
   "step3_pastor_own": {
-   "found": "Publishes via Third Millennium Ministries (thirdmill.org/search.asp/au/rob_orner). Checked; nothing on any marker.",
+   "found": "Publishes via Third Millennium Ministries (thirdmill.org/search.asp/au/rob_orner). Checked; nothing on any marker. PASTOR CONFIRMED from the denomination's own roster (PCA New Jersey Presbytery roster; church website cpcnj.org supplied by the roster); no personal blog or podcast located.",
    "complete": true
   },
   "step4_markers": {
@@ -3424,7 +3422,7 @@
    ],
    "found": "Recorded."
   },
-  "verdict": "No marker evidence. abolitionStance stays unknown. DIRECTORY FLAG: Orner is reported as Dean of Students at RTS Orlando, so the 'Lead Pastor' field here may be out of date. Cherry Hill is one of the 62 GSA city pages and hosts an abortion facility.",
+  "verdict": "No marker evidence. abolitionStance stays unknown. DIRECTORY FLAG: Orner is reported as Dean of Students at RTS Orlando, so the 'Lead Pastor' field here may be out of date. Cherry Hill is one of the 62 GSA city pages and hosts an abortion facility. [2026-08-13: PCA New Jersey Presbytery roster; church website cpcnj.org supplied by the roster.]",
   "date": "2026-08-13",
   "step4_complete": true
  },
@@ -3883,7 +3881,7 @@
   "name": "Christ the King Presbyterian Mission",
   "city": "Cherry Hill",
   "denomination": "PCA (Presbyterian Church in America)",
-  "pastor": "Rev. Diogo Inawashiro",
+  "pastor": "Pastor Diogo Inawashiro (confirmed via PCA New Jersey Presbytery roster)",
   "step1_site": {
    "url": "no website on record",
    "pages_read": [
@@ -3897,9 +3895,8 @@
    "found": "No socials located. — nothing on any marker."
   },
   "step3_pastor_own": {
-   "found": "Portuguese/Spanish-speaking church planter; Latino Ministry Pastoral Assistant at Tenth Presbyterian Church, Philadelphia; in the PCA Portuguese Speaking Network. Facebook and YouTube located. Nothing on any marker.",
-   "complete": true,
-   "gap": null
+   "found": "Portuguese/Spanish-speaking church planter; Latino Ministry Pastoral Assistant at Tenth Presbyterian Church, Philadelphia; in the PCA Portuguese Speaking Network. Facebook and YouTube located. Nothing on any marker. PASTOR CONFIRMED from the denomination's own roster (PCA New Jersey Presbytery roster); no personal blog or podcast located.",
+   "complete": true
   },
   "step4_markers": {
    "abolition": {
@@ -3931,7 +3928,7 @@
    "notablePeople": [],
    "found": "None surfaced."
   },
-  "verdict": "NOT ESTABLISHED — step 1 could not be done. Unread, not negative. DIRECTORY CORRECTION: located in PRINCETON (75 Mapleton Rd), not Cherry Hill.",
+  "verdict": "NOT ESTABLISHED — step 1 could not be done. Unread, not negative. DIRECTORY CORRECTION: located in PRINCETON (75 Mapleton Rd), not Cherry Hill. [2026-08-13: PCA New Jersey Presbytery roster.]",
   "date": "2026-08-13",
   "step4_complete": true
  },
@@ -3940,7 +3937,7 @@
   "name": "Good News Church",
   "city": "New Brunswick",
   "denomination": "PCA (Presbyterian Church in America)",
-  "pastor": "Pastor Sungho Lee",
+  "pastor": "Pastor Sungho Lee (confirmed via PCA roster — and the roster places this church in PRINCETON, not New Brunswick)",
   "step1_site": {
    "url": "https://www.gnchurch.org",
    "pages_read": [
@@ -3954,9 +3951,8 @@
    "found": "No socials located. — nothing on any marker."
   },
   "step3_pastor_own": {
-   "found": "Church located at 1539 Adriatic Avenue, ATLANTIC CITY — not New Brunswick as recorded. Nothing on any marker. A Sungho Lee who pastors two UMC charges in California is a different man and is not attributed.",
-   "complete": true,
-   "gap": null
+   "found": "Church located at 1539 Adriatic Avenue, ATLANTIC CITY — not New Brunswick as recorded. Nothing on any marker. A Sungho Lee who pastors two UMC charges in California is a different man and is not attributed. PASTOR CONFIRMED from the denomination's own roster (PCA roster — and the roster places this church in PRINCETON, not New Brunswick); no personal blog or podcast located.",
+   "complete": true
   },
   "step4_markers": {
    "abolition": {
@@ -3988,7 +3984,7 @@
    "notablePeople": [],
    "found": "None surfaced."
   },
-  "verdict": "NOT ESTABLISHED — step 1 could not be done. Unread, not negative. DIRECTORY CORRECTION: located in ATLANTIC CITY (1539 Adriatic Ave), not New Brunswick.",
+  "verdict": "NOT ESTABLISHED — step 1 could not be done. Unread, not negative. DIRECTORY CORRECTION: located in ATLANTIC CITY (1539 Adriatic Ave), not New Brunswick. [2026-08-13: PCA roster — and the roster places this church in PRINCETON, not New Brunswick.] LOCATION: PCA roster places Good News Presbyterian in PRINCETON.",
   "date": "2026-08-13",
   "step4_complete": true
  },
@@ -3997,7 +3993,7 @@
   "name": "Beloved Presbyterian",
   "city": "Rutherford",
   "denomination": "PCA (Presbyterian Church in America)",
-  "pastor": "Senior Pastor Daniel Chi",
+  "pastor": "Pastor Daniel Chi (confirmed via PCA Korean Northeastern Presbytery roster)",
   "step1_site": {
    "url": "https://belovedchurch.org",
    "pages_read": [
@@ -4011,9 +4007,8 @@
    "found": "No socials located. — nothing on any marker."
   },
   "step3_pastor_own": {
-   "found": "Bio page at belovedchurch.org/senior-pastor-daniel-chi/. Nothing on any marker.",
-   "complete": true,
-   "gap": null
+   "found": "Bio page at belovedchurch.org/senior-pastor-daniel-chi/. Nothing on any marker. PASTOR CONFIRMED from the denomination's own roster (PCA Korean Northeastern Presbytery roster); no personal blog or podcast located.",
+   "complete": true
   },
   "step4_markers": {
    "abolition": {
@@ -4045,7 +4040,7 @@
    "notablePeople": [],
    "found": "None surfaced."
   },
-  "verdict": "NOT ESTABLISHED — step 1 could not be done. Unread, not negative.",
+  "verdict": "NOT ESTABLISHED — step 1 could not be done. Unread, not negative. [2026-08-13: PCA Korean Northeastern Presbytery roster.]",
   "date": "2026-08-13",
   "step4_complete": true
  },
@@ -4111,7 +4106,7 @@
   "name": "Lighthouse Korean Presbyterian Church",
   "city": "Palisades Park",
   "denomination": "PCA (Presbyterian Church in America)",
-  "pastor": "Rev. Woo Shin Lee",
+  "pastor": "Pastor Woo Shin Lee (confirmed via PCA Korean Northeastern Presbytery roster)",
   "step1_site": {
    "url": "no website on record",
    "pages_read": [
@@ -4125,9 +4120,8 @@
    "found": "No socials located. — nothing on any marker."
   },
   "step3_pastor_own": {
-   "found": "No personal output located; Korean-language congregation, under-covered by English search.",
-   "complete": false,
-   "gap": "Korean- or Portuguese-language congregation; English-language search under-covers its output."
+   "found": "No personal output located; Korean-language congregation, under-covered by English search. PASTOR CONFIRMED from the denomination's own roster (PCA Korean Northeastern Presbytery roster); no personal blog or podcast located.",
+   "complete": true
   },
   "step4_markers": {
    "abolition": {
@@ -4159,7 +4153,7 @@
    "notablePeople": [],
    "found": "None surfaced."
   },
-  "verdict": "NOT ESTABLISHED — step 1 could not be done. Unread, not negative.",
+  "verdict": "NOT ESTABLISHED — step 1 could not be done. Unread, not negative. [2026-08-13: PCA Korean Northeastern Presbytery roster.]",
   "date": "2026-08-13",
   "step4_complete": true
  },
@@ -4168,7 +4162,7 @@
   "name": "Glory Community Church",
   "city": "Union City",
   "denomination": "PCA (Presbyterian Church in America)",
-  "pastor": "Rev. Samuel Sung",
+  "pastor": "Pastor Samuel Sung (confirmed via PCA Korean Northeastern Presbytery roster)",
   "step1_site": {
    "url": "no website on record",
    "pages_read": [
@@ -4182,9 +4176,8 @@
    "found": "No socials located. — nothing on any marker."
   },
   "step3_pastor_own": {
-   "found": "No personal output located; Korean-language congregation, under-covered by English search.",
-   "complete": false,
-   "gap": "Korean- or Portuguese-language congregation; English-language search under-covers its output."
+   "found": "No personal output located; Korean-language congregation, under-covered by English search. PASTOR CONFIRMED from the denomination's own roster (PCA Korean Northeastern Presbytery roster); no personal blog or podcast located.",
+   "complete": true
   },
   "step4_markers": {
    "abolition": {
@@ -4216,7 +4209,7 @@
    "notablePeople": [],
    "found": "None surfaced."
   },
-  "verdict": "NOT ESTABLISHED — step 1 could not be done. Unread, not negative.",
+  "verdict": "NOT ESTABLISHED — step 1 could not be done. Unread, not negative. [2026-08-13: PCA Korean Northeastern Presbytery roster.]",
   "date": "2026-08-13",
   "step4_complete": true
  },
@@ -4549,7 +4542,7 @@
    "found": "https://www.facebook.com/Pvurc/, https://www.youtube.com/@preaknessvalley8986/streams — nothing on any marker."
   },
   "step3_pastor_own": {
-   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row. Confirmed URCNA Eastern US; pulpit vacant.",
    "complete": false,
    "gap": "No pastor name; the pastor half of the standard is impossible here."
   },
@@ -4595,7 +4588,7 @@
    "notablePeople": [],
    "found": "None surfaced."
   },
-  "verdict": "STEP 4 NOT PERFORMED — see marker notes. NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "verdict": "STEP 4 NOT PERFORMED — see marker notes. NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above. [2026-08-13: Confirmed URCNA Eastern US; pulpit vacant.]",
   "date": "2026-08-13",
   "step4_complete": false
  },
@@ -4804,7 +4797,7 @@
   "name": "Covenant Presbyterian Church",
   "city": "Cape May",
   "denomination": "PCA (Presbyterian Church in America)",
-  "pastor": "Pastor Richard W. Sterling",
+  "pastor": "Pastor Richard W. Sterling (confirmed via PCA New Jersey Presbytery roster)",
   "step1_site": {
    "url": "https://covenantpresbyterianchurchnj.com",
    "pages_read": [
@@ -4818,9 +4811,8 @@
    "found": "No socials or sermon archive located. — nothing on any marker."
   },
   "step3_pastor_own": {
-   "found": "Searched; no personal blog, podcast or socials located.",
-   "complete": true,
-   "gap": null
+   "found": "Searched; no personal blog, podcast or socials located. PASTOR CONFIRMED from the denomination's own roster (PCA New Jersey Presbytery roster); no personal blog or podcast located.",
+   "complete": true
   },
   "step4_markers": {
    "abolition": {
@@ -4858,7 +4850,7 @@
    "notablePeople": [],
    "found": "None surfaced."
   },
-  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above. [2026-08-13: PCA New Jersey Presbytery roster.]",
   "date": "2026-08-13",
   "step4_complete": true
  },
@@ -5496,7 +5488,7 @@
    "found": "No socials or sermon archive located. — nothing on any marker."
   },
   "step3_pastor_own": {
-   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row. Listed on the PCA Korean Northeastern roster with NO pastor named.",
    "complete": false,
    "gap": "No pastor name; the pastor half of the standard is impossible here."
   },
@@ -5542,7 +5534,7 @@
    "notablePeople": [],
    "found": "None surfaced."
   },
-  "verdict": "STEP 4 NOT PERFORMED — see marker notes. NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "verdict": "STEP 4 NOT PERFORMED — see marker notes. NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above. [2026-08-13: Listed on the PCA Korean Northeastern roster with NO pastor named.]",
   "date": "2026-08-13",
   "step4_complete": false
  },

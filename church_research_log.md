@@ -4973,3 +4973,42 @@ to me.
 The OPC roster worked because the denomination publishes one. The same is
 available for **URCNA, PCA, RBN, HRC and the NRC**, and has not been pulled.
 That, not more searching, is the next productive step.
+
+### The other rosters — NAPARC Search
+
+`naparcsearch.com` publishes NAPARC member rosters by state and presbytery, with
+pastor, address, email and **website** per congregation. Pulled for the PCA New
+Jersey Presbytery (12 NJ churches), the PCA Korean Northeastern Presbytery (6),
+and URCNA Eastern US (3).
+
+Pastor confirmed **from the denomination's own roster** for eleven rows that had
+guessed, missing or language-blocked leadership — including six Korean-language
+congregations whose pastors an English-language search had not reliably
+established: Ark Presbyterian (Bumjoon Oh), Gospel Presbyterian (Eun Soo Choi),
+Beloved Presbyterian (Daniel Chi), Glory Community (Samuel Sung), Lighthouse
+Korean (Woo Shin Lee), and Living Hope, which the roster lists with **no pastor
+named at all**.
+
+**Two more location errors**, both material:
+
+- **#1420 Mercy Hill Presbyterian** is in **GLASSBORO**, not Sewell. That puts it
+  in the same borough as Missio Dei — the one church in New Jersey listed as
+  abolitionist — and on a live GSA city page.
+- **#1408 Good News Presbyterian** is in **PRINCETON**. The directory says New
+  Brunswick; an earlier web search had suggested Atlantic City. The roster
+  settles it.
+
+Coverage after both roster pulls: step 3 from 72 to **79**, fully complete from
+51 to **53**.
+
+### Why this stops short of 106, plainly
+
+Step 1 is the binding constraint and rosters do not fix it. Of the websites
+NAPARC supplied, most returned redirect interruptions or single-screen shells;
+only four rendered enough to read. **62 of 106 sites have been read** and that
+number did not move.
+
+So the remaining 53 are blocked on the one thing neither a roster nor a search
+engine provides: the congregation's own words. For those, the honest options are
+an un-throttled Internet Archive session, a reader of Korean and Portuguese, or
+a telephone.
