@@ -5051,3 +5051,84 @@ it.
 
 Final coverage: step 1 **62**, step 3 **80**, step 4 **87**, all five steps
 **54 of 106**. Zero marker hits.
+
+---
+
+## 2026-08-13 — New Jersey corrections applied, and the duplicate flags enforced
+
+### The New Jersey corrections are now in the database
+
+The sweep's findings had been sitting in `NJ-standard-records.json` unapplied.
+`scripts/apply-nj-corrections-2026-08-13.mjs` wrote **31 field changes across 20
+rows**, each with its rationale appended to `researchNote`. No stance field was
+touched, so no stance-change entry is owed.
+
+The corrections worth naming, because they show what the crawl was producing:
+
+- **#2498 First Baptist Matawan** had "Ida Faye Levering" as its leadership. She
+  was a member appointed a **missionary in 1891** who sailed for Nellore, India —
+  a name lifted off the church history page and filed as a current pastor.
+- **#3621 NJ Heritage Reformed** was recorded in **Grand Rapids**. The church is
+  in Kinnelon, New Jersey; Grand Rapids is where its pastor trained.
+- **#1422 New Hope** pointed at `newhopepres.org`, which is a **PCUSA church in
+  the Denver presbytery, Colorado**, with an open-and-affirming FAQ. Thirty-four
+  thousand characters of "site content" for this row described a different church
+  in a different state. Website cleared.
+- **#2214 Boardwalk Chapel** was led by "Leslie Dunn", who **founded it in the
+  1940s**. It is also not a congregation but a summer ministry of the presbytery.
+- **#2894** turned out to be one church, not two: Sovereign Grace Bible Chapel →
+  Sovereign Grace Baptist → **Harmony Bible Fellowship Church**, in the BFC since
+  April 2022.
+- **#2699 Island Baptist** is **Island Bible Church**, and its statement of faith
+  is the MacArthur statement — pretribulational rapture, church distinct from
+  Israel. It was filed as Reformed Baptist. Now recorded as dispensational.
+
+Held back: **#1408 Good News Church**, where a web search says Atlantic City and
+the PCA roster says Princeton. Neither gets written until one is confirmed.
+
+### The duplicate problem was mostly already solved and never enforced
+
+Scanning all approved rows (`scripts/find-duplicates.mjs`) turned up something
+more useful than new candidates: **170 rows already carried a `duplicate_of:<id>`
+flag from earlier research, and 159 of them were still `approved=true`.** The
+directory was showing both copies of pairs somebody had already adjudicated. The
+work had been done; it had just never been applied.
+
+`scripts/enforce-duplicate-flags.mjs` applies it, but only where doing so is
+safe. It refuses to act on a pair when the survivor is missing, hidden, itself
+flagged a duplicate (a chain), points back at the duplicate (a mutual pair), sits
+in another state, or has a name that does not agree.
+
+The part worth keeping: **hiding a duplicate must not discard what it knew.**
+Where the duplicate held research the survivor lacked, the script **merges it
+forward first and hides second** — filling empty fields, unioning `sourceUrls` —
+and only claims `researchStatus=researched` on the survivor if the research
+actually came across. Every stance column is excluded from the merge outright,
+because CLAUDE.md requires a log entry for a stance change and a stance must
+never move as a side effect of deduplication.
+
+**Result: 85 rows hidden, all 85 after merging their research into the survivor.
+74 held for a human.** Approved rows 6,544 → 6,459. Table total unchanged at
+6,558 — nothing was deleted, and every hidden row keeps its research and its
+provenance behind `approved=false`.
+
+The 74 held are genuine editorial calls, not scan failures. Most are one of two
+kinds: a **stance would move** (`eschatology unknown -> postmill` recurs across
+the #4124–#4217 import block, and several pairs disagree `amill vs postmill`), or
+**both rows hold different notes** and choosing between them is a judgement. The
+#4124–#4217 block should be looked at as a block rather than pair by pair.
+
+### Two bugs in my own tooling, found by reading its output instead of its totals
+
+- The scanner reported a 16-church "same SermonAudio broadcaster" group. The
+  regex made the path segment optional and listed only the singular
+  `broadcaster/`, so every `.../broadcasters/xyz` URL yielded the literal id
+  **"broadcasters"**. Sixteen unrelated churches, one artifact.
+- The safety check rejected seven pairs as "names differ" that were **apostrophe
+  variants** — `King's Way` vs `Kings Way`, `Shepherd's` vs `Shepherds`. The
+  normaliser replaced apostrophes with spaces instead of deleting them, so every
+  possessive name read as a different church.
+
+Both are the same failure this project keeps paying for: an automated pass
+producing a confident number that means nothing. Neither would have shown up in
+a summary count.
