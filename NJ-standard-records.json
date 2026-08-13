@@ -623,5 +623,215 @@
   },
   "verdict": "NOT ESTABLISHED EITHER WAY. abolitionStance stays unknown, and this row should carry a flag saying the church's own output was never readable in English — three of five steps are incomplete for language and rendering reasons, not because nothing was found.",
   "date": "2026-08-12"
+ },
+ {
+  "id": 5267,
+  "name": "First Baptist Church",
+  "city": "Newton",
+  "denomination": "Conservative Baptist Association",
+  "pastor": "Daniel Lisa. Elders Jeff Lukawski and Phil Mingle; deacon Paul Manzo.",
+  "step1_site": {
+   "url": "https://www.firstbaptistnewton.com",
+   "pages_read": [
+    "home",
+    "/about-us/",
+    "/leadership/",
+    "/about-us/our-history/",
+    "/about-us/what-we-believe/",
+    "/stances/",
+    "/outreach/",
+    "/missionaries/",
+    "+2"
+   ],
+   "found": "24,720 chars read. Carries a published STANCES page on gender and sexuality, marriage, and sanctity of life. The life section affirms that human life is sacred 'including pre-born babies... from conception through natural death' and that the church is 'called to defend, protect, and value all human life'. CRUCIALLY it never uses the word ABORTION at all, and contains no reference to murder, criminalisation, personhood or equal protection. It also adds that compassion is owed to 'those who differ in their convictions', an explicitly irenic posture.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "facebook": "facebook.com/FirstBaptistNewtonNJ/",
+   "sermon_media": "site /recent-sermon-videos/ and /hezekiah/sermon-series/",
+   "found": "Nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "No personal blog, podcast or socials located for Daniel Lisa. Searches collide with an unrelated 'Pastor Lisa' at a different church; not attributed.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Daniel Lisa\" pastor First Baptist Church Newton New Jersey abortion abolition sanctity of life",
+    "hit": false,
+    "note": "The church's own life stance is a conception-to-natural-death affirmation that does not name abortion. Pro-life in substance, not abolitionist."
+   },
+   "christian_nationalism": {
+    "query": "\"Daniel Lisa\" pastor Newton NJ theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false,
+    "note": "The Stances page holds a complementarian view of gender established 'at conception... on the chromosomal level'. Complementarian, not the patriarchy movement."
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Jeff Lukawski (elder)",
+    "Phil Mingle (elder)",
+    "Paul Manzo (deacon)"
+   ],
+   "found": "Officers recorded. No notable congregants surfaced."
+  },
+  "verdict": "Pro-life affirmation without naming abortion; not abolitionist. abolitionStance stays unknown or incrementalist on evidence. DIRECTORY CORRECTION: leadership recorded as 'Harry Fletcher' — the pastor is DANIEL LISA. My own earlier abolition search was run against the wrong name and should be disregarded.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 6206,
+  "name": "Hope Community Church (PCA)",
+  "city": "Northfield",
+  "actual_location": "391 Zion Rd, EGG HARBOR TOWNSHIP, NJ — the directory says Northfield",
+  "denomination": "PCA",
+  "pastor": "Ryan Colvin (called September 2024; B.Div. Greenville Presbyterian Theological Seminary, May 2024)",
+  "step1_site": {
+   "url": "https://hopecommunitypca.org",
+   "pages_read": [
+    "home",
+    "/about-us/",
+    "/our-mission/",
+    "/what-we-believe/",
+    "/leadership/",
+    "/media/"
+   ],
+   "found": "14,269 chars read. Confessional PCA congregation, Westminster Standards, presbyterian polity explained at length. NO abortion, abolition, sanctity-of-life or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "facebook": "facebook.com/HopeCommunityChurchPCANJ",
+   "instagram": "instagram.com/hopecommunitychurchpca/",
+   "youtube": "youtube.com/channel/UCMfW7q2npjQIAGR2IXS-w-g",
+   "found": "Nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "sermonaudio_speaker": "sermonaudio.com/speakers/56025/",
+   "found": "Public sermon output located and checked; nothing on any marker. No personal blog or podcast.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Ryan Colvin\" pastor Hope Community Church PCA Egg Harbor abortion abolition sanctity of life",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Ryan Colvin\" Greenville Presbyterian Theological Seminary theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false,
+    "note": "FALSE POSITIVE RESOLVED: the crawl's 'zion' hit was the church's STREET ADDRESS, 391 Zion Rd. Not Zionism. This is why marker counts are not findings."
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. DIRECTORY CORRECTION: the church meets at 391 Zion Rd, EGG HARBOR TOWNSHIP, not Northfield as recorded — which also moves it between city pages on the GSA site.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 2894,
+  "name": "Sovereign Grace Baptist Church",
+  "actual_name": "HARMONY BIBLE FELLOWSHIP CHURCH — renamed; same congregation",
+  "city": "Phillipsburg",
+  "actual_location": "2603 Belvidere Road, HARMONY TOWNSHIP (Phillipsburg 08865 mailing address)",
+  "denomination_recorded": "Reformed Baptist",
+  "denomination_actual": "Bible Fellowship Church (BFC) denomination — Paquette's installation announced by @bfcdenomination",
+  "pastor": "Pastor Rick Paquette. Elders Donald Jackson, Robert Burnett, David Heller.",
+  "step1_site": {
+   "url": "https://homeatgrace.org",
+   "pages_read": [
+    "/",
+    "/about/",
+    "/elder/",
+    "/1689-london-baptist-confession/",
+    "/what-we-believe/",
+    "/missions/",
+    "/sermons/",
+    "/live-stream-sermons/",
+    "/our-history/",
+    "/contact-us/"
+   ],
+   "found": "23,284 chars read. THE ROW IS ONE CHURCH, NOT TWO. Its own history page: began May 1992 at a Howard Johnson in Phillipsburg as Sovereign Grace Bible Chapel, became Sovereign Grace Baptist Church with first members in 1993, and in April 2022 moved into its own building at 2603 Belvidere Road in Harmony Township, trading now as Harmony Bible Fellowship Church. The SermonAudio broadcaster id is still 'sgbcnj' — an artifact of the old name. The site carries BOTH a 1689 London Baptist Confession page AND a 'What We Believe' that teaches a pretribulational rapture and millennial kingdom. NO abortion, abolition or sanctity-of-life content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "facebook": "facebook.com/HarmonyBFC/",
+   "sermonaudio": "sermonaudio.com/broadcasters/sgbcnj/",
+   "youtube_live": "rtmp live stream",
+   "found": "Nothing on any marker across 42+ sermons indexed."
+  },
+  "step3_pastor_own": {
+   "sermonaudio_speaker": "sermonaudio.com/speakers/5888/ (Rick Paquette, 42 sermons)",
+   "found": "Installation announced by the Bible Fellowship Church denomination account. No personal blog or podcast. Nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Rick Paquette\" Harmony Bible Fellowship Phillipsburg abortion abolition theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "same",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false,
+    "note": "Positively excluded — the church's own statement teaches a PREtribulational rapture."
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Donald Jackson (elder)",
+    "Robert Burnett (elder)",
+    "David Heller (elder)"
+   ],
+   "found": "Eldership recorded. Jon Zwingel, the recorded 'Senior Pastor', does NOT appear anywhere in the church's current material — the Founders directory listing that supplied that name is stale."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. FOUR DIRECTORY CORRECTIONS: (1) name — now Harmony Bible Fellowship Church; (2) denomination — Bible Fellowship Church, not Reformed Baptist; (3) leadership — Rick Paquette and three named elders, not Jon Zwingel from a stale Founders listing; (4) theologicalNotes assert 'covenantal theology rejects dispensationalism' while the church's own What We Believe teaches a pretribulational rapture — that note was inferred from the 1689 label and is contradicted by the church's own words.",
+  "date": "2026-08-12"
  }
 ]
