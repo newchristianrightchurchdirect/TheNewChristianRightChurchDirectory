@@ -3036,5 +3036,3335 @@
   },
   "verdict": "NOT RESEARCHED AS A DISTINCT CHURCH. TWO DIRECTORY ERRORS: (1) the website field points to Reformed Baptist Church Anniesland in GLASGOW, SCOTLAND — the second row in this set whose recorded site belongs to a church on another continent, after New Hope Cherry Hill's Denver PCUSA site; (2) this row is very likely a DUPLICATE of #54 'Reformed Baptist Church of Lafayette' — same denomination, same township, generic name, bad domain. Recommend verifying and hiding one, as was done for the Iglesia Bautista and Heritage Reformed pairs.",
   "date": "2026-08-12"
+ },
+ {
+  "id": 193,
+  "name": "Grace Covenant Baptist Church",
+  "city": "Flemington",
+  "denomination": "Reformed Baptist",
+  "pastor": "Dr. Alan J. Dunn — in ministry since 1982, pastor since the church's inception in 1985; lives in Frenchtown NJ. Cedarville, Western Kentucky, Gordon-Conwell M.Div. 1982.",
+  "step1_site": {
+   "url": "https://gcbc-nj.org",
+   "pages_read": [
+    "13380 chars"
+   ],
+   "found": "Reformed Baptist congregation founded 1985. NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "sermonaudio.com/broadcasters/gcbcnj/ ; speaker page /speakers/302/"
+  },
+  "step3_pastor_own": {
+   "found": "Speaks at the Trinity Pastors' Conference; large SermonAudio archive under his own name. Checked; nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Alan J. Dunn\" Grace Covenant Baptist Flemington abortion abolition sermon",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Alan J. Dunn\" OR \"Dave Chanski\" OR \"Jerrold Lewis\" New Jersey theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Alan J. Dunn\" OR \"Dave Chanski\" OR \"Jerrold Lewis\" New Jersey theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Alan J. Dunn\" OR \"Dave Chanski\" OR \"Jerrold Lewis\" New Jersey theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Alan J. Dunn\" OR \"Dave Chanski\" OR \"Jerrold Lewis\" New Jersey theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Alan J. Dunn\" OR \"Dave Chanski\" OR \"Jerrold Lewis\" New Jersey theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Dr. Alan J. Dunn"
+   ],
+   "found": "Recorded."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2949,
+  "name": "Trinity Baptist Church",
+  "city": "Montville",
+  "denomination": "Reformed Baptist",
+  "pastor": "David (Dave) Chanski — Trinity Ministerial Academy; pastored Providence Reformed Baptist, Minneapolis; returned to Trinity Baptist NJ as an elder, called 2007. Bart Carlson also named.",
+  "step1_site": {
+   "url": "https://www.trinitymontville.org",
+   "pages_read": [
+    "9158 chars"
+   ],
+   "found": "Reformed Baptist congregation. Hosts an annual Pastors' Conference. NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "sermonaudio.com/broadcasters/tbcnj/ ; speaker page /speakers/5/"
+  },
+  "step3_pastor_own": {
+   "found": "Large SermonAudio archive under his own name; series include 'Worldview from Genesis', 'Historic Christianity', 'Biblical Parenting'. Checked; nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Dave Chanski\" Trinity Baptist Montville abortion abolition sermon",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Alan J. Dunn\" OR \"Dave Chanski\" OR \"Jerrold Lewis\" New Jersey theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Alan J. Dunn\" OR \"Dave Chanski\" OR \"Jerrold Lewis\" New Jersey theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Alan J. Dunn\" OR \"Dave Chanski\" OR \"Jerrold Lewis\" New Jersey theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Alan J. Dunn\" OR \"Dave Chanski\" OR \"Jerrold Lewis\" New Jersey theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Alan J. Dunn\" OR \"Dave Chanski\" OR \"Jerrold Lewis\" New Jersey theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "David Chanski",
+    "Bart Carlson"
+   ],
+   "found": "Recorded."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. NOTE the memorial service of Albert N. Martin appears in this church's archive — Trinity Montville is the congregation Martin long served, a significant Reformed Baptist connection the directory does not record.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 3660,
+  "name": "Free Reformed Church of Pompton Plains",
+  "city": "Pequannock Township",
+  "denomination": "FRCNA",
+  "pastor": "Rev. Jerrold H. Lewis — married to Catherine, ten children.",
+  "step1_site": {
+   "url": "https://frcpp.org",
+   "pages_read": [
+    "6707 chars"
+   ],
+   "found": "Free Reformed Church of North America congregation. NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "sermonaudio.com/broadcasters/frcpomptonplains/ ; speaker page /speakers/13291/"
+  },
+  "step3_pastor_own": {
+   "found": "LinkedIn located; substantial SermonAudio archive; also preaches at Heritage Reformed Congregation of NJ (#3621). Checked; nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Jerrold Lewis\" Free Reformed Church Pompton Plains abortion abolition",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Alan J. Dunn\" OR \"Dave Chanski\" OR \"Jerrold Lewis\" New Jersey theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Alan J. Dunn\" OR \"Dave Chanski\" OR \"Jerrold Lewis\" New Jersey theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Alan J. Dunn\" OR \"Dave Chanski\" OR \"Jerrold Lewis\" New Jersey theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Alan J. Dunn\" OR \"Dave Chanski\" OR \"Jerrold Lewis\" New Jersey theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Alan J. Dunn\" OR \"Dave Chanski\" OR \"Jerrold Lewis\" New Jersey theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Rev. Jerrold H. Lewis"
+   ],
+   "found": "Recorded."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. He appears in two rows in this set (here and HRC NJ) as one man serving two pulpits.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 6531,
+  "name": "Presbyterian Reformed Church of Corbin City",
+  "city": "Corbin City",
+  "denomination": "Presbyterian Reformed Church",
+  "pastor": "Pastor Michael Ives — M.Div. Puritan Reformed Theological Seminary 2005; seventeen years in a Rhode Island congregation; installed in New Jersey September 2023. John Macsween also named.",
+  "step1_site": {
+   "url": "presbyterianreformed.org/corbin-city-nj",
+   "pages_read": [
+    "11943 chars"
+   ],
+   "found": "Presbyterian Reformed Church congregation — a small, strictly confessional, exclusive-psalmody body. NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "sermonaudio.com/broadcasters/prcofcc/"
+  },
+  "step3_pastor_own": {
+   "found": "Associated with The Reformed Parish / Reformed Parish Mission and the West Port Experiment. Checked; nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Michael Ives\" Presbyterian Reformed Church Corbin City theonomy abortion abolition postmillennial",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Michael Ives",
+    "John Macsween"
+   ],
+   "found": "Recorded."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. The Presbyterian Reformed Church is a strongly confessional body; its presence in the directory is coverage, not a finding.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 3774,
+  "name": "Ridgefield Park Reformed Presbyterian Church",
+  "city": "Ridgefield Park",
+  "denomination": "RPCNA",
+  "pastor": "Dr. Andrew Kerr — Queen's University Belfast, Union Theological College; a former surgeon; 18 years pastoring in Ireland; professor of Old Testament at the Reformed Theological College, Belfast; installed 12 February 2022. David Weir is clerk.",
+  "step1_site": {
+   "url": "reformedpresbyterian.org/congregations/info/ridgefield-park",
+   "pages_read": [
+    "8098 chars"
+   ],
+   "found": "THE ONLY Reformed Presbyterian (Covenanter) congregation in New Jersey, in the Atlantic Presbytery. NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "sermonaudio.com/broadcasters/rpcnj2007/ ; RP Witness 'Congregation of the Month' feature ; rpc-nj.org"
+  },
+  "step3_pastor_own": {
+   "found": "Publishes via RP Global Alliance (portal.rpglobalalliance.org/tag/andrew-kerr/). Checked; nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Andrew Kerr\" Ridgefield Park Reformed Presbyterian RPCNA abortion abolition theonomy",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Dr. Andrew Kerr",
+    "David Weir (clerk)"
+   ],
+   "found": "Recorded."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. Worth recording that this is New Jersey's only RPCNA congregation — the Covenanter tradition is where theonomic and civil-magistrate emphases most often appear, and none was found here.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 5763,
+  "name": "Pompton Plains Reformed Bible Church",
+  "city": "Pompton Plains",
+  "denomination": "URCNA",
+  "pastor": "Rev. Justin D. Nobel — native of West Michigan, married 2005, seven children.",
+  "step1_site": {
+   "url": "https://pprbc.org",
+   "pages_read": [
+    "11937 chars"
+   ],
+   "found": "URCNA congregation. NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "sermonaudio.com/broadcasters/pprbc/ ; naparcsearch listing"
+  },
+  "step3_pastor_own": {
+   "found": "Sermon archive under his own name; no separate blog or podcast. Nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Justin D. Nobel\" Pompton Plains Reformed Bible Church abortion abolition",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Rev. Justin D. Nobel",
+    "Kevin Hossink (also in the sermon archive)"
+   ],
+   "found": "Recorded."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. NOTE row #3890 'Pompton Plains Reformed Bible Church' in 'Pequannock Township' has no website and is very likely a DUPLICATE of this row.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 191,
+  "name": "Christian Fellowship Church",
+  "city": "East Brunswick",
+  "denomination": "Independent Baptist",
+  "pastor": "Pastor Steve (Stephen) Sherman — The Master's Seminary, graduated May 2005; previously associate pastor of Grace Fellowship, a Southern Baptist church in Rowland Heights, California; came to CFC in 2005.",
+  "step1_site": {
+   "url": "https://www.cfcebnj.org/",
+   "pages_read": [
+    "11545 chars"
+   ],
+   "found": "Sovereign grace, independent Baptist congregation. NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "sermonaudio.com/broadcasters/cfcnb/ ; facebook.com/cfcnbnj/"
+  },
+  "step3_pastor_own": {
+   "found": "Sermon archive under his own name. Nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Stephen Sherman\" Christian Fellowship Church East Brunswick abortion abolition",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Michael Ives\" OR \"Andrew Kerr\" OR \"Justin Nobel\" OR \"Stephen Sherman\" pastor New Jersey \"Christian nationalism\" patriarchy Zionism postmillennial",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Stephen Sherman"
+   ],
+   "found": "Recorded."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. Master's Seminary training, like First Baptist Asbury Park and Island Bible Church — a cluster in this set worth noting, since all three carry dispensational-leaning doctrine rather than the Reformed label the directory gives them.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1401,
+  "name": "Covenant Presbyterian Church",
+  "city": "Cherry Hill",
+  "denomination": "PCA",
+  "pastor": "Dr. Bob Orner — recorded as Lead Pastor here, but ALSO named Dean of Students at Reformed Theological Seminary, Orlando. Leadership likely stale.",
+  "step1_site": {
+   "url": "church site",
+   "pages_read": [
+    "4586 chars"
+   ],
+   "found": "PCA congregation in Cherry Hill. NO abortion, abolition or civil-order content in captured pages.",
+   "complete": false,
+   "gap": "Only 4,586 chars captured; interior pages not read."
+  },
+  "step2_church_socials": {
+   "found": "Nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Publishes via Third Millennium Ministries (thirdmill.org/search.asp/au/rob_orner). Checked; nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Dr. Bob Orner\" Covenant Presbyterian Cherry Hill abortion abolition",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Dr. Bob Orner"
+   ],
+   "found": "Recorded."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. DIRECTORY FLAG: Orner is reported as Dean of Students at RTS Orlando, so the 'Lead Pastor' field here may be out of date. Cherry Hill is one of the 62 GSA city pages and hosts an abortion facility.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1402,
+  "name": "Covenant Presbyterian Church",
+  "city": "Short Hills",
+  "denomination": "PCA",
+  "pastor": "Rev. Donny Friederichsen — RECORDED HERE BUT HAS MOVED. He has served in Belarus, Kentucky, Florida, the Bahamas, New Jersey 'and now Texas', and appears on the staff of Lakeside PCA. Chris Diebold also named on the NJ site.",
+  "step1_site": {
+   "url": "https://www.covenantshorthills.org/",
+   "pages_read": [
+    "4584 chars"
+   ],
+   "found": "PCA congregation. NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "sermonaudio.com/broadcasters/cpcshorthills/"
+  },
+  "step3_pastor_own": {
+   "found": "SUBSTANTIAL personal output: The Gospel Coalition profile, Ligonier Ministries teacher page, Tabletalk contributor, Gospel Reformation Network author, Place for Truth, X @dfriederichsen, SermonAudio speaker 21425. All checked; nothing on any of the six markers.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Donny Friederichsen\" Covenant Presbyterian Short Hills abortion abolition equal protection",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Chris Diebold"
+   ],
+   "found": "Recorded."
+  },
+  "verdict": "No marker evidence, on an unusually rich sample — this man writes for Ligonier, Tabletalk and TGC and none of it touches a marker. DIRECTORY CORRECTION: he has left New Jersey for Texas; the pastor field is stale.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1411,
+  "name": "Grace Presbyterian Church",
+  "city": "Mount Laurel",
+  "denomination": "PCA",
+  "pastor": "Ted Trefsgar, Senior Pastor since November 2000 — raised Roman Catholic in SW Philadelphia, converted at 19, Penn State 1984, M.Div. Reformed Episcopal Seminary 1988.",
+  "step1_site": {
+   "url": "https://www.gracepresmtlaurel.org/",
+   "pages_read": [
+    "4445 chars"
+   ],
+   "found": "Formed in 2014 when Village PCA merged with Evangelical PCA in Mount Laurel. NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "sermonaudio.com/broadcasters/gpml/"
+  },
+  "step3_pastor_own": {
+   "found": "Sermon archive and an author page on the church site. Nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Ted Trefsgar\" Grace Presbyterian Mount Laurel abortion abolition preborn",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Ted Trefsgar"
+   ],
+   "found": "Recorded."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1426,
+  "name": "Redeemer Hoboken",
+  "city": "Hoboken",
+  "denomination": "PCA",
+  "pastor": "Tony Hinchliff — PASTOR AND FOUNDER of Redeemer Hoboken, planted 2003. Also listed as Interim Pastor at 1st Presbyterian Church, Aurora, Illinois.",
+  "step1_site": {
+   "url": "church site",
+   "pages_read": [
+    "1421 chars"
+   ],
+   "found": "Only 1,421 chars captured. Redeemer Hoboken and Redeemer Hudson share Facebook history and Hinchliff preaches at both, plus Grace Redeemer.",
+   "complete": false,
+   "gap": "Almost nothing rendered; the congregation's own doctrinal material was not read."
+  },
+  "step2_church_socials": {
+   "found": "facebook.com/RedeemerHoboken/ and /RedeemerHudson/"
+  },
+  "step3_pastor_own": {
+   "found": "X @TonyHinchliff, LinkedIn, sermon pages at graceredeemer.org. Checked; nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Tony Hinchliff\" Redeemer Hoboken abortion abolition preborn",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Bob Orner\" OR \"Donny Friederichsen\" OR \"Ted Trefsgar\" OR \"Tony Hinchliff\" New Jersey pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Tony Hinchliff (founder, 2003)"
+   ],
+   "found": "Recorded."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. Step 1 incomplete. NOTE Hinchliff founded Redeemer Hoboken and is linked to Redeemer Hudson (#6208) and Grace Redeemer (#1412) — three rows, one network; do not merge, but do not treat as independent evidence either.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 6209,
+  "name": "Redeemer Jersey City Church",
+  "city": "Jersey City",
+  "denomination": "PCA (Presbyterian Church in America)",
+  "pastor": "Rev. Mark R. Wellman",
+  "step1_site": {
+   "url": "https://www.redeemerjc.com",
+   "pages_read": [
+    "6047 chars"
+   ],
+   "found": "Captured site text read; NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "https://www.facebook.com/redeemerchurchjc, https://www.instagram.com/redeemerchurchjerseycity/, https://www.youtube.com/channel/UCp1LJiRvGorq5EQkaqPpYSw — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "LinkedIn located (Redeemer Church Jersey City). Name collides with a Mark Wellman who leads University City Church elsewhere — not attributed.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 6211,
+  "name": "True Vine Community Church",
+  "city": "Voorhees Township",
+  "denomination": "PCA (Presbyterian Church in America)",
+  "pastor": "Rev. Nathan Joel Pugh",
+  "step1_site": {
+   "url": "https://www.truevinecc.org",
+   "pages_read": [
+    "6890 chars"
+   ],
+   "found": "Captured site text read; NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "https://www.facebook.com/TrueVineCommunityChurch/, https://www.youtube.com/@TrueVineCommunityChurch — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "No personal blog or podcast located.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 5757,
+  "name": "Grace Reformed Bible Church",
+  "city": "Newton",
+  "denomination": "URCNA (United Reformed Churches in North America)",
+  "pastor": "Rev. Aaron Verhoef",
+  "step1_site": {
+   "url": "https://www.newtoncov.org",
+   "pages_read": [
+    "907 chars"
+   ],
+   "found": "Little or no site content could be rendered; the congregation's own words were not read.",
+   "complete": false,
+   "gap": "Site unreadable or absent — this row is UNREAD on step 1, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "A LinkedIn for an Aaron Verhoef in St John, Indiana surfaced and is NOT attributed to this man.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED — step 1 could not be done. Treat as unread, not as a negative.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 5518,
+  "name": "Maranatha Community Church",
+  "city": "Fair Lawn",
+  "denomination": "Independent",
+  "pastor": "Senior Pastor Zach Meys",
+  "step1_site": {
+   "url": "https://www.maranathacommunitychurch.org",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Little or no site content could be rendered; the congregation's own words were not read.",
+   "complete": false,
+   "gap": "Site unreadable or absent — this row is UNREAD on step 1, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "No personal output located; the church's domain no longer resolves.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED — step 1 could not be done. Treat as unread, not as a negative.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1423,
+  "name": "New Life Presbyterian Church",
+  "city": "Middletown",
+  "denomination": "PCA",
+  "pastor": "Lead Pastor Matthew Fisher",
+  "step1_site": {
+   "url": "https://www.newlifechurchpca.org",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Little or no site content could be rendered; the congregation's own words were not read.",
+   "complete": false,
+   "gap": "Site unreadable or absent — this row is UNREAD on step 1, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "A Matthew Fisher is listed as ASSOCIATE PASTOR at Grace Presbyterian Mount Laurel (gpml.org) — possibly the same man at a different church. A criminal case involving an unrelated Matthew Fisher in New York also surfaced and is EMPHATICALLY NOT this person; recorded so nobody later conflates them.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Mark Wellman\" OR \"Nathan Joel Pugh\" OR \"Aaron Verhoef\" OR \"Zach Meys\" OR \"Matthew Fisher\" New Jersey pastor abortion abolition theonomy \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED — step 1 could not be done. Treat as unread, not as a negative.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 6201,
+  "name": "Christ the King Presbyterian Mission",
+  "city": "Cherry Hill",
+  "denomination": "PCA (Presbyterian Church in America)",
+  "pastor": "Rev. Diogo Inawashiro",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "PCA mission work at 75 Mapleton Road, Princeton — NOT Cherry Hill as the row records. Aimed at Portuguese and Spanish speakers in the greater Philadelphia area.",
+   "complete": false,
+   "gap": "Site absent or unreadable; step 1 NOT satisfied. Treat as unread."
+  },
+  "step2_church_socials": {
+   "found": "No socials located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Portuguese/Spanish-speaking church planter; Latino Ministry Pastoral Assistant at Tenth Presbyterian Church, Philadelphia; in the PCA Portuguese Speaking Network. Facebook and YouTube located. Nothing on any marker.",
+   "complete": true,
+   "gap": null
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED — step 1 could not be done. Unread, not negative. DIRECTORY CORRECTION: located in PRINCETON (75 Mapleton Rd), not Cherry Hill.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1408,
+  "name": "Good News Church",
+  "city": "New Brunswick",
+  "denomination": "PCA (Presbyterian Church in America)",
+  "pastor": "Pastor Sungho Lee",
+  "step1_site": {
+   "url": "https://www.gnchurch.org",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "No readable site content — the congregation's own words were not read.",
+   "complete": false,
+   "gap": "Site absent or unreadable; step 1 NOT satisfied. Treat as unread."
+  },
+  "step2_church_socials": {
+   "found": "No socials located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Church located at 1539 Adriatic Avenue, ATLANTIC CITY — not New Brunswick as recorded. Nothing on any marker. A Sungho Lee who pastors two UMC charges in California is a different man and is not attributed.",
+   "complete": true,
+   "gap": null
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED — step 1 could not be done. Unread, not negative. DIRECTORY CORRECTION: located in ATLANTIC CITY (1539 Adriatic Ave), not New Brunswick.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1396,
+  "name": "Beloved Presbyterian",
+  "city": "Rutherford",
+  "denomination": "PCA (Presbyterian Church in America)",
+  "pastor": "Senior Pastor Daniel Chi",
+  "step1_site": {
+   "url": "https://belovedchurch.org",
+   "pages_read": [
+    "227 chars"
+   ],
+   "found": "No readable site content — the congregation's own words were not read.",
+   "complete": false,
+   "gap": "Site absent or unreadable; step 1 NOT satisfied. Treat as unread."
+  },
+  "step2_church_socials": {
+   "found": "No socials located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Bio page at belovedchurch.org/senior-pastor-daniel-chi/. Nothing on any marker.",
+   "complete": true,
+   "gap": null
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED — step 1 could not be done. Unread, not negative.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1398,
+  "name": "Cherry Hill Associated Presbyterian Church",
+  "city": "Mount Laurel",
+  "denomination": "PCA (Presbyterian Church in America)",
+  "pastor": "Rev. Kwonsub Park",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "No readable site content — the congregation's own words were not read.",
+   "complete": false,
+   "gap": "Site absent or unreadable; step 1 NOT satisfied. Treat as unread."
+  },
+  "step2_church_socials": {
+   "found": "No socials located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "No personal output located; Korean-language congregation, under-covered by English search.",
+   "complete": false,
+   "gap": "Korean- or Portuguese-language congregation; English-language search under-covers its output."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED — step 1 could not be done. Unread, not negative.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1418,
+  "name": "Lighthouse Korean Presbyterian Church",
+  "city": "Palisades Park",
+  "denomination": "PCA (Presbyterian Church in America)",
+  "pastor": "Rev. Woo Shin Lee",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "No readable site content — the congregation's own words were not read.",
+   "complete": false,
+   "gap": "Site absent or unreadable; step 1 NOT satisfied. Treat as unread."
+  },
+  "step2_church_socials": {
+   "found": "No socials located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "No personal output located; Korean-language congregation, under-covered by English search.",
+   "complete": false,
+   "gap": "Korean- or Portuguese-language congregation; English-language search under-covers its output."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED — step 1 could not be done. Unread, not negative.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 6205,
+  "name": "Glory Community Church",
+  "city": "Union City",
+  "denomination": "PCA (Presbyterian Church in America)",
+  "pastor": "Rev. Samuel Sung",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "No readable site content — the congregation's own words were not read.",
+   "complete": false,
+   "gap": "Site absent or unreadable; step 1 NOT satisfied. Treat as unread."
+  },
+  "step2_church_socials": {
+   "found": "No socials located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "No personal output located; Korean-language congregation, under-covered by English search.",
+   "complete": false,
+   "gap": "Korean- or Portuguese-language congregation; English-language search under-covers its output."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Kwonsub Park\" OR \"Sungho Lee\" OR \"Woo Shin Lee\" OR \"Samuel Sung\" OR \"Daniel Chi\" OR \"Diogo Inawashiro\" New Jersey pastor abortion abolition Christian nationalism patriarchy Zionism",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED — step 1 could not be done. Unread, not negative.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 3864,
+  "name": "Netherland Reformed Congregation",
+  "city": "Clifton",
+  "denomination": "Reformed",
+  "pastor": "Not established — no minister named in any reachable source.",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "church located via denominational and directory sources; own site not rendered"
+   ],
+   "found": "Netherlands Reformed Congregation at Third and Foster Streets, Clifton NJ 07011. ESTABLISHED 1883, replacing an earlier congregation in Lodi. The NRC is a strict, confessional Dutch Reformed body (Three Forms of Unity, psalm singing).",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. The Netherlands Reformed Congregations keep a deliberately minimal web presence, which is itself consistent with the body's practice — recorded as a fact about the tradition, not as evidence of a stance."
+  },
+  "step3_pastor_own": {
+   "found": "No minister name could be established, so the pastor half cannot be walked.",
+   "complete": false,
+   "gap": "No pastor name available."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED at pastor level. abolitionStance stays unknown. What the standard CAN say here is only that no abortion or abolition content is discoverable at church level.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 3865,
+  "name": "Ebenezer Netherland Reformed",
+  "city": "Franklin Lakes",
+  "denomination": "Reformed",
+  "pastor": "Not established — no minister named in any reachable source.",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "church located via denominational and directory sources; own site not rendered"
+   ],
+   "found": "Ebenezer Netherlands Reformed Congregation, 875 Ewing Avenue, Franklin Lakes NJ 07417. ORGANISED 21 JUNE 1906. Same strict Dutch Reformed body as #3864.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. The Netherlands Reformed Congregations keep a deliberately minimal web presence, which is itself consistent with the body's practice — recorded as a fact about the tradition, not as evidence of a stance."
+  },
+  "step3_pastor_own": {
+   "found": "No minister name could be established, so the pastor half cannot be walked.",
+   "complete": false,
+   "gap": "No pastor name available."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED at pastor level. abolitionStance stays unknown. What the standard CAN say here is only that no abortion or abolition content is discoverable at church level.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 3701,
+  "name": "The Body of Christ",
+  "city": "Washington Township",
+  "denomination": "Reformed",
+  "pastor": "Pastor Anthony Zurlo (from theologicalNotes).",
+  "step1_site": {
+   "url": "http://www.bodyofchristsj.org",
+   "pages_read": [
+    "church located via denominational and directory sources; own site not rendered"
+   ],
+   "found": "Site field was repaired on 2026-08-12 — it had held confession prose with http://www.bodyofchristsj.org buried at the end. The confessions taught weekly are the Belgic Confession, Canons of Dort and Heidelberg Catechism. The congregation's own pages were still not rendered.",
+   "complete": false,
+   "gap": "The congregation's own website was not readable; identity and history come from third-party listings."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. The Netherlands Reformed Congregations keep a deliberately minimal web presence, which is itself consistent with the body's practice — recorded as a fact about the tradition, not as evidence of a stance."
+  },
+  "step3_pastor_own": {
+   "found": "No minister name could be established, so the pastor half cannot be walked.",
+   "complete": false,
+   "gap": "No pastor name available."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Netherland Reformed Congregation\" Clifton NJ OR \"Ebenezer Netherland Reformed\" Franklin Lakes OR \"Anthony Zurlo\" Body of Christ NJ abortion abolition",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED at pastor level. abolitionStance stays unknown. What the standard CAN say here is only that no abortion or abolition content is discoverable at church level.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2200,
+  "name": "Grace",
+  "city": "Fair Lawn",
+  "denomination": "OPC (Orthodox Presbyterian Church)",
+  "pastor": "Bruce Coie / David Kiester (from site text)",
+  "step1_site": {
+   "url": "http://www.graceopcfairlawn.org",
+   "pages_read": [
+    "18808 chars"
+   ],
+   "found": "Grace OPC, Fair Lawn. Captured site text read; NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "https://twitter.com/share, https://www.facebook.com/sharer.php, https://www.facebook.com/sharer/sharer.php — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Searched; no personal blog, podcast or socials located.",
+   "complete": true,
+   "gap": null
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 4829,
+  "name": "Park Bible Baptist Church",
+  "city": "Pennsville",
+  "denomination": "Baptist",
+  "pastor": "Pastor Brian Henson — REPORTED to have moved to Bethel Church of the Brethren, Farmington PA. A Brian Henson pastoring in Cedar Park, Texas also surfaced and is NOT attributed.",
+  "step1_site": {
+   "url": "http://www.parkbible.org",
+   "pages_read": [
+    "17816 chars"
+   ],
+   "found": "Park Bible Baptist, Pennsville. KJV-listed independent Baptist. Captured site text read; NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "https://www.facebook.com/parkbible/, https://www.youtube.com/channel/UCU4Kx8WHkjbpC-JqeqT8T9Q — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Searched; no personal blog, podcast or socials located.",
+   "complete": true,
+   "gap": null
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2207,
+  "name": "Calvary Community",
+  "city": "Phillipsburg (Harmony)",
+  "denomination": "OPC (Orthodox Presbyterian Church)",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "http://harmonyopc.org",
+   "pages_read": [
+    "5876 chars"
+   ],
+   "found": "Calvary Community OPC, Phillipsburg (Harmony). Captured site text read; NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1399,
+  "name": "Comunidade Crista Presbiteriana",
+  "city": "Newark",
+  "denomination": "PCA (Presbyterian Church in America)",
+  "pastor": "Senior Pastor Renato Bernardes, since 1993. Monica Galinari also named on site.",
+  "step1_site": {
+   "url": "https://www.ccpnewark.com",
+   "pages_read": [
+    "5508 chars"
+   ],
+   "found": "PCA Portuguese-speaking congregation, 45 McWhorter St Newark — SHARES ITS BUILDING with Hebron Presbyterian Mission (#1413). Not a duplicate. Captured site text read; NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "https://www.facebook.com/Ccpnewark, https://www.facebook.com/Ccpnewark/, https://www.instagram.com/ccpnewark/, https://www.youtube.com/channel/UCWCNk1FcPi2xkZFwMB_o8Zg — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Searched; no personal blog, podcast or socials located.",
+   "complete": true,
+   "gap": null
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 3889,
+  "name": "Preakness Valley United Reformed Church",
+  "city": "Wayne",
+  "denomination": "URCNA (United Reformed Churches in North America)",
+  "pastor": "PULPIT VACANT (per the directory and the site).",
+  "step1_site": {
+   "url": "http://www.pvurc.org",
+   "pages_read": [
+    "4167 chars"
+   ],
+   "found": "Preakness Valley United Reformed Church, Wayne. Captured site text read; NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "https://www.facebook.com/Pvurc/, https://www.youtube.com/@preaknessvalley8986/streams — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1428,
+  "name": "Shore Points Presbyterian Church",
+  "city": "Marmora",
+  "denomination": "PCA",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "https://www.sppc.info",
+   "pages_read": [
+    "3445 chars"
+   ],
+   "found": "Shore Points Presbyterian, Marmora. Site recovered only by ignoring TLS errors. Captured site text read; NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "https://facebook.com/sospanicpc, https://www.facebook.com/pg/sospanicpc/shop/, https://www.facebook.com/sospanicpc, https://www.instagram.com/sos.panic.pc/ — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2210,
+  "name": "Grace",
+  "city": "Trenton (Hamilton Twp.)",
+  "denomination": "OPC (Orthodox Presbyterian Church)",
+  "pastor": "Travis Yonkman",
+  "step1_site": {
+   "url": "http://Grace-Presbyterian.net",
+   "pages_read": [
+    "1292 chars"
+   ],
+   "found": "Grace OPC, Hamilton — already searched at pastor level; see #2210 notes. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Searched; no personal blog, podcast or socials located.",
+   "complete": true,
+   "gap": null
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2197,
+  "name": "New Hope",
+  "city": "Bridgeton",
+  "denomination": "OPC (Orthodox Presbyterian Church)",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "http://www.newhopebridgeton.org",
+   "pages_read": [
+    "1194 chars"
+   ],
+   "found": "New Hope, Bridgeton. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1427,
+  "name": "Redentor Presbyterian Church",
+  "city": "South River",
+  "denomination": "PCA (Presbyterian Church in America)",
+  "pastor": "Pastor Rev. Eliel Assis",
+  "step1_site": {
+   "url": "https://www.redentorpc.com",
+   "pages_read": [
+    "569 chars"
+   ],
+   "found": "Redentor Presbyterian, South River — PCA, Portuguese-speaking. Site recovered only by ignoring an invalid certificate. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Searched; no personal blog, podcast or socials located.",
+   "complete": true,
+   "gap": null
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2209,
+  "name": "Mt. Carmel",
+  "city": "Somerset",
+  "denomination": "OPC (Orthodox Presbyterian Church)",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "http://mtcarmelopc.com",
+   "pages_read": [
+    "471 chars"
+   ],
+   "found": "Mt. Carmel OPC, Somerset. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 6572,
+  "name": "Christ The King Orthodox Presbyterian Church",
+  "city": "North Wildwood",
+  "denomination": "OPC (Orthodox Presbyterian Church)",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "https://www.christthekingwildwood.org",
+   "pages_read": [
+    "276 chars"
+   ],
+   "found": "Christ the King OPC, North Wildwood. Site still Cloudflare-blocked after a second attempt. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1400,
+  "name": "Covenant Presbyterian Church",
+  "city": "Cape May",
+  "denomination": "PCA (Presbyterian Church in America)",
+  "pastor": "Pastor Richard W. Sterling",
+  "step1_site": {
+   "url": "https://covenantpresbyterianchurchnj.com",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Covenant Presbyterian, Cape May. DOMAIN DOES NOT RESOLVE. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Searched; no personal blog, podcast or socials located.",
+   "complete": true,
+   "gap": null
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2198,
+  "name": "Calvary",
+  "city": "Cape May Courthouse",
+  "denomination": "OPC",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Calvary OPC, Cape May Courthouse. No website on record. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1407,
+  "name": "Glory Community Church",
+  "city": "Cliffside Park",
+  "denomination": "PCA",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Glory Community Church, Cliffside Park. No website on record. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 3583,
+  "name": "Holy Fire Presbyterian Church",
+  "city": "Leonia",
+  "denomination": "URC",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Holy Fire Presbyterian, Leonia. No website on record. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 6203,
+  "name": "Ebenezer Presbyterian Church",
+  "city": "Mine Hill Township",
+  "denomination": "PCA (Presbyterian Church in America)",
+  "pastor": "Minister: Rev. Fernando (surname not established)",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Ebenezer Presbyterian, Mine Hill Township. No website on record. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Searched; no personal blog, podcast or socials located.",
+   "complete": true,
+   "gap": null
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1404,
+  "name": "Ebenezer Presbyterian Church",
+  "city": "Newark",
+  "denomination": "PCA",
+  "pastor": "Rev. Diocelio Leal (from theologicalNotes)",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Ebenezer Presbyterian, Newark. NOT on the PCA's own roster — already flagged 2026-08-06. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Searched; no personal blog, podcast or socials located.",
+   "complete": true,
+   "gap": null
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1413,
+  "name": "Hebron Presbyterian Mission",
+  "city": "Newark",
+  "denomination": "PCA (Presbyterian Church in America)",
+  "pastor": "Minister: Rev. Antonio J. Moura Goncalves",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Hebron Presbyterian Mission, Newark — shares 45 McWhorter St with Comunidade Crista (#1399). No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Searched; no personal blog, podcast or socials located.",
+   "complete": true,
+   "gap": null
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 3932,
+  "name": "Newton Covenant Reformed Church",
+  "city": "Newton",
+  "denomination": "Reformed",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Newton Covenant Reformed Church. No website on record. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2204,
+  "name": "Central Bible Church",
+  "city": "North Wildwood",
+  "denomination": "OPC",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Central Bible Church, North Wildwood. No website on record. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1406,
+  "name": "Faith Presbyterian Church",
+  "city": "Northfield",
+  "denomination": "PCA",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "https://faithpresbyterianpca.org",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Faith Presbyterian, Northfield. DOMAIN DOES NOT RESOLVE. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 1419,
+  "name": "Living Hope Church",
+  "city": "Palisades Park",
+  "denomination": "PCA (Presbyterian Church in America)",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Living Hope Church, Palisades Park. No website on record. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 3890,
+  "name": "Pompton Plains Reformed Bible Church",
+  "city": "Pequannock Township",
+  "denomination": "Reformed",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Pompton Plains Reformed Bible Church, Pequannock Township — LIKELY DUPLICATE of #5763. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2206,
+  "name": "River Of Life",
+  "city": "Phillipsburg",
+  "denomination": "OPC (Orthodox Presbyterian Church)",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "River Of Life OPC, Phillipsburg. No website on record. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 5650,
+  "name": "Iglesia Bautista El Redentor",
+  "city": "Rahway",
+  "denomination": "Southern Baptist Convention",
+  "pastor": "Senior Pastor: Rodrigo Licera",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Iglesia Bautista El Redentor — DUPLICATE of #5618, hidden with approved=false on 2026-08-12. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Searched; no personal blog, podcast or socials located.",
+   "complete": true,
+   "gap": null
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 6489,
+  "name": "Ridgefield Park RP Church",
+  "city": "Ridgefield Park",
+  "denomination": "RPCNA (Reformed Presbyterian Church of North America)",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Ridgefield Park RP Church — LIKELY DUPLICATE of #3774, which has the same congregation and a working site. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2211,
+  "name": "Covenant",
+  "city": "Vineland",
+  "denomination": "OPC",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "no website on record",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Covenant OPC, Vineland. No website on record. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2212,
+  "name": "Immanuel",
+  "city": "West Collingswood",
+  "denomination": "OPC (Orthodox Presbyterian Church)",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "http://www.iopc.org",
+   "pages_read": [
+    "0 chars"
+   ],
+   "found": "Immanuel OPC, West Collingswood. Site returned 24 chars. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2205,
+  "name": "Grace",
+  "city": "Pennsville",
+  "denomination": "OPC (Orthodox Presbyterian Church)",
+  "pastor": "Not established.",
+  "step1_site": {
+   "url": "http://www.graceopchurch.com",
+   "pages_read": [
+    "268 chars"
+   ],
+   "found": "Grace OPC, Pennsville. Site still Cloudflare-blocked after a second attempt. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 192,
+  "name": "Englewood Baptist Church",
+  "city": "Englewood",
+  "denomination": "Reformed Baptist Network (RBN)",
+  "pastor": "Pastor Matt Foreman (site says Amos Gibello, which is not the pastor)",
+  "step1_site": {
+   "url": "https://ebcnj.com",
+   "pages_read": [
+    "256 chars"
+   ],
+   "found": "Englewood Baptist, Reformed Baptist Network. Site still Cloudflare-blocked after a second attempt. No readable site content — the congregation's own words were NOT read.",
+   "complete": false,
+   "gap": "Step 1 NOT satisfied: no website on record, dead domain, or an unbeaten bot challenge. This row is UNREAD, not a searched negative."
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "Searched; no personal blog, podcast or socials located.",
+   "complete": true,
+   "gap": null
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": null
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
+ },
+ {
+  "id": 2473,
+  "name": "Emmanuel Bible Church",
+  "city": "Washington Township",
+  "denomination": "Reformed Baptist",
+  "pastor": "CONDUCTING PASTORAL SEARCH — the row's 'leadership' is literally that phrase.",
+  "step1_site": {
+   "url": "https://emmanuelbiblechurch.net",
+   "pages_read": [
+    "6287 chars"
+   ],
+   "found": "Emmanuel Bible Church, Washington Township. Pulpit vacant. Captured site text read; NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "found": "No socials or sermon archive located. — nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "CANNOT BE DONE — no pastor name is recorded or discoverable for this row.",
+   "complete": false,
+   "gap": "No pastor name; the pastor half of the standard is impossible here."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "christian_nationalism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "postmillennial": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "theonomy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "patriarchy": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   },
+   "zionism": {
+    "query": "\"Renato Bernardes\" OR \"Eliel Assis\" OR \"Antonio Moura Goncalves\" OR \"Richard Sterling\" OR \"Brian Henson\" New Jersey pastor abortion abolition theonomy Christian nationalism patriarchy Zionism",
+    "hit": false,
+    "note": "searched at CHURCH level only — no pastor name exists to search"
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED. Recorded as unread/unsearched rather than as a negative — see the gaps above.",
+  "date": "2026-08-13"
  }
 ]

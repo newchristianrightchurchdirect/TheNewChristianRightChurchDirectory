@@ -4839,3 +4839,65 @@ Every "interesting" marker from the automated pass has turned out to be an
 artifact — a street name, a country dropdown, a confession quoting *dominion*,
 the word *clinically*. Every real finding has come from reading. The regex was
 useful only for deciding what to read first.
+
+---
+
+## 2026-08-13 — New Jersey: all 106 rows carry a record
+
+Every New Jersey row now has a five-step record. **Zero marker hits across all
+106.** But the honest headline is the coverage, not the count:
+
+| Step | Actually done |
+|---|---|
+| 1. Church's own site READ | **62 of 106** |
+| 3. Pastor identified and their own output searched | **72 of 106** |
+
+**44 rows are recorded as UNREAD, not as negatives.** They have no website on
+record, a dead domain, or a bot challenge that could not be beaten. Four
+different Cloudflare-protected sites resisted a second attempt with a real
+browser and long waits. A further group are Korean-, Portuguese- or
+Spanish-language congregations whose output an English-language index barely
+sees; those are listed with that limitation named.
+
+That distinction is the whole point. A row that says "no marker found" after the
+site was read means something. A row that says it after the site could not be
+loaded means nothing, and the file now tells them apart.
+
+### What the sweep actually produced
+
+Not a single abolitionist church beyond the one already known. What it produced
+instead was a catalogue of directory errors that no amount of automated scoring
+would have found:
+
+- **Two rows whose websites belong to churches on other continents** — Reformed
+  Baptist Church Anniesland, GLASGOW, and an open-and-affirming PCUSA
+  congregation in the DENVER PRESBYTERY.
+- **Two rows located in the wrong town** (Hope Community PCA is in Egg Harbor
+  Township, Christ the King Mission is in Princeton), one in the wrong STATE
+  (Heritage Reformed filed under "Grand Rapids"), and Good News Church listed in
+  New Brunswick while its address is in Atlantic City.
+- **Three probable duplicate pairs** invisible to a name+city check — Heritage
+  Reformed, Reformed Baptist Lafayette, Pompton Plains — plus two genuine
+  building-sharers at 45 McWhorter St, Newark that must NOT be merged.
+- **Nine leadership fields wrong**, in four distinct ways: people who left the
+  state (Dykstra to Texas, Friederichsen to Texas), people who pastor a
+  different church entirely (Timothy Brindle at Olive Street PCA; Al Tricarico
+  as a visiting church-planting secretary), retired men still listed as current
+  (Harry Skeele, emeritus), and **historical figures scraped off history pages**
+  — Ida Faye Levering, a missionary appointed to India in **1891**, and Leslie
+  Dunn, who founded Boardwalk Chapel in the **1940s**.
+- **Three churches filed as Reformed that publish dispensational statements**
+  (First Baptist Asbury Park, Island Bible Church, Harmony Bible Fellowship) —
+  all three carrying the same verbatim MacArthur "We teach" text.
+- **One row that is not a congregation at all**: Boardwalk Chapel is a summer
+  evangelistic ministry of the Presbytery of New Jersey.
+
+### The method finding
+
+Every marker the automated pass flagged as interesting turned out to be an
+artifact: a street name (391 Zion Rd), a country dropdown (Israel), confessions
+quoting *dominion*, the word *clinically*. Meanwhile the two genuinely
+abortion-engaged congregations in this state — Bread of Life's standing clinic
+outreach, and Immanuel Bellmawr's Roe-anniversary preaching from Exodus 1 and
+Proverbs 24 — produced **no marker hit at all**. The regex was useful only for
+deciding what to read first. It was never capable of answering the question.
