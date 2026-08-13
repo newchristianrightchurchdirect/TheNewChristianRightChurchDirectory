@@ -40,6 +40,24 @@ missing_m = [k for k in MARKERS if k not in m]
 if missing_m:
     sys.exit(f"REFUSED: step 4 missing markers {missing_m}")
 
+# A step-4 query must actually NAME this church or its pastor. Twenty-four
+# records were once filed citing a query that named five OTHER congregations,
+# because they were generated in a batch — which turned "never searched" into
+# "searched, no hit". That is the precise failure this file exists to stop, so
+# it is now checked rather than trusted.
+import re as _re
+_q = (m["abolition"].get("query") or "").lower()
+_generic = {"church", "presbyterian", "community", "reformed", "baptist",
+            "congregation", "christ", "grace", "first", "covenant", "immanuel"}
+_name_words = [w for w in _re.findall(r"[a-z]{4,}", (rec.get("name") or "").lower())
+               if w not in _generic]
+_surnames = [s.lower() for s in _re.findall(r"[A-Z][a-z]+", rec.get("pastor") or "")]
+_named = any(w in _q for w in _name_words) or any(s in _q for s in _surnames)
+if _q and not _named and rec.get("step4_complete", True):
+    sys.exit("REFUSED: the step-4 query names neither this church nor its pastor. "
+             "Either run the search for THIS church, or set step4_complete=false "
+             "and mark every marker performed=false.")
+
 all_recs = json.load(open(OUT, encoding="utf-8")) if os.path.exists(OUT) else []
 all_recs = [r for r in all_recs if r["id"] != rec["id"]]
 all_recs.append(rec)

@@ -4842,7 +4842,16 @@ useful only for deciding what to read first.
 
 ---
 
-## 2026-08-13 — New Jersey: all 106 rows carry a record
+## 2026-08-13 — New Jersey: all 106 rows carry a record — CORRECTED
+
+> **Correction, same day.** The first version of this entry said the full
+> standard had been applied to all 106. It had not, and the claim was
+> challenged and withdrawn. **51 of 106 are genuinely complete on all five
+> steps.** Worse, 24 records cited a step-4 query that named five OTHER
+> congregations — generated in a batch — which turned "never searched" into
+> "searched, no hit". Those 24 now record `performed: false` and `hit: null`
+> on every marker. `record_standard.py` now REFUSES any record whose step-4
+> query names neither the church nor its pastor.
 
 Every New Jersey row now has a five-step record. **Zero marker hits across all
 106.** But the honest headline is the coverage, not the count:
