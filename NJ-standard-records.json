@@ -1,0 +1,619 @@
+[
+ {
+  "id": 1397,
+  "name": "Calvary Presbyterian Church",
+  "city": "Allenwood",
+  "denomination": "PCA",
+  "pastor": "Tom Harr (installed October 2018)",
+  "step1_site": {
+   "url": "https://calvarynj.org",
+   "direct_fetch": "BLOCKED by Cloudflare managed challenge; re-fetch also blocked",
+   "read_via": [
+    "calvarynj.org/about-us/ and /a-personal-welcome/ via search-surfaced content"
+   ],
+   "found": "PCA since 1982, church traces to the 1950s, Bible-based teaching. No abortion, abolition or civil-order content surfaced.",
+   "complete": false,
+   "gap": "Homepage and full beliefs page never rendered directly — Cloudflare. Content read is second-hand via search excerpts."
+  },
+  "step2_church_socials": {
+   "facebook": "https://www.facebook.com/calv.nj/",
+   "sermon_archive": "https://calvarynj.org/archive/ ; Apple Podcasts 'Calvary Presbyterian Church' id1499025031",
+   "found": "No abortion/abolition content surfaced in indexed posts or episode titles."
+  },
+  "step3_pastor_own": {
+   "linkedin": "https://www.linkedin.com/in/tom-harr-91b87538/",
+   "podbean": "Podbean episodes credited 'Pastor Tom Harr'",
+   "other": "byFaith (PCA) article 'Three Lessons from Leaving Corporate Finance for Pastoral Ministry'; graduate thesis 'The Role of the Church in Relation to Culture and Public Issues'",
+   "found": "Substantial public output. Nothing on any of the six markers."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Tom Harr\" pastor abolition abortion",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Tom Harr\" Calvary Presbyterian Christian nationalism",
+    "hit": false,
+    "note": "PCA as a body advanced a report DENOUNCING Christian nationalism."
+   },
+   "postmillennial": {
+    "query": "\"Tom Harr\" Calvary Presbyterian postmillennial theonomy eschatology",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "\"Tom Harr\" Calvary Presbyterian postmillennial theonomy eschatology",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "\"Tom Harr\" Calvary Presbyterian Allenwood patriarchy Zionism Israel women",
+    "hit": false
+   },
+   "zionism": {
+    "query": "\"Tom Harr\" Calvary Presbyterian Allenwood patriarchy Zionism Israel women",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "No notable congregants or associated figures surfaced. Thomas M. Harr listed as a director of Quarryville Presbyterian Retirement Community — SAME NAME, not confirmed the same man, recorded but NOT attributed."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. Step 1 is incomplete (Cloudflare) and the row should say so rather than read as a clean negative.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 6558,
+  "name": "First Baptist Church of Asbury Park",
+  "city": "Asbury Park",
+  "denomination_recorded": "Independent Reformed Baptist",
+  "denomination_actual": "DISPENSATIONAL — see step 1. Recorded denomination looks wrong.",
+  "pastor": "Felix Flavien",
+  "step1_site": {
+   "url": "https://www.firstbaptistchurchap.org",
+   "pages_read": [
+    "/",
+    "/what-we-teach (35,243 chars)",
+    "/the-role-of-women (8,881)",
+    "/meet-our-pastor",
+    "/ministries"
+   ],
+   "found": "Full doctrinal statement read. DISPENSATIONAL PREMILLENNIAL: pretribulational rapture, seven-year tribulation, millennial kingdom, and 'the church is distinct from Israel'. Wording closely follows the MacArthur/Grace Community 'We teach' statement, as does the Role of Women page. NO abortion, abolition, sanctity-of-life or civil-order content anywhere in 35k characters of doctrine.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "facebook": "facebook.com/profile.php (church)",
+   "instagram": "instagram.com/fbcapnj/",
+   "twitter": "twitter.com/FBCAPNJ",
+   "youtube": "youtube.com/@firstbaptistchurch-asburypark/videos",
+   "sermon_archive": "site /sermons",
+   "found": "No abortion or abolition content surfaced."
+  },
+  "step3_pastor_own": {
+   "found": "No separate personal socials, blog or podcast located for Felix Flavien; his public output appears to run through the church's channels only.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Felix Flavien\" pastor First Baptist Asbury Park abortion abolition sanctity of life",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Felix Flavien\" theonomy postmillennial \"Christian nationalism\" patriarchy Zionism Israel",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false,
+    "note": "Positively excluded — the church's own statement is pretribulational PREmillennial."
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false,
+    "note": "Dispensationalism is theologically incompatible with theonomy."
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false,
+    "note": "The Role of Women page is strongly complementarian and anti-feminist, but that is complementarianism, not the patriarchy movement. Recorded, not scored."
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false,
+    "note": "'The church is distinct from Israel' is the dispensational premise that usually underwrites Christian Zionism, but the church makes NO claim about the modern state. Relevant to zionistStance; not sufficient on its own."
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "No abolition evidence. abolitionStance stays unknown. TWO CORRECTIONS FOR THE DIRECTORY: (1) denomination recorded as Independent Reformed Baptist but the doctrinal statement is dispensational premillennial, which is not Reformed; (2) eschatology can be set to premillennial on first-hand evidence.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 6202,
+  "name": "New City Fellowship of Atlantic City",
+  "city": "Atlantic City",
+  "denomination": "PCA",
+  "pastor": "Rev. Peter James Eck (RTS 2014; church planter)",
+  "step1_site": {
+   "url": "https://www.newcityac.org",
+   "pages_read": [
+    "home",
+    "meet-our-staff",
+    "+2 others; 11,290 chars captured"
+   ],
+   "found": "Mercy-minded, cross-cultural PCA church plant; stated emphases are the gospel, racial reconciliation and mercy ministry to the poor. NO abortion, abolition, sanctity-of-life or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "facebook": "facebook.com/newcityfellowshipAC",
+   "instagram": "instagram.com/newcityac/",
+   "podcast": "sundaysermon.podbean.com",
+   "found": "Nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "No personal blog/podcast/socials distinct from the church. Appears as a supported worker on Christ Covenant Church's page and on give.pcamna.org (PCA Mission to North America) — support pages, no marker content.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Peter James Eck\" OR \"Peter Eck\" New City Fellowship Atlantic City pastor abortion abolition sanctity of life",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Peter Eck\" Atlantic City PCA theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false,
+    "note": "Search surfaced a 16th-c. Johann Eck and unrelated Zionism scholarship — surname collisions, NOT this man. Recorded so nobody later mistakes them."
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 6203,
+  "name": "The Spring of Life Church",
+  "city": "Barrington",
+  "denomination": "PCA",
+  "pastor": "Rev. Bryan Lee",
+  "step1_site": {
+   "url": "solpresbyterian.com",
+   "pages_read": [
+    "5 pages captured, 5,000 chars"
+   ],
+   "found": "PCA congregation founded 20+ years ago within a primarily Korean community in South Jersey. NO abortion, abolition or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "youtube": "youtube.com/@NJSpringOfLifeKoreanChurch",
+   "facebook": "facebook.com/934224076441814/",
+   "found": "Nothing on any marker. Note much of the church's output is likely in Korean, which limits what an English-language search surfaces — a real limit on this row, recorded rather than glossed."
+  },
+  "step3_pastor_own": {
+   "linkedin": "linkedin.com/in/bryan-lee-5937a7a4/",
+   "found": "No personal blog/podcast located.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Bryan Lee\" Spring of Life Korean Church Barrington New Jersey pastor abortion abolition",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Bryan Lee\" Spring of Life Presbyterian South Jersey theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None. CAUTION: a 'Pastor Bryan Lee' obituary (Boyd Funeral Services, Camden NJ) and a 'Bryan Lee Ministries' radio broadcast both surface on this name and are NOT established as this man. Common name — do not merge."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. Language coverage is a genuine limitation here.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 5527,
+  "name": "Somerset Hills Baptist Church",
+  "city": "Basking Ridge",
+  "denomination": "Southern Baptist Convention",
+  "pastor": "Timothy Sudolcan",
+  "step1_site": {
+   "url": "https://www.somersethillsbc.org",
+   "pages_read": [
+    "11 pages, 14,600 chars"
+   ],
+   "found": "Expository ministry (Malachi, Matthew, Philippians, Ephesians). Runs an American Heritage Girls troop. NO abortion, abolition, sanctity-of-life or civil-order content in captured pages.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "facebook": "facebook.com/SomersetHillsBaptist/",
+   "instagram": "instagram.com/somersethillsbc/",
+   "youtube": "youtube.com/@somersethillsbc",
+   "podcast": "Apple Podcasts 'Messages at Somerset Hills Baptist Church' id1640922685",
+   "vimeo": "vimeo.com/1068601066",
+   "found": "Sermon titles across all channels are expository; nothing on any marker."
+  },
+  "step3_pastor_own": {
+   "found": "No personal blog, podcast or socials distinct from the church.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Timothy Sudolcan\" Somerset Hills Baptist abortion abolition",
+    "hit": false,
+    "note": "SBC as a body passed a 2021 resolution calling for abolishing abortion; that is denominational, not congregational, and is not scored here."
+   },
+   "christian_nationalism": {
+    "query": "\"Timothy Sudolcan\" Somerset Hills Baptist theonomy postmillennial \"Christian nationalism\" patriarchy Zionism Israel",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 2483,
+  "name": "Island Baptist Church (trades as Island Bible Church / The Hope of LBI)",
+  "city": "Beach Haven",
+  "denomination_recorded": "Reformed Baptist",
+  "denomination_actual": "DISPENSATIONAL — see step 1. Recorded denomination looks wrong.",
+  "pastor": "Luke Fraser (Lead Pastor; doctoral student in expository preaching, The Master's Seminary). Elder John Pagenkopf; Dan Malay, executive.",
+  "step1_site": {
+   "url": "https://www.hopeoflbi.com",
+   "pages_read": [
+    "/",
+    "/LeadershipandStaff",
+    "/what-we-teach (35,453 chars)"
+   ],
+   "found": "Full doctrinal statement read. DISPENSATIONAL PREMILLENNIAL: pretribulational rapture, millennial kingdom, 'the church is distinct from Israel'. This is the SAME MacArthur/Grace Community 'We teach' statement used verbatim by First Baptist Asbury Park — consistent with the pastor's Master's Seminary training. NO abortion, abolition or sanctity-of-life content in 35k characters.",
+   "complete": true,
+   "note": "The directory records the name 'Island Baptist Church'; the church now presents as Island Bible Church / The Hope of LBI. Name field should be updated."
+  },
+  "step2_church_socials": {
+   "facebook": "facebook.com/Island-Baptist-Church-116635888361560/",
+   "instagram": "instagram.com/hopeoflbi/",
+   "youtube": "youtube.com/channel/UCKusJscjljXISBgG9A-pNaA",
+   "spotify": "open.spotify.com/show/6VBJHXbvKQoqW3Azdq7ztG",
+   "sermonaudio": "sermonaudio.com/broadcasters/hopeoflbi/",
+   "found": "Nothing on any marker. NOTE: an 'Israel' regex hit in the crawled text was a COUNTRY DROPDOWN on a form, not doctrine — checked rather than counted."
+  },
+  "step3_pastor_own": {
+   "sermonaudio_speaker": "sermonaudio.com/speakers/59400/",
+   "podcast_appearance": "Guest on 'What Are We Even Doing Here?' (Striving for Eternity / Christian Podcast Community) — 'Hope of LBI at the Jersey Shore'",
+   "found": "Public output located and checked; nothing on any marker.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Luke Fraser\" Island Bible Church LBI Beach Haven pastor abortion abolition sanctity of life",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Luke Fraser\" pastor theonomy postmillennial \"Christian nationalism\" patriarchy Zionism dispensational",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false,
+    "note": "Positively excluded — the church teaches pretribulational PREmillennialism."
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false,
+    "note": "Incompatible with the church's stated dispensationalism."
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false,
+    "note": "'Church distinct from Israel' present as doctrine; no claim about the modern state."
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "John Pagenkopf (elder)",
+    "Dan Malay (executive)"
+   ],
+   "found": "Leadership recorded. No notable congregants or public figures surfaced."
+  },
+  "verdict": "No abolition evidence. abolitionStance stays unknown. THREE DIRECTORY CORRECTIONS: name (now Island Bible Church / Hope of LBI), denomination (dispensational, not Reformed Baptist), and leadership (was an unusable crawl artifact, now Luke Fraser).",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 2199,
+  "name": "Immanuel Orthodox Presbyterian Church",
+  "city": "Bellmawr",
+  "denomination": "OPC",
+  "pastor": "Rev. Matthew Cole (current). Rev. Thomas Church, pastor 1987–2020 (retired), still the most-preached voice in the archive.",
+  "step1_site": {
+   "url": "http://www.immanuelopc.org",
+   "pages_read": [
+    "/",
+    "/our-leadership/",
+    "/sermons (topic index)",
+    "/sermons?sermon_topics=sanctity-of-life"
+   ],
+   "found": "Confessional OPC congregation. Sermon archive carries a 'Sanctity of Life' topic with FOUR sermons, and the pattern is the point — one preached in the week of 22 January nearly every year: 2014 'Shall The Church Stand Up?' (Prov 24:10-14), 2015 'Cherishing Life' (Matt 5:21-22), 2016 'A Clear Call in Troubling Times' (Jer 1), 2017 'The Brutality of a Culture of Convenience' (Ex 1:8-22).",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "sermon_archive": "immanuelopc.org/sermons (own CMS, topic + book + speaker filters)",
+   "found": "Annual Roe-anniversary preaching, evidenced by date and text. Exodus 1:8-22 (the Hebrew midwives defying a king's order to kill infants) and Proverbs 24:11 ('rescue those being led away to death') are both standard abolitionist proof texts. NO abolition, equal-protection, personhood or criminalisation language anywhere."
+  },
+  "step3_pastor_own": {
+   "found": "No personal blog, podcast or socials located for either man. Thomas Church retired at the start of 2020 after 33 years and planted a daughter congregation ('Baby Immanuel') twenty miles away.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Thomas Church\" Immanuel Orthodox Presbyterian Bellmawr abortion abolition equal protection preborn ; and \"Matthew Cole\" Immanuel ... sanctity of life abortion sermon",
+    "hit": false,
+    "note": "ABORTION ENGAGEMENT IS EVIDENCED — four dated sermons — but abolition is not. The OPC's own General Assembly statement permits abortion where medically necessary to save the mother's life, which is an exception and therefore incrementalist by this project's definition."
+   },
+   "christian_nationalism": {
+    "query": "\"Matthew Cole\" OR \"Thomas Church\" Immanuel OPC Bellmawr theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Rev. Thomas Church (pastor 1987–2020)",
+    "Rev. Matthew Cole (current)"
+   ],
+   "found": "Speaker index also lists William Shishko, Henry Krabbendam, Mike Myers and others as guests — visiting preachers, not congregants; recorded but not attributed to this church."
+  },
+  "verdict": "Strongest EVIDENCED abortion engagement found in New Jersey so far alongside Bread of Life, Wayne — annual Roe-anniversary preaching from texts about defying a killing decree. But no abolitionist language and a denomination that holds a life-of-the-mother exception. abolitionStance: incrementalist is defensible here on EVIDENCE rather than denominational default; recommend stanceBasis evidenced with this note.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 6201,
+  "name": "Grace Community Church",
+  "city": "Bridgewater",
+  "denomination": "PCA",
+  "pastor": "Christopher Basile (at the church since 2010, ordained its pastor 2015; Westminster and Reformed Theological Seminary)",
+  "step1_site": {
+   "url": "https://cometograce.org",
+   "pages_read": [
+    "home (3,724 chars captured)"
+   ],
+   "found": "Confessional PCA congregation, Westminster Confession, ordinary means of grace emphasis. NO abortion, abolition or civil-order content.",
+   "complete": false,
+   "gap": "Only the homepage rendered in the crawl — the site's interior pages were not captured. Recorded as partial rather than treated as a full read."
+  },
+  "step2_church_socials": {
+   "youtube": "youtube.com/@GraceCommunityChurchPCA",
+   "facebook": "facebook.com/p/Grace-Community-Church-100064800033857/",
+   "found": "Nothing on any marker in indexed content."
+  },
+  "step3_pastor_own": {
+   "found": "No personal blog, podcast or socials located. Searches for the name collide heavily with an actor, an engineer and 80+ LinkedIn profiles of the same name — none of them this man, and none attributed.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Christopher Basile\" Grace Community Church Bridgewater PCA abortion abolition sanctity of life",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Christopher Basile\" Bridgewater PCA theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false,
+    "note": "PCA as a body has an Ad Interim Committee report on Christian nationalism; denominational context, not this pastor."
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. Step 1 partial — interior pages not read.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 2200,
+  "name": "Faith Bible Church (Orthodox Presbyterian)",
+  "city": "Brick Township",
+  "denomination": "OPC",
+  "pastor": "Rev. Kim Dang (installed 14 July). Ruling elders Terry Boyle and Ben Szuba.",
+  "step1_site": {
+   "url": "https://www.faithbibleopc.org",
+   "pages_read": [
+    "8 pages, 7,503 chars — home, about, bulletins, sermons, videos, contact"
+   ],
+   "found": "Reformed confessional Presbyterian congregation. NO abortion, abolition, sanctity-of-life or civil-order content.",
+   "complete": true
+  },
+  "step2_church_socials": {
+   "facebook": "facebook.com/FaithBibleOPC/",
+   "twitter": "twitter.com/BibleOp",
+   "rumble": "rumble.com/c/c-1180531",
+   "sermonaudio": "sermonaudio.com/broadcasters/faithbibleopc/ — ACCOUNT NO LONGER ACTIVE",
+   "found": "Nothing on any marker. The SermonAudio archive is dead, so that source could not be checked — recorded as a gap, not as an absence."
+  },
+  "step3_pastor_own": {
+   "found": "No personal blog, podcast or socials located for Kim Dang distinct from the church.",
+   "complete": true
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Faith Bible Church\" Orthodox Presbyterian Brick New Jersey pastor abortion abolition sanctity of life",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Kim Dang\" pastor Faith Bible OPC Brick abortion abolition theonomy postmillennial \"Christian nationalism\" patriarchy Zionism",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false,
+    "note": "Name collides with several unrelated public figures named Kim; none attributed."
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [
+    "Terry Boyle (ruling elder)",
+    "Ben Szuba (ruling elder)"
+   ],
+   "found": "Session recorded. No notable congregants surfaced."
+  },
+  "verdict": "No marker evidence. abolitionStance stays unknown. DIRECTORY CORRECTION: leadership was the crawl artifact 'Kim Dang Mr. Charles'; the pastor is Rev. Kim Dang and the session is named above.",
+  "date": "2026-08-12"
+ },
+ {
+  "id": 6200,
+  "name": "Ark Presbyterian Church",
+  "city": "Bergenfield",
+  "denomination": "PCA (Korean Northeastern Presbytery)",
+  "pastor": "Rev. Bumjoon Oh",
+  "step1_site": {
+   "url": "recorded site returned only 433 chars",
+   "pages_read": [
+    "site shell only; church located at 12 W Central Ave, Bergenfield via NAPARC/PCA directories"
+   ],
+   "found": "PCA congregation in the Korean Northeastern Presbytery. No doctrinal or life content could be read.",
+   "complete": false,
+   "gap": "Site did not render usable content. Everything known here comes from denominational directories, not the church's own words. This row must NOT be read as a searched negative on step 1."
+  },
+  "step2_church_socials": {
+   "found": "No church socials or sermon archive located in English-language indexes.",
+   "complete": false,
+   "gap": "A Korean-language congregation's output is largely invisible to English search; this is a coverage limit of the method, not a finding about the church."
+  },
+  "step3_pastor_own": {
+   "found": "Nothing located. Searches collide with several unrelated people named Bumjoon and Oh.",
+   "complete": false,
+   "gap": "Same language limitation."
+  },
+  "step4_markers": {
+   "abolition": {
+    "query": "\"Ark Presbyterian Church\" Bergenfield New Jersey \"Bumjoon Oh\" pastor abortion abolition sanctity of life",
+    "hit": false
+   },
+   "christian_nationalism": {
+    "query": "\"Bumjoon Oh\" pastor Korean Presbyterian theonomy postmillennial \"Christian nationalism\" patriarchy Zionism Israel",
+    "hit": false
+   },
+   "postmillennial": {
+    "query": "same",
+    "hit": false
+   },
+   "theonomy": {
+    "query": "same",
+    "hit": false
+   },
+   "patriarchy": {
+    "query": "same",
+    "hit": false
+   },
+   "zionism": {
+    "query": "same",
+    "hit": false
+   }
+  },
+  "step5_notable": {
+   "notablePeople": [],
+   "found": "None surfaced."
+  },
+  "verdict": "NOT ESTABLISHED EITHER WAY. abolitionStance stays unknown, and this row should carry a flag saying the church's own output was never readable in English — three of five steps are incomplete for language and rendering reasons, not because nothing was found.",
+  "date": "2026-08-12"
+ }
+]
