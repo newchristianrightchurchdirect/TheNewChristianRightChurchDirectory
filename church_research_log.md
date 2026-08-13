@@ -4774,7 +4774,9 @@ explicit named gap where a source could not be reached. **No marker hit on any o
 them.** What the standard produced instead was a long list of things the
 directory has wrong — and one church it is missing entirely.
 
-### The church that should be in this directory and is not
+### A notable New Jersey pastor this directory does not know about
+
+**CORRECTED 2026-08-13.** An earlier version of this entry said this church "should be in this directory". That was an overclaim and is withdrawn. Nothing was established about whether it meets this project's scope rule — conservative, at minimum complementarian and not LGBT-affirming. What was established is only that its pastor is prominent on abortion. Those are different claims, and the second does not imply the first. Recorded here as a fact about New Jersey, NOT as an addition to make.
 
 **Rev. Dr. Clenard H. Childress Jr., New Calvary Baptist Church, Montclair NJ**,
 senior pastor since 1989. Founder of **BlackGenocide.org**, president of **Life
