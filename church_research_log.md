@@ -5625,3 +5625,36 @@ subject matter could be read and a conference is only evidence if what it teache
 
 **Running total: 33 rows to the full standard, 1 church added, 1 held out of scope, 6 promotions.**
 Transformationalist 108 → 113. Queue 301 → 268.
+
+## 2026-08-27 — Is Created Equal abolitionist, or just pro-life? (Dustin's question)
+
+Worth answering in the record, because this directory **ranks on abolition** and "vice president of
+Created Equal" reads like an abolition credential. **It is not one.**
+
+**Created Equal is pro-life in the technical sense the abolitionist movement uses:**
+
+- **It uses the label abolitionists reject.** Its own mission is "equipping **pro-life** individuals
+  with photographic evidence and conversational skills," and it presents itself as "Created Equal —
+  Pro-Life." **Abolitionists refuse that word on purpose** — Free the States and Abolitionists
+  Rising both publish essays titled **"Abolitionist, Not Pro-Life"** to mark the division.
+- **It takes no published position on the three defining questions** — incrementalism versus
+  immediate abolition, equal-protection legislation, and criminal liability for women. An
+  abolitionist organisation states these; they are the identity.
+- **Its method is persuasion**, in the Center for Bio-Ethical Reform tradition: graphic imagery,
+  Justice Rides, campus apologetics, mobile ultrasound.
+- **No Created Equal position on H.B. 370 could be found at all.** That silence is evidence. **End
+  Abortion Ohio backed the bill; Ohio Right to Life opposed it** for penalising mothers. A
+  Columbus-headquartered abolitionist body saying nothing about its own state's equal-protection
+  bill would be extraordinary.
+
+**But it is not mainstream-incrementalist either.** It argues for "equal protection between the born
+and the preborn" and frames abortion as **age-based discrimination** — abolitionist-adjacent
+language. It sits nearer abolition than National Right to Life, without taking abolition's positions.
+
+**What changes: nothing.** #4392's `abolitionStance` stays **pro_abolition**, because it rests on
+**Drayer's own signature on the H.B. 370 pastoral petition** — a bill criminalising abortion as
+homicide that **Ohio Right to Life opposed**. That is an abolitionist act by the man, independent of
+his employer. The promotion stands too: it rested on three public questions, and **cultural
+engagement is the qualifier while abolition is only a ranking marker.**
+
+> **The general rule this sets: an activist's EMPLOYER is not a stance. Read the man's own acts.**
