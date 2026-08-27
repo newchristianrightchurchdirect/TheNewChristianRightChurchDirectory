@@ -5234,3 +5234,75 @@ moved** pending a ruling.
 
 **Result: 7 rows to the full standard, 13 audited stance changes, 1 promotion.** Queue
 301 → 295.
+
+## 2026-08-27 (later) — The ruling applied, and the directory turns out to contain the author of H.B. 370
+
+### The signatory ruling
+
+Dustin ruled on the question the Orrville Statement forced:
+
+> **A pastor's signature on another man's public declaration counts as a public act — but only
+> when the DOCUMENT ITSELF makes a claim on the civil or public order.** Signing two narrow
+> single-question petitions is still `single_issue`. Signing something that claims the civil
+> sphere is acting in the civil sphere, whoever held the pen.
+
+**#2684 Hopewell Church** and **#4370 Calvary Bible Church, Columbus** promoted under it.
+**#4353 Orrville Grace Brethren was not** — which gives the corollary, now recorded in the
+standard:
+
+> **A church's own confession outranks its pastor's signature.** Orrville Grace Brethren signed
+> the identical document. Its statement of faith is nonresistant, pretribulational and
+> dispensational, so it does not claim the sphere the statement claims. **Read the statement of
+> faith before promoting on a signature.**
+
+### #4359 Koinos Church — the row was wrong about its pastor, and the man it missed wrote the bill
+
+The leadership field read "Pastor: Chris Early," lifted from the H.B. 370 petition. Early is
+real; he is Koinos's **Director of Music and Liturgy** since July 2019. The church is governed
+by a **plurality of ten elders** and names no single senior pastor.
+
+**Its founding pastor is Johnathan Newman, sitting Representative for Ohio House District 80.**
+
+- Elected **November 2024 with 74.9%**, sworn in **6 January 2025**. Vice-chair of House
+  Agriculture; also Community Revitalization, Education, Transportation.
+- **On 18 June 2025 he CO-INTRODUCED H.B. 370**, the Ohio Prenatal Equal Protection Act, with
+  Rep. Levi Dean (R-71).
+- 2017 **Dietrich Bonhoeffer Award** from the Center for Christian Virtue for pro-life advocacy.
+- Founded Koinos in **1998**; senior pastor 26 years. SBC. Union University, then Mid-America
+  Baptist Theological Seminary.
+
+> **Every one of the 125 Ohio rows in this queue was created from the pastoral petition
+> supporting H.B. 370. The bill those pastors were petitioning for was co-authored by a pastor
+> whose own church sits in that cohort — filed under his worship director's name.** The
+> directory had the bill's author and did not know it.
+
+H.B. 370 is not incrementalist: it treats abortion as homicide, would nullify Article I §22 of
+the Ohio Constitution, and was **opposed by Ohio Right to Life** for penalising mothers. End
+Abortion Ohio backed it.
+
+**The counter-evidence, recorded because it is real.** Newman's essay *"Why I Am Running For
+Office,"* published on the church's own site on 20 December 2023, draws the line that normally
+lands a church in `limited_mission`: the church's mission is "worship, discipleship, gospel
+proclamation," his candidacy is **individual** civic participation, and the church will not
+become "a political campaign organization."
+
+**Promoted anyway**, on the standing ruling that if the pastor pushes it the church counts — a
+man who enters the magistracy and drafts a personhood bill has claimed the civil order, and his
+church published his reasons. **But the note is written so it can be reversed in one line**: his
+advocacy is overwhelmingly one question, which is exactly the ground Grace Fellowship Davenport
+was held on.
+
+### Also this batch
+
+- **#4352 Blanchard Reformed** — **an OPC mission work, not yet a particular church**, under the
+  Presbytery of Ohio. Flagged `in_transition`; a mission work has no session of its own.
+- **#4354 Kerusso Baptist** — **SBC**, via the Southwestern Baptist Association. The **SWBA
+  roster** (myswba.com/swba-churches) is noted as an unworked association list.
+- **#6618 Falls Berean Bible Church, Cuyahoga Falls — ADDED.** An Orrville Statement signatory
+  the directory did not contain. Dr. Joel Huffstutler, Bob Jones throughout (PhD 2008), formerly
+  **director of the Great Lakes Bible Institute** at a previous church. That directorship is
+  flagged and **deliberately not counted** — the education ruling is applied to the institution,
+  not followed around after the man. Its site **403s to ordinary fetchers** and had to be
+  rendered.
+
+**Running total: 11 rows to the full standard, 1 church added, 5 promotions.** Queue 301 → 292.
