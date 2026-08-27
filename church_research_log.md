@@ -5541,3 +5541,87 @@ Pleasant Hill Baptist, Smithville**.
   The Koinos note recorded it as merely pending as of 28 June 2025.
 
 **Running total: 27 rows to the full standard, 1 church added, 5 promotions.** Queue 301 → 274.
+
+## 2026-08-27 (batch 7) — Created Equal's vice president, a row that is not a church, and a multi-site filed twice
+
+### #4392 CrossPointe Church, Westerville — PROMOTED
+
+The row read "Pastor: Seth Drayer," which is **incomplete rather than wrong** — he is the
+**assistant pastor over Adult Bible Education**; the lead pastor is **Matt Keller**. But the man
+the petition named is the most publicly engaged figure found in this cohort outside the
+legislature.
+
+**Seth Drayer is Vice President of Created Equal**, the Columbus-based national pro-life education
+and outreach organisation founded by Mark Harrington, and has been in **full-time pro-life ministry
+since 2010**. He acts across three public questions:
+
+1. **Abortion** — not a signature but a vocation; he **debates university professors** in formal
+   public debate (most recently Dr. David Sanders of Purdue) and has appeared on **Fox & Friends**
+   and **Hannity**.
+2. **Gender** — he preached **"Genesis and Gender: The Transgender Delusion"** from this pulpit and
+   **the church publishes it on its own media site**, which under the standing ruling makes it the
+   institution's position.
+3. **Education** — **adjunct instructor of Christian Apologetics at Veritas Academy**, a classical
+   school in Columbus. The 2026-07-31 ruling is explicit that working at the institutional centre
+   of classical education *is* transformationalist action.
+
+**The qualification is recorded plainly:** the case rests on the **assistant** pastor. The church's
+own "What We Believe" is standard evangelical with **nothing on the civil order**, and lead pastor
+Matt Keller has no marker record. **If the "pastor pushes it" rule is ever narrowed to lead
+pastors, this row is the first to revisit.**
+
+> **Two fetch traps here would each have produced a false negative.** The church runs **two live
+> domains**, and only `thisiscrosspointe.online` has a leadership page — which **omits Drayer**.
+> Separately, **his speaker page on the primary domain now 404s.** Either alone reads as a
+> departure. Neither is true: he preached **5 January 2025**, and the 404 is a migration artifact.
+> **An absent page is a fact about the site, not about the man.**
+
+### #4385 Deeper Life Ministries — NOT A CHURCH, held out of scope
+
+**Deeper Life Ministries International is a parachurch 501(c)(3)** whose work is conferences,
+revivals, conventions, leadership training and books. **It has no congregation and holds no weekly
+worship.** It has a president and a board, not a pastor and elders. Flagged `review_nonfit` and
+`approved=false`, in the same class as Boardwalk Chapel in the NJ sweep.
+
+**The man is significant and the record is kept.** **Dr. Michael R. Avery** was **president of God's
+Bible School & College for twenty-two years** and became its **Chancellor in 2017**; he is an
+ordained elder in the **Bible Methodist Connection of Churches** and currently its **General
+Connectional Chairman**. **His signature was given in a personal and organisational capacity, not
+for a congregation — which is exactly why the row cannot stand as one.** Two leads follow: the
+Bible Methodist Connection roster, and the Wesleyan-holiness orbit around GBS, which this directory
+has never touched.
+
+### A third name-collision trap
+
+**#4384** — `citizenschurch.com` is **Citizens Church of Plano, Texas**, an Acts 29 congregation.
+Ours is **Citizens Baptist Church**, Westerville, at `citizenschurch.net`. **Name corrected on the
+row.** SBC via the **Baptist Resource Network**, also listed by the **Harbor Network**. Rob Kane
+planted it with his wife Danielle in 2020 and co-hosts the **Simple Theology** podcast — which has
+**not** been listened through, and is the kind of pastor-produced output that has overturned
+verdicts before.
+
+> After Germantown drew Germantown TENNESSEE and King's Church Franklin drew King's Church
+> Lakewood, this is the third. **In this cohort a plausible domain is a hypothesis, not a source.**
+
+### One church filed twice
+
+**Maranatha Community Church is a single multi-campus congregation** with **directional elders**
+over four Ohio locations — Baltimore, Canal Winchester, Pickerington and Southside. The directory
+holds **#4383 (Pickerington)** and **#4466 (Canal Winchester)** separately. Both are real meeting
+locations, so they are not duplicates in the ordinary sense, but they are **one church**. **Both
+flagged `verify_stance` and referred to the duplicate queue** rather than merged here — the
+NorthRidge multi-site question is already open and the rule should be set once for all of them.
+
+**Sixth instance of the petition naming a non-lead pastor:** the row's first name, **Randy Surface**,
+is Pickerington's **Music and Discipleship** pastor; the campus lead is Jeff Beisel.
+
+### Also
+
+**#4381 Maranatha Baptist, Columbus** — **GARBC**; Andrew Shearer, lead pastor since April 2016, who
+came to ministry from **thirteen years in aerospace at Boeing Satellite Systems** while graduating
+from **The Master's Seminary (2006)** — the **third Master's-orbit pastor** in this cohort. The
+church hosts its own **Proclaim Conference**; examined, and **not counted**, because no programme or
+subject matter could be read and a conference is only evidence if what it teaches is known.
+
+**Running total: 33 rows to the full standard, 1 church added, 1 held out of scope, 6 promotions.**
+Transformationalist 108 → 113. Queue 301 → 268.
