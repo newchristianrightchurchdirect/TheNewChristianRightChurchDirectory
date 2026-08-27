@@ -5799,3 +5799,73 @@ searched alone.** The batching that saves time on obscure names destroys the sea
 
 **Running total: 41 rows to the full standard, 1 church added, 1 held out of scope, 6 promotions.**
 Queue 301 → 260.
+
+## 2026-08-27 (batch 10) — THE GAMBLING LETTER. A second roster, and three promotions from it
+
+### The find
+
+Chasing John Michael LaRue (#4387) turned up the **Center for Christian Virtue's letter against
+predatory gambling** — signed by **129 Ohio pastors and ministry leaders** and addressed to
+**Governor DeWine and the Ohio General Assembly**, urging them to reject bills legalising online
+poker and virtual casino gambling.
+
+**It is a roster, and it is the second one this cohort has produced** after the Orrville Statement.
+The full signatory list is saved to `data/ccv-gambling-letter-signatories-2026-08-27.json`.
+
+> **Why it matters more than a single find: the H.B. 370 petition and the gambling letter are both
+> petitions to the Ohio legislature, on two unrelated questions.** A church appearing on both has
+> acted across public questions — which is the test for transformationalist.
+
+### The cross-reference
+
+Matching all 129 signatories against the directory's Ohio rows, on name and city, produced **five
+matches across four churches**. Three are promotions:
+
+- **#4387 The Bridge Church, Miamisburg — PROMOTED.** LaRue signed both. He also sits on the
+  **Christian Life and Resolutions Committee of the Greater Dayton Association of Baptists**,
+  published **"Missing the Mark: A Pastor's Loss of Trust in the ERLC"** (Christ Over All, 26 March
+  2025), and has been featured by the **Center for Baptist Leadership**. MDiv and **ABD in Systematic
+  Theology at SBTS**. `socialJusticeStance` set to `anti_crt` **on his own published argument** —
+  the only row in this cohort where that field rests on the pastor's own words.
+- **#4437 Dayton Avenue Baptist, Xenia — PROMOTED, and the strongest form of the test.** **Two
+  different men from one church signed two different letters**: James Risner on H.B. 370, **Senior
+  Associate Pastor Bruce Traeger** on the gambling letter. **When two officers independently
+  petition the legislature on unrelated questions, the engagement is the church's, not one man's.**
+  Leadership corrected — the **lead pastor is Jonathan Lawler**; "James Risner" appears nowhere on
+  the current staff list.
+- **#4456 First Baptist Gahanna — PROMOTED**, on two signatures and nothing else. **Recorded plainly
+  as the thinnest basis the ruling permits**, so it can be revisited: no authored work, no
+  institutional role, no pulpit statement found for Wally Contreras.
+
+**Both #4387 and #4437 are Greater Dayton Association of Baptists churches. The GDAB is worth a look
+in its own right.**
+
+### One row that qualifies on engagement and was deliberately NOT promoted
+
+**#4367 New Albany Presbyterian.** The cross-reference found **two more of its pastors** — Lead
+Pastor **David Milroy** and Associate **Ken Rathburn** — on the gambling letter, alongside Assistant
+Pastor Tanner Fixari on H.B. 370. **Three pastors, two questions.** On engagement that is a stronger
+record than #4456, which was promoted in the same batch.
+
+**Held anyway.** This is the EPC congregation whose published roster of ten elders and fourteen
+deacons **appears to include women**. If so it sits below the directory's complementarian floor — a
+question of whether it belongs at all, which is **prior** to how it is classified within.
+**Promoting it into the qualifying tier while that is open would surface it as a recommended church
+on an unresolved question.** Evidence recorded in full; classification untouched. **Dustin's call,
+and now a concrete one.**
+
+### Also in this batch
+
+- **#4380 Cornerstone Fellowship of DeGraff** — a **second UMC disaffiliation**, caught mid-process:
+  renamed **March 2026 (42-26)**, voted **42-0 on 12 April to leave the UMC**, hoping eventually to
+  join the GMC. **It is not yet GMC** and the denomination field says so. Traces to **Hanks Chapel,
+  a Methodist Society of about 1825**. Its pastor also serves a second charge, which is a standing
+  source of duplicate and stale-leadership errors.
+- **#4388 Cornerstone Church, Sidney** — the petition named two elders **and** the lead pastor,
+  Harry Peterson, in post since 2002. The church has hosted **Justin Peters Ministries**; recorded as
+  context for its cessationist, discernment-minded orbit, **not as evidence on any marker**.
+- **#4390 Berean Baptist, Mansfield** — **Converge**; flagged `womens_ordination` **for consistency
+  with the nine Converge rows already carrying it**, not on anything this church said.
+
+**Running total: 48 rows to the full standard, 1 church added, 1 held out of scope, 9 promotions.**
+Transformationalist 113 → 116. Queue 301 → 253.
