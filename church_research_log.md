@@ -5869,3 +5869,65 @@ and now a concrete one.**
 
 **Running total: 48 rows to the full standard, 1 church added, 1 held out of scope, 9 promotions.**
 Transformationalist 113 → 116. Queue 301 → 253.
+
+## 2026-08-27 (batch 11) — A fourth wrong-state domain, and the petition names laymen
+
+### The domain traps are now a countable pattern, four for four states
+
+**#4395 Redemption Bible Church.** `redemptionbiblechurch.org` is **Redemption Bible Church of Mount
+Prospect, ILLINOIS** — lead pastor Ashley Herr. **Not recorded.** The Ohio congregation is
+`rbcbellefontaine.com`.
+
+| Row | The decoy | Where it actually is |
+|---|---|---|
+| #4356 Germantown Baptist Chapel | germantownbaptist.org | Germantown, **TENNESSEE** |
+| #4368 King's Church Franklin | kingschurchoh.com | King's Church, **Lakewood OH** |
+| #4384 Citizens Baptist | citizenschurch.com | Citizens Church, **Plano TEXAS** |
+| #4395 Redemption Bible | redemptionbiblechurch.org | Mount Prospect, **ILLINOIS** |
+
+> **Four traps in one cohort, and in three of the four the decoy outranked the real site.** A
+> plausible domain is a hypothesis, not a source.
+
+**City corrected on #4395, West Liberty → Bellefontaine**, on the church's own published address —
+169 County Highway 32 N. Both towns are in Logan County about eight miles apart, which is how it
+survived.
+
+### The petition names laymen, not only non-lead pastors
+
+Two more rows where the man named holds **no pastoral office at all**:
+
+- **#4404 Providence OPC, Pataskala** — "Pastor: Michael Diercks." The **OPC's own General Assembly
+  minutes list Michael D. Diercks as a RULING ELDER**. The pastor is **Rev. Stephen J. Dufresne**.
+- **#4398 Grace Covenant, Beavercreek** — "Pastor: James Koerber." **Koerber is an ELDER**; the
+  pastor is **Paul Craig**.
+
+That is **twelve leadership errors in roughly forty rows**, and **three of them named laymen** —
+after #4366 Cornerstone Xenia listed an elder and two small-group leaders as "pastors."
+
+### One name resolved rather than flagged
+
+**#4397 Sacred Mission** — the petition's **"Errico Ianniello"** and the church's **"Rick
+Ianniello"** are the same man, formal name and used name. Recorded so a later comparison does not
+read it as a mismatch. And unusually, **the petition did name the lead pastor here** (Justin Rahmes),
+just second on the row.
+
+### Two institutional findings tested against the rulings and rejected
+
+- **#4395 Dana Kidder is chairman of the board of the New Path Pregnancy Resource Centers** — an
+  institutional role on the life question, materially stronger than a signature. **Still one
+  question.** And the church's own framing — abortion "not as a political issue, but a moral and
+  biblical one" — **points away from a claim on the civil order, not toward one.**
+- **#4398 runs Grace Covenant Counseling, an ACBC training centre.** Real institutional work, and it
+  was tested against the 2026-07-31 education ruling. **Rejected**: that ruling covers Bible
+  institutes, seminaries and classical schools — bodies forming the next generation for the public
+  square — whereas an ACBC centre trains counsellors for churches. **Recorded so the call is visible
+  and reversible.**
+
+### Cedarville, again
+
+Dana Kidder took his Pastoral Ministry degree there and Jim Koerber leads Men's Discipleship for the
+Cedarville and Xenia area. **That is the sixth and seventh Cedarville tie in this cohort**, alongside
+four SBTS men and three from the Master's orbit.
+
+**Running total: 52 rows to the full standard, 1 church added, 1 held out of scope, 9 promotions.**
+Queue 301 → 249.
