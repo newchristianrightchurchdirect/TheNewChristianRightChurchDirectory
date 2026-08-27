@@ -5306,3 +5306,56 @@ was held on.
   rendered.
 
 **Running total: 11 rows to the full standard, 1 church added, 5 promotions.** Queue 301 → 292.
+
+## 2026-08-27 (batch 3) — The petition roster keeps naming worship pastors
+
+### The pattern, now confirmed twice, and it should be assumed on every row in this cohort
+
+**#4358 Substance Church, Ashland** was filed as "Pastor: Scott Long." Long is the **Elder and
+Pastor of Worship Arts and Operations.** The lead pastor is **Garrick Bailey** — PhD in
+Systematic Theology from **Southern Baptist Theological Seminary**, arrived 2024 from **The
+Village Church**, where he directed adult discipleship. A third pastor-elder, Jeff Powell, was
+unrecorded. The church is **EFCA**, established here for the first time.
+
+> **That is the second row where the H.B. 370 petition named a worship pastor and the import
+> filed him as "the pastor"** — after #4359 Koinos, where the same mistake buried a sitting
+> state representative. **Assume this failure mode on every row sourced from this petition.**
+
+Note also that the **EFCA no longer requires premillennialism**, so nothing about eschatology can
+be inferred from that affiliation. It stays `unknown`.
+
+### A wrong-state website avoided, and a city corrected
+
+**#4356 Germantown Baptist Chapel.** The top search result for this church is
+`germantownbaptist.org` — which is **Germantown Baptist Church of Germantown, TENNESSEE**, senior
+pastor Matt Brown, 9450 Poplar Avenue. Different church, different state, different name. **Not
+recorded.** This is the eleven-wrong-websites failure mode arriving again, and it is worth noting
+that the decoy outranked the real site.
+
+The real site is `baptist-chapel.org`, which serves a certificate for `*.websrvcs.com` and so is
+rejected by ordinary fetchers on a hostname mismatch — a fact about the fetch. Read with
+verification off it gives **Andy Powell, Pastor, 343 Farmersville Pike, Germantown, Ohio 45327.**
+
+**City corrected Franklin → Germantown.** Both are real Ohio towns in adjacent counties, which is
+precisely how that error survives review.
+
+Affiliation deliberately **left unset** despite the site listing a **WMU** (Woman's Missionary
+Union, a Southern Baptist auxiliary). A WMU is a strong indicator, not a membership claim, and no
+association roster lists the chapel.
+
+### Two rows recorded honestly as thin
+
+- **#4355 Living Faith, College Corner** — **a Deaf and Hard of Hearing mainstream church**,
+  serving in its own words "a forgotten area." Nothing else in this cohort looks like it. **Its
+  pastor's name cannot be settled**: the petition says "Roy Stinson," a listing says "Allen
+  Stinson," and the church publishes only "Pastor Allen" and "Pastor Tom" with no surnames —
+  though a **Jade Stinson** is on staff, so the surname is genuinely attached. Recorded as a
+  conflict, flagged `verify_stance`, not resolved by guess. SBC via the SWBA.
+- **#4357 Eternal Life Baptist, Hamilton** — pastor **Michael Byrd** corroborated (Facebook, and
+  X as **@preacherbyrd01**), but the church publishes no website, no confession and no sermon
+  archive, and neither the Cincinnati Area nor Ohio Valley Baptist association directory confirms
+  it. **Namesake traps avoided:** Michael T. Byrd Sr. of St. Louis (Baptist Press) and a Bishop
+  Michael Craig Byrd are different men. Flagged `verify_stance`; his own social output is the one
+  avenue left unread.
+
+**Running total: 15 rows to the full standard, 1 church added, 5 promotions.** Queue 301 → 286.
