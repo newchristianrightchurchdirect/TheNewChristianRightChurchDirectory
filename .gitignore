@@ -30,3 +30,6 @@ data/AAM_*_outreach_*.csv
 
 # scratch query and batch-apply scripts (prisma/_q.ts, _apply-batch*.ts, ...)
 prisma/_*.ts
+
+# scratch queue dumps
+single-issue-queue.json

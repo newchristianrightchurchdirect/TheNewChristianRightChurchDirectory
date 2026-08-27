@@ -5132,3 +5132,105 @@ the #4124–#4217 import block, and several pairs disagree `amill vs postmill`),
 Both are the same failure this project keeps paying for: an automated pass
 producing a confident number that means nothing. Neither would have shown up in
 a summary count.
+
+## 2026-08-27 — The single_issue queue opens: the Orrville Statement, and one promotion in seven
+
+The `single_issue` tier holds 459 rows; 301 of them have never had the full standard
+applied. All 301 are the **equal-protection petition cohort** — Ohio H.B. 370 (125),
+Kentucky H.B. 523 (105), Indiana (67), Missouri (4) — every one flagged
+`signature_only`. 293 carry a pastor's name and only **28 carry a website**, so step 1 of
+the standard begins by *finding* the church, not reading it.
+
+The precedent going in was discouraging: the last signature cohort worked to this standard
+was 128 churches and **one** qualified.
+
+### The find: the Orrville Statement
+
+Nothing on Cross View Church's website suggested anything. Its leadership page carries two
+short biographies and no position on any question. **The document that promoted this row
+surfaced only from a pastor-name search — step 4.**
+
+`orrvillestatement.com` is an eleven-article affirm/deny declaration, published on its own
+domain under the church's name, with a scriptural index under every article and two
+companion recordings. **John L. Marino wrote it** because, in his words, he was "approached
+to give a pastoral and Christian answer to the drug abuse crisis in Wayne County Ohio."
+
+It is addressed to a county, not a congregation, and it goes far past the crisis it answers:
+
+- **"God requires humanity to subdue and exercise dominion over the world."**
+- **"Jesus is Lord over every domain of life"** — denying that "any person, ideology,
+  **government**, philosophy, theology, religion, or anything else can take Christ's
+  rightful place as Lord."
+- **A denial of neutrality**, in a civic document: no one can "apply these moral and
+  biblical principles in a neutral fashion so as to divorce morality from theology. There is
+  no such thing as morality without Christ."
+- **"Non-Christian values (i.e. evolution, humanism, feminism) are objectively sinful and
+  destructive for society."**
+- **Patriarchy, unqualified** — husbands lead, wives submit, fathers are "obligated to take
+  the leading role," and the statement "repudiate[s] the androgynous values of the current
+  age."
+- **Claims on policy** — against outsourcing parenting "to the state (school)," against
+  able-bodied fathers on "government benefits."
+
+**#4348 Cross View Church is promoted to `transformationalist`.** Abortion via the H.B. 370
+petition, and the civil and moral order of his county via a document he authored, published
+and built a coalition around — five pastors, two elders, the **retired Wayne County
+Prosecutor**, the founder of a counselling institute and the CEO of a treatment centre.
+Christian nationalism recorded `sympathetic` rather than `affirm`: the statement rejects
+neutrality but never addresses the magistrate's duty.
+
+### The statement is also a roster, and it reaches four other rows
+
+- **#4353 Orrville Grace Brethren** — Joshua Steiner and elder Ike Graham, Th.M.
+- **#4370 Calvary Bible Church, Columbus** — Eric Sipe.
+- **#2684 Hopewell Church, Ashland** — teaching elder Matt Timmons and elder Mike Naylor.
+- **Falls Berean Bible Church, Cuyahoga Falls** (Dr. Joel Huffstutler) — **not in the
+  directory at all.** A gap, to be added.
+
+### Reading the confession reversed the most promising row
+
+**#4353 looked like a second promotion.** Steiner signed two public documents on two
+different questions, which is the literal test. Then the church's own statement of faith
+was read: CGBCI, **premillennial and pretribulational**, affirming "the literal fulfillment
+of God's covenant promises to ethnic Israel," and committing the church to **nonresistance
+"in war and peace."**
+
+> **A nonresistant dispensationalist who expects the church removed before the tribulation
+> is not claiming the civil sphere, whatever he signs.** Held at `single_issue`.
+
+That row also moved `zionistStance` unknown → **yes**, which is the standing finding again:
+the directory's bulk `zionistStance = no` default is wrong for premillennial bodies.
+
+### One row's abolition went from a signature to a deed
+
+**#3736 Grace and Truth Church of Athens** had no pastor recorded and a county in its city
+field. It has **Smiles Welch**, was planted 25 August 2024, is 1689 Reformed Baptist — and
+it **hosted Jeff Durbin of Apologia Church for an End Abortion Now event**, which sits in
+its sermon feed. Still one question, so still `single_issue`, but evidenced by a deed now
+rather than assumed from a list. `city_is_county` cleared from the street address.
+
+### Negatives worth having
+
+- **#4349 Parkman Congregational** — denomination established for the first time (**CCCC**,
+  Ohio Fellowship) and its pastor **Will Coley is PCA-ordained**, which will look like a
+  contradiction to a later pass if it is not written down. Site complete and carrying
+  nothing on any marker. His name collides with **former Ohio state senator William P.
+  Coley II** — a different man. The site's **TLS certificate has expired**; that is a fact
+  about the fetch, and it reads fine with verification off.
+- **#4350 Little Miami Fellowship** — rendered in a browser rather than fetched, so a
+  client-side page could not be mistaken for an empty one. **It is genuinely empty**: three
+  pages, no leadership, no confession. Its two pastor names remain unconfirmed against any
+  church source, and a search summary tried to attach a "Johnathan Newman" to Koinos Church
+  in Troy (#4359, pastor Chris Early). **That linkage was an artifact and was not
+  recorded.** Flagged `verify_stance`.
+
+### The line-drawing question this raises
+
+Marino **authored** his second public act. Steiner, Sipe, Timmons and Naylor **signed** it.
+Whether a pure signatory clears "action across public questions" is a rule that would
+ripple across the whole directory, so the three affected rows carry the evidence and the
+markers the statement supports, and their `culturalEngagement` was **deliberately not
+moved** pending a ruling.
+
+**Result: 7 rows to the full standard, 13 audited stance changes, 1 promotion.** Queue
+301 → 295.
