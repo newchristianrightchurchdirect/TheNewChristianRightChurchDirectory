@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import dynamic from 'next/dynamic'
 import Link from 'next/link'
+import { pastorName } from '@/lib/pastor-name'
 
 const MapView = dynamic(() => import('@/components/MapView'), { ssr: false })
 
@@ -27,6 +28,7 @@ interface Church {
   description: string | null
   recordFlag: string | null
   genderStance: string | null
+  leadership: string | null
   upvotes: number
 }
 
@@ -81,8 +83,7 @@ export default function ChurchDetail({ church }: { church: Church }) {
   }
 
   const position = POSITION[church.culturalEngagement] || POSITION.unknown
-  const pastorMatch = church.theologicalNotes?.match(/Pastor\s+([A-Z][A-Za-z'.\-]+(?:\s+[A-Z][A-Za-z'.\-]+){1,3})/)
-  const pastor = pastorMatch ? pastorMatch[1] : null
+  const pastor = pastorName(church.leadership, church.theologicalNotes)
 
   return (
     <div>
