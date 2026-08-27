@@ -5742,3 +5742,60 @@ The three rows flagged today are deliberately not the same case, and each row st
 `genderStance` stays `unknown` on all three. **This directory does not infer the doctrine from a
 roster, nor in the other direction from a denominational permission a congregation may never have
 used.**
+
+## 2026-08-27 (batch 9) — Eight non-lead pastors, and Cedarville emerges as the common training ground
+
+### The leadership tally reaches eight
+
+**#4391 Ashland Grace** was filed as "Pastor: Aaron Arnold." Arnold is the **Associate Pastor of
+Worship**; the senior pastor is **Josh Wilson**. **#4379 First Baptist Troy** was filed as "Pastor:
+Nate Beaman," who is **Pastor of Family Life Ministries**.
+
+That is **eight of roughly thirty rows worked**, and **three of the eight were specifically worship
+pastors**. The pattern is not random: it looks like whoever compiled the petition took whichever
+staff member signed, and the import promoted every one of them to "the pastor."
+
+**#4389 Cornerstone Baptist, Springfield is the counter-example** — the petition named **Isaac Dye**,
+who genuinely is the senior pastor. Recorded because it has been the exception.
+
+### Cedarville is the most common training ground in this cohort
+
+**Isaac Dye** is the **fourth Cedarville man** found here, after **Bill Vine** (#4366), **Kevin Fath**
+(#4373) and **Andrew Shearer** (#4381). Given that the Master's Seminary orbit accounts for three
+more (Vine, Mark Rice, Shearer — Vine counting twice), **Cedarville and The Master's between them
+train a large share of the pastors on this petition.** Worth carrying into the Kentucky and Indiana
+cohorts as a thing to watch rather than a thing to assume.
+
+### Two Grace Brethren denominations, kept distinct
+
+**#4391 is Fellowship of Grace Brethren Churches (Charis Fellowship)** — Grace College and Grace
+Theological Seminary in its elders' biographies, and a Charis article marking the congregation's
+**100 years**. **#4353 Orrville is CONSERVATIVE Grace Brethren (CGBCI)**, the smaller separatist
+body. **Two distinct denominations in one cohort; they must not be collapsed.**
+
+### A Reformed charismatic church, and a phrase tested against the standard
+
+**#4386 Grace Christian Fellowship, Dayton** describes itself as **"Reformed/Evangelical" in doctrine
+and "Charismatic" on the Holy Spirit** — no other row in this cohort looks like it. Planted **2003 by
+Greg and Catherine Weis** in Dayton's inner city.
+
+Its mission is to see **"the city of Dayton transformed by the love of Christ."** ***Transformed* is
+this directory's own vocabulary**, and the phrase was tested against the qualifying standard.
+**Rejected**: it is about evangelism and mercy, not law or the civil order, and no public act
+accompanies it. Recorded so a later keyword pass does not promote the row on the word alone.
+
+**On women in leadership the record says exactly what the church says.** It is "led by a team of many
+men and women" under **two elders, both men**. **No `womens_ordination` flag applied** — the church
+has no denomination whose position could be cited, and its eldership is not shown to include women.
+
+**One petition name could not be confirmed at all**: "Steven Leopold" appears on no church source.
+Flagged `verify_stance` rather than silently dropped.
+
+### Method note: do not batch marker searches across names
+
+A combined search on four pastors' names returned **nothing but Doug Wilson**, because "Josh Wilson"
+collided with him and swamped the query. **Names that collide with a prominent figure must be
+searched alone.** The batching that saves time on obscure names destroys the search on common ones.
+
+**Running total: 41 rows to the full standard, 1 church added, 1 held out of scope, 6 promotions.**
+Queue 301 → 260.
