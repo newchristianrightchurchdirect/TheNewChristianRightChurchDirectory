@@ -5711,3 +5711,34 @@ was over sexuality and polity, not that question.
 
 **Running total: 37 rows to the full standard, 1 church added, 1 held out of scope, 6 promotions.**
 Queue 301 → 264.
+
+## 2026-08-27 — Does #4377 itself ordain women? (Dustin's question)
+
+Two claims that the `womens_ordination` flag runs together, and they have different answers.
+
+**The denomination does.** The Global Methodist Church's own FAQ: **"Women, like men, are called to
+serve in the Global Methodist Church and are entitled to serve at all levels."** Its Book of
+Doctrines and Discipline disclaims discrimination on the basis of gender. The GMC split from the UMC
+over **sexuality and polity, not the ordination of women**. The flag is correct denominationally.
+
+**Whether Wayne Street itself does is unestablished, and nothing found suggests it has.** The church
+**publishes no staff roster anywhere** — the current site has no leadership page, the surviving
+UMC-era site **403s to fetchers**, and the **only clergy named on any source is "Pastor Tim"
+Benjamin, a man.**
+
+> **This is the ordinary case the flag was written for**, and its own definition already says so: it
+> "records the DENOMINATION'S position, not necessarily this congregation's — several churches
+> carrying this flag are themselves complementarian, and their records say so." **This record now
+> says so explicitly**, so the flag cannot be misread as a finding about the congregation.
+
+The three rows flagged today are deliberately not the same case, and each row states which it is:
+
+| Row | Denomination permits | This congregation |
+|---|---|---|
+| #4363 Hudson Presbyterian (EPC) | yes | **no woman among published officers** — denominational only |
+| #4377 Wayne Street (GMC) | yes | **no roster published at all** — unestablished, only a male pastor named |
+| #4367 New Albany Presbyterian (EPC) | yes | **roster appears to include women** — also `verify_stance`; would sit below the floor in practice |
+
+`genderStance` stays `unknown` on all three. **This directory does not infer the doctrine from a
+roster, nor in the other direction from a denominational permission a congregation may never have
+used.**
