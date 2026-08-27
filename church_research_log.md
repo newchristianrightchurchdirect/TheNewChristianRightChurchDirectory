@@ -5476,3 +5476,68 @@ order.
   confirms the signature is genuinely his.
 
 **Running total: 23 rows to the full standard, 1 church added, 5 promotions.** Queue 301 → 278.
+
+## 2026-08-27 (batch 6) — Grace Advance appears twice, and the petition's worst leadership record
+
+### The leadership failure is now at five rows, and #4366 is the worst of them
+
+**#4366 Cornerstone Bible Church, Xenia** was filed as "Pastors: Robert Palacio; Kevin Poole;
+Edward Comperry." **None of the three is the pastor.** Palacio is an **elder**; Poole and **Clark**
+Comperry — not Edward — **lead small groups**. The pastor-teacher is **Bill Vine**.
+
+The running tally of rows where the H.B. 370 petition did not name the lead pastor:
+
+| Row | Petition named | Actually |
+|---|---|---|
+| #4359 Koinos | Chris Early | Director of Music and Liturgy — the founding pastor is a **sitting state representative** |
+| #4358 Substance | Scott Long | Pastor of Worship Arts and Operations |
+| #4367 New Albany Pres. | Tanner Fixari | Assistant Pastor of Care |
+| #4373 Hillside Baptist | Rick Thompson | **Associate** pastor; lead is Kevin Fath |
+| #4366 Cornerstone Xenia | three men | an elder and two **small-group leaders** |
+
+> **Five of roughly twenty rows worked so far. This is not occasional — it is how the roster was
+> built, and every remaining row in the cohort should be treated as naming a signatory rather than
+> a pastor.**
+
+### Grace Advance — John MacArthur's network — turns up twice
+
+**#4369 Medina Bible Church** describes itself as "a non-denominational Bible teaching church
+affiliated with **Grace Advance**." Mark Rice, **MDiv from The Master's Seminary**, pastor-teacher
+since January 2014, 600+ sermons, preaching from the **Legacy Standard Bible**.
+
+**#4371 Grace Church of Rootstown** is the second. Its own site never says so; **Grace Advance's
+directory does**, which is the stronger source.
+
+**What was deliberately NOT inferred.** The MacArthur orbit has known positions — premillennial and
+pretribulational, futurist on Israel, complementarian, and MacArthur's leading role in the
+**Statement on Social Justice and the Gospel**, which per the schema rules transformationalist
+**out**. **Neither congregation publishes any of that.** Network membership is not a confession:
+the same rule that forbids qualifying a church on CREC membership forbids disqualifying one on
+Grace Advance membership. Markers rest on each church's own silence.
+
+Rootstown is worth one more note. It says it wants to "honor God in all areas of life — in their
+families, occupations, schools, and their witness." **That is close to this directory's qualifying
+language and was tested against it.** It is about personal faithfulness across ordinary life, with
+no claim on law and no public act attached. **Not enough** — recorded so a later pass does not read
+the sentence out of context.
+
+### A third-party listing shown to be wrong
+
+**#4373 Hillside Baptist** is listed by **kjvchurches.com**, which would imply King James Only
+conviction — a real doctrinal marker among independent Baptists. **It is false: Rick Thompson
+preaches from the ESV.** A directory listing is a claim like any other, and this one fails against
+the church's own practice. GARBC established; the congregation was **planted in 2011 out of
+Pleasant Hill Baptist, Smithville**.
+
+### Leads opened, not chased
+
+- **Grace Advance publishes a church list and a map** (gracechurch.org/graceadvance) — an unworked
+  roster of exactly the kind that paid out on 2026-08-06.
+- **Ohio Association of Regular Baptist Churches (OARBC)** publishes a newsletter and church list.
+- **Levi Dean**, the Ohio representative for **District 71** who **co-introduced H.B. 370** with
+  Johnathan Newman, is placed in **Xenia** by the Gongwer directory — the town of #4366 and #4350.
+  **No connection to any congregation has been established and none is asserted.** Worth chasing.
+- **H.B. 370 status updated:** referred to the **House Judiciary Committee on 15 September 2025**.
+  The Koinos note recorded it as merely pending as of 28 June 2025.
+
+**Running total: 27 rows to the full standard, 1 church added, 5 promotions.** Queue 301 → 274.
