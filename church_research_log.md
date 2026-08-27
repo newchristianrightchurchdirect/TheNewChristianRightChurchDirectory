@@ -5658,3 +5658,56 @@ his employer. The promotion stands too: it rested on three public questions, and
 engagement is the qualifier while abolition is only a ranking marker.**
 
 > **The general rule this sets: an activist's EMPLOYER is not a stance. Read the man's own acts.**
+
+## 2026-08-27 (batch 8) — The St. Marys cluster, and Wayback is working again
+
+### Three churches, one small town, three different traditions
+
+Three consecutive rows in this cohort are all in **St. Marys**, and they are **Assembly of God**
+(#4376), **Global Methodist** (#4377) and **Calvary Chapel** (#4378).
+
+> **That is not how a doctrinal network signs a petition. It is how a local ministerial association
+> does.** Worth chasing: a St. Marys–area ministerial association would explain the cluster and may
+> point at more signatories than the petition captured.
+
+### Wayback is working from this environment again
+
+**#4378's website returns "There has been a critical error on this website"** — a WordPress fatal
+error, not a dead domain and not a 403. **It was read through the Wayback Machine**, which earlier
+sessions had logged as blocked. **It is working now**, and it should be back in the standard
+retry list ahead of giving up on a site.
+
+### Two rows where the honest answer was to flag rather than decide
+
+- **#4376 Living Hope Worship Center.** Its **former domain was `livinghopeaog.com`** — Assembly of
+  God — and that domain still resolves, carrying only a "we have moved" notice. **The new site
+  claims no denomination at all.** The AG has **ordained women since 1914**, so if that affiliation
+  is current the row needs `womens_ordination` and falls below the complementarian floor. **The flag
+  was NOT applied**: a retired domain is not a membership claim. Flagged `denom_ambiguous` with the
+  question written down.
+
+  Also corrected: **"Dr." Joshua Steinke is a chiropractor**, not a theologian — he founded Steinke
+  Family Chiropractic. Recorded explicitly, because this directory holds several men with divinity
+  doctorates and the title would otherwise read as one.
+
+- **#4375 Abiding Faith Bible Church.** Its confession affirms "the personal, visible, and
+  **imminent** return of our Lord and Savior Jesus Christ." **"Imminent" is the pretribulationist's
+  word**, and it would have been easy to file the row as dispensational on it. **It was not** — the
+  statement never says premillennial, never mentions the tribulation, never addresses Israel.
+  `eschatology` stays `unknown`. A **stale second site** at `abidingfaithbible.webnode.page` is
+  recorded so a later pass does not read the two domains as two congregations.
+
+### A disaffiliation considered and rejected as qualifying
+
+**#4377 Wayne Street Church is now Global Methodist, formerly United Methodist** — and its UMC
+identity is still live in its infrastructure (`waynestreetumc.org` resolves; the Facebook handle is
+still `waynestreetumc`). Flagged `in_transition`.
+
+**Leaving a denomination over its sexuality settlement is a real corporate act on a contested
+question**, and more than most rows in this cohort have done. **It does not qualify the row**: it is
+an act of church government, not a claim on the civil order. Recorded so the reasoning is visible
+rather than silent. **Flagged `womens_ordination`** — the GMC ordains women; its split from the UMC
+was over sexuality and polity, not that question.
+
+**Running total: 37 rows to the full standard, 1 church added, 1 held out of scope, 6 promotions.**
+Queue 301 → 264.
