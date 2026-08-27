@@ -5422,3 +5422,57 @@ no Christian school. **Writing a reading manual homeschoolers buy is not the sam
 the schools.** Recorded in full so the call is reversible.
 
 **Running total: 19 rows to the full standard, 1 church added, 5 promotions.** Queue 301 → 282.
+
+## 2026-08-27 (batch 5) — A theonomy question raised by sermon titles, and answered no
+
+**#4364 Friendship Baptist, Harveysburg** took the longest row of the day, and it is the clearest
+worked example so far of the standard producing a **confident negative** rather than a shrug.
+
+**The question.** The church is preaching a sustained series through **Deuteronomy**, and the
+titles repeat one framing: *"Corporately Worship God According to His Good Law" (Deut 12)*, **"No
+Exceptions to God's Good Law" (Deut 13)**, *"God's Good Law for His Holy Sons" (Deut 14)*, *"The
+Festivals of God's Good Law."* Deuteronomy 13 is the apostasy chapter. Preached as "God's good
+law, no exceptions," that is theonomy-adjacent language and could not be waved through either way.
+
+**The answer, from the church's own site search:**
+
+- **`theonomy` — nothing. `postmillennial` — nothing.**
+- **`magistrate`** — two expository sermons only, Matthew 5:38-48 and 1 Peter 2:11-17.
+- **`abortion`** — two sermons, Isaiah 56-57 and Hosea 13, both child-sacrifice passages. Not a
+  standing theme.
+
+**And the confession settles it.** Friendship holds the **Baptist Faith and Message 2000**, whose
+Article XVII states that **the church should not resort to the civil power to carry on its work** —
+a published position pointing away from transformationalism.
+
+> **The "God's good law" framing is expository practice, not a programme.** He preaches straight
+> through books; he reached Deuteronomy, and Deuteronomy is about the law. Calling it good is
+> Pauline.
+
+Affiliations established and published plainly by the church: **SBC**, the **State Convention of
+Baptists in Ohio (SCBO)**, and the **Cincinnati Area Baptist Association (CABA)** — which also
+settles the CABA question left open on #4357 in batch 3.
+
+Jordan Atkinson is the most academically engaged pastor in this cohort — **SBTS MDiv, ABD at
+Midwestern in Biblical Studies**, a **Themelios** reviewer, formerly a pastoral intern at Kenwood
+Baptist, Louisville. He and Abi have **eight children** and are **licensed foster caregivers**
+through Clinton County. That last is recorded as a real and costly commitment on the life question
+but **was not counted as a second public act** — it is a work of mercy, not a claim on the civil
+order.
+
+### Three more clean negatives
+
+- **#4362 Calvary Baptist, Marysville** — **Independent Baptist**; Matt Schiesser lead pastor since
+  March 2020, arriving via Houston and a Circleville church plant. Officer list entirely male.
+- **#4365 Calvary Bible, Cortland** — **non-denominational**; both petition names confirmed, and
+  **Michael A. Matejka arrived April 2025**, so the leadership field is demonstrably current rather
+  than merely unchallenged. **Note its SermonAudio handle is `cbcwarren`, not a Cortland string — a
+  broadcaster id is not a location and must never be used to place a church.** Kept explicitly
+  distinct from #4370, the Columbus Calvary Bible Church that signed the Orrville Statement.
+- **#4360 Quest Church, Middletown** — Ken Henderson, lead pastor since January 2010. **The church
+  publishes no statement of faith, no confession, no denomination and no officer list**; its /about
+  path does not exist. `denomination` and `genderStance` both left unset rather than guessed from a
+  single male pastor. Marker searches return only the End Abortion Ohio petition, which at least
+  confirms the signature is genuinely his.
+
+**Running total: 23 rows to the full standard, 1 church added, 5 promotions.** Queue 301 → 278.
