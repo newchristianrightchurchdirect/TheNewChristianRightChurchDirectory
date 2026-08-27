@@ -5359,3 +5359,66 @@ association roster lists the chapel.
   avenue left unread.
 
 **Running total: 15 rows to the full standard, 1 church added, 5 promotions.** Queue 301 → 286.
+
+## 2026-08-27 (batch 4) — A second name collision, two EPC rows, and a guess refused
+
+### The petition's leadership field has now failed three different ways
+
+**#4367 New Albany Presbyterian** was filed as "Pastor: Tanner Fixari." Fixari is the **Assistant
+Pastor of Care**. The lead pastor is **David Milroy, since 2004**, with Ken Rathburn as associate.
+That is the third row where the H.B. 370 petition named a man who is not the lead pastor — a
+worship pastor at Koinos, a worship pastor at Substance, an assistant pastor of care here.
+
+### A pastor field checked against a false vacancy signal
+
+**#4363 Hudson Presbyterian** surfaces a **CRC Network job posting for "Senior Pastor"** and the
+church's own **/pastoral-search** page. Either would ordinarily mean a vacancy and a stale record,
+which is a failure mode this project keeps paying for. **The staff page shows Shawn Carafa still in
+post.** The posting is stale, not the pastor. Written down because the next pass will hit the same
+misleading results.
+
+### Two EPC congregations flagged for women's ordination — and they are not the same case
+
+Both #4367 and #4363 are **Evangelical Presbyterian Church**, which leaves the ordination of women
+to presbyteries and sessions. Both carry `womens_ordination`, but the flag means different things:
+
+- **#4363** — no woman appears among the published officers. **Denomination's position only**,
+  which is exactly what the flag was written to record.
+- **#4367** — the published roster of **ten ruling elders and fourteen deacons includes names that
+  read as women's.** That is an inference from names, recorded as an inference and not a finding;
+  `genderStance` stays `unknown` rather than being set to egalitarian on it. **If that session does
+  include women, the row sits below the directory's "complementarian at minimum" floor** — a scope
+  question for Dustin, not one to settle here. Marked, not deleted, per the 2026-08-04 ruling.
+  Recorded alongside it: the congregation is listed by **The Gospel Coalition's Columbus
+  directory**, a complementarian network. Both facts stand.
+
+### A second wrong-church website avoided, and the decoy outranked the real site again
+
+**#4368 King's Church, Franklin.** Searching returns **kingschurchoh.com** — a **different King's
+Church in Lakewood**, near Cleveland: 15422 Detroit Avenue, lead pastor Noah Nickel,
+non-denominational, governed by a Board of Overseers. Ours is **kingschurchfranklin.com, 632 South
+Main Street, Franklin**, seventy miles away, **Baptist with a "Reformation heritage"** and the Five
+Solas.
+
+> **Two churches sharing a name in one state, the decoy ranking above the real one. Twice in two
+> batches, after Germantown Baptist Chapel drew Germantown, TENNESSEE.**
+
+A `kingschurchoh.libsyn.com` podcast feed also appears. **Not attributed** — the handle matches the
+Lakewood church's domain, and guessing would repeat the error.
+
+### A denominational guess refused, and an education ruling deliberately not stretched
+
+**#4374 Millersport Covenant Church**, founded in a living room on **5 July 1987**. An automated
+read concluded it "appears to be Evangelical Covenant Church-affiliated **based on naming**."
+**Rejected — nominal inference is not research**, the same error as reading *Christendom* Reformed
+Baptist as a claim on Christendom. `denomination` left unset.
+
+Its associate pastor **Mark B. Thogmartin, PhD** wrote **"Teach a Child to Read with Children's
+Books"** — four editions, a 1999 Parents' Choice seal, written **for homeschooling parents**,
+reviewed by **Creation Ministries International** — and spent 30+ years as a teacher and
+**principal**. The 2026-07-31 ruling that **education is movement-building** was **not applied**:
+his work is mainstream literacy pedagogy published through the ERIC Clearinghouse, and he founded
+no Christian school. **Writing a reading manual homeschoolers buy is not the same act as building
+the schools.** Recorded in full so the call is reversible.
+
+**Running total: 19 rows to the full standard, 1 church added, 5 promotions.** Queue 301 → 282.
