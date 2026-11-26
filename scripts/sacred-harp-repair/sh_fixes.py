@@ -2579,3 +2579,267 @@ Till I arrive where Jesus is.""",
 To you I'm bound with cords of love;
 But we believe His gracious Word,
 We all ere long shall meet above.""")
+
+add('395', 'O for a thousand tongues to sing',
+"""O for a thousand tongues to sing
+My great Redeemer's praise;
+The glories of my God and King,
+The triumphs of His grace.
+My gracious Master and my God,
+Assist me to proclaim,
+To spread thru all the earth abroad
+The honor of Thy name.""",
+"""Jesus, the name that charms our fears,
+That bids our sorrows cease;
+'Tis music in the sinner's ears,
+'Tis life and health and peace.
+He breaks the pow'r of cancelled sin,
+He sets the pris'ner free;
+His blood can make the foulest clean,
+His blood availed for me.""")
+
+add('134', 'A few more days on earth to spend',
+"""A few more days on earth to spend,
+And all my toils and cares shall end,
+And I shall see my God and friend,
+And praise His name on high.
+No more to sigh or shed a tear,
+No more to suffer pain or fear;
+But God, and Christ, and heav'n appear
+Unto the raptured eyes.""",
+"""Then, O, my soul, despond no more:
+The storms of life will soon be o'er,
+And I shall find the peaceful shore
+Of everlasting rest.
+O happy day! O joyful hour!
+When, freed from earth, my soul shall tow'r
+Beyond the reach of Satan's pow'r,
+To be forever blest.""",
+"""To earthly cares I bid farewell,
+And triumph over death and hell,
+And go where saints and angels dwell,
+To praise th'Eternal Three.
+I'll join with those who've gone before,
+Who sing and shout, their suff'rings o'er,
+Where pain and parting are no more,
+To all eternity.""")
+
+add('430', "Behold the love, the gen'rous love",
+"""Behold the love, the gen'rous love,
+That holy David shows,
+Behold his kind compassion move
+For his afflicted foes.
+When they are sick, his soul complains,
+And seems to feel the smart;
+The spirit of the gospel reigns,
+And melts his pious heart.""")
+
+# 161: verse 2's last line is printed as the same "And feel in the presence of Jesus at home."
+add('161', "'Mid scenes of confusion and creature complaints",
+"""'Mid scenes of confusion and creature complaints,
+How sweet to my soul is communion with saints;
+To find at the banquet of mercy there's room,
+And feel in the presence of Jesus at home.""",
+"""CHORUS:Home, home, sweet, sweet home;
+Prepare me, dear Savior, for glory, my home.""",
+"""Sweet bonds that unite all the children of peace,
+And thrice precious Jesus, whose love cannot cease;
+Though oft from Thy presence in sadness I roam,
+And feel in the presence of Jesus at home.""",
+"""I sigh from this body of sin to be free,
+Which hinders my joy and communion with Thee;
+Though now my temptations like billows may foam,
+All, all will be peace when I'm with Thee at home.""")
+
+add('473', 'Rejoice! the Lord is King',
+"""Rejoice! the Lord is King:
+Your Lord and King adore!
+Mortals, give thanks and sing,
+And triumph evermore:
+Lift up your heart, lift up your voice!
+Rejoice, again I say, rejoice!""",
+"""Rejoice in glorious hope!
+Jesus the Judge shall come
+And take His servants up
+To their eternal home:
+We soon shall hear the angel's voice,
+The trump of God shall sound: Rejoice!""")
+
+add('486', 'That man is blessed who stands in awe',
+"""That man is blessed who stands in awe
+Of God and loves His sacred law.
+His seed on earth shall be renowned,
+And with successive honors crowned.
+His house the seat of wealth shall be,
+An unexhausted treasury.""")
+
+add('315', "Within Thy circling pow'r I stand",
+"""Within Thy circling pow'r I stand;
+On ev'ry side I find Thy hand;
+Awake, asleep, at home, abroad,
+I am surrounded still with God.""",
+"""Lord, Thou hast searched and seen me through;
+Thine eye commands with piercing view
+My rising and my resting hours,
+My heart and flesh with all their pow'rs.""")
+
+add('478', 'God moves in a mysterious way',
+"""God moves in a mysterious way
+His wonders to perform;
+He plants His footsteps in the sea
+And rides upon the storm.
+In darkest night when He appears
+My sorrows will be gone,
+He is my soul's sweet morning star,
+And He's my rising sun.""",
+"""He forms the sinful man anew,
+Subdues the love of sin;
+He takes away the heart of stone
+And plants His grace within.
+He came from Heav'n our souls to save,
+Applies redeeming blood,
+Bids all our guilt and fears removed,
+Leaves us at peace with God.""")
+
+# 413: THE LOVED ONES, concluded at the top of p. 414.
+add('413', 'Be kind to thy father, for when thou wert young',
+"""Be kind to thy father, for when thou wert young,
+Who loved thee so fondly as he?
+He caught the first accent that fell from thy tongue,
+And joined in thy innocent glee.
+Be kind to thy father, for now he is old,
+His locks intermingled with grey;
+His footsteps are feeble, once fearless and bold,
+Thy father is passing away.""")
+
+add('416', "I'll sing my Savior's grace",
+"""I'll sing my Savior's grace,
+And His sweet name I'll praise,
+While in this land of sorrow I remain.
+My sorrows soon shall end,
+And then my soul ascend,
+Where freed from trouble, sorrow, sin, and pain.""",
+"""But oh, and shall I then
+Behold the friend of men,
+The man who suffered, bled, and died for me:
+Who bore my load of sin,
+And sorrow, grief, and pain
+To make me happy and to set me free.""")
+
+# 330b: FELLOWSHIP, lower half of p. 330 (upper half is another song).
+add('330b', 'Blest be the tie that binds',
+"""Blest be the tie that binds
+Our hearts in Christian love;
+The fellowship of kindred minds
+Is like to that above.""",
+"""We share our mutual woes,
+Our mutual burdens bear,
+And often for each other flows
+The sympathizing tear.""",
+"""When we asunder part,
+It gives us inward pain,
+But we shall still be joined in heart,
+And hope to meet again.""")
+
+add('457', 'I am a poor, wayfaring stranger',
+"""I am a poor, wayfaring stranger,
+While journ'ying thru this world of woe,
+Yet there's no sickness, toil nor danger,
+In that bright land to which I go.
+I'm going there to see my Father,
+I'm going there no more to roam;
+I'm only going over Jordan,
+I'm only going over home.""",
+"""I know dark clouds will gather o'er me,
+I know my way is rough and steep;
+Yet beaut'ous fields lie just before me,
+Where God's redeemed their vigils keep.
+I'm going there to see my Mother,
+She said she'd meet me when I come;
+I'm only going over Jordan,
+I'm only going over home.""",
+"""I want to wear a crown of glory,
+When I get home to that good land;
+I want to shout salvation's story,
+In concert with the blood-washed band.
+I'm going there to meet my Savior,
+To sing His praise forevermore;
+I'm only going over Jordan,
+I'm only going over home.""")
+
+add('408', 'They crucified the Savior',
+"""They crucified the Savior,
+They crucified the Savior,
+They crucified the Savior,
+And nailed Him to the cross;
+He arose, He arose, He arose,
+And ascended in a cloud.""",
+"""See, Mary comes a-weeping,
+See, Mary comes a-weeping,
+See, Mary comes a-weeping,
+To see where He was laid;
+He arose, He arose, He arose,
+And ascended in a cloud.""")
+
+# 564: ZION, concluded at the top of p. 565.
+add('564', "While trav'ling down life's weary road",
+"""While trav'ling down life's weary road
+Of troubles and despair,
+We sometimes long for peace and joy
+That waits God's children there.
+No pain nor death will we see there
+On that delightful shore,
+But all will be peace, joy, and love
+With Christ forevermore.""")
+
+# 436: MORNING SUN, concluded at the top of p. 437. Book: "blooming cheeks" (cf. #404 "glowing").
+add('436', 'Youth, like the spring, will soon be gone',
+"""Youth, like the spring, will soon be gone,
+By fleeting time or conqu'ring death;
+Your morning sun may set at noon,
+And leave you ever in the dark.
+Your sparkling eyes and blooming cheeks
+Must wither like the blasted rose;
+The coffin, earth, and winding sheet
+Will soon your active limbs enclose.""")
+
+# 493: AMANDA RAY, lower half of the page.
+add('493', 'I know I love Thee better, Lord',
+"""I know I love Thee better, Lord,
+Than any earthly joy;
+For Thou hast given me sweet peace,
+That nothing can destroy.""",
+"""O Savior, precious Savior mine,
+What will the future be;
+If such a life of joy can crown
+Our walk on earth with Thee?""")
+
+# 220: MOUNT ZION (First), concluded on p. 221 (restored 2026-11-26).
+add('220', 'The hill of Zion yields',
+"""The hill of Zion yields
+A thousand sacred sweets
+Before we reach the heav'nly fields,
+Or walk the golden streets.
+Then let your songs abound,
+And ev'ry tear be dry;
+We're marching through Immanuel's ground
+To fairer worlds on high.""")
+
+# 242: ODE ON SCIENCE, pp. 242-244 (243-244 restored 2026-11-26).
+add('242', 'The morning sun shines from the east',
+"""The morning sun shines from the east,
+And spreads his glories to the west,
+All nations with his beams are blest,
+Where'er the radiant light appears.
+So science spreads her lucid ray
+O'er lands which long in darkness lay;
+She visits fair Columbia,
+And sets her sons among the stars.
+Fair freedom her attendant waits,
+To bless the portals of her gates,
+To crown the young and rising states
+With laurels of immortal day.
+The British yoke, the Gallic chain,
+Was urged upon our necks in vain;
+All haughty tyrants we disdain,
+And shout, Long live America!""")
