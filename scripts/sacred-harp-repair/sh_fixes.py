@@ -272,3 +272,508 @@ A heart in ev'ry thought renewed,
 And full of love divine;
 Perfect, and right, and pure, and good,
 A copy, Lord, of Thine.""")
+
+add('396', 'Oh, could I speak the matchless worth',
+"""Oh, could I speak the matchless worth,
+Oh, could I sound the glories forth,
+Which in my Savior shine,
+I'd soar and touch the heav'nly strings,
+And vie with Gabriel while he sings
+In notes almost divine.""",
+"""Well, the delightful day will come,
+When my dear Lord will take me home,
+And I shall see His face;
+Then with my Savior, Brother, Friend,
+A blest eternity I'll spend,
+Triumphant in His grace.""")
+
+# 420: BISHOP, lower half of the page (upper half is MELANCHOLY DAY concluded).
+add('420', "Our Father's gone to that bright land",
+"""Our Father's gone to that bright land,
+He dwells with Christ, the King;
+And with the saints of old doth stand,
+While all the angels sing.""",
+"""Around dear Mother's bed we stood
+And watched her dying face;
+While Jesus bade her spirit come
+And take a heav'nly place.""",
+"""Their forms on earth no more we see,
+They're hidden from our view;
+Their mem'ries linger still with me,
+As noble, good and true.""",
+"""Could we but stand and view that goal,
+'Twould dry our briny tears;
+True love and joy there to behold,
+Would banish all our fears.""")
+
+add('510', 'Holy Spirit, faithful guide',
+"""Holy Spirit, faithful guide,
+Ever near the Christian's side;
+Gently lead us by the hand,
+Pilgrims in a barren land;""",
+"""CHORUS:Weary souls fore'er rejoice
+While they hear that sweetest voice,
+Whisper softly, "Follow me,
+I'll guide thee home.\"""",
+"""Ever present, truest friend,
+Ever near Thine aid to lend,
+Leave us not to doubt and fear,
+Groping on in darkness drear;""")
+
+add('179', 'I find myself placed in a state of probation',
+"""I find myself placed in a state of probation,
+Which God has commanded us well to improve,
+And I am resolved to regard all His precepts,
+And on in the way of obedience to move.
+I know I must go through great tribulation,
+And many sore conflicts on every hand;
+But grace will support and comfort my spirit,
+And I shall be able forever to stand.""",
+"""I'm called to contend with the powers of darkness,
+And many sore conflicts I have to pass through.
+O Jesus, be with me in every battle,
+And help me my enemies all to subdue.
+If Thou, gracious Lord, will only be with me,
+To aid and direct me, then all will be right;
+Apollyon, with all his powerful forces,
+In Thy name and Thy strength shall soon put to flight.""")
+
+add('162', 'Hark! from the tomb a doleful sound',
+"""Hark! from the tomb a doleful sound,
+Mine ears, attend the cry,
+Ye living men, come view the ground
+Where you must shortly lie.""",
+"""Princes, this clay must be your bed,
+In spite of all your tow'rs;
+The tall, the wise, the rev'rend head,
+Must lie as low as ours.""",
+"""Great God! is this our certain doom?
+And are we still secure?
+Still walking downward to the tomb,
+And yet prepared no more!""")
+
+add('140', 'Hail, solitude, thou gentle queen',
+"""Hail, solitude, thou gentle queen,
+Of modest air and brow serene!
+'Tis thou inspires the poet's theme,
+Wrapped in sweet vision's airy dream.""",
+"""With Thee the charms of life shall last,
+E'en when the rosy bloom is past.
+When slowly pacing time shall spread
+Thy silver blossom o'er my head,
+No more with this vain world perplexed,
+Thou shalt prepare me for the next.""")
+
+add('376', 'Ye souls who are bound unto Canaan',
+"""Ye souls who are bound unto Canaan,
+Come join in and help me to sing
+The praises of my loving Jesus,
+My Prophet, my Priest, and my King.
+His name is most sweetly melodious,
+'Twill help you most swiftly to move,
+While Jesus Himself is the leader,
+We're bound by the cords of His love.""")
+
+add('182', "Let ev'ry creature join",
+"""Let ev'ry creature join
+To praise th'eternal God;
+Ye heav'nly hosts, the song begin,
+And sound His name abroad.""",
+"""Thou sun with golden beams,
+And moon with paler rays;
+Ye starry lights, ye twinkling flames,
+Shine to your Maker's praise.""")
+
+add('143', "While Thee I seek, protecting Pow'r",
+"""While Thee I seek, protecting Pow'r,
+Be my vain wishes stilled,
+And may this consecrated hour
+With better hopes be filled.
+Thy love the pow'r of tho't bestowed,
+To Thee my tho'ts would soar;
+Thy mercy o'er my life has flowed,
+That mercy I adore.""",
+"""In each event of life, how clear
+Thy ruling hand I see!
+Each blessing to my soul more dear,
+Because conferred by Thee.
+In ev'ry joy that crowns my days,
+In ev'ry pain I bear,
+My heart shall find delight in praise,
+Or seek relief in prayer.""",
+"""When gladness wings my favored hour,
+Thy love my thoughts shall fill;
+Resigned when storms of sorrow lower,
+My soul shall meet Thy will.
+My lifted eye, without a tear,
+The gath'ring storm shall see;
+My steadfast heart shall know no fear,
+That heart shall rest on Thee.""")
+
+add('339', "Shed not a tear o'er your friend's early bier",
+"""Shed not a tear o'er your friend's early bier,
+When I am gone, when I am gone;
+Smile when the slow tolling bell you shall hear,
+When I am gone, when I am gone.
+Weep not for me as you stand 'round my grave,
+Think who has died His beloved to save,
+Think of the crown all the ransomed shall wear,
+When I am gone, I am gone.""",
+"""Plant you a rose that shall bloom o'er my grave,
+When I am gone, when I am gone;
+Sing a sweet song such as angels may have,
+When I am gone, when I am gone.
+Praise ye the Lord that I'm freed from all care,
+Pray ye the Lord that my joys ye shall share,
+Look up on high and believe that I'm there,
+When I am gone, I am gone.""")
+
+add('371', "Come, Holy Spirit, heav'nly Dove",
+"""Come, Holy Spirit, heav'nly Dove,
+With all Thy quick'ning pow'rs,
+Kindle a flame of sacred love
+In these cold hearts of ours.""",
+"""Come, Holy Spirit, heav'nly Dove,
+With all Thy quick'ning pow'rs,
+Come, shed abroad a Savior's love,
+And that shall kindle ours.""")
+
+add('422', 'Oh, for a heart to praise my God',
+"""Oh, for a heart to praise my God,
+A heart from sin set free,
+A heart made clean by Thy rich blood,
+So freely shed for me.""")
+
+add('322', "The glorious plan of man's redemption",
+"""The glorious plan of man's redemption,
+By the Son of God was wrought,
+To save the lost and ruined nation,
+So to heav'n we might be brought,""",
+"""CHORUS:Glory, honor, and salvation,
+To the Lamb, who once was slain;
+Sound His praise through ev'ry nation,
+May it never cease again.""",
+"""His precious blood to save us streamed,
+Lo! He sends salvation free,
+And now the poor by Him redeemed,
+Find both life and liberty.""",
+"""And now, dear friends, what more is wanted,
+Than what is already done,
+Christ has to Himself sinners granted,
+Will you then to ruin run?""")
+
+add('429', 'Peace, troubled soul, thou need not fear',
+"""Peace, troubled soul, thou need not fear,
+Thy Great Provider still is near,
+Jesus says He will be with us to the end.""",
+"""CHORUS:And He has been with us, And He yet is with us,
+And He's promised to be with us to the end.""",
+"""Who fed thee last, will feed thee still,
+Be calm and sink into His will,
+Jesus says He will be with us to the end.""",
+"""The Lord, who built the earth and sky,
+In mercy stoops to hear thy cry,
+Jesus says He will be with us to the end.""",
+"""His promise all may freely claim,
+Ask, and receive in Jesus' name,
+Jesus says He will be with us to the end.""")
+
+add('431', 'Ere mountains reared their forms sublime',
+"""Ere mountains reared their forms sublime,
+Or heav'n and earth in order stood,
+Before the birth of ancient times,
+From everlasting, Thou art God.""")
+
+# 367: the second-section half-lines are assigned to stanzas by rhyme (needs/leads, rely/supply; plea/free, call/all).
+add('367', 'Awake, dear brother, sister, friend',
+"""Awake, dear brother, sister, friend,
+Get ready for the call
+That soon or late is sure to come,
+Alike to one and all.
+Our Shepherd will supply our needs,
+If on Him we rely;
+And on to victory He leads,
+When we the arms supply.""",
+"""'Mid storms of doubt, in grief or woe,
+While Satan's hosts surround,
+Renew your zeal and onward go
+To Him where joy is found.
+Our Shepherd hears each humble plea,
+He heeds each earnest call;
+And grants salvation full and free,
+For He is Lord of all.""")
+
+add('450', 'Gently glides the stream of life',
+"""Gently glides the stream of life,
+Oft along the flow'ry vale,
+Or impetuous down the cliff,
+Rushing roars when storms assail.""",
+"""Life's an ever varied flood,
+Always rolling to its sea,
+Slow, or quick, or mild, or rude,
+Tending to eternity.""")
+
+add('298', 'What shall I render to my God',
+"""What shall I render to my God
+For all His kindness shown?
+My feet shall visit Thine abode,
+My songs address Thy throne.""")
+
+add('318', 'We thank the Lord of heav\'n and earth',
+"""We thank the Lord of heav'n and earth,
+Who hath preserved us from our birth,
+For present joys, for blessings past,
+And for the hope of heav'n at last.""",
+"""How shall we half our task fulfill?
+We thank Thee for Thy mind and will,
+For present joys, for blessings past,
+And for the hope of heav'n at last.""",
+"""Redeemed us oft from death and dread,
+And with Thy gifts our table spread,
+For present joys, for blessings past,
+And for the hope of heav'n at last.""")
+
+# 189: MONTGOMERY, lower half of the page (upper half is SPRING concluded).
+add('189', 'Early, my God, without delay',
+"""Early, my God, without delay,
+I haste to seek Thy face;
+My thirsty spirit faints away
+Without Thy cheering grace.""")
+
+add('178', 'Now shall my inward joys arise',
+"""Now shall my inward joys arise,
+And burst into a song;
+Almighty love inspires my heart,
+And pleasure tunes my tongue.""",
+"""God, on His thirsty Zion's hill
+Some mercy drops has thrown,
+And solemn oaths have bound His love
+To show'r salvation down.""",
+"""Why do we then indulge our fears,
+Suspicions and complaints?
+Is He a God, and shall His grace
+Grow weary of His saints?""")
+
+add('293', 'When I can read my title clear',
+"""When I can read my title clear
+To mansions in the skies,
+I'll bid farewell to ev'ry fear,
+And wipe my weeping eyes.
+Should earth against my soul engage,
+And fiery darts be hurled,
+Then I can smile at Satan's rage,
+And face a frowning world.""",
+"""There I shall bathe my weary soul
+In seas of heav'nly rest,
+And not a wave of trouble roll
+Across my peaceful breast.
+When we've been there ten thousand years,
+Bright shining as the sun,
+We've no less days to sing God's praise
+Than when we first begun.""")
+
+add('444', 'Oh, if my Lord would come and meet',
+"""Oh, if my Lord would come and meet,
+My soul should stretch her wings in haste,
+Fly fearless through death's iron gate,
+Nor feel the terrors as she passed.
+Jesus can make a dying bed
+Feel soft as downy pillows are,
+While on His breast I lean my head,
+And breathe my life out sweetly there.""")
+
+# 530 concludes at the top of page 531 ("A Glad New Song. Concluded.").
+add('530', "I've learned to sing a glad, new song",
+"""I've learned to sing a glad, new song
+Of praise unto our King!
+And now with ransomed pow'rs His praises
+I will sing.
+I've learned to sing the song of peace,
+'Tis sweeter ev'ry day,
+Since Jesus calmed my troubled soul,
+And bore my sins away.""",
+"""I've learned to sing the song of joy,
+My cup is running o'er
+With blessings full of peace and love,
+And still there's more and more.
+Soon I shall sing the glad, new song
+Of Moses and the Lamb,
+With all the sainted hosts above,
+Before the great I Am.""")
+
+add('66', 'There is a land of pure delight',
+"""There is a land of pure delight,
+Where saints immortal reign,
+Infinite day excludes the night,
+And pleasures banish pain.
+Sweet fields beyond the swelling flood
+Stand dressed in living green,
+So to the Jews old Canaan stood,
+While Jordan rolled between.""",
+"""O could we make our doubts remove,
+Those gloomy doubts that rise,
+And see the Canaan that we love
+With unbeclouded eyes.
+Could we but climb where Moses stood,
+And view the landscape o'er,
+Not Jordan's stream, nor death's cold flood
+Should fright us from the shore.""")
+
+add('454', 'The road to glory seems so long',
+"""The road to glory seems so long,
+And sorrows often take my song.
+I'm going to a better land,
+I'm going to a better land.""",
+"""CHORUS:I'm going to a better land,
+Where troubles are unknown,
+All sorrow will be gone,
+We'll sing around the throne in sweet accord,
+Adoring Jesus, our dear Lord.""",
+"""From Jesus' side I will not stray,
+I know He'll guide me all the way.
+I'm going to a better land,
+I'm going to a better land.""",
+"""I know it is not very far,
+To heaven where my treasures are.
+I'm going to a better land,
+I'm going to a better land.""")
+
+# 235: LONG SOUGHT HOME, lower half of the page (upper half is REVERENTIAL ANTHEM concluded).
+add('235', 'Jerusalem! my happy home!',
+"""Jerusalem! my happy home!
+Oh, how I long for thee!
+When will my sorrows have an end?
+Thy joys when shall I see?""",
+"""CHORUS:Home, sweet home, my long-sought home,
+My home in heav'n above.""",
+"""Thy walls are all of precious stones,
+Most glorious to behold!
+Thy gates are richly set with pearl,
+Thy streets are paved with gold.""",
+"""My friends, I bid you all adieu;
+I leave you in God's care;
+And if I here no more see you,
+Go on; I'll meet you there.""")
+
+# 317: JACKSON, lower half of the page (upper half is NEW HOPE concluded).
+add('317', 'I am a stranger here below',
+"""I am a stranger here below,
+And what I am is hard to know;
+I am so vile, so prone to sin,
+I fear that I'm not born again.""",
+"""When I experience call to mind,
+My understanding is so blind,
+All feeling sense seems to be gone,
+Which makes me think that I am wrong.""",
+"""I find myself out of the way,
+My thoughts are often gone astray,
+Like one alone I seem to be,
+Oh, is there anyone like me?""")
+
+# 435: SACRED REST, lower part of the page (upper part is FILLMORE concluded). Book: "care shall fill" (Watts: "cares shall seize").
+add('435', 'Sweet is the day of sacred rest',
+"""Sweet is the day of sacred rest,
+No mortal care shall fill my breast;
+Oh, may my heart in tune be found,
+Like David's harp of solemn sound.""")
+
+add('412', 'Wake, O my soul, and hail the morn',
+"""Wake, O my soul, and hail the morn,
+For unto us a Savior's born;
+See how the angels wing their way
+To usher in the glo'rous day.""",
+"""CHORUS:Glory, glory, let us sing,
+While heav'n and earth His praises ring,
+Hosanna, Hosanna, Hosanna to the Lamb of God.""",
+"""Hark! what sweet music, what a song,
+Sounds from the bright celestial throng;
+Sweet song, whose melting sounds impart
+Joy to each raptured list'ning heart.""",
+"""Come, join the angels in the sky,
+Glory to God who reigns on high;
+Let peace and love on earth abound,
+While time revolves and years roll round.""")
+
+add('187', 'God, my supporter, and my hope',
+"""God, my supporter, and my hope,
+My help forever near,
+Thine arm of mercy held me up
+When sinking in despair.""",
+"""But to draw near to Thee, my God,
+Shall be my sweet employ;
+My tongue shall sound Thy works abroad,
+And tell the world my joy.""")
+
+# 488 concludes at the top of page 489 ("As We Go On. Concluded.").
+add('488', 'Now, let our works and virtue show',
+"""Now, let our works and virtue show,
+To prove our faith as on we go,
+Religion bears our spirits up,
+While we expect that blessed hope.
+We get the blessings of the Lord,
+And we expect the great reward.
+Most precious is Thy love, O Lord,
+It guides us as we go along
+To join that great celestial band,
+To sing Thy praise forevermore.""")
+
+# 294: ROCKY ROAD; the "My soul shall ascend" section is on page 295 ("Rocky Road. Concluded.", D.C.).
+add('294', "I'm enlisted on the road",
+"""I'm enlisted on the road,
+I'm almost done traveling,
+Enlisted on the road,
+I'm almost done traveling,
+I'm bound to go where Jesus is.
+My soul shall ascend where Jesus is,
+To enjoy the peaceful home of rest,
+I'm bound to go where Jesus is,
+And be there forever blest.""",
+"""CHORUS:It's a mighty rocky road,
+I'm almost done traveling,
+A mighty rocky road,
+I'm almost done traveling,
+I'm bound to go where Jesus is.""",
+"""I've a Father on the road,
+He's almost done traveling,
+A Father on the road,
+He's almost done traveling,
+He's bound to go where Jesus is.
+His soul shall ascend where Jesus is,
+To enjoy the peaceful home of rest,
+He's bound to go where Jesus is,
+And be there forever blest.""")
+
+add('441', 'Hark, the glad sound! the Savior comes',
+"""Hark, the glad sound! the Savior comes,
+The Savior promised long:
+Let ev'ry heart prepare a throne,
+And ev'ry voice a song.""",
+"""He comes, the pris'ner to release,
+In Satan's bondage held;
+The gates of brass before Him burst,
+The iron fetters yield.""")
+
+add('283', 'Come, let us join with one accord',
+"""Come, let us join with one accord,
+In hymns around the throne:
+This is the day our risen Lord
+Hath made and called His own.""",
+"""CHORUS:Then let us in His name sing on,
+And hasten that great day
+When our Redeemer shall come down,
+And shadows pass away.""",
+"""This is the day which God hath blest,
+The brightest of the sev'n:
+A type of everlasting rest,
+That saints enjoy in heav'n.""")
+
+# 303: HEAVENLY LAND, lower half of the page (upper half is LOGAN concluded).
+add('303', 'There is a land of pure delight',
+"""There is a land of pure delight,
+Where saints immortal reign.
+Infinite day excludes the night,
+And pleasures banish pain.""",
+"""There everlasting springs abide,
+And never with'ring flow'rs.
+Death, like a narrow sea, divides
+This heav'nly land from ours.""")
