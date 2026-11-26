@@ -1935,3 +1935,84 @@ Sweet majesty and awful love
 Sit smiling on His brow,
 And all the glorious ranks above
 At humble distance bow.""")
+
+add('401', 'Go, preachers, and tell it to the world',
+"""Go, preachers, and tell it to the world,
+Go, preachers, and tell it to the world,
+Go, preachers, and tell it to the world,
+Poor mourners found a home at last.""",
+"""CHORUS:Through free grace and a dying Lamb,
+Through free grace and a dying Lamb,
+Through free grace and a dying Lamb,
+Poor mourners found a home at last.""",
+"""Go, fathers, and tell it to the world,
+Go, fathers, and tell it to the world,
+Go, fathers, and tell it to the world,
+Poor mourners found a home at last.""",
+"""Go, mothers, and tell it to the world,
+Go, mothers, and tell it to the world,
+Go, mothers, and tell it to the world,
+Poor mourners found a home at last.""")
+
+add('155', 'How long, dear Savior, O how long',
+"""How long, dear Savior, O how long
+Shall this bright hour delay?
+Fly swift around, ye wheels of time,
+And bring the promised day.""",
+"""From the third heav'n where God resides,
+That holy, happy place,
+The New Jerusalem comes down,
+Adorned with shining grace.""")
+
+add('402', 'The Lord my pasture shall prepare',
+"""The Lord my pasture shall prepare,
+And feed me with a shepherd's care;
+His presence shall my wants supply,
+And guard me with a watchful eye;
+My noonday walks He shall attend,
+And all my midnight hours defend.""",
+"""With gloomy horrors overspread,
+Though in the paths of death I tread;
+My steadfast heart shall fear no ill,
+For Thou, O Lord, art with me still;
+Thy friendly crook shall give me aid,
+And guide me through the dreadful shade.""")
+
+add('511', 'Look up, my soul, with cheerful eyes',
+"""Look up, my soul, with cheerful eyes,
+See where the great Redeemer lives,
+I'll build an altar to His name,
+And to the world proclaim His grace.""")
+
+# 306: OXFORD, lower half of p. 306, concluded on p. 307 (restored 2026-11-26).
+add('306', 'Shepherds, rejoice! Lift up your eyes',
+"""Shepherds, rejoice! Lift up your eyes,
+And send your fears away:
+News from the region of the skies —
+A Savior's born today!
+Jesus, the God whom angels fear,
+Comes down to dwell with you;
+Today He makes His entrance here,
+But not as monarchs do.""",
+"""No gold nor purple swaddling bands,
+Nor royal shining things,
+A manger for His cradle stands,
+And holds the King of kings.
+Go, shepherds, where the infant lies,
+And see His humble throne;
+With tears of joy in all your eyes,
+Go, shepherds, kiss the Son.""")
+
+add('288', 'Ye fleeting charms of earth, farewell',
+"""Ye fleeting charms of earth, farewell,
+Your springs of joy are dry;
+My soul now seeks another home,
+A brighter world on high.""",
+"""CHORUS:I'm a long time trav'ling here below,
+I'm a long time trav'ling away from home,
+I'm a long time trav'ling here below
+To lay this body down.""",
+"""Farewell, my friends, whose tender care
+Has long engaged my love;
+Your fond embrace I now exchange
+For better friends above.""")
