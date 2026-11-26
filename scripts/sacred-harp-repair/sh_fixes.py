@@ -2016,3 +2016,245 @@ To lay this body down.""",
 Has long engaged my love;
 Your fond embrace I now exchange
 For better friends above.""")
+
+# 500: LIVING HOPE, concluded at the top of p. 501.
+add('500', 'Blest be the everlasting God',
+"""Blest be the everlasting God,
+The Father of our Lord;
+Be His abounding mercy praised,
+His majesty adored.
+When from the dead He raised His Son
+And called Him to the sky,
+He gave our souls a living hope
+That they should never die.""",
+"""Saints by the pow'r of God are kept,
+Till the salvation come;
+We walk by faith as strangers here,
+Till Christ shall call us home.""")
+
+add('334', 'O come, come away',
+"""O come, come away,
+From labor now reposing,
+Our jubilee has set us free —
+O come, come away!
+Come, hail the day that celebrates
+The ransom of th'inebriates
+From all that does intoxicate,
+O come, come away!""",
+"""We welcome you here!
+With heart and hand wide open,
+Ye gallant sons of temperance —
+We welcome you here!
+Heav'n's blessings on your plans, we pray!
+Ye come our sinking friends to save,
+And rescue from a drunkard's grave;
+We welcome you here!""",
+"""We welcome you here!
+Ye who with taste perverted
+Have seized the cup, and drank it up —
+We welcome you here!
+Come, join us in our holy aim,
+The poor besotted to reclaim,
+The broken heart to cheer again;
+O come, sign the pledge!""")
+
+add('484', 'Come, saints and sinners, hear me tell',
+"""Come, saints and sinners, hear me tell
+The wonders of Emmanuel,
+Who saved me from a burning hell,
+And brought my soul with Christ to dwell,
+And gave me heav'nly union.""",
+"""When Jesus saw me from on high,
+Beheld my soul in ruin lie,
+He looked on me with pitying eye,
+And said to me as He passed by,
+"With God you have no union.\"""",
+"""\"O God, have mercy," then said I,
+And looked this way and that to fly;
+It grieved me sore that I must die;
+I strove salvation then to buy,
+But still I had no union.""",
+"""But when depressed and lost in sin,
+My dear Redeemer took me in,
+And with His blood He washed me clean,
+And O what seasons I have seen,
+Since first I felt this union!""")
+
+add('301', 'With songs and honors sounding loud',
+"""With songs and honors sounding loud,
+Address the Lord on high;
+Over the heav'ns He spreads His clouds,
+And waters veil the sky.
+He sends His show'rs of blessings down
+To cheer the plains below;
+He makes the grass the mountains crown,
+And corn in valleys grow.""",
+"""His steady counsels change the face
+Of each declining year;
+He bids the sun cut short his race,
+And wintry days appear.
+On us His providence has shone,
+With gentle shining rays;
+O, may our lips and lives make known
+His goodness and His praise.""")
+
+add('388', 'Come, tell of your ship and what is her name?',
+"""Come, tell of your ship and what is her name?
+Oh, tell me, happy sailor!
+Come, tell of your captain, what is his fame?
+Oh, tell me, happy sailor!""",
+"""CHORUS:She's the old ship of Zion, hallelu! hallelu!
+And her captain, Judah's Lion, hallelujah.""",
+"""Say, is her keel sound, her garner well stored?
+Oh, tell me, happy sailor!
+And will she leave other comrades on board?
+Oh, tell me, happy sailor!""",
+"""She will land us safe on Canaan's bright shore,
+Oh, glory, hallelujah!
+We'll land with our friends, who've gone on before,
+Oh, glory, hallelujah!""")
+
+# 165: FAMILY BIBLE, concluded at the top of p. 166.
+add('165', 'How painfully pleasing the fond recollection',
+"""How painfully pleasing the fond recollection
+Of youthful connection and innocent joy,
+While blessed with parental advice and affection,
+Surrounded with mercy and peace from on high.
+I still view the chairs of my father and mother,
+The seats of their offspring, as ranged on each hand,
+And the richest of books, which excels ev'ry other,
+The family Bible that lay on the stand.""",
+"""The Bible, that volume of God's inspiration,
+At morning and ev'ning could yield us delight,
+The prayers of our father, a sweet invocation,
+For mercy by day and for safety at night.
+O hymns of thanksgiving with harmon'ous sweetness,
+As warmed by the hearts of the family band,
+Hath raised us from earth to that rapturous dwelling
+Described in the Bible that lay on the stand.""")
+
+add('142', "Through ev'ry age, eternal God",
+"""Through ev'ry age, eternal God,
+Thou art our rest, our safe abode;
+High was Thy throne ere heav'n was made,
+Or earth Thy humble footstool laid.""")
+
+add('216', 'No burning heats by day',
+"""No burning heats by day,
+Nor blasts of evening air,
+Shall take my health away,
+If God be with me there.
+Thou art my sun and Thou my shade,
+To guard my head by night or noon.""")
+
+add('224', "When thro' the torn sail the wild tempest is streaming",
+"""When thro' the torn sail the wild tempest is streaming,
+When o'er the dark wave the red lightning is gleaming,
+Nor hope lends a ray the poor seaman to cherish,
+We fly to our Maker, Save, Lord, or we perish.""")
+
+# 95: VERNON, lower half of the page.
+add('95', 'Come, O Thou traveler unknown',
+"""Come, O Thou traveler unknown,
+Whom still I hold, but cannot see;
+My company before is gone,
+And I am left alone with Thee.
+With Thee all night I mean to stay,
+And wrestle till the break of day.""",
+"""In vain Thou strugglest to get free,
+I never will unloose my hold;
+Art Thou the Man that died for me?
+The secret of Thy love unfold.
+Wrestling, I will not let Thee go,
+Till I Thy name, Thy nature know.""")
+
+add('282', "Farewell, vain world! I'm going home!",
+"""Farewell, vain world! I'm going home!
+My Savior smiles and bids me come,
+And I don't care to stay here long!
+Sweet angels beckon me away,
+To sing God's praise in endless day,
+And I don't care to stay here long!""",
+"""CHORUS:Right up yonder, Christians, away up yonder,
+O yes, my Lord, for I don't care to stay here long.""",
+"""I'm glad that I am born to die,
+From grief and woe my soul shall fly,
+And I don't care to stay here long!
+Bright angels shall convey me home,
+Away to New Jerusalem,
+And I don't care to stay here long!""")
+
+add('480', 'There upon the cross of Calvary',
+"""There upon the cross of Calvary
+Our blessed Savior died;
+There between two thieves our blessed Lord
+For us was crucified.""",
+"""CHORUS:Oh, His blood was shed that we might live
+With Him when life is o'er,
+And upon the clouds of glory ride
+Safe to that peaceful shore.""",
+"""Oh! He suffered there for guilty man,
+His life so freely gave,
+When He paid the debt we could not pay
+And triumphed o'er the grave.""")
+
+add('196', 'Angels in shining order stand',
+"""Angels in shining order stand
+Around the Savior's throne;
+They bow with rev'rence at His feet,
+And make His glories known.
+Those happy spirits sing His praise
+To all eternity;
+But I can sing redeeming grace,
+For Jesus died for me.""")
+
+add('197', 'The cross of Christ inspires my heart',
+"""The cross of Christ inspires my heart
+To sing redeeming grace;
+Awake, my soul, and bear a part
+In my Redeemer's praise.
+Oh! who can be compared to Him
+Who died upon the tree?
+This is my dear delightful theme,
+That Jesus died for me.""")
+
+add('211', 'Where nothing dwelt but beasts of prey',
+"""Where nothing dwelt but beasts of prey,
+Or men as fierce and wild as they,
+He bids th'oppressed and poor repair,
+And builds them towns and cities there.
+They sow the fields, and trees they plant,
+Whose yearly fruit supplies their want;
+Their race grows up from fruitful stocks,
+Their wealth increases with their flocks.""")
+
+add('215', 'Young people all, attention give',
+"""Young people all, attention give,
+And hear what I do say;
+I want your souls with Christ to live,
+In everlasting day.
+Remember, you are hast'ning on
+To death's dark, gloomy shade;
+Your joys on earth will soon be gone,
+Your flesh in dust be laid.""")
+
+# 260: FAREWELL ANTHEM, pp. 260-262 (261-262 restored 2026-11-26).
+add('260', 'My friends, I am going a long and tedious journey',
+"""My friends, I am going a long and tedious journey,
+Never to return.
+I am going a long journey, never to return;
+Fare you well, my friends,
+And God grant we may meet together in that world above,
+Where trouble shall cease and harmony shall abound.
+Hark! hark! my dear friends, for death hath called me,
+And I must go, and lie down in the cold and silent grave,
+Where the mourners cease from mourning,
+And the pris'ner is set free,
+Where the rich and the poor are both alike.
+Fare you well, fare you well, fare you well, my friends.""")
+
+add('272', 'Now, in the heat of youthful blood',
+"""Now, in the heat of youthful blood,
+Remember your Creator God;
+Behold the months come hast'ning on,
+When you shall say, My joys are gone.""")
