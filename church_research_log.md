@@ -6059,3 +6059,19 @@ Applied by `prisma/_apply-batch63.ts`.
 
 **Running total: 67 rows to the full standard, 1 church added, 2 held out of scope, 12 promotions.**
 Queue 246 → 240. Remaining: KY 105 · OH 69 · IN 66.
+
+## 2026-11-26 (batch 15) — Ohio: one elder named as pastor, and three look-alike churches in other states
+
+Applied by `prisma/_apply-batch64.ts`. **No stance changed.**
+
+- **#4411 Fearless Church (Dayton/Centerville)** — Dave Sudduth is an **elder and Connection & Training
+  Pastor**; the lead pastor is **Chris Williams**. Beliefs page holds marriage as one man and one woman
+  and fixed sex; nothing on women in office (all-male elder team). Website `befearless.org` attached.
+- **Traps recorded, none attached:** Freedom House at `fhweb.squarespace.com` is in **Charlotte, NC**
+  (and has a husband-and-wife "Senior Pastor" pair, so it would sit below the floor); the Freedom Baptist
+  churchtrac site redirects to **Glenolden, PA**; the podcasting Oxford Baptist is in **Oxford, NC**.
+- **#4408 Nilles Pointe Baptist, #4409 The Well Bible, #4410 Freedom House, #4412 Freedom Baptist,
+  #4413 Oxford Baptist** — no pastor page found for any; recorded as gaps, not negatives.
+
+**Running total: 73 rows to the full standard, 1 church added, 2 held out of scope, 12 promotions.**
+Queue 240 → 234. Remaining: KY 105 · OH 63 · IN 66.
