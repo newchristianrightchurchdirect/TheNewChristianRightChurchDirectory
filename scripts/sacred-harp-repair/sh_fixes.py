@@ -533,12 +533,16 @@ And with Thy gifts our table spread,
 For present joys, for blessings past,
 And for the hope of heav'n at last.""")
 
-# 189: MONTGOMERY, lower half of the page (upper half is SPRING concluded).
+# 189: MONTGOMERY, lower half of p. 189, concluded on p. 190 (restored 2026-11-26).
 add('189', 'Early, my God, without delay',
 """Early, my God, without delay,
 I haste to seek Thy face;
 My thirsty spirit faints away
-Without Thy cheering grace.""")
+Without Thy cheering grace;
+So pilgrims on the scorching sand,
+Beneath a burning sky,
+Long for a cooling stream at hand,
+And they must drink or die.""")
 
 add('178', 'Now shall my inward joys arise',
 """Now shall my inward joys arise,
@@ -777,3 +781,313 @@ And pleasures banish pain.""",
 And never with'ring flow'rs.
 Death, like a narrow sea, divides
 This heav'nly land from ours.""")
+
+add('344', "'Tis by Thy strength the mountains stand",
+"""'Tis by Thy strength the mountains stand,
+God of eternal pow'r!
+The sea grows calm at Thy command,
+And tempests cease to roar.""",
+"""The thirsty ridges drink their fill,
+And ranks of corn appear;
+Thy ways abound with blessings still,
+Thy goodness crowns the year.""")
+
+add('218', 'There is a house not made with hands',
+"""There is a house not made with hands,
+Eternal, and on high;
+And here my spirit, waiting, stands
+Till God shall bid it fly.""")
+
+add('474', 'Unshaken as the sacred hill',
+"""Unshaken as the sacred hill,
+And firm as mountains be,
+Firm as a rock the soul shall rest
+That leans, O Lord, on Thee.""",
+"""Not walls or hills could guard so well
+Old Salem's happy ground,
+As those eternal arms of love
+That ev'ry saint surround.""")
+
+add('268', 'David, the king, was grieved and moved',
+"""David, the king, was grieved and moved,
+He went to his chamber, his chamber, and wept;
+And as he went he wept, and said,
+O my son! O my son!
+Would to God I had died
+For thee, O Absalom, my son, my son!""")
+
+add('279', 'Ye little flock whom Jesus feeds',
+"""Ye little flock whom Jesus feeds,
+Dismiss your anxious fears;
+Look to the Shepherd of your souls,
+And smile away your tears.
+Tho' wolves and lions prowl around,
+His staff is your defense;
+'Mid sands and rocks your Shepherd's voice
+Calls streams and pastures thence.""",
+"""Your Father will a kingdom give,
+And give it with delight;
+His feeblest child His love shall call
+To triumph in His sight.
+A house of many mansions where
+His love will banish grief,
+To sit with joy at God's own throne,
+And know eternal peace.""")
+
+add('505', 'Come on, my friends, and go with me',
+"""Come on, my friends, and go with me,
+For I am on my journey home,
+My Savior welcomes you with me
+To live where joys are ever known.
+With me to that fair land where ceaseless ages roll,
+And roll, where ceaseless ages roll.""")
+
+# 381: SING ON, lower half of the page.
+add('381', 'Farewell, my friends, weep not for me',
+"""Farewell, my friends, weep not for me;
+I'm going home to God;
+I'll travel in the sacred way,
+The path our fathers trod.
+I'll meet my friends who've gone before,
+Around the great white throne;
+We'll shout and sing forevermore,
+And know as we are known.""",
+"""My joy thru life has been to sing
+Of Him who died for me,
+And when I stand before the King,
+His blessed face I'll see.
+All glory to the Son of God,
+Who died upon the tree;
+We'll shout and sing with one accord,
+Thru all eternity.""")
+
+add('383', "O what of all my suff'rings here",
+"""O what of all my suff'rings here,
+If, Lord, Thou count me meet
+With that enraptured host t'appear,
+And worship at Thy feet.
+Give joy or grief, give ease or pain,
+Take life or friends away,
+But let me find them all again
+In that eternal day.""",
+"""O what hath Jesus bought for me,
+Before my ravished eyes?
+Rivers of life divine I see,
+And trees of paradise.
+I see a world of spirits bright,
+Who taste the pleasures there,
+They all are robed in spotless white,
+And conqu'ring palms they bear.""")
+
+add('460', 'Come on, my fellow pilgrims, come',
+"""Come on, my fellow pilgrims, come,
+And let us all be hast'ning home,
+We soon shall land on yon blest shore,
+Where pains and sorrows are no more,
+There we our Jesus shall adore,
+Forever blest.""",
+"""No period then our joys shall know,
+Secure from ev'ry mortal foe;
+No sickness there, no want or pain
+Shall e'er disturb our rest again,
+When with Immanuel we reign,
+Forever blest.""")
+
+# 515: FEDERAL STREET, lower half of the page.
+add('515', 'My dear Redeemer and my Lord',
+"""My dear Redeemer and my Lord,
+I read my duty in Thy Word;
+But in Thy life the law appears,
+Drawn out in living characters.""",
+"""Such was Thy truth and such Thy zeal,
+Such def'rence to Thy Father's will;
+Such love and meekness so divine,
+I would transcribe and make them mine.""",
+"""Cold mountains and the midnight air
+Witnessed the fervor of Thy prayer;
+The desert Thy temptations knew,
+Thy conflict and Thy vict'ry, too.""",
+"""Be Thou my pattern; make me bear
+More of Thy gracious image here;
+Then God, the Judge, shall own my name
+Among the foll'wers of the Lamb.""")
+
+add('299', 'Lo, what a glorious sight appears',
+"""Lo, what a glorious sight appears
+To our believing eyes;
+The earth and seas are passed away,
+And the old rolling skies!""",
+"""From the third heav'n where God resides,
+That holy, happy place,
+The New Jerusalem comes down,
+Adorned with shining grace.""")
+
+add('398', "I'm dying, Mother, dying now",
+"""I'm dying, Mother, dying now,
+Please raise my aching head,
+And fan my heated, burning brow,
+Your boy will soon be dead.
+Turn o'er my pillow once again,
+And kiss my fevered cheek;
+I'll soon be freed from all the pain,
+For now I am so weak.""")
+
+add('428', 'And am I born to die',
+"""And am I born to die,
+To lay this body down!
+And must my trembling spirit fly
+Into a world unknown?""",
+"""Waked by the trumpet's sound,
+I from my grave shall rise;
+And see the Judge with glory crowned,
+And see the flaming skies.""")
+
+# 254: Billings's anthem, pp. 254-259 (pages 255-259 restored to the sheet 2026-11-26 by add_continuation_pages.py).
+add('254', 'I am the rose of Sharon and the lily of the valley',
+"""I am the rose of Sharon and the lily of the valley;
+As the lily among the thorns, so is my love among the daughters;
+As the apple tree among the trees of the wood, so is my beloved among the sons.
+I sat down under his shadow with great delight,
+And his fruit was sweet to my taste.
+He brought me to the banqueting house, his banner over me was love.
+Stay me with flagons, comfort me with apples, for I am sick of love.
+I charge you, O ye daughters of Jerusalem,
+By the roes, and by the hinds of the field,
+That you stir not up, nor awake my love, till he please.
+The voice of my beloved! Behold! he cometh,
+Leaping upon the mountains, skipping upon the hills.
+My beloved spake, and said unto me,
+Rise up, my love, my fair one, and come away.
+For lo, the winter is past, the rain is over and gone.""")
+
+add('270', 'Away, my unbelieving fear!',
+"""Away, my unbelieving fear!
+Fear shall in me no more have place;
+My Savior doth not yet appear,
+He hides the brightness of His face;
+But shall I therefore let Him go,
+And basely to the tempter yield?
+No, in the strength of Jesus, no!
+I never will give up my shield.""")
+
+# 501: O'LEARY, lower half of the page. OCR dropped "not" in v1; the S.M. line needs 8 syllables (Doddridge's text).
+add('501', 'And will the Judge descend',
+"""And will the Judge descend,
+And must the dead arise,
+And not a single soul escape
+His all-discerning eyes?""",
+"""How will my heart endure
+The terrors of that day,
+When earth and heav'n before His face
+Astonished shrink away?""",
+"""But ere the trumpet shakes
+The mansions of the dead,
+Hark, from the gospel's cheering sound,
+What joyful tidings spread!""")
+
+add('418', 'There is a house not made with hands',
+"""There is a house not made with hands,
+Eternal and on high;
+And here my spirit waiting stands
+Till God shall bid it fly.""",
+"""CHORUS:I long to see my friends again,
+And hear them sweetly say,
+Come, weary dove, Here is thy home,
+Then fold thy wings and stay.""",
+"""Shortly this prison of my clay
+Must be dissolved and fall;
+Then, O my soul, with joy obey
+Thy heav'nly Father's call.""",
+"""'Tis He, by His almighty grace,
+That forms thee fit for heav'n;
+And as an earnest of the place,
+Has His own Spirit giv'n.""")
+
+add('277', 'I know that my Redeemer lives',
+"""I know that my Redeemer lives,
+Glory, Hallelujah!
+What comfort this sweet sentence gives,
+Glory, Hallelujah!""",
+"""CHORUS:Shout on, pray on, we're gaining ground,
+Glory, hallelujah!
+The dead's alive, and the lost is found,
+Glory, hallelujah!""",
+"""He lives to bless you with His love,
+Glory, Hallelujah!
+He lives to plead my cause above,
+Glory, Hallelujah!""",
+"""He lives to crush the fiends of hell,
+Glory, Hallelujah!
+He lives and doth within me dwell,
+Glory, Hallelujah!""")
+
+add('400', "Our praying time will soon be o'er",
+"""Our praying time will soon be o'er,
+Hallelujah,
+We'll join with those gone on before,
+Hallelujah.""",
+"""CHORUS:Struggle on, struggle on,
+Hallelujah,
+Struggle on, for the work's most done,
+Hallelujah.""",
+"""To love and bless and praise the name,
+Hallelujah,
+Of Jesus Christ, the bleeding Lamb,
+Hallelujah.""")
+
+# 321: NEWNAN, lower half of the page (upper half is FUNERAL ANTHEM concluded, i.e. the end of 320).
+add('321', 'Vain man, thy fond pursuits forbear',
+"""Vain man, thy fond pursuits forbear,
+Repent, thy end is nigh;
+Death at the farthest can't be far,
+O think before thou die.
+Reflect, thou hast a soul to save,
+Thy sins, how high they mount!
+What are thy hopes beyond the grave?
+How stands that dark account?""")
+
+# 316 concludes at the top of page 317 ("New Hope. Concluded.").
+add('316', 'Jesus, what shall I do to show',
+"""Jesus, what shall I do to show
+How much I love Thy charming name?
+Let my whole heart with rapture glow,
+Thy boundless goodness to proclaim.
+Lord, if a distant glimpse of Thee
+Can give such sweet, such vast delight,
+What must the joy, the triumph be,
+To dwell forever in Thy sight.""")
+
+# 362: NORWICH, lower half of p. 362, continued on 363-364 (restored 2026-11-26).
+add('362', "Oh, the delights, the heav'nly joys",
+"""Oh, the delights, the heav'nly joys,
+The glories of the place
+Where Jesus sheds the brightest beams
+Of His o'erflowing grace!""",
+"""Sweet majesty and awful love
+Sit smiling on His brow,
+And all the glorious ranks above
+At humble distance bow.""")
+
+# 320 FUNERAL ANTHEM concludes at the top of page 321.
+add('320', "I heard a great voice from heav'n",
+"""I heard a great voice from heav'n saying unto me,
+"Write from henceforth, Blessed are the dead that die in the Lord:
+Yea, saith the Spirit, for they rest from their labors,
+And their works which do follow them.\"""")
+
+# 250: Jacob French's anthem, pp. 250-253 (pages 251-253 restored 2026-11-26).
+add('250', 'I beheld, and lo, a great multitude',
+"""I beheld, and lo, a great multitude, which no man could number:
+Thousands of thousands, and ten times thousands,
+Stood before the Lamb, and they had palms in their hands,
+And they cease not day nor night, saying,
+Holy, holy, holy, Lord God Almighty,
+Which was, and is, and is to come.
+And I heard a mighty angel flying thru the midst of heav'n,
+Crying with a loud voice, Woe, woe, woe,
+Be unto the earth by reason of the trumpet which is yet to sound.
+And when the last trumpet sounded, the great men and nobles,
+Rich men and poor, bond and free, gathered themselves together,
+And cried to the rocks and mountains to fall upon them
+And hide them from the face of Him that sitteth on the throne:
+For the great day of the Lord is come, and who shall be able to stand?""")

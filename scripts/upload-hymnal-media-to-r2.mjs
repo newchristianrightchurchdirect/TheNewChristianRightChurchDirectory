@@ -61,7 +61,9 @@ function* walk(dir) {
   }
 }
 
-const files = [...walk(ROOT)]
+// --only=<prefix> limits the run to keys under that prefix (e.g. --only=sh-sheet/)
+const ONLY = (process.argv.find(a => a.startsWith('--only=')) || '').slice(7)
+const files = [...walk(ROOT)].filter(f => !ONLY || relative(ROOT, f).split(sep).join('/').startsWith(ONLY))
 const totalBytes = files.reduce((n, f) => n + statSync(f).size, 0)
 console.log(`${files.length} files, ${(totalBytes / 1073741824).toFixed(2)} GB under public/hymnal-media`)
 if (DRY) { files.slice(0, 10).forEach(f => console.log(`  would upload -> ${relative(ROOT, f).split(sep).join('/')}`)); process.exit(0) }
