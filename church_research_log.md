@@ -6036,3 +6036,26 @@ Applied by `prisma/_apply-batch62.ts`. **No stance changed.**
 
 **Running total: 61 rows to the full standard, 1 church added, 2 held out of scope, 11 promotions.**
 Queue 251 → 246. Remaining: KY 105 · OH 75 · IN 66.
+
+## 2026-11-26 (batch 14) — Ohio: a church that runs a classical school, and five that barely exist online
+
+Applied by `prisma/_apply-batch63.ts`.
+
+- **#4400 The Village Church Columbus — PROMOTED single_issue → transformationalist** (audited). The
+  church's own navigation links "School" to **Ancient Paths Christian & Classical Academy**, at the
+  church's address (3750 Sullivant Ave), "Columbus, Ohio's first fully Christian & fully Classical
+  five-day academy". Its headmaster **Josh Lister** is one of the petition's four names for this church,
+  and **Senior Pastor Zack Ruder teaches its "Christendom" course**. Under the 2026-07-31 education
+  ruling that is a second public front beside H.B. 370. Westminster + Heidelberg, male elders and
+  deacons. Whether the church *founded* the school (vs. hosts and staffs it) is unstated — recorded.
+  Leadership corrected: Chris Boggs is a ruling elder, not a pastor.
+- **#4402 Monterey Baptist, Batavia** — the only pastor on record is **Daryl Poe** (SCBO); "Doug Brown"
+  could not be tied to it. Trap: `montereybaptist.org` is Monterey Baptist, **Lubbock, Texas**.
+- **#4405 East River Road Baptist** — website `errbc.org` found and attached; no staff page.
+- **#4401 Athens Community, #4403 New Hope Baptist, #4406 Stahlheber Baptist** — no findable pastor or
+  page; recorded as gaps, not negatives. `athenscommunitychurch.org` renders client-side and should be
+  checked in a browser before attaching.
+- SBC set as denomination on #4402/#4405/#4406 from SCBO/SBC listings.
+
+**Running total: 67 rows to the full standard, 1 church added, 2 held out of scope, 12 promotions.**
+Queue 246 → 240. Remaining: KY 105 · OH 69 · IN 66.
