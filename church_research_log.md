@@ -5931,3 +5931,70 @@ four SBTS men and three from the Master's orbit.
 
 **Running total: 52 rows to the full standard, 1 church added, 1 held out of scope, 9 promotions.**
 Queue 301 → 249.
+
+## 2026-11-25 (batch 12) — Missouri closed: the "signers" were the committee, and an Editor's Note that was wrong in every clause
+
+Work resumed after a three-month gap. The queue stood at **255** by `_siq.ts` (the 249 in the last
+entry came from a slightly different count); the four Missouri rows were taken first, which closes
+Missouri. **No stance changed.** Applied by `prisma/_apply-batch61.ts`.
+
+### The Missouri "petition signers" are the petition's authors
+
+Re-reading `abolishabortionmo.org/pastors-petition`, the six names imported on 2026-08-05 as
+signatures sit under the heading **"Abolish Abortion Missouri's Pastor's Committee"** — the body that
+issues the petition and calls on other pastors to sign it. The six: Brian Davis (#4481), Gary
+McNamee (#3678), Andrew Barnes (#4482), Matt Sheffer (#4483), Joe Myers (#3287 Sadler Chapel) and
+Adam Woodrum (#4484). The text names five bills (HJR 9, HJR 14, HB 1072, SJR 8, SB 619) and grounds the
+call in "God's requirement of the civil government" (Rom 13:3-4).
+
+That is **stronger evidence of the one marker, not evidence of breadth** — a claim on the civil order,
+but on one question — so all four stay `single_issue`, on the same footing as the H.B. 370 cohort.
+**#4483 (batch 60) got a fact-only addendum**: it called Sheffer a signer.
+
+### #3678 Grace Reformed, Columbia — the public Editor's Note was wrong in every clause
+
+It read *"Three Forms of Unity… Amillennial. Pastor Noah Manring."* The church's own site: standards
+are the **Westminster** Confession plus the **RP Testimony**; no eschatology is published (so
+"amillennial" is withdrawn, not replaced); **Noah Manring is a ruling elder** (a University of
+Missouri engineering professor) and the pastor since 2019 is **Gary McNamee**, an RPTS graduate and
+former US Army captain. The website was also replaced: `gracereformedchurchfcsc.org` has expired, and
+the "fcsc" was history — the congregation was under the **Free Church of Scotland (Continuing)**
+2010-2018 before joining the RPCNA. Live site: `gracerpcna.org`.
+
+> **An Editor's Note is the most visible field in the directory and the least checked.** This one
+> survived a denomination correction on 2026-08-06 because that pass changed the label, not the prose.
+
+### #4482 Christ Presbyterian, Grandview — the pastor has not preached in seven months
+
+Barnes's 2,223 SermonAudio sermons stop on **26 April 2026**; every sermon since is a guest. The site
+and the RPCNA directory still list him; no call, release or leave was found. **Kept and flagged
+`stale_leadership`, not blanked.** Name-collision trap recorded: **Rev. Jan Barnes** (retired UCC,
+Webster Groves) was a plaintiff in the 2023 lawsuit *against* Missouri's abortion bans.
+
+### #4484 Journey Baptist, St. Joseph — the petition's pattern again
+
+Five committee members are titled "Pastor"; **Adam Woodrum is the only one without it.** Every source
+naming Journey's pastor names **Jacob McMillan** (Pathway 2015/2019, Baptist Press 2020, News-Press).
+Leadership corrected; denomination set to SBC from the MBC's own coverage. Trap: `journeybaptist.church`
+is a different Journey Baptist in **Dundee, Michigan**.
+
+### #4481 Whitewater Christian, Perryville — no web presence at all
+
+Only a Madison County MOGenWeb note: rural, "right across the border in Perry Co.", cemetery beside it.
+Traps: a Whitewater Christian Church in Richmond **IN** and Whitewater Crossing in Cleves **OH**.
+Recorded as **a gap in the sources, not a negative finding**.
+
+### For Dustin
+
+1. **The RPCNA question.** Both Missouri RPCNA churches bind the **RP Testimony**, which teaches
+   Christ's mediatorial kingship over the *nations* — that civil government owes Him explicit
+   allegiance. That is closer to the Christian-nationalism marker than anything a generic Westminster
+   church binds, and Grace Reformed's own site calls it "a foundational principle". **Does a binding
+   confessional claim on the civil sphere, plus an abolition committee seat, count as action across
+   public questions?** Not decided here, because it would move every RPCNA row at once.
+2. **#3287 Sadler Chapel UMC** — the committee names **Pastor Joe Myers**; the row records Dave
+   Fowler. It is also a UMC congregation (`womens_ordination` already flagged), which sits awkwardly
+   with the conservative floor set on 2026-08-06 unless it has disaffiliated. Left untouched.
+
+**Running total: 56 rows to the full standard, 1 church added, 1 held out of scope, 9 promotions.**
+Queue 255 → 251. **Missouri: 0 left.** Remaining: KY 105 · OH 80 · IN 66.
