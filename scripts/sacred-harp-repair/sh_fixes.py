@@ -1586,3 +1586,352 @@ But let them think and think again,
 I feel I'm bound for heaven;
 I hope I shall with Jesus reign,
 I therefore still will praise Him.""")
+
+add('144', 'Hark! the jubilee is sounding',
+"""Hark! the jubilee is sounding,
+O the joyful news is come;
+Free salvation is proclaimed
+In and through God's only Son.
+Now we have the invitation
+To the meek and lowly Lamb.
+Glory, honor, and salvation,
+Christ, the Lord, is come to reign.""",
+"""Come, dear friend, and don't neglect it,
+Come to Jesus in your prime;
+Great salvation, don't reject it,
+O receive it, now's your time;
+Now the Savior is beginning
+To revive His work again.
+Glory, honor, and salvation;
+Christ, the Lord, is come to reign.""",
+"""Now let each one cease from sinning,
+Come and follow Christ, the way;
+We shall all receive a blessing,
+If from Him we do not stray:
+Golden moments we've neglected,
+Yet the Lord invites again!
+Glory, honor, and salvation,
+Christ, the Lord, is come to reign.""",
+"""Let us run our race with patience,
+Looking unto Christ the Lord,
+Who doth live and reign for ever,
+With His Father and our God;
+He is worthy to be praised,
+He is our exalted King.
+Glory, honor, and salvation,
+Christ, the Lord, is come to reign.""",
+"""Come, dear children, praise your Jesus,
+Praise Him, praise Him evermore;
+May His great love now constrain us,
+His great name for to adore.
+O then let us join together,
+Crowns of glory to obtain.
+Glory, honor, and salvation;
+Christ, the Lord, is come to reign.""")
+
+# 528: SHOWERS OF BLESSINGS, concluded on p. 529 (restored 2026-11-26).
+add('528', 'With songs and honors sounding loud',
+"""With songs and honors sounding loud,
+Address the Lord on high.
+Over the heav'ns He spreads His clouds,
+And waters veil the sky.
+He sends His show'rs of blessings down
+To cheer the plains below.
+He makes the grass the mountains crown,
+And corn in valleys grow.""")
+
+# 467: LISBON, lower half of the page (upper half is HAYNES CREEK concluded). Book: "To feast" (Watts: "And feasts").
+add('467', 'Welcome, sweet day of rest',
+"""Welcome, sweet day of rest,
+That saw the Lord arise;
+Welcome to this reviving breast
+And these rejoicing eyes.""",
+"""The King Himself comes near,
+To feast His saints today;
+Here we may sit and see Him here,
+And love, and praise, and pray.""")
+
+add('208', 'Farewell, my loving friends, farewell',
+"""Farewell, my loving friends, farewell,
+I have no home or stay with you;
+I'll take my staff and travel on
+Till I a better world can view.""")
+
+add('151', 'Behold, the Judge descends',
+"""Behold, the Judge descends, His guards are nigh;
+Tempests and fire attend Him down the sky;
+Heav'n, earth and hell draw near, let all things come
+To hear His justice and the sinner's doom;
+But gather first, my saints, the Judge commands,
+Bring them, ye angels, from their distant lands.""")
+
+add('287', 'The Lord will happiness divine',
+"""The Lord will happiness divine
+On contrite hearts bestow;
+Then tell me, gracious God, is mine
+A contrite heart, or no?""",
+"""I hear, but seem to hear in vain,
+Insensible as steel;
+If aught is felt, 'tis only pain
+To find I cannot feel.""",
+"""I sometimes think myself inclined
+To love Thee, if I could;
+But often feel another mind
+Averse to all that's good.""",
+"""My best desires are faint and few,
+I fain would strive for more;
+But, when I cry, "My strength renew,"
+Seem weaker than before.""",
+"""Thy saints are comforted, I know,
+And love Thy house of prayer;
+I sometimes go where others go,
+But find no comfort there.""")
+
+# 499: AT REST, lower half of the page. Verse 3 by Floyd M. Frederick, 1960.
+add('499', 'The world can never give',
+"""The world can never give
+The bliss for which we sigh;
+'Tis not the whole of life to live,
+Nor all of death to die.""",
+"""Beyond this vale of tears
+There is a life above,
+Unmeasured by the flight of years,
+An endless life of love.""",
+"""Farewell, dear friends, farewell
+For just a little while;
+We'll meet and sing on Heaven's shore,
+Where parting comes no more.""")
+
+add('483', "I'm not ashamed to own my Lord",
+"""I'm not ashamed to own my Lord,
+Or to defend His cause,
+Maintain the honor of His Word,
+The glory of His cross.
+Jesus, my God, I know His name,
+His name is all my trust,
+Nor will He put my soul to shame,
+Nor let my hope be lost.""",
+"""Firm as His throne His promise stands,
+And He can well secure
+What I've committed to His hands
+Till the decisive hour.
+Then will He own my worthless name
+Before His Father's face,
+And in the new Jerusalem
+Appoint my soul a place.""")
+
+# 280: WESTFORD, concluded on p. 281 (restored 2026-11-26).
+add('280', 'Far from my thoughts, vain world, be gone',
+"""Far from my thoughts, vain world, be gone,
+Let my religious hours alone;
+Fain would my eyes my Savior see,
+I wait a visit, Lord, from Thee.""",
+"""My heart grows warm with holy fire,
+And kindles with a pure desire;
+Come, my dear Jesus, from above,
+And feed my soul with heav'nly love.""",
+"""Blest Jesus, what delicious fare!
+How sweet Thine entertainments are!
+Never did angels taste above
+Redeeming grace and dying love.""")
+
+add('421', 'The happy day will soon appear',
+"""The happy day will soon appear,
+And we'll all shout together in that morning,
+When Gabriel's trumpet you shall hear,
+And we'll all shout together in that morning.""",
+"""CHORUS:Sweet morning, sweet morning,
+And we'll all shout together in that morning.""",
+"""Behold the righteous marching home,
+And we'll all shout together in that morning,
+And all the angels bid them come,
+And we'll all shout together in that morning.""")
+
+# 548: WOOTTEN, concluded at the top of p. 549.
+add('548', 'I soon shall view the promised land',
+"""I soon shall view the promised land,
+I soon shall sing with the angels' band,
+For Jesus' blood has made me free;
+And I soon shall sing in eternity.
+I want to live for Jesus ev'ry day,
+I want to sing His praises once again,
+I want to feel that He is ever near,
+To guard and guide my weary soul
+To that eternal world of joy.""")
+
+add('475', 'Give me a calm, a thankful heart',
+"""Give me a calm, a thankful heart,
+From ev'ry murmur free;
+The blessing of Thy grace impart,
+And make me live to Thee.""",
+"""Let the sweet hope that Thou art mine
+My life and death attend;
+Thy presence through my journey shine,
+And crown my journey's end.""")
+
+# 539: SUPPLICATION, lower half of the page.
+add('539', 'Glory to Thee, my God on high',
+"""Glory to Thee, my God on high,
+For all the blessings of this life;
+Oh, let Thy mercy fill my heart,
+And let all fears from me depart.""",
+"""Oh, let Thy thought and praise arise
+In grateful anthems in the skies;
+Take Thou my soul when life is o'er
+To live with Thee forevermore.""")
+
+add('360', "Hosanna to Jesus, my soul's fill'd with praises",
+"""Hosanna to Jesus, my soul's fill'd with praises,
+Come, O my dear brethren, and help me to sing;
+No music so charming, no look is so warming,
+It gives life and comfort and gladness within.
+Hosanna is ringing: O how I love singing,
+There's nothing so sweet as the sound of His name;
+The angels in glory repeat the glad story
+Of love which in Jesus is made known to man.""",
+"""Hosanna to Jesus! my soul how it pleases
+To see sinners falling and crying to God;
+Then shouting and praising, they cry, "'Tis amazing;
+We've found peace and pardon in Jesus' blood!"
+Hosanna is ringing, hark, how they are singing,
+"All glory to Jesus, we've tasted His love!"
+The kingdom of heaven to mortals is given,
+And rolls through my soul from the mansions above.""")
+
+# 193: HUNTINGTON, lower half of p. 193, concluded on p. 194 (restored 2026-11-26).
+add('193', 'Lord, what a thoughtless wretch was I',
+"""Lord, what a thoughtless wretch was I
+To mourn and murmur and repine,
+To see the wicked placed on high,
+In pride and robes of honor shine.
+But oh, their end, their dreadful end!
+Thy sanctuary taught me so;
+On slipp'ry rocks I see them stand,
+And fiery billows roll below.""")
+
+add('463', 'Lord, how divine Thy comforts are',
+"""Lord, how divine Thy comforts are,
+How heav'nly is the place,
+Where Jesus spreads the sacred feast
+Of His redeeming grace.
+Our humble faith is made to rise
+While sitting 'round His throne,
+And back to Calvary it flies
+To view its groaning Lord.""")
+
+add('369', "Oh, tell me no more of this world's vain store",
+"""Oh, tell me no more of this world's vain store,
+The time for such trifles with me now is o'er.
+A country I found where true joys abound;
+To dwell I'm determined on that happy ground.""",
+"""CHORUS:Send a blessing, send a blessing, send a blessing,
+Send a blessing, send a blessing just now,
+Just now, just now, send a blessing just now.""",
+"""The souls that believe, in paradise live,
+And me in that number will Jesus receive;
+My soul, don't delay — He calls thee away;
+Rise, follow Thy Savior and bless the glad day.""",
+"""But this I do find: we two are so joined,
+He'll not live in glory and leave me behind;
+So this is the race I'm running through grace,
+Henceforth — till admitted to see my Lord's face.""")
+
+add('214', 'Oh, if my soul was formed for woe',
+"""Oh, if my soul was formed for woe,
+How would I vent my sighs!
+Repentance should like rivers flow
+From both my streaming eyes.
+'Twas for my sins my dearest Lord
+Hung on that cursed tree,
+And groaned away His dying life,
+For thee, my soul, for thee.""")
+
+add('379', 'My span of life will soon be gone',
+"""My span of life will soon be gone,
+The passing moments say;
+As length'ning shadows o'er the mead
+Proclaim the close of day.
+Oh, that my heart might dwell aloof
+From all created things,
+And learn that wisdom from above
+Whence true contentment springs.""",
+"""Ere first I drew this vital breath,
+From nature's prison free,
+Crosses in number, measure, weight,
+Were written, Lord, for me.
+But Thou my Shepherd, Friend, and Guide,
+Hast kindly led me on,
+Taught me to rest my fainting head
+On Christ, the Corner-stone.""",
+"""So comforted and so sustained
+With dark events I strove,
+And found them rightly understood,
+All messengers of love;
+With silent and submissive awe,
+Adored a chast'ning God,
+Revered the terrors of His law,
+And humbly kissed the rod.""")
+
+add('327', 'Hark! the Redeemer from on high',
+"""Hark! the Redeemer from on high,
+Sweetly invites His fav'rites nigh,
+From caves of darkness and of doubt,
+He gently speaks and calls us out.
+Come, my beloved, haste away,
+Cut short the hours of thy delay;
+Fly like a youthful hart or roe,
+Over the hills where spices grow.""")
+
+add('545', 'Dark and thorny is the desert',
+"""Dark and thorny is the desert,
+Through which pilgrims make their way,
+But beyond this vale of sorrow
+Is a land of perfect day.
+Tired and thirsty are the pilgrims
+As they cross the burning sand,
+But the Master walks beside them
+Till they reach the heav'nly land.""")
+
+add('329', 'When for eternal worlds we steer',
+"""When for eternal worlds we steer,
+And seas are calm and skies are clear,
+And faith in lively exercise,
+And distant hills of Canaan rise,
+The soul for joy then claps her wings,
+And loud her hallelujah sings,
+Vain world, adieu.""",
+"""With cheerful hope her eyes explore
+Each landmark on the distant shore:
+The trees of life, the pastures green,
+The crystal stream, delightful scene.
+Again for joy she claps her wings,
+And loud her lovely sonnet sings,
+Vain world, adieu.""",
+"""The nearer still she draws to land,
+More eager all her pow'rs expand;
+With steady helm, and free-bent sail,
+Her anchor drops within the veil.
+Again for joy she claps her wings,
+And her celestial sonnet sings,
+I'm there at last.""")
+
+add('504', 'When we our wearied limbs to rest',
+"""When we our wearied limbs to rest
+Sat down by proud Euphrates' stream,
+We wept with doleful thoughts oppressed,
+And Zion was our mournful theme.""",
+"""Our harps that when with joy we sung
+Were wont their tuneful parts to bear,
+With silent strings neglected hung
+On willow trees that withered there.""")
+
+# 536: SWEET MAJESTY, concluded on p. 537 (restored 2026-11-26).
+add('536', "Oh, the delights, the heav'nly joys",
+"""Oh, the delights, the heav'nly joys,
+The glories of the place,
+Where Jesus sheds the brightest beams
+Of His o'erflowing grace.
+Sweet majesty and awful love
+Sit smiling on His brow,
+And all the glorious ranks above
+At humble distance bow.""")
