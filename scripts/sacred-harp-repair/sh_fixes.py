@@ -1091,3 +1091,498 @@ Rich men and poor, bond and free, gathered themselves together,
 And cried to the rocks and mountains to fall upon them
 And hide them from the face of Him that sitteth on the throne:
 For the great day of the Lord is come, and who shall be able to stand?""")
+
+add('387', "While trav'ling thro' the world below",
+"""While trav'ling thro' the world below,
+Where sore afflictions come,
+My soul abounds with joy to know
+That I will rest at home.""",
+"""CHORUS:Carry me home, carry me home,
+When my life is o'er;
+Then carry me to my long-sought home,
+Where pain is felt no more.""",
+"""My soul's delight has been to sing
+Of glorious days to come,
+When I shall, with my God and King,
+Forever rest at home.""",
+"""Yes, when my eyes are closed in death,
+My body cease to roam,
+I'll bid farewell to all below,
+And meet my friends at home.""",
+"""And then I want these lines to be
+Inscribed upon my tomb,
+"Here lies the dust of S. R. P.,
+His spirit sings at home.\"""")
+
+# 549: PHILLIPS FAREWELL, lower half of the page.
+add('549', 'My days on earth are almost gone',
+"""My days on earth are almost gone,
+The things I want can not be won;
+It is the Lord that freely gives,
+It's where He lives I want to live.""",
+"""It is one thing I surely know,
+It is to heav'n I want to go
+To sing His praise where angels sing,
+To praise my Lord and Savior King.""",
+"""My life has been to sing God's praise
+In hope of the eternal days;
+I mean to do the best I can
+And meet you in the promised land.""",
+"""My friends have been so good to me,
+And where you go I want to be;
+My love for you no tongue can tell,
+Dear loving friends, so fare you well.""")
+
+add('231', 'Thou art passing away, thou art passing away',
+"""Thou art passing away, thou art passing away,
+Thy life has been brief as a midsummer day;
+Thy forehead is pale, and thy pulses are low,
+And thy once blooming cheek wears an ominous glow.""",
+"""Thou art passing away from the beautiful earth,
+Thy much lov'd abode, and the land of thy birth;
+From its forests and fields, from its murmuring rills,
+From its beautiful plains and its herbage-crowned hills.""",
+"""Thou art passing away from thy kindred and friends,
+And the last chain that bound thee, the spoiler now rends;
+And thy last tones are falling on love's list'ning ear,
+And now in thine eye shines the fond, parting tear.""")
+
+# 409: the book prints "the dear object" (Watts: "objects").
+add('409', 'How long, dear Savior, Oh, how long',
+"""How long, dear Savior, Oh, how long
+Shall this bright hour delay?
+Fly swift around, ye wheels of time,
+And bring the promised day.""",
+"""The God of glory down to men
+Removes His blest abode;
+Men, the dear object of His grace,
+And He, the loving God.""",
+"""His own soft hand shall wipe the tears
+From ev'ry weeping eye;
+And pains and groans, and griefs and fears,
+And death itself shall die.""")
+
+# 391: the book prints "But when the gospel comes" (Watts: "where").
+add('391', 'Behold the morning sun',
+"""Behold the morning sun
+Begins his glorious way;
+His beams through all the nations run,
+And life and light convey.""",
+"""But when the gospel comes,
+It spreads diviner light;
+It calls dead sinners from their tombs,
+And gives the blind their sight.""",
+"""My gracious God, how plain
+Are Thy directions giv'n,
+Oh, may I never read in vain,
+But find the path to heav'n.""")
+
+add('149', 'The chariot! the chariot! its wheels roll in fire',
+"""The chariot! the chariot! its wheels roll in fire,
+As the Lord cometh down in the pomp of His ire!
+Lo! self-moving it drives on its pathway of cloud,
+And the heav'ns with the burden of Godhead are bowed.""",
+"""The glory! the glory! around Him are poured
+Mighty hosts of the angels that wait on the Lord;
+And the glorified saints and the martyrs are there,
+And there all who the palm-wreaths of victory wear.""",
+"""The trumpet! the trumpet! the dead all have heard,
+Lo, the depths of the stone-covered charnel are stirred:
+From the sea, from the earth, from the south, from the north,
+And the vast generations of man are come forth.""",
+"""The judgment! the judgment! the thrones are all set,
+Where the Lamb and the white-vested elders are met;
+There all flesh is at once in the sight of the Lord,
+And the doom of eternity hangs on His word.""",
+"""O mercy! O mercy! look down from above,
+Great Creator, on us, Thy sad children, with love;
+When beneath to their darkness the wicked are driv'n,
+May our justified souls find a welcome in heav'n.""")
+
+add('212', "How pleasant 'tis to see",
+"""How pleasant 'tis to see
+Kindred and friends agree,
+Each in his proper station move,
+And each fulfill his part,
+With sympathizing heart,
+In all the cares of life and love.""")
+
+add('222', 'Thy works of glory, mighty Lord',
+"""Thy works of glory, mighty Lord,
+That rul'st the boist'rous sea,
+The sons of courage shall record,
+Who tempt the dang'rous way.""",
+"""At Thy command the winds arise,
+And swell the tow'ring waves;
+The men astonished mount the skies,
+And sink in gaping graves.""")
+
+add('374', 'Oh! sing with me of social spheres',
+"""Oh! sing with me of social spheres
+Where breathes in kindness mutual love,
+Where no ungentle look appears,
+Though faithfulness should ev'n reprove.
+Come, sing of all that's bright and fair
+In azure sky and beauteous earth,
+Oh, sing of heav'n, our hopes are there,
+With treasures of immortal worth.""")
+
+add('350', 'O for a thousand tongues to sing',
+"""O for a thousand tongues to sing
+My great Redeemer's praise,
+The glories of my God and King,
+The triumphs of His grace.""",
+"""He breaks the pow'r of cancelled sin,
+He sets the pris'ner free;
+His blood can make the foulest clean,
+His blood availed for me.""",
+"""My gracious Master and my God,
+Assist me to proclaim,
+To spread thro' all the earth abroad
+The honors of Thy name.""")
+
+add('139', 'Burst, ye emerald gates, and bring',
+"""Burst, ye emerald gates, and bring
+To my raptured vision
+All th'ecstatic joys that spring
+'Round the bright Elysian.
+Lo, we lift our longing eyes,
+Burst, ye intervening skies,
+Sun of righteousness, arise;
+Ope the gates of Paradise.""",
+"""Floods of everlasting light
+Freely flash before Him;
+Myriads, with supreme delight,
+Instantly adore Him.
+Angel trumps resound His fame,
+Lutes of lucid gold proclaim
+All the music of His name;
+Heaven echoing the theme.""",
+"""Four-and-twenty elders rise
+From their princely station;
+Shout His glorious victories,
+Sing the great salvation;
+Cast their crowns before His throne,
+Cry in reverential tone,
+"Glory give to God alone,
+Holy, holy, holy One!\"""")
+
+add('230', 'As pants the hart for cooling streams',
+"""As pants the hart for cooling streams,
+When heated in the chase;
+So longs my soul, O God, for Thee,
+And Thy refreshing grace.
+Oh, for converting grace, and oh,
+For sanctifying pow'r;
+Lord, we ask in Jesus' name,
+A sweet, refreshing show'r.""",
+"""For Thee, my God, the living God,
+My thirsty soul doth pine;
+Oh, when shall I behold Thy face,
+Thy majesty divine?
+Why restless, why cast down, my soul?
+Hope still; and thou shalt sing
+Praise of Him who is thy God,
+Thy health's eternal spring.""")
+
+add('332', 'Hail, ye sighing sons of sorrow',
+"""Hail, ye sighing sons of sorrow;
+Learn with me your certain doom;
+Learn with me your fate tomorrow —
+Dead, perhaps, laid in the tomb!
+See all nature fading, dying,
+Silent, all things seem to mourn;
+Life from vegetation flying,
+Calls to mind the mould'ring urn.""",
+"""Oft the autumn tempest rising,
+Makes the lofty forest nod;
+Scenes of nature, how surprising,
+Read in nature, Nature's God.
+And our sov'reign sole Creator
+Lives eternal in the sky,
+While we mortals yield to nature,
+Bloom awhile, then fade and die.""",
+"""Fast my sun of life's declining,
+Soon 'twill set in dismal night;
+But my hopes, pure and refining,
+Rest in future life and light.
+Cease then trembling, fearing, sighing,
+Death will break the sullen gloom;
+Soon my spirit, flutt'ring, flying,
+Shall be borne beyond the tomb.""")
+
+# 304: MORGAN, continued on p. 305 (restored 2026-11-26).
+add('304', 'With songs and honors sounding loud',
+"""With songs and honors sounding loud,
+Address the Lord on high!
+Over the heav'ns He spreads His cloud,
+And waters veil the sky.
+He sends His show'rs of blessings down,
+To cheer the plains below;
+He makes the grass the mountains crown,
+And corn in valleys grow.""")
+
+# 445: PASSING AWAY, lower half of the page.
+add('445', 'And must I be to judgment brought',
+"""And must I be to judgment brought,
+And answer in that day
+For ev'ry vain and idle thought,
+And ev'ry word I say?""",
+"""CHORUS:We are passing away, we are passing away,
+We are passing away to that great judgment day.""",
+"""Yes, ev'ry secret of my heart
+Shall shortly be made known,
+And I receive my just desert
+For all that I have done.""",
+"""How careful, then, ought I to be;
+With what religious fear,
+Who such a strict account must give
+For my behavior here.""")
+
+add('319', 'O when shall I see Jesus',
+"""O when shall I see Jesus,
+And reign with Him above?
+And from the flowing fountain
+Drink everlasting love?
+Shout glory, hallelujah.""",
+"""CHORUS:When we all get to heaven,
+We will shout aloud and sing,
+Shout glory, hallelujah.
+Religion is a fortune,
+And heaven is a home,
+Shout glory, hallelujah.""",
+"""When shall I be delivered
+From this vain world of sin?
+And with my blessed Jesus
+Drink endless pleasures in?
+Shout glory, hallelujah.""")
+
+add('517', 'How shall the young secure their hearts',
+"""How shall the young secure their hearts
+And guard their lives from sin?
+Thy Word the choicest rule imparts,
+To keep the conscience clean.""",
+"""Thy Word is everlasting truth,
+How pure is ev'ry page!
+That holy book shall guide our youth,
+And well support our age.""")
+
+add('289', 'There is a land of pure delight',
+"""There is a land of pure delight,
+Where saints immortal reign;
+Infinite day excludes the night,
+And pleasures banish pain.""",
+"""There everlasting spring abides,
+And never-with'ring flow'rs;
+Death, like a narrow sea, divides
+This heav'nly land from ours.""",
+"""Sweet fields beyond the swelling flood
+Stand dressed in living green;
+So to the Jews old Canaan stood,
+While Jordan rolled between.""",
+"""But tim'rous mortals start and shrink
+To cross this narrow sea,
+And linger, shiv'ring on the brink,
+And fear to launch away.""",
+"""O could we make our doubts remove,
+Those gloomy doubts that rise,
+And see the Canaan that we love
+With unbeclouded eyes.""",
+"""Could we but climb where Moses stood,
+And view the landscape o'er,
+Not Jordan's stream, nor death's cold flood
+Should fright us from the shore.""")
+
+add('392', 'There is a land of pure delight',
+"""There is a land of pure delight,
+Where saints immortal reign,
+Infinite day excludes the night,
+And pleasures banish pain.
+There everlasting spring abides,
+And never with'ring flow'rs;
+Death, like a narrow sea, divides
+This heav'nly land from ours.""",
+"""There I shall bathe my weary soul
+In seas of heav'nly rest,
+And not a wave of trouble roll
+Across my peaceful breast.
+When we've been there ten thousand years,
+Bright shining as the sun,
+We've no less days to sing God's praise
+Than when we first begun.""")
+
+# 234: REVERENTIAL ANTHEM, concluded at the top of p. 235.
+add('234', 'Give unto the Lord the glory due unto His name',
+"""Give unto the Lord the glory due unto His name:
+Come into His courts,
+Worship the Lord in the beauty of holiness.
+Fear before Him all the earth,
+He shall judge the people righteously.
+Let the heav'ns rejoice, and the earth be glad before the Lord,
+For He cometh to judge the world with righteousness,
+And the people with His truth.""")
+
+# 503: LLOYD, lower half of the page. "a drop of Thy real joy" as printed.
+add('503', 'My Savior and my King',
+"""My Savior and my King,
+Thy beauties are divine;
+Thy lips with blessing overflow,
+And ev'ry grace is Thine.""",
+"""The smilings of Thy face,
+How amiable they are;
+'Tis heav'n to rest in Thine embrace
+And nowhere else but there.""",
+"""Nor earth, nor all the sky,
+Can one delight afford;
+No, not a drop of Thy real joy,
+Without Thy presence, Lord.""")
+
+add('341', 'I came to the place where the lone pilgrim lay',
+"""I came to the place where the lone pilgrim lay,
+And pensively stood by his tomb,
+When in a low whisper I heard something say,
+"How sweetly he sleeps here alone.\"""",
+"""The tempest may howl, and the loud thunders roar,
+And gathering storms may arise,
+Yet calm are his feelings, at rest is his soul,
+The tears are all wiped from his eyes.""",
+"""The cause of his Master propelled him from home,
+He bade his companions farewell;
+He blessed his dear children, who for him now mourn,
+In far distant regions they dwell.""",
+"""He wandered an exile and stranger from home,
+No kindred or relative nigh;
+He met the contagion and sank to his tomb,
+His soul flew to mansions on high.""",
+"""O tell his companions and children most dear,
+To weep not for him, now he's gone;
+The same God that led Him through scenes most severe
+Has kindly assisted him home.""")
+
+add('368', 'A few more days on earth to spend',
+"""A few more days on earth to spend,
+And all my toils and cares shall end,
+And I shall see my God and friend,
+And praise His name on high;
+No more to sigh or shed a tear,
+No more to suffer pain or fear,
+But God and Christ and heav'n appear
+Unto the raptured eye.""")
+
+add('440', 'My soul, come meditate the day',
+"""My soul, come meditate the day,
+And think how near it stands,
+When thou must quit this house of clay,
+And fly to unknown lands.""",
+"""And you, mine eyes, look down and view
+The hollow, gaping tomb;
+This gloomy prison waits for you,
+Whene'er the summons come.""")
+
+# 558: LIVING STREAMS, pp. 558-560 (559 restored 2026-11-26; 560 top is the conclusion).
+add('558', 'My Shepherd is the Lord most high',
+"""My Shepherd is the Lord most high,
+And all my wants He will supply,
+In pastures green He makes me lie,
+And leads by streams that never die.
+He in His mercy doth restore
+My soul when sinking in distress,
+For His name's sake He evermore
+Leads me in paths of righteousness.""",
+"""Yea, though I walk through death's dark vale,
+E'en there no evil shall I fear,
+Because Thy presence shall not fail,
+Thy rod and staff my soul shall cheer.
+For me a table Thou hast spread
+Before the faces of my foes;
+With oil Thou dost anoint my head,
+My cup is full and overflows.""")
+
+# 365: SOUTHWELL, concluded on p. 366 (restored 2026-11-26).
+add('365', "'Tis finished, 'tis finished",
+"""'Tis finished, 'tis finished, 'tis finished, 'tis finished,
+The Redeemer said,
+And meekly bowed His dying head.
+While we the sentence scan,
+Come sinners, and observe the word,
+Behold the conquest of the Lord,
+Complete for sinful man,
+Complete, complete, complete for sinful man.""")
+
+# 544: PRAISE HIM, lower half of the page.
+add('544', "I'll praise Him while He gives me breath",
+"""I'll praise Him while He gives me breath,
+I long to praise Him after death.
+I'll praise Him when I'm called to die,
+And shout salvation when I die.""",
+"""Time soon shall stop my fleeting breath,
+And in His arms resigned to death,
+My trembling soul to all can tell
+That Jesus doeth all things well.""",
+"""Then I shall see Him face to face,
+And praise Him in that holy place.
+My theme thru all eternity
+Shall glory, glory, glory be.""")
+
+add('337', "What's this that in my soul is rising?",
+"""What's this that in my soul is rising?
+Is it grace? Is it grace?
+Which makes me keep for mercy crying,
+Is it grace? Is it grace?
+This work that's in my soul begun,
+It makes me strive all sin to shun,
+It plants my soul beneath the sun,
+Mercy's free! Mercy's free!""",
+"""Great God of love, I can but wonder,
+Mercy's free! Mercy's free!
+Though I've no price at all to tender,
+Mercy's free! Mercy's free!
+Though mercy's free, our God is just,
+And if a soul should e'er be lost,
+This will torment the sinner most;
+Mercy's free! Mercy's free!""",
+"""This truth through all our life shall cheer us,
+Mercy's free! Mercy's free!
+And through the vale of death shall bear us,
+Mercy's free! Mercy's free!
+And when to Jordan's bank we come,
+And cross the raging billows' foam,
+We'll sing, when safely landed home:
+Mercy's free! Mercy's free!""")
+
+# 466: HAYNES CREEK, concluded at the top of p. 467.
+add('466', 'A throne of grace, then let us go',
+"""A throne of grace, then let us go
+And offer up our prayer;
+A gracious God will mercy show
+To all that worship there.
+A throne of grace, oh, at that throne
+Our knees have often bent,
+And God has showered His blessing down
+As oft, as often as we went.""")
+
+add('406', 'I want to live a Christian here',
+"""I want to live a Christian here,
+I want to die a-shouting,
+I want to feel my Savior near,
+While soul and body's parting.
+I want to see bright angels stand
+And waiting to receive me,
+To bear my soul to Canaan's land,
+Where Christ has gone before me.""",
+"""My heart is often made to mourn
+Because I'm faint and feeble,
+And when my Savior seems to frown,
+My soul is fill'd with trouble.
+But when He doth again return,
+And I repent my folly,
+'Tis then I after glory run,
+And still my Jesus follow.""",
+"""I have my bitter and my sweet
+While through this world I travel,
+Sometimes I shout and often weep,
+Which makes my foes to marvel.
+But let them think and think again,
+I feel I'm bound for heaven;
+I hope I shall with Jesus reign,
+I therefore still will praise Him.""")
