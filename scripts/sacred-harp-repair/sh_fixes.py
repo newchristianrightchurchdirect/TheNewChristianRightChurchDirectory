@@ -2258,3 +2258,324 @@ add('272', 'Now, in the heat of youthful blood',
 Remember your Creator God;
 Behold the months come hast'ning on,
 When you shall say, My joys are gone.""")
+
+# 456: the second section is printed once and sung after both stanzas.
+add('456', 'Sing, O ye ransomed of the Lord',
+"""Sing, O ye ransomed of the Lord,
+Your great Redeemer sing;
+Pilgrims for Zion's city bound,
+Be joyful in your King,""",
+"""March on in your Redeemer's strength,
+Pursue His footsteps still;
+Pilgrims for Zion's city bound,
+Be joyful in your King,""",
+"""CHORUS:Be joyful in your King,
+A hand divine shall lead you on,
+Thru all the blissful road,
+Till to the sacred mount you rise,
+And see your smiling God.""")
+
+add('228', 'O for a shout of sacred joy',
+"""O for a shout of sacred joy
+To God the sov'reign King!
+Let ev'ry land their tongues employ,
+And hymns of triumph sing.""")
+
+add('449', 'There is a place where my hopes are stayed',
+"""There is a place where my hopes are stayed,
+My heart and my treasures are there,
+Where virtue and blessings never fade,
+And fields are eternally fair.
+That blissful place is my fatherland,
+By faith its delights I explore,
+Come, favor my flight, angelic band,
+And waft me in peace to the shore.""")
+
+add('534', 'The mighty hand of God doth reign',
+"""The mighty hand of God doth reign,
+As in the ages past,
+His blood has entered death's domain
+To guide us home at last.
+His praise we'll sing the earth around,
+His praise we'll sing,
+And upward lift our eyes.""",
+"""When sun and moon, and earth, and stars,
+And time shall be no more,
+Through His own blood and battle scars
+We'll land on Canaan's shore.
+His praise forever we shall sing,
+His praise we'll sing,
+And mount the upper sky.""")
+
+add('169', 'Come, sound His praise abroad',
+"""Come, sound His praise abroad,
+And hymns of glory sing;
+Jehovah is the sov'reign God,
+The universal King.
+He formed the deep unknown,
+He gave the seas their bound;
+The wat'ry worlds are all His own,
+And all the solid ground.""",
+"""Come, worship at His throne,
+Come, bow before the Lord;
+We are His work, and not our own:
+He formed us by His Word.
+Today attend His voice,
+Nor dare provoke His rod;
+Come, like the people of His choice,
+And own your gracious God.""")
+
+add('171', 'Lord, in the morning Thou shalt hear',
+"""Lord, in the morning Thou shalt hear
+My voice ascending high;
+To Thee will I direct my prayer,
+To Thee lift up mine eye.""",
+"""Up to the hills where Christ is gone
+To plead for all His saints,
+Presenting at His Father's throne
+Our songs and our complaints.""")
+
+add('465', 'I have my troubles here below',
+"""I have my troubles here below
+As the narrow way I follow,
+But there's a land of peace and rest,
+Where there's no trouble or sorrow.
+Yes, my loved ones now are over there,
+And I know I soon will follow,
+I'll see my Savior in that land
+Where there's no trouble or sorrow.""")
+
+add('136', 'While beauty and youth are in their full prime',
+"""While beauty and youth are in their full prime,
+And folly and fashion affect our whole time;
+Oh, let not the phantom our wishes engage;
+Let's live so in youth that we blush not in age.""",
+"""I sigh not for beauty, nor languish for wealth,
+But grant me, kind Providence, virtue and health;
+Then, richer than kings, and far happier than they,
+My days shall pass swiftly and sweetly away.""",
+"""The vain and the young may attend us a while,
+But let not their flatt'ry our prudence beguile.
+Let's covet those charms that shall never decay,
+Nor listen to all that deceivers can say.""")
+
+add('284', 'The Lord into His garden comes',
+"""The Lord into His garden comes,
+The spices yield a rich perfume,
+The lilies grow and thrive,
+The lilies grow and thrive;
+Refreshing show'rs of grace divine,
+From Jesus flow to ev'ry vine,
+And make the dead revive,
+And make the dead revive.""",
+"""Come, brethren, you who love the Lord,
+Who taste the sweetness of His word,
+In Jesus' word go on,
+In Jesus' word go on;
+Our troubles and our trials here
+Will only make us richer there
+When we arrive at home,
+When we arrive at home.""")
+
+add('479', "Let the high heav'ns your songs invite",
+"""Let the high heav'ns your songs invite,
+These spacious fields of brilliant light,
+Where sun and moon and planets roll,
+And stars that glow from pole to pole.""",
+"""Sun, moon and stars convey Thy praise
+Round the whole earth and never stand,
+So when Thy truth began its race,
+It touched and glanced on ev'ry hand.""")
+
+add('296', "Behold the love, the gen'rous love",
+"""Behold the love, the gen'rous love
+That holy David shows!
+Behold his kind compassion move
+For his afflicted foes!
+When they are sick, his soul complains,
+And seems to feel the smart;
+The spirit of the gospel reigns,
+And melts his pious heart.""",
+"""How did his flowing tears condole
+As for a brother dead!
+And fasting, mortified his soul,
+While for their lives he prayed.
+They groaned and cursed him on their bed,
+Yet still he pleads and mourns;
+And double blessings on his head
+The righteous Lord returns.""",
+"""O glorious type of heav'nly grace!
+Thus Christ the Lord appears;
+While sinners curse, the Savior prays,
+And pities them with tears.
+He the true David, Israel's King,
+Blessed and beloved of God,
+To save us rebels dead in sin,
+Paid His own dearest blood.""")
+
+add('546', 'My God, the spring of all my joys',
+"""My God, the spring of all my joys,
+The life of my delights,
+The glory of my brightest days,
+And comfort of my nights.""",
+"""In darkest shades if He appears,
+My dawning is begun;
+He is my soul's sweet morning star,
+And He's my rising sun.""")
+
+add('462', 'What shall I do, shall I lie down',
+"""What shall I do, shall I lie down
+And sink in deep despair?
+Will He forever wear a frown
+Nor hear my feeble prayer?
+No, He will put His strength in me;
+He knows the way I've strolled;
+And when I'm tried sufficiently,
+I shall come forth as gold.""",
+"""When I can read my title clear
+To mansions in the sky,
+I'll bid farewell to ev'ry fear
+And wipe my weeping eyes.
+When we've been there ten thousand years,
+Bright shining as the sun,
+We've no less days to sing God's praise
+Than when we first begun.""")
+
+add('172', 'Wake, all ye soaring throngs, and sing',
+"""Wake, all ye soaring throngs, and sing,
+Ye cheerful warblers of the spring,
+Harmonious anthems raise
+To Him who shaped your finer mold,
+Who tipped your glitt'ring wings with gold,
+And tuned your voice to praise.""")
+
+# 174: PETERSBURG, concluded at the top of p. 175.
+add('174', 'Thus saith the high and lofty One',
+"""Thus saith the high and lofty One:
+I sit upon my holy throne,
+My name is God, I dwell on high,
+Dwell in my own eternity.
+But I descend to worlds below,
+On earth I have a mansion, too,
+The humble spirit and contrite
+Is an abode of my delight.""")
+
+add('181', 'Death, like an overflowing stream',
+"""Death, like an overflowing stream,
+Sweeps us away; our life's a dream,
+An empty tale, a morning flow'r,
+Cut down and withered in an hour.""",
+"""Our age to seventy years is set,
+How short the time, how frail the state!
+And if to eighty we arrive,
+We rather sigh and groan than live.""")
+
+# 240: CHRISTIAN SONG, concluded on p. 241 (restored 2026-11-26).
+add('240', 'Mine eyes are now closing to rest',
+"""Mine eyes are now closing to rest,
+My body must soon be removed,
+And mold'ring, lie buried in dust,
+No more to be envied or loved.
+Ah! what is this drawing my breath,
+And stealing my senses away?
+O tell me, my soul, is it death,
+Releasing me kindly from clay?
+Now mounting, my soul shall descry
+The regions of pleasure and love;
+My spirit triumphant shall fly,
+And dwell with my Savior above.""")
+
+add('152', 'Shepherds, rejoice! lift up your eyes',
+"""Shepherds, rejoice! lift up your eyes,
+And send your fears away,
+News from the regions of the skies,
+A Savior's born today.
+Jesus, the God whom angels fear,
+Comes down to dwell with you,
+Today He makes His entrance here,
+But not as monarchs do.""",
+"""No gold nor purple swaddling bands,
+Nor royal shining things,
+A manger for His cradle stands,
+And holds the King of kings.
+Go, shepherd, where the infant lies,
+And see His humble throne;
+The tears of joy in all your eyes,
+Go, shepherd, kiss the Son.""",
+"""Thus Gabriel sang and straight abound
+The heav'nly armies throng,
+They tune their harps to softly sound,
+And thus conclude their song.
+Glory to God who reigns above,
+Let peace surround the earth,
+Mortals shall know their Maker's love
+At their Redeemer's birth.""")
+
+add('269', 'Lord, when Thou didst ascend on high',
+"""Lord, when Thou didst ascend on high,
+Ten thousand angels filled the sky;
+Those heav'nly guards around Thee wait,
+Like chariots that attend Thy state.""")
+
+add('137', "No more beneath th'oppressive hand",
+"""No more beneath th'oppressive hand
+Of tyranny we groan;
+Behold the smiling, happy land
+That freedom calls her own.""")
+
+add('184', 'Before the rosy dawn of day',
+"""Before the rosy dawn of day,
+To Thee, my God, I'll sing;
+Awake, my soft and tuneful lyre,
+Awake each charming string.
+Awake, and let Thy flowing strains
+Glide through the midnight air,
+While high amidst the silent orb,
+The silver moon rolls clear.""")
+
+add('186', "While shepherds watch'd their flocks by night",
+"""While shepherds watch'd their flocks by night,
+All seated on the ground,
+The angel of the Lord came down,
+And glory shone around.""",
+"""All glory be to God on high,
+And to the earth be peace;
+Good will henceforth from heav'n to men
+Begin and never cease.""")
+
+add('461', 'While shepherds watched their flocks by night',
+"""While shepherds watched their flocks by night,
+All seated on the ground,
+The angel of the Lord came down,
+And glory shone around.
+On this day is born to you
+A Savior meek and mild;
+Haste ye all to Bethlehem
+And kneel before the Child.""",
+"""Lay down your crooks and quit your flocks,
+To Bethlehem repair,
+And let your wand'ring steps be squared
+By yonder shining star.
+Seek ye not in palaces,
+Nor regal curtains draw,
+Search the stable, see your God
+Extended on the straw.""")
+
+add('185', 'Farewell, farewell, farewell, my friends, I must be gone',
+"""Farewell, farewell, farewell, my friends, I must be gone;
+I have no home or stay with you;
+I'll take my staff and travel on
+Till I a better world can view.""",
+"""CHORUS:I'll march to Canaan's land,
+I'll land on Canaan's shore,
+Where pleasures never end,
+And troubles come no more.
+Farewell, farewell, farewell, my loving friends, farewell.""",
+"""Farewell, farewell, farewell, my friends, time rolls along
+Nor waits for mortal cares or bliss;
+I'll leave you here and travel on
+Till I arrive where Jesus is.""",
+"""Farewell, farewell, farewell, dear brethren in the Lord,
+To you I'm bound with cords of love;
+But we believe His gracious Word,
+We all ere long shall meet above.""")
