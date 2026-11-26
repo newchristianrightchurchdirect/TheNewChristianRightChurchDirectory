@@ -2843,3 +2843,360 @@ The British yoke, the Gallic chain,
 Was urged upon our necks in vain;
 All haughty tyrants we disdain,
 And shout, Long live America!""")
+
+add('397', 'There is a fountain filled with blood',
+"""There is a fountain filled with blood,
+Drawn from Immanuel's veins;
+And sinners plunged beneath that flood,
+Lose all their guilty stains.
+The dying thief rejoiced to see
+That fountain in his day;
+And there may I, tho' vile as he,
+Wash all my sins away.""",
+"""E'er since by faith I saw the stream,
+Thy flowing wounds supply,
+Redeeming love has been my theme,
+And shall be till I die.
+Then in a nobler, sweeter song,
+I'll sing Thy pow'r to save;
+When this poor lisping, stamm'ring tongue
+Lies silent in the grave.""")
+
+add('150', 'How pleased and blest was I',
+"""How pleased and blest was I,
+To hear the people cry,
+"Come, let us seek our God today."
+Yes, with a cheerful zeal,
+We haste to Zion's hill,
+And there our vows and honors pay.""",
+"""May peace attend Thy gate,
+And joy within Thee wait,
+To bless the soul of ev'ry guest;
+The man that seeks Thy peace,
+And wishes Thine increase,
+A thousand blessings on him rest.""")
+
+add('403', 'How happy are the souls above',
+"""How happy are the souls above,
+From sin and sorrow free;
+With Jesus they are now at rest,
+And all His glory see.""")
+
+add('496', 'Convinced as a sinner, to Jesus I come',
+"""Convinced as a sinner, to Jesus I come,
+Informed by the gospel for such there is room;
+O'erwhelmed with sorrows for sin I will cry,
+Lead me to the rock that is higher than I,
+Higher than I, higher than I,
+Lead me to the rock that is higher than I.""",
+"""When sorely afflicted and ready to faint,
+Before my Redeemer I'll spread my complaint;
+'Mid storms and distresses my soul shall rely
+On Jesus, the rock that is higher than I,
+Higher than I, higher than I,
+Lead me to the rock that is higher than I.""",
+"""'Tis there with the chosen of Jesus, I long
+To dwell and eternally join in the song,
+And praising and blessings, with angels on high,
+It's Jesus, the rock that is higher than I,
+Higher than I, higher than I,
+Lead me to the rock that is higher than I.""")
+
+# 266: the book prints "Or sing in endless night" — kept.
+add('266', 'My days, my weeks, my months, my years',
+"""My days, my weeks, my months, my years,
+Fly rapid as the whirling spheres,
+Around the steady pole.
+Time, like the tide, its motion keeps,
+And I must launch thro' endless deeps,
+Where endless ages roll.""",
+"""The grave is near the cradle seen,
+How swift the moments pass between,
+And whisper as they fly,
+Unthinking man, remember this,
+Though fond of sublunary bliss,
+That you must groan and die.""",
+"""My soul, attend the solemn call,
+Thine earthly tent must shortly fall,
+And thou must take thy flight
+Beyond the vast expansive blue,
+To sing above, as angels do,
+Or sing in endless night.""")
+
+add('447', 'When I survey the wondrous cross',
+"""When I survey the wondrous cross
+On which the Prince of glory died,
+My richest gain I count but loss,
+And pour contempt on all my pride.
+Forbid it, Lord, that I should boast,
+Save in the death of Christ, my God:
+All the vain things that charm me most,
+I sacrifice them to His blood.""",
+"""See, from His head, His hands, His feet,
+Sorrow and love flow mingled down!
+Did e'er such love and sorrow meet,
+Or thorns compose so rich a crown.
+Were the whole realm of nature mine,
+That were a present far too small:
+Love so amazing, so divine,
+Demands my soul, my life, my all.""")
+
+add('349', 'Must Jesus bear the cross alone',
+"""Must Jesus bear the cross alone,
+And all the world go free?
+No, there's a cross for ev'ryone,
+And there's a cross for me.""",
+"""The consecrated cross I'll bear
+Till death shall set me free,
+And then go home my crown to wear,
+For there's a crown for me.""")
+
+add('157', 'See how the wicked kingdom',
+"""See how the wicked kingdom
+Is falling ev'ry day!
+And still our blessed Jesus
+Is winning souls away;
+But oh, how I am tempted,
+No mortal tongue can tell!
+So often I'm surrounded
+With enemies from hell.""",
+"""With weeping and with praying,
+My Jesus I have found,
+To crucify old nature,
+And make His grace abound.
+Dear children, don't be weary,
+But march on in the way;
+For Jesus will stand by you,
+And be your guard and stay.""",
+"""If sinners will serve Satan,
+And join with one accord,
+Dear brethren, as for my part,
+I'm bound to serve the Lord;
+And if you will go with me,
+Pray give to me your hand,
+And we'll march on together,
+Unto the promised land.""")
+
+add('223', 'Hither, ye faithful, haste with songs of triumph',
+"""Hither, ye faithful, haste with songs of triumph,
+To Bethlehem haste, the Lord of life to meet;
+To you this day is born a Prince and Savior;
+O come, and let us worship, O come and let us worship,
+O come, and let us worship at His feet.""",
+"""Shout His almighty name, ye choirs of angels,
+And let the celestial courts His praise repeat;
+Unto our God be glory in the highest,
+O come, and let us worship, O come and let us worship,
+O come, and let us worship at His feet.""")
+
+add('423', 'Should earth against my soul engage',
+"""Should earth against my soul engage,
+And fiery darts be hurled,
+Then I can smile at Satan's rage,
+And face a frowning world.""")
+
+add('159', 'What wondrous love is this, oh my soul!',
+"""What wondrous love is this! oh, my soul! oh, my soul!
+What wondrous love is this! oh, my soul!
+What wondrous love is this
+That caused the Lord of bliss
+To bear the dreadful curse for my soul, for my soul,
+To bear the dreadful curse for my soul.""",
+"""When I was sinking down, sinking down, sinking down,
+When I was sinking down, sinking down,
+When I was sinking down
+Beneath God's righteous frown,
+Christ laid aside His crown for my soul, for my soul,
+Christ laid aside His crown for my soul.""",
+"""To God and to the Lamb I will sing, I will sing,
+To God and to the Lamb I will sing;
+To God and to the Lamb,
+Who is the great I Am,
+While millions join the theme, I will sing, I will sing,
+While millions join the theme, I will sing.""",
+"""And when from death I'm free, I'll sing on, I'll sing on,
+And when from death I'm free, I'll sing on;
+And when from death I'm free,
+I'll sing and joyful be,
+Throughout eternity I'll sing on, I'll sing on,
+Throughout eternity I'll sing on.""")
+
+add('273', "If angels sung a Savior's birth",
+"""If angels sung a Savior's birth,
+On that auspicious morn,
+We well may imitate their mirth,
+Now He again is born.""")
+
+# 198: GREEN STREET, concluded on p. 199 (restored 2026-11-26).
+add('198', "All hail the pow'r of Jesus' name!",
+"""All hail the pow'r of Jesus' name!
+Let angels prostrate fall;
+Bring forth the royal diadem,
+And crown Him Lord of all,
+And crown Him, crown Him, crown Him, crown Him,
+Crown Him Lord of all.""")
+
+add('314', "All hail the pow'r of Jesus' name",
+"""All hail the pow'r of Jesus' name,
+Let angels prostrate fall;
+Bring forth the royal diadem,
+And crown Him Lord of all.""",
+"""Ye chosen seed of Israel's race,
+A remnant weak and small,
+Hail Him who saves you by His grace,
+And crown Him Lord of all.""")
+
+add('485', "All hail the pow'r of Jesus' name!",
+"""All hail the pow'r of Jesus' name!
+Let angels prostrate fall;""",
+"""CHORUS:Bring forth the royal diadem,
+And crown Him Lord of all.""",
+"""His mercy and His righteousness
+Let heav'n and earth proclaim;""")
+
+add('148', "Glor'ous things of thee are spoken",
+"""Glor'ous things of thee are spoken,
+Zion, city of our God!
+He whose word can ne'er be broken
+Formed thee for His own abode.""",
+"""CHORUS:On the Rock of Ages founded,
+Who can shake thy sure repose?
+With salvation's wall surrounded,
+Thou mayst smile at all thy foes.""",
+"""Round her habitation hov'ring,
+See the cloud and fire appear,
+For a glory and a cov'ring,
+Showing that the Lord is near.""")
+
+# 492: INVOCATION (Second), concluded at the top of p. 493.
+add('492', "Arise, my soul, my joyful pow'rs",
+"""Arise, my soul, my joyful pow'rs,
+And triumph in my God;
+Awake, my voice, and loud proclaim His work,
+And let all tunes of pleasure sing;
+Loud hallelujahs shall address
+The honors of her King.""")
+
+add('481', 'Come, we that love the Lord',
+"""Come, we that love the Lord,
+And let our joys be known;
+Join in a song with sweet accord,
+And thus surround the throne.""",
+"""Let those refuse to sing
+Who never knew our God;
+But children of the heav'nly King
+May speak their joys abroad.""",
+"""Then let our songs abound,
+And ev'ry tear be dry;
+We're marching thro' Immanuel's ground
+To fairer worlds on high.""")
+
+# 342: THE OLD-FASHIONED BIBLE, concluded on p. 343 (restored 2026-11-26).
+add('342', 'How painfully pleasing the fond recollection',
+"""How painfully pleasing the fond recollection
+Of youthful connection and innocent joy;
+While blessed with parental advice and affection,
+Surrounded with mercy and peace from on high.
+I still view the chairs of my father and mother,
+Their offspring, as seated and ranged on each hand;
+And the richest of books, which excels ev'ry other,
+The family Bible that lay on the stand!
+The old-fashion'd Bible, the dear, blessed Bible!
+The family Bible that lay on the stand!""",
+"""My parents, though dear, are safe landed in glory,
+Escaped to the mansions of heavenly rest,
+Where seraphs and angels repeat the glad story
+Of Jesus' great mercy to sinners confessed.
+They range the bless'd fields on the banks of the river,
+Surveying the breadth of Immanuel's land;
+And they love Him and praise Him forever and ever,
+The family Bible that lay on the stand!
+The old-fashion'd Bible, the dear, blessed Bible!
+The family Bible that lay on the stand!""")
+
+# 437: SIDNEY, lower half of p. 437 (upper half concludes MORNING SUN). D.C. form, one stanza.
+add('437', 'My Shepherd will supply my need',
+"""My Shepherd will supply my need,
+Jehovah is His name;
+In pastures green He leads me on,
+Beside the living stream.
+With loving kindness Thou hast drawn
+My wand'ring heart to Thee;
+With kind compassion send me on
+To all eternity.""")
+
+add('477', 'Holy Lord, we worship Thee',
+"""Holy Lord, we worship Thee,
+Thine are we eternally,
+Yielded in Thy presence bow,
+Let us share Thy favor now.""",
+"""CHORUS:Holy Lord, holy Lord,
+We have met in sweet accord;
+As we bow before Thy shrine,
+Make us, Savior, wholly Thine.""",
+"""God of glory, pow'r and grace,
+Dying for the human race,
+May we heed Thy service call
+Till the ev'ning shadows fall.""")
+
+# 355: ANTHEM ON THE SAVIOR, pp. 355-357 (356-357 restored 2026-11-26). Prose anthem.
+add('355', 'My friends, come listen awhile',
+"""My friends, come listen awhile,
+And I will tell you a story
+About our loving Savior.
+He came of low estate,
+Was rejected by His own,
+Was born of the Virgin Mary,
+And was cradled in a manger.
+The next we hear of this blessed Savior,
+He was going about doing good,
+And teaching the people righteousness;
+And for this He was condemned to die,
+To which He consented,
+And in the act of dying gave up the ghost,
+And said, It is finished!
+Then He was buried,
+And the third day, He rose from the grave,
+A triumphant Conqueror,
+And ascended to mansions on high,
+And is now exalted a Prince and a Savior,
+And grants repentance unto men.
+Then let us praise Him,
+Magnify and adore,
+World without end. Amen.""")
+
+add('135', "Come, Thou Fount of ev'ry blessing",
+"""Come, Thou Fount of ev'ry blessing,
+Tune my heart to sing Thy grace;
+Streams of mercy, never ceasing,
+Call for songs of loudest praise.
+Teach me some melodious sonnet,
+Sung by flaming tongues above;
+Praise the mount—I'm fixed upon it—
+Mount of Thy redeeming love!""",
+"""Here I raise my Ebenezer,
+Hither by Thy help I'm come;
+And I hope, by Thy good pleasure,
+Safely to arrive at home.
+Jesus sought me when a stranger,
+Wand'ring from the fold of God;
+He, to rescue me from danger,
+Interposed His precious blood.""")
+
+# 145a: WARRENTON, upper half of p. 145. Book prints lowercase "thou"/"thy" in v1.
+add('145a', "Come, thou fount of ev'ry blessing",
+"""Come, thou fount of ev'ry blessing,
+Tune my heart to sing thy grace;
+Streams of mercy never ceasing,
+Call for songs of loudest praise.""",
+"""CHORUS:I am bound for the kingdom,
+Will you go to glory with me?
+Hallelujah, praise the Lord.""",
+"""Oh, to grace how great a debtor
+Daily I'm constrained to be!
+Let that grace, Lord, like a fetter,
+Bind my wand'ring heart to Thee.""",
+"""Prone to wander, Lord, I feel it,
+Prone to leave the God I love;
+Here's my heart, Lord, take and seal it,
+Seal it for Thy courts above.""")
