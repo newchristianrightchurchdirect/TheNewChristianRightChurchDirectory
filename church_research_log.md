@@ -5998,3 +5998,41 @@ Recorded as **a gap in the sources, not a negative finding**.
 
 **Running total: 56 rows to the full standard, 1 church added, 1 held out of scope, 9 promotions.**
 Queue 255 → 251. **Missouri: 0 left.** Remaining: KY 105 · OH 80 · IN 66.
+
+## 2026-11-25 — Dustin's rulings on the batch-12 questions, applied
+
+1. **YES: a binding confessional claim on the civil sphere + a public act = transformationalist.**
+   The RP Testimony binds Christ's mediatorial kingship over the nations; an abolition committee seat
+   supplies the deed. **#3678 Grace Reformed (Columbia) and #4482 Christ Presbyterian (Grandview)
+   promoted single_issue → transformationalist** (`_apply-rulings-2026-11-25.ts`, audited). Only those two
+   RPCNA rows carry a public act; the other ~140 RPCNA rows were not touched — membership alone is still
+   not research.
+2. **NO: United Methodist congregations are out of scope.** **#3287 Sadler Chapel UMC hidden**
+   (`approved=false`, `review_nonfit`), research kept, row backed up to `data/hidden-nonfit-2026-11-25.json`.
+   Revisit only if disaffiliation from the UMC is shown.
+
+## 2026-11-25 (batch 13) — Ohio: the petition named a care pastor, a former senior pastor, and a man who signed in two states
+
+Applied by `prisma/_apply-batch62.ts`. **No stance changed.**
+
+- **#4399 First Baptist, Wellston — John Goodell signed in TWO states.** He signed the 2024 Nebraska
+  pastors' equal-protection statement as pastor of New Life Fellowship, Grant NE (#4222), moved to
+  Wellston in 2025, and signed H.B. 370 here. Same single question twice → still `single_issue`.
+  Reformed Baptist (1689) set from its own statement. New Geneva Theological Seminary (his M.Div.) was
+  checked as a possible marker and is not one: it holds the *American* revision of Westminster.
+- **#4222 New Life Fellowship, Grant NE — the signer has left.** Its whole stance rests on Goodell's
+  signature; since July 2026 the pastor is David Duval (Master's University). **Stance NOT changed —
+  flagged `verify_stance` + `stale_leadership` for Dustin.** Question: does a stance survive the
+  departure of the pastor whose act created it? (Compare #210, demoted because the act was never this
+  church's; here it was, but by a man now gone.)
+- **#4393 X Church — wrong city and a staff pastor.** It meets at 6600 Bigerton Bend, **Canal
+  Winchester**; "Lancaster" came from a business-registry filing. Re-geocoded. Steve Rauch is its
+  **Care & Outreach Pastor**; the lead pastor is founder Tim Moore.
+- **#4394 Bible Fellowship, Greenville — the former senior pastor.** Chris Cobb (the novelist C.H. Cobb)
+  handed the senior pastorate to **Scott Gruber** on 1 July 2017 at his own request.
+- **#4396 Destiny Church, Huber Heights** — only a 2010 blog trace; "revivalist" and infant dedication
+  suggest a Pentecostal body, several of which ordain women. Flagged `denom_verify` against the floor.
+- **#4382 The Bridge, Logan** — no web presence at all; recorded as a gap, not a negative.
+
+**Running total: 61 rows to the full standard, 1 church added, 2 held out of scope, 11 promotions.**
+Queue 251 → 246. Remaining: KY 105 · OH 75 · IN 66.
